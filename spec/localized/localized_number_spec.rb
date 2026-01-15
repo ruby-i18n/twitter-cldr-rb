@@ -63,6 +63,10 @@ describe TwitterCldr::Localized::LocalizedNumber do
         it "formats the number properly" do
           expect(described_class.new(93_000_000, :ja, type: :decimal, format: :short).to_s).to match_normalized("9300万")
         end
+
+        it "does not abbreviate when pattern is 0" do
+          expect(described_class.new(1234, :ja, type: :decimal, format: :short).to_s).to match_normalized("1,234")
+        end
       end
     end
 
