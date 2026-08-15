@@ -1,4 +1,4 @@
-## twitter-cldr-rb ![Unit Tests](https://github.com/twitter/twitter-cldr-rb/actions/workflows/unit_tests.yml/badge.svg?branch=master) [![Code Climate](https://codeclimate.com/github/twitter/twitter-cldr-rb.png)](https://codeclimate.com/github/twitter/twitter-cldr-rb) [![Coverage Status](https://coveralls.io/repos/twitter/twitter-cldr-rb/badge.png?branch=master)](https://coveralls.io/r/twitter/twitter-cldr-rb?branch=master)
+## twitter-cldr-rb ![Unit Tests](https://github.com/ruby-i18n/twitter-cldr-rb/actions/workflows/unit_tests.yml/badge.svg?branch=master) [![Code Climate](https://codeclimate.com/github/twitter/twitter-cldr-rb.png)](https://codeclimate.com/github/twitter/twitter-cldr-rb) [![Coverage Status](https://coveralls.io/repos/twitter/twitter-cldr-rb/badge.png?branch=master)](https://coveralls.io/r/twitter/twitter-cldr-rb?branch=master)
 
 TwitterCldr uses Unicode's Common Locale Data Repository (CLDR) to format certain types of text into their
 localized equivalents.  Currently supported types of text include dates, times, currencies, decimals, percentages, and symbols.
@@ -561,20 +561,20 @@ The CLDR contains postal code validation regexes for a number of countries.
 
 ```ruby
 # United States
-postal_code = TwitterCldr::Shared::PostalCodes.for_territory(:us) 
+postal_code = TwitterCldr::Shared::PostalCodes.for_territory(:us)
 postal_code.valid?("94103")     # true
 postal_code.valid?("9410")      # false
 
 # England (Great Britain)
-postal_code = TwitterCldr::Shared::PostalCodes.for_territory(:gb) 
+postal_code = TwitterCldr::Shared::PostalCodes.for_territory(:gb)
 postal_code.valid?("BS98 1TL")  # true
 
 # Sweden
-postal_code = TwitterCldr::Shared::PostalCodes.for_territory(:se) 
+postal_code = TwitterCldr::Shared::PostalCodes.for_territory(:se)
 postal_code.valid?("280 12")    # true
 
 # Canada
-postal_code = TwitterCldr::Shared::PostalCodes.for_territory(:ca) 
+postal_code = TwitterCldr::Shared::PostalCodes.for_territory(:ca)
 postal_code.valid?("V3H 1Z7")   # true
 ```
 
@@ -582,7 +582,7 @@ Match all valid postal codes in a string with the `#find_all` method:
 
 ```ruby
 # United States
-postal_code = TwitterCldr::Shared::PostalCodes.for_territory(:us) 
+postal_code = TwitterCldr::Shared::PostalCodes.for_territory(:us)
 postal_code.find_all("12345 23456")    # ["12345", "23456"]
 ```
 
@@ -595,7 +595,7 @@ TwitterCldr::Shared::PostalCodes.territories  # [:ac, :ad, :af, :ai, :al, ... ]
 Just want the regex?  No problem:
 
 ```ruby
-postal_code = TwitterCldr::Shared::PostalCodes.for_territory(:us) 
+postal_code = TwitterCldr::Shared::PostalCodes.for_territory(:us)
 postal_code.regexp  # /(\d{5})(?:[ \-](\d{4}))?/
 ```
 
@@ -1017,17 +1017,17 @@ The Psych gem that is the default YAML engine in Ruby 1.9 doesn't handle Unicode
 You can make use of TwitterCLDR's YAML dumper by calling `localize` and then `to_yaml` on an `Array`, `Hash`, or `String`:
 
 ```ruby
-{ :hello => "world" }.localize.to_yaml 
-["hello", "world"].localize.to_yaml 
-"hello, world".localize.to_yaml 
+{ :hello => "world" }.localize.to_yaml
+["hello", "world"].localize.to_yaml
+"hello, world".localize.to_yaml
 ```
 
 Behind the scenes, these convenience methods are using the `TwitterCldr::Shared::YAML` class.  You can do the same thing if you're feeling adventurous:
 
 ```ruby
-TwitterCldr::Shared::YAML.dump({ :hello => "world" }) 
-TwitterCldr::Shared::YAML.dump(["hello", "world"]) 
-TwitterCldr::Shared::YAML.dump("hello, world") 
+TwitterCldr::Shared::YAML.dump({ :hello => "world" })
+TwitterCldr::Shared::YAML.dump(["hello", "world"])
+TwitterCldr::Shared::YAML.dump("hello, world")
 ```
 
 ## Adding New Locales
@@ -1088,10 +1088,6 @@ Tests are written in RSpec.
 ## Test Coverage
 
 You can run the development test coverage suite (using simplecov) with `bundle exec rake spec:cov`, or the full suite with `bundle exec rake spec:cov:full`.
-
-## JavaScript Support
-
-TwitterCLDR currently supports localization of certain textual objects in JavaScript via the twitter-cldr-js gem.  See [http://github.com/twitter/twitter-cldr-js](http://github.com/twitter/twitter-cldr-js) for details.
 
 ## Authors
 

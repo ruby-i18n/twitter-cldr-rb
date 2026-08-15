@@ -6,8 +6,8 @@ Gem::Specification.new do |s|
   s.name     = 'twitter_cldr'
   s.version  = ::TwitterCldr::VERSION
   s.authors  = ['Cameron Dutro']
-  s.email    = ['cdutro@twitter.com']
-  s.homepage = 'https://github.com/twitter/twitter-cldr-rb'
+  s.email    = ['camertron@gmail.com']
+  s.homepage = 'https://github.com/ruby-i18n/twitter-cldr-rb'
   s.license  = 'Apache-2.0'
 
   s.description = s.summary = 'Ruby implementation of the ICU (International Components for Unicode) that uses the Common Locale Data Repository to format dates, plurals, and more.'
