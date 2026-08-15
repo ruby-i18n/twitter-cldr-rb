@@ -15,12 +15,13 @@ Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.summary  = 'Ruby implementation of the ICU (International Components for Unicode) that uses the Common Locale Data Repository to format dates, plurals, and more.'
 
-  # json gem since v2.0 requries Ruby ~> 2.0
+  s.add_dependency 'base64'
+  s.add_dependency 'bigdecimal'
   s.add_dependency 'camertron-eprun'
   s.add_dependency 'cldr-plurals-runtime-rb', '~> 1.1'
+  # json gem since v2.0 requires Ruby ~> 2.0
   s.add_dependency 'json', '~> 1.0' if RUBY_VERSION < '2'
   s.add_dependency 'tzinfo'
-  s.add_dependency 'base64'
 
   s.require_path = 'lib'
 
