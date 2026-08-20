@@ -7,14 +7,18 @@
         :Bhm: "B h:mm"
         :Bhms: "B h:mm:ss"
         :E: ccc
+        :EBh: "E h B"
         :EBhm: "E B h:mm"
         :EBhms: "E B h:mm:ss"
         :EHm: "E HH:mm"
         :EHms: "E HH:mm:ss"
         :Ed: "d E"
+        :Eh: "E h a"
         :Ehm: "E h:mm a"
         :Ehms: "E h:mm:ss a"
         :Gy: "G y"
+        :GyM: "G y-MM"
+        :GyMEd: "G y-MM-dd, E"
         :GyMMM: "G y MMM"
         :GyMMMEd: "G y MMM d, E"
         :GyMMMd: "G y MMM d"
@@ -24,13 +28,14 @@
         :Hms: "HH:mm:ss"
         :Hmsv: "HH:mm:ss v"
         :Hmv: "HH:mm v"
+        :Hv: "HH v"
         :M: L
         :MEd: "dd-MM, E"
         :MMM: LLL
         :MMMEd: "MMM d, E"
         :MMMMW: "MMMM W -ஆம் வாரம்"
         :MMMMd: "d MMMM"
-        :MMMd: "d MMM"
+        :MMMd: "MMM d"
         :MMdd: dd-MM
         :Md: d/M
         :d: d
@@ -39,6 +44,7 @@
         :hms: "h:mm:ss a"
         :hmsv: "h:mm:ss a v"
         :hmv: "h:mm a v"
+        :hv: "h a v"
         :ms: "mm:ss"
         ? !ruby/symbol "y"
         : "y"
@@ -137,15 +143,15 @@
         :dayOfYear: "வருடத்தின் நாள்"
         :dayOfYear-narrow: "வருட. நாள்"
         :dayOfYear-short: "வருட. நாள்"
-        :dayperiod: முற்பகல்/பிற்பகல்
-        :dayperiod-narrow: முற்./பிற்.
-        :dayperiod-short: முற்./பிற்.
+        :dayperiod: AM/PM
+        :dayperiod-narrow: AM/PM
+        :dayperiod-short: AM/PM
         :era: காலம்
         :era-narrow: காலம்
         :era-short: காலம்
-        :hour: மணி
+        :hour: மணிநேரம்
         :hour-narrow: ம.
-        :hour-short: மணி.
+        :hour-short: ம.
         :minute: நிமிடம்
         :minute-narrow: Minute
         :minute-short: நிமி.
@@ -154,10 +160,10 @@
         :month-short: மாத.
         :quarter: காலாண்டு
         :quarter-narrow: கா.
-        :quarter-short: காலா.
+        :quarter-short: கா.
         :second: விநாடி
         :second-narrow: வி.
-        :second-short: விநா.
+        :second-short: வி.
         :week: வாரம்
         :week-narrow: வா.
         :week-short: Week
@@ -306,7 +312,7 @@
             :evening1: மா.
             :evening2: "அந்தி மா."
             :midnight: நள்.
-            :morning1: அதி.
+            :morning1: காலை
             :morning2: கா.
             :night1: இர.
             :noon: நண்.

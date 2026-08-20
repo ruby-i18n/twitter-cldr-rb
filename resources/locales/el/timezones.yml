@@ -5,6 +5,8 @@
       :generic: "[{1} ({0})]"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -14,6 +16,11 @@
       :generic: "Ώρα ({0})"
       :standard: "Χειμερινή ώρα ({0})"
   :metazones: 
+    :Acre: 
+      :long: 
+        :daylight: "Θερινή ώρα Άκρε"
+        :generic: "Ώρα Άκρε"
+        :standard: "Χειμερινή ώρα Άκρε"
     :Afghanistan: 
       :long: 
         :standard: "Ώρα Αφγανιστάν"
@@ -28,9 +35,7 @@
         :standard: "Χειμερινή ώρα Νότιας Αφρικής"
     :Africa_Western: 
       :long: 
-        :daylight: "Θερινή ώρα Δυτικής Αφρικής"
-        :generic: "Ώρα Δυτικής Αφρικής"
-        :standard: "Χειμερινή ώρα Δυτικής Αφρικής"
+        :standard: "Ώρα Δυτικής Αφρικής"
     :Alaska: 
       :long: 
         :daylight: "Θερινή ώρα Αλάσκας"
@@ -288,6 +293,9 @@
     :Guyana: 
       :long: 
         :standard: "Ώρα Γουιάνας"
+    :Hawaii: 
+      :long: 
+        :standard: "Χειμερινή ώρα Χαβάης-Αλεούτιων Νήσων"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "Θερινή ώρα Χαβάης-Αλεούτιων Νήσων"
@@ -578,6 +586,11 @@
     :Truk: 
       :long: 
         :standard: "Ώρα Τσουκ"
+    :Turkey: 
+      :long: 
+        :daylight: "Θερινή ώρα Τουρκίας"
+        :generic: "Ώρα Τουρκίας"
+        :standard: "Χειμερινή ώρα Τουρκίας"
     :Turkmenistan: 
       :long: 
         :daylight: "Θερινή ώρα Τουρκμενιστάν"
@@ -630,9 +643,9 @@
         :standard: "Χειμερινή ώρα Γιακούτσκ"
     :Yekaterinburg: 
       :long: 
-        :daylight: "Θερινή ώρα Αικατερίνμπουργκ"
-        :generic: "Ώρα Αικατερίνμπουργκ"
-        :standard: "Χειμερινή ώρα Αικατερίνμπουργκ"
+        :daylight: "Θερινή ώρα Αικατερινούπολης"
+        :generic: "Ώρα Αικατερινούπολης"
+        :standard: "Χειμερινή ώρα Αικατερινούπολης"
     :Yukon: 
       :long: 
         :standard: "Ώρα Γιούκον"
@@ -815,6 +828,8 @@
       :city: Κόρδοβα
     :America/Costa_Rica: 
       :city: "Κόστα Ρίκα"
+    :America/Coyhaique: 
+      :city: Κοϊάικε
     :America/Creston: 
       :city: Κρέστον
     :America/Cuiaba: 
@@ -1419,7 +1434,7 @@
     :Pacific/Efate: 
       :city: Εφάτε
     :Pacific/Enderbury: 
-      :city: Έντερμπερι
+      :city: Καντών
     :Pacific/Fakaofo: 
       :city: Φακαόφο
     :Pacific/Fiji: 
@@ -1436,8 +1451,6 @@
       :city: Γκουάμ
     :Pacific/Honolulu: 
       :city: Χονολουλού
-    :Pacific/Kanton: 
-      :city: Καντών
     :Pacific/Kiritimati: 
       :city: Κιριτιμάτι
     :Pacific/Kosrae: 

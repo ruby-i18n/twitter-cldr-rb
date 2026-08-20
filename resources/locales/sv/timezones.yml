@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "sydafrikansk tid"
     :Africa_Western: 
       :long: 
-        :daylight: "västafrikansk sommartid"
-        :generic: "västafrikansk tid"
-        :standard: "västafrikansk normaltid"
+        :standard: "västafrikansk tid"
     :Alaska: 
       :long: 
         :daylight: "Alaska, sommartid"
@@ -313,11 +313,14 @@
     :Guyana: 
       :long: 
         :standard: Guyanatid
+    :Hawaii: 
+      :long: 
+        :standard: "Honolulu, normaltid"
     :Hawaii_Aleutian: 
       :long: 
-        :daylight: "Honolulu, sommartid"
-        :generic: Honolulutid
-        :standard: "Honolulu, normaltid"
+        :daylight: "aleutisk sommartid"
+        :generic: "aleutisk tid"
+        :standard: "aleutisk normaltid"
     :Hong_Kong: 
       :long: 
         :daylight: "Hongkong, sommartid"
@@ -611,6 +614,11 @@
     :Truk: 
       :long: 
         :standard: Chuuktid
+    :Turkey: 
+      :long: 
+        :daylight: "turkisk sommartid"
+        :generic: "turkisk tid"
+        :standard: "turkisk normaltid"
     :Turkmenistan: 
       :long: 
         :daylight: "turkmensk sommartid"
@@ -748,6 +756,10 @@
       :city: Mazatlán
     :America/Merida: 
       :city: Mérida
+    :America/Mexico_City: 
+      :city: "Ciudad de México"
+    :America/Miquelon: 
+      :city: Saint-Pierre
     :America/Noronha: 
       :city: "Fernando de Noronha"
     :America/North_Dakota/Beulah: 
@@ -777,7 +789,9 @@
     :America/Thule: 
       :city: Qaanaaq
     :Antarctica/DumontDUrville: 
-      :city: "Dumont d’Urville"
+      :city: Dumont-d’Urville
+    :Antarctica/Syowa: 
+      :city: Showa
     :Asia/Aqtau: 
       :city: Aktau
     :Asia/Aqtobe: 
@@ -914,17 +928,13 @@
     :Pacific/Easter: 
       :city: Påskön
     :Pacific/Enderbury: 
-      :city: Enderbury
+      :city: Kantonatollen
     :Pacific/Galapagos: 
       :city: Galápagos
     :Pacific/Gambier: 
       :city: Gambieröarna
     :Pacific/Honolulu: 
       :city: Honolulu
-      :short: 
-        :daylight: Honolulusommartid
-        :generic: Honolulutid
-        :standard: Honolulunormaltid
     :Pacific/Marquesas: 
       :city: Marquesasöarna
     :Pacific/Midway: 

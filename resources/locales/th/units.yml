@@ -13,6 +13,8 @@
           :other: "{0} เมตรต่อวินาทีกำลังสอง"
         :angle-degree: 
           :other: "{0} องศา"
+        :angle-steradian: 
+          :other: "{0} สเตอเรเดียน"
         :area-square-centimeter: 
           :other: "{0} ตารางเซนติเมตร"
         :area-square-foot: 
@@ -25,20 +27,26 @@
           :other: "{0} ตารางไมล์"
         :area-square-yard: 
           :other: "{0} ตารางหลา"
+        :concentr-katal: 
+          :other: "{0} คาทัล"
         :concentr-milligram-ofglucose-per-deciliter: 
           :other: "{0} มิลลิกรัมต่อเดซิลิตร"
         :concentr-millimole-per-liter: 
           :other: "{0} มิลลิโมลต่อลิตร"
+        :concentr-ofglucose: 
+          :other: "{0} กลูโคส"
+        :concentr-part: 
+          :other: "{0} ส่วน"
+        :concentr-part-per-1e6: 
+          :other: "{0} ส่วนต่อล้าน"
+        :concentr-part-per-1e9: 
+          :other: "{0} ส่วนต่อพันล้าน"
         :concentr-percent: 
           :other: "{0} เปอร์เซ็นต์"
         :concentr-permille: 
           :other: "{0} เปอร์มิลล์"
-        :concentr-permillion: 
-          :other: "{0} ส่วนต่อล้าน"
         :concentr-permyriad: 
           :other: "{0} เปอร์มีเรียด"
-        :concentr-portion-per-1e9: 
-          :other: "{0} ส่วนต่อพันล้าน"
         :consumption-liter-per-100-kilometer: 
           :other: "{0} ลิตรต่อ 100 กิโลเมตร"
         :consumption-liter-per-kilometer: 
@@ -69,26 +77,42 @@
           :other: "{0} ไมโครวินาที"
         :duration-nanosecond: 
           :other: "{0} นาโนวินาที"
-        :duration-night: 
-          :other: "{0} คืน"
         :duration-second: 
           :other: "{0} วินาที"
         :electric-ampere: 
           :other: "{0} แอมแปร์"
+        :electric-coulomb: 
+          :other: "{0} คูลอมบ์"
+        :electric-farad: 
+          :other: "{0} ฟารัด"
+        :electric-henry: 
+          :other: "{0} เฮนรี"
         :electric-milliampere: 
           :other: "{0} มิลลิแอมแปร์"
         :electric-ohm: 
           :other: "{0} โอห์ม"
+        :electric-siemens: 
+          :other: "{0} ซีเมนส์"
         :electric-volt: 
           :other: "{0} โวลต์"
+        :energy-becquerel: 
+          :other: "{0} เบ็กเคอเรล"
         :energy-british-thermal-unit: 
           :other: "{0} หน่วยความร้อนอังกฤษ"
+        :energy-calorie-it: 
+          :other: "{0} แคลอรี [IT]"
         :energy-electronvolt: 
           :other: "{0} อิเล็กตรอนโวลต์"
+        :energy-gray: 
+          :other: "{0} เกรย์"
         :energy-kilowatt-hour: 
           :other: "{0} กิโลวัตต์-ชั่วโมง"
+        :energy-sievert: 
+          :other: "{0} ซีเวิร์ต"
         :energy-therm-us: 
           :other: "{0} เธิร์มสหรัฐฯ"
+        :force-kilogram-force: 
+          :other: "{0} กิโลกรัมแรง"
         :force-kilowatt-hour-per-100-kilometer: 
           :other: "{0} กิโลวัตต์-ชั่วโมงต่อ 100 กิโลเมตร"
         :force-newton: 
@@ -145,6 +169,10 @@
           :other: "{0} ลูเมน"
         :light-solar-luminosity: 
           :other: "{0} ความสว่างดวงอาทิตย์"
+        :magnetic-tesla: 
+          :other: "{0} เทสลา"
+        :magnetic-weber: 
+          :other: "{0} เวเบอร์"
         :mass-dalton: 
           :other: "{0} ดัลตัน"
         :mass-earth-mass: 
@@ -169,6 +197,8 @@
           :other: "{0} เมกะปาสคาล"
         :pressure-millimeter-ofhg: 
           :other: "{0} มิลลิเมตรปรอท"
+        :pressure-ofhg: 
+          :other: "{0} ปรอท"
         :pressure-pascal: 
           :other: "{0} ปาสกาล"
         :pressure-pound-force-per-square-inch: 
@@ -177,8 +207,6 @@
           :other: "โบฟอร์ต {0}"
         :speed-kilometer-per-hour: 
           :other: "{0} กิโลเมตรต่อชั่วโมง"
-        :speed-light-speed: 
-          :other: "{0} แสง"
         :speed-meter-per-second: 
           :other: "{0} เมตรต่อวินาที"
         :speed-mile-per-hour: 
@@ -223,6 +251,8 @@
           :other: "{0} แดรม"
         :volume-fluid-ounce-imperial: 
           :other: "{0} ฟลูอิดออนซ์ระบบอิมพีเรียล"
+        :volume-fluid-ounce-metric: 
+          :other: "{0} ฟลูอิดออนซ์เมตริก"
         :volume-hectoliter: 
           :other: "{0} เฮกโตลิตร"
         :volume-liter: 
@@ -274,15 +304,21 @@
           :other: "{0}รายการ"
         :concentr-karat: 
           :other: "{0}กะรัต"
+        :concentr-katal: 
+          :other: "{0} คาทัล"
         :concentr-milligram-ofglucose-per-deciliter: 
           :other: "{0}มก./ดล."
         :concentr-millimole-per-liter: 
           :other: "{0}มลม./ล."
         :concentr-mole: 
           :other: "{0}โมล"
-        :concentr-permillion: 
+        :concentr-ofglucose: 
+          :other: "{0} กลูโคส"
+        :concentr-part: 
+          :other: "{0} ส่วน"
+        :concentr-part-per-1e6: 
           :other: "{0}สตล."
-        :concentr-portion-per-1e9: 
+        :concentr-part-per-1e9: 
           :other: "{0}สตพล."
         :consumption-liter-per-100-kilometer: 
           :other: "{0} ล./100กม."
@@ -344,20 +380,30 @@
           :other: "{0}ปี"
         :electric-ampere: 
           :other: "{0}แอมป์"
+        :electric-farad: 
+          :other: "{0} ฟารัด"
+        :electric-henry: 
+          :other: "{0} เฮนรี"
         :electric-milliampere: 
           :other: "{0}mA"
         :electric-ohm: 
           :other: "{0}Ω"
+        :electric-siemens: 
+          :other: "{0} ซีเมนส์"
         :electric-volt: 
           :other: "{0}V"
         :energy-british-thermal-unit: 
           :other: "{0}BTU"
         :energy-calorie: 
           :other: "{0}แคลอรี"
+        :energy-calorie-it: 
+          :other: "{0} แคลอรี-IT"
         :energy-electronvolt: 
           :other: "{0}eV"
         :energy-foodcalorie: 
           :other: "{0}แคลอรี"
+        :energy-gray: 
+          :other: "{0} เกรย์"
         :energy-joule: 
           :other: "{0}จูล"
         :energy-kilocalorie: 
@@ -366,8 +412,12 @@
           :other: "{0}กิโลจูล"
         :energy-kilowatt-hour: 
           :other: "{0}kWh"
+        :energy-sievert: 
+          :other: "{0} ซีเวิร์ต"
         :energy-therm-us: 
           :other: "{0}เธิร์ม"
+        :force-kilogram-force: 
+          :other: "{0} กิโลกรัมแรง"
         :force-kilowatt-hour-per-100-kilometer: 
           :other: "{0}กิโลวัตต์-ชม./100กม."
         :force-newton: 
@@ -450,6 +500,8 @@
           :other: "{0}ลักซ์"
         :light-solar-luminosity: 
           :other: "{0}L☉"
+        :magnetic-tesla: 
+          :other: "{0} เทสลา"
         :mass-carat: 
           :other: "{0}กะรัต"
         :mass-dalton: 
@@ -508,6 +560,8 @@
           :other: "{0}มิลลิบาร์"
         :pressure-millimeter-ofhg: 
           :other: "{0}มม. ปรอท"
+        :pressure-ofhg: 
+          :other: "{0} ปรอท"
         :pressure-pascal: 
           :other: "{0}Pa"
         :pressure-pound-force-per-square-inch: 
@@ -613,12 +667,20 @@
           :other: "{0} เรเดียน"
         :angle-revolution: 
           :other: "{0} รอบ"
+        :angle-steradian: 
+          :other: "{0} sr"
         :area-acre: 
           :other: "{0} เอเคอร์"
+        :area-bu-jp: 
+          :other: "{0} bu [JP]"
+        :area-cho: 
+          :other: "{0} cho [JP]"
         :area-dunam: 
           :other: "{0} ดูนัม"
         :area-hectare: 
           :other: "{0} เฮกตาร์"
+        :area-se-jp: 
+          :other: "{0} se [JP]"
         :area-square-centimeter: 
           :other: "{0} ตร.ซม."
         :area-square-foot: 
@@ -637,22 +699,28 @@
           :other: "{0} รายการ"
         :concentr-karat: 
           :other: "{0} กะรัต"
+        :concentr-katal: 
+          :other: "{0} คาทัล"
         :concentr-milligram-ofglucose-per-deciliter: 
           :other: "{0} มก./ดล."
         :concentr-millimole-per-liter: 
           :other: "{0} มลม./ล."
         :concentr-mole: 
           :other: "{0} โมล"
+        :concentr-ofglucose: 
+          :other: "{0} กลูโคส"
+        :concentr-part: 
+          :other: "{0} ส่วน"
+        :concentr-part-per-1e6: 
+          :other: "{0} สตล."
+        :concentr-part-per-1e9: 
+          :other: "{0} สตพล."
         :concentr-percent: 
           :other: "{0}%"
         :concentr-permille: 
           :other: "{0}‰"
-        :concentr-permillion: 
-          :other: "{0} สตล."
         :concentr-permyriad: 
           :other: "{0}‱"
-        :concentr-portion-per-1e9: 
-          :other: "{0} สตพล."
         :consumption-liter-per-100-kilometer: 
           :other: "{0} ล./100 กม."
         :consumption-liter-per-kilometer: 
@@ -689,6 +757,8 @@
           :other: "{0} วัน"
         :duration-decade: 
           :other: "{0} ทศวรรษ"
+        :duration-fortnight: 
+          :other: "{0} fw"
         :duration-hour: 
           :other: "{0} ชม."
         :duration-microsecond: 
@@ -713,20 +783,36 @@
           :other: "{0} ปี"
         :electric-ampere: 
           :other: "{0} แอมป์"
+        :electric-coulomb: 
+          :other: "{0} C"
+        :electric-farad: 
+          :other: "{0} ฟารัด"
+        :electric-henry: 
+          :other: "{0} เฮนรี"
         :electric-milliampere: 
           :other: "{0} มิลลิแอมป์"
         :electric-ohm: 
           :other: "{0} Ω"
+        :electric-siemens: 
+          :other: "{0} ซีเมนส์"
         :electric-volt: 
           :other: "{0} V"
+        :energy-becquerel: 
+          :other: "{0} Bq"
         :energy-british-thermal-unit: 
           :other: "{0} BTU"
+        :energy-british-thermal-unit-it: 
+          :other: "{0} BTU-IT"
         :energy-calorie: 
           :other: "{0} แคลอรี"
+        :energy-calorie-it: 
+          :other: "{0} แคลอรี-IT"
         :energy-electronvolt: 
           :other: "{0} eV"
         :energy-foodcalorie: 
           :other: "{0} แคลอรี"
+        :energy-gray: 
+          :other: "{0} เกรย์"
         :energy-joule: 
           :other: "{0} จูล"
         :energy-kilocalorie: 
@@ -735,8 +821,12 @@
           :other: "{0} กิโลจูล"
         :energy-kilowatt-hour: 
           :other: "{0} กว.-ชม."
+        :energy-sievert: 
+          :other: "{0} ซีเวิร์ต"
         :energy-therm-us: 
           :other: "{0} เธิร์ม"
+        :force-kilogram-force: 
+          :other: "{0} กิโลกรัมแรง"
         :force-kilowatt-hour-per-100-kilometer: 
           :other: "{0} กิโลวัตต์-ชม./100กม."
         :force-newton: 
@@ -771,6 +861,8 @@
           :other: "{0} หน่วยดาราศาสตร์"
         :length-centimeter: 
           :other: "{0} ซม."
+        :length-chain: 
+          :other: "{0} chain"
         :length-decimeter: 
           :other: "{0} ดม."
         :length-earth-radius: 
@@ -783,6 +875,10 @@
           :other: "{0} fur"
         :length-inch: 
           :other: "{0} นิ้ว"
+        :length-jo-jp: 
+          :other: "{0} jo [JP]"
+        :length-ken: 
+          :other: "{0} ken [JP]"
         :length-kilometer: 
           :other: "{0} กม."
         :length-light-year: 
@@ -807,8 +903,20 @@
           :other: "{0} พิโกเมตร"
         :length-point: 
           :other: "{0} จุด"
+        :length-ri-jp: 
+          :other: "{0} ri [JP]"
+        :length-rin: 
+          :other: "{0} rin [JP]"
+        :length-rod: 
+          :other: "{0} rod"
+        :length-shaku-cloth: 
+          :other: "{0} shaku [cloth, JP]"
+        :length-shaku-length: 
+          :other: "{0} shaku [JP]"
         :length-solar-radius: 
           :other: "{0} R☉"
+        :length-sun: 
+          :other: "{0} sun [JP]"
         :length-yard: 
           :other: "{0} หลา"
         :light-candela: 
@@ -819,12 +927,18 @@
           :other: "{0} ลักซ์"
         :light-solar-luminosity: 
           :other: "{0} L☉"
+        :magnetic-tesla: 
+          :other: "{0} เทสลา"
+        :magnetic-weber: 
+          :other: "{0} Wb"
         :mass-carat: 
           :other: "{0} กะรัต"
         :mass-dalton: 
           :other: "{0} Da"
         :mass-earth-mass: 
           :other: "{0} M⊕"
+        :mass-fun: 
+          :other: "{0} fun [JP]"
         :mass-grain: 
           :other: "{0} เกรน"
         :mass-gram: 
@@ -841,6 +955,8 @@
           :other: "{0} ทรอยออนซ์"
         :mass-pound: 
           :other: "{0} ปอนด์"
+        :mass-slug: 
+          :other: "{0} slug"
         :mass-solar-mass: 
           :other: "{0} M☉"
         :mass-stone: 
@@ -865,6 +981,8 @@
           :other: "{0} บรรยากาศ"
         :pressure-bar: 
           :other: "{0} บาร์"
+        :pressure-gasoline-energy-density: 
+          :other: "{0} gas E"
         :pressure-hectopascal: 
           :other: "{0} เฮกโตปาสกาล"
         :pressure-inch-ofhg: 
@@ -877,6 +995,8 @@
           :other: "{0} มิลลิบาร์"
         :pressure-millimeter-ofhg: 
           :other: "{0} มม. ปรอท"
+        :pressure-ofhg: 
+          :other: "{0} ปรอท"
         :pressure-pascal: 
           :other: "{0} Pa"
         :pressure-pound-force-per-square-inch: 
@@ -901,6 +1021,8 @@
           :other: "{0}°"
         :temperature-kelvin: 
           :other: "{0} K"
+        :temperature-rankine: 
+          :other: "{0} °R"
         :torque-newton-meter: 
           :other: "{0} N⋅m"
         :torque-pound-force-foot: 
@@ -929,6 +1051,10 @@
           :other: "{0} ลบ.หลา"
         :volume-cup: 
           :other: "{0} ถ."
+        :volume-cup-imperial: 
+          :other: "{0} cup Imp."
+        :volume-cup-jp: 
+          :other: "{0} cup [JP]"
         :volume-cup-metric: 
           :other: "{0} ถ. เมตริก"
         :volume-deciliter: 
@@ -945,6 +1071,8 @@
           :other: "{0} ฟลูอิดออนซ์"
         :volume-fluid-ounce-imperial: 
           :other: "{0} fl oz Imp."
+        :volume-fluid-ounce-metric: 
+          :other: "{0} fl oz m."
         :volume-gallon: 
           :other: "{0} แกลลอน"
         :volume-gallon-imperial: 
@@ -953,23 +1081,37 @@
           :other: "{0} ฮล."
         :volume-jigger: 
           :other: "{0} จิกเกอร์"
+        :volume-koku: 
+          :other: "{0} koku [JP]"
+        :volume-kosaji: 
+          :other: "{0} kosaji [JP]"
         :volume-liter: 
           :other: "{0} ล."
         :volume-megaliter: 
           :other: "{0} เมกะลิตร"
         :volume-milliliter: 
           :other: "{0} มล."
+        :volume-osaji: 
+          :other: "{0} osaji [JP]"
         :volume-pinch: 
           :other: "{0} หยิบมือ"
         :volume-pint: 
           :other: "{0} ไพนต์"
+        :volume-pint-imperial: 
+          :other: "{0} pt Imp."
         :volume-pint-metric: 
           :other: "{0} ไพนต์เมตริก"
         :volume-quart: 
           :other: "{0} คว."
         :volume-quart-imperial: 
           :other: "{0} qt Imp."
+        :volume-sai: 
+          :other: "{0} sai [JP]"
+        :volume-shaku: 
+          :other: "{0} shaku [vol, JP]"
         :volume-tablespoon: 
           :other: "{0} ชต."
         :volume-teaspoon: 
           :other: "{0} ชช."
+        :volume-to-jp: 
+          :other: "{0} to [JP]"

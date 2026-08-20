@@ -7,14 +7,18 @@
         :Bhm: "hh:mm B"
         :Bhms: "hh:mm:ss B"
         :E: E
+        :EBh: "E h B"
         :EBhm: "E h:mm B"
         :EBhms: "E, hh:mm:ss B"
         :EHm: "E HH:mm"
         :EHms: "E HH:mm:ss"
         :Ed: "E d."
+        :Eh: "E h a"
         :Ehm: "E h:mm a"
         :Ehms: "E h:mm:ss a"
         :Gy: "y. G"
+        :GyM: "G y-MM"
+        :GyMEd: "G y-MM-dd, E"
         :GyMMM: "MMM y. G"
         :GyMMMEd: "E, d. MMM y. G"
         :GyMMMd: "d. MMM y. G"
@@ -24,6 +28,7 @@
         :Hms: "HH:mm:ss"
         :Hmsv: "HH:mm:ss v"
         :Hmv: "HH:mm v"
+        :Hv: "HH v"
         :M: L
         :MEd: "E, d. M."
         :MMM: LLL
@@ -41,6 +46,7 @@
         :hms: "h:mm:ss a"
         :hmsv: "h:mm:ss a v"
         :hmv: "h:mm a v"
+        :hv: "h a v"
         :ms: "mm:ss"
         ? !ruby/symbol "y"
         : y.

@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -16,7 +18,9 @@
   :metazones: 
     :Acre: 
       :long: 
+        :daylight: "hora de verán de Acre"
         :generic: "hora de Acre"
+        :standard: "hora estándar de Acre"
     :Afghanistan: 
       :long: 
         :standard: "hora de Afganistán"
@@ -31,9 +35,7 @@
         :standard: "hora de África Meridional"
     :Africa_Western: 
       :long: 
-        :daylight: "hora de verán de África Occidental"
-        :generic: "hora de África Occidental"
-        :standard: "hora estándar de África Occidental"
+        :standard: "hora de África Occidental"
     :Alaska: 
       :long: 
         :daylight: "hora de verán de Alasca"
@@ -290,6 +292,9 @@
     :Guyana: 
       :long: 
         :standard: "hora da Güiana"
+    :Hawaii: 
+      :long: 
+        :standard: "hora estándar de Hawai-illas Aleutianas"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "hora de verán de Hawai-illas Aleutianas"
@@ -697,6 +702,8 @@
       :city: Atikokan
     :America/Cordoba: 
       :city: Córdoba
+    :America/Coyhaique: 
+      :city: Coihaique
     :America/Cuiaba: 
       :city: Cuiabá
     :America/Curacao: 
@@ -751,8 +758,12 @@
       :city: Mérida
     :America/Mexico_City: 
       :city: "Cidade de México"
+    :America/Miquelon: 
+      :city: Saint-Pierre
     :America/New_York: 
       :city: "Nova York"
+    :America/Noronha: 
+      :city: "Fernando de Noronha"
     :America/North_Dakota/Beulah: 
       :city: "Beulah, Dacota do Norte"
     :America/North_Dakota/Center: 
@@ -817,6 +828,8 @@
       :city: Damasco
     :Asia/Hebron: 
       :city: Hebrón
+    :Asia/Hovd: 
+      :city: Khovd
     :Asia/Jakarta: 
       :city: Iacarta
     :Asia/Jerusalem: 
@@ -900,6 +913,10 @@
       :city: Bruxelas
     :Europe/Bucharest: 
       :city: Bucarest
+    :Europe/Busingen: 
+      :city: Büsingen
+    :Europe/Chisinau: 
+      :city: Chișinău
     :Europe/Copenhagen: 
       :city: Copenhague
     :Europe/Dublin: 
@@ -973,16 +990,20 @@
     :Pacific/Easter: 
       :city: "Illa de Pascua"
     :Pacific/Enderbury: 
-      :city: Enderbury
+      :city: "illa Kantón"
     :Pacific/Fiji: 
       :city: Fixi
     :Pacific/Galapagos: 
       :city: "Illas Galápagos"
     :Pacific/Honolulu: 
       :city: Honolulú
+    :Pacific/Noumea: 
+      :city: Nouméa
     :Pacific/Ponape: 
       :city: Pohnpei
     :Pacific/Tahiti: 
       :city: Tahití
     :Pacific/Truk: 
       :city: Chuuk
+    :Pacific/Wallis: 
+      :city: "Wallis & Futuna"

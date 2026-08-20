@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "Južno-afričko vreme"
     :Africa_Western: 
       :long: 
-        :daylight: "Zapadno-afričko letnje vreme"
-        :generic: "Zapadno-afričko vreme"
-        :standard: "Zapadno-afričko standardno vreme"
+        :standard: "Zapadno-afričko vreme"
     :Alaska: 
       :long: 
         :daylight: "Aljaska, letnje vreme"
@@ -310,6 +310,9 @@
     :Guyana: 
       :long: 
         :standard: "Gvajana vreme"
+    :Hawaii: 
+      :long: 
+        :standard: "Havajsko-aleutsko standardno vreme"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "Havajsko-aleutsko letnje vreme"
@@ -608,6 +611,11 @@
     :Truk: 
       :long: 
         :standard: "Čuuk vreme"
+    :Turkey: 
+      :long: 
+        :daylight: "Turska letnje računanje vremena"
+        :generic: "Turska vreme"
+        :standard: "Turska standardno vreme"
     :Turkmenistan: 
       :long: 
         :daylight: "Turkmenistan, letnje vreme"
@@ -845,6 +853,8 @@
       :city: Kordoba
     :America/Costa_Rica: 
       :city: Kostarika
+    :America/Coyhaique: 
+      :city: Kojajke
     :America/Creston: 
       :city: Kreston
     :America/Cuiaba: 
@@ -1449,7 +1459,7 @@
     :Pacific/Efate: 
       :city: Efat
     :Pacific/Enderbury: 
-      :city: Enderberi
+      :city: Kanton
     :Pacific/Fakaofo: 
       :city: Fakaofo
     :Pacific/Fiji: 
@@ -1466,8 +1476,6 @@
       :city: Guam
     :Pacific/Honolulu: 
       :city: Honolulu
-    :Pacific/Kanton: 
-      :city: Kanton
     :Pacific/Kiritimati: 
       :city: Kiritimati
     :Pacific/Kosrae: 

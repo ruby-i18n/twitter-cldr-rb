@@ -7,36 +7,41 @@
         :Bhm: "h:mm B"
         :Bhms: "h:mm:ss B"
         :E: ccc
+        :EBh: "E h B"
         :EBhm: "E h:mm B"
         :EBhms: "E h:mm:ss B"
         :EHm: "E, HH:mm"
         :EHms: "E, HH:mm:ss"
         :Ed: "E d"
+        :Eh: "E h a"
         :Ehm: "E, h:mm a"
         :Ehms: "E, h:mm:ss a"
         :Gy: "y G"
-        :GyMMM: "MMM 'de' y G"
-        :GyMMMEd: "E, d MMM 'de' y G"
+        :GyM: "M/y G"
+        :GyMEd: "E, d/M/y G"
+        :GyMMM: "MMM y G"
+        :GyMMMEd: "E, d MMM y G"
         :GyMMMM: "MMMM 'de' y G"
         :GyMMMMEd: "E, d 'de' MMMM 'de' y G"
         :GyMMMMd: "d 'de' MMMM 'de' y G"
         :GyMMMd: "d 'de' MMM 'de' y G"
-        :GyMd: "d/M/y GGGGG"
-        :H: H
-        :Hm: "H:mm"
-        :Hms: "H:mm:ss"
+        :GyMd: "d/M/y G"
+        :H: HH
+        :Hm: "HH:mm"
+        :Hms: "HH:mm:ss"
         :Hmsv: "HH:mm:ss v"
         :Hmsvvvv: "HH:mm:ss vvvv"
         :Hmv: "HH:mm v"
+        :Hv: "HH v"
         :M: L
         :MEd: "E, d/M"
         :MMM: LLL
-        :MMMEd: "E, d 'de' MMM"
+        :MMMEd: "E, d MMM"
         :MMMMEd: "E, d 'de' MMMM"
         :MMMMW: "'semana' W 'de' MMMM"
         :MMMMd: "d 'de' MMMM"
-        :MMMd: "d 'de' MMM"
-        :MMMdd: "d 'de' MMM"
+        :MMMd: "d MMM"
+        :MMMdd: dd-MMM
         :MMd: d/M
         :MMdd: d/M
         :Md: d/M
@@ -47,18 +52,19 @@
         :hmsv: "h:mm:ss a v"
         :hmsvvvv: "h:mm:ss a (vvvv)"
         :hmv: "h:mm a v"
+        :hv: "h a v"
         :ms: "mm:ss"
         ? !ruby/symbol "y"
         : "y"
         :yM: M/y
-        :yMEd: "EEE, d/M/y"
+        :yMEd: "E d/M/y"
         :yMM: M/y
-        :yMMM: "MMM 'de' y"
+        :yMMM: "MMM y"
         :yMMMEd: "E, d MMM y"
         :yMMMM: "MMMM 'de' y"
         :yMMMMEd: "EEE, d 'de' MMMM 'de' y"
         :yMMMMd: "d 'de' MMMM 'de' y"
-        :yMMMd: "d 'de' MMM 'de' y"
+        :yMMMd: "d MMM y"
         :yMd: d/M/y
         :yQQQ: "QQQ 'de' y"
         :yQQQQ: "QQQQ 'de' y"
@@ -107,13 +113,13 @@
             :tue: mar
             :wed: mié
           :narrow: 
-            :fri: v
-            :mon: l
-            :sat: s
-            :sun: d
-            :thu: j
-            :tue: m
-            :wed: m
+            :fri: V
+            :mon: L
+            :sat: S
+            :sun: D
+            :thu: J
+            :tue: M
+            :wed: M
           :short: 
             :fri: VI
             :mon: LU
@@ -200,7 +206,7 @@
           :full: 
             :pattern: "{{date}}, {{time}}"
           :long: 
-            :pattern: "{{date}}, {{time}}"
+            :pattern: "{{date}} 'a' 'las' {{time}}"
           :medium: 
             :pattern: "{{date}}, {{time}}"
           :short: 
@@ -298,13 +304,13 @@
       :periods: 
         :format: 
           :abbreviated: 
-            :am: a. m.
+            :am: a.m.
             :evening1: "de la tarde"
             :morning1: "de la madrugada"
             :morning2: "de la mañana"
             :night1: "de la noche"
             :noon: m.
-            :pm: p. m.
+            :pm: p.m.
           :narrow: 
             :am: a. m.
             :evening1: "de la tarde"
@@ -314,8 +320,8 @@
             :noon: m.
             :pm: p. m.
           :wide: 
-            :am: a. m.
-            :pm: p. m.
+            :am: a.m.
+            :pm: p.m.
         :stand-alone: 
           :abbreviated: 
             :am: a. m.
@@ -323,7 +329,7 @@
             :morning1: madrugada
             :morning2: mañana
             :night1: noche
-            :noon: m.
+            :noon: mediodía
             :pm: p. m.
           :narrow: 
             :am: a. m.
@@ -334,8 +340,8 @@
             :noon: mediodía
             :pm: p. m.
           :wide: 
-            :am: a. m.
-            :pm: p. m.
+            :am: a.m.
+            :pm: p.m.
       :quarters: 
         :format: 
           :abbreviated: 

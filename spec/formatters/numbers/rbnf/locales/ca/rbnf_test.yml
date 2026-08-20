@@ -1,9 +1,243 @@
 ---
 SpelloutRules:
+  spellout-ordinal-feminine-plural:
+    -1141: menys mil cent quaranta-unenes
+    -1142: menys mil cent quaranta-dosenes
+    -1143: menys mil cent quaranta-tresenes
+    -100: menys centenes
+    -75: menys setanta-cinquenes
+    -50: menys cinquantenes
+    -24: menys vint-i-quatrenes
+    0: zeroenes
+    1: primeres
+    2: segones
+    3: terceres
+    4: quartes
+    5: cinquenes
+    6: sisenes
+    7: setenes
+    8: vuitenes
+    9: novenes
+    10: desenes
+    11: onzenes
+    12: dotzenes
+    13: tretzenes
+    14: catorzenes
+    15: quinzenes
+    16: setzenes
+    17: dissetenes
+    18: divuitenes
+    19: dinovenes
+    20: vintenes
+    21: vint-i-unenes
+    22: vint-i-dosenes
+    23: vint-i-tresenes
+    24: vint-i-quatrenes
+    25: vint-i-cinquenes
+    26: vint-i-sisenes
+    27: vint-i-setenes
+    28: vint-i-vuitenes
+    29: vint-i-novenes
+    30: trentenes
+    31: trenta-unenes
+    32: trenta-dosenes
+    33: trenta-tresenes
+    34: trenta-quatrenes
+    35: trenta-cinquenes
+    36: trenta-sisenes
+    37: trenta-setenes
+    38: trenta-vuitenes
+    39: trenta-novenes
+    40: quarantenes
+    41: quaranta-unenes
+    42: quaranta-dosenes
+    43: quaranta-tresenes
+    44: quaranta-quatrenes
+    45: quaranta-cinquenes
+    46: quaranta-sisenes
+    47: quaranta-setenes
+    48: quaranta-vuitenes
+    49: quaranta-novenes
+    50: cinquantenes
+    51: cinquanta-unenes
+    52: cinquanta-dosenes
+    53: cinquanta-tresenes
+    54: cinquanta-quatrenes
+    55: cinquanta-cinquenes
+    56: cinquanta-sisenes
+    57: cinquanta-setenes
+    58: cinquanta-vuitenes
+    59: cinquanta-novenes
+    60: seixantenes
+    61: seixanta-unenes
+    62: seixanta-dosenes
+    63: seixanta-tresenes
+    64: seixanta-quatrenes
+    65: seixanta-cinquenes
+    66: seixanta-sisenes
+    67: seixanta-setenes
+    68: seixanta-vuitenes
+    69: seixanta-novenes
+    70: setantenes
+    71: setanta-unenes
+    72: setanta-dosenes
+    73: setanta-tresenes
+    74: setanta-quatrenes
+    75: setanta-cinquenes
+    76: setanta-sisenes
+    77: setanta-setenes
+    78: setanta-vuitenes
+    79: setanta-novenes
+    80: vuitantenes
+    81: vuitanta-unenes
+    82: vuitanta-dosenes
+    83: vuitanta-tresenes
+    84: vuitanta-quatrenes
+    85: vuitanta-cinquenes
+    86: vuitanta-sisenes
+    87: vuitanta-setenes
+    88: vuitanta-vuitenes
+    89: vuitanta-novenes
+    90: norantenes
+    91: noranta-unenes
+    92: noranta-dosenes
+    93: noranta-tresenes
+    94: noranta-quatrenes
+    95: noranta-cinquenes
+    96: noranta-sisenes
+    97: noranta-setenes
+    98: noranta-vuitenes
+    99: noranta-novenes
+    100: centenes
+    321: tres-cents vint-i-unenes
+    322: tres-cents vint-i-dosenes
+    323: tres-cents vint-i-tresenes
+    1141: mil cent quaranta-unenes
+    1142: mil cent quaranta-dosenes
+    1143: mil cent quaranta-tresenes
+    10311: deu mil tres-cents onzenes
+    138400: cent trenta-vuit mil quatre-centenes
+  spellout-ordinal-masculine-plural:
+    -1141: menys mil cent quaranta-primers
+    -1142: menys mil cent quaranta-segons
+    -1143: menys mil cent quaranta-tercers
+    -100: menys centès
+    -75: menys setanta-cinquès
+    -50: menys cinquantès
+    -24: menys vint-i-quarts
+    0: zeroès
+    1: primers
+    2: segons
+    3: tercers
+    4: quarts
+    5: cinquès
+    6: sisès
+    7: setès
+    8: vuitès
+    9: novès
+    10: desès
+    11: onzès
+    12: dotzès
+    13: tretzès
+    14: catorzès
+    15: quinzès
+    16: setzès
+    17: dissetès
+    18: divuitès
+    19: dinovès
+    20: vintès
+    21: vint-i-primers
+    22: vint-i-segons
+    23: vint-i-tercers
+    24: vint-i-quarts
+    25: vint-i-cinquès
+    26: vint-i-sisès
+    27: vint-i-setès
+    28: vint-i-vuitès
+    29: vint-i-novès
+    30: trentès
+    31: trenta-primers
+    32: trenta-segons
+    33: trenta-tercers
+    34: trenta-quarts
+    35: trenta-cinquès
+    36: trenta-sisès
+    37: trenta-setès
+    38: trenta-vuitès
+    39: trenta-novès
+    40: quarantès
+    41: quaranta-primers
+    42: quaranta-segons
+    43: quaranta-tercers
+    44: quaranta-quarts
+    45: quaranta-cinquès
+    46: quaranta-sisès
+    47: quaranta-setès
+    48: quaranta-vuitès
+    49: quaranta-novès
+    50: cinquantès
+    51: cinquanta-primers
+    52: cinquanta-segons
+    53: cinquanta-tercers
+    54: cinquanta-quarts
+    55: cinquanta-cinquès
+    56: cinquanta-sisès
+    57: cinquanta-setès
+    58: cinquanta-vuitès
+    59: cinquanta-novès
+    60: seixantès
+    61: seixanta-primers
+    62: seixanta-segons
+    63: seixanta-tercers
+    64: seixanta-quarts
+    65: seixanta-cinquès
+    66: seixanta-sisès
+    67: seixanta-setès
+    68: seixanta-vuitès
+    69: seixanta-novès
+    70: setantès
+    71: setanta-primers
+    72: setanta-segons
+    73: setanta-tercers
+    74: setanta-quarts
+    75: setanta-cinquès
+    76: setanta-sisès
+    77: setanta-setès
+    78: setanta-vuitès
+    79: setanta-novès
+    80: vuitantès
+    81: vuitanta-primers
+    82: vuitanta-segons
+    83: vuitanta-tercers
+    84: vuitanta-quarts
+    85: vuitanta-cinquès
+    86: vuitanta-sisès
+    87: vuitanta-setès
+    88: vuitanta-vuitès
+    89: vuitanta-novès
+    90: norantès
+    91: noranta-primers
+    92: noranta-segons
+    93: noranta-tercers
+    94: noranta-quarts
+    95: noranta-cinquès
+    96: noranta-sisès
+    97: noranta-setès
+    98: noranta-vuitès
+    99: noranta-novès
+    100: centès
+    321: tres-cents vint-i-primers
+    322: tres-cents vint-i-segons
+    323: tres-cents vint-i-tercers
+    1141: mil cent quaranta-primers
+    1142: mil cent quaranta-segons
+    1143: mil cent quaranta-tercers
+    10311: deu mil tres-cents onzès
+    138400: cent trenta-vuit mil quatre-centès
   spellout-ordinal-feminine:
-    -1141: menys mil cent-quaranta-primera
-    -1142: menys mil cent-quaranta-segona
-    -1143: menys mil cent-quaranta-tercera
+    -1141: menys mil cent quaranta-primera
+    -1142: menys mil cent quaranta-segona
+    -1143: menys mil cent quaranta-tercera
     -100: menys centena
     -75: menys setanta-cinquena
     -50: menys cinquantena
@@ -109,18 +343,18 @@ SpelloutRules:
     98: noranta-vuitena
     99: noranta-novena
     100: centena
-    321: tres-cent vint-i-primera
-    322: tres-cent vint-i-segona
-    323: tres-cent vint-i-tercera
-    1141: mil cent-quaranta-primera
-    1142: mil cent-quaranta-segona
-    1143: mil cent-quaranta-tercera
-    10311: deu mil tres-cent onzena
-    138400: cent-trenta-vuit mil quatre-centena
+    321: tres-cents vint-i-primera
+    322: tres-cents vint-i-segona
+    323: tres-cents vint-i-tercera
+    1141: mil cent quaranta-primera
+    1142: mil cent quaranta-segona
+    1143: mil cent quaranta-tercera
+    10311: deu mils tres-cents onzena
+    138400: cent trenta-vuit mils quatre-centena
   spellout-ordinal-masculine:
-    -1141: menys mil cent-quaranta-primer
-    -1142: menys mil cent-quaranta-segon
-    -1143: menys mil cent-quaranta-tercer
+    -1141: menys mil cent quaranta-primer
+    -1142: menys mil cent quaranta-segon
+    -1143: menys mil cent quaranta-tercer
     -100: menys centè
     -75: menys setanta-cinquè
     -50: menys cinquantè
@@ -226,18 +460,18 @@ SpelloutRules:
     98: noranta-vuitè
     99: noranta-novè
     100: centè
-    321: tres-cent vint-i-primer
-    322: tres-cent vint-i-segon
-    323: tres-cent vint-i-tercer
-    1141: mil cent-quaranta-primer
-    1142: mil cent-quaranta-segon
-    1143: mil cent-quaranta-tercer
-    10311: deu mil tres-cent onzè
-    138400: cent-trenta-vuit mil quatre-centè
+    321: tres-cents vint-i-primer
+    322: tres-cents vint-i-segon
+    323: tres-cents vint-i-tercer
+    1141: mil cent quaranta-primer
+    1142: mil cent quaranta-segon
+    1143: mil cent quaranta-tercer
+    10311: deu mil tres-cents onzè
+    138400: cent trenta-vuit mil quatre-centè
   spellout-cardinal-feminine:
-    -1141: menys mil cent-quaranta-una
-    -1142: menys mil cent-quaranta-dues
-    -1143: menys mil cent-quaranta-tres
+    -1141: menys mil cent quaranta-una
+    -1142: menys mil cent quaranta-dues
+    -1143: menys mil cent quaranta-tres
     -100: menys cent
     -75: menys setanta-cinc
     -50: menys cinquanta
@@ -343,18 +577,18 @@ SpelloutRules:
     98: noranta-vuit
     99: noranta-nou
     100: cent
-    321: tres-cent vint-i-una
-    322: tres-cent vint-i-dues
-    323: tres-cent vint-i-tres
-    1141: mil cent-quaranta-una
-    1142: mil cent-quaranta-dues
-    1143: mil cent-quaranta-tres
-    10311: deu mil tres-cent onze
-    138400: cent-trenta-vuit mil quatre-cents
+    321: tres-centes vint-i-una
+    322: tres-centes vint-i-dues
+    323: tres-centes vint-i-tres
+    1141: mil cent quaranta-una
+    1142: mil cent quaranta-dues
+    1143: mil cent quaranta-tres
+    10311: deu mil tres-centes onze
+    138400: cent trenta-vuit mil quatre-centes
   spellout-cardinal-masculine:
-    -1141: menys mil cent-quaranta-un
-    -1142: menys mil cent-quaranta-dos
-    -1143: menys mil cent-quaranta-tres
+    -1141: menys mil cent quaranta-un
+    -1142: menys mil cent quaranta-dos
+    -1143: menys mil cent quaranta-tres
     -100: menys cent
     -75: menys setanta-cinc
     -50: menys cinquanta
@@ -460,18 +694,18 @@ SpelloutRules:
     98: noranta-vuit
     99: noranta-nou
     100: cent
-    321: tres-cent vint-i-un
-    322: tres-cent vint-i-dos
-    323: tres-cent vint-i-tres
-    1141: mil cent-quaranta-un
-    1142: mil cent-quaranta-dos
-    1143: mil cent-quaranta-tres
-    10311: deu mil tres-cent onze
-    138400: cent-trenta-vuit mil quatre-cents
+    321: tres-cents vint-i-un
+    322: tres-cents vint-i-dos
+    323: tres-cents vint-i-tres
+    1141: mil cent quaranta-un
+    1142: mil cent quaranta-dos
+    1143: mil cent quaranta-tres
+    10311: deu mil tres-cents onze
+    138400: cent trenta-vuit mil quatre-cents
   spellout-numbering:
-    -1141: menys mil cent-quaranta-u
-    -1142: menys mil cent-quaranta-dos
-    -1143: menys mil cent-quaranta-tres
+    -1141: menys mil cent quaranta-u
+    -1142: menys mil cent quaranta-dos
+    -1143: menys mil cent quaranta-tres
     -100: menys cent
     -75: menys setanta-cinc
     -50: menys cinquanta
@@ -577,18 +811,18 @@ SpelloutRules:
     98: noranta-vuit
     99: noranta-nou
     100: cent
-    321: tres-cent vint-i-un
-    322: tres-cent vint-i-dos
-    323: tres-cent vint-i-tres
-    1141: mil cent-quaranta-u
-    1142: mil cent-quaranta-dos
-    1143: mil cent-quaranta-tres
-    10311: deu mil tres-cent onze
-    138400: cent-trenta-vuit mil quatre-cents
+    321: tres-cents vint-i-u
+    322: tres-cents vint-i-dos
+    323: tres-cents vint-i-tres
+    1141: mil cent quaranta-u
+    1142: mil cent quaranta-dos
+    1143: mil cent quaranta-tres
+    10311: deu mil tres-cents onze
+    138400: cent trenta-vuit mil quatre-cents
   spellout-numbering-year:
-    -1141: menys mil cent-quaranta-u
-    -1142: menys mil cent-quaranta-dos
-    -1143: menys mil cent-quaranta-tres
+    -1141: menys mil cent quaranta-u
+    -1142: menys mil cent quaranta-dos
+    -1143: menys mil cent quaranta-tres
     -100: menys cent
     -75: menys setanta-cinc
     -50: menys cinquanta
@@ -694,132 +928,132 @@ SpelloutRules:
     98: noranta-vuit
     99: noranta-nou
     100: cent
-    321: tres-cent vint-i-un
-    322: tres-cent vint-i-dos
-    323: tres-cent vint-i-tres
-    1141: mil cent-quaranta-u
-    1142: mil cent-quaranta-dos
-    1143: mil cent-quaranta-tres
-    10311: deu mil tres-cent onze
-    138400: cent-trenta-vuit mil quatre-cents
+    321: tres-cents vint-i-u
+    322: tres-cents vint-i-dos
+    323: tres-cents vint-i-tres
+    1141: mil cent quaranta-u
+    1142: mil cent quaranta-dos
+    1143: mil cent quaranta-tres
+    10311: deu mil tres-cents onze
+    138400: cent trenta-vuit mil quatre-cents
 OrdinalRules:
-  digits-ordinal:
-    -1141: "−1.141r"
-    -1142: "−1.142n"
-    -1143: "−1.143r"
-    -100: "−100è"
-    -75: "−75è"
-    -50: "−50è"
-    -24: "−24t"
-    0: 0è
-    1: 1r
-    2: 2n
-    3: 3r
-    4: 4t
-    5: 5è
-    6: 6è
-    7: 7è
-    8: 8è
-    9: 9è
-    10: 10è
-    11: 11è
-    12: 12è
-    13: 13è
-    14: 14è
-    15: 15è
-    16: 16è
-    17: 17è
-    18: 18è
-    19: 19è
-    20: 20è
-    21: 21r
-    22: 22n
-    23: 23r
-    24: 24t
-    25: 25è
-    26: 26è
-    27: 27è
-    28: 28è
-    29: 29è
-    30: 30è
-    31: 31r
-    32: 32n
-    33: 33r
-    34: 34t
-    35: 35è
-    36: 36è
-    37: 37è
-    38: 38è
-    39: 39è
-    40: 40è
-    41: 41r
-    42: 42n
-    43: 43r
-    44: 44t
-    45: 45è
-    46: 46è
-    47: 47è
-    48: 48è
-    49: 49è
-    50: 50è
-    51: 51r
-    52: 52n
-    53: 53r
-    54: 54t
-    55: 55è
-    56: 56è
-    57: 57è
-    58: 58è
-    59: 59è
-    60: 60è
-    61: 61r
-    62: 62n
-    63: 63r
-    64: 64t
-    65: 65è
-    66: 66è
-    67: 67è
-    68: 68è
-    69: 69è
-    70: 70è
-    71: 71r
-    72: 72n
-    73: 73r
-    74: 74t
-    75: 75è
-    76: 76è
-    77: 77è
-    78: 78è
-    79: 79è
-    80: 80è
-    81: 81r
-    82: 82n
-    83: 83r
-    84: 84t
-    85: 85è
-    86: 86è
-    87: 87è
-    88: 88è
-    89: 89è
-    90: 90è
-    91: 91r
-    92: 92n
-    93: 93r
-    94: 94t
-    95: 95è
-    96: 96è
-    97: 97è
-    98: 98è
-    99: 99è
-    100: 100è
-    321: 321r
-    322: 322n
-    323: 323r
-    1141: 1.141r
-    1142: 1.142n
-    1143: 1.143r
-    10311: 10.311è
-    138400: 138.400è
+  digits-ordinal-feminine-plural:
+    -1141: "−1.141es"
+    -1142: "−1.142es"
+    -1143: "−1.143es"
+    -100: "−100es"
+    -75: "−75es"
+    -50: "−50es"
+    -24: "−24es"
+    0: 0es
+    1: 1es
+    2: 2es
+    3: 3es
+    4: 4es
+    5: 5es
+    6: 6es
+    7: 7es
+    8: 8es
+    9: 9es
+    10: 10es
+    11: 11es
+    12: 12es
+    13: 13es
+    14: 14es
+    15: 15es
+    16: 16es
+    17: 17es
+    18: 18es
+    19: 19es
+    20: 20es
+    21: 21es
+    22: 22es
+    23: 23es
+    24: 24es
+    25: 25es
+    26: 26es
+    27: 27es
+    28: 28es
+    29: 29es
+    30: 30es
+    31: 31es
+    32: 32es
+    33: 33es
+    34: 34es
+    35: 35es
+    36: 36es
+    37: 37es
+    38: 38es
+    39: 39es
+    40: 40es
+    41: 41es
+    42: 42es
+    43: 43es
+    44: 44es
+    45: 45es
+    46: 46es
+    47: 47es
+    48: 48es
+    49: 49es
+    50: 50es
+    51: 51es
+    52: 52es
+    53: 53es
+    54: 54es
+    55: 55es
+    56: 56es
+    57: 57es
+    58: 58es
+    59: 59es
+    60: 60es
+    61: 61es
+    62: 62es
+    63: 63es
+    64: 64es
+    65: 65es
+    66: 66es
+    67: 67es
+    68: 68es
+    69: 69es
+    70: 70es
+    71: 71es
+    72: 72es
+    73: 73es
+    74: 74es
+    75: 75es
+    76: 76es
+    77: 77es
+    78: 78es
+    79: 79es
+    80: 80es
+    81: 81es
+    82: 82es
+    83: 83es
+    84: 84es
+    85: 85es
+    86: 86es
+    87: 87es
+    88: 88es
+    89: 89es
+    90: 90es
+    91: 91es
+    92: 92es
+    93: 93es
+    94: 94es
+    95: 95es
+    96: 96es
+    97: 97es
+    98: 98es
+    99: 99es
+    100: 100es
+    321: 321es
+    322: 322es
+    323: 323es
+    1141: 1.141es
+    1142: 1.142es
+    1143: 1.143es
+    10311: 10.311es
+    138400: 138.400es
   digits-ordinal-feminine:
     -1141: "−1.141a"
     -1142: "−1.142a"
@@ -937,14 +1171,131 @@ OrdinalRules:
     1143: 1.143a
     10311: 10.311a
     138400: 138.400a
+  digits-ordinal-masculine-plural:
+    -1141: "−1.141ns"
+    -1142: "−1.142ns"
+    -1143: "−1.143ns"
+    -100: "−100ns"
+    -75: "−75ns"
+    -50: "−50ns"
+    -24: "−24ns"
+    0: 0ns
+    1: 1rs
+    2: 2ns
+    3: 3rs
+    4: 4ts
+    5: 5ns
+    6: 6ns
+    7: 7ns
+    8: 8ns
+    9: 9ns
+    10: 10ns
+    11: 11ns
+    12: 12ns
+    13: 13ns
+    14: 14ns
+    15: 15ns
+    16: 16ns
+    17: 17ns
+    18: 18ns
+    19: 19ns
+    20: 20ns
+    21: 21ns
+    22: 22ns
+    23: 23ns
+    24: 24ns
+    25: 25ns
+    26: 26ns
+    27: 27ns
+    28: 28ns
+    29: 29ns
+    30: 30ns
+    31: 31ns
+    32: 32ns
+    33: 33ns
+    34: 34ns
+    35: 35ns
+    36: 36ns
+    37: 37ns
+    38: 38ns
+    39: 39ns
+    40: 40ns
+    41: 41ns
+    42: 42ns
+    43: 43ns
+    44: 44ns
+    45: 45ns
+    46: 46ns
+    47: 47ns
+    48: 48ns
+    49: 49ns
+    50: 50ns
+    51: 51ns
+    52: 52ns
+    53: 53ns
+    54: 54ns
+    55: 55ns
+    56: 56ns
+    57: 57ns
+    58: 58ns
+    59: 59ns
+    60: 60ns
+    61: 61ns
+    62: 62ns
+    63: 63ns
+    64: 64ns
+    65: 65ns
+    66: 66ns
+    67: 67ns
+    68: 68ns
+    69: 69ns
+    70: 70ns
+    71: 71ns
+    72: 72ns
+    73: 73ns
+    74: 74ns
+    75: 75ns
+    76: 76ns
+    77: 77ns
+    78: 78ns
+    79: 79ns
+    80: 80ns
+    81: 81ns
+    82: 82ns
+    83: 83ns
+    84: 84ns
+    85: 85ns
+    86: 86ns
+    87: 87ns
+    88: 88ns
+    89: 89ns
+    90: 90ns
+    91: 91ns
+    92: 92ns
+    93: 93ns
+    94: 94ns
+    95: 95ns
+    96: 96ns
+    97: 97ns
+    98: 98ns
+    99: 99ns
+    100: 100ns
+    321: 321ns
+    322: 322ns
+    323: 323ns
+    1141: 1.141ns
+    1142: 1.142ns
+    1143: 1.143ns
+    10311: 10.311ns
+    138400: 138.400ns
   digits-ordinal-masculine:
-    -1141: "−1.141r"
-    -1142: "−1.142n"
-    -1143: "−1.143r"
+    -1141: "−1.141è"
+    -1142: "−1.142è"
+    -1143: "−1.143è"
     -100: "−100è"
     -75: "−75è"
     -50: "−50è"
-    -24: "−24t"
+    -24: "−24è"
     0: 0è
     1: 1r
     2: 2n
@@ -966,92 +1317,209 @@ OrdinalRules:
     18: 18è
     19: 19è
     20: 20è
-    21: 21r
-    22: 22n
-    23: 23r
-    24: 24t
+    21: 21è
+    22: 22è
+    23: 23è
+    24: 24è
     25: 25è
     26: 26è
     27: 27è
     28: 28è
     29: 29è
     30: 30è
-    31: 31r
-    32: 32n
-    33: 33r
-    34: 34t
+    31: 31è
+    32: 32è
+    33: 33è
+    34: 34è
     35: 35è
     36: 36è
     37: 37è
     38: 38è
     39: 39è
     40: 40è
-    41: 41r
-    42: 42n
-    43: 43r
-    44: 44t
+    41: 41è
+    42: 42è
+    43: 43è
+    44: 44è
     45: 45è
     46: 46è
     47: 47è
     48: 48è
     49: 49è
     50: 50è
-    51: 51r
-    52: 52n
-    53: 53r
-    54: 54t
+    51: 51è
+    52: 52è
+    53: 53è
+    54: 54è
     55: 55è
     56: 56è
     57: 57è
     58: 58è
     59: 59è
     60: 60è
-    61: 61r
-    62: 62n
-    63: 63r
-    64: 64t
+    61: 61è
+    62: 62è
+    63: 63è
+    64: 64è
     65: 65è
     66: 66è
     67: 67è
     68: 68è
     69: 69è
     70: 70è
-    71: 71r
-    72: 72n
-    73: 73r
-    74: 74t
+    71: 71è
+    72: 72è
+    73: 73è
+    74: 74è
     75: 75è
     76: 76è
     77: 77è
     78: 78è
     79: 79è
     80: 80è
-    81: 81r
-    82: 82n
-    83: 83r
-    84: 84t
+    81: 81è
+    82: 82è
+    83: 83è
+    84: 84è
     85: 85è
     86: 86è
     87: 87è
     88: 88è
     89: 89è
     90: 90è
-    91: 91r
-    92: 92n
-    93: 93r
-    94: 94t
+    91: 91è
+    92: 92è
+    93: 93è
+    94: 94è
     95: 95è
     96: 96è
     97: 97è
     98: 98è
     99: 99è
     100: 100è
-    321: 321r
-    322: 322n
-    323: 323r
-    1141: 1.141r
-    1142: 1.142n
-    1143: 1.143r
+    321: 321è
+    322: 322è
+    323: 323è
+    1141: 1.141è
+    1142: 1.142è
+    1143: 1.143è
+    10311: 10.311è
+    138400: 138.400è
+  digits-ordinal:
+    -1141: "−1.141è"
+    -1142: "−1.142è"
+    -1143: "−1.143è"
+    -100: "−100è"
+    -75: "−75è"
+    -50: "−50è"
+    -24: "−24è"
+    0: 0è
+    1: 1r
+    2: 2n
+    3: 3r
+    4: 4t
+    5: 5è
+    6: 6è
+    7: 7è
+    8: 8è
+    9: 9è
+    10: 10è
+    11: 11è
+    12: 12è
+    13: 13è
+    14: 14è
+    15: 15è
+    16: 16è
+    17: 17è
+    18: 18è
+    19: 19è
+    20: 20è
+    21: 21è
+    22: 22è
+    23: 23è
+    24: 24è
+    25: 25è
+    26: 26è
+    27: 27è
+    28: 28è
+    29: 29è
+    30: 30è
+    31: 31è
+    32: 32è
+    33: 33è
+    34: 34è
+    35: 35è
+    36: 36è
+    37: 37è
+    38: 38è
+    39: 39è
+    40: 40è
+    41: 41è
+    42: 42è
+    43: 43è
+    44: 44è
+    45: 45è
+    46: 46è
+    47: 47è
+    48: 48è
+    49: 49è
+    50: 50è
+    51: 51è
+    52: 52è
+    53: 53è
+    54: 54è
+    55: 55è
+    56: 56è
+    57: 57è
+    58: 58è
+    59: 59è
+    60: 60è
+    61: 61è
+    62: 62è
+    63: 63è
+    64: 64è
+    65: 65è
+    66: 66è
+    67: 67è
+    68: 68è
+    69: 69è
+    70: 70è
+    71: 71è
+    72: 72è
+    73: 73è
+    74: 74è
+    75: 75è
+    76: 76è
+    77: 77è
+    78: 78è
+    79: 79è
+    80: 80è
+    81: 81è
+    82: 82è
+    83: 83è
+    84: 84è
+    85: 85è
+    86: 86è
+    87: 87è
+    88: 88è
+    89: 89è
+    90: 90è
+    91: 91è
+    92: 92è
+    93: 93è
+    94: 94è
+    95: 95è
+    96: 96è
+    97: 97è
+    98: 98è
+    99: 99è
+    100: 100è
+    321: 321è
+    322: 322è
+    323: 323è
+    1141: 1.141è
+    1142: 1.142è
+    1143: 1.143è
     10311: 10.311è
     138400: 138.400è
 DurationRules:

@@ -391,6 +391,39 @@
                 :rule: "=#,##,##0.0=;"
                 :value: x.x
               - 
+                :rule: शून्यवें;
+                :value: 0
+              - 
+                :rule: पहले;
+                :value: 1
+              - 
+                :rule: दूसरे;
+                :value: 2
+              - 
+                :rule: तीसरे;
+                :value: 3
+              - 
+                :rule: चौथे;
+                :value: 4
+              - 
+                :rule: पाँचवें;
+                :value: 5
+              - 
+                :rule: छठे;
+                :value: 6
+              - 
+                :rule: =%spellout-cardinal=वें;
+                :value: 7
+            :type: spellout-ordinal-masculine-oblique
+          - 
+            :rules: 
+              - 
+                :rule: "ऋण >>;"
+                :value: "-x"
+              - 
+                :rule: "=#,##,##0.0=;"
+                :value: x.x
+              - 
                 :rule: शून्यवी;
                 :value: 0
               - 
@@ -427,26 +460,8 @@
                 :rule: "=#,##,##0.0=;"
                 :value: x.x
               - 
-                :rule: 0;
+                :rule: "=#,##,##0=$(ordinal,one{ला}two{रा}few{था}many{ठा}other{वाँ})$;"
                 :value: 0
-              - 
-                :rule: =0=ला;
-                :value: 1
-              - 
-                :rule: =0=रा;
-                :value: 2
-              - 
-                :rule: =0=था;
-                :value: 4
-              - 
-                :rule: =0=वाँ;
-                :value: 5
-              - 
-                :rule: =0=ठा;
-                :value: 6
-              - 
-                :rule: "=#,##,##0=वाँ;"
-                :value: 7
             :type: digits-ordinal-masculine
           - 
             :rules: 
@@ -457,26 +472,8 @@
                 :rule: "=#,##,##0.0=;"
                 :value: x.x
               - 
-                :rule: 0;
+                :rule: "=#,##,##0=$(ordinal,one{ले}two{रे}few{थे}many{ठे}other{वें})$;"
                 :value: 0
-              - 
-                :rule: =0=ले;
-                :value: 1
-              - 
-                :rule: =0=रे;
-                :value: 2
-              - 
-                :rule: =0=थे;
-                :value: 4
-              - 
-                :rule: =0=वें;
-                :value: 5
-              - 
-                :rule: =0=ठे;
-                :value: 6
-              - 
-                :rule: "=#,##,##0=वें;"
-                :value: 7
             :type: digits-ordinal-masculine-oblique
           - 
             :rules: 
@@ -487,26 +484,8 @@
                 :rule: "=#,##,##0.0=;"
                 :value: x.x
               - 
-                :rule: 0;
+                :rule: "=#,##,##0=$(ordinal,one{ली}two{री}few{थी}many{ठी}other{वीँ})$;"
                 :value: 0
-              - 
-                :rule: =0=ली;
-                :value: 1
-              - 
-                :rule: =0=री;
-                :value: 2
-              - 
-                :rule: =0=थी;
-                :value: 4
-              - 
-                :rule: =0=वीँ;
-                :value: 5
-              - 
-                :rule: =0=ठी;
-                :value: 6
-              - 
-                :rule: "=#,##,##0=वीँ;"
-                :value: 7
             :type: digits-ordinal-feminine
           - 
             :rules: 

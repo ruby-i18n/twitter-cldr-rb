@@ -28,6 +28,9 @@
         :angle-revolution: 
           :one: "{0} револуција"
           :other: "{0} револуции"
+        :angle-steradian: 
+          :one: "{0} стерадијан"
+          :other: "{0} стерадијани"
         :area-acre: 
           :one: "{0} акр"
           :other: "{0} акри"
@@ -61,6 +64,9 @@
         :concentr-karat: 
           :one: "{0} карат"
           :other: "{0} карати"
+        :concentr-katal: 
+          :one: "{0} катал"
+          :other: "{0} катали"
         :concentr-milligram-ofglucose-per-deciliter: 
           :one: "{0} милиграм на децилитар"
           :other: "{0} милиграми на децилитар"
@@ -70,21 +76,27 @@
         :concentr-mole: 
           :one: "{0} мол"
           :other: "{0} мола"
+        :concentr-ofglucose: 
+          :one: "{0} гликоза"
+          :other: "{0} гликоза"
+        :concentr-part: 
+          :one: "{0} дел"
+          :other: "{0} делови"
+        :concentr-part-per-1e6: 
+          :one: "{0} дел на милион"
+          :other: "{0} дела на милион"
+        :concentr-part-per-1e9: 
+          :one: "{0} дел на милијарда"
+          :other: "{0} дела на милијарда"
         :concentr-percent: 
           :one: "{0} процент"
           :other: "{0} проценти"
         :concentr-permille: 
           :one: "{0} промили"
           :other: "{0} промили"
-        :concentr-permillion: 
-          :one: "{0} дел на милион"
-          :other: "{0} дела на милион"
         :concentr-permyriad: 
           :one: "{0} десетилјадити дел"
           :other: "{0} десетилјадити делови"
-        :concentr-portion-per-1e9: 
-          :one: "{0} дел на милијарда"
-          :other: "{0} дела на милијарда"
         :consumption-liter-per-100-kilometer: 
           :one: "{0} литар на 100 километри"
           :other: "{0} литри на 100 километри"
@@ -148,9 +160,6 @@
         :duration-nanosecond: 
           :one: "{0} наносекунда"
           :other: "{0} наносекунди"
-        :duration-night: 
-          :one: "{0} ноќ"
-          :other: "{0} ноќи"
         :duration-quarter: 
           :one: "{0} тримесечје"
           :other: "{0} тримесечја"
@@ -166,27 +175,48 @@
         :electric-ampere: 
           :one: "{0} ампер"
           :other: "{0} ампери"
+        :electric-coulomb: 
+          :one: "{0} кулон"
+          :other: "{0} кулони"
+        :electric-farad: 
+          :one: "{0} фарад"
+          :other: "{0} фаради"
+        :electric-henry: 
+          :one: "{0} хенри"
+          :other: "{0} хенри"
         :electric-milliampere: 
           :one: "{0} милиампер"
           :other: "{0} милиампери"
         :electric-ohm: 
           :one: "{0} ом"
           :other: "{0} оми"
+        :electric-siemens: 
+          :one: "{0} сименс"
+          :other: "{0} сименси"
         :electric-volt: 
           :one: "{0} волт"
           :other: "{0} волти"
+        :energy-becquerel: 
+          :one: "{0} бекерел"
+          :other: "{0} бекерели"
         :energy-british-thermal-unit: 
           :one: "{0} британска термална единица"
           :other: "{0} британски термални единици"
         :energy-calorie: 
           :one: "{0} калорија"
           :other: "{0} калории"
+        :energy-calorie-it: 
+          :one: "{0} калорија [IT]"
+          :other: "{0} калории [IT]"
         :energy-electronvolt: 
           :one: "{0} електронволт"
           :other: "{0} електронволти"
         :energy-foodcalorie: 
           :one: "{0} калорија"
           :other: "{0} калории"
+        :energy-gray: 
+          :one: "{0} греј"
+          :other: "{0} греја"
         :energy-joule: 
           :one: "{0} џул"
           :other: "{0} џули"
@@ -199,6 +229,12 @@
         :energy-kilowatt-hour: 
           :one: "{0} киловат-час"
           :other: "{0} киловат-часа"
+        :energy-sievert: 
+          :one: "{0} сиверт"
+          :other: "{0} сиверти"
+        :force-kilogram-force: 
+          :one: "{0} килопонд"
+          :other: "{0} килопонди"
         :force-kilowatt-hour-per-100-kilometer: 
           :one: "{0} киловат-час на 100 километри"
           :other: "{0} киловат-часа на 100 километри"
@@ -319,6 +355,12 @@
         :light-solar-luminosity: 
           :one: "{0} сончева сјајност"
           :other: "{0} сончеви сјајности"
+        :magnetic-tesla: 
+          :one: "{0} тесла"
+          :other: "{0} тесли"
+        :magnetic-weber: 
+          :one: "{0} вебер"
+          :other: "{0} вебери"
         :mass-carat: 
           :one: "{0} карат"
           :other: "{0} карати"
@@ -406,6 +448,9 @@
         :pressure-millimeter-ofhg: 
           :one: "{0} милиметар жива"
           :other: "{0} милиметри жива"
+        :pressure-ofhg: 
+          :one: "{0} на живиниот столб"
+          :other: "{0} на живиниот столб"
         :pressure-pascal: 
           :one: "{0} паскал"
           :other: "{0} паскали"
@@ -422,8 +467,8 @@
           :one: "{0} јазол"
           :other: "{0} јазли"
         :speed-light-speed: 
-          :one: "{0} светлина"
-          :other: "{0} светлини"
+          :one: "{0} светлосна"
+          :other: "{0} светлосни"
         :speed-meter-per-second: 
           :one: "{0} метар во секунда"
           :other: "{0} метри во секунда"
@@ -500,11 +545,14 @@
           :one: "{0} капка"
           :other: "{0} капки"
         :volume-fluid-ounce: 
-          :one: "{0} унца течност"
-          :other: "{0} унци течност"
+          :one: "{0} течна унца"
+          :other: "{0} течни унци"
         :volume-fluid-ounce-imperial: 
-          :one: "{0} имп. унца течност"
-          :other: "{0} имп. унци течност"
+          :one: "{0} имп. течна унца"
+          :other: "{0} имп. течни унци"
+        :volume-fluid-ounce-metric: 
+          :one: "{0} метричка течна унца"
+          :other: "{0} метрички течни унци"
         :volume-gallon: 
           :one: "{0} галон"
           :other: "{0} галони"
@@ -560,6 +608,9 @@
         :area-square-mile: 
           :one: "{0} mi²"
           :other: "{0} mi²"
+        :concentr-part: 
+          :one: "{0} дел"
+          :other: "{0} делови"
         :concentr-permyriad: 
           :one: "{0} ‱"
           :other: "{0} ‱"
@@ -596,6 +647,9 @@
         :duration-year: 
           :one: "{0} г."
           :other: "{0} г."
+        :energy-calorie-it: 
+          :one: "{0} cal [IT]"
+          :other: "{0} cal [IT]"
         :energy-therm-us: 
           :one: "{0} US therm"
           :other: "{0} US therms"
@@ -606,8 +660,8 @@
           :one: "{0} gr"
           :other: "{0} gr"
         :speed-light-speed: 
-          :one: "{0} светлина"
-          :other: "{0} светлини"
+          :one: "{0} светлосна"
+          :other: "{0} светлосни"
         :volume-dessert-spoon: 
           :one: "{0} dsp"
           :other: "{0} dsp"
@@ -626,6 +680,9 @@
         :volume-gallon-imperial: 
           :one: "{0} galIm"
           :other: "{0} galIm"
+        :volume-jigger: 
+          :one: "{0} џигер"
+          :other: "{0} џигери"
         :volume-pinch: 
           :one: "{0} pn"
           :other: "{0} pn"
@@ -650,12 +707,20 @@
           :other: "{0} rad"
         :angle-revolution: 
           :other: "{0} rev"
+        :angle-steradian: 
+          :other: "{0} sr"
         :area-acre: 
           :other: "{0} ac"
+        :area-bu-jp: 
+          :other: "{0} bu [JP]"
+        :area-cho: 
+          :other: "{0} cho [JP]"
         :area-dunam: 
           :other: "{0} dunam"
         :area-hectare: 
           :other: "{0} ha"
+        :area-se-jp: 
+          :other: "{0} se [JP]"
         :area-square-centimeter: 
           :other: "{0} cm²"
         :area-square-foot: 
@@ -677,24 +742,31 @@
           :other: "{0} ставки"
         :concentr-karat: 
           :other: "{0} kt"
+        :concentr-katal: 
+          :other: "{0} kat"
         :concentr-milligram-ofglucose-per-deciliter: 
           :other: "{0} mg/dL"
         :concentr-millimole-per-liter: 
           :other: "{0} mmol/L"
         :concentr-mole: 
           :other: "{0} mol"
+        :concentr-ofglucose: 
+          :other: "{0} Glc"
+        :concentr-part: 
+          :one: "{0} дел"
+          :other: "{0} делови"
+        :concentr-part-per-1e6: 
+          :other: "{0} ppm"
+        :concentr-part-per-1e9: 
+          :other: "{0} ppb"
         :concentr-percent: 
           :one: "{0} %"
           :other: "{0} %"
         :concentr-permille: 
           :one: "{0} ‰"
           :other: "{0} ‰"
-        :concentr-permillion: 
-          :other: "{0} ppm"
         :concentr-permyriad: 
           :other: "{0}‱"
-        :concentr-portion-per-1e9: 
-          :other: "{0} ppb"
         :consumption-liter-per-100-kilometer: 
           :other: "{0} L/100km"
         :consumption-liter-per-kilometer: 
@@ -736,6 +808,8 @@
         :duration-decade: 
           :one: "{0} дец."
           :other: "{0} дец."
+        :duration-fortnight: 
+          :other: "{0} fw"
         :duration-hour: 
           :one: "{0} ч."
           :other: "{0} ч."
@@ -770,21 +844,38 @@
           :other: "{0} год."
         :electric-ampere: 
           :other: "{0} A"
+        :electric-coulomb: 
+          :other: "{0} C"
+        :electric-farad: 
+          :other: "{0} F"
+        :electric-henry: 
+          :other: "{0} H"
         :electric-milliampere: 
           :other: "{0} mA"
         :electric-ohm: 
           :other: "{0} Ω"
+        :electric-siemens: 
+          :other: "{0} S"
         :electric-volt: 
           :other: "{0} V"
+        :energy-becquerel: 
+          :other: "{0} Bq"
         :energy-british-thermal-unit: 
           :other: "{0} Btu"
+        :energy-british-thermal-unit-it: 
+          :other: "{0} BTU-IT"
         :energy-calorie: 
           :other: "{0} cal"
+        :energy-calorie-it: 
+          :one: "{0} cal [IT]"
+          :other: "{0} cal [IT]"
         :energy-electronvolt: 
           :other: "{0} eV"
         :energy-foodcalorie: 
           :one: "{0} Cal"
           :other: "{0} Cal"
+        :energy-gray: 
+          :other: "{0} Gy"
         :energy-joule: 
           :other: "{0} J"
         :energy-kilocalorie: 
@@ -793,9 +884,13 @@
           :other: "{0} kJ"
         :energy-kilowatt-hour: 
           :other: "{0} kWh"
+        :energy-sievert: 
+          :other: "{0} Sv"
         :energy-therm-us: 
           :one: "{0} US терм"
           :other: "{0} US терми"
+        :force-kilogram-force: 
+          :other: "{0} kgf"
         :force-kilowatt-hour-per-100-kilometer: 
           :other: "{0} kWh/100km"
         :force-newton: 
@@ -833,6 +928,8 @@
           :other: "{0} au"
         :length-centimeter: 
           :other: "{0} cm"
+        :length-chain: 
+          :other: "{0} chain"
         :length-decimeter: 
           :other: "{0} dm"
         :length-earth-radius: 
@@ -845,6 +942,10 @@
           :other: "{0} fur"
         :length-inch: 
           :other: "{0} in"
+        :length-jo-jp: 
+          :other: "{0} jo [JP]"
+        :length-ken: 
+          :other: "{0} ken [JP]"
         :length-kilometer: 
           :other: "{0} km"
         :length-light-year: 
@@ -869,8 +970,20 @@
           :other: "{0} pm"
         :length-point: 
           :other: "{0} pt"
+        :length-ri-jp: 
+          :other: "{0} ri [JP]"
+        :length-rin: 
+          :other: "{0} rin [JP]"
+        :length-rod: 
+          :other: "{0} rod"
+        :length-shaku-cloth: 
+          :other: "{0} shaku [cloth, JP]"
+        :length-shaku-length: 
+          :other: "{0} shaku [JP]"
         :length-solar-radius: 
           :other: "{0} R☉"
+        :length-sun: 
+          :other: "{0} sun [JP]"
         :length-yard: 
           :other: "{0} yd"
         :light-candela: 
@@ -881,12 +994,18 @@
           :other: "{0} lx"
         :light-solar-luminosity: 
           :other: "{0} L☉"
+        :magnetic-tesla: 
+          :other: "{0} T"
+        :magnetic-weber: 
+          :other: "{0} Wb"
         :mass-carat: 
           :other: "{0} CD"
         :mass-dalton: 
           :other: "{0} Da"
         :mass-earth-mass: 
           :other: "{0} M⊕"
+        :mass-fun: 
+          :other: "{0} fun [JP]"
         :mass-grain: 
           :other: "{0} grain"
         :mass-gram: 
@@ -903,6 +1022,8 @@
           :other: "{0} oz t"
         :mass-pound: 
           :other: "{0} lb"
+        :mass-slug: 
+          :other: "{0} slug"
         :mass-solar-mass: 
           :other: "{0} M☉"
         :mass-stone: 
@@ -927,6 +1048,8 @@
           :other: "{0} atm"
         :pressure-bar: 
           :other: "{0} bar"
+        :pressure-gasoline-energy-density: 
+          :other: "{0} gas E"
         :pressure-hectopascal: 
           :other: "{0} hPa"
         :pressure-inch-ofhg: 
@@ -940,6 +1063,8 @@
         :pressure-millimeter-ofhg: 
           :one: "{0} mmHg"
           :other: "{0} mmHg"
+        :pressure-ofhg: 
+          :other: "{0} Hg"
         :pressure-pascal: 
           :other: "{0} Pa"
         :pressure-pound-force-per-square-inch: 
@@ -952,8 +1077,8 @@
         :speed-knot: 
           :other: "{0} kn"
         :speed-light-speed: 
-          :one: "{0} светлина"
-          :other: "{0} светлини"
+          :one: "{0} светлосна"
+          :other: "{0} светлосни"
         :speed-meter-per-second: 
           :other: "{0} m/s"
         :speed-mile-per-hour: 
@@ -969,6 +1094,8 @@
           :other: "{0}°"
         :temperature-kelvin: 
           :other: "{0} K"
+        :temperature-rankine: 
+          :other: "{0} °R"
         :torque-newton-meter: 
           :other: "{0} N⋅m"
         :torque-pound-force-foot: 
@@ -997,6 +1124,10 @@
           :other: "{0} yd³"
         :volume-cup: 
           :other: "{0} c"
+        :volume-cup-imperial: 
+          :other: "{0} cup Imp."
+        :volume-cup-jp: 
+          :other: "{0} cup [JP]"
         :volume-cup-metric: 
           :other: "{0} mc"
         :volume-deciliter: 
@@ -1014,6 +1145,8 @@
           :other: "{0} fl oz"
         :volume-fluid-ounce-imperial: 
           :other: "{0} fl oz Imp."
+        :volume-fluid-ounce-metric: 
+          :other: "{0} fl oz m."
         :volume-gallon: 
           :one: "{0} gal"
           :other: "{0} gal"
@@ -1022,7 +1155,12 @@
         :volume-hectoliter: 
           :other: "{0} hL"
         :volume-jigger: 
-          :other: "{0} jigger"
+          :one: "{0} џигер"
+          :other: "{0} џигери"
+        :volume-koku: 
+          :other: "{0} koku [JP]"
+        :volume-kosaji: 
+          :other: "{0} kosaji [JP]"
         :volume-liter: 
           :one: "{0} L"
           :other: "{0} L"
@@ -1030,17 +1168,27 @@
           :other: "{0} ML"
         :volume-milliliter: 
           :other: "{0} mL"
+        :volume-osaji: 
+          :other: "{0} osaji [JP]"
         :volume-pinch: 
           :other: "{0} pinch"
         :volume-pint: 
           :other: "{0} pt"
+        :volume-pint-imperial: 
+          :other: "{0} pt Imp."
         :volume-pint-metric: 
           :other: "{0} mpt"
         :volume-quart: 
           :other: "{0} qt"
         :volume-quart-imperial: 
           :other: "{0} qt Imp."
+        :volume-sai: 
+          :other: "{0} sai [JP]"
+        :volume-shaku: 
+          :other: "{0} shaku [vol, JP]"
         :volume-tablespoon: 
           :other: "{0} tbsp"
         :volume-teaspoon: 
           :other: "{0} tsp"
+        :volume-to-jp: 
+          :other: "{0} to [JP]"

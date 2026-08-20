@@ -25,6 +25,9 @@
         :angle-radian: 
           :one: "{0} radian"
           :other: "{0} radian"
+        :angle-steradian: 
+          :one: "{0} estereorradian"
+          :other: "{0} estereorradian"
         :area-hectare: 
           :one: "{0} hektarea"
           :other: "{0} hektarea"
@@ -52,24 +55,33 @@
         :concentr-karat: 
           :one: "{0} kilate"
           :other: "{0} kilate"
+        :concentr-katal: 
+          :one: "{0} katal"
+          :other: "{0} katal"
         :concentr-milligram-ofglucose-per-deciliter: 
           :one: "{0} miligramo dezilitro bakoitzeko"
           :other: "{0} miligramo dezilitro bakoitzeko"
         :concentr-millimole-per-liter: 
           :one: "{0} milimole litro bakoitzeko"
           :other: "{0} milimole litro bakoitzeko"
+        :concentr-ofglucose: 
+          :one: "{0} glukosa-unitate"
+          :other: "{0} glukosa-unitate"
+        :concentr-part: 
+          :one: "{0} zati"
+          :other: "{0} zati"
+        :concentr-part-per-1e6: 
+          :one: "{0} zati milioi bakoitzeko"
+          :other: "{0} zati milioi bakoitzeko"
+        :concentr-part-per-1e9: 
+          :one: "{0} zati mila milioiko"
+          :other: "{0} zati mila milioiko"
         :concentr-percent: 
           :one: "ehuneko {0}"
           :other: "ehuneko {0}"
         :concentr-permille: 
           :one: "milako {0}"
           :other: "milako {0}"
-        :concentr-permillion: 
-          :one: "{0} zati milioi bakoitzeko"
-          :other: "{0} zati milioi bakoitzeko"
-        :concentr-portion-per-1e9: 
-          :one: "{0} zati mila milioiko"
-          :other: "{0} zati mila milioiko"
         :consumption-liter-per-100-kilometer: 
           :one: "{0} litro 100 kilometro bakoitzeko"
           :other: "{0} litro 100 kilometro bakoitzeko"
@@ -130,9 +142,6 @@
         :duration-nanosecond: 
           :one: "{0} nanosegundo"
           :other: "{0} nanosegundo"
-        :duration-night: 
-          :one: "{0} gau"
-          :other: "{0} gau"
         :duration-quarter: 
           :one: "{0} laurden"
           :other: "{0} laurden"
@@ -142,21 +151,42 @@
         :electric-ampere: 
           :one: "{0} ampere"
           :other: "{0} ampere"
+        :electric-coulomb: 
+          :one: "{0} coulomb"
+          :other: "{0} coulomb"
+        :electric-farad: 
+          :one: "{0} farad"
+          :other: "{0} farad"
+        :electric-henry: 
+          :one: "{0} henry"
+          :other: "{0} henry"
         :electric-milliampere: 
           :one: "{0} miliampere"
           :other: "{0} miliampere"
         :electric-ohm: 
           :one: "{0} ohm"
           :other: "{0} ohm"
+        :electric-siemens: 
+          :one: "{0} siemens"
+          :other: "{0} siemens"
         :electric-volt: 
           :one: "{0} volt"
           :other: "{0} volt"
+        :energy-becquerel: 
+          :one: "{0} becquerel"
+          :other: "{0} becquerel"
         :energy-calorie: 
           :one: "{0} kaloria"
           :other: "{0} kaloria"
+        :energy-calorie-it: 
+          :one: "{0} kaloria [IT]"
+          :other: "{0} kaloria [IT]"
         :energy-foodcalorie: 
           :one: "{0} kaloria"
           :other: "{0} kaloria"
+        :energy-gray: 
+          :one: "{0} gray"
+          :other: "{0} gray"
         :energy-joule: 
           :one: "{0} joule"
           :other: "{0} joule"
@@ -169,6 +199,12 @@
         :energy-kilowatt-hour: 
           :one: "{0} kilowatt-ordu"
           :other: "{0} kilowatt-ordu"
+        :energy-sievert: 
+          :one: "{0} sievert"
+          :other: "{0} sievert"
+        :force-kilogram-force: 
+          :one: "{0} kilopond"
+          :other: "{0} kilopond"
         :force-kilowatt-hour-per-100-kilometer: 
           :one: "{0} kilowatt-ordu 100 kilometroko"
           :other: "{0} kilowatt-ordu 100 kilometroko"
@@ -283,6 +319,12 @@
         :light-solar-luminosity: 
           :one: "{0} eguzki-argitasun"
           :other: "{0} eguzki-argitasun"
+        :magnetic-tesla: 
+          :one: "{0} tesla"
+          :other: "{0} tesla"
+        :magnetic-weber: 
+          :one: "{0} weber"
+          :other: "{0} weber"
         :mass-dalton: 
           :one: "{0} dalton"
           :other: "{0} dalton"
@@ -343,6 +385,9 @@
         :pressure-millimeter-ofhg: 
           :one: "{0} merkurio-milimetro"
           :other: "{0} merkurio-milimetro"
+        :pressure-ofhg: 
+          :one: "{0} merkurio-unitate"
+          :other: "{0} merkurio-unitate"
         :pressure-pascal: 
           :one: "{0} pascal"
           :other: "{0} pascal"
@@ -352,9 +397,6 @@
         :speed-kilometer-per-hour: 
           :one: "{0} kilometro orduko"
           :other: "{0} kilometro orduko"
-        :speed-light-speed: 
-          :one: "{0} argi"
-          :other: "{0} argi"
         :speed-meter-per-second: 
           :one: "{0} metro segundoko"
           :other: "{0} metro segundoko"
@@ -415,6 +457,9 @@
         :volume-dram: 
           :one: "{0} dram fluido"
           :other: "{0} dram fluido"
+        :volume-fluid-ounce-metric: 
+          :one: "{0} likido-ontza metriko"
+          :other: "{0} likido-ontza metriko"
         :volume-gallon-imperial: 
           :one: "{0} galoi brit."
           :other: "{0} galoi brit."
@@ -440,10 +485,22 @@
         :angle-arc-second: 
           :one: "{0}″"
           :other: "{0}″"
+        :angle-steradian: 
+          :one: "{0} sr"
+          :other: "{0} sr"
         :area-acre: 
           :one: "{0} ac"
           :other: "{0} ac"
-        :concentr-portion-per-1e9: 
+        :concentr-katal: 
+          :one: "{0} kat"
+          :other: "{0} kat"
+        :concentr-ofglucose: 
+          :one: "{0} Glc"
+          :other: "{0} Glc"
+        :concentr-part: 
+          :one: "{0} zati"
+          :other: "{0} zati"
+        :concentr-part-per-1e9: 
           :one: "{0} zati / m. m."
           :other: "{0} zati / m. m."
         :consumption-mile-per-gallon-imperial: 
@@ -464,9 +521,36 @@
         :duration-year: 
           :one: "{0} u."
           :other: "{0} u."
+        :electric-coulomb: 
+          :one: "{0} C"
+          :other: "{0} C"
+        :electric-farad: 
+          :one: "{0} F"
+          :other: "{0} F"
+        :electric-henry: 
+          :one: "{0} H"
+          :other: "{0} H"
+        :electric-siemens: 
+          :one: "{0} S"
+          :other: "{0} S"
+        :energy-becquerel: 
+          :one: "{0} Bq"
+          :other: "{0} Bq"
+        :energy-calorie-it: 
+          :one: "{0} cal [IT]"
+          :other: "{0} cal [IT]"
+        :energy-gray: 
+          :one: "{0} Gy"
+          :other: "{0} Gy"
+        :energy-sievert: 
+          :one: "{0} Sv"
+          :other: "{0} Sv"
         :energy-therm-us: 
           :one: "{0} US therm"
           :other: "{0} US therms"
+        :force-kilogram-force: 
+          :one: "{0} kgf"
+          :other: "{0} kgf"
         :graphics-dot-per-centimeter: 
           :one: "{0}dpcm"
           :other: "{0}dpcm"
@@ -482,6 +566,9 @@
         :graphics-pixel: 
           :one: "{0}px"
           :other: "{0}px"
+        :magnetic-tesla: 
+          :one: "{0} T"
+          :other: "{0} T"
         :mass-earth-mass: 
           :one: "{0} M⊕"
           :other: "{0} M⊕"
@@ -500,6 +587,9 @@
         :pressure-atmosphere: 
           :one: "{0} atm"
           :other: "{0} atm"
+        :pressure-ofhg: 
+          :one: "{0} Hg unitate"
+          :other: "{0} Hg unitate"
         :speed-beaufort: 
           :one: "B{0}"
           :other: "B{0}"
@@ -566,13 +656,22 @@
         :angle-revolution: 
           :one: "{0} bira"
           :other: "{0} bira"
+        :angle-steradian: 
+          :one: "{0} sr"
+          :other: "{0} sr"
         :area-acre: 
           :one: "{0} akre"
           :other: "{0} akre"
+        :area-bu-jp: 
+          :other: "{0} bu [JP]"
+        :area-cho: 
+          :other: "{0} cho [JP]"
         :area-dunam: 
           :other: "{0} dunam"
         :area-hectare: 
           :other: "{0} ha"
+        :area-se-jp: 
+          :other: "{0} se [JP]"
         :area-square-centimeter: 
           :other: "{0} cm²"
         :area-square-foot: 
@@ -592,6 +691,9 @@
           :other: "{0} elementu"
         :concentr-karat: 
           :other: "{0} kt"
+        :concentr-katal: 
+          :one: "{0} katal"
+          :other: "{0} katal"
         :concentr-milligram-ofglucose-per-deciliter: 
           :one: "{0} mg/dl"
           :other: "{0} mg/dl"
@@ -600,20 +702,26 @@
           :other: "{0} mmol/l"
         :concentr-mole: 
           :other: "{0} mol"
+        :concentr-ofglucose: 
+          :one: "{0} glukosa-unitate"
+          :other: "{0} glukosa-unitate"
+        :concentr-part: 
+          :one: "{0} zati"
+          :other: "{0} zati"
+        :concentr-part-per-1e6: 
+          :other: "{0} ppm"
+        :concentr-part-per-1e9: 
+          :one: "{0} zati / m. m."
+          :other: "{0} zati / m. m."
         :concentr-percent: 
           :one: "% {0}"
           :other: "% {0}"
         :concentr-permille: 
           :one: "‰ {0}"
           :other: "‰ {0}"
-        :concentr-permillion: 
-          :other: "{0} ppm"
         :concentr-permyriad: 
           :one: "‱ {0}"
           :other: "‱ {0}"
-        :concentr-portion-per-1e9: 
-          :one: "{0} zati / m. m."
-          :other: "{0} zati / m. m."
         :consumption-liter-per-100-kilometer: 
           :one: "{0} l/100 km"
           :other: "{0} l/100 km"
@@ -657,6 +765,8 @@
         :duration-decade: 
           :one: "{0} hamark."
           :other: "{0} hamark."
+        :duration-fortnight: 
+          :other: "{0} fw"
         :duration-hour: 
           :other: "{0} h"
         :duration-microsecond: 
@@ -686,18 +796,41 @@
           :other: "{0} urte"
         :electric-ampere: 
           :other: "{0} A"
+        :electric-coulomb: 
+          :one: "{0} coulomb"
+          :other: "{0} coulomb"
+        :electric-farad: 
+          :one: "{0} farad"
+          :other: "{0} farad"
+        :electric-henry: 
+          :one: "{0} henry"
+          :other: "{0} henry"
         :electric-milliampere: 
           :other: "{0} mA"
         :electric-ohm: 
           :other: "{0} Ω"
+        :electric-siemens: 
+          :one: "{0} siemens"
+          :other: "{0} siemens"
         :electric-volt: 
           :other: "{0} V"
+        :energy-becquerel: 
+          :one: "{0} becquerel"
+          :other: "{0} becquerel"
         :energy-british-thermal-unit: 
           :other: "{0} Btu"
+        :energy-british-thermal-unit-it: 
+          :other: "{0} BTU-IT"
         :energy-calorie: 
           :other: "{0} cal"
+        :energy-calorie-it: 
+          :one: "{0} kaloria [IT]"
+          :other: "{0} kaloria [IT]"
         :energy-electronvolt: 
           :other: "{0} eV"
+        :energy-gray: 
+          :one: "{0} gray"
+          :other: "{0} gray"
         :energy-joule: 
           :other: "{0} J"
         :energy-kilocalorie: 
@@ -706,9 +839,15 @@
           :other: "{0} kJ"
         :energy-kilowatt-hour: 
           :other: "{0} kWh"
+        :energy-sievert: 
+          :one: "{0} sievert"
+          :other: "{0} sievert"
         :energy-therm-us: 
           :one: "{0} AEBko termia"
           :other: "{0} AEBko termia"
+        :force-kilogram-force: 
+          :one: "{0} kilopond"
+          :other: "{0} kilopond"
         :force-kilowatt-hour-per-100-kilometer: 
           :one: "{0} kWh / 100 km"
           :other: "{0} kWh / 100 km"
@@ -749,6 +888,8 @@
           :other: "{0} ua"
         :length-centimeter: 
           :other: "{0} cm"
+        :length-chain: 
+          :other: "{0} chain"
         :length-decimeter: 
           :other: "{0} dm"
         :length-earth-radius: 
@@ -762,6 +903,10 @@
           :other: "{0} fur"
         :length-inch: 
           :other: "{0} in"
+        :length-jo-jp: 
+          :other: "{0} jo [JP]"
+        :length-ken: 
+          :other: "{0} ken [JP]"
         :length-kilometer: 
           :other: "{0} km"
         :length-light-year: 
@@ -786,8 +931,20 @@
           :other: "{0} pm"
         :length-point: 
           :other: "{0} pt"
+        :length-ri-jp: 
+          :other: "{0} ri [JP]"
+        :length-rin: 
+          :other: "{0} rin [JP]"
+        :length-rod: 
+          :other: "{0} rod"
+        :length-shaku-cloth: 
+          :other: "{0} shaku [cloth, JP]"
+        :length-shaku-length: 
+          :other: "{0} shaku [JP]"
         :length-solar-radius: 
           :other: "{0} R☉"
+        :length-sun: 
+          :other: "{0} sun [JP]"
         :length-yard: 
           :other: "{0} yd"
         :light-candela: 
@@ -799,6 +956,11 @@
           :other: "{0} lux"
         :light-solar-luminosity: 
           :other: "{0} L☉"
+        :magnetic-tesla: 
+          :one: "{0} tesla"
+          :other: "{0} tesla"
+        :magnetic-weber: 
+          :other: "{0} Wb"
         :mass-carat: 
           :one: "{0} kilate"
           :other: "{0} kilate"
@@ -807,6 +969,8 @@
         :mass-earth-mass: 
           :one: "{0} lur-masa"
           :other: "{0} lur-masa"
+        :mass-fun: 
+          :other: "{0} fun [JP]"
         :mass-grain: 
           :one: "{0} ale"
           :other: "{0} ale"
@@ -826,6 +990,8 @@
           :other: "{0} troy ontza"
         :mass-pound: 
           :other: "{0} lb"
+        :mass-slug: 
+          :other: "{0} slug"
         :mass-solar-mass: 
           :one: "{0} eguzki-masa"
           :other: "{0} eguzki-masa"
@@ -853,6 +1019,8 @@
           :other: "{0} atmosfera"
         :pressure-bar: 
           :other: "{0} bar"
+        :pressure-gasoline-energy-density: 
+          :other: "{0} gas E"
         :pressure-hectopascal: 
           :other: "{0} hPa"
         :pressure-inch-ofhg: 
@@ -866,6 +1034,9 @@
           :other: "{0} mb"
         :pressure-millimeter-ofhg: 
           :other: "{0} mm Hg"
+        :pressure-ofhg: 
+          :one: "{0} merkurio-unitate"
+          :other: "{0} merkurio-unitate"
         :pressure-pascal: 
           :other: "{0} Pa"
         :pressure-pound-force-per-square-inch: 
@@ -896,6 +1067,8 @@
           :other: "{0} °"
         :temperature-kelvin: 
           :other: "{0} K"
+        :temperature-rankine: 
+          :other: "{0} °R"
         :torque-newton-meter: 
           :one: "{0} N·m"
           :other: "{0} N·m"
@@ -930,6 +1103,10 @@
         :volume-cup: 
           :one: "{0} katilukada"
           :other: "{0} katilukada"
+        :volume-cup-imperial: 
+          :other: "{0} cup Imp."
+        :volume-cup-jp: 
+          :other: "{0} cup [JP]"
         :volume-cup-metric: 
           :one: "{0} katilukada metriko"
           :other: "{0} katilukada metriko"
@@ -953,6 +1130,9 @@
         :volume-fluid-ounce-imperial: 
           :one: "{0} likido-ontza inperial"
           :other: "{0} likido-ontza inperial"
+        :volume-fluid-ounce-metric: 
+          :one: "{0} likido-ontza metriko"
+          :other: "{0} likido-ontza metriko"
         :volume-gallon: 
           :one: "{0} galoi"
           :other: "{0} galoi"
@@ -965,6 +1145,10 @@
         :volume-jigger: 
           :one: "{0} txupito"
           :other: "{0} txupito"
+        :volume-koku: 
+          :other: "{0} koku [JP]"
+        :volume-kosaji: 
+          :other: "{0} kosaji [JP]"
         :volume-liter: 
           :other: "{0} l"
         :volume-megaliter: 
@@ -973,11 +1157,15 @@
         :volume-milliliter: 
           :one: "{0} ml"
           :other: "{0} ml"
+        :volume-osaji: 
+          :other: "{0} osaji [JP]"
         :volume-pinch: 
           :other: "{0} pinch"
         :volume-pint: 
           :one: "{0} pinta"
           :other: "{0} pinta"
+        :volume-pint-imperial: 
+          :other: "{0} pt Imp."
         :volume-pint-metric: 
           :one: "{0} pinta metriko"
           :other: "{0} pinta metriko"
@@ -986,9 +1174,15 @@
           :other: "{0} galoi-laurden"
         :volume-quart-imperial: 
           :other: "{0} qt Imp."
+        :volume-sai: 
+          :other: "{0} sai [JP]"
+        :volume-shaku: 
+          :other: "{0} shaku [vol, JP]"
         :volume-tablespoon: 
           :one: "{0} koilarakada"
           :other: "{0} koilarakada"
         :volume-teaspoon: 
           :one: "{0} koilaratxokada"
           :other: "{0} koilaratxokada"
+        :volume-to-jp: 
+          :other: "{0} to [JP]"

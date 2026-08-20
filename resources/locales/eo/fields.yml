@@ -16,6 +16,10 @@
           :other: "antaŭ {0} tagoj"
     :day-narrow: 
       :display_name: t.
+      :relative: 
+        -1: hier.
+        0: hod.
+        1: morg.
       :relative_time: 
         :future: 
           :one: "post {0} t."
@@ -26,11 +30,15 @@
     :dayOfYear: 
       :display_name: "tago de jaro"
     :dayOfYear-narrow: 
-      :display_name: "t. de j."
+      :display_name: jartago
+    :dayOfYear-short: 
+      :display_name: jartago
     :dayperiod: 
-      :display_name: "mateno / posttagmezo / vespero"
+      :display_name: tagtempo
+    :dayperiod-narrow: 
+      :display_name: tagtempo
     :dayperiod-short: 
-      :display_name: tagotempo
+      :display_name: tagtempo
     :era: 
       :display_name: erao
     :fri: 
@@ -84,11 +92,11 @@
       :display_name: h
       :relative_time: 
         :future: 
-          :one: "post {0} h"
-          :other: "post {0} h"
+          :one: "post {0} h"
+          :other: "post {0} h"
         :past: 
-          :one: "antaŭ {0} h"
-          :other: "antaŭ {0} h"
+          :one: "antaŭ {0} h"
+          :other: "antaŭ {0} h"
     :minute: 
       :display_name: minuto
       :relative: 
@@ -104,11 +112,11 @@
       :display_name: min
       :relative_time: 
         :future: 
-          :one: "post {0} min"
-          :other: "post {0} min"
+          :one: "post {0} min"
+          :other: "post {0} min"
         :past: 
-          :one: "antaŭ {0} min"
-          :other: "antaŭ {0} min"
+          :one: "antaŭ {0} min"
+          :other: "antaŭ {0} min"
     :minute-short: 
       :display_name: min.
       :relative_time: 
@@ -253,11 +261,11 @@
       :display_name: s
       :relative_time: 
         :future: 
-          :one: "post {0} s"
-          :other: "post {0} s"
+          :one: "post {0} s"
+          :other: "post {0} s"
         :past: 
-          :one: "antaŭ {0} s"
-          :other: "antaŭ {0} s"
+          :one: "antaŭ {0} s"
+          :other: "antaŭ {0} s"
     :second-short: 
       :display_name: sek.
       :relative_time: 
@@ -436,6 +444,8 @@
       :display_name: semajntago
     :weekdayOfMonth: 
       :display_name: "semajntago de monato"
+    :weekdayOfMonth-narrow: 
+      :display_name: "st. de mon."
     :weekdayOfMonth-short: 
       :display_name: "st. de monato"
     :year: 

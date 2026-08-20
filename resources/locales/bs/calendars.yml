@@ -7,14 +7,18 @@
         :Bhm: "h:mm B"
         :Bhms: "h:mm:ss B"
         :E: ccc
+        :EBh: "E h B"
         :EBhm: "E h:mm B"
         :EBhms: "E h:mm:ss B"
         :EHm: "E HH:mm"
         :EHms: "E HH:mm:ss"
         :Ed: "E, d."
+        :Eh: "E h a"
         :Ehm: "E h:mm a"
         :Ehms: "E h:mm:ss a"
         :Gy: "y. G"
+        :GyM: "G y-MM"
+        :GyMEd: "G y-MM-dd, E"
         :GyMMM: "MMM y. G"
         :GyMMMEd: "E, d. MMM y. G"
         :GyMMMd: "d. MMM y. G"
@@ -24,6 +28,7 @@
         :Hms: "HH:mm:ss"
         :Hmsv: "HH:mm:ss (v)"
         :Hmv: "HH:mm (v)"
+        :Hv: "HH v"
         :M: L
         :MEd: "E, d. M."
         :MMM: LLL
@@ -40,6 +45,7 @@
         :hms: "hh:mm:ss a"
         :hmsv: "h:mm:ss a (v)"
         :hmv: "h:mm a (v)"
+        :hv: "h a v"
         :ms: "mm:ss"
         ? !ruby/symbol "y"
         : y.
@@ -134,7 +140,7 @@
       :fields: 
         :day: dan
         :day-narrow: Day
-        :day-short: Day
+        :day-short: dan
         :dayOfYear: "dan u godini"
         :dayOfYear-narrow: "dan u g."
         :dayOfYear-short: "dan u god."
@@ -148,7 +154,7 @@
         :hour-narrow: h
         :hour-short: h
         :minute: minuta
-        :minute-narrow: min
+        :minute-narrow: Minute
         :minute-short: min
         :month: mjesec
         :month-narrow: mj.
@@ -160,16 +166,16 @@
         :second-narrow: s
         :second-short: s
         :week: sedmica
-        :week-narrow: sed.
-        :week-short: sed.
+        :week-narrow: sedm.
+        :week-short: sedm.
         :weekOfMonth: "sedmica u mjesecu"
-        :weekOfMonth-narrow: "s. u mj."
-        :weekOfMonth-short: "sed. u mj."
+        :weekOfMonth-narrow: "sedm. u mj."
+        :weekOfMonth-short: "sedm. u mj."
         :weekday: "dan u sedmici"
         :weekday-narrow: "dan u sed."
         :weekday-short: "dan u sed."
         :weekdayOfMonth: "dan u mjesecu"
-        :weekdayOfMonth-narrow: "d. u mj."
+        :weekdayOfMonth-narrow: "dan u mj."
         :weekdayOfMonth-short: "dan u mj."
         :year: godina
         :year-narrow: g.
@@ -221,18 +227,18 @@
             8: aug
             9: sep
           :narrow: 
-            1: j
-            10: o
-            11: "n"
-            12: d
-            2: f
-            3: m
-            4: a
-            5: m
-            6: j
-            7: j
-            8: a
-            9: s
+            1: jan
+            10: okt
+            11: nov
+            12: dec
+            2: feb
+            3: mar
+            4: apr
+            5: may
+            6: jun
+            7: jul
+            8: aug
+            9: sep
           :wide: 
             1: januar
             10: oktobar
@@ -298,14 +304,26 @@
             :noon: podne
             :pm: p. m.
           :narrow: 
+            :afternoon1: poslijepodne
             :am: a. m.
+            :evening1: navečer
+            :midnight: ponoć
+            :morning1: ujutro
+            :night1: "po noći"
+            :noon: podne
             :pm: p. m.
           :wide: 
             :am: prijepodne
             :pm: popodne
         :stand-alone: 
           :abbreviated: 
+            :afternoon1: poslijepodne
             :am: a. m.
+            :evening1: navečer
+            :midnight: ponoć
+            :morning1: ujutro
+            :night1: "po noći"
+            :noon: podne
             :pm: p. m.
           :narrow: 
             :am: prijepodne

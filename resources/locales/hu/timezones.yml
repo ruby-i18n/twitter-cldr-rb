@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "dél-afrikai téli idő"
     :Africa_Western: 
       :long: 
-        :daylight: "nyugat-afrikai nyári idő"
-        :generic: "nyugat-afrikai időzóna"
-        :standard: "nyugat-afrikai téli idő"
+        :standard: "nyugat-afrikai időzóna"
     :Alaska: 
       :long: 
         :daylight: "alaszkai nyári idő"
@@ -232,7 +232,7 @@
     :Europe_Central: 
       :long: 
         :daylight: "közép-európai nyári idő"
-        :generic: "közép-európai időzóna"
+        :generic: "közép-európai idő"
         :standard: "közép-európai téli idő"
       :short: 
         :daylight: CEST
@@ -313,6 +313,9 @@
     :Guyana: 
       :long: 
         :standard: "guyanai téli idő"
+    :Hawaii: 
+      :long: 
+        :standard: "hawaii-aleuti téli idő"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "hawaii-aleuti nyári idő"
@@ -611,6 +614,11 @@
     :Truk: 
       :long: 
         :standard: "truki idő"
+    :Turkey: 
+      :long: 
+        :daylight: "Törökországi nyári idő"
+        :generic: "Törökországi idő"
+        :standard: "Törökországi zónaidő"
     :Turkmenistan: 
       :long: 
         :daylight: "türkmenisztáni nyári idő"
@@ -686,8 +694,12 @@
       :city: El-Ajún
     :Africa/Khartoum: 
       :city: Kartúm
+    :Africa/Lome: 
+      :city: Lomé
     :Africa/Malabo: 
       :city: Malabó
+    :Africa/Ndjamena: 
+      :city: N’Djamena
     :Africa/Sao_Tome: 
       :city: "São Tomé"
     :Africa/Tunis: 
@@ -756,6 +768,10 @@
       :city: Mérida
     :America/Mexico_City: 
       :city: Mexikóváros
+    :America/Miquelon: 
+      :city: Saint-Pierre
+    :America/Noronha: 
+      :city: "Fernando de Noronha"
     :America/North_Dakota/Beulah: 
       :city: "Beulah, Észak-Dakota"
     :America/North_Dakota/Center: 
@@ -764,6 +780,8 @@
       :city: "New Salem, Észak-Dakota"
     :America/Rio_Branco: 
       :city: "Río Branco"
+    :America/Santarem: 
+      :city: Santarém
     :America/Sao_Paulo: 
       :city: "São Paulo"
     :America/Scoresbysund: 
@@ -781,7 +799,9 @@
     :America/St_Vincent: 
       :city: "St. Vincent"
     :Antarctica/DumontDUrville: 
-      :city: "Dumont d’Urville"
+      :city: Dumont-d’Urville
+    :Antarctica/Syowa: 
+      :city: Showa
     :Antarctica/Vostok: 
       :city: Vosztok
     :Asia/Aden: 
@@ -824,6 +844,8 @@
       :city: Gáza
     :Asia/Hong_Kong: 
       :city: Hongkong
+    :Asia/Hovd: 
+      :city: Khovd
     :Asia/Irkutsk: 
       :city: Irkutszk
     :Asia/Jerusalem: 
@@ -949,6 +971,8 @@
       :city: Bukarest
     :Europe/Busingen: 
       :city: Büsingen
+    :Europe/Chisinau: 
+      :city: Chișinău
     :Europe/Copenhagen: 
       :city: Koppenhága
     :Europe/Dublin: 
@@ -1019,6 +1043,8 @@
       :city: Kókusz-sziget
     :Indian/Comoro: 
       :city: Komoró
+    :Indian/Mahe: 
+      :city: Mahé
     :Indian/Maldives: 
       :city: Maldív-szigetek
     :Indian/Reunion: 
@@ -1028,7 +1054,7 @@
     :Pacific/Easter: 
       :city: Húsvét-szigetek
     :Pacific/Enderbury: 
-      :city: Enderbury
+      :city: Canton-sziget
     :Pacific/Fiji: 
       :city: Fidzsi
     :Pacific/Galapagos: 
@@ -1049,6 +1075,8 @@
       :city: Marquesas-szigetek
     :Pacific/Midway: 
       :city: Midway-szigetek
+    :Pacific/Noumea: 
+      :city: Nouméa
     :Pacific/Pitcairn: 
       :city: Pitcairn-szigetek
     :Pacific/Ponape: 
@@ -1057,3 +1085,5 @@
       :city: Truk
     :Pacific/Wake: 
       :city: Wake-sziget
+    :Pacific/Wallis: 
+      :city: "Wallis & Futuna"

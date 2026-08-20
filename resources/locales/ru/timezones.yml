@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "Южная Африка"
     :Africa_Western: 
       :long: 
-        :daylight: "Западная Африка, летнее время"
-        :generic: "Западная Африка"
-        :standard: "Западная Африка, стандартное время"
+        :standard: "Западная Африка"
     :Alaska: 
       :long: 
         :daylight: "Аляска, летнее время"
@@ -299,6 +299,9 @@
     :Guyana: 
       :long: 
         :standard: Гайана
+    :Hawaii: 
+      :long: 
+        :standard: "Гавайско-алеутское стандартное время"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "Гавайско-алеутское летнее время"
@@ -597,6 +600,11 @@
     :Truk: 
       :long: 
         :standard: Трук
+    :Turkey: 
+      :long: 
+        :daylight: "Турецкое летнее время"
+        :generic: "Турецкое время"
+        :standard: "Турецкое стандартное время"
     :Turkmenistan: 
       :long: 
         :daylight: "Туркменистан, летнее время"
@@ -834,6 +842,8 @@
       :city: Кордова
     :America/Costa_Rica: 
       :city: Коста-Рика
+    :America/Coyhaique: 
+      :city: Койайке
     :America/Creston: 
       :city: Крестон
     :America/Cuiaba: 
@@ -1438,7 +1448,7 @@
     :Pacific/Efate: 
       :city: Эфате
     :Pacific/Enderbury: 
-      :city: "о-в Эндербери"
+      :city: "о-в Кантон"
     :Pacific/Fakaofo: 
       :city: Факаофо
     :Pacific/Fiji: 
@@ -1455,8 +1465,6 @@
       :city: Гуам
     :Pacific/Honolulu: 
       :city: Гонолулу
-    :Pacific/Kanton: 
-      :city: Кантон
     :Pacific/Kiritimati: 
       :city: Киритимати
     :Pacific/Kosrae: 

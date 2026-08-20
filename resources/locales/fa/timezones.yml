@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "{0} گرینویچ"
+    :gmt_unknown_formats: 
+      :generic: گرینویچ+؟
     :gmt_zero_formats: 
       :generic: گرینویچ
     :hour_formats: 
@@ -28,9 +30,7 @@
         :standard: "وقت عادی جنوب افریقا"
     :Africa_Western: 
       :long: 
-        :daylight: "وقت تابستانی غرب افریقا"
-        :generic: "وقت غرب افریقا"
-        :standard: "وقت عادی غرب افریقا"
+        :standard: "وقت غرب افریقا"
     :Alaska: 
       :long: 
         :daylight: "وقت تابستانی آلاسکا"
@@ -281,6 +281,9 @@
     :Guyana: 
       :long: 
         :standard: "وقت گویان"
+    :Hawaii: 
+      :long: 
+        :standard: "وقت عادی هاوایی‐الوشن"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "وقت تابستانی هاوایی‐الوشن"
@@ -579,6 +582,11 @@
     :Truk: 
       :long: 
         :standard: "وقت چوئوک"
+    :Turkey: 
+      :long: 
+        :daylight: "وقت تابستانی ترکیه"
+        :generic: "وقت ترکیه"
+        :standard: "وقت عادی ترکیه"
     :Turkmenistan: 
       :long: 
         :daylight: "وقت تابستانی ترکمنستان"
@@ -816,6 +824,8 @@
       :city: کوردووا
     :America/Costa_Rica: 
       :city: کاستاریکا
+    :America/Coyhaique: 
+      :city: کویهایکیو
     :America/Creston: 
       :city: کرستون
     :America/Cuiaba: 
@@ -1420,7 +1430,7 @@
     :Pacific/Efate: 
       :city: افاته
     :Pacific/Enderbury: 
-      :city: اندربری
+      :city: کانتون
     :Pacific/Fakaofo: 
       :city: فاکائوفو
     :Pacific/Fiji: 
@@ -1437,8 +1447,6 @@
       :city: گوام
     :Pacific/Honolulu: 
       :city: هونولولو
-    :Pacific/Kanton: 
-      :city: کانتون
     :Pacific/Kiritimati: 
       :city: کریتیماتی
     :Pacific/Kosrae: 

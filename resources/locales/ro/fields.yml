@@ -31,7 +31,11 @@
     :dayOfYear: 
       :display_name: "ziua din an"
     :dayperiod: 
-      :display_name: a.m/p.m.
+      :display_name: a.m./p.m.
+    :dayperiod-narrow: 
+      :display_name: a.m./p.m.
+    :dayperiod-short: 
+      :display_name: a.m./p.m.
     :era: 
       :display_name: eră
     :fri: 
@@ -212,16 +216,6 @@
           :few: "-{0} luni"
           :one: "-{0} lună"
           :other: "-{0} luni"
-    :month-short: 
-      :relative_time: 
-        :future: 
-          :few: "peste {0} luni"
-          :one: "peste {0} lună"
-          :other: "peste {0} luni"
-        :past: 
-          :few: "acum {0} luni"
-          :one: "acum {0} lună"
-          :other: "acum {0} luni"
     :quarter: 
       :display_name: trimestru
       :relative: 

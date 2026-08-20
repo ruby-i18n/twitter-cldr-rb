@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -34,12 +36,8 @@
         :standard: SAST
     :Africa_Western: 
       :long: 
-        :daylight: Wes-Afrika-somertyd
-        :generic: Wes-Afrika-tyd
-        :standard: Wes-Afrika-standaardtyd
+        :standard: Wes-Afrika-tyd
       :short: 
-        :daylight: WAST
-        :generic: WAT
         :standard: WAT
     :Alaska: 
       :long: 
@@ -128,9 +126,9 @@
         :standard: "Westelike Australiese standaardtyd"
     :Azerbaijan: 
       :long: 
-        :daylight: Aserbeidjan-somertyd
-        :generic: Aserbeidjan-tyd
-        :standard: Aserbeidjan-standaardtyd
+        :daylight: Azerbeidjan-somertyd
+        :generic: Azerbeidjan-tyd
+        :standard: Azerbeidjan-standaardtyd
     :Azores: 
       :long: 
         :daylight: Asore-somertyd
@@ -204,7 +202,7 @@
         :standard: Davis-tyd
     :DumontDUrville: 
       :long: 
-        :standard: Dumont-d’Urville-tyd
+        :standard: "Dumont d’Urville-tyd"
     :East_Timor: 
       :long: 
         :standard: Oos-Timor-tyd
@@ -283,6 +281,9 @@
     :Guyana: 
       :long: 
         :standard: Guiana-tyd
+    :Hawaii: 
+      :long: 
+        :standard: Hawaii-Aleoete-standaardtyd
     :Hawaii_Aleutian: 
       :long: 
         :daylight: Hawaii-Aleoete-dagligtyd
@@ -632,16 +633,32 @@
       :city: Kaïro
     :Africa/Djibouti: 
       :city: Djiboeti
+    :Africa/El_Aaiun: 
+      :city: "El Aaiún"
     :Africa/Khartoum: 
       :city: Kartoem
+    :Africa/Lome: 
+      :city: Lomé
     :Africa/Mogadishu: 
       :city: Mogadisjoe
+    :Africa/Ndjamena: 
+      :city: N’Djamena
     :Africa/Sao_Tome: 
       :city: "São Tomé"
+    :America/Araguaina: 
+      :city: Araguaína
+    :America/Argentina/Rio_Gallegos: 
+      :city: "Río Gallegos"
+    :America/Argentina/Tucuman: 
+      :city: Tucumán
     :America/Asuncion: 
       :city: Asunción
     :America/Bahia_Banderas: 
-      :city: "Bahia Banderas"
+      :city: "Bahía de Banderas"
+    :America/Belem: 
+      :city: Belém
+    :America/Bogota: 
+      :city: Bogotá
     :America/Cambridge_Bay: 
       :city: Cambridgebaai
     :America/Cancun: 
@@ -652,8 +669,14 @@
       :city: "Ciudad Juárez"
     :America/Coral_Harbour: 
       :city: Atikokan
+    :America/Cordoba: 
+      :city: Córdoba
+    :America/Cuiaba: 
+      :city: Cuiabá
     :America/Curacao: 
       :city: Curaçao
+    :America/Eirunepe: 
+      :city: Eirunepé
     :America/Glace_Bay: 
       :city: Glacebaai
     :America/Godthab: 
@@ -680,16 +703,28 @@
       :city: "Monticello, Kentucky"
     :America/Lower_Princes: 
       :city: "Lower Prince’s Quarter"
+    :America/Maceio: 
+      :city: Maceió
+    :America/Mazatlan: 
+      :city: Mazatlán
     :America/Merida: 
       :city: Mérida
     :America/Mexico_City: 
       :city: Meksikostad
+    :America/Miquelon: 
+      :city: Saint-Pierre
+    :America/Noronha: 
+      :city: "Fernando de Noronha"
     :America/North_Dakota/Beulah: 
       :city: "Beulah, Noord-Dakota"
     :America/North_Dakota/Center: 
       :city: "Center, Noord-Dakota"
     :America/North_Dakota/New_Salem: 
       :city: "New Salem, Noord-Dakota"
+    :America/Santarem: 
+      :city: Santarém
+    :America/Sao_Paulo: 
+      :city: "São Paulo"
     :America/Scoresbysund: 
       :city: Ittoqqortoormiit
     :America/St_Barthelemy: 
@@ -704,10 +739,24 @@
       :city: "Sint Thomas"
     :America/St_Vincent: 
       :city: "Sint Vincent"
+    :Antarctica/Casey: 
+      :city: Casey-stasie
+    :Antarctica/Davis: 
+      :city: Davis-stasie
     :Antarctica/DumontDUrville: 
-      :city: "Dumont d’Urville"
+      :city: "Dumont d’Urville-stasie"
+    :Antarctica/Mawson: 
+      :city: Mawson-stasie
+    :Antarctica/McMurdo: 
+      :city: McMurdo-stasie
+    :Antarctica/Rothera: 
+      :city: Rothera-navorsingstasie
+    :Antarctica/Syowa: 
+      :city: Syowa-stasie
+    :Antarctica/Troll: 
+      :city: Troll-stasie
     :Antarctica/Vostok: 
-      :city: Wostok
+      :city: Wostok-stasie
     :Asia/Ashgabat: 
       :city: Asjchabad
     :Asia/Baghdad: 
@@ -730,6 +779,8 @@
       :city: Doebai
     :Asia/Hong_Kong: 
       :city: Hongkong
+    :Asia/Hovd: 
+      :city: Khovd
     :Asia/Irkutsk: 
       :city: Irkoetsk
     :Asia/Jakarta: 
@@ -768,6 +819,8 @@
       :city: Singapoer
     :Asia/Tokyo: 
       :city: Tokio
+    :Asia/Urumqi: 
+      :city: Ürümqi
     :Asia/Vladivostok: 
       :city: Wladiwostok
     :Asia/Yakutsk: 
@@ -792,7 +845,7 @@
       :short: 
         :standard: UTC
     :Etc/Unknown: 
-      :city: "Onbekende stad"
+      :city: "Onbekende ligging"
     :Europe/Athens: 
       :city: Athene
     :Europe/Berlin: 
@@ -803,6 +856,10 @@
       :city: Boekarest
     :Europe/Budapest: 
       :city: Boedapest
+    :Europe/Busingen: 
+      :city: Büsingen
+    :Europe/Chisinau: 
+      :city: Chișinău
     :Europe/Copenhagen: 
       :city: Kopenhagen
     :Europe/Dublin: 
@@ -828,6 +885,8 @@
       :city: Praag
     :Europe/Saratov: 
       :city: Saratof
+    :Europe/Tirane: 
+      :city: Tirana
     :Europe/Vatican: 
       :city: Vatikaanstad
     :Europe/Vienna: 
@@ -842,23 +901,35 @@
       :city: Kokos
     :Indian/Comoro: 
       :city: Comore
+    :Indian/Mahe: 
+      :city: Mahé
     :Indian/Maldives: 
       :city: Maledive
     :Indian/Reunion: 
       :city: Réunion
     :Pacific/Easter: 
-      :city: Paas
+      :city: Paaseiland
     :Pacific/Enderbury: 
-      :city: Enderbury
+      :city: Kantoneiland
     :Pacific/Fiji: 
       :city: Fidji
+    :Pacific/Galapagos: 
+      :city: Galápagos
     :Pacific/Honolulu: 
       :city: Honolulu
+    :Pacific/Kwajalein: 
+      :city: "Kwajalein Atoll"
+    :Pacific/Marquesas: 
+      :city: Marquesas-eilande
     :Pacific/Noumea: 
       :city: Nouméa
+    :Pacific/Pitcairn: 
+      :city: Pitcairn-eilande
     :Pacific/Ponape: 
       :city: Pohnpei
     :Pacific/Truk: 
       :city: Chuuk
+    :Pacific/Wake: 
+      :city: Wake-eiland
     :Pacific/Wallis: 
-      :city: Mata-Utu
+      :city: "Wallis & Futuna"

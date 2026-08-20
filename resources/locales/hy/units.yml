@@ -28,6 +28,9 @@
         :angle-revolution: 
           :one: "{0} պտույտում"
           :other: "{0} պտույտում"
+        :angle-steradian: 
+          :one: "{0} ստեռադիան"
+          :other: "{0} ստեռադիան"
         :area-hectare: 
           :one: "{0} հեկտարում"
           :other: "{0} հեկտարում"
@@ -58,6 +61,9 @@
         :concentr-karat: 
           :one: "{0} կարատում"
           :other: "{0} կարատում"
+        :concentr-katal: 
+          :one: "{0} կատալ"
+          :other: "{0} կատալ"
         :concentr-milligram-ofglucose-per-deciliter: 
           :one: "{0} միլիգրամում դեցիլիտրի վրա"
           :other: "{0} միլիգրամում դեցիլիտրի վրա"
@@ -67,21 +73,27 @@
         :concentr-mole: 
           :one: "{0} մոլում"
           :other: "{0} մոլում"
+        :concentr-ofglucose: 
+          :one: "{0} գլյուկոզ"
+          :other: "{0} գլյուկոզ"
+        :concentr-part: 
+          :one: "{0} մաս"
+          :other: "{0} մաս"
+        :concentr-part-per-1e6: 
+          :one: "{0} մասում միլիոնի վրա"
+          :other: "{0} մասում միլիոնի վրա"
+        :concentr-part-per-1e9: 
+          :one: "{0} մասում միլիարդի վրա"
+          :other: "{0} մասում միլիարդի վրա"
         :concentr-percent: 
           :one: "{0} տոկոսում"
           :other: "{0} տոկոսում"
         :concentr-permille: 
           :one: "{0} պրոմիլում"
           :other: "{0} պրոմիլում"
-        :concentr-permillion: 
-          :one: "{0} մասում միլիոնի վրա"
-          :other: "{0} մասում միլիոնի վրա"
         :concentr-permyriad: 
           :one: "{0} պերմիրիադում"
           :other: "{0} պերմիրիադում"
-        :concentr-portion-per-1e9: 
-          :one: "{0} մասում միլիարդի վրա"
-          :other: "{0} մասում միլիարդի վրա"
         :consumption-liter-per-100-kilometer: 
           :one: "{0} լիտրում 100 կիլոմետրի վրա"
           :other: "{0} լիտրում 100 կիլոմետրի վրա"
@@ -172,27 +184,48 @@
         :electric-ampere: 
           :one: "{0} ամպերում"
           :other: "{0} ամպերում"
+        :electric-coulomb: 
+          :one: "{0} կուլոն"
+          :other: "{0} կուլոն"
+        :electric-farad: 
+          :one: "{0} ֆարադ"
+          :other: "{0} ֆարադ"
+        :electric-henry: 
+          :one: "{0} հենրի"
+          :other: "{0} հենրի"
         :electric-milliampere: 
           :one: "{0} միլիամպերում"
           :other: "{0} միլիամպերում"
         :electric-ohm: 
           :one: "{0} օհմում"
           :other: "{0} օհմում"
+        :electric-siemens: 
+          :one: "{0} սիմենս"
+          :other: "{0} սիմենս"
         :electric-volt: 
           :one: "{0} վոլտում"
           :other: "{0} վոլտում"
+        :energy-becquerel: 
+          :one: "{0} բեքերել"
+          :other: "{0} բեքերել"
         :energy-british-thermal-unit: 
           :one: "{0} բրիտանական ջերմային միավոր"
           :other: "{0} բրիտանական ջերմային միավոր"
         :energy-calorie: 
           :one: "{0} կալորիայում"
           :other: "{0} կալորիայում"
+        :energy-calorie-it: 
+          :one: "{0} միջազգային կալորիա"
+          :other: "{0} միջազգային կալորիա"
         :energy-electronvolt: 
           :one: "{0} էլեկտրոն-վոլտ"
           :other: "{0} էլեկտրոն-վոլտ"
         :energy-foodcalorie: 
           :one: "{0} կալորիա"
           :other: "{0} կալորիա"
+        :energy-gray: 
+          :one: "{0} գրեյ"
+          :other: "{0} գրեյ"
         :energy-joule: 
           :one: "{0} ջոուլում"
           :other: "{0} ջոուլում"
@@ -205,6 +238,12 @@
         :energy-kilowatt-hour: 
           :one: "{0} կիլովատտ-ժամում"
           :other: "{0} կիլովատտ-ժամում"
+        :energy-sievert: 
+          :one: "{0} զիվերտ"
+          :other: "{0} զիվերտ"
+        :force-kilogram-force: 
+          :one: "{0} կիլոգրամ-ուժ"
+          :other: "{0} կիլոգրամ-ուժ"
         :force-kilowatt-hour-per-100-kilometer: 
           :one: "{0} կիլովատտ-ժամում 100 կիլոմետրի վրա"
           :other: "{0} կիլովատտ-ժամում 100 կիլոմետրի վրա"
@@ -325,6 +364,12 @@
         :light-solar-luminosity: 
           :one: "{0} արեգակնային լուսատվություն"
           :other: "{0} արեգակնային լուսատվություն"
+        :magnetic-tesla: 
+          :one: "{0} տեսլա"
+          :other: "{0} տեսլա"
+        :magnetic-weber: 
+          :one: "{0} վեբեր"
+          :other: "{0} վեբեր"
         :mass-carat: 
           :one: "{0} կարատում"
           :other: "{0} կարատում"
@@ -401,8 +446,11 @@
           :one: "{0} միլիբարում"
           :other: "{0} միլիբարում"
         :pressure-millimeter-ofhg: 
-          :one: "{0} միլիմետրում՝ սնդիկի սյան"
-          :other: "{0} միլիմետրում՝ սնդիկի սյան"
+          :one: "{0} սնդիկի սյան միլիմետրում"
+          :other: "{0} սնդիկի սյան միլիմետրում"
+        :pressure-ofhg: 
+          :one: "{0} սնդիկի սյուն"
+          :other: "{0} սնդիկի սյուն"
         :pressure-pascal: 
           :one: "{0} պասկալում"
           :other: "{0} պասկալում"
@@ -418,6 +466,9 @@
         :speed-knot: 
           :one: "{0} հանգույց"
           :other: "{0} հանգույց"
+        :speed-light-speed: 
+          :one: "{0} լույսի արագություն"
+          :other: "{0} լույսի արագություն"
         :speed-meter-per-second: 
           :one: "վայրկյանում {0} մետրում"
           :other: "վայրկյանում {0} մետրում"
@@ -499,6 +550,9 @@
         :volume-fluid-ounce-imperial: 
           :one: "{0} անգլիական հեղուկ ունկի"
           :other: "{0} անգլիական հեղուկ ունկի"
+        :volume-fluid-ounce-metric: 
+          :one: "{0} մետրիկ հեղուկ ունկի"
+          :other: "{0} մետրիկ հեղուկ ունկի"
         :volume-gallon: 
           :one: "{0} գալոն"
           :other: "{0} գալոն"
@@ -536,6 +590,9 @@
         :angle-revolution: 
           :one: "{0}պտ"
           :other: "{0}պտ"
+        :angle-steradian: 
+          :one: "{0} sr"
+          :other: "{0} sr"
         :area-acre: 
           :one: "{0}ակր"
           :other: "{0}ակր"
@@ -569,16 +626,25 @@
         :concentr-karat: 
           :one: "{0}կար"
           :other: "{0}կար"
+        :concentr-katal: 
+          :one: "{0}կատ"
+          :other: "{0}կատ"
         :concentr-millimole-per-liter: 
           :one: "{0}մմոլ/լ"
           :other: "{0}մմոլ/լ"
         :concentr-mole: 
           :one: "{0}մոլ"
           :other: "{0}մոլ"
-        :concentr-permillion: 
+        :concentr-ofglucose: 
+          :one: "{0} գլյուկոզ"
+          :other: "{0} գլյուկոզ"
+        :concentr-part: 
+          :one: "{0} մ․"
+          :other: "{0} մ․"
+        :concentr-part-per-1e6: 
           :one: "{0}մմվ"
           :other: "{0}մմվ"
-        :concentr-portion-per-1e9: 
+        :concentr-part-per-1e9: 
           :one: "{0}մմլրդվ"
           :other: "{0}մմլրդվ"
         :consumption-liter-per-kilometer: 
@@ -641,30 +707,51 @@
         :electric-ampere: 
           :one: "{0}Ա"
           :other: "{0}Ա"
+        :electric-farad: 
+          :one: "{0} Ֆ"
+          :other: "{0} Ֆ"
         :electric-milliampere: 
           :one: "{0}մԱ"
           :other: "{0}մԱ"
         :electric-ohm: 
           :one: "{0} Ω"
           :other: "{0}Ω"
+        :electric-siemens: 
+          :one: "{0} S"
+          :other: "{0} S"
         :electric-volt: 
           :one: "{0}Վ"
           :other: "{0}Վ"
+        :energy-becquerel: 
+          :one: "{0}Բք"
+          :other: "{0}Բք"
         :energy-british-thermal-unit: 
           :one: "{0}Բջմ"
           :other: "{0}Բջմ"
+        :energy-calorie-it: 
+          :one: "{0} միջազգային կալորիա"
+          :other: "{0} միջազգային կալորիա"
         :energy-electronvolt: 
           :one: "{0}էՎ"
           :other: "{0}էՎ"
         :energy-foodcalorie: 
           :one: "{0} կալ"
           :other: "{0}կալ"
+        :energy-gray: 
+          :one: "{0}Գր"
+          :other: "{0}Գր"
         :energy-kilocalorie: 
           :one: "{0}կկալ"
           :other: "{0}կկալ"
         :energy-kilojoule: 
           :one: "{0}կՋ"
           :other: "{0}կՋ"
+        :energy-sievert: 
+          :one: "{0}Զվ"
+          :other: "{0}Զվ"
+        :force-kilogram-force: 
+          :one: "{0}կգ-ուժ"
+          :other: "{0}կգ-ուժ"
         :force-kilowatt-hour-per-100-kilometer: 
           :one: "{0} կՎտժ/100 կմ"
           :other: "{0} կՎտժ/100 կմ"
@@ -683,9 +770,6 @@
         :graphics-em: 
           :one: "{0}em"
           :other: "{0}em"
-        :graphics-pixel-per-centimeter: 
-          :one: "{0}կսմվ"
-          :other: "{0}կսմվ"
         :length-foot: 
           :one: "{0}′"
           :other: "{0}′"
@@ -701,6 +785,12 @@
         :light-lux: 
           :one: "{0}լք"
           :other: "{0}լք"
+        :magnetic-tesla: 
+          :one: "{0}Տլ"
+          :other: "{0}Տլ"
+        :magnetic-weber: 
+          :one: "{0}Վբ"
+          :other: "{0}Վբ"
         :mass-carat: 
           :one: "{0}կար"
           :other: "{0}կար"
@@ -735,14 +825,14 @@
           :one: "{0}ձ/ու"
           :other: "{0}ձ/ու"
         :power-kilowatt: 
-          :one: "{0}կՎ"
-          :other: "{0}կՎ"
+          :one: "{0}կՎտ"
+          :other: "{0}կՎտ"
         :power-milliwatt: 
           :one: "{0}մՎտ"
           :other: "{0}մՎտ"
         :power-watt: 
-          :one: "{0}Վ"
-          :other: "{0}Վ"
+          :one: "{0}Վտ"
+          :other: "{0}Վտ"
         :pressure-atmosphere: 
           :one: "{0}մթն"
           :other: "{0}մթն"
@@ -764,12 +854,21 @@
         :pressure-millibar: 
           :one: "{0}մբ"
           :other: "{0}մբ"
+        :pressure-millimeter-ofhg: 
+          :one: "{0} մմսս"
+          :other: "{0} մմսս"
+        :pressure-ofhg: 
+          :one: "{0}սս"
+          :other: "{0}սս"
         :pressure-pascal: 
           :one: "{0}Պա"
           :other: "{0}Պա"
         :speed-beaufort: 
           :one: "Բ{0}"
           :other: "Բ{0}"
+        :speed-light-speed: 
+          :one: "{0} լ․ա․"
+          :other: "{0} լ․ա․"
         :speed-meter-per-second: 
           :one: "{0}մ/վ"
           :other: "{0}մ/վ"
@@ -821,6 +920,9 @@
         :volume-fluid-ounce: 
           :one: "{0}հղ.ու"
           :other: "{0}հղ.ու"
+        :volume-fluid-ounce-metric: 
+          :one: "{0} մետր․ հղ․ ու"
+          :other: "{0} մետր․ հղ․ ու"
         :volume-gallon: 
           :one: "{0}գալ"
           :other: "{0}գալ"
@@ -864,15 +966,24 @@
         :angle-revolution: 
           :one: "{0} պտ"
           :other: "{0} պտ"
+        :angle-steradian: 
+          :one: "{0} ստեռ"
+          :other: "{0} ստեռ"
         :area-acre: 
           :one: "{0} ակր"
           :other: "{0} ակր"
+        :area-bu-jp: 
+          :other: "{0} bu [JP]"
+        :area-cho: 
+          :other: "{0} cho [JP]"
         :area-dunam: 
           :one: "{0} դունամ"
           :other: "{0} դունամ"
         :area-hectare: 
           :one: "{0} հա"
           :other: "{0} հա"
+        :area-se-jp: 
+          :other: "{0} se [JP]"
         :area-square-centimeter: 
           :one: "{0} սմ²"
           :other: "{0} սմ²"
@@ -900,6 +1011,9 @@
         :concentr-karat: 
           :one: "{0} կար"
           :other: "{0} կար"
+        :concentr-katal: 
+          :one: "{0} կատ"
+          :other: "{0} կատ"
         :concentr-milligram-ofglucose-per-deciliter: 
           :one: "{0} մգ/դլ"
           :other: "{0} մգ/դլ"
@@ -909,18 +1023,24 @@
         :concentr-mole: 
           :one: "{0} մոլ"
           :other: "{0} մոլ"
+        :concentr-ofglucose: 
+          :one: "{0} գլյուկոզ"
+          :other: "{0} գլյուկոզ"
+        :concentr-part: 
+          :one: "{0} մաս"
+          :other: "{0} մաս"
+        :concentr-part-per-1e6: 
+          :one: "{0} մմվ"
+          :other: "{0} մմվ"
+        :concentr-part-per-1e9: 
+          :one: "{0} մմլրդվ"
+          :other: "{0} մմլրդվ"
         :concentr-percent: 
           :other: "{0}%"
         :concentr-permille: 
           :other: "{0}‰"
-        :concentr-permillion: 
-          :one: "{0} մմվ"
-          :other: "{0} մմվ"
         :concentr-permyriad: 
           :other: "{0}‱"
-        :concentr-portion-per-1e9: 
-          :one: "{0} մմլրդվ"
-          :other: "{0} մմլրդվ"
         :consumption-liter-per-100-kilometer: 
           :one: "{0} Լ/100 կմ"
           :other: "{0} Լ/100 կմ"
@@ -975,6 +1095,8 @@
         :duration-decade: 
           :one: "{0} 10-ամյակ"
           :other: "{0} 10-ամյակ"
+        :duration-fortnight: 
+          :other: "{0} fw"
         :duration-hour: 
           :one: "{0} ժ"
           :other: "{0} ժ"
@@ -1011,27 +1133,49 @@
         :electric-ampere: 
           :one: "{0} Ա"
           :other: "{0} Ա"
+        :electric-coulomb: 
+          :one: "{0} Կլ"
+          :other: "{0} Կլ"
+        :electric-farad: 
+          :one: "{0} Ֆ"
+          :other: "{0} Ֆ"
+        :electric-henry: 
+          :one: "{0} հն"
+          :other: "{0} հն"
         :electric-milliampere: 
           :one: "{0} մԱ"
           :other: "{0} մԱ"
         :electric-ohm: 
-          :one: "{0} Ω"
           :other: "{0} Ω"
+        :electric-siemens: 
+          :one: "{0} Սմ"
+          :other: "{0} Սմ"
         :electric-volt: 
           :one: "{0} Վ"
           :other: "{0} Վ"
+        :energy-becquerel: 
+          :one: "{0} Բք"
+          :other: "{0} Բք"
         :energy-british-thermal-unit: 
           :one: "{0} Բջմ"
           :other: "{0} Բջմ"
+        :energy-british-thermal-unit-it: 
+          :other: "{0} BTU-IT"
         :energy-calorie: 
           :one: "{0} կալ"
           :other: "{0} կալ"
+        :energy-calorie-it: 
+          :one: "{0} միջազգային կալորիա"
+          :other: "{0} միջազգային կալորիա"
         :energy-electronvolt: 
           :one: "{0} էՎ"
           :other: "{0} էՎ"
         :energy-foodcalorie: 
           :one: "{0} կալ"
           :other: "{0} կալ"
+        :energy-gray: 
+          :one: "{0} Գր"
+          :other: "{0} Գր"
         :energy-joule: 
           :one: "{0} Ջ"
           :other: "{0} Ջ"
@@ -1044,9 +1188,15 @@
         :energy-kilowatt-hour: 
           :one: "{0} կՎտ·ժ"
           :other: "{0} կՎտ·ժ"
+        :energy-sievert: 
+          :one: "{0} Զվ"
+          :other: "{0} Զվ"
         :energy-therm-us: 
           :one: "{0} ԱՄՆ ջերմ"
           :other: "{0} ԱՄՆ ջերմ"
+        :force-kilogram-force: 
+          :one: "{0} կգ-ուժ"
+          :other: "{0} կգ-ուժ"
         :force-kilowatt-hour-per-100-kilometer: 
           :one: "{0} կՎտ⋅ժ/100 կմ"
           :other: "{0} կՎտ⋅ժ/100 կմ"
@@ -1097,6 +1247,8 @@
         :length-centimeter: 
           :one: "{0} սմ"
           :other: "{0} սմ"
+        :length-chain: 
+          :other: "{0} chain"
         :length-decimeter: 
           :one: "{0} դմ"
           :other: "{0} դմ"
@@ -1114,6 +1266,10 @@
         :length-inch: 
           :one: "{0} մատ"
           :other: "{0} մատ"
+        :length-jo-jp: 
+          :other: "{0} jo [JP]"
+        :length-ken: 
+          :other: "{0} ken [JP]"
         :length-kilometer: 
           :one: "{0} կմ"
           :other: "{0} կմ"
@@ -1149,8 +1305,20 @@
           :other: "{0} պմ"
         :length-point: 
           :other: "{0} pt"
+        :length-ri-jp: 
+          :other: "{0} ri [JP]"
+        :length-rin: 
+          :other: "{0} rin [JP]"
+        :length-rod: 
+          :other: "{0} rod"
+        :length-shaku-cloth: 
+          :other: "{0} shaku [cloth, JP]"
+        :length-shaku-length: 
+          :other: "{0} shaku [JP]"
         :length-solar-radius: 
           :other: "{0} R☉"
+        :length-sun: 
+          :other: "{0} sun [JP]"
         :length-yard: 
           :one: "{0} յդ"
           :other: "{0} յդ"
@@ -1165,6 +1333,12 @@
           :other: "{0} լք"
         :light-solar-luminosity: 
           :other: "{0} L☉"
+        :magnetic-tesla: 
+          :one: "{0} Տլ"
+          :other: "{0} Տլ"
+        :magnetic-weber: 
+          :one: "{0} Վբ"
+          :other: "{0} Վբ"
         :mass-carat: 
           :one: "{0} կար"
           :other: "{0} կար"
@@ -1173,6 +1347,8 @@
           :other: "{0} դա"
         :mass-earth-mass: 
           :other: "{0} M⊕"
+        :mass-fun: 
+          :other: "{0} fun [JP]"
         :mass-grain: 
           :one: "{0} գրան"
           :other: "{0} գրան"
@@ -1197,6 +1373,8 @@
         :mass-pound: 
           :one: "{0} ֆունտ"
           :other: "{0} ֆունտ"
+        :mass-slug: 
+          :other: "{0} slug"
         :mass-solar-mass: 
           :other: "{0} M☉"
         :mass-stone: 
@@ -1232,6 +1410,8 @@
         :pressure-bar: 
           :one: "{0} բար"
           :other: "{0} բար"
+        :pressure-gasoline-energy-density: 
+          :other: "{0} gas E"
         :pressure-hectopascal: 
           :one: "{0} հՊա"
           :other: "{0} հՊա"
@@ -1250,6 +1430,9 @@
         :pressure-millimeter-ofhg: 
           :one: "{0} մմ ս.ս."
           :other: "{0} մմ ս.ս."
+        :pressure-ofhg: 
+          :one: "{0} ս․ս․"
+          :other: "{0} ս․ս․"
         :pressure-pascal: 
           :one: "{0} Պա"
           :other: "{0} Պա"
@@ -1266,7 +1449,8 @@
           :one: "{0} հնգ"
           :other: "{0} հնգ"
         :speed-light-speed: 
-          :other: "{0} light"
+          :one: "{0} լույսի արագ․"
+          :other: "{0} լույսի արագ․"
         :speed-meter-per-second: 
           :one: "{0} մ/վ"
           :other: "{0} մ/վ"
@@ -1283,6 +1467,8 @@
         :temperature-kelvin: 
           :one: "{0} Կ"
           :other: "{0} Կ"
+        :temperature-rankine: 
+          :other: "{0} °R"
         :torque-newton-meter: 
           :one: "{0} Ն·մ"
           :other: "{0} Ն·մ"
@@ -1325,6 +1511,10 @@
         :volume-cup: 
           :one: "{0} բաժ․"
           :other: "{0} բաժ․"
+        :volume-cup-imperial: 
+          :other: "{0} cup Imp."
+        :volume-cup-jp: 
+          :other: "{0} cup [JP]"
         :volume-cup-metric: 
           :one: "{0} մ․ բաժ․"
           :other: "{0} մ․ բաժ․"
@@ -1349,6 +1539,9 @@
         :volume-fluid-ounce-imperial: 
           :one: "{0} ա․ հ․ ու․"
           :other: "{0} ա․ հ․ ու․"
+        :volume-fluid-ounce-metric: 
+          :one: "{0} մետրիկ հղ․ ու"
+          :other: "{0} մետրիկ հղ․ ու"
         :volume-gallon: 
           :one: "{0} գալ"
           :other: "{0} գալ"
@@ -1361,6 +1554,10 @@
         :volume-jigger: 
           :one: "{0} ջիգեր"
           :other: "{0} ջիգեր"
+        :volume-koku: 
+          :other: "{0} koku [JP]"
+        :volume-kosaji: 
+          :other: "{0} kosaji [JP]"
         :volume-liter: 
           :one: "{0} լ"
           :other: "{0} լ"
@@ -1370,12 +1567,16 @@
         :volume-milliliter: 
           :one: "{0} մլ"
           :other: "{0} մլ"
+        :volume-osaji: 
+          :other: "{0} osaji [JP]"
         :volume-pinch: 
           :one: "{0} պտղունց"
           :other: "{0} պտղունց"
         :volume-pint: 
           :one: "{0} փինթ"
           :other: "{0} փինթ"
+        :volume-pint-imperial: 
+          :other: "{0} pt Imp."
         :volume-pint-metric: 
           :one: "{0} մետր․ փինթ"
           :other: "{0} մետր․ փինթ"
@@ -1385,9 +1586,15 @@
         :volume-quart-imperial: 
           :one: "{0} անգլիական քվարտ"
           :other: "{0} անգլիական քվարտ"
+        :volume-sai: 
+          :other: "{0} sai [JP]"
+        :volume-shaku: 
+          :other: "{0} shaku [vol, JP]"
         :volume-tablespoon: 
           :one: "{0} ճգ."
           :other: "{0} ճգ."
         :volume-teaspoon: 
           :one: "{0} թգ."
           :other: "{0} թգ."
+        :volume-to-jp: 
+          :other: "{0} to [JP]"

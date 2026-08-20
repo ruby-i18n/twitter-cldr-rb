@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT {0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "Južnoafričko standardno vrijeme"
     :Africa_Western: 
       :long: 
-        :daylight: "Zapadnoafričko ljetno vrijeme"
-        :generic: "Zapadnoafričko vrijeme"
-        :standard: "Zapadnoafričko standardno vrijeme"
+        :standard: "Zapadnoafričko vrijeme"
     :Alaska: 
       :long: 
         :daylight: "Aljaskansko ljetno vrijeme"
@@ -310,6 +310,9 @@
     :Guyana: 
       :long: 
         :standard: "Gvajansko vrijeme"
+    :Hawaii: 
+      :long: 
+        :standard: "Havajsko-aleućansko standardno vrijeme"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "Havajsko-aleućansko ljetno vrijeme"
@@ -608,6 +611,11 @@
     :Truk: 
       :long: 
         :standard: "Čučko vrijeme"
+    :Turkey: 
+      :long: 
+        :daylight: "Turska letnje računanje vremena"
+        :generic: "Turska vreme"
+        :standard: "Turska standardno vreme"
     :Turkmenistan: 
       :long: 
         :daylight: "turkmenistansko ljetno vrijeme"
@@ -675,20 +683,36 @@
       :city: Kazablanka
     :Africa/Djibouti: 
       :city: Džibuti
+    :Africa/El_Aaiun: 
+      :city: "El Aaiún"
     :Africa/Khartoum: 
       :city: Kartum
+    :Africa/Lome: 
+      :city: Lomé
     :Africa/Mogadishu: 
       :city: Mogadiš
+    :Africa/Ndjamena: 
+      :city: N’Djamena
     :Africa/Sao_Tome: 
       :city: "São Tomé"
     :America/Anguilla: 
       :city: Angvila
     :America/Antigua: 
       :city: Antigva
+    :America/Araguaina: 
+      :city: Araguaína
+    :America/Argentina/Rio_Gallegos: 
+      :city: "Río Gallegos"
+    :America/Argentina/Tucuman: 
+      :city: Tucumán
     :America/Asuncion: 
       :city: Asunción
     :America/Bahia_Banderas: 
       :city: "Bahia Banderas"
+    :America/Belem: 
+      :city: Belém
+    :America/Bogota: 
+      :city: Bogotá
     :America/Cancun: 
       :city: Cancun
     :America/Cayman: 
@@ -697,12 +721,18 @@
       :city: "Ciudad Juárez"
     :America/Coral_Harbour: 
       :city: Atikokan
+    :America/Cordoba: 
+      :city: Córdoba
     :America/Costa_Rica: 
       :city: Kostarika
+    :America/Cuiaba: 
+      :city: Cuiabá
     :America/Curacao: 
       :city: Kurasao
     :America/Dominica: 
       :city: Dominika
+    :America/Eirunepe: 
+      :city: Eirunepé
     :America/El_Salvador: 
       :city: Salvador
     :America/Godthab: 
@@ -731,8 +761,18 @@
       :city: "Monticello, Kentucky"
     :America/Lower_Princes: 
       :city: "Lower Prince’s Quarter"
+    :America/Maceio: 
+      :city: Maceió
+    :America/Mazatlan: 
+      :city: Mazatlán
     :America/Merida: 
       :city: Merida
+    :America/Mexico_City: 
+      :city: "Ciudad de México"
+    :America/Miquelon: 
+      :city: Saint-Pierre
+    :America/Noronha: 
+      :city: "Fernando de Noronha"
     :America/North_Dakota/Beulah: 
       :city: "Beulah, Sjeverna Dakota"
     :America/North_Dakota/Center: 
@@ -741,6 +781,10 @@
       :city: "New Salem, Sjeverna Dakota"
     :America/Puerto_Rico: 
       :city: Portoriko
+    :America/Santarem: 
+      :city: Santarém
+    :America/Sao_Paulo: 
+      :city: "São Paulo"
     :America/Scoresbysund: 
       :city: Ittoqqortoormiit
     :America/St_Barthelemy: 
@@ -756,7 +800,9 @@
     :America/St_Vincent: 
       :city: "St. Vincent"
     :Antarctica/DumontDUrville: 
-      :city: "Dumont d’Urville"
+      :city: Dumont-d’Urville
+    :Antarctica/Syowa: 
+      :city: Showa
     :Asia/Almaty: 
       :city: Almati
     :Asia/Amman: 
@@ -791,6 +837,8 @@
       :city: Daka
     :Asia/Dushanbe: 
       :city: Dušanbe
+    :Asia/Hovd: 
+      :city: Khovd
     :Asia/Jakarta: 
       :city: Džakarta
     :Asia/Jayapura: 
@@ -906,6 +954,8 @@
       :city: Bukurešt
     :Europe/Budapest: 
       :city: Budimpešta
+    :Europe/Busingen: 
+      :city: Büsingen
     :Europe/Chisinau: 
       :city: Kišinjev
     :Europe/Copenhagen: 
@@ -963,6 +1013,10 @@
       :city: "Božićno ostrvo"
     :Indian/Cocos: 
       :city: "Kokosova ostrva"
+    :Indian/Comoro: 
+      :city: Comores
+    :Indian/Mahe: 
+      :city: Mahé
     :Indian/Maldives: 
       :city: Maldivi
     :Indian/Mauritius: 
@@ -970,11 +1024,15 @@
     :Indian/Reunion: 
       :city: Réunion
     :Pacific/Enderbury: 
-      :city: Enderbury
+      :city: Canton
     :Pacific/Fiji: 
       :city: Fidži
+    :Pacific/Galapagos: 
+      :city: Galápagos
     :Pacific/Honolulu: 
       :city: Honolulu
+    :Pacific/Noumea: 
+      :city: Nouméa
     :Pacific/Pitcairn: 
       :city: Pitkern
     :Pacific/Ponape: 

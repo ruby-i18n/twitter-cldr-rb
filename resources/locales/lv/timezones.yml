@@ -5,6 +5,8 @@
       :generic: "{0} ({1})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -28,9 +30,7 @@
         :standard: "Dienvidāfrikas ziemas laiks"
     :Africa_Western: 
       :long: 
-        :daylight: "Rietumāfrikas vasaras laiks"
-        :generic: "Rietumāfrikas laiks"
-        :standard: "Rietumāfrikas ziemas laiks"
+        :standard: "Rietumāfrikas laiks"
     :Alaska: 
       :long: 
         :daylight: "Aļaskas vasaras laiks"
@@ -285,6 +285,9 @@
     :Guyana: 
       :long: 
         :standard: "Gajānas laiks"
+    :Hawaii: 
+      :long: 
+        :standard: "Havaju–Aleutu ziemas laiks"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "Havaju–Aleutu vasaras laiks"
@@ -567,6 +570,11 @@
     :Truk: 
       :long: 
         :standard: "Čūkas laiks"
+    :Turkey: 
+      :long: 
+        :daylight: "Turcijas vasaras laiks"
+        :generic: "Turcijas laiks"
+        :standard: "Turcijas ziemas laiks"
     :Turkmenistan: 
       :long: 
         :daylight: "Turkmenistānas vasaras laiks"
@@ -680,6 +688,8 @@
       :city: Lagosa
     :Africa/Libreville: 
       :city: Librevila
+    :Africa/Lome: 
+      :city: Lomé
     :Africa/Lubumbashi: 
       :city: Lubumbaši
     :Africa/Maputo: 
@@ -744,6 +754,8 @@
       :city: Blansablona
     :America/Boa_Vista: 
       :city: Boavista
+    :America/Bogota: 
+      :city: Bogotá
     :America/Boise: 
       :city: Boisisitija
     :America/Buenos_Aires: 
@@ -774,6 +786,8 @@
       :city: Kordova
     :America/Costa_Rica: 
       :city: Kostarika
+    :America/Coyhaique: 
+      :city: Kojhaika
     :America/Creston: 
       :city: Krestona
     :America/Cuiaba: 
@@ -794,6 +808,8 @@
       :city: Dominika
     :America/Edmonton: 
       :city: Edmontona
+    :America/Eirunepe: 
+      :city: Eirunepé
     :America/El_Salvador: 
       :city: Salvadora
     :America/Fort_Nelson: 
@@ -1322,7 +1338,7 @@
     :Pacific/Easter: 
       :city: "Lieldienu sala"
     :Pacific/Enderbury: 
-      :city: Enderberija
+      :city: Kantona
     :Pacific/Fiji: 
       :city: Fidži
     :Pacific/Galapagos: 
@@ -1335,8 +1351,6 @@
       :city: Guama
     :Pacific/Honolulu: 
       :city: Honolulu
-    :Pacific/Kanton: 
-      :city: Kantona
     :Pacific/Kiritimati: 
       :city: Kirisimasi
     :Pacific/Kosrae: 

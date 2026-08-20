@@ -7,37 +7,43 @@
         :Bhm: "h:mm B"
         :Bhms: "h:mm:ss B"
         :E: ccc
+        :EBh: "E h B"
         :EBhm: "E h:mm B"
         :EBhms: "E h:mm:ss B"
         :EHm: "E HH:mm"
         :EHms: "E HH:mm:ss"
-        :Ed: "d E"
+        :Ed: "d, E"
+        :Eh: "E h a"
         :Ehm: "E h:mm a"
         :Ehms: "E h:mm:ss a"
-        :Gy: "y G"
-        :GyMMM: "MMM y G"
-        :GyMMMEd: "E, MMM d, y G"
-        :GyMMMd: "MMM d, y G"
-        :GyMd: "M/d/y G"
+        :Gy: "G y"
+        :GyM: "G y-MM"
+        :GyMEd: "G y-MM-dd, E"
+        :GyMMM: "G y MMM"
+        :GyMMMEd: "G y MMM d, E"
+        :GyMMMd: "G y MMM d"
+        :GyMd: "G y-MM-dd"
         :H: HH
         :Hm: "HH:mm"
         :Hms: "HH:mm:ss"
         :Hmsv: "HH:mm:ss v"
         :Hmv: "HH:mm v"
+        :Hv: "HH v"
         :M: L
-        :MEd: "E, M/d"
+        :MEd: "MM-dd, E"
         :MMM: LLL
-        :MMMEd: "E, MMM d"
-        :MMMMW: "'week' W 'of' MMMM"
+        :MMMEd: "MMM d, E"
+        :MMMMW: "'iveki' W 'ka' MMMM"
         :MMMMd: "MMMM d"
         :MMMd: "MMM d"
-        :Md: M/d
+        :Md: MM-dd
         :d: d
         :h: h a
         :hm: "h:mm a"
         :hms: "h:mm:ss a"
         :hmsv: "h:mm:ss a v"
         :hmv: "h:mm a v"
+        :hv: "h a v"
         :ms: "mm:ss"
         ? !ruby/symbol "y"
         : "y"
@@ -50,7 +56,7 @@
         :yMd: M/d/y
         :yQQQ: "QQQ y"
         :yQQQQ: "QQQQ y"
-        :yw: "'week' w 'of' Y"
+        :yw: "'iveki' w 'ka' Y"
       :days: 
         :format: 
           :abbreviated: 
@@ -63,7 +69,7 @@
             :wed: Tha
           :narrow: 
             :fri: Hl
-            :mon: M
+            :mon: Mv
             :sat: Mg
             :sun: C
             :thu: Sin
@@ -96,7 +102,7 @@
             :wed: Tha
           :narrow: 
             :fri: Hl
-            :mon: M
+            :mon: Mv
             :sat: Mg
             :sun: C
             :thu: Sin
@@ -186,13 +192,13 @@
             :pattern: M/d/yy
         :datetime: 
           :full: 
-            :pattern: "{{date}} {{time}}"
+            :pattern: "{{date}} 'ngo' {{time}}"
           :long: 
-            :pattern: "{{date}} 'kwi' {{time}}"
+            :pattern: "{{date}} 'ngo' {{time}}"
           :medium: 
-            :pattern: "{{date}} {{time}}"
+            :pattern: "{{date}}, {{time}}"
           :short: 
-            :pattern: "{{date}} {{time}}"
+            :pattern: "{{date}}, {{time}}"
         :time: 
           :full: 
             :pattern: "HH:mm:ss zzzz"
@@ -218,18 +224,18 @@
             8: Aga
             9: Sept
           :narrow: 
-            1: "1"
-            10: "10"
-            11: "11"
-            12: "12"
-            2: "2"
-            3: "3"
-            4: "4"
-            5: "5"
-            6: "6"
-            7: "7"
-            8: "8"
-            9: "9"
+            1: J
+            10: O
+            11: "N"
+            12: D
+            2: F
+            3: M
+            4: A
+            5: M
+            6: J
+            7: J
+            8: A
+            9: S
           :wide: 
             1: Janyuwari
             10: Okthobha
@@ -258,18 +264,18 @@
             8: Aga
             9: Sep
           :narrow: 
-            1: "1"
-            10: "10"
-            11: "11"
-            12: "12"
-            2: "2"
-            3: "3"
-            4: "4"
-            5: "5"
-            6: "6"
-            7: "7"
-            8: "8"
-            9: "9"
+            1: J
+            10: O
+            11: "N"
+            12: D
+            2: F
+            3: M
+            4: A
+            5: M
+            6: J
+            7: J
+            8: A
+            9: S
           :wide: 
             1: Janyuwari
             10: Okthoba

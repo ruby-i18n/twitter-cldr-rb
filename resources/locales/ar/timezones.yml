@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "غرينتش{0}"
+    :gmt_unknown_formats: 
+      :generic: غرينتش+?
     :gmt_zero_formats: 
       :generic: غرينتش
     :hour_formats: 
@@ -28,9 +30,7 @@
         :standard: "توقيت جنوب أفريقيا"
     :Africa_Western: 
       :long: 
-        :daylight: "توقيت غرب أفريقيا الصيفي"
-        :generic: "توقيت غرب أفريقيا"
-        :standard: "توقيت غرب أفريقيا الرسمي"
+        :standard: "توقيت غرب أفريقيا"
     :Alaska: 
       :long: 
         :daylight: "توقيت ألاسكا الصيفي"
@@ -273,11 +273,12 @@
     :Gulf: 
       :long: 
         :standard: "توقيت الخليج"
-      :short: 
-        :standard: GST
     :Guyana: 
       :long: 
         :standard: "توقيت غيانا"
+    :Hawaii: 
+      :long: 
+        :standard: "توقيت هاواي ألوتيان الرسمي"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "توقيت هاواي ألوتيان الصيفي"
@@ -800,6 +801,8 @@
       :city: كوردوبا
     :America/Costa_Rica: 
       :city: كوستاريكا
+    :America/Coyhaique: 
+      :city: كويهايكيو
     :America/Creston: 
       :city: كريستون
     :America/Cuiaba: 
@@ -1404,7 +1407,7 @@
     :Pacific/Efate: 
       :city: إيفات
     :Pacific/Enderbury: 
-      :city: اندربيرج
+      :city: كانتون
     :Pacific/Fakaofo: 
       :city: فاكاوفو
     :Pacific/Fiji: 
@@ -1421,8 +1424,6 @@
       :city: غوام
     :Pacific/Honolulu: 
       :city: هونولولو
-    :Pacific/Kanton: 
-      :city: كانتون
     :Pacific/Kiritimati: 
       :city: "كيريتي ماتي"
     :Pacific/Kosrae: 

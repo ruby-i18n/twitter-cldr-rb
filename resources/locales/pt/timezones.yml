@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -37,9 +39,7 @@
         :standard: "Horário da África do Sul"
     :Africa_Western: 
       :long: 
-        :daylight: "Horário de Verão da África Ocidental"
-        :generic: "Horário da África Ocidental"
-        :standard: "Horário Padrão da África Ocidental"
+        :standard: "Horário da África Ocidental"
     :Alaska: 
       :long: 
         :daylight: "Horário de Verão do Alasca"
@@ -308,6 +308,9 @@
     :Guyana: 
       :long: 
         :standard: "Horário da Guiana"
+    :Hawaii: 
+      :long: 
+        :standard: "Horário Padrão do Havaí e Ilhas Aleutas"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "Horário de Verão do Havaí e Ilhas Aleutas"
@@ -606,6 +609,11 @@
     :Truk: 
       :long: 
         :standard: "Horário de Chuuk"
+    :Turkey: 
+      :long: 
+        :daylight: "Horário de Verão da Turquia"
+        :generic: "Horário da Turquia"
+        :standard: "Horário Padrão da Turquia"
     :Turkmenistan: 
       :long: 
         :daylight: "Horário de Verão do Turcomenistão"
@@ -707,6 +715,8 @@
       :city: Antígua
     :America/Araguaina: 
       :city: Araguaína
+    :America/Argentina/Rio_Gallegos: 
+      :city: "Río Gallegos"
     :America/Argentina/Tucuman: 
       :city: Tucumã
     :America/Asuncion: 
@@ -727,6 +737,8 @@
       :city: Atikokan
     :America/Cordoba: 
       :city: Córdoba
+    :America/Coyhaique: 
+      :city: Coihaique
     :America/Cuiaba: 
       :city: Cuiabá
     :America/Curacao: 
@@ -769,10 +781,14 @@
       :city: Manágua
     :America/Martinique: 
       :city: Martinica
+    :America/Mazatlan: 
+      :city: Mazatlán
     :America/Merida: 
       :city: Mérida
     :America/Mexico_City: 
       :city: "Cidade do México"
+    :America/Miquelon: 
+      :city: Saint-Pierre
     :America/Montevideo: 
       :city: Montevidéu
     :America/New_York: 
@@ -810,7 +826,9 @@
     :America/St_Vincent: 
       :city: "São Vicente"
     :Antarctica/DumontDUrville: 
-      :city: "Dumont d’Urville"
+      :city: Dumont-d’Urville
+    :Antarctica/Syowa: 
+      :city: Showa
     :Asia/Aden: 
       :city: Áden
     :Asia/Amman: 
@@ -835,6 +853,8 @@
       :city: Dacca
     :Asia/Dushanbe: 
       :city: Duchambe
+    :Asia/Hovd: 
+      :city: Khovd
     :Asia/Jakarta: 
       :city: Jacarta
     :Asia/Jerusalem: 
@@ -873,6 +893,8 @@
       :city: Tóquio
     :Asia/Ulaanbaatar: 
       :city: "Ulan Bator"
+    :Asia/Urumqi: 
+      :city: Ürümqi
     :Asia/Yekaterinburg: 
       :city: Ecaterimburgo
     :Atlantic/Azores: 
@@ -916,6 +938,8 @@
       :city: Budapeste
     :Europe/Busingen: 
       :city: Büsingen
+    :Europe/Chisinau: 
+      :city: Chișinău
     :Europe/Copenhagen: 
       :city: Copenhague
     :Europe/Dublin: 
@@ -986,7 +1010,7 @@
     :Pacific/Efate: 
       :city: Éfaté
     :Pacific/Enderbury: 
-      :city: Enderbury
+      :city: "Ilha de Canton"
     :Pacific/Galapagos: 
       :city: Galápagos
     :Pacific/Honolulu: 
@@ -1001,3 +1025,5 @@
       :city: Taraua
     :Pacific/Truk: 
       :city: Chuuk
+    :Pacific/Wallis: 
+      :city: "Wallis & Futuna"

@@ -7,14 +7,18 @@
         :Bhm: "h:mm B"
         :Bhms: "h:mm:ss B"
         :E: ccc
+        :EBh: "h 'giờ' B E"
         :EBhm: "h:mm B E"
         :EBhms: "h:mm:ss B E"
         :EHm: "HH:mm E"
         :EHms: "HH:mm:ss E"
         :Ed: "E, 'ngày' d"
+        :Eh: "h 'giờ' a E"
         :Ehm: "h:mm a E"
         :Ehms: "h:mm:ss a E"
         :Gy: "y G"
+        :GyM: "M/y G"
+        :GyMEd: "E, d/M/y G"
         :GyMMM: "MMM y G"
         :GyMMMEd: "E, d MMM, y G"
         :GyMMMd: "d MMM, y G"
@@ -24,6 +28,7 @@
         :Hms: "HH:mm:ss"
         :Hmsv: "HH:mm:ss v"
         :Hmv: "HH:mm v"
+        :Hv: "HH 'giờ' v"
         :M: L
         :MEd: "E, d/M"
         :MMM: LLL
@@ -40,6 +45,7 @@
         :hms: "h:mm:ss a"
         :hmsv: "h:mm:ss a v"
         :hmv: "h:mm a v"
+        :hv: "h 'giờ' a v"
         :mmss: "mm:ss"
         :ms: "mm:ss"
         ? !ruby/symbol "y"
@@ -58,13 +64,13 @@
       :days: 
         :format: 
           :abbreviated: 
-            :fri: "Th 6"
-            :mon: "Th 2"
-            :sat: "Th 7"
+            :fri: "Thứ 6"
+            :mon: "Thứ 2"
+            :sat: "Thứ 7"
             :sun: CN
-            :thu: "Th 5"
-            :tue: "Th 3"
-            :wed: "Th 4"
+            :thu: "Thứ 5"
+            :tue: "Thứ 3"
+            :wed: "Thứ 4"
           :narrow: 
             :fri: T6
             :mon: T2
@@ -91,13 +97,13 @@
             :wed: "Thứ Tư"
         :stand-alone: 
           :abbreviated: 
-            :fri: "Th 6"
-            :mon: "Th 2"
-            :sat: "Th 7"
+            :fri: "Thứ 6"
+            :mon: "Thứ 2"
+            :sat: "Thứ 7"
             :sun: CN
-            :thu: "Th 5"
-            :tue: "Th 3"
-            :wed: "Th 4"
+            :thu: "Thứ 5"
+            :tue: "Thứ 3"
+            :wed: "Thứ 4"
           :narrow: 
             :fri: T6
             :mon: T2

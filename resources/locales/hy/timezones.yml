@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -28,9 +30,7 @@
         :standard: "Հարավային Աֆրիկայի ժամանակ"
     :Africa_Western: 
       :long: 
-        :daylight: "Արևմտյան Աֆրիկայի ամառային ժամանակ"
-        :generic: "Արևմտյան Աֆրիկայի ժամանակ"
-        :standard: "Արևմտյան Աֆրիկայի ստանդարտ ժամանակ"
+        :standard: "Արևմտյան Աֆրիկայի ժամանակ"
     :Alaska: 
       :long: 
         :daylight: "Ալյասկայի ամառային ժամանակ"
@@ -268,6 +268,9 @@
     :Guyana: 
       :long: 
         :standard: "Գայանայի ժամանակ"
+    :Hawaii: 
+      :long: 
+        :standard: "Հավայան-ալեության ստանդարտ ժամանակ"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "Հավայան-ալեության ամառային ժամանակ"
@@ -777,6 +780,8 @@
       :city: Կորդովա
     :America/Costa_Rica: 
       :city: "Կոստա Ռիկա"
+    :America/Coyhaique: 
+      :city: Կոյայկե
     :America/Creston: 
       :city: Քրեսթոն
     :America/Cuiaba: 
@@ -1381,7 +1386,7 @@
     :Pacific/Efate: 
       :city: Էֆատե
     :Pacific/Enderbury: 
-      :city: "Էնդերբերի կղզի"
+      :city: Կանտոն
     :Pacific/Fakaofo: 
       :city: Ֆակաոֆո
     :Pacific/Fiji: 
@@ -1398,8 +1403,6 @@
       :city: Գուամ
     :Pacific/Honolulu: 
       :city: Հոնոլուլու
-    :Pacific/Kanton: 
-      :city: Կանտոն
     :Pacific/Kiritimati: 
       :city: Կիրիտիմատի
     :Pacific/Kosrae: 

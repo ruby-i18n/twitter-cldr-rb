@@ -7,23 +7,28 @@
         :Bhm: "h:mm B"
         :Bhms: "h:mm:ss B"
         :E: ccc
+        :EBh: "E h B"
         :EBhm: "E h:mm B"
         :EBhms: "E h:mm:ss B"
         :EHm: "E HH:mm"
         :EHms: "E HH:mm:ss"
         :Ed: "E d"
+        :Eh: "E h a"
         :Ehm: "E h:mm a"
         :Ehms: "E h:mm:ss a"
         :Gy: "G y"
+        :GyM: "M/y G"
+        :GyMEd: "G y-MM-dd, E"
         :GyMMM: "MMM, G y"
         :GyMMMEd: "E, d MMM, G y"
         :GyMMMd: "d MMM, G y"
-        :GyMd: "GGGGG y-MM-dd"
+        :GyMd: "G y-MM-dd"
         :H: HH
         :Hm: "HH:mm"
         :Hms: "HH:mm:ss"
         :Hmsv: "HH:mm:ss v"
         :Hmv: "HH:mm v"
+        :Hv: "HH v"
         :M: L
         :MEd: "E, d/M"
         :MMM: LLL
@@ -39,6 +44,7 @@
         :hms: "h:mm:ss a"
         :hmsv: "h:mm:ss a v"
         :hmv: "h:mm a v"
+        :hv: "h a v"
         :ms: "mm:ss"
         ? !ruby/symbol "y"
         : "y"
@@ -144,18 +150,18 @@
         :era-narrow: યુગ
         :era-short: યુગ
         :hour: કલાક
-        :hour-narrow: ક.
-        :hour-short: ક.
+        :hour-narrow: ક૰
+        :hour-short: ક૰
         :minute: મિનિટ
-        :minute-narrow: મિ.
-        :minute-short: મિ.
+        :minute-narrow: મિ૰
+        :minute-short: મિ૰
         :month: મહિનો
         :month-narrow: મ.
         :month-short: મ.
         :quarter: ત્રિમાસિક
         :quarter-narrow: ત્રિમાસ.
         :quarter-short: ત્રિમાસ.
-        :second: સેકન્ડ
+        :second: સેકંડ
         :second-narrow: સે.
         :second-short: સે.
         :week: અઠવાડિયું
@@ -188,9 +194,9 @@
             :pattern: d/M/yy
         :datetime: 
           :full: 
-            :pattern: "{{date}} એ {{time}} વાગ્યે"
+            :pattern: "{{date}} {{time}}"
           :long: 
-            :pattern: "{{date}} એ {{time}} વાગ્યે"
+            :pattern: "{{date}} {{time}}"
           :medium: 
             :pattern: "{{date}} {{time}}"
           :short: 

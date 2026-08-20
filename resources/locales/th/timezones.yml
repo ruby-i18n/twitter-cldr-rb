@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: เวลาแอฟริกาใต้
     :Africa_Western: 
       :long: 
-        :daylight: เวลาฤดูร้อนแอฟริกาตะวันตก
-        :generic: เวลาแอฟริกาตะวันตก
-        :standard: เวลามาตรฐานแอฟริกาตะวันตก
+        :standard: เวลาแอฟริกาตะวันตก
     :Alaska: 
       :long: 
         :daylight: เวลาออมแสงของอะแลสกา
@@ -299,6 +299,9 @@
     :Guyana: 
       :long: 
         :standard: เวลากายอานา
+    :Hawaii: 
+      :long: 
+        :standard: เวลามาตรฐานฮาวาย-อะลูเชียน
     :Hawaii_Aleutian: 
       :long: 
         :daylight: เวลาออมแสงฮาวาย-อะลูเชียน
@@ -597,6 +600,11 @@
     :Truk: 
       :long: 
         :standard: เวลาชุก
+    :Turkey: 
+      :long: 
+        :daylight: เวลาฤดูร้อนตุรกี
+        :generic: เวลาตุรกี
+        :standard: เวลามาตรฐานตุรกี
     :Turkmenistan: 
       :long: 
         :daylight: เวลาฤดูร้อนเติร์กเมนิสถาน
@@ -834,6 +842,8 @@
       :city: คอร์โดบา
     :America/Costa_Rica: 
       :city: คอสตาริกา
+    :America/Coyhaique: 
+      :city: โกไยเก
     :America/Creston: 
       :city: เครสตัน
     :America/Cuiaba: 
@@ -1438,7 +1448,7 @@
     :Pacific/Efate: 
       :city: เอฟาเต
     :Pacific/Enderbury: 
-      :city: เอนเดอร์เบอรี
+      :city: แคนทอน
     :Pacific/Fakaofo: 
       :city: ฟาเคาโฟ
     :Pacific/Fiji: 
@@ -1455,8 +1465,6 @@
       :city: กวม
     :Pacific/Honolulu: 
       :city: โฮโนลูลู
-    :Pacific/Kanton: 
-      :city: แคนทอน
     :Pacific/Kiritimati: 
       :city: คิริทิมาตี
     :Pacific/Kosrae: 

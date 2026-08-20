@@ -1,8 +1,8 @@
 ---
 Africa/Abidjan:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Côte d’Ivoire
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
@@ -22,8 +22,8 @@ Africa/Abidjan:
   :EXEMPLAR_LOCATION: Abidjan
 Africa/Accra:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Ghana
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
@@ -127,8 +127,8 @@ Africa/Asmera:
   :EXEMPLAR_LOCATION: Asmara
 Africa/Bamako:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Mali
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
@@ -151,9 +151,9 @@ Africa/Bangui:
   :LOCALIZED_GMT: GMT+01:00
   :LOCALIZED_GMT_SHORT: GMT+1
   :GENERIC_LOCATION: Amser Gweriniaeth Canolbarth Affrica
-  :GENERIC_LONG: Amser Safonol Gorllewin Affrica
+  :GENERIC_LONG: Amser Gorllewin Affrica
   :GENERIC_SHORT: Amser Gweriniaeth Canolbarth Affrica
-  :SPECIFIC_LONG: Amser Safonol Gorllewin Affrica
+  :SPECIFIC_LONG: Amser Gorllewin Affrica
   :SPECIFIC_SHORT: GMT+1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -169,8 +169,8 @@ Africa/Bangui:
   :EXEMPLAR_LOCATION: Bangui
 Africa/Banjul:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Gambia
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
@@ -190,8 +190,8 @@ Africa/Banjul:
   :EXEMPLAR_LOCATION: Banjul
 Africa/Bissau:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Guiné-Bissau
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
@@ -235,9 +235,9 @@ Africa/Brazzaville:
   :LOCALIZED_GMT: GMT+01:00
   :LOCALIZED_GMT_SHORT: GMT+1
   :GENERIC_LOCATION: Amser Y Congo - Brazzaville
-  :GENERIC_LONG: Amser Safonol Gorllewin Affrica
+  :GENERIC_LONG: Amser Gorllewin Affrica
   :GENERIC_SHORT: Amser Y Congo - Brazzaville
-  :SPECIFIC_LONG: Amser Safonol Gorllewin Affrica
+  :SPECIFIC_LONG: Amser Gorllewin Affrica
   :SPECIFIC_SHORT: GMT+1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -337,8 +337,8 @@ Africa/Ceuta:
   :EXEMPLAR_LOCATION: Ceuta
 Africa/Conakry:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Gini
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
@@ -358,8 +358,8 @@ Africa/Conakry:
   :EXEMPLAR_LOCATION: Conakry
 Africa/Dakar:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Senegal
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
@@ -424,9 +424,9 @@ Africa/Douala:
   :LOCALIZED_GMT: GMT+01:00
   :LOCALIZED_GMT_SHORT: GMT+1
   :GENERIC_LOCATION: Amser Camerŵn
-  :GENERIC_LONG: Amser Safonol Gorllewin Affrica
+  :GENERIC_LONG: Amser Gorllewin Affrica
   :GENERIC_SHORT: Amser Camerŵn
-  :SPECIFIC_LONG: Amser Safonol Gorllewin Affrica
+  :SPECIFIC_LONG: Amser Gorllewin Affrica
   :SPECIFIC_SHORT: GMT+1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -460,11 +460,11 @@ Africa/El_Aaiun:
   :ISO_EXTENDED_FULL: "+01:00"
   :ISO_EXTENDED_LOCAL_FULL: "+01:00"
   :ZONE_ID_SHORT: eheai
-  :EXEMPLAR_LOCATION: El Aaiun
+  :EXEMPLAR_LOCATION: El Aaiún
 Africa/Freetown:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Sierra Leone
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
@@ -634,9 +634,9 @@ Africa/Kinshasa:
   :LOCALIZED_GMT: GMT+01:00
   :LOCALIZED_GMT_SHORT: GMT+1
   :GENERIC_LOCATION: Amser Kinshasa
-  :GENERIC_LONG: Amser Safonol Gorllewin Affrica
+  :GENERIC_LONG: Amser Gorllewin Affrica
   :GENERIC_SHORT: Amser Kinshasa
-  :SPECIFIC_LONG: Amser Safonol Gorllewin Affrica
+  :SPECIFIC_LONG: Amser Gorllewin Affrica
   :SPECIFIC_SHORT: GMT+1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -655,9 +655,9 @@ Africa/Lagos:
   :LOCALIZED_GMT: GMT+01:00
   :LOCALIZED_GMT_SHORT: GMT+1
   :GENERIC_LOCATION: Amser Nigeria
-  :GENERIC_LONG: Amser Safonol Gorllewin Affrica
+  :GENERIC_LONG: Amser Gorllewin Affrica
   :GENERIC_SHORT: Amser Nigeria
-  :SPECIFIC_LONG: Amser Safonol Gorllewin Affrica
+  :SPECIFIC_LONG: Amser Gorllewin Affrica
   :SPECIFIC_SHORT: GMT+1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -676,9 +676,9 @@ Africa/Libreville:
   :LOCALIZED_GMT: GMT+01:00
   :LOCALIZED_GMT_SHORT: GMT+1
   :GENERIC_LOCATION: Amser Gabon
-  :GENERIC_LONG: Amser Safonol Gorllewin Affrica
+  :GENERIC_LONG: Amser Gorllewin Affrica
   :GENERIC_SHORT: Amser Gabon
-  :SPECIFIC_LONG: Amser Safonol Gorllewin Affrica
+  :SPECIFIC_LONG: Amser Gorllewin Affrica
   :SPECIFIC_SHORT: GMT+1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -694,8 +694,8 @@ Africa/Libreville:
   :EXEMPLAR_LOCATION: Libreville
 Africa/Lome:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Togo
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
@@ -712,15 +712,15 @@ Africa/Lome:
   :ISO_EXTENDED_FULL: Z
   :ISO_EXTENDED_LOCAL_FULL: "+00:00"
   :ZONE_ID_SHORT: tglfw
-  :EXEMPLAR_LOCATION: Lome
+  :EXEMPLAR_LOCATION: Lomé
 Africa/Luanda:
   :offset: 3600000
   :LOCALIZED_GMT: GMT+01:00
   :LOCALIZED_GMT_SHORT: GMT+1
   :GENERIC_LOCATION: Amser Angola
-  :GENERIC_LONG: Amser Safonol Gorllewin Affrica
+  :GENERIC_LONG: Amser Gorllewin Affrica
   :GENERIC_SHORT: Amser Angola
-  :SPECIFIC_LONG: Amser Safonol Gorllewin Affrica
+  :SPECIFIC_LONG: Amser Gorllewin Affrica
   :SPECIFIC_SHORT: GMT+1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -781,9 +781,9 @@ Africa/Malabo:
   :LOCALIZED_GMT: GMT+01:00
   :LOCALIZED_GMT_SHORT: GMT+1
   :GENERIC_LOCATION: Amser Gini Gyhydeddol
-  :GENERIC_LONG: Amser Safonol Gorllewin Affrica
+  :GENERIC_LONG: Amser Gorllewin Affrica
   :GENERIC_SHORT: Amser Gini Gyhydeddol
-  :SPECIFIC_LONG: Amser Safonol Gorllewin Affrica
+  :SPECIFIC_LONG: Amser Gorllewin Affrica
   :SPECIFIC_SHORT: GMT+1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -883,8 +883,8 @@ Africa/Mogadishu:
   :EXEMPLAR_LOCATION: Mogadishu
 Africa/Monrovia:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Liberia
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
@@ -928,9 +928,9 @@ Africa/Ndjamena:
   :LOCALIZED_GMT: GMT+01:00
   :LOCALIZED_GMT_SHORT: GMT+1
   :GENERIC_LOCATION: Amser Tsiad
-  :GENERIC_LONG: Amser Safonol Gorllewin Affrica
+  :GENERIC_LONG: Amser Gorllewin Affrica
   :GENERIC_SHORT: Amser Tsiad
-  :SPECIFIC_LONG: Amser Safonol Gorllewin Affrica
+  :SPECIFIC_LONG: Amser Gorllewin Affrica
   :SPECIFIC_SHORT: GMT+1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -943,15 +943,15 @@ Africa/Ndjamena:
   :ISO_EXTENDED_FULL: "+01:00"
   :ISO_EXTENDED_LOCAL_FULL: "+01:00"
   :ZONE_ID_SHORT: tdndj
-  :EXEMPLAR_LOCATION: Ndjamena
+  :EXEMPLAR_LOCATION: N’Djamena
 Africa/Niamey:
   :offset: 3600000
   :LOCALIZED_GMT: GMT+01:00
   :LOCALIZED_GMT_SHORT: GMT+1
   :GENERIC_LOCATION: Amser Niger
-  :GENERIC_LONG: Amser Safonol Gorllewin Affrica
+  :GENERIC_LONG: Amser Gorllewin Affrica
   :GENERIC_SHORT: Amser Niger
-  :SPECIFIC_LONG: Amser Safonol Gorllewin Affrica
+  :SPECIFIC_LONG: Amser Gorllewin Affrica
   :SPECIFIC_SHORT: GMT+1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -967,8 +967,8 @@ Africa/Niamey:
   :EXEMPLAR_LOCATION: Niamey
 Africa/Nouakchott:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Mauritania
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
@@ -988,8 +988,8 @@ Africa/Nouakchott:
   :EXEMPLAR_LOCATION: Nouakchott
 Africa/Ouagadougou:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Burkina Faso
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
@@ -1012,9 +1012,9 @@ Africa/Porto-Novo:
   :LOCALIZED_GMT: GMT+01:00
   :LOCALIZED_GMT_SHORT: GMT+1
   :GENERIC_LOCATION: Amser Benin
-  :GENERIC_LONG: Amser Safonol Gorllewin Affrica
+  :GENERIC_LONG: Amser Gorllewin Affrica
   :GENERIC_SHORT: Amser Benin
-  :SPECIFIC_LONG: Amser Safonol Gorllewin Affrica
+  :SPECIFIC_LONG: Amser Gorllewin Affrica
   :SPECIFIC_SHORT: GMT+1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -1030,8 +1030,8 @@ Africa/Porto-Novo:
   :EXEMPLAR_LOCATION: Porto-Novo
 Africa/Sao_Tome:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser São Tomé a Príncipe
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
@@ -1051,8 +1051,8 @@ Africa/Sao_Tome:
   :EXEMPLAR_LOCATION: São Tomé
 Africa/Timbuktu:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Mali
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
@@ -1221,9 +1221,9 @@ America/Araguaina:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
   :LOCALIZED_GMT_SHORT: GMT-3
-  :GENERIC_LOCATION: Amser Araguaina
+  :GENERIC_LOCATION: Amser Araguaína
   :GENERIC_LONG: Amser Safonol Brasília
-  :GENERIC_SHORT: Amser Araguaina
+  :GENERIC_SHORT: Amser Araguaína
   :SPECIFIC_LONG: Amser Safonol Brasília
   :SPECIFIC_SHORT: GMT-3
   :ISO_BASIC_SHORT: "-03"
@@ -1237,7 +1237,7 @@ America/Araguaina:
   :ISO_EXTENDED_FULL: "-03:00"
   :ISO_EXTENDED_LOCAL_FULL: "-03:00"
   :ZONE_ID_SHORT: braux
-  :EXEMPLAR_LOCATION: Araguaina
+  :EXEMPLAR_LOCATION: Araguaína
 America/Argentina/Buenos_Aires:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
@@ -1305,9 +1305,9 @@ America/Argentina/Cordoba:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
   :LOCALIZED_GMT_SHORT: GMT-3
-  :GENERIC_LOCATION: Amser Cordoba
+  :GENERIC_LOCATION: Amser Córdoba
   :GENERIC_LONG: Amser Safonol Ariannin
-  :GENERIC_SHORT: Amser Cordoba
+  :GENERIC_SHORT: Amser Córdoba
   :SPECIFIC_LONG: Amser Safonol Ariannin
   :SPECIFIC_SHORT: GMT-3
   :ISO_BASIC_SHORT: "-03"
@@ -1321,7 +1321,7 @@ America/Argentina/Cordoba:
   :ISO_EXTENDED_FULL: "-03:00"
   :ISO_EXTENDED_LOCAL_FULL: "-03:00"
   :ZONE_ID_SHORT: arcor
-  :EXEMPLAR_LOCATION: Cordoba
+  :EXEMPLAR_LOCATION: Córdoba
 America/Argentina/Jujuy:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
@@ -1389,9 +1389,9 @@ America/Argentina/Rio_Gallegos:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
   :LOCALIZED_GMT_SHORT: GMT-3
-  :GENERIC_LOCATION: Amser Rio Gallegos
+  :GENERIC_LOCATION: Amser Río Gallegos
   :GENERIC_LONG: Amser Safonol Ariannin
-  :GENERIC_SHORT: Amser Rio Gallegos
+  :GENERIC_SHORT: Amser Río Gallegos
   :SPECIFIC_LONG: Amser Safonol Ariannin
   :SPECIFIC_SHORT: GMT-3
   :ISO_BASIC_SHORT: "-03"
@@ -1405,7 +1405,7 @@ America/Argentina/Rio_Gallegos:
   :ISO_EXTENDED_FULL: "-03:00"
   :ISO_EXTENDED_LOCAL_FULL: "-03:00"
   :ZONE_ID_SHORT: arrgl
-  :EXEMPLAR_LOCATION: Rio Gallegos
+  :EXEMPLAR_LOCATION: Río Gallegos
 America/Argentina/Salta:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
@@ -1533,7 +1533,7 @@ America/Aruba:
   :ZONE_ID_SHORT: awaua
   :EXEMPLAR_LOCATION: Aruba
 America/Asuncion:
-  :offset: -14400000
+  :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
   :LOCALIZED_GMT_SHORT: GMT-3
   :GENERIC_LOCATION: Amser Paraguay
@@ -2040,9 +2040,9 @@ America/Cordoba:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
   :LOCALIZED_GMT_SHORT: GMT-3
-  :GENERIC_LOCATION: Amser Cordoba
+  :GENERIC_LOCATION: Amser Córdoba
   :GENERIC_LONG: Amser Safonol Ariannin
-  :GENERIC_SHORT: Amser Cordoba
+  :GENERIC_SHORT: Amser Córdoba
   :SPECIFIC_LONG: Amser Safonol Ariannin
   :SPECIFIC_SHORT: GMT-3
   :ISO_BASIC_SHORT: "-03"
@@ -2056,7 +2056,7 @@ America/Cordoba:
   :ISO_EXTENDED_FULL: "-03:00"
   :ISO_EXTENDED_LOCAL_FULL: "-03:00"
   :ZONE_ID_SHORT: arcor
-  :EXEMPLAR_LOCATION: Cordoba
+  :EXEMPLAR_LOCATION: Córdoba
 America/Costa_Rica:
   :offset: -21600000
   :LOCALIZED_GMT: GMT-06:00
@@ -2078,6 +2078,27 @@ America/Costa_Rica:
   :ISO_EXTENDED_LOCAL_FULL: "-06:00"
   :ZONE_ID_SHORT: crsjo
   :EXEMPLAR_LOCATION: Costa Rica
+America/Coyhaique:
+  :offset: -10800000
+  :LOCALIZED_GMT: GMT-03:00
+  :LOCALIZED_GMT_SHORT: GMT-3
+  :GENERIC_LOCATION: Amser Coyhaique
+  :GENERIC_LONG: Amser Chile
+  :GENERIC_SHORT: Amser Coyhaique
+  :SPECIFIC_LONG: Amser Haf Chile
+  :SPECIFIC_SHORT: GMT-3
+  :ISO_BASIC_SHORT: "-03"
+  :ISO_BASIC_LOCAL_SHORT: "-03"
+  :ISO_BASIC_FIXED: "-0300"
+  :ISO_BASIC_LOCAL_FIXED: "-0300"
+  :ISO_BASIC_FULL: "-0300"
+  :ISO_BASIC_LOCAL_FULL: "-0300"
+  :ISO_EXTENDED_FIXED: "-03:00"
+  :ISO_EXTENDED_LOCAL_FIXED: "-03:00"
+  :ISO_EXTENDED_FULL: "-03:00"
+  :ISO_EXTENDED_LOCAL_FULL: "-03:00"
+  :ZONE_ID_SHORT: clcxq
+  :EXEMPLAR_LOCATION: Coyhaique
 America/Creston:
   :offset: -25200000
   :LOCALIZED_GMT: GMT-07:00
@@ -2143,8 +2164,8 @@ America/Curacao:
   :EXEMPLAR_LOCATION: Curaçao
 America/Danmarkshavn:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Danmarkshavn
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
@@ -3153,9 +3174,9 @@ America/Maceio:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
   :LOCALIZED_GMT_SHORT: GMT-3
-  :GENERIC_LOCATION: Amser Maceio
+  :GENERIC_LOCATION: Amser Maceió
   :GENERIC_LONG: Amser Safonol Brasília
-  :GENERIC_SHORT: Amser Maceio
+  :GENERIC_SHORT: Amser Maceió
   :SPECIFIC_LONG: Amser Safonol Brasília
   :SPECIFIC_SHORT: GMT-3
   :ISO_BASIC_SHORT: "-03"
@@ -3169,7 +3190,7 @@ America/Maceio:
   :ISO_EXTENDED_FULL: "-03:00"
   :ISO_EXTENDED_LOCAL_FULL: "-03:00"
   :ZONE_ID_SHORT: brmcz
-  :EXEMPLAR_LOCATION: Maceio
+  :EXEMPLAR_LOCATION: Maceió
 America/Managua:
   :offset: -21600000
   :LOCALIZED_GMT: GMT-06:00
@@ -3279,9 +3300,9 @@ America/Mazatlan:
   :offset: -25200000
   :LOCALIZED_GMT: GMT-07:00
   :LOCALIZED_GMT_SHORT: GMT-7
-  :GENERIC_LOCATION: Amser Mazatlan
+  :GENERIC_LOCATION: Amser Mazatlán
   :GENERIC_LONG: Amser Pasiffig Mecsico
-  :GENERIC_SHORT: Amser Mazatlan
+  :GENERIC_SHORT: Amser Mazatlán
   :SPECIFIC_LONG: Amser Safonol Pasiffig Mecsico
   :SPECIFIC_SHORT: GMT-7
   :ISO_BASIC_SHORT: "-07"
@@ -3295,7 +3316,7 @@ America/Mazatlan:
   :ISO_EXTENDED_FULL: "-07:00"
   :ISO_EXTENDED_LOCAL_FULL: "-07:00"
   :ZONE_ID_SHORT: mxmzt
-  :EXEMPLAR_LOCATION: Mazatlan
+  :EXEMPLAR_LOCATION: Mazatlán
 America/Mendoza:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
@@ -3421,7 +3442,7 @@ America/Miquelon:
   :ISO_EXTENDED_FULL: "-03:00"
   :ISO_EXTENDED_LOCAL_FULL: "-03:00"
   :ZONE_ID_SHORT: pmmqc
-  :EXEMPLAR_LOCATION: Miquelon
+  :EXEMPLAR_LOCATION: Saint-Pierre
 America/Moncton:
   :offset: -14400000
   :LOCALIZED_GMT: GMT-04:00
@@ -3615,9 +3636,9 @@ America/Noronha:
   :offset: -7200000
   :LOCALIZED_GMT: GMT-02:00
   :LOCALIZED_GMT_SHORT: GMT-2
-  :GENERIC_LOCATION: Amser Noronha
+  :GENERIC_LOCATION: Amser Fernando de Noronha
   :GENERIC_LONG: Amser Safonol Fernando de Noronha
-  :GENERIC_SHORT: Amser Noronha
+  :GENERIC_SHORT: Amser Fernando de Noronha
   :SPECIFIC_LONG: Amser Safonol Fernando de Noronha
   :SPECIFIC_SHORT: GMT-2
   :ISO_BASIC_SHORT: "-02"
@@ -3631,7 +3652,7 @@ America/Noronha:
   :ISO_EXTENDED_FULL: "-02:00"
   :ISO_EXTENDED_LOCAL_FULL: "-02:00"
   :ZONE_ID_SHORT: brfen
-  :EXEMPLAR_LOCATION: Noronha
+  :EXEMPLAR_LOCATION: Fernando de Noronha
 America/North_Dakota/Beulah:
   :offset: -21600000
   :LOCALIZED_GMT: GMT-06:00
@@ -4077,9 +4098,9 @@ America/Rosario:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
   :LOCALIZED_GMT_SHORT: GMT-3
-  :GENERIC_LOCATION: Amser Cordoba
+  :GENERIC_LOCATION: Amser Córdoba
   :GENERIC_LONG: Amser Safonol Ariannin
-  :GENERIC_SHORT: Amser Cordoba
+  :GENERIC_SHORT: Amser Córdoba
   :SPECIFIC_LONG: Amser Safonol Ariannin
   :SPECIFIC_SHORT: GMT-3
   :ISO_BASIC_SHORT: "-03"
@@ -4093,7 +4114,7 @@ America/Rosario:
   :ISO_EXTENDED_FULL: "-03:00"
   :ISO_EXTENDED_LOCAL_FULL: "-03:00"
   :ZONE_ID_SHORT: arcor
-  :EXEMPLAR_LOCATION: Cordoba
+  :EXEMPLAR_LOCATION: Córdoba
 America/Santa_Isabel:
   :offset: -28800000
   :LOCALIZED_GMT: GMT-08:00
@@ -4119,9 +4140,9 @@ America/Santarem:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
   :LOCALIZED_GMT_SHORT: GMT-3
-  :GENERIC_LOCATION: Amser Santarem
+  :GENERIC_LOCATION: Amser Santarém
   :GENERIC_LONG: Amser Safonol Brasília
-  :GENERIC_SHORT: Amser Santarem
+  :GENERIC_SHORT: Amser Santarém
   :SPECIFIC_LONG: Amser Safonol Brasília
   :SPECIFIC_SHORT: GMT-3
   :ISO_BASIC_SHORT: "-03"
@@ -4135,7 +4156,7 @@ America/Santarem:
   :ISO_EXTENDED_FULL: "-03:00"
   :ISO_EXTENDED_LOCAL_FULL: "-03:00"
   :ZONE_ID_SHORT: brstm
-  :EXEMPLAR_LOCATION: Santarem
+  :EXEMPLAR_LOCATION: Santarém
 America/Santiago:
   :offset: -14400000
   :LOCALIZED_GMT: GMT-03:00
@@ -4182,9 +4203,9 @@ America/Sao_Paulo:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
   :LOCALIZED_GMT_SHORT: GMT-3
-  :GENERIC_LOCATION: Amser Sao Paulo
+  :GENERIC_LOCATION: Amser São Paulo
   :GENERIC_LONG: Amser Safonol Brasília
-  :GENERIC_SHORT: Amser Sao Paulo
+  :GENERIC_SHORT: Amser São Paulo
   :SPECIFIC_LONG: Amser Safonol Brasília
   :SPECIFIC_SHORT: GMT-3
   :ISO_BASIC_SHORT: "-03"
@@ -4198,7 +4219,7 @@ America/Sao_Paulo:
   :ISO_EXTENDED_FULL: "-03:00"
   :ISO_EXTENDED_LOCAL_FULL: "-03:00"
   :ZONE_ID_SHORT: brsao
-  :EXEMPLAR_LOCATION: Sao Paulo
+  :EXEMPLAR_LOCATION: São Paulo
 America/Scoresbysund:
   :offset: -7200000
   :LOCALIZED_GMT: GMT-01:00
@@ -4707,9 +4728,9 @@ Antarctica/DumontDUrville:
   :offset: 36000000
   :LOCALIZED_GMT: GMT+10:00
   :LOCALIZED_GMT_SHORT: GMT+10
-  :GENERIC_LOCATION: Amser Dumont d’Urville
+  :GENERIC_LOCATION: Amser Dumont-d’Urville
   :GENERIC_LONG: Amser Dumont-d’Urville
-  :GENERIC_SHORT: Amser Dumont d’Urville
+  :GENERIC_SHORT: Amser Dumont-d’Urville
   :SPECIFIC_LONG: Amser Dumont-d’Urville
   :SPECIFIC_SHORT: GMT+10
   :ISO_BASIC_SHORT: "+10"
@@ -4723,7 +4744,7 @@ Antarctica/DumontDUrville:
   :ISO_EXTENDED_FULL: "+10:00"
   :ISO_EXTENDED_LOCAL_FULL: "+10:00"
   :ZONE_ID_SHORT: aqddu
-  :EXEMPLAR_LOCATION: Dumont d’Urville
+  :EXEMPLAR_LOCATION: Dumont-d’Urville
 Antarctica/Macquarie:
   :offset: 36000000
   :LOCALIZED_GMT: GMT+11:00
@@ -4833,9 +4854,9 @@ Antarctica/South_Pole:
   :offset: 43200000
   :LOCALIZED_GMT: GMT+13:00
   :LOCALIZED_GMT_SHORT: GMT+13
-  :GENERIC_LOCATION: Amser Seland Newydd
+  :GENERIC_LOCATION: Amser McMurdo
   :GENERIC_LONG: Amser Seland Newydd
-  :GENERIC_SHORT: Amser Seland Newydd
+  :GENERIC_SHORT: Amser McMurdo
   :SPECIFIC_LONG: Amser Haf Seland Newydd
   :SPECIFIC_SHORT: GMT+13
   :ISO_BASIC_SHORT: "+13"
@@ -4848,15 +4869,15 @@ Antarctica/South_Pole:
   :ISO_EXTENDED_LOCAL_FIXED: "+13:00"
   :ISO_EXTENDED_FULL: "+13:00"
   :ISO_EXTENDED_LOCAL_FULL: "+13:00"
-  :ZONE_ID_SHORT: nzakl
-  :EXEMPLAR_LOCATION: Auckland
+  :ZONE_ID_SHORT: aqmcm
+  :EXEMPLAR_LOCATION: McMurdo
 Antarctica/Syowa:
   :offset: 10800000
   :LOCALIZED_GMT: GMT+03:00
   :LOCALIZED_GMT_SHORT: GMT+3
-  :GENERIC_LOCATION: Amser Syowa
+  :GENERIC_LOCATION: Amser Showa
   :GENERIC_LONG: Amser Syowa
-  :GENERIC_SHORT: Amser Syowa
+  :GENERIC_SHORT: Amser Showa
   :SPECIFIC_LONG: Amser Syowa
   :SPECIFIC_SHORT: GMT+3
   :ISO_BASIC_SHORT: "+03"
@@ -4870,11 +4891,11 @@ Antarctica/Syowa:
   :ISO_EXTENDED_FULL: "+03:00"
   :ISO_EXTENDED_LOCAL_FULL: "+03:00"
   :ZONE_ID_SHORT: aqsyw
-  :EXEMPLAR_LOCATION: Syowa
+  :EXEMPLAR_LOCATION: Showa
 Antarctica/Troll:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Troll
   :GENERIC_LONG: Amser Troll
   :GENERIC_SHORT: Amser Troll
@@ -5212,9 +5233,9 @@ Asia/Barnaul:
   :LOCALIZED_GMT: GMT+07:00
   :LOCALIZED_GMT_SHORT: GMT+7
   :GENERIC_LOCATION: Amser Barnaul
-  :GENERIC_LONG: Amser Barnaul
+  :GENERIC_LONG: Amser Safonol Krasnoyarsk
   :GENERIC_SHORT: Amser Barnaul
-  :SPECIFIC_LONG: GMT+07:00
+  :SPECIFIC_LONG: Amser Safonol Krasnoyarsk
   :SPECIFIC_SHORT: GMT+7
   :ISO_BASIC_SHORT: "+07"
   :ISO_BASIC_LOCAL_SHORT: "+07"
@@ -5548,10 +5569,10 @@ Asia/Famagusta:
   :LOCALIZED_GMT: GMT+02:00
   :LOCALIZED_GMT_SHORT: GMT+2
   :GENERIC_LOCATION: Amser Famagusta
-  :GENERIC_LONG: Amser Famagusta
-  :GENERIC_SHORT: Amser Famagusta
-  :SPECIFIC_LONG: GMT+02:00
-  :SPECIFIC_SHORT: GMT+2
+  :GENERIC_LONG: Amser Dwyrain Ewrop
+  :GENERIC_SHORT: EET
+  :SPECIFIC_LONG: Amser Safonol Dwyrain Ewrop
+  :SPECIFIC_SHORT: EET
   :ISO_BASIC_SHORT: "+02"
   :ISO_BASIC_LOCAL_SHORT: "+02"
   :ISO_BASIC_FIXED: "+0200"
@@ -5673,9 +5694,9 @@ Asia/Hovd:
   :offset: 25200000
   :LOCALIZED_GMT: GMT+07:00
   :LOCALIZED_GMT_SHORT: GMT+7
-  :GENERIC_LOCATION: Amser Hovd
+  :GENERIC_LOCATION: Amser Khovd
   :GENERIC_LONG: Amser Safonol Hovd
-  :GENERIC_SHORT: Amser Hovd
+  :GENERIC_SHORT: Amser Khovd
   :SPECIFIC_LONG: Amser Safonol Hovd
   :SPECIFIC_SHORT: GMT+7
   :ISO_BASIC_SHORT: "+07"
@@ -5689,7 +5710,7 @@ Asia/Hovd:
   :ISO_EXTENDED_FULL: "+07:00"
   :ISO_EXTENDED_LOCAL_FULL: "+07:00"
   :ZONE_ID_SHORT: mnhvd
-  :EXEMPLAR_LOCATION: Hovd
+  :EXEMPLAR_LOCATION: Khovd
 Asia/Irkutsk:
   :offset: 28800000
   :LOCALIZED_GMT: GMT+08:00
@@ -5841,9 +5862,9 @@ Asia/Karachi:
   :offset: 18000000
   :LOCALIZED_GMT: GMT+05:00
   :LOCALIZED_GMT_SHORT: GMT+5
-  :GENERIC_LOCATION: Amser Pakistan
+  :GENERIC_LOCATION: Amser Pacistan
   :GENERIC_LONG: Amser Safonol Pakistan
-  :GENERIC_SHORT: Amser Pakistan
+  :GENERIC_SHORT: Amser Pacistan
   :SPECIFIC_LONG: Amser Safonol Pakistan
   :SPECIFIC_SHORT: GMT+5
   :ISO_BASIC_SHORT: "+05"
@@ -5862,9 +5883,9 @@ Asia/Kashgar:
   :offset: 21600000
   :LOCALIZED_GMT: GMT+06:00
   :LOCALIZED_GMT_SHORT: GMT+6
-  :GENERIC_LOCATION: Amser Urumqi
-  :GENERIC_LONG: Amser Urumqi
-  :GENERIC_SHORT: Amser Urumqi
+  :GENERIC_LOCATION: Amser Ürümqi
+  :GENERIC_LONG: Amser Ürümqi
+  :GENERIC_SHORT: Amser Ürümqi
   :SPECIFIC_LONG: GMT+06:00
   :SPECIFIC_SHORT: GMT+6
   :ISO_BASIC_SHORT: "+06"
@@ -5878,7 +5899,7 @@ Asia/Kashgar:
   :ISO_EXTENDED_FULL: "+06:00"
   :ISO_EXTENDED_LOCAL_FULL: "+06:00"
   :ZONE_ID_SHORT: cnurc
-  :EXEMPLAR_LOCATION: Urumqi
+  :EXEMPLAR_LOCATION: Ürümqi
 Asia/Kathmandu:
   :offset: 20700000
   :LOCALIZED_GMT: GMT+05:45
@@ -6220,9 +6241,9 @@ Asia/Novosibirsk:
   :LOCALIZED_GMT: GMT+07:00
   :LOCALIZED_GMT_SHORT: GMT+7
   :GENERIC_LOCATION: Amser Novosibirsk
-  :GENERIC_LONG: Amser Safonol Novosibirsk
+  :GENERIC_LONG: Amser Safonol Krasnoyarsk
   :GENERIC_SHORT: Amser Novosibirsk
-  :SPECIFIC_LONG: Amser Safonol Novosibirsk
+  :SPECIFIC_LONG: Amser Safonol Krasnoyarsk
   :SPECIFIC_SHORT: GMT+7
   :ISO_BASIC_SHORT: "+07"
   :ISO_BASIC_LOCAL_SHORT: "+07"
@@ -6472,9 +6493,9 @@ Asia/Sakhalin:
   :LOCALIZED_GMT: GMT+11:00
   :LOCALIZED_GMT_SHORT: GMT+11
   :GENERIC_LOCATION: Amser Sakhalin
-  :GENERIC_LONG: Amser Safonol Sakhalin
+  :GENERIC_LONG: Amser Safonol Magadan
   :GENERIC_SHORT: Amser Sakhalin
-  :SPECIFIC_LONG: Amser Safonol Sakhalin
+  :SPECIFIC_LONG: Amser Safonol Magadan
   :SPECIFIC_SHORT: GMT+11
   :ISO_BASIC_SHORT: "+11"
   :ISO_BASIC_LOCAL_SHORT: "+11"
@@ -6577,9 +6598,9 @@ Asia/Srednekolymsk:
   :LOCALIZED_GMT: GMT+11:00
   :LOCALIZED_GMT_SHORT: GMT+11
   :GENERIC_LOCATION: Amser Srednekolymsk
-  :GENERIC_LONG: Amser Srednekolymsk
+  :GENERIC_LONG: Amser Safonol Magadan
   :GENERIC_SHORT: Amser Srednekolymsk
-  :SPECIFIC_LONG: GMT+11:00
+  :SPECIFIC_LONG: Amser Safonol Magadan
   :SPECIFIC_SHORT: GMT+11
   :ISO_BASIC_SHORT: "+11"
   :ISO_BASIC_LOCAL_SHORT: "+11"
@@ -6766,9 +6787,9 @@ Asia/Tomsk:
   :LOCALIZED_GMT: GMT+07:00
   :LOCALIZED_GMT_SHORT: GMT+7
   :GENERIC_LOCATION: Amser Tomsk
-  :GENERIC_LONG: Amser Tomsk
+  :GENERIC_LONG: Amser Safonol Krasnoyarsk
   :GENERIC_SHORT: Amser Tomsk
-  :SPECIFIC_LONG: GMT+07:00
+  :SPECIFIC_LONG: Amser Safonol Krasnoyarsk
   :SPECIFIC_SHORT: GMT+7
   :ISO_BASIC_SHORT: "+07"
   :ISO_BASIC_LOCAL_SHORT: "+07"
@@ -6849,9 +6870,9 @@ Asia/Urumqi:
   :offset: 21600000
   :LOCALIZED_GMT: GMT+06:00
   :LOCALIZED_GMT_SHORT: GMT+6
-  :GENERIC_LOCATION: Amser Urumqi
-  :GENERIC_LONG: Amser Urumqi
-  :GENERIC_SHORT: Amser Urumqi
+  :GENERIC_LOCATION: Amser Ürümqi
+  :GENERIC_LONG: Amser Ürümqi
+  :GENERIC_SHORT: Amser Ürümqi
   :SPECIFIC_LONG: GMT+06:00
   :SPECIFIC_SHORT: GMT+6
   :ISO_BASIC_SHORT: "+06"
@@ -6865,7 +6886,7 @@ Asia/Urumqi:
   :ISO_EXTENDED_FULL: "+06:00"
   :ISO_EXTENDED_LOCAL_FULL: "+06:00"
   :ZONE_ID_SHORT: cnurc
-  :EXEMPLAR_LOCATION: Urumqi
+  :EXEMPLAR_LOCATION: Ürümqi
 Asia/Ust-Nera:
   :offset: 36000000
   :LOCALIZED_GMT: GMT+10:00
@@ -7057,8 +7078,8 @@ Atlantic/Bermuda:
   :EXEMPLAR_LOCATION: Bermuda
 Atlantic/Canary:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Yr Ynysoedd Dedwydd
   :GENERIC_LONG: Amser Gorllewin Ewrop
   :GENERIC_SHORT: WET
@@ -7099,8 +7120,8 @@ Atlantic/Cape_Verde:
   :EXEMPLAR_LOCATION: Cape Verde
 Atlantic/Faeroe:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Ynysoedd Ffaro
   :GENERIC_LONG: Amser Gorllewin Ewrop
   :GENERIC_SHORT: WET
@@ -7120,8 +7141,8 @@ Atlantic/Faeroe:
   :EXEMPLAR_LOCATION: Ffaro
 Atlantic/Faroe:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Ynysoedd Ffaro
   :GENERIC_LONG: Amser Gorllewin Ewrop
   :GENERIC_SHORT: WET
@@ -7162,8 +7183,8 @@ Atlantic/Jan_Mayen:
   :EXEMPLAR_LOCATION: Longyearbyen
 Atlantic/Madeira:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Madeira
   :GENERIC_LONG: Amser Gorllewin Ewrop
   :GENERIC_SHORT: WET
@@ -7183,8 +7204,8 @@ Atlantic/Madeira:
   :EXEMPLAR_LOCATION: Madeira
 Atlantic/Reykjavik:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Gwlad yr Iâ
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
@@ -7225,8 +7246,8 @@ Atlantic/South_Georgia:
   :EXEMPLAR_LOCATION: De Georgia
 Atlantic/St_Helena:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Saint Helena
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
@@ -7773,9 +7794,9 @@ Brazil/DeNoronha:
   :offset: -7200000
   :LOCALIZED_GMT: GMT-02:00
   :LOCALIZED_GMT_SHORT: GMT-2
-  :GENERIC_LOCATION: Amser Noronha
+  :GENERIC_LOCATION: Amser Fernando de Noronha
   :GENERIC_LONG: Amser Safonol Fernando de Noronha
-  :GENERIC_SHORT: Amser Noronha
+  :GENERIC_SHORT: Amser Fernando de Noronha
   :SPECIFIC_LONG: Amser Safonol Fernando de Noronha
   :SPECIFIC_SHORT: GMT-2
   :ISO_BASIC_SHORT: "-02"
@@ -7789,14 +7810,14 @@ Brazil/DeNoronha:
   :ISO_EXTENDED_FULL: "-02:00"
   :ISO_EXTENDED_LOCAL_FULL: "-02:00"
   :ZONE_ID_SHORT: brfen
-  :EXEMPLAR_LOCATION: Noronha
+  :EXEMPLAR_LOCATION: Fernando de Noronha
 Brazil/East:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
   :LOCALIZED_GMT_SHORT: GMT-3
-  :GENERIC_LOCATION: Amser Sao Paulo
+  :GENERIC_LOCATION: Amser São Paulo
   :GENERIC_LONG: Amser Safonol Brasília
-  :GENERIC_SHORT: Amser Sao Paulo
+  :GENERIC_SHORT: Amser São Paulo
   :SPECIFIC_LONG: Amser Safonol Brasília
   :SPECIFIC_SHORT: GMT-3
   :ISO_BASIC_SHORT: "-03"
@@ -7810,7 +7831,7 @@ Brazil/East:
   :ISO_EXTENDED_FULL: "-03:00"
   :ISO_EXTENDED_LOCAL_FULL: "-03:00"
   :ZONE_ID_SHORT: brsao
-  :EXEMPLAR_LOCATION: Sao Paulo
+  :EXEMPLAR_LOCATION: São Paulo
 Brazil/West:
   :offset: -14400000
   :LOCALIZED_GMT: GMT-04:00
@@ -8191,8 +8212,8 @@ Egypt:
   :EXEMPLAR_LOCATION: Cairo
 Eire:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Iwerddon
   :GENERIC_LONG: Amser Iwerddon
   :GENERIC_SHORT: Amser Iwerddon
@@ -8212,9 +8233,9 @@ Eire:
   :EXEMPLAR_LOCATION: Dulyn
 Etc/GMT:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
   :SPECIFIC_LONG: Amser Safonol Greenwich
@@ -8233,9 +8254,9 @@ Etc/GMT:
   :EXEMPLAR_LOCATION: Dinas Anhysbys
 Etc/GMT+0:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
   :SPECIFIC_LONG: Amser Safonol Greenwich
@@ -8506,9 +8527,9 @@ Etc/GMT+9:
   :EXEMPLAR_LOCATION: Dinas Anhysbys
 Etc/GMT-0:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
   :SPECIFIC_LONG: Amser Safonol Greenwich
@@ -8821,9 +8842,9 @@ Etc/GMT-9:
   :EXEMPLAR_LOCATION: Dinas Anhysbys
 Etc/GMT0:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
   :SPECIFIC_LONG: Amser Safonol Greenwich
@@ -8842,9 +8863,9 @@ Etc/GMT0:
   :EXEMPLAR_LOCATION: Dinas Anhysbys
 Etc/Greenwich:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
   :SPECIFIC_LONG: Amser Safonol Greenwich
@@ -8863,11 +8884,11 @@ Etc/Greenwich:
   :EXEMPLAR_LOCATION: Dinas Anhysbys
 Etc/UCT:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
+  :GENERIC_LONG: GMT+00:00
+  :GENERIC_SHORT: GMT+0
   :SPECIFIC_LONG: Amser Cyffredniol Cydlynol
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -8884,11 +8905,11 @@ Etc/UCT:
   :EXEMPLAR_LOCATION: Dinas Anhysbys
 Etc/UTC:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
+  :GENERIC_LONG: GMT+00:00
+  :GENERIC_SHORT: GMT+0
   :SPECIFIC_LONG: Amser Cyffredniol Cydlynol
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -8905,11 +8926,11 @@ Etc/UTC:
   :EXEMPLAR_LOCATION: Dinas Anhysbys
 Etc/Universal:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
+  :GENERIC_LONG: GMT+00:00
+  :GENERIC_SHORT: GMT+0
   :SPECIFIC_LONG: Amser Cyffredniol Cydlynol
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -8926,11 +8947,11 @@ Etc/Universal:
   :EXEMPLAR_LOCATION: Dinas Anhysbys
 Etc/Zulu:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
+  :GENERIC_LONG: GMT+00:00
+  :GENERIC_SHORT: GMT+0
   :SPECIFIC_LONG: Amser Cyffredniol Cydlynol
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -8992,9 +9013,9 @@ Europe/Astrakhan:
   :LOCALIZED_GMT: GMT+04:00
   :LOCALIZED_GMT_SHORT: GMT+4
   :GENERIC_LOCATION: Amser Astrakhan
-  :GENERIC_LONG: Amser Astrakhan
+  :GENERIC_LONG: Amser Safonol Samara
   :GENERIC_SHORT: Amser Astrakhan
-  :SPECIFIC_LONG: GMT+04:00
+  :SPECIFIC_LONG: Amser Safonol Samara
   :SPECIFIC_SHORT: GMT+4
   :ISO_BASIC_SHORT: "+04"
   :ISO_BASIC_LOCAL_SHORT: "+04"
@@ -9031,8 +9052,8 @@ Europe/Athens:
   :EXEMPLAR_LOCATION: Athens
 Europe/Belfast:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Y Deyrnas Unedig
   :GENERIC_LONG: Amser Y Deyrnas Unedig
   :GENERIC_SHORT: Amser Y Deyrnas Unedig
@@ -9180,7 +9201,7 @@ Europe/Busingen:
   :offset: 3600000
   :LOCALIZED_GMT: GMT+01:00
   :LOCALIZED_GMT_SHORT: GMT+1
-  :GENERIC_LOCATION: Amser Busingen
+  :GENERIC_LOCATION: Amser Büsingen
   :GENERIC_LONG: Amser Canolbarth Ewrop
   :GENERIC_SHORT: CET
   :SPECIFIC_LONG: Amser Safonol Canolbarth Ewrop
@@ -9196,7 +9217,7 @@ Europe/Busingen:
   :ISO_EXTENDED_FULL: "+01:00"
   :ISO_EXTENDED_LOCAL_FULL: "+01:00"
   :ZONE_ID_SHORT: debsngn
-  :EXEMPLAR_LOCATION: Busingen
+  :EXEMPLAR_LOCATION: Büsingen
 Europe/Chisinau:
   :offset: 7200000
   :LOCALIZED_GMT: GMT+02:00
@@ -9217,7 +9238,7 @@ Europe/Chisinau:
   :ISO_EXTENDED_FULL: "+02:00"
   :ISO_EXTENDED_LOCAL_FULL: "+02:00"
   :ZONE_ID_SHORT: mdkiv
-  :EXEMPLAR_LOCATION: Chisinau
+  :EXEMPLAR_LOCATION: Chișinău
 Europe/Copenhagen:
   :offset: 3600000
   :LOCALIZED_GMT: GMT+01:00
@@ -9241,8 +9262,8 @@ Europe/Copenhagen:
   :EXEMPLAR_LOCATION: Copenhagen
 Europe/Dublin:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Iwerddon
   :GENERIC_LONG: Amser Iwerddon
   :GENERIC_SHORT: Amser Iwerddon
@@ -9283,8 +9304,8 @@ Europe/Gibraltar:
   :EXEMPLAR_LOCATION: Gibraltar
 Europe/Guernsey:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Ynys y Garn
   :GENERIC_LONG: Amser Ynys y Garn
   :GENERIC_SHORT: Amser Ynys y Garn
@@ -9325,8 +9346,8 @@ Europe/Helsinki:
   :EXEMPLAR_LOCATION: Helsinki
 Europe/Isle_of_Man:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Ynys Manaw
   :GENERIC_LONG: Amser Ynys Manaw
   :GENERIC_SHORT: Amser Ynys Manaw
@@ -9367,8 +9388,8 @@ Europe/Istanbul:
   :EXEMPLAR_LOCATION: Caergystennin
 Europe/Jersey:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Jersey
   :GENERIC_LONG: Amser Jersey
   :GENERIC_SHORT: Amser Jersey
@@ -9433,9 +9454,9 @@ Europe/Kirov:
   :LOCALIZED_GMT: GMT+03:00
   :LOCALIZED_GMT_SHORT: GMT+3
   :GENERIC_LOCATION: Amser Kirov
-  :GENERIC_LONG: Amser Kirov
+  :GENERIC_LONG: Amser Safonol Moscfa
   :GENERIC_SHORT: Amser Kirov
-  :SPECIFIC_LONG: GMT+03:00
+  :SPECIFIC_LONG: Amser Safonol Moscfa
   :SPECIFIC_SHORT: GMT+3
   :ISO_BASIC_SHORT: "+03"
   :ISO_BASIC_LOCAL_SHORT: "+03"
@@ -9472,8 +9493,8 @@ Europe/Kyiv:
   :EXEMPLAR_LOCATION: Kiev
 Europe/Lisbon:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Portiwgal
   :GENERIC_LONG: Amser Gorllewin Ewrop
   :GENERIC_SHORT: WET
@@ -9514,8 +9535,8 @@ Europe/Ljubljana:
   :EXEMPLAR_LOCATION: Ljubljana
 Europe/London:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Y Deyrnas Unedig
   :GENERIC_LONG: Amser Y Deyrnas Unedig
   :GENERIC_SHORT: Amser Y Deyrnas Unedig
@@ -9895,9 +9916,9 @@ Europe/Saratov:
   :LOCALIZED_GMT: GMT+04:00
   :LOCALIZED_GMT_SHORT: GMT+4
   :GENERIC_LOCATION: Amser Saratov
-  :GENERIC_LONG: Amser Saratov
+  :GENERIC_LONG: Amser Safonol Samara
   :GENERIC_SHORT: Amser Saratov
-  :SPECIFIC_LONG: GMT+04:00
+  :SPECIFIC_LONG: Amser Safonol Samara
   :SPECIFIC_SHORT: GMT+4
   :ISO_BASIC_SHORT: "+04"
   :ISO_BASIC_LOCAL_SHORT: "+04"
@@ -10036,7 +10057,7 @@ Europe/Tirane:
   :ISO_EXTENDED_FULL: "+01:00"
   :ISO_EXTENDED_LOCAL_FULL: "+01:00"
   :ZONE_ID_SHORT: altia
-  :EXEMPLAR_LOCATION: Tirane
+  :EXEMPLAR_LOCATION: Tirana
 Europe/Tiraspol:
   :offset: 7200000
   :LOCALIZED_GMT: GMT+02:00
@@ -10057,15 +10078,15 @@ Europe/Tiraspol:
   :ISO_EXTENDED_FULL: "+02:00"
   :ISO_EXTENDED_LOCAL_FULL: "+02:00"
   :ZONE_ID_SHORT: mdkiv
-  :EXEMPLAR_LOCATION: Chisinau
+  :EXEMPLAR_LOCATION: Chișinău
 Europe/Ulyanovsk:
   :offset: 14400000
   :LOCALIZED_GMT: GMT+04:00
   :LOCALIZED_GMT_SHORT: GMT+4
   :GENERIC_LOCATION: Amser Ulyanovsk
-  :GENERIC_LONG: Amser Ulyanovsk
+  :GENERIC_LONG: Amser Safonol Samara
   :GENERIC_SHORT: Amser Ulyanovsk
-  :SPECIFIC_LONG: GMT+04:00
+  :SPECIFIC_LONG: Amser Safonol Samara
   :SPECIFIC_SHORT: GMT+4
   :ISO_BASIC_SHORT: "+04"
   :ISO_BASIC_LOCAL_SHORT: "+04"
@@ -10291,8 +10312,8 @@ Europe/Zurich:
   :EXEMPLAR_LOCATION: Zurich
 GB:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Y Deyrnas Unedig
   :GENERIC_LONG: Amser Y Deyrnas Unedig
   :GENERIC_SHORT: Amser Y Deyrnas Unedig
@@ -10312,8 +10333,8 @@ GB:
   :EXEMPLAR_LOCATION: Llundain
 GB-Eire:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Y Deyrnas Unedig
   :GENERIC_LONG: Amser Y Deyrnas Unedig
   :GENERIC_SHORT: Amser Y Deyrnas Unedig
@@ -10333,9 +10354,9 @@ GB-Eire:
   :EXEMPLAR_LOCATION: Llundain
 GMT:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
   :SPECIFIC_LONG: Amser Safonol Greenwich
@@ -10354,9 +10375,9 @@ GMT:
   :EXEMPLAR_LOCATION: Dinas Anhysbys
 GMT+0:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
   :SPECIFIC_LONG: Amser Safonol Greenwich
@@ -10375,9 +10396,9 @@ GMT+0:
   :EXEMPLAR_LOCATION: Dinas Anhysbys
 GMT-0:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
   :SPECIFIC_LONG: Amser Safonol Greenwich
@@ -10396,9 +10417,9 @@ GMT-0:
   :EXEMPLAR_LOCATION: Dinas Anhysbys
 GMT0:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
   :SPECIFIC_LONG: Amser Safonol Greenwich
@@ -10417,9 +10438,9 @@ GMT0:
   :EXEMPLAR_LOCATION: Dinas Anhysbys
 Greenwich:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
   :SPECIFIC_LONG: Amser Safonol Greenwich
@@ -10480,8 +10501,8 @@ Hongkong:
   :EXEMPLAR_LOCATION: Hong Kong
 Iceland:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Gwlad yr Iâ
   :GENERIC_LONG: Amser Safonol Greenwich
   :GENERIC_SHORT: GMT
@@ -10603,7 +10624,7 @@ Indian/Comoro:
   :ISO_EXTENDED_FULL: "+03:00"
   :ISO_EXTENDED_LOCAL_FULL: "+03:00"
   :ZONE_ID_SHORT: kmyva
-  :EXEMPLAR_LOCATION: Comoro
+  :EXEMPLAR_LOCATION: Comores
 Indian/Kerguelen:
   :offset: 18000000
   :LOCALIZED_GMT: GMT+05:00
@@ -10645,7 +10666,7 @@ Indian/Mahe:
   :ISO_EXTENDED_FULL: "+04:00"
   :ISO_EXTENDED_LOCAL_FULL: "+04:00"
   :ZONE_ID_SHORT: scmaw
-  :EXEMPLAR_LOCATION: Mahe
+  :EXEMPLAR_LOCATION: Mahé
 Indian/Maldives:
   :offset: 18000000
   :LOCALIZED_GMT: GMT+05:00
@@ -10944,9 +10965,9 @@ Mexico/BajaSur:
   :offset: -25200000
   :LOCALIZED_GMT: GMT-07:00
   :LOCALIZED_GMT_SHORT: GMT-7
-  :GENERIC_LOCATION: Amser Mazatlan
+  :GENERIC_LOCATION: Amser Mazatlán
   :GENERIC_LONG: Amser Pasiffig Mecsico
-  :GENERIC_SHORT: Amser Mazatlan
+  :GENERIC_SHORT: Amser Mazatlán
   :SPECIFIC_LONG: Amser Safonol Pasiffig Mecsico
   :SPECIFIC_SHORT: GMT-7
   :ISO_BASIC_SHORT: "-07"
@@ -10960,7 +10981,7 @@ Mexico/BajaSur:
   :ISO_EXTENDED_FULL: "-07:00"
   :ISO_EXTENDED_LOCAL_FULL: "-07:00"
   :ZONE_ID_SHORT: mxmzt
-  :EXEMPLAR_LOCATION: Mazatlan
+  :EXEMPLAR_LOCATION: Mazatlán
 Mexico/General:
   :offset: -21600000
   :LOCALIZED_GMT: GMT-06:00
@@ -11238,9 +11259,9 @@ Pacific/Enderbury:
   :offset: 46800000
   :LOCALIZED_GMT: GMT+13:00
   :LOCALIZED_GMT_SHORT: GMT+13
-  :GENERIC_LOCATION: Amser Enderbury
+  :GENERIC_LOCATION: Amser Canton
   :GENERIC_LONG: Amser Ynysoedd Phoenix
-  :GENERIC_SHORT: Amser Enderbury
+  :GENERIC_SHORT: Amser Canton
   :SPECIFIC_LONG: Amser Ynysoedd Phoenix
   :SPECIFIC_SHORT: GMT+13
   :ISO_BASIC_SHORT: "+13"
@@ -11254,7 +11275,7 @@ Pacific/Enderbury:
   :ISO_EXTENDED_FULL: "+13:00"
   :ISO_EXTENDED_LOCAL_FULL: "+13:00"
   :ZONE_ID_SHORT: kipho
-  :EXEMPLAR_LOCATION: Enderbury
+  :EXEMPLAR_LOCATION: Canton
 Pacific/Fakaofo:
   :offset: 46800000
   :LOCALIZED_GMT: GMT+13:00
@@ -11322,9 +11343,9 @@ Pacific/Galapagos:
   :offset: -21600000
   :LOCALIZED_GMT: GMT-06:00
   :LOCALIZED_GMT_SHORT: GMT-6
-  :GENERIC_LOCATION: Amser Galapagos
+  :GENERIC_LOCATION: Amser Galápagos
   :GENERIC_LONG: Amser Galapagos
-  :GENERIC_SHORT: Amser Galapagos
+  :GENERIC_SHORT: Amser Galápagos
   :SPECIFIC_LONG: Amser Galapagos
   :SPECIFIC_SHORT: GMT-6
   :ISO_BASIC_SHORT: "-06"
@@ -11338,7 +11359,7 @@ Pacific/Galapagos:
   :ISO_EXTENDED_FULL: "-06:00"
   :ISO_EXTENDED_LOCAL_FULL: "-06:00"
   :ZONE_ID_SHORT: ecgps
-  :EXEMPLAR_LOCATION: Galapagos
+  :EXEMPLAR_LOCATION: Galápagos
 Pacific/Gambier:
   :offset: -32400000
   :LOCALIZED_GMT: GMT-09:00
@@ -11448,9 +11469,9 @@ Pacific/Kanton:
   :offset: 46800000
   :LOCALIZED_GMT: GMT+13:00
   :LOCALIZED_GMT_SHORT: GMT+13
-  :GENERIC_LOCATION: Amser Enderbury
+  :GENERIC_LOCATION: Amser Canton
   :GENERIC_LONG: Amser Ynysoedd Phoenix
-  :GENERIC_SHORT: Amser Enderbury
+  :GENERIC_SHORT: Amser Canton
   :SPECIFIC_LONG: Amser Ynysoedd Phoenix
   :SPECIFIC_SHORT: GMT+13
   :ISO_BASIC_SHORT: "+13"
@@ -11464,7 +11485,7 @@ Pacific/Kanton:
   :ISO_EXTENDED_FULL: "+13:00"
   :ISO_EXTENDED_LOCAL_FULL: "+13:00"
   :ZONE_ID_SHORT: kipho
-  :EXEMPLAR_LOCATION: Enderbury
+  :EXEMPLAR_LOCATION: Canton
 Pacific/Kiritimati:
   :offset: 50400000
   :LOCALIZED_GMT: GMT+14:00
@@ -11674,7 +11695,7 @@ Pacific/Noumea:
   :ISO_EXTENDED_FULL: "+11:00"
   :ISO_EXTENDED_LOCAL_FULL: "+11:00"
   :ZONE_ID_SHORT: ncnou
-  :EXEMPLAR_LOCATION: Noumea
+  :EXEMPLAR_LOCATION: Nouméa
 Pacific/Pago_Pago:
   :offset: -39600000
   :LOCALIZED_GMT: GMT-11:00
@@ -11989,7 +12010,7 @@ Pacific/Wallis:
   :ISO_EXTENDED_FULL: "+12:00"
   :ISO_EXTENDED_LOCAL_FULL: "+12:00"
   :ZONE_ID_SHORT: wfmau
-  :EXEMPLAR_LOCATION: Wallis
+  :EXEMPLAR_LOCATION: Wallis & Futuna
 Pacific/Yap:
   :offset: 36000000
   :LOCALIZED_GMT: GMT+10:00
@@ -12034,8 +12055,8 @@ Poland:
   :EXEMPLAR_LOCATION: Warsaw
 Portugal:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Portiwgal
   :GENERIC_LONG: Amser Gorllewin Ewrop
   :GENERIC_SHORT: WET
@@ -12139,11 +12160,11 @@ Turkey:
   :EXEMPLAR_LOCATION: Caergystennin
 UCT:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
+  :GENERIC_LONG: GMT+00:00
+  :GENERIC_SHORT: GMT+0
   :SPECIFIC_LONG: Amser Cyffredniol Cydlynol
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -12412,11 +12433,11 @@ US/Samoa:
   :EXEMPLAR_LOCATION: Pago Pago
 UTC:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
+  :GENERIC_LONG: GMT+00:00
+  :GENERIC_SHORT: GMT+0
   :SPECIFIC_LONG: Amser Cyffredniol Cydlynol
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -12433,11 +12454,11 @@ UTC:
   :EXEMPLAR_LOCATION: Dinas Anhysbys
 Universal:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
+  :GENERIC_LONG: GMT+00:00
+  :GENERIC_SHORT: GMT+0
   :SPECIFIC_LONG: Amser Cyffredniol Cydlynol
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -12475,8 +12496,8 @@ W-SU:
   :EXEMPLAR_LOCATION: Moscow
 WET:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Amser Portiwgal
   :GENERIC_LONG: Amser Gorllewin Ewrop
   :GENERIC_SHORT: WET
@@ -12496,11 +12517,11 @@ WET:
   :EXEMPLAR_LOCATION: Lisbon
 Zulu:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
+  :GENERIC_LONG: GMT+00:00
+  :GENERIC_SHORT: GMT+0
   :SPECIFIC_LONG: Amser Cyffredniol Cydlynol
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z

@@ -418,7 +418,6 @@
       :name: "hondurasi lempira"
       :narrow_symbol: L
       :one: "hondurasi lempira"
-      :other: "hondurasi lempira"
       :symbol: L
     :HRD: 
       :name: "Horvát dínár"
@@ -464,7 +463,6 @@
     :IRR: 
       :name: "iráni riál"
       :one: "iráni riál"
-      :other: "iráni riál"
     :ISK: 
       :name: "izlandi korona"
       :narrow_symbol: kr
@@ -602,7 +600,6 @@
     :MKD: 
       :name: "macedón dénár"
       :one: "macedón dénár"
-      :other: "macedón dénár"
     :MKN: 
       :name: "macedón dénár (1992–1993)"
       :one: "macedón dénár (1992–1993)"
@@ -714,7 +711,6 @@
     :OMR: 
       :name: "ománi riál"
       :one: "ománi riál"
-      :other: "ománi riál"
     :PAB: 
       :name: "panamai balboa"
       :one: "panamai balboa"
@@ -761,7 +757,6 @@
     :QAR: 
       :name: "katari riál"
       :one: "katari riál"
-      :other: "katari riál"
     :RHD: 
       :name: "rhodéziai dollár"
       :one: "Rhodéziai dollár"
@@ -777,7 +772,6 @@
     :RSD: 
       :name: "szerb dinár"
       :one: "szerb dinár"
-      :other: "szerb dinár"
     :RUB: 
       :name: "orosz rubel"
       :narrow_symbol: ₽
@@ -794,7 +788,7 @@
     :SAR: 
       :name: "szaúdi riál"
       :one: "szaúdi riál"
-      :other: "szaúdi riál"
+      :symbol: ⃁
     :SBD: 
       :name: "salamon-szigeteki dollár"
       :narrow_symbol: $
@@ -841,7 +835,6 @@
     :SLL: 
       :name: "Sierra Leone-i leone (1964–2022)"
       :one: "Sierra Leone-i leone (1964–2022)"
-      :other: "Sierra Leone-i leone (1964–2022)"
     :SOS: 
       :name: "szomáli shilling"
       :one: "szomáli shilling"
@@ -971,12 +964,10 @@
       :name: "uruguayi peso"
       :narrow_symbol: $
       :one: "uruguayi peso"
-      :other: "uruguayi peso"
       :symbol: $
     :UZS: 
       :name: "üzbegisztáni szom"
       :one: "üzbegisztáni szom"
-      :other: "üzbegisztáni szom"
     :VEB: 
       :name: "Venezuelai bolivar (1871–2008)"
       :one: "Venezuelai bolivar (1871–2008)"
@@ -1030,6 +1021,9 @@
       :one: "kelet-karibi dollár"
       :symbol: XCD
     :XCG: 
+      :name: "karibi forint"
+      :one: "karibi forint"
+      :other: "karibi forint"
       :symbol: Cg.
     :XDR: 
       :name: "Special Drawing Rights"
@@ -1077,7 +1071,6 @@
     :YER: 
       :name: "jemeni riál"
       :one: "jemeni riál"
-      :other: "jemeni riál"
     :YUD: 
       :name: "Jugoszláv kemény dínár"
       :one: "jugoszláv kemény dinár (1966–1990)"
@@ -1118,6 +1111,10 @@
     :ZWD: 
       :name: "Zimbabwei dollár (1980–2008)"
       :one: "Zimbabwei dollár (1980–2008)"
+    :ZWG: 
+      :name: "zimbabwei arany"
+      :one: "zimbabwei arany"
+      :other: "zimbabwei arany"
     :ZWL: 
       :name: "Zimbabwei dollár (2009)"
       :one: "Zimbabwei dollár (2009)"

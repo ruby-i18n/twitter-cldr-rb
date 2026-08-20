@@ -1,8 +1,8 @@
 ---
 AHex:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 age:
 - :abbreviated_name: '1.1'
@@ -59,12 +59,14 @@ age:
   :long_name: V15_1
 - :abbreviated_name: '16.0'
   :long_name: V16_0
+- :abbreviated_name: '17.0'
+  :long_name: V17_0
 - :abbreviated_name: NA
   :long_name: Unassigned
 Alpha:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 bc:
 - :abbreviated_name: AL
@@ -114,14 +116,14 @@ bc:
 - :abbreviated_name: WS
   :long_name: White_Space
 Bidi_C:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 Bidi_M:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 bpt:
 - :abbreviated_name: c
@@ -185,6 +187,8 @@ blk:
   :long_name: Batak
 - :abbreviated_name: Bengali
   :long_name: Bengali
+- :abbreviated_name: Beria_Erfe
+  :long_name: Beria_Erfe
 - :abbreviated_name: Bhaiksuki
   :long_name: Bhaiksuki
 - :abbreviated_name: Block_Elements
@@ -249,6 +253,8 @@ blk:
   :long_name: CJK_Unified_Ideographs_Extension_H
 - :abbreviated_name: CJK_Ext_I
   :long_name: CJK_Unified_Ideographs_Extension_I
+- :abbreviated_name: CJK_Ext_J
+  :long_name: CJK_Unified_Ideographs_Extension_J
 - :abbreviated_name: CJK_Radicals_Sup
   :long_name: CJK_Radicals_Supplement
 - :abbreviated_name: CJK_Strokes
@@ -547,6 +553,8 @@ blk:
   :long_name: Miscellaneous_Symbols_And_Pictographs
 - :abbreviated_name: Misc_Symbols
   :long_name: Miscellaneous_Symbols
+- :abbreviated_name: Misc_Symbols_Sup
+  :long_name: Miscellaneous_Symbols_Supplement
 - :abbreviated_name: Misc_Technical
   :long_name: Miscellaneous_Technical
 - :abbreviated_name: Modi
@@ -665,12 +673,16 @@ blk:
   :long_name: Saurashtra
 - :abbreviated_name: Sharada
   :long_name: Sharada
+- :abbreviated_name: Sharada_Sup
+  :long_name: Sharada_Supplement
 - :abbreviated_name: Shavian
   :long_name: Shavian
 - :abbreviated_name: Shorthand_Format_Controls
   :long_name: Shorthand_Format_Controls
 - :abbreviated_name: Siddham
   :long_name: Siddham
+- :abbreviated_name: Sidetic
+  :long_name: Sidetic
 - :abbreviated_name: Sinhala
   :long_name: Sinhala
 - :abbreviated_name: Sinhala_Archaic_Numbers
@@ -739,6 +751,8 @@ blk:
   :long_name: Tai_Viet
 - :abbreviated_name: Tai_Xuan_Jing
   :long_name: Tai_Xuan_Jing_Symbols
+- :abbreviated_name: Tai_Yo
+  :long_name: Tai_Yo
 - :abbreviated_name: Takri
   :long_name: Takri
 - :abbreviated_name: Tamil
@@ -751,6 +765,8 @@ blk:
   :long_name: Tangut
 - :abbreviated_name: Tangut_Components
   :long_name: Tangut_Components
+- :abbreviated_name: Tangut_Components_Sup
+  :long_name: Tangut_Components_Supplement
 - :abbreviated_name: Tangut_Sup
   :long_name: Tangut_Supplement
 - :abbreviated_name: Telugu
@@ -767,6 +783,8 @@ blk:
   :long_name: Tirhuta
 - :abbreviated_name: Todhri
   :long_name: Todhri
+- :abbreviated_name: Tolong_Siki
+  :long_name: Tolong_Siki
 - :abbreviated_name: Toto
   :long_name: Toto
 - :abbreviated_name: Transport_And_Map
@@ -985,54 +1003,54 @@ ccc:
   :abbreviated_name: IS
   :long_name: Iota_Subscript
 CI:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 Cased:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 CWCF:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 CWCM:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 CWL:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 CWKCF:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 CWT:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 CWU:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 CE:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 Dash:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 dt:
 - :abbreviated_name: Can
@@ -1072,19 +1090,19 @@ dt:
 - :abbreviated_name: Wide
   :long_name: Wide
 DI:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 Dep:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 Dia:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 ea:
 - :abbreviated_name: A
@@ -1093,71 +1111,71 @@ ea:
   :long_name: Fullwidth
 - :abbreviated_name: H
   :long_name: Halfwidth
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: Neutral
 - :abbreviated_name: Na
   :long_name: Narrow
 - :abbreviated_name: W
   :long_name: Wide
 Emoji:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 EComp:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 EMod:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 EBase:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 EPres:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 XO_NFC:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 XO_NFD:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 XO_NFKC:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 XO_NFKD:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 ExtPict:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 Ext:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 Comp_Ex:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 gc:
 - :abbreviated_name: C
@@ -1194,7 +1212,7 @@ gc:
   :long_name: Enclosing_Mark
 - :abbreviated_name: Mn
   :long_name: Nonspacing_Mark
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: Number
 - :abbreviated_name: Nd
   :long_name: Decimal_Number
@@ -1237,9 +1255,9 @@ gc:
 - :abbreviated_name: Zs
   :long_name: Space_Separator
 Gr_Base:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 GCB:
 - :abbreviated_name: CN
@@ -1279,14 +1297,14 @@ GCB:
 - :abbreviated_name: ZWJ
   :long_name: ZWJ
 Gr_Ext:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 Gr_Link:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 hst:
 - :abbreviated_name: L
@@ -1302,54 +1320,54 @@ hst:
 - :abbreviated_name: V
   :long_name: Vowel_Jamo
 Hex:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 Hyphen:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 IDSB:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 IDST:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 IDSU:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 ID_Compat_Math_Continue:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 ID_Compat_Math_Start:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 IDC:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 IDS:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 Ideo:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 InCB:
 - :abbreviated_name: Consonant
@@ -1372,7 +1390,7 @@ InPC:
 - :abbreviated_name: Left_And_Right
   :long_name: Left_And_Right
 - :abbreviated_name: NA
-  :long_name: NA
+  :long_name: Not_Applicable
 - :abbreviated_name: Overstruck
   :long_name: Overstruck
 - :abbreviated_name: Right
@@ -1525,8 +1543,8 @@ JSN:
   :long_name: LT
 - :abbreviated_name: M
   :long_name: M
-- :abbreviated_name: N
-  :long_name: N
+- :abbreviated_name: "N"
+  :long_name: "N"
 - :abbreviated_name: NG
   :long_name: NG
 - :abbreviated_name: NH
@@ -1574,9 +1592,9 @@ JSN:
 - :abbreviated_name: YU
   :long_name: YU
 Join_C:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 jg:
 - :abbreviated_name: African_Feh
@@ -1769,6 +1787,8 @@ jg:
   :long_name: Teh_Marbuta_Goal
 - :abbreviated_name: Teth
   :long_name: Teth
+- :abbreviated_name: Thin_Noon
+  :long_name: Thin_Noon
 - :abbreviated_name: Thin_Yeh
   :long_name: Thin_Yeh
 - :abbreviated_name: Vertical_Tail
@@ -1845,6 +1865,8 @@ lb:
   :long_name: H2
 - :abbreviated_name: H3
   :long_name: H3
+- :abbreviated_name: HH
+  :long_name: Unambiguous_Hyphen
 - :abbreviated_name: HL
   :long_name: Hebrew_Letter
 - :abbreviated_name: HY
@@ -1900,53 +1922,53 @@ lb:
 - :abbreviated_name: ZWJ
   :long_name: ZWJ
 LOE:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 Lower:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 Math:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 MCM:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 NFC_QC:
 - :abbreviated_name: M
   :long_name: Maybe
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 NFD_QC:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 NFKC_QC:
 - :abbreviated_name: M
   :long_name: Maybe
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 NFKD_QC:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 NChar:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 nt:
 - :abbreviated_name: De
@@ -1958,74 +1980,74 @@ nt:
 - :abbreviated_name: Nu
   :long_name: Numeric
 OAlpha:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 ODI:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 OGr_Ext:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 OIDC:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 OIDS:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 OLower:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 OMath:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 OUpper:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 Pat_Syn:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 Pat_WS:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 PCM:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 QMark:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 Radical:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 RI:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 sc:
 - :abbreviated_name: Adlm
@@ -2052,6 +2074,8 @@ sc:
   :long_name: Batak
 - :abbreviated_name: Beng
   :long_name: Bengali
+- :abbreviated_name: Berf
+  :long_name: Beria_Erfe
 - :abbreviated_name: Bhks
   :long_name: Bhaiksuki
 - :abbreviated_name: Bopo
@@ -2290,6 +2314,8 @@ sc:
   :long_name: Sharada
 - :abbreviated_name: Sidd
   :long_name: Siddham
+- :abbreviated_name: Sidt
+  :long_name: Sidetic
 - :abbreviated_name: Sind
   :long_name: Khudawadi
 - :abbreviated_name: Sinh
@@ -2324,6 +2350,8 @@ sc:
   :long_name: Tangut
 - :abbreviated_name: Tavt
   :long_name: Tai_Viet
+- :abbreviated_name: Tayo
+  :long_name: Tai_Yo
 - :abbreviated_name: Telu
   :long_name: Telugu
 - :abbreviated_name: Tfng
@@ -2342,6 +2370,8 @@ sc:
   :long_name: Tangsa
 - :abbreviated_name: Todr
   :long_name: Todhri
+- :abbreviated_name: Tols
+  :long_name: Tolong_Siki
 - :abbreviated_name: Toto
   :long_name: Toto
 - :abbreviated_name: Tutg
@@ -2404,34 +2434,34 @@ SB:
 - :abbreviated_name: XX
   :long_name: Other
 STerm:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 SD:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 Term:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 UIdeo:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 Upper:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 VS:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 vo:
 - :abbreviated_name: R
@@ -2443,9 +2473,9 @@ vo:
 - :abbreviated_name: U
   :long_name: Upright
 WSpace:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 WB:
 - :abbreviated_name: CR
@@ -2495,22 +2525,22 @@ WB:
 - :abbreviated_name: ZWJ
   :long_name: ZWJ
 XIDC:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 XIDS:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 kEH_NoMirror:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'
 kEH_NoRotate:
-- :abbreviated_name: N
+- :abbreviated_name: "N"
   :long_name: 'No'
-- :abbreviated_name: Y
+- :abbreviated_name: "Y"
   :long_name: 'Yes'

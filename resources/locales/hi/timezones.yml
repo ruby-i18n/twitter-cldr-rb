@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -28,9 +30,7 @@
         :standard: "दक्षिण अफ़्रीका मानक समय"
     :Africa_Western: 
       :long: 
-        :daylight: "पश्चिम अफ़्रीका ग्रीष्मकालीन समय"
-        :generic: "पश्चिम अफ़्रीका समय"
-        :standard: "पश्चिम अफ़्रीका मानक समय"
+        :standard: "पश्चिम अफ़्रीका समय"
     :Alaska: 
       :long: 
         :daylight: "अलास्‍का डेलाइट समय"
@@ -273,6 +273,9 @@
     :Guyana: 
       :long: 
         :standard: "गुयाना समय"
+    :Hawaii: 
+      :long: 
+        :standard: "हवाई–आल्यूशन मानक समय"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "हवाई–आल्यूशन डेलाइट समय"
@@ -794,6 +797,8 @@
       :city: कोर्डोबा
     :America/Costa_Rica: 
       :city: "कोस्टा रिका"
+    :America/Coyhaique: 
+      :city: कॉयहेक
     :America/Creston: 
       :city: क्रेस्टन
     :America/Cuiaba: 
@@ -1398,7 +1403,7 @@
     :Pacific/Efate: 
       :city: एफ़ेट
     :Pacific/Enderbury: 
-      :city: एंडरबरी
+      :city: कैंटन
     :Pacific/Fakaofo: 
       :city: फ़ाकाओफ़ो
     :Pacific/Fiji: 
@@ -1415,12 +1420,6 @@
       :city: गुआम
     :Pacific/Honolulu: 
       :city: होनोलुलु
-      :short: 
-        :daylight: HST
-        :generic: एचएसटी
-        :standard: एचएसटी
-    :Pacific/Kanton: 
-      :city: कैंटन
     :Pacific/Kiritimati: 
       :city: किरीतिमाति
     :Pacific/Kosrae: 

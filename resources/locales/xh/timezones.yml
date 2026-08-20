@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -28,9 +30,7 @@
         :standard: "South Africa Standard Time"
     :Africa_Western: 
       :long: 
-        :daylight: "West Africa Summer Time"
-        :generic: "West Africa Time"
-        :standard: "West Africa Standard Time"
+        :standard: "West Africa Time"
     :Alaska: 
       :long: 
         :daylight: "Alaska Daylight Time"
@@ -268,6 +268,9 @@
     :Guyana: 
       :long: 
         :standard: "Guyana Time"
+    :Hawaii: 
+      :long: 
+        :standard: "Hawaii-Aleutian Standard Time"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "Hawaii-Aleutian Daylight Time"
@@ -601,20 +604,42 @@
   :timezones: 
     :Africa/Asmera: 
       :city: Asmara
+    :Africa/El_Aaiun: 
+      :city: "El Aaiún"
+    :Africa/Lome: 
+      :city: Lomé
+    :Africa/Ndjamena: 
+      :city: N’Djamena
     :Africa/Sao_Tome: 
       :city: "São Tomé"
+    :America/Araguaina: 
+      :city: Araguaína
+    :America/Argentina/Rio_Gallegos: 
+      :city: "Río Gallegos"
+    :America/Argentina/Tucuman: 
+      :city: Tucumán
     :America/Asuncion: 
       :city: Asunción
     :America/Bahia_Banderas: 
       :city: "Bahia Banderas"
+    :America/Belem: 
+      :city: Belém
+    :America/Bogota: 
+      :city: Bogotá
     :America/Cancun: 
       :city: Cancun
     :America/Ciudad_Juarez: 
       :city: "Ciudad Juárez"
     :America/Coral_Harbour: 
       :city: Atikokan
+    :America/Cordoba: 
+      :city: Córdoba
+    :America/Cuiaba: 
+      :city: Cuiabá
     :America/Curacao: 
       :city: Curaçao
+    :America/Eirunepe: 
+      :city: Eirunepé
     :America/Godthab: 
       :city: Nuuk
     :America/Indiana/Knox: 
@@ -635,14 +660,28 @@
       :city: "Monticello, Kentucky"
     :America/Lower_Princes: 
       :city: "Lower Prince’s Quarter"
+    :America/Maceio: 
+      :city: Maceió
+    :America/Mazatlan: 
+      :city: Mazatlán
     :America/Merida: 
       :city: Merida
+    :America/Mexico_City: 
+      :city: "Ciudad de México"
+    :America/Miquelon: 
+      :city: Saint-Pierre
+    :America/Noronha: 
+      :city: "Fernando de Noronha"
     :America/North_Dakota/Beulah: 
       :city: "Beulah, North Dakota"
     :America/North_Dakota/Center: 
       :city: "Center, North Dakota"
     :America/North_Dakota/New_Salem: 
       :city: "New Salem, North Dakota"
+    :America/Santarem: 
+      :city: Santarém
+    :America/Sao_Paulo: 
+      :city: "São Paulo"
     :America/Scoresbysund: 
       :city: Ittoqqortoormiit
     :America/St_Barthelemy: 
@@ -658,9 +697,13 @@
     :America/St_Vincent: 
       :city: "St. Vincent"
     :Antarctica/DumontDUrville: 
-      :city: "Dumont d’Urville"
+      :city: Dumont-d’Urville
+    :Antarctica/Syowa: 
+      :city: Showa
     :Asia/Calcutta: 
       :city: Kolkata
+    :Asia/Hovd: 
+      :city: Khovd
     :Asia/Katmandu: 
       :city: Kathmandu
     :Asia/Macau: 
@@ -671,6 +714,10 @@
       :city: Yangon
     :Asia/Saigon: 
       :city: "Ho Chi Minh City"
+    :Asia/Urumqi: 
+      :city: Ürümqi
+    :Atlantic/Canary: 
+      :city: Canarias
     :Atlantic/Faeroe: 
       :city: Faroe
     :Atlantic/St_Helena: 
@@ -681,7 +728,11 @@
       :short: 
         :standard: UTC
     :Etc/Unknown: 
-      :city: "Unknown City"
+      :city: "Indawo Engaziwayo"
+    :Europe/Busingen: 
+      :city: Büsingen
+    :Europe/Chisinau: 
+      :city: Chișinău
     :Europe/Dublin: 
       :long: 
         :daylight: "Irish Standard Time"
@@ -690,9 +741,23 @@
     :Europe/London: 
       :long: 
         :daylight: "British Summer Time"
+    :Europe/Tirane: 
+      :city: Tirana
+    :Indian/Comoro: 
+      :city: Comores
+    :Indian/Mahe: 
+      :city: Mahé
     :Indian/Reunion: 
       :city: Réunion
+    :Pacific/Enderbury: 
+      :city: "ICanton Island"
+    :Pacific/Galapagos: 
+      :city: Galápagos
+    :Pacific/Noumea: 
+      :city: Nouméa
     :Pacific/Ponape: 
       :city: Pohnpei
     :Pacific/Truk: 
       :city: Chuuk
+    :Pacific/Wallis: 
+      :city: "Wallis & Futuna"

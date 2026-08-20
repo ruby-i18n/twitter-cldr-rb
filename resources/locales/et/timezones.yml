@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT {0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "Lõuna-Aafrika standardaeg"
     :Africa_Western: 
       :long: 
-        :daylight: "Lääne-Aafrika suveaeg"
-        :generic: "Lääne-Aafrika aeg"
-        :standard: "Lääne-Aafrika standardaeg"
+        :standard: "Lääne-Aafrika aeg"
     :Alaska: 
       :long: 
         :daylight: "Alaska suveaeg"
@@ -304,6 +304,9 @@
     :Guyana: 
       :long: 
         :standard: "Guyana aeg"
+    :Hawaii: 
+      :long: 
+        :standard: "Hawaii-Aleuudi standardaeg"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "Hawaii-Aleuudi suveaeg"
@@ -602,6 +605,11 @@
     :Truk: 
       :long: 
         :standard: "Chuuki aeg"
+    :Turkey: 
+      :long: 
+        :daylight: "Türgi suveaeg"
+        :generic: "Türgi aeg"
+        :standard: "Türgi standardaeg"
     :Turkmenistan: 
       :long: 
         :daylight: "Türkmenistani suveaeg"
@@ -739,6 +747,10 @@
       :city: Mérida
     :America/Mexico_City: 
       :city: México
+    :America/Miquelon: 
+      :city: Saint-Pierre
+    :America/Noronha: 
+      :city: "Fernando de Noronha"
     :America/North_Dakota/Beulah: 
       :city: "Beulah, Põhja-Dakota"
     :America/North_Dakota/Center: 
@@ -764,7 +776,9 @@
     :America/St_Vincent: 
       :city: "Saint Vincent"
     :Antarctica/DumontDUrville: 
-      :city: "Dumont d’Urville"
+      :city: Dumont-d’Urville
+    :Antarctica/Syowa: 
+      :city: Showa
     :Asia/Almaty: 
       :city: Almatõ
     :Asia/Anadyr: 
@@ -795,6 +809,8 @@
       :city: Dušanbe
     :Asia/Hong_Kong: 
       :city: Hongkong
+    :Asia/Hovd: 
+      :city: Khovd
     :Asia/Jerusalem: 
       :city: Jeruusalemm
     :Asia/Kamchatka: 
@@ -932,6 +948,8 @@
       :city: Jõulusaar
     :Indian/Cocos: 
       :city: Kookossaared
+    :Indian/Comoro: 
+      :city: Comores
     :Indian/Mahe: 
       :city: Mahé
     :Indian/Maldives: 
@@ -941,15 +959,13 @@
     :Pacific/Easter: 
       :city: Lihavõttesaar
     :Pacific/Enderbury: 
-      :city: Enderbury
+      :city: Abariringa
     :Pacific/Fiji: 
       :city: Fidži
     :Pacific/Galapagos: 
       :city: Galápagos
     :Pacific/Honolulu: 
       :city: Honolulu
-    :Pacific/Kanton: 
-      :city: Abariringa
     :Pacific/Marquesas: 
       :city: Markiisaared
     :Pacific/Noumea: 
@@ -960,3 +976,5 @@
       :city: Pohnpei
     :Pacific/Truk: 
       :city: Chuuk
+    :Pacific/Wallis: 
+      :city: "Wallis & Futuna"

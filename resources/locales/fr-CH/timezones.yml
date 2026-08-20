@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "UTC{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: UTC
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "heure normale d’Afrique méridionale"
     :Africa_Western: 
       :long: 
-        :daylight: "heure d’été d’Afrique de l’Ouest"
-        :generic: "heure d’Afrique de l’Ouest"
-        :standard: "heure normale d’Afrique de l’Ouest"
+        :standard: "heure d’Afrique de l’Ouest"
     :Alaska: 
       :long: 
         :daylight: "heure d’été de l’Alaska"
@@ -296,6 +296,9 @@
     :Guyana: 
       :long: 
         :standard: "heure du Guyana"
+    :Hawaii: 
+      :long: 
+        :standard: "heure normale d’Hawaï - Aléoutiennes"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "heure d’été d’Hawaï - Aléoutiennes"
@@ -581,6 +584,11 @@
     :Truk: 
       :long: 
         :standard: "heure de Chuuk"
+    :Turkey: 
+      :long: 
+        :daylight: "heure avancée de Turquie"
+        :generic: "heure de Turquie"
+        :standard: "heure normale de Turquie"
     :Turkmenistan: 
       :long: 
         :daylight: "heure d’été du Turkménistan"
@@ -676,6 +684,8 @@
       :city: "La Barbade"
     :America/Belem: 
       :city: Belém
+    :America/Bogota: 
+      :city: Bogotá
     :America/Cancun: 
       :city: Cancún
     :America/Cayman: 
@@ -732,6 +742,10 @@
       :city: Mérida
     :America/Mexico_City: 
       :city: Mexico
+    :America/Miquelon: 
+      :city: Saint-Pierre
+    :America/Noronha: 
+      :city: "Fernando de Noronha"
     :America/North_Dakota/Beulah: 
       :city: "Beulah (Dakota du Nord)"
     :America/North_Dakota/Center: 
@@ -802,6 +816,8 @@
       :city: Famagouste
     :Asia/Hebron: 
       :city: Hébron
+    :Asia/Hovd: 
+      :city: Khovd
     :Asia/Irkutsk: 
       :city: Irkoutsk
     :Asia/Jerusalem: 
@@ -888,7 +904,7 @@
       :short: 
         :standard: UTC
     :Etc/Unknown: 
-      :city: "ville inconnue"
+      :city: "lieu inconnu"
     :Europe/Andorra: 
       :city: Andorre
     :Europe/Athens: 
@@ -899,6 +915,8 @@
       :city: Bucarest
     :Europe/Busingen: 
       :city: Büsingen
+    :Europe/Chisinau: 
+      :city: Chișinău
     :Europe/Copenhagen: 
       :city: Copenhague
     :Europe/Dublin: 
@@ -945,15 +963,13 @@
     :Pacific/Efate: 
       :city: Éfaté
     :Pacific/Enderbury: 
-      :city: Enderbury
+      :city: Canton
     :Pacific/Fiji: 
       :city: Fidji
     :Pacific/Galapagos: 
       :city: Galápagos
     :Pacific/Honolulu: 
       :city: Honolulu
-    :Pacific/Kanton: 
-      :city: Canton
     :Pacific/Marquesas: 
       :city: Marquises
     :Pacific/Noumea: 
@@ -964,3 +980,5 @@
       :city: Pohnpei
     :Pacific/Truk: 
       :city: Chuuk
+    :Pacific/Wallis: 
+      :city: "Wallis & Futuna"

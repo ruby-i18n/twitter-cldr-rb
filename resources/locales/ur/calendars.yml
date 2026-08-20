@@ -7,14 +7,18 @@
         :Bhm: "h:mm B"
         :Bhms: "h:mm:ss B"
         :E: ccc
+        :EBh: "E h B"
         :EBhm: "E h:mm B"
         :EBhms: "E h:mm:ss B"
         :EHm: "E HH:mm"
         :EHms: "E HH:mm:ss"
         :Ed: "d E"
+        :Eh: "E h a"
         :Ehm: "E h:mm a"
         :Ehms: "E h:mm:ss a"
         :Gy: "y G"
+        :GyM: "M/y G"
+        :GyMEd: "E، d/M/y G"
         :GyMMM: "MMM y G"
         :GyMMMEd: "E، d MMM، y G"
         :GyMMMd: "d MMM، y G"
@@ -24,6 +28,7 @@
         :Hms: "HH:mm:ss"
         :Hmsv: "HH:mm:ss v"
         :Hmv: "HH:mm v"
+        :Hv: "HH v"
         :M: L
         :MEd: "E، d/M"
         :MMM: LLL
@@ -38,6 +43,7 @@
         :hms: "h:mm:ss a"
         :hmsv: "h:mm:ss a v"
         :hmv: "h:mm a v"
+        :hv: "h a v"
         :ms: "mm:ss"
         ? !ruby/symbol "y"
         : "y"
@@ -186,7 +192,7 @@
             :pattern: d/M/yy
         :datetime: 
           :full: 
-            :pattern: "{{date}} کو {{time}}"
+            :pattern: "{{date}} {{time}} پر"
           :long: 
             :pattern: "{{date}} کو {{time}}"
           :medium: 
@@ -295,7 +301,13 @@
             :night1: رات
             :pm: PM
           :narrow: 
+            :afternoon1: دوپہر
+            :afternoon2: "سہ پہر"
             :am: a
+            :evening1: شام
+            :midnight: "نصف شب"
+            :morning1: صبح
+            :night1: رات
             :pm: p
           :wide: 
             :afternoon1: "دوپہر میں"

@@ -1,8 +1,8 @@
 ---
 Africa/Abidjan:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Cote d’Ivoire
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
@@ -22,8 +22,8 @@ Africa/Abidjan:
   :EXEMPLAR_LOCATION: Abidjan
 Africa/Accra:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Ghana
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
@@ -127,8 +127,8 @@ Africa/Asmera:
   :EXEMPLAR_LOCATION: Asmara
 Africa/Bamako:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Mali
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
@@ -151,9 +151,9 @@ Africa/Bangui:
   :LOCALIZED_GMT: GMT+01:00
   :LOCALIZED_GMT_SHORT: GMT+1
   :GENERIC_LOCATION: Waktu Republik Afrika Tengah
-  :GENERIC_LONG: Waktu Piawai Afrika Barat
+  :GENERIC_LONG: Waktu Afrika Barat
   :GENERIC_SHORT: Waktu Republik Afrika Tengah
-  :SPECIFIC_LONG: Waktu Piawai Afrika Barat
+  :SPECIFIC_LONG: Waktu Afrika Barat
   :SPECIFIC_SHORT: GMT+1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -169,8 +169,8 @@ Africa/Bangui:
   :EXEMPLAR_LOCATION: Bangui
 Africa/Banjul:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Gambia
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
@@ -190,8 +190,8 @@ Africa/Banjul:
   :EXEMPLAR_LOCATION: Banjul
 Africa/Bissau:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Guinea Bissau
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
@@ -235,9 +235,9 @@ Africa/Brazzaville:
   :LOCALIZED_GMT: GMT+01:00
   :LOCALIZED_GMT_SHORT: GMT+1
   :GENERIC_LOCATION: Waktu Congo - Brazzaville
-  :GENERIC_LONG: Waktu Piawai Afrika Barat
+  :GENERIC_LONG: Waktu Afrika Barat
   :GENERIC_SHORT: Waktu Congo - Brazzaville
-  :SPECIFIC_LONG: Waktu Piawai Afrika Barat
+  :SPECIFIC_LONG: Waktu Afrika Barat
   :SPECIFIC_SHORT: GMT+1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -337,8 +337,8 @@ Africa/Ceuta:
   :EXEMPLAR_LOCATION: Ceuta
 Africa/Conakry:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Guinea
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
@@ -358,8 +358,8 @@ Africa/Conakry:
   :EXEMPLAR_LOCATION: Conakry
 Africa/Dakar:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Senegal
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
@@ -424,9 +424,9 @@ Africa/Douala:
   :LOCALIZED_GMT: GMT+01:00
   :LOCALIZED_GMT_SHORT: GMT+1
   :GENERIC_LOCATION: Waktu Cameroon
-  :GENERIC_LONG: Waktu Piawai Afrika Barat
+  :GENERIC_LONG: Waktu Afrika Barat
   :GENERIC_SHORT: Waktu Cameroon
-  :SPECIFIC_LONG: Waktu Piawai Afrika Barat
+  :SPECIFIC_LONG: Waktu Afrika Barat
   :SPECIFIC_SHORT: GMT+1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -460,11 +460,11 @@ Africa/El_Aaiun:
   :ISO_EXTENDED_FULL: "+01:00"
   :ISO_EXTENDED_LOCAL_FULL: "+01:00"
   :ZONE_ID_SHORT: eheai
-  :EXEMPLAR_LOCATION: El Aaiun
+  :EXEMPLAR_LOCATION: El Aaiún
 Africa/Freetown:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Sierra Leone
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
@@ -634,9 +634,9 @@ Africa/Kinshasa:
   :LOCALIZED_GMT: GMT+01:00
   :LOCALIZED_GMT_SHORT: GMT+1
   :GENERIC_LOCATION: Waktu Kinshasa
-  :GENERIC_LONG: Waktu Piawai Afrika Barat
+  :GENERIC_LONG: Waktu Afrika Barat
   :GENERIC_SHORT: Waktu Kinshasa
-  :SPECIFIC_LONG: Waktu Piawai Afrika Barat
+  :SPECIFIC_LONG: Waktu Afrika Barat
   :SPECIFIC_SHORT: GMT+1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -655,9 +655,9 @@ Africa/Lagos:
   :LOCALIZED_GMT: GMT+01:00
   :LOCALIZED_GMT_SHORT: GMT+1
   :GENERIC_LOCATION: Waktu Nigeria
-  :GENERIC_LONG: Waktu Piawai Afrika Barat
+  :GENERIC_LONG: Waktu Afrika Barat
   :GENERIC_SHORT: Waktu Nigeria
-  :SPECIFIC_LONG: Waktu Piawai Afrika Barat
+  :SPECIFIC_LONG: Waktu Afrika Barat
   :SPECIFIC_SHORT: GMT+1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -676,9 +676,9 @@ Africa/Libreville:
   :LOCALIZED_GMT: GMT+01:00
   :LOCALIZED_GMT_SHORT: GMT+1
   :GENERIC_LOCATION: Waktu Gabon
-  :GENERIC_LONG: Waktu Piawai Afrika Barat
+  :GENERIC_LONG: Waktu Afrika Barat
   :GENERIC_SHORT: Waktu Gabon
-  :SPECIFIC_LONG: Waktu Piawai Afrika Barat
+  :SPECIFIC_LONG: Waktu Afrika Barat
   :SPECIFIC_SHORT: GMT+1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -694,8 +694,8 @@ Africa/Libreville:
   :EXEMPLAR_LOCATION: Libreville
 Africa/Lome:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Togo
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
@@ -712,15 +712,15 @@ Africa/Lome:
   :ISO_EXTENDED_FULL: Z
   :ISO_EXTENDED_LOCAL_FULL: "+00:00"
   :ZONE_ID_SHORT: tglfw
-  :EXEMPLAR_LOCATION: Lome
+  :EXEMPLAR_LOCATION: Lomé
 Africa/Luanda:
   :offset: 3600000
   :LOCALIZED_GMT: GMT+01:00
   :LOCALIZED_GMT_SHORT: GMT+1
   :GENERIC_LOCATION: Waktu Angola
-  :GENERIC_LONG: Waktu Piawai Afrika Barat
+  :GENERIC_LONG: Waktu Afrika Barat
   :GENERIC_SHORT: Waktu Angola
-  :SPECIFIC_LONG: Waktu Piawai Afrika Barat
+  :SPECIFIC_LONG: Waktu Afrika Barat
   :SPECIFIC_SHORT: GMT+1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -781,9 +781,9 @@ Africa/Malabo:
   :LOCALIZED_GMT: GMT+01:00
   :LOCALIZED_GMT_SHORT: GMT+1
   :GENERIC_LOCATION: Waktu Guinea Khatulistiwa
-  :GENERIC_LONG: Waktu Piawai Afrika Barat
+  :GENERIC_LONG: Waktu Afrika Barat
   :GENERIC_SHORT: Waktu Guinea Khatulistiwa
-  :SPECIFIC_LONG: Waktu Piawai Afrika Barat
+  :SPECIFIC_LONG: Waktu Afrika Barat
   :SPECIFIC_SHORT: GMT+1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -883,8 +883,8 @@ Africa/Mogadishu:
   :EXEMPLAR_LOCATION: Mogadishu
 Africa/Monrovia:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Liberia
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
@@ -928,9 +928,9 @@ Africa/Ndjamena:
   :LOCALIZED_GMT: GMT+01:00
   :LOCALIZED_GMT_SHORT: GMT+1
   :GENERIC_LOCATION: Waktu Chad
-  :GENERIC_LONG: Waktu Piawai Afrika Barat
+  :GENERIC_LONG: Waktu Afrika Barat
   :GENERIC_SHORT: Waktu Chad
-  :SPECIFIC_LONG: Waktu Piawai Afrika Barat
+  :SPECIFIC_LONG: Waktu Afrika Barat
   :SPECIFIC_SHORT: GMT+1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -943,15 +943,15 @@ Africa/Ndjamena:
   :ISO_EXTENDED_FULL: "+01:00"
   :ISO_EXTENDED_LOCAL_FULL: "+01:00"
   :ZONE_ID_SHORT: tdndj
-  :EXEMPLAR_LOCATION: Ndjamena
+  :EXEMPLAR_LOCATION: N’Djamena
 Africa/Niamey:
   :offset: 3600000
   :LOCALIZED_GMT: GMT+01:00
   :LOCALIZED_GMT_SHORT: GMT+1
   :GENERIC_LOCATION: Waktu Niger
-  :GENERIC_LONG: Waktu Piawai Afrika Barat
+  :GENERIC_LONG: Waktu Afrika Barat
   :GENERIC_SHORT: Waktu Niger
-  :SPECIFIC_LONG: Waktu Piawai Afrika Barat
+  :SPECIFIC_LONG: Waktu Afrika Barat
   :SPECIFIC_SHORT: GMT+1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -967,8 +967,8 @@ Africa/Niamey:
   :EXEMPLAR_LOCATION: Niamey
 Africa/Nouakchott:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Mauritania
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
@@ -988,8 +988,8 @@ Africa/Nouakchott:
   :EXEMPLAR_LOCATION: Nouakchott
 Africa/Ouagadougou:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Burkina Faso
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
@@ -1012,9 +1012,9 @@ Africa/Porto-Novo:
   :LOCALIZED_GMT: GMT+01:00
   :LOCALIZED_GMT_SHORT: GMT+1
   :GENERIC_LOCATION: Waktu Benin
-  :GENERIC_LONG: Waktu Piawai Afrika Barat
+  :GENERIC_LONG: Waktu Afrika Barat
   :GENERIC_SHORT: Waktu Benin
-  :SPECIFIC_LONG: Waktu Piawai Afrika Barat
+  :SPECIFIC_LONG: Waktu Afrika Barat
   :SPECIFIC_SHORT: GMT+1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -1030,8 +1030,8 @@ Africa/Porto-Novo:
   :EXEMPLAR_LOCATION: Porto-Novo
 Africa/Sao_Tome:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Sao Tome dan Principe
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
@@ -1051,8 +1051,8 @@ Africa/Sao_Tome:
   :EXEMPLAR_LOCATION: São Tomé
 Africa/Timbuktu:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Mali
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
@@ -1221,9 +1221,9 @@ America/Araguaina:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
   :LOCALIZED_GMT_SHORT: GMT-3
-  :GENERIC_LOCATION: Waktu Araguaina
+  :GENERIC_LOCATION: Waktu Araguaína
   :GENERIC_LONG: Waktu Piawai Brasilia
-  :GENERIC_SHORT: Waktu Araguaina
+  :GENERIC_SHORT: Waktu Araguaína
   :SPECIFIC_LONG: Waktu Piawai Brasilia
   :SPECIFIC_SHORT: GMT-3
   :ISO_BASIC_SHORT: "-03"
@@ -1237,7 +1237,7 @@ America/Araguaina:
   :ISO_EXTENDED_FULL: "-03:00"
   :ISO_EXTENDED_LOCAL_FULL: "-03:00"
   :ZONE_ID_SHORT: braux
-  :EXEMPLAR_LOCATION: Araguaina
+  :EXEMPLAR_LOCATION: Araguaína
 America/Argentina/Buenos_Aires:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
@@ -1305,9 +1305,9 @@ America/Argentina/Cordoba:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
   :LOCALIZED_GMT_SHORT: GMT-3
-  :GENERIC_LOCATION: Waktu Cordoba
+  :GENERIC_LOCATION: Waktu Córdoba
   :GENERIC_LONG: Waktu Piawai Argentina
-  :GENERIC_SHORT: Waktu Cordoba
+  :GENERIC_SHORT: Waktu Córdoba
   :SPECIFIC_LONG: Waktu Piawai Argentina
   :SPECIFIC_SHORT: GMT-3
   :ISO_BASIC_SHORT: "-03"
@@ -1321,7 +1321,7 @@ America/Argentina/Cordoba:
   :ISO_EXTENDED_FULL: "-03:00"
   :ISO_EXTENDED_LOCAL_FULL: "-03:00"
   :ZONE_ID_SHORT: arcor
-  :EXEMPLAR_LOCATION: Cordoba
+  :EXEMPLAR_LOCATION: Córdoba
 America/Argentina/Jujuy:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
@@ -1389,9 +1389,9 @@ America/Argentina/Rio_Gallegos:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
   :LOCALIZED_GMT_SHORT: GMT-3
-  :GENERIC_LOCATION: Waktu Rio Gallegos
+  :GENERIC_LOCATION: Waktu Río Gallegos
   :GENERIC_LONG: Waktu Piawai Argentina
-  :GENERIC_SHORT: Waktu Rio Gallegos
+  :GENERIC_SHORT: Waktu Río Gallegos
   :SPECIFIC_LONG: Waktu Piawai Argentina
   :SPECIFIC_SHORT: GMT-3
   :ISO_BASIC_SHORT: "-03"
@@ -1405,7 +1405,7 @@ America/Argentina/Rio_Gallegos:
   :ISO_EXTENDED_FULL: "-03:00"
   :ISO_EXTENDED_LOCAL_FULL: "-03:00"
   :ZONE_ID_SHORT: arrgl
-  :EXEMPLAR_LOCATION: Rio Gallegos
+  :EXEMPLAR_LOCATION: Río Gallegos
 America/Argentina/Salta:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
@@ -1473,9 +1473,9 @@ America/Argentina/Tucuman:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
   :LOCALIZED_GMT_SHORT: GMT-3
-  :GENERIC_LOCATION: Waktu Tucuman
+  :GENERIC_LOCATION: Waktu Tucumán
   :GENERIC_LONG: Waktu Piawai Argentina
-  :GENERIC_SHORT: Waktu Tucuman
+  :GENERIC_SHORT: Waktu Tucumán
   :SPECIFIC_LONG: Waktu Piawai Argentina
   :SPECIFIC_SHORT: GMT-3
   :ISO_BASIC_SHORT: "-03"
@@ -1489,7 +1489,7 @@ America/Argentina/Tucuman:
   :ISO_EXTENDED_FULL: "-03:00"
   :ISO_EXTENDED_LOCAL_FULL: "-03:00"
   :ZONE_ID_SHORT: artuc
-  :EXEMPLAR_LOCATION: Tucuman
+  :EXEMPLAR_LOCATION: Tucumán
 America/Argentina/Ushuaia:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
@@ -1533,7 +1533,7 @@ America/Aruba:
   :ZONE_ID_SHORT: awaua
   :EXEMPLAR_LOCATION: Aruba
 America/Asuncion:
-  :offset: -14400000
+  :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
   :LOCALIZED_GMT_SHORT: GMT-3
   :GENERIC_LOCATION: Waktu Paraguay
@@ -1662,9 +1662,9 @@ America/Belem:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
   :LOCALIZED_GMT_SHORT: GMT-3
-  :GENERIC_LOCATION: Waktu Belem
+  :GENERIC_LOCATION: Waktu Belém
   :GENERIC_LONG: Waktu Piawai Brasilia
-  :GENERIC_SHORT: Waktu Belem
+  :GENERIC_SHORT: Waktu Belém
   :SPECIFIC_LONG: Waktu Piawai Brasilia
   :SPECIFIC_SHORT: GMT-3
   :ISO_BASIC_SHORT: "-03"
@@ -1678,7 +1678,7 @@ America/Belem:
   :ISO_EXTENDED_FULL: "-03:00"
   :ISO_EXTENDED_LOCAL_FULL: "-03:00"
   :ZONE_ID_SHORT: brbel
-  :EXEMPLAR_LOCATION: Belem
+  :EXEMPLAR_LOCATION: Belém
 America/Belize:
   :offset: -21600000
   :LOCALIZED_GMT: GMT-06:00
@@ -1762,7 +1762,7 @@ America/Bogota:
   :ISO_EXTENDED_FULL: "-05:00"
   :ISO_EXTENDED_LOCAL_FULL: "-05:00"
   :ZONE_ID_SHORT: cobog
-  :EXEMPLAR_LOCATION: Bogota
+  :EXEMPLAR_LOCATION: Bogotá
 America/Boise:
   :offset: -25200000
   :LOCALIZED_GMT: GMT-07:00
@@ -2040,9 +2040,9 @@ America/Cordoba:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
   :LOCALIZED_GMT_SHORT: GMT-3
-  :GENERIC_LOCATION: Waktu Cordoba
+  :GENERIC_LOCATION: Waktu Córdoba
   :GENERIC_LONG: Waktu Piawai Argentina
-  :GENERIC_SHORT: Waktu Cordoba
+  :GENERIC_SHORT: Waktu Córdoba
   :SPECIFIC_LONG: Waktu Piawai Argentina
   :SPECIFIC_SHORT: GMT-3
   :ISO_BASIC_SHORT: "-03"
@@ -2056,7 +2056,7 @@ America/Cordoba:
   :ISO_EXTENDED_FULL: "-03:00"
   :ISO_EXTENDED_LOCAL_FULL: "-03:00"
   :ZONE_ID_SHORT: arcor
-  :EXEMPLAR_LOCATION: Cordoba
+  :EXEMPLAR_LOCATION: Córdoba
 America/Costa_Rica:
   :offset: -21600000
   :LOCALIZED_GMT: GMT-06:00
@@ -2078,6 +2078,27 @@ America/Costa_Rica:
   :ISO_EXTENDED_LOCAL_FULL: "-06:00"
   :ZONE_ID_SHORT: crsjo
   :EXEMPLAR_LOCATION: Costa Rica
+America/Coyhaique:
+  :offset: -10800000
+  :LOCALIZED_GMT: GMT-03:00
+  :LOCALIZED_GMT_SHORT: GMT-3
+  :GENERIC_LOCATION: Waktu Coyhaique
+  :GENERIC_LONG: Waktu Chile
+  :GENERIC_SHORT: Waktu Coyhaique
+  :SPECIFIC_LONG: Waktu Musim Panas Chile
+  :SPECIFIC_SHORT: GMT-3
+  :ISO_BASIC_SHORT: "-03"
+  :ISO_BASIC_LOCAL_SHORT: "-03"
+  :ISO_BASIC_FIXED: "-0300"
+  :ISO_BASIC_LOCAL_FIXED: "-0300"
+  :ISO_BASIC_FULL: "-0300"
+  :ISO_BASIC_LOCAL_FULL: "-0300"
+  :ISO_EXTENDED_FIXED: "-03:00"
+  :ISO_EXTENDED_LOCAL_FIXED: "-03:00"
+  :ISO_EXTENDED_FULL: "-03:00"
+  :ISO_EXTENDED_LOCAL_FULL: "-03:00"
+  :ZONE_ID_SHORT: clcxq
+  :EXEMPLAR_LOCATION: Coyhaique
 America/Creston:
   :offset: -25200000
   :LOCALIZED_GMT: GMT-07:00
@@ -2103,9 +2124,9 @@ America/Cuiaba:
   :offset: -14400000
   :LOCALIZED_GMT: GMT-04:00
   :LOCALIZED_GMT_SHORT: GMT-4
-  :GENERIC_LOCATION: Waktu Cuiaba
+  :GENERIC_LOCATION: Waktu Cuiabá
   :GENERIC_LONG: Waktu Piawai Amazon
-  :GENERIC_SHORT: Waktu Cuiaba
+  :GENERIC_SHORT: Waktu Cuiabá
   :SPECIFIC_LONG: Waktu Piawai Amazon
   :SPECIFIC_SHORT: GMT-4
   :ISO_BASIC_SHORT: "-04"
@@ -2119,7 +2140,7 @@ America/Cuiaba:
   :ISO_EXTENDED_FULL: "-04:00"
   :ISO_EXTENDED_LOCAL_FULL: "-04:00"
   :ZONE_ID_SHORT: brcgb
-  :EXEMPLAR_LOCATION: Cuiaba
+  :EXEMPLAR_LOCATION: Cuiabá
 America/Curacao:
   :offset: -14400000
   :LOCALIZED_GMT: GMT-04:00
@@ -2143,8 +2164,8 @@ America/Curacao:
   :EXEMPLAR_LOCATION: Curaçao
 America/Danmarkshavn:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Danmarkshavn
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
@@ -2292,9 +2313,9 @@ America/Eirunepe:
   :offset: -18000000
   :LOCALIZED_GMT: GMT-05:00
   :LOCALIZED_GMT_SHORT: GMT-5
-  :GENERIC_LOCATION: Waktu Eirunepe
+  :GENERIC_LOCATION: Waktu Eirunepé
   :GENERIC_LONG: Waktu Piawai Acre
-  :GENERIC_SHORT: Waktu Eirunepe
+  :GENERIC_SHORT: Waktu Eirunepé
   :SPECIFIC_LONG: Waktu Piawai Acre
   :SPECIFIC_SHORT: GMT-5
   :ISO_BASIC_SHORT: "-05"
@@ -2308,7 +2329,7 @@ America/Eirunepe:
   :ISO_EXTENDED_FULL: "-05:00"
   :ISO_EXTENDED_LOCAL_FULL: "-05:00"
   :ZONE_ID_SHORT: brern
-  :EXEMPLAR_LOCATION: Eirunepe
+  :EXEMPLAR_LOCATION: Eirunepé
 America/El_Salvador:
   :offset: -21600000
   :LOCALIZED_GMT: GMT-06:00
@@ -3153,9 +3174,9 @@ America/Maceio:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
   :LOCALIZED_GMT_SHORT: GMT-3
-  :GENERIC_LOCATION: Waktu Maceio
+  :GENERIC_LOCATION: Waktu Maceió
   :GENERIC_LONG: Waktu Piawai Brasilia
-  :GENERIC_SHORT: Waktu Maceio
+  :GENERIC_SHORT: Waktu Maceió
   :SPECIFIC_LONG: Waktu Piawai Brasilia
   :SPECIFIC_SHORT: GMT-3
   :ISO_BASIC_SHORT: "-03"
@@ -3169,7 +3190,7 @@ America/Maceio:
   :ISO_EXTENDED_FULL: "-03:00"
   :ISO_EXTENDED_LOCAL_FULL: "-03:00"
   :ZONE_ID_SHORT: brmcz
-  :EXEMPLAR_LOCATION: Maceio
+  :EXEMPLAR_LOCATION: Maceió
 America/Managua:
   :offset: -21600000
   :LOCALIZED_GMT: GMT-06:00
@@ -3279,9 +3300,9 @@ America/Mazatlan:
   :offset: -25200000
   :LOCALIZED_GMT: GMT-07:00
   :LOCALIZED_GMT_SHORT: GMT-7
-  :GENERIC_LOCATION: Waktu Mazatlan
+  :GENERIC_LOCATION: Waktu Mazatlán
   :GENERIC_LONG: Waktu Pasifik Mexico
-  :GENERIC_SHORT: Waktu Mazatlan
+  :GENERIC_SHORT: Waktu Mazatlán
   :SPECIFIC_LONG: Waktu Piawai Pasifik Mexico
   :SPECIFIC_SHORT: GMT-7
   :ISO_BASIC_SHORT: "-07"
@@ -3295,7 +3316,7 @@ America/Mazatlan:
   :ISO_EXTENDED_FULL: "-07:00"
   :ISO_EXTENDED_LOCAL_FULL: "-07:00"
   :ZONE_ID_SHORT: mxmzt
-  :EXEMPLAR_LOCATION: Mazatlan
+  :EXEMPLAR_LOCATION: Mazatlán
 America/Mendoza:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
@@ -3384,9 +3405,9 @@ America/Mexico_City:
   :offset: -21600000
   :LOCALIZED_GMT: GMT-06:00
   :LOCALIZED_GMT_SHORT: GMT-6
-  :GENERIC_LOCATION: Waktu Mexico City
+  :GENERIC_LOCATION: Waktu Ciudad de México
   :GENERIC_LONG: Waktu Pusat
-  :GENERIC_SHORT: Waktu Mexico City
+  :GENERIC_SHORT: Waktu Ciudad de México
   :SPECIFIC_LONG: Waktu Piawai Pusat
   :SPECIFIC_SHORT: GMT-6
   :ISO_BASIC_SHORT: "-06"
@@ -3400,7 +3421,7 @@ America/Mexico_City:
   :ISO_EXTENDED_FULL: "-06:00"
   :ISO_EXTENDED_LOCAL_FULL: "-06:00"
   :ZONE_ID_SHORT: mxmex
-  :EXEMPLAR_LOCATION: Mexico City
+  :EXEMPLAR_LOCATION: Ciudad de México
 America/Miquelon:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
@@ -3421,7 +3442,7 @@ America/Miquelon:
   :ISO_EXTENDED_FULL: "-03:00"
   :ISO_EXTENDED_LOCAL_FULL: "-03:00"
   :ZONE_ID_SHORT: pmmqc
-  :EXEMPLAR_LOCATION: Miquelon
+  :EXEMPLAR_LOCATION: Saint-Pierre
 America/Moncton:
   :offset: -14400000
   :LOCALIZED_GMT: GMT-04:00
@@ -3615,9 +3636,9 @@ America/Noronha:
   :offset: -7200000
   :LOCALIZED_GMT: GMT-02:00
   :LOCALIZED_GMT_SHORT: GMT-2
-  :GENERIC_LOCATION: Waktu Noronha
+  :GENERIC_LOCATION: Waktu Fernando de Noronha
   :GENERIC_LONG: Waktu Piawai Fernando de Noronha
-  :GENERIC_SHORT: Waktu Noronha
+  :GENERIC_SHORT: Waktu Fernando de Noronha
   :SPECIFIC_LONG: Waktu Piawai Fernando de Noronha
   :SPECIFIC_SHORT: GMT-2
   :ISO_BASIC_SHORT: "-02"
@@ -3631,7 +3652,7 @@ America/Noronha:
   :ISO_EXTENDED_FULL: "-02:00"
   :ISO_EXTENDED_LOCAL_FULL: "-02:00"
   :ZONE_ID_SHORT: brfen
-  :EXEMPLAR_LOCATION: Noronha
+  :EXEMPLAR_LOCATION: Fernando de Noronha
 America/North_Dakota/Beulah:
   :offset: -21600000
   :LOCALIZED_GMT: GMT-06:00
@@ -4077,9 +4098,9 @@ America/Rosario:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
   :LOCALIZED_GMT_SHORT: GMT-3
-  :GENERIC_LOCATION: Waktu Cordoba
+  :GENERIC_LOCATION: Waktu Córdoba
   :GENERIC_LONG: Waktu Piawai Argentina
-  :GENERIC_SHORT: Waktu Cordoba
+  :GENERIC_SHORT: Waktu Córdoba
   :SPECIFIC_LONG: Waktu Piawai Argentina
   :SPECIFIC_SHORT: GMT-3
   :ISO_BASIC_SHORT: "-03"
@@ -4093,7 +4114,7 @@ America/Rosario:
   :ISO_EXTENDED_FULL: "-03:00"
   :ISO_EXTENDED_LOCAL_FULL: "-03:00"
   :ZONE_ID_SHORT: arcor
-  :EXEMPLAR_LOCATION: Cordoba
+  :EXEMPLAR_LOCATION: Córdoba
 America/Santa_Isabel:
   :offset: -28800000
   :LOCALIZED_GMT: GMT-08:00
@@ -4119,9 +4140,9 @@ America/Santarem:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
   :LOCALIZED_GMT_SHORT: GMT-3
-  :GENERIC_LOCATION: Waktu Santarem
+  :GENERIC_LOCATION: Waktu Santarém
   :GENERIC_LONG: Waktu Piawai Brasilia
-  :GENERIC_SHORT: Waktu Santarem
+  :GENERIC_SHORT: Waktu Santarém
   :SPECIFIC_LONG: Waktu Piawai Brasilia
   :SPECIFIC_SHORT: GMT-3
   :ISO_BASIC_SHORT: "-03"
@@ -4135,7 +4156,7 @@ America/Santarem:
   :ISO_EXTENDED_FULL: "-03:00"
   :ISO_EXTENDED_LOCAL_FULL: "-03:00"
   :ZONE_ID_SHORT: brstm
-  :EXEMPLAR_LOCATION: Santarem
+  :EXEMPLAR_LOCATION: Santarém
 America/Santiago:
   :offset: -14400000
   :LOCALIZED_GMT: GMT-03:00
@@ -4182,9 +4203,9 @@ America/Sao_Paulo:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
   :LOCALIZED_GMT_SHORT: GMT-3
-  :GENERIC_LOCATION: Waktu Sao Paulo
+  :GENERIC_LOCATION: Waktu São Paulo
   :GENERIC_LONG: Waktu Piawai Brasilia
-  :GENERIC_SHORT: Waktu Sao Paulo
+  :GENERIC_SHORT: Waktu São Paulo
   :SPECIFIC_LONG: Waktu Piawai Brasilia
   :SPECIFIC_SHORT: GMT-3
   :ISO_BASIC_SHORT: "-03"
@@ -4198,7 +4219,7 @@ America/Sao_Paulo:
   :ISO_EXTENDED_FULL: "-03:00"
   :ISO_EXTENDED_LOCAL_FULL: "-03:00"
   :ZONE_ID_SHORT: brsao
-  :EXEMPLAR_LOCATION: Sao Paulo
+  :EXEMPLAR_LOCATION: São Paulo
 America/Scoresbysund:
   :offset: -7200000
   :LOCALIZED_GMT: GMT-01:00
@@ -4707,9 +4728,9 @@ Antarctica/DumontDUrville:
   :offset: 36000000
   :LOCALIZED_GMT: GMT+10:00
   :LOCALIZED_GMT_SHORT: GMT+10
-  :GENERIC_LOCATION: Waktu Dumont d’Urville
+  :GENERIC_LOCATION: Waktu Dumont-d’Urville
   :GENERIC_LONG: Waktu Dumont-d’Urville
-  :GENERIC_SHORT: Waktu Dumont d’Urville
+  :GENERIC_SHORT: Waktu Dumont-d’Urville
   :SPECIFIC_LONG: Waktu Dumont-d’Urville
   :SPECIFIC_SHORT: GMT+10
   :ISO_BASIC_SHORT: "+10"
@@ -4723,7 +4744,7 @@ Antarctica/DumontDUrville:
   :ISO_EXTENDED_FULL: "+10:00"
   :ISO_EXTENDED_LOCAL_FULL: "+10:00"
   :ZONE_ID_SHORT: aqddu
-  :EXEMPLAR_LOCATION: Dumont d’Urville
+  :EXEMPLAR_LOCATION: Dumont-d’Urville
 Antarctica/Macquarie:
   :offset: 36000000
   :LOCALIZED_GMT: GMT+11:00
@@ -4833,9 +4854,9 @@ Antarctica/South_Pole:
   :offset: 43200000
   :LOCALIZED_GMT: GMT+13:00
   :LOCALIZED_GMT_SHORT: GMT+13
-  :GENERIC_LOCATION: Waktu New Zealand
+  :GENERIC_LOCATION: Waktu McMurdo
   :GENERIC_LONG: Waktu New Zealand
-  :GENERIC_SHORT: Waktu New Zealand
+  :GENERIC_SHORT: Waktu McMurdo
   :SPECIFIC_LONG: Waktu Siang New Zealand
   :SPECIFIC_SHORT: GMT+13
   :ISO_BASIC_SHORT: "+13"
@@ -4848,15 +4869,15 @@ Antarctica/South_Pole:
   :ISO_EXTENDED_LOCAL_FIXED: "+13:00"
   :ISO_EXTENDED_FULL: "+13:00"
   :ISO_EXTENDED_LOCAL_FULL: "+13:00"
-  :ZONE_ID_SHORT: nzakl
-  :EXEMPLAR_LOCATION: Auckland
+  :ZONE_ID_SHORT: aqmcm
+  :EXEMPLAR_LOCATION: McMurdo
 Antarctica/Syowa:
   :offset: 10800000
   :LOCALIZED_GMT: GMT+03:00
   :LOCALIZED_GMT_SHORT: GMT+3
-  :GENERIC_LOCATION: Waktu Syowa
+  :GENERIC_LOCATION: Waktu Showa
   :GENERIC_LONG: Waktu Syowa
-  :GENERIC_SHORT: Waktu Syowa
+  :GENERIC_SHORT: Waktu Showa
   :SPECIFIC_LONG: Waktu Syowa
   :SPECIFIC_SHORT: GMT+3
   :ISO_BASIC_SHORT: "+03"
@@ -4870,11 +4891,11 @@ Antarctica/Syowa:
   :ISO_EXTENDED_FULL: "+03:00"
   :ISO_EXTENDED_LOCAL_FULL: "+03:00"
   :ZONE_ID_SHORT: aqsyw
-  :EXEMPLAR_LOCATION: Syowa
+  :EXEMPLAR_LOCATION: Showa
 Antarctica/Troll:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Troll
   :GENERIC_LONG: Waktu Troll
   :GENERIC_SHORT: Waktu Troll
@@ -5002,9 +5023,9 @@ Asia/Anadyr:
   :LOCALIZED_GMT: GMT+12:00
   :LOCALIZED_GMT_SHORT: GMT+12
   :GENERIC_LOCATION: Waktu Anadyr
-  :GENERIC_LONG: Waktu Piawai Anadyr
+  :GENERIC_LONG: Waktu Piawai Petropavlovsk-Kamchatski
   :GENERIC_SHORT: Waktu Anadyr
-  :SPECIFIC_LONG: Waktu Piawai Anadyr
+  :SPECIFIC_LONG: Waktu Piawai Petropavlovsk-Kamchatski
   :SPECIFIC_SHORT: GMT+12
   :ISO_BASIC_SHORT: "+12"
   :ISO_BASIC_LOCAL_SHORT: "+12"
@@ -5212,9 +5233,9 @@ Asia/Barnaul:
   :LOCALIZED_GMT: GMT+07:00
   :LOCALIZED_GMT_SHORT: GMT+7
   :GENERIC_LOCATION: Waktu Barnaul
-  :GENERIC_LONG: Waktu Barnaul
+  :GENERIC_LONG: Waktu Piawai Krasnoyarsk
   :GENERIC_SHORT: Waktu Barnaul
-  :SPECIFIC_LONG: GMT+07:00
+  :SPECIFIC_LONG: Waktu Piawai Krasnoyarsk
   :SPECIFIC_SHORT: GMT+7
   :ISO_BASIC_SHORT: "+07"
   :ISO_BASIC_LOCAL_SHORT: "+07"
@@ -5548,9 +5569,9 @@ Asia/Famagusta:
   :LOCALIZED_GMT: GMT+02:00
   :LOCALIZED_GMT_SHORT: GMT+2
   :GENERIC_LOCATION: Waktu Famagusta
-  :GENERIC_LONG: Waktu Famagusta
+  :GENERIC_LONG: Waktu Eropah Timur
   :GENERIC_SHORT: Waktu Famagusta
-  :SPECIFIC_LONG: GMT+02:00
+  :SPECIFIC_LONG: Waktu Piawai Eropah Timur
   :SPECIFIC_SHORT: GMT+2
   :ISO_BASIC_SHORT: "+02"
   :ISO_BASIC_LOCAL_SHORT: "+02"
@@ -5673,9 +5694,9 @@ Asia/Hovd:
   :offset: 25200000
   :LOCALIZED_GMT: GMT+07:00
   :LOCALIZED_GMT_SHORT: GMT+7
-  :GENERIC_LOCATION: Waktu Hovd
+  :GENERIC_LOCATION: Waktu Khovd
   :GENERIC_LONG: Waktu Piawai Hovd
-  :GENERIC_SHORT: Waktu Hovd
+  :GENERIC_SHORT: Waktu Khovd
   :SPECIFIC_LONG: Waktu Piawai Hovd
   :SPECIFIC_SHORT: GMT+7
   :ISO_BASIC_SHORT: "+07"
@@ -5689,7 +5710,7 @@ Asia/Hovd:
   :ISO_EXTENDED_FULL: "+07:00"
   :ISO_EXTENDED_LOCAL_FULL: "+07:00"
   :ZONE_ID_SHORT: mnhvd
-  :EXEMPLAR_LOCATION: Hovd
+  :EXEMPLAR_LOCATION: Khovd
 Asia/Irkutsk:
   :offset: 28800000
   :LOCALIZED_GMT: GMT+08:00
@@ -5862,9 +5883,9 @@ Asia/Kashgar:
   :offset: 21600000
   :LOCALIZED_GMT: GMT+06:00
   :LOCALIZED_GMT_SHORT: GMT+6
-  :GENERIC_LOCATION: Waktu Urumqi
-  :GENERIC_LONG: Waktu Urumqi
-  :GENERIC_SHORT: Waktu Urumqi
+  :GENERIC_LOCATION: Waktu Ürümqi
+  :GENERIC_LONG: Waktu Ürümqi
+  :GENERIC_SHORT: Waktu Ürümqi
   :SPECIFIC_LONG: GMT+06:00
   :SPECIFIC_SHORT: GMT+6
   :ISO_BASIC_SHORT: "+06"
@@ -5878,7 +5899,7 @@ Asia/Kashgar:
   :ISO_EXTENDED_FULL: "+06:00"
   :ISO_EXTENDED_LOCAL_FULL: "+06:00"
   :ZONE_ID_SHORT: cnurc
-  :EXEMPLAR_LOCATION: Urumqi
+  :EXEMPLAR_LOCATION: Ürümqi
 Asia/Kathmandu:
   :offset: 20700000
   :LOCALIZED_GMT: GMT+05:45
@@ -6220,9 +6241,9 @@ Asia/Novosibirsk:
   :LOCALIZED_GMT: GMT+07:00
   :LOCALIZED_GMT_SHORT: GMT+7
   :GENERIC_LOCATION: Waktu Novosibirsk
-  :GENERIC_LONG: Waktu Piawai Novosibirsk
+  :GENERIC_LONG: Waktu Piawai Krasnoyarsk
   :GENERIC_SHORT: Waktu Novosibirsk
-  :SPECIFIC_LONG: Waktu Piawai Novosibirsk
+  :SPECIFIC_LONG: Waktu Piawai Krasnoyarsk
   :SPECIFIC_SHORT: GMT+7
   :ISO_BASIC_SHORT: "+07"
   :ISO_BASIC_LOCAL_SHORT: "+07"
@@ -6472,9 +6493,9 @@ Asia/Sakhalin:
   :LOCALIZED_GMT: GMT+11:00
   :LOCALIZED_GMT_SHORT: GMT+11
   :GENERIC_LOCATION: Waktu Sakhalin
-  :GENERIC_LONG: Waktu Piawai Sakhalin
+  :GENERIC_LONG: Waktu Piawai Magadan
   :GENERIC_SHORT: Waktu Sakhalin
-  :SPECIFIC_LONG: Waktu Piawai Sakhalin
+  :SPECIFIC_LONG: Waktu Piawai Magadan
   :SPECIFIC_SHORT: GMT+11
   :ISO_BASIC_SHORT: "+11"
   :ISO_BASIC_LOCAL_SHORT: "+11"
@@ -6577,9 +6598,9 @@ Asia/Srednekolymsk:
   :LOCALIZED_GMT: GMT+11:00
   :LOCALIZED_GMT_SHORT: GMT+11
   :GENERIC_LOCATION: Waktu Srednekolymsk
-  :GENERIC_LONG: Waktu Srednekolymsk
+  :GENERIC_LONG: Waktu Piawai Magadan
   :GENERIC_SHORT: Waktu Srednekolymsk
-  :SPECIFIC_LONG: GMT+11:00
+  :SPECIFIC_LONG: Waktu Piawai Magadan
   :SPECIFIC_SHORT: GMT+11
   :ISO_BASIC_SHORT: "+11"
   :ISO_BASIC_LOCAL_SHORT: "+11"
@@ -6766,9 +6787,9 @@ Asia/Tomsk:
   :LOCALIZED_GMT: GMT+07:00
   :LOCALIZED_GMT_SHORT: GMT+7
   :GENERIC_LOCATION: Waktu Tomsk
-  :GENERIC_LONG: Waktu Tomsk
+  :GENERIC_LONG: Waktu Piawai Krasnoyarsk
   :GENERIC_SHORT: Waktu Tomsk
-  :SPECIFIC_LONG: GMT+07:00
+  :SPECIFIC_LONG: Waktu Piawai Krasnoyarsk
   :SPECIFIC_SHORT: GMT+7
   :ISO_BASIC_SHORT: "+07"
   :ISO_BASIC_LOCAL_SHORT: "+07"
@@ -6849,9 +6870,9 @@ Asia/Urumqi:
   :offset: 21600000
   :LOCALIZED_GMT: GMT+06:00
   :LOCALIZED_GMT_SHORT: GMT+6
-  :GENERIC_LOCATION: Waktu Urumqi
-  :GENERIC_LONG: Waktu Urumqi
-  :GENERIC_SHORT: Waktu Urumqi
+  :GENERIC_LOCATION: Waktu Ürümqi
+  :GENERIC_LONG: Waktu Ürümqi
+  :GENERIC_SHORT: Waktu Ürümqi
   :SPECIFIC_LONG: GMT+06:00
   :SPECIFIC_SHORT: GMT+6
   :ISO_BASIC_SHORT: "+06"
@@ -6865,7 +6886,7 @@ Asia/Urumqi:
   :ISO_EXTENDED_FULL: "+06:00"
   :ISO_EXTENDED_LOCAL_FULL: "+06:00"
   :ZONE_ID_SHORT: cnurc
-  :EXEMPLAR_LOCATION: Urumqi
+  :EXEMPLAR_LOCATION: Ürümqi
 Asia/Ust-Nera:
   :offset: 36000000
   :LOCALIZED_GMT: GMT+10:00
@@ -7057,13 +7078,13 @@ Atlantic/Bermuda:
   :EXEMPLAR_LOCATION: Bermuda
 Atlantic/Canary:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: Waktu Canary
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: Waktu Canarias
   :GENERIC_LONG: Waktu Eropah Barat
-  :GENERIC_SHORT: Waktu Canary
+  :GENERIC_SHORT: Waktu Canarias
   :SPECIFIC_LONG: Waktu Piawai Eropah Barat
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT+0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -7075,7 +7096,7 @@ Atlantic/Canary:
   :ISO_EXTENDED_FULL: Z
   :ISO_EXTENDED_LOCAL_FULL: "+00:00"
   :ZONE_ID_SHORT: eslpa
-  :EXEMPLAR_LOCATION: Canary
+  :EXEMPLAR_LOCATION: Canarias
 Atlantic/Cape_Verde:
   :offset: -3600000
   :LOCALIZED_GMT: GMT-01:00
@@ -7099,13 +7120,13 @@ Atlantic/Cape_Verde:
   :EXEMPLAR_LOCATION: Cape Verde
 Atlantic/Faeroe:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Kepulauan Faroe
   :GENERIC_LONG: Waktu Eropah Barat
   :GENERIC_SHORT: Waktu Kepulauan Faroe
   :SPECIFIC_LONG: Waktu Piawai Eropah Barat
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT+0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -7120,13 +7141,13 @@ Atlantic/Faeroe:
   :EXEMPLAR_LOCATION: Faroe
 Atlantic/Faroe:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Kepulauan Faroe
   :GENERIC_LONG: Waktu Eropah Barat
   :GENERIC_SHORT: Waktu Kepulauan Faroe
   :SPECIFIC_LONG: Waktu Piawai Eropah Barat
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT+0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -7162,13 +7183,13 @@ Atlantic/Jan_Mayen:
   :EXEMPLAR_LOCATION: Longyearbyen
 Atlantic/Madeira:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Madeira
   :GENERIC_LONG: Waktu Eropah Barat
   :GENERIC_SHORT: Waktu Madeira
   :SPECIFIC_LONG: Waktu Piawai Eropah Barat
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT+0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -7183,8 +7204,8 @@ Atlantic/Madeira:
   :EXEMPLAR_LOCATION: Madeira
 Atlantic/Reykjavik:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Iceland
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
@@ -7225,8 +7246,8 @@ Atlantic/South_Georgia:
   :EXEMPLAR_LOCATION: South Georgia
 Atlantic/St_Helena:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Saint Helena
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
@@ -7773,9 +7794,9 @@ Brazil/DeNoronha:
   :offset: -7200000
   :LOCALIZED_GMT: GMT-02:00
   :LOCALIZED_GMT_SHORT: GMT-2
-  :GENERIC_LOCATION: Waktu Noronha
+  :GENERIC_LOCATION: Waktu Fernando de Noronha
   :GENERIC_LONG: Waktu Piawai Fernando de Noronha
-  :GENERIC_SHORT: Waktu Noronha
+  :GENERIC_SHORT: Waktu Fernando de Noronha
   :SPECIFIC_LONG: Waktu Piawai Fernando de Noronha
   :SPECIFIC_SHORT: GMT-2
   :ISO_BASIC_SHORT: "-02"
@@ -7789,14 +7810,14 @@ Brazil/DeNoronha:
   :ISO_EXTENDED_FULL: "-02:00"
   :ISO_EXTENDED_LOCAL_FULL: "-02:00"
   :ZONE_ID_SHORT: brfen
-  :EXEMPLAR_LOCATION: Noronha
+  :EXEMPLAR_LOCATION: Fernando de Noronha
 Brazil/East:
   :offset: -10800000
   :LOCALIZED_GMT: GMT-03:00
   :LOCALIZED_GMT_SHORT: GMT-3
-  :GENERIC_LOCATION: Waktu Sao Paulo
+  :GENERIC_LOCATION: Waktu São Paulo
   :GENERIC_LONG: Waktu Piawai Brasilia
-  :GENERIC_SHORT: Waktu Sao Paulo
+  :GENERIC_SHORT: Waktu São Paulo
   :SPECIFIC_LONG: Waktu Piawai Brasilia
   :SPECIFIC_SHORT: GMT-3
   :ISO_BASIC_SHORT: "-03"
@@ -7810,7 +7831,7 @@ Brazil/East:
   :ISO_EXTENDED_FULL: "-03:00"
   :ISO_EXTENDED_LOCAL_FULL: "-03:00"
   :ZONE_ID_SHORT: brsao
-  :EXEMPLAR_LOCATION: Sao Paulo
+  :EXEMPLAR_LOCATION: São Paulo
 Brazil/West:
   :offset: -14400000
   :LOCALIZED_GMT: GMT-04:00
@@ -8191,8 +8212,8 @@ Egypt:
   :EXEMPLAR_LOCATION: Kaherah
 Eire:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Ireland
   :GENERIC_LONG: Waktu Ireland
   :GENERIC_SHORT: Waktu Ireland
@@ -8212,9 +8233,9 @@ Eire:
   :EXEMPLAR_LOCATION: Dublin
 Etc/GMT:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
   :SPECIFIC_LONG: Waktu Min Greenwich
@@ -8233,9 +8254,9 @@ Etc/GMT:
   :EXEMPLAR_LOCATION: Bandar Tidak Diketahui
 Etc/GMT+0:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
   :SPECIFIC_LONG: Waktu Min Greenwich
@@ -8506,9 +8527,9 @@ Etc/GMT+9:
   :EXEMPLAR_LOCATION: Bandar Tidak Diketahui
 Etc/GMT-0:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
   :SPECIFIC_LONG: Waktu Min Greenwich
@@ -8821,9 +8842,9 @@ Etc/GMT-9:
   :EXEMPLAR_LOCATION: Bandar Tidak Diketahui
 Etc/GMT0:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
   :SPECIFIC_LONG: Waktu Min Greenwich
@@ -8842,9 +8863,9 @@ Etc/GMT0:
   :EXEMPLAR_LOCATION: Bandar Tidak Diketahui
 Etc/Greenwich:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
   :SPECIFIC_LONG: Waktu Min Greenwich
@@ -8863,11 +8884,11 @@ Etc/Greenwich:
   :EXEMPLAR_LOCATION: Bandar Tidak Diketahui
 Etc/UCT:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
+  :GENERIC_LONG: GMT+00:00
+  :GENERIC_SHORT: GMT+0
   :SPECIFIC_LONG: Waktu Universal Selaras
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -8884,11 +8905,11 @@ Etc/UCT:
   :EXEMPLAR_LOCATION: Bandar Tidak Diketahui
 Etc/UTC:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
+  :GENERIC_LONG: GMT+00:00
+  :GENERIC_SHORT: GMT+0
   :SPECIFIC_LONG: Waktu Universal Selaras
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -8905,11 +8926,11 @@ Etc/UTC:
   :EXEMPLAR_LOCATION: Bandar Tidak Diketahui
 Etc/Universal:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
+  :GENERIC_LONG: GMT+00:00
+  :GENERIC_SHORT: GMT+0
   :SPECIFIC_LONG: Waktu Universal Selaras
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -8926,11 +8947,11 @@ Etc/Universal:
   :EXEMPLAR_LOCATION: Bandar Tidak Diketahui
 Etc/Zulu:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
+  :GENERIC_LONG: GMT+00:00
+  :GENERIC_SHORT: GMT+0
   :SPECIFIC_LONG: Waktu Universal Selaras
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -8992,9 +9013,9 @@ Europe/Astrakhan:
   :LOCALIZED_GMT: GMT+04:00
   :LOCALIZED_GMT_SHORT: GMT+4
   :GENERIC_LOCATION: Waktu Astrakhan
-  :GENERIC_LONG: Waktu Astrakhan
+  :GENERIC_LONG: Waktu Piawai Samara
   :GENERIC_SHORT: Waktu Astrakhan
-  :SPECIFIC_LONG: GMT+04:00
+  :SPECIFIC_LONG: Waktu Piawai Samara
   :SPECIFIC_SHORT: GMT+4
   :ISO_BASIC_SHORT: "+04"
   :ISO_BASIC_LOCAL_SHORT: "+04"
@@ -9031,8 +9052,8 @@ Europe/Athens:
   :EXEMPLAR_LOCATION: Athens
 Europe/Belfast:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu United Kingdom
   :GENERIC_LONG: Waktu United Kingdom
   :GENERIC_SHORT: Waktu United Kingdom
@@ -9180,9 +9201,9 @@ Europe/Busingen:
   :offset: 3600000
   :LOCALIZED_GMT: GMT+01:00
   :LOCALIZED_GMT_SHORT: GMT+1
-  :GENERIC_LOCATION: Waktu Busingen
+  :GENERIC_LOCATION: Waktu Büsingen
   :GENERIC_LONG: Waktu Eropah Tengah
-  :GENERIC_SHORT: Waktu Busingen
+  :GENERIC_SHORT: Waktu Büsingen
   :SPECIFIC_LONG: Waktu Piawai Eropah Tengah
   :SPECIFIC_SHORT: GMT+1
   :ISO_BASIC_SHORT: "+01"
@@ -9196,7 +9217,7 @@ Europe/Busingen:
   :ISO_EXTENDED_FULL: "+01:00"
   :ISO_EXTENDED_LOCAL_FULL: "+01:00"
   :ZONE_ID_SHORT: debsngn
-  :EXEMPLAR_LOCATION: Busingen
+  :EXEMPLAR_LOCATION: Büsingen
 Europe/Chisinau:
   :offset: 7200000
   :LOCALIZED_GMT: GMT+02:00
@@ -9217,7 +9238,7 @@ Europe/Chisinau:
   :ISO_EXTENDED_FULL: "+02:00"
   :ISO_EXTENDED_LOCAL_FULL: "+02:00"
   :ZONE_ID_SHORT: mdkiv
-  :EXEMPLAR_LOCATION: Chisinau
+  :EXEMPLAR_LOCATION: Chișinău
 Europe/Copenhagen:
   :offset: 3600000
   :LOCALIZED_GMT: GMT+01:00
@@ -9241,8 +9262,8 @@ Europe/Copenhagen:
   :EXEMPLAR_LOCATION: Copenhagen
 Europe/Dublin:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Ireland
   :GENERIC_LONG: Waktu Ireland
   :GENERIC_SHORT: Waktu Ireland
@@ -9283,8 +9304,8 @@ Europe/Gibraltar:
   :EXEMPLAR_LOCATION: Gibraltar
 Europe/Guernsey:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Guernsey
   :GENERIC_LONG: Waktu Guernsey
   :GENERIC_SHORT: Waktu Guernsey
@@ -9325,8 +9346,8 @@ Europe/Helsinki:
   :EXEMPLAR_LOCATION: Helsinki
 Europe/Isle_of_Man:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Isle of Man
   :GENERIC_LONG: Waktu Isle of Man
   :GENERIC_SHORT: Waktu Isle of Man
@@ -9367,8 +9388,8 @@ Europe/Istanbul:
   :EXEMPLAR_LOCATION: Istanbul
 Europe/Jersey:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Jersey
   :GENERIC_LONG: Waktu Jersey
   :GENERIC_SHORT: Waktu Jersey
@@ -9433,9 +9454,9 @@ Europe/Kirov:
   :LOCALIZED_GMT: GMT+03:00
   :LOCALIZED_GMT_SHORT: GMT+3
   :GENERIC_LOCATION: Waktu Kirov
-  :GENERIC_LONG: Waktu Kirov
+  :GENERIC_LONG: Waktu Piawai Moscow
   :GENERIC_SHORT: Waktu Kirov
-  :SPECIFIC_LONG: GMT+03:00
+  :SPECIFIC_LONG: Waktu Piawai Moscow
   :SPECIFIC_SHORT: GMT+3
   :ISO_BASIC_SHORT: "+03"
   :ISO_BASIC_LOCAL_SHORT: "+03"
@@ -9472,13 +9493,13 @@ Europe/Kyiv:
   :EXEMPLAR_LOCATION: Kiev
 Europe/Lisbon:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Portugal
   :GENERIC_LONG: Waktu Eropah Barat
   :GENERIC_SHORT: Waktu Portugal
   :SPECIFIC_LONG: Waktu Piawai Eropah Barat
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT+0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -9514,8 +9535,8 @@ Europe/Ljubljana:
   :EXEMPLAR_LOCATION: Ljubljana
 Europe/London:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu United Kingdom
   :GENERIC_LONG: Waktu United Kingdom
   :GENERIC_SHORT: Waktu United Kingdom
@@ -9895,9 +9916,9 @@ Europe/Saratov:
   :LOCALIZED_GMT: GMT+04:00
   :LOCALIZED_GMT_SHORT: GMT+4
   :GENERIC_LOCATION: Waktu Saratov
-  :GENERIC_LONG: Waktu Saratov
+  :GENERIC_LONG: Waktu Piawai Samara
   :GENERIC_SHORT: Waktu Saratov
-  :SPECIFIC_LONG: GMT+04:00
+  :SPECIFIC_LONG: Waktu Piawai Samara
   :SPECIFIC_SHORT: GMT+4
   :ISO_BASIC_SHORT: "+04"
   :ISO_BASIC_LOCAL_SHORT: "+04"
@@ -10036,7 +10057,7 @@ Europe/Tirane:
   :ISO_EXTENDED_FULL: "+01:00"
   :ISO_EXTENDED_LOCAL_FULL: "+01:00"
   :ZONE_ID_SHORT: altia
-  :EXEMPLAR_LOCATION: Tirane
+  :EXEMPLAR_LOCATION: Tirana
 Europe/Tiraspol:
   :offset: 7200000
   :LOCALIZED_GMT: GMT+02:00
@@ -10057,15 +10078,15 @@ Europe/Tiraspol:
   :ISO_EXTENDED_FULL: "+02:00"
   :ISO_EXTENDED_LOCAL_FULL: "+02:00"
   :ZONE_ID_SHORT: mdkiv
-  :EXEMPLAR_LOCATION: Chisinau
+  :EXEMPLAR_LOCATION: Chișinău
 Europe/Ulyanovsk:
   :offset: 14400000
   :LOCALIZED_GMT: GMT+04:00
   :LOCALIZED_GMT_SHORT: GMT+4
   :GENERIC_LOCATION: Waktu Ulyanovsk
-  :GENERIC_LONG: Waktu Ulyanovsk
+  :GENERIC_LONG: Waktu Piawai Samara
   :GENERIC_SHORT: Waktu Ulyanovsk
-  :SPECIFIC_LONG: GMT+04:00
+  :SPECIFIC_LONG: Waktu Piawai Samara
   :SPECIFIC_SHORT: GMT+4
   :ISO_BASIC_SHORT: "+04"
   :ISO_BASIC_LOCAL_SHORT: "+04"
@@ -10291,8 +10312,8 @@ Europe/Zurich:
   :EXEMPLAR_LOCATION: Zurich
 GB:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu United Kingdom
   :GENERIC_LONG: Waktu United Kingdom
   :GENERIC_SHORT: Waktu United Kingdom
@@ -10312,8 +10333,8 @@ GB:
   :EXEMPLAR_LOCATION: London
 GB-Eire:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu United Kingdom
   :GENERIC_LONG: Waktu United Kingdom
   :GENERIC_SHORT: Waktu United Kingdom
@@ -10333,9 +10354,9 @@ GB-Eire:
   :EXEMPLAR_LOCATION: London
 GMT:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
   :SPECIFIC_LONG: Waktu Min Greenwich
@@ -10354,9 +10375,9 @@ GMT:
   :EXEMPLAR_LOCATION: Bandar Tidak Diketahui
 GMT+0:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
   :SPECIFIC_LONG: Waktu Min Greenwich
@@ -10375,9 +10396,9 @@ GMT+0:
   :EXEMPLAR_LOCATION: Bandar Tidak Diketahui
 GMT-0:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
   :SPECIFIC_LONG: Waktu Min Greenwich
@@ -10396,9 +10417,9 @@ GMT-0:
   :EXEMPLAR_LOCATION: Bandar Tidak Diketahui
 GMT0:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
   :SPECIFIC_LONG: Waktu Min Greenwich
@@ -10417,9 +10438,9 @@ GMT0:
   :EXEMPLAR_LOCATION: Bandar Tidak Diketahui
 Greenwich:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
   :SPECIFIC_LONG: Waktu Min Greenwich
@@ -10480,8 +10501,8 @@ Hongkong:
   :EXEMPLAR_LOCATION: Hong Kong
 Iceland:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Iceland
   :GENERIC_LONG: Waktu Min Greenwich
   :GENERIC_SHORT: GMT
@@ -10603,7 +10624,7 @@ Indian/Comoro:
   :ISO_EXTENDED_FULL: "+03:00"
   :ISO_EXTENDED_LOCAL_FULL: "+03:00"
   :ZONE_ID_SHORT: kmyva
-  :EXEMPLAR_LOCATION: Comoro
+  :EXEMPLAR_LOCATION: Comores
 Indian/Kerguelen:
   :offset: 18000000
   :LOCALIZED_GMT: GMT+05:00
@@ -10645,7 +10666,7 @@ Indian/Mahe:
   :ISO_EXTENDED_FULL: "+04:00"
   :ISO_EXTENDED_LOCAL_FULL: "+04:00"
   :ZONE_ID_SHORT: scmaw
-  :EXEMPLAR_LOCATION: Mahe
+  :EXEMPLAR_LOCATION: Mahé
 Indian/Maldives:
   :offset: 18000000
   :LOCALIZED_GMT: GMT+05:00
@@ -10944,9 +10965,9 @@ Mexico/BajaSur:
   :offset: -25200000
   :LOCALIZED_GMT: GMT-07:00
   :LOCALIZED_GMT_SHORT: GMT-7
-  :GENERIC_LOCATION: Waktu Mazatlan
+  :GENERIC_LOCATION: Waktu Mazatlán
   :GENERIC_LONG: Waktu Pasifik Mexico
-  :GENERIC_SHORT: Waktu Mazatlan
+  :GENERIC_SHORT: Waktu Mazatlán
   :SPECIFIC_LONG: Waktu Piawai Pasifik Mexico
   :SPECIFIC_SHORT: GMT-7
   :ISO_BASIC_SHORT: "-07"
@@ -10960,14 +10981,14 @@ Mexico/BajaSur:
   :ISO_EXTENDED_FULL: "-07:00"
   :ISO_EXTENDED_LOCAL_FULL: "-07:00"
   :ZONE_ID_SHORT: mxmzt
-  :EXEMPLAR_LOCATION: Mazatlan
+  :EXEMPLAR_LOCATION: Mazatlán
 Mexico/General:
   :offset: -21600000
   :LOCALIZED_GMT: GMT-06:00
   :LOCALIZED_GMT_SHORT: GMT-6
-  :GENERIC_LOCATION: Waktu Mexico City
+  :GENERIC_LOCATION: Waktu Ciudad de México
   :GENERIC_LONG: Waktu Pusat
-  :GENERIC_SHORT: Waktu Mexico City
+  :GENERIC_SHORT: Waktu Ciudad de México
   :SPECIFIC_LONG: Waktu Piawai Pusat
   :SPECIFIC_SHORT: GMT-6
   :ISO_BASIC_SHORT: "-06"
@@ -10981,7 +11002,7 @@ Mexico/General:
   :ISO_EXTENDED_FULL: "-06:00"
   :ISO_EXTENDED_LOCAL_FULL: "-06:00"
   :ZONE_ID_SHORT: mxmex
-  :EXEMPLAR_LOCATION: Mexico City
+  :EXEMPLAR_LOCATION: Ciudad de México
 NZ:
   :offset: 43200000
   :LOCALIZED_GMT: GMT+13:00
@@ -11238,9 +11259,9 @@ Pacific/Enderbury:
   :offset: 46800000
   :LOCALIZED_GMT: GMT+13:00
   :LOCALIZED_GMT_SHORT: GMT+13
-  :GENERIC_LOCATION: Waktu Enderbury
+  :GENERIC_LOCATION: Waktu Pulau Canton
   :GENERIC_LONG: Waktu Kepulauan Phoenix
-  :GENERIC_SHORT: Waktu Enderbury
+  :GENERIC_SHORT: Waktu Pulau Canton
   :SPECIFIC_LONG: Waktu Kepulauan Phoenix
   :SPECIFIC_SHORT: GMT+13
   :ISO_BASIC_SHORT: "+13"
@@ -11254,7 +11275,7 @@ Pacific/Enderbury:
   :ISO_EXTENDED_FULL: "+13:00"
   :ISO_EXTENDED_LOCAL_FULL: "+13:00"
   :ZONE_ID_SHORT: kipho
-  :EXEMPLAR_LOCATION: Enderbury
+  :EXEMPLAR_LOCATION: Pulau Canton
 Pacific/Fakaofo:
   :offset: 46800000
   :LOCALIZED_GMT: GMT+13:00
@@ -11322,9 +11343,9 @@ Pacific/Galapagos:
   :offset: -21600000
   :LOCALIZED_GMT: GMT-06:00
   :LOCALIZED_GMT_SHORT: GMT-6
-  :GENERIC_LOCATION: Waktu Galapagos
+  :GENERIC_LOCATION: Waktu Galápagos
   :GENERIC_LONG: Waktu Galapagos
-  :GENERIC_SHORT: Waktu Galapagos
+  :GENERIC_SHORT: Waktu Galápagos
   :SPECIFIC_LONG: Waktu Galapagos
   :SPECIFIC_SHORT: GMT-6
   :ISO_BASIC_SHORT: "-06"
@@ -11338,7 +11359,7 @@ Pacific/Galapagos:
   :ISO_EXTENDED_FULL: "-06:00"
   :ISO_EXTENDED_LOCAL_FULL: "-06:00"
   :ZONE_ID_SHORT: ecgps
-  :EXEMPLAR_LOCATION: Galapagos
+  :EXEMPLAR_LOCATION: Galápagos
 Pacific/Gambier:
   :offset: -32400000
   :LOCALIZED_GMT: GMT-09:00
@@ -11448,9 +11469,9 @@ Pacific/Kanton:
   :offset: 46800000
   :LOCALIZED_GMT: GMT+13:00
   :LOCALIZED_GMT_SHORT: GMT+13
-  :GENERIC_LOCATION: Waktu Enderbury
+  :GENERIC_LOCATION: Waktu Pulau Canton
   :GENERIC_LONG: Waktu Kepulauan Phoenix
-  :GENERIC_SHORT: Waktu Enderbury
+  :GENERIC_SHORT: Waktu Pulau Canton
   :SPECIFIC_LONG: Waktu Kepulauan Phoenix
   :SPECIFIC_SHORT: GMT+13
   :ISO_BASIC_SHORT: "+13"
@@ -11464,7 +11485,7 @@ Pacific/Kanton:
   :ISO_EXTENDED_FULL: "+13:00"
   :ISO_EXTENDED_LOCAL_FULL: "+13:00"
   :ZONE_ID_SHORT: kipho
-  :EXEMPLAR_LOCATION: Enderbury
+  :EXEMPLAR_LOCATION: Pulau Canton
 Pacific/Kiritimati:
   :offset: 50400000
   :LOCALIZED_GMT: GMT+14:00
@@ -11674,7 +11695,7 @@ Pacific/Noumea:
   :ISO_EXTENDED_FULL: "+11:00"
   :ISO_EXTENDED_LOCAL_FULL: "+11:00"
   :ZONE_ID_SHORT: ncnou
-  :EXEMPLAR_LOCATION: Noumea
+  :EXEMPLAR_LOCATION: Nouméa
 Pacific/Pago_Pago:
   :offset: -39600000
   :LOCALIZED_GMT: GMT-11:00
@@ -11989,7 +12010,7 @@ Pacific/Wallis:
   :ISO_EXTENDED_FULL: "+12:00"
   :ISO_EXTENDED_LOCAL_FULL: "+12:00"
   :ZONE_ID_SHORT: wfmau
-  :EXEMPLAR_LOCATION: Wallis
+  :EXEMPLAR_LOCATION: Wallis & Futuna
 Pacific/Yap:
   :offset: 36000000
   :LOCALIZED_GMT: GMT+10:00
@@ -12034,13 +12055,13 @@ Poland:
   :EXEMPLAR_LOCATION: Warsaw
 Portugal:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Portugal
   :GENERIC_LONG: Waktu Eropah Barat
   :GENERIC_SHORT: Waktu Portugal
   :SPECIFIC_LONG: Waktu Piawai Eropah Barat
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT+0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -12139,11 +12160,11 @@ Turkey:
   :EXEMPLAR_LOCATION: Istanbul
 UCT:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
+  :GENERIC_LONG: GMT+00:00
+  :GENERIC_SHORT: GMT+0
   :SPECIFIC_LONG: Waktu Universal Selaras
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -12412,11 +12433,11 @@ US/Samoa:
   :EXEMPLAR_LOCATION: Pago Pago
 UTC:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
+  :GENERIC_LONG: GMT+00:00
+  :GENERIC_SHORT: GMT+0
   :SPECIFIC_LONG: Waktu Universal Selaras
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -12433,11 +12454,11 @@ UTC:
   :EXEMPLAR_LOCATION: Bandar Tidak Diketahui
 Universal:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
+  :GENERIC_LONG: GMT+00:00
+  :GENERIC_SHORT: GMT+0
   :SPECIFIC_LONG: Waktu Universal Selaras
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -12475,13 +12496,13 @@ W-SU:
   :EXEMPLAR_LOCATION: Moscow
 WET:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
   :GENERIC_LOCATION: Waktu Portugal
   :GENERIC_LONG: Waktu Eropah Barat
   :GENERIC_SHORT: Waktu Portugal
   :SPECIFIC_LONG: Waktu Piawai Eropah Barat
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT+0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -12496,11 +12517,11 @@ WET:
   :EXEMPLAR_LOCATION: Lisbon
 Zulu:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT+00:00
+  :LOCALIZED_GMT_SHORT: GMT+0
+  :GENERIC_LOCATION: GMT+00:00
+  :GENERIC_LONG: GMT+00:00
+  :GENERIC_SHORT: GMT+0
   :SPECIFIC_LONG: Waktu Universal Selaras
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z

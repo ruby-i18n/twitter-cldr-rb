@@ -7,23 +7,28 @@
         :Bhm: "Bh:mm"
         :Bhms: "Bh:mm:ss"
         :E: ccc
+        :EBh: EBh时
         :EBhm: "EBh:mm"
         :EBhms: "EBh:mm:ss"
         :EHm: "EHH:mm"
         :EHms: "EHH:mm:ss"
         :Ed: d日E
+        :Eh: Eah时
         :Ehm: "Eah:mm"
         :Ehms: "Eah:mm:ss"
         :Gy: Gy年
+        :GyM: Gy年M月
+        :GyMEd: Gy-MM-ddE
         :GyMMM: Gy年M月
         :GyMMMEd: Gy年M月d日E
         :GyMMMd: Gy年M月d日
-        :GyMd: "GGGGG y-MM-dd"
+        :GyMd: Gy-MM-dd
         :H: H时
         :Hm: "HH:mm"
         :Hms: "HH:mm:ss"
-        :Hmsv: "v HH:mm:ss"
+        :Hmsv: "vHH:mm:ss"
         :Hmv: "v HH:mm"
+        :Hv: vH时
         :M: M月
         :MEd: M/dE
         :MMM: LLL
@@ -37,8 +42,9 @@
         :h: ah时
         :hm: "ah:mm"
         :hms: "ah:mm:ss"
-        :hmsv: "v ah:mm:ss"
-        :hmv: "v ah:mm"
+        :hmsv: "vah:mm:ss"
+        :hmv: "vah:mm"
+        :hv: vah时
         :ms: "mm:ss"
         ? !ruby/symbol "y"
         : y年

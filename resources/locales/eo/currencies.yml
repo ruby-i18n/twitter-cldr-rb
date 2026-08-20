@@ -1,316 +1,855 @@
 --- 
 :eo: 
   :currencies: 
+    :AED: 
+      :name: "dirhamo de Unuiĝintaj Arabaj Emirlandoj"
+      :one: UAE-dirhamo
+      :other: UAE-dirhamoj
     :AFN: 
+      :name: "afgana afganio"
       :narrow_symbol: ؋
+      :one: "afgana afganio"
+      :other: "afganaj afganioj"
       :symbol: ؋
+    :ALL: 
+      :name: "albana leko"
+      :one: "albana leko"
+      :other: "albanaj lekoj"
     :AMD: 
+      :name: "armena dramo"
       :narrow_symbol: ֏
+      :one: "armena dramo"
+      :other: "armenaj dramoj"
       :symbol: ֏
+    :ANG: 
+      :name: "nederlandantila guldeno"
+      :one: "nederlandantila guldeno"
+      :other: "nederlandantilaj guldenoj"
     :AOA: 
+      :name: "angola kvanzo"
       :narrow_symbol: Kz
+      :one: "angola kvanzo"
+      :other: "angolaj kvanzoj"
       :symbol: Kz
     :ARS: 
+      :name: "argentina peso"
       :narrow_symbol: $
+      :one: "argentina peso"
+      :other: "argentinaj pesoj"
       :symbol: $
     :AUD: 
+      :name: "aŭstralia dolaro"
       :narrow_symbol: $
+      :one: "aŭstralia dolaro"
+      :other: "aŭstraliaj dolaroj"
       :symbol: AUD
+    :AWG: 
+      :name: "aruba floreno"
+      :one: "aruba floreno"
+      :other: "arubaj florenoj"
     :AZN: 
+      :name: "azerbajĝana manato"
       :narrow_symbol: ₼
+      :one: "azerbajĝana manato"
+      :other: "azerbajĝanaj manatoj"
       :symbol: ₼
     :BAM: 
+      :name: "konvertebla marko de Bosnujo kaj Hercegovino"
       :narrow_symbol: KM
+      :one: "konvertebla marko"
+      :other: "konverteblaj markoj"
       :symbol: KM
     :BBD: 
+      :name: "barbada dolaro"
       :narrow_symbol: $
+      :one: "barbada dolaro"
+      :other: "barbadaj dolaroj"
       :symbol: $
     :BDT: 
+      :name: "bangladeŝa tako"
       :narrow_symbol: ৳
+      :one: "bangladeŝa tako"
+      :other: "bangladeŝaj takoj"
       :symbol: ৳
+    :BGN: 
+      :name: "bulgara levo"
+      :one: "bulgara levo"
+      :other: "bulgaraj levoj"
+    :BHD: 
+      :name: "barejna dinaro"
+      :one: "barejna dinaro"
+      :other: "barejnaj dinaroj"
+    :BIF: 
+      :name: "burunda franko"
+      :one: "burunda franko"
+      :other: "burundaj frankoj"
     :BMD: 
+      :name: "bermuda dolaro"
       :narrow_symbol: $
+      :one: "bermuda dolaro"
+      :other: "bermudaj dolaroj"
       :symbol: $
     :BND: 
+      :name: "bruneja dolaro"
       :narrow_symbol: $
+      :one: "bruneja dolaro"
+      :other: "brunejaj dolaroj"
       :symbol: $
     :BOB: 
+      :name: "bolivia bolivjano"
       :narrow_symbol: Bs
+      :one: "bolivia bolivjano"
+      :other: "boliviaj bolivjanoj"
       :symbol: Bs
     :BRL: 
+      :name: "brazila realo"
       :narrow_symbol: R$
+      :one: "brazila realo"
+      :other: "brazilaj realoj"
       :symbol: BRL
     :BSD: 
+      :name: "bahama dolaro"
       :narrow_symbol: $
+      :one: "bahama dolaro"
+      :other: "bahamaj dolaroj"
       :symbol: $
+    :BTN: 
+      :name: "butana ngultrumo"
+      :one: "butana ngultrumo"
+      :other: "butanaj ngultrumoj"
     :BWP: 
+      :name: "bocvana pulao"
       :narrow_symbol: P
+      :one: "bocvana pulao"
+      :other: "bocvanaj pulaoj"
       :symbol: P
+    :BYN: 
+      :name: "belorusa rublo"
+      :one: "belorusa rublo"
+      :other: "belorusaj rubloj"
     :BZD: 
+      :name: "beliza dolaro"
       :narrow_symbol: $
+      :one: "beliza dolaro"
+      :other: "belizaj dolaroj"
       :symbol: $
     :CAD: 
+      :name: "kanada dolaro"
       :narrow_symbol: $
+      :one: "kanada dolaro"
+      :other: "kanadaj dolaroj"
       :symbol: CAD
+    :CDF: 
+      :name: "konga franko"
+      :one: "konga franko"
+      :other: "kongaj frankoj"
+    :CHF: 
+      :name: "svisa franko"
+      :one: "svisa franko"
+      :other: "svisaj frankoj"
     :CLP: 
+      :name: "ĉilia peso"
       :narrow_symbol: $
+      :one: "ĉilia peso"
+      :other: "ĉiliaj pesoj"
       :symbol: $
+    :CNH: 
+      :name: "ĉina juano (eksterlanda uzo)"
+      :one: "ĉina juano (eksterlande)"
+      :other: "ĉinaj juanoj (eksterlande)"
     :CNY: 
+      :name: "ĉinaj juanoj"
       :narrow_symbol: ¥
+      :one: "ĉina juano"
+      :other: "ĉinaj juanoj"
       :symbol: CNY
     :COP: 
+      :name: "kolombia peso"
       :narrow_symbol: $
+      :one: "kolombia peso"
+      :other: "kolombiaj pesoj"
       :symbol: $
     :CRC: 
+      :name: "kostarika kolumbo"
       :narrow_symbol: ₡
+      :one: "kostarika kolumbo"
+      :other: "kostarikaj kolumboj"
       :symbol: ₡
     :CUC: 
+      :name: "konvertebla kuba peso"
       :narrow_symbol: $
+      :one: "konvertebla kuba peso"
+      :other: "konverteblaj kubaj pesoj"
       :symbol: $
     :CUP: 
+      :name: "kuba peso"
       :narrow_symbol: $
+      :one: "kuba peso"
+      :other: "kubaj pesoj"
       :symbol: $
+    :CVE: 
+      :name: "kaboverda eskudo"
+      :one: "kaboverda eskudo"
+      :other: "kaboverdaj eskudoj"
     :CZK: 
+      :name: "ĉeĥa krono"
       :narrow_symbol: Kč
+      :one: "ĉeĥa krono"
+      :other: "ĉeĥaj kronoj"
       :symbol: Kč
+    :DJF: 
+      :name: "ĝibutia franko"
+      :one: "ĝibutia franko"
+      :other: "ĝibutiaj frankoj"
     :DKK: 
+      :name: "dana krono"
       :narrow_symbol: kr
+      :one: "dana krono"
+      :other: "danaj kronoj"
       :symbol: kr
     :DOP: 
+      :name: "dominika peso"
       :narrow_symbol: $
+      :one: "dominika peso"
+      :other: "dominikaj pesoj"
       :symbol: $
+    :DZD: 
+      :name: "alĝeria dinaro"
+      :one: "alĝeria dinaro"
+      :other: "alĝeriaj dinaroj"
     :EGP: 
+      :name: "egipta pundo"
       :narrow_symbol: E£
+      :one: "egipta pundo"
+      :other: "egiptaj pundoj"
       :symbol: E£
+    :ERN: 
+      :name: "eritrea nakfo"
+      :one: "eritrea nakfo"
+      :other: "eritreaj nakfoj"
     :ESP: 
       :narrow_symbol: ₧
       :symbol: ₧
+    :ETB: 
+      :name: "etiopa birro"
+      :one: "etiopa birro"
+      :other: "etiopaj birroj"
     :EUR: 
+      :name: eŭro
       :narrow_symbol: €
+      :one: eŭro
+      :other: eŭroj
       :symbol: €
     :FJD: 
+      :name: "fiĝia dolaro"
       :narrow_symbol: $
+      :one: "fiĝia dolaro"
+      :other: "fiĝiaj dolaroj"
       :symbol: $
     :FKP: 
+      :name: "falklanda pundo"
       :narrow_symbol: £
+      :one: "falklanda pundo"
+      :other: "falklandaj pundoj"
       :symbol: £
     :GBP: 
+      :name: "brita pundo"
       :narrow_symbol: £
+      :one: "brita pundo"
+      :other: "britaj pundoj"
       :symbol: GBP
     :GEL: 
+      :name: "kartvela lario"
       :narrow_symbol: ₾
+      :one: "kartvela lario"
+      :other: "kartvelaj larioj"
       :symbol: ₾
     :GHS: 
-      :narrow_symbol: GH₵
-      :symbol: GH₵
+      :name: "ganaa cedio"
+      :narrow_symbol: ₵
+      :one: "ganaa cedio"
+      :other: "ganaaj cedioj"
+      :symbol: ₵
     :GIP: 
+      :name: "ĝibraltara pundo"
       :narrow_symbol: £
+      :one: "ĝibraltara pundo"
+      :other: "ĝibraltaraj pundoj"
       :symbol: £
+    :GMD: 
+      :name: "gambia dalasio"
+      :one: "gambia dalasio"
+      :other: "gambiaj dalasioj"
     :GNF: 
+      :name: "gvinea franko"
       :narrow_symbol: FG
+      :one: "gvinea franko"
+      :other: "gvineaj frankoj"
       :symbol: FG
     :GTQ: 
+      :name: "gvatemala kecalo"
       :narrow_symbol: Q
+      :one: "gvatemala kecalo"
+      :other: "gvatemalaj kecaloj"
       :symbol: Q
     :GYD: 
+      :name: "gujana dolaro"
       :narrow_symbol: $
+      :one: "gujana dolaro"
+      :other: "gujanaj dolaroj"
       :symbol: $
     :HKD: 
+      :name: "honkonga dolaro"
       :narrow_symbol: $
+      :one: "honkonga dolaro"
+      :other: "honkongaj dolaroj"
       :symbol: HKD
     :HNL: 
+      :name: "hondura lempiro"
       :narrow_symbol: L
+      :one: "hondura lempiro"
+      :other: "honduraj lempiroj"
       :symbol: L
     :HRK: 
+      :name: "kroata kunao"
       :narrow_symbol: kn
+      :one: "kroata kunao"
+      :other: "kroataj kunaoj"
       :symbol: kn
+    :HTG: 
+      :name: "haitia gurdo"
+      :one: "haitia gurdo"
+      :other: "haitiaj gurdoj"
     :HUF: 
+      :name: "hungara forinto"
       :narrow_symbol: Ft
+      :one: "hungara forinto"
+      :other: "hungaraj forintoj"
       :symbol: Ft
     :IDR: 
+      :name: "indonezia rupio"
       :narrow_symbol: Rp
+      :one: "indonezia rupio"
+      :other: "indoneziaj rupioj"
       :symbol: Rp
     :ILS: 
+      :name: "israela nova siklo"
       :narrow_symbol: ₪
+      :one: "israela nova siklo"
+      :other: "israelaj novaj sikloj"
       :symbol: ILS
     :INR: 
+      :name: "hinda rupio"
       :narrow_symbol: ₹
+      :one: "hinda rupio"
+      :other: "hindaj rupioj"
       :symbol: INR
+    :IQD: 
+      :name: "iraka dinaro"
+      :one: "iraka dinaro"
+      :other: "irakaj dinaroj"
+    :IRR: 
+      :name: "irana rialo"
+      :one: "irana rialo"
+      :other: "iranaj rialoj"
     :ISK: 
+      :name: "islanda krono"
       :narrow_symbol: kr
+      :one: "islanda krono"
+      :other: "islandaj kronoj"
       :symbol: kr
     :JMD: 
+      :name: "jamajka dolaro"
       :narrow_symbol: $
+      :one: "jamajka dolaro"
+      :other: "jamajkaj dolaroj"
       :symbol: $
+    :JOD: 
+      :name: "jordania dinaro"
+      :one: "jordania dinaro"
+      :other: "jordaniaj dinaroj"
     :JPY: 
+      :name: "japana eno"
       :narrow_symbol: ¥
+      :one: "japana eno"
+      :other: "japanaj enoj"
       :symbol: JPY
+    :KES: 
+      :name: "kenja ŝilingo"
+      :one: "kenja ŝilingo"
+      :other: "kenjaj ŝilingoj"
     :KGS: 
+      :name: "kirgiza somo"
       :narrow_symbol: ⃀
+      :one: "kirgiza somo"
+      :other: "kirgizaj somoj"
       :symbol: ⃀
     :KHR: 
+      :name: "kamboĝa rielo"
       :narrow_symbol: ៛
+      :one: "kamboĝa rielo"
+      :other: "kamboĝaj rieloj"
       :symbol: ៛
     :KMF: 
+      :name: "komora franko"
       :narrow_symbol: CF
+      :one: "komora franko"
+      :other: "komoraj frankoj"
       :symbol: CF
     :KPW: 
+      :name: "nordkorea vono"
       :narrow_symbol: ₩
+      :one: "nordkorea vono"
+      :other: "nordkoreaj vonoj"
       :symbol: ₩
     :KRW: 
+      :name: "sudkorea vono"
       :narrow_symbol: ₩
+      :one: "sudkorea vono"
+      :other: "sudkoreaj vonoj"
       :symbol: KRW
+    :KWD: 
+      :name: "kuvajta dinaro"
+      :one: "kuvajta dinaro"
+      :other: "kuvajtaj dinaroj"
     :KYD: 
+      :name: "kajmana dolaro"
       :narrow_symbol: $
+      :one: "kajmana dolaro"
+      :other: "kajmanaj dolaroj"
       :symbol: $
     :KZT: 
+      :name: "kazaĥa tengo"
       :narrow_symbol: ₸
+      :one: "kazaĥa tengo"
+      :other: "kazaĥaj tengoj"
       :symbol: ₸
     :LAK: 
+      :name: "laosa kipo"
       :narrow_symbol: ₭
+      :one: "laosa kipo"
+      :other: "laosaj kipoj"
       :symbol: ₭
     :LBP: 
+      :name: "libana liro"
       :narrow_symbol: L£
+      :one: "libana liro"
+      :other: "libanaj liroj"
       :symbol: L£
     :LKR: 
+      :name: "srilanka rupio"
       :narrow_symbol: ₨
+      :one: "srilanka rupio"
+      :other: "srilankaj rupioj"
       :symbol: ₨
     :LRD: 
+      :name: "liberia dolaro"
       :narrow_symbol: $
+      :one: "liberia dolaro"
+      :other: "liberiaj dolaroj"
       :symbol: $
+    :LSL: 
+      :name: "lesota lotio"
+      :one: "lesota lotio"
+      :other: "lesotaj lotioj"
     :LTL: 
       :narrow_symbol: Lt
       :symbol: Lt
     :LVL: 
       :narrow_symbol: Ls
       :symbol: Ls
+    :LYD: 
+      :name: "libia dinaro"
+      :one: "libia dinaro"
+      :other: "libiaj dinaroj"
+    :MAD: 
+      :name: "maroka dirhamo"
+      :one: "maroka dirhamo"
+      :other: "marokaj dirhamoj"
+    :MDL: 
+      :name: "moldava leo"
+      :one: "moldava leo"
+      :other: "moldavaj leoj"
     :MGA: 
+      :name: "madagaskara ariaro"
       :narrow_symbol: Ar
+      :one: "madagaskara ariaro"
+      :other: "madagaskaraj ariaroj"
       :symbol: Ar
+    :MKD: 
+      :name: "makedona denaro"
+      :one: "makedona denaro"
+      :other: "makedonaj denaroj"
     :MMK: 
+      :name: "birma kjato"
       :narrow_symbol: K
+      :one: "birma kjato"
+      :other: "birmaj kjatoj"
       :symbol: K
     :MNT: 
+      :name: "mongola tugriko"
       :narrow_symbol: ₮
+      :one: "mongola tugriko"
+      :other: "mongolaj tugrikoj"
       :symbol: ₮
+    :MOP: 
+      :name: "makaa patako"
+      :one: "makaa patako"
+      :other: "makaaj patakoj"
+    :MRU: 
+      :name: "maŭritania uguijao"
+      :one: "maŭritania uguijao"
+      :other: "maŭritaniaj uguijaoj"
     :MUR: 
+      :name: "maŭricia rupio"
       :narrow_symbol: ₨
+      :one: "maŭricia rupio"
+      :other: "maŭriciaj rupioj"
       :symbol: ₨
+    :MVR: 
+      :name: "maldiva rufijao"
+      :one: "maldiva rufijao"
+      :other: "maldivaj rufijaoj"
+    :MWK: 
+      :name: "malavia kvaĉo"
+      :one: "malavia kvaĉo"
+      :other: "malaviaj kvaĉoj"
     :MXN: 
+      :name: "meksika peso"
       :narrow_symbol: $
+      :one: "meksika peso"
+      :other: "meksikaj pesoj"
       :symbol: MXN
     :MYR: 
+      :name: "malajzia ringito"
       :narrow_symbol: RM
+      :one: "malajzia ringito"
+      :other: "malajziaj ringitoj"
       :symbol: RM
+    :MZN: 
+      :name: "mozambika metikalo"
+      :one: "mozambika metikalo"
+      :other: "mozambikaj metikaloj"
     :NAD: 
+      :name: "namibia dolaro"
       :narrow_symbol: $
+      :one: "namibia dolaro"
+      :other: "namibiaj dolaroj"
       :symbol: $
     :NGN: 
+      :name: "niĝeria najro"
       :narrow_symbol: ₦
+      :one: "niĝeria najro"
+      :other: "niĝeriaj najroj"
       :symbol: ₦
     :NIO: 
+      :name: "nikaragva kordovo"
       :narrow_symbol: C$
+      :one: "nikaragva kordovo"
+      :other: "nikaragvaj kordovoj"
       :symbol: C$
     :NOK: 
+      :name: "norvega krono"
       :narrow_symbol: kr
+      :one: "norvega krono"
+      :other: "norvegaj kronoj"
       :symbol: kr
     :NPR: 
+      :name: "nepala rupio"
       :narrow_symbol: ₨
+      :one: "nepala rupio"
+      :other: "nepalaj rupioj"
       :symbol: ₨
     :NZD: 
+      :name: "novzelanda dolaro"
       :narrow_symbol: $
+      :one: "novzelanda dolaro"
+      :other: "novzelandaj dolaroj"
       :symbol: NZD
+    :OMR: 
+      :name: "omana rialo"
+      :one: "omana rialo"
+      :other: "omanaj rialoj"
+    :PAB: 
+      :name: "panama balboo"
+      :one: "panama balboo"
+      :other: "panamaj balbooj"
+    :PEN: 
+      :name: "perua suno"
+      :one: "perua suno"
+      :other: "peruaj sunoj"
+    :PGK: 
+      :name: "papuonovgvinea kinao"
+      :one: "papuonovgvinea kinao"
+      :other: "papuonovgvineaj kinaoj"
     :PHP: 
+      :name: "filipina peso"
       :narrow_symbol: ₱
+      :one: "filipina peso"
+      :other: "filipinaj pesoj"
       :symbol: PHP
     :PKR: 
+      :name: "pakistana rupio"
       :narrow_symbol: ₨
+      :one: "pakistana rupio"
+      :other: "pakistanaj rupioj"
       :symbol: ₨
     :PLN: 
+      :name: "pola zloto"
       :narrow_symbol: zł
+      :one: "pola zloto"
+      :other: "polaj zlotoj"
       :symbol: zł
     :PYG: 
+      :name: "paragvaja gvaranio"
       :narrow_symbol: ₲
+      :one: "paragvaja gvaranio"
+      :other: "paragvajaj gvaranioj"
       :symbol: ₲
+    :QAR: 
+      :name: "katara rialo"
+      :one: "katara rialo"
+      :other: "kataraj rialoj"
     :RON: 
+      :name: "rumana leo"
       :narrow_symbol: lei
+      :one: "rumana leo"
+      :other: "rumanaj leoj"
       :symbol: lei
+    :RSD: 
+      :name: "serba dinaro"
+      :one: "serba dinaro"
+      :other: "serbaj dinaroj"
     :RUB: 
+      :name: "rusa rublo"
       :narrow_symbol: ₽
+      :one: "rusa rublo"
+      :other: "rusaj rubloj"
       :symbol: ₽
     :RWF: 
+      :name: "ruanda franko"
       :narrow_symbol: RF
+      :one: "ruanda franko"
+      :other: "ruandaj frankoj"
       :symbol: RF
+    :SAR: 
+      :name: "sauda rialo"
+      :one: "sauda rialo"
+      :other: "saudaj rialoj"
+      :symbol: ⃁
     :SBD: 
+      :name: "salomona dolaro"
       :narrow_symbol: $
+      :one: "salomona dolaro"
+      :other: "salomonaj dolaroj"
       :symbol: $
+    :SCR: 
+      :name: "sejŝela rupio"
+      :one: "sejŝela rupio"
+      :other: "sejŝelaj rupioj"
+    :SDG: 
+      :name: "sudana pundo"
+      :one: "sudana pundo"
+      :other: "sudanaj pundoj"
     :SEK: 
+      :name: "sveda krono"
       :narrow_symbol: kr
+      :one: "sveda krono"
+      :other: "svedaj kronoj"
       :symbol: kr
     :SGD: 
+      :name: "singapura dolaro"
       :narrow_symbol: $
+      :one: "singapura dolaro"
+      :other: "singapuraj dolaroj"
       :symbol: $
     :SHP: 
+      :name: "sankthelena pundo"
       :narrow_symbol: £
+      :one: "sankthelena pundo"
+      :other: "sankthelenaj pundoj"
       :symbol: £
+    :SLE: 
+      :name: "sieraleona leono"
+      :one: "sieraleona leono"
+      :other: "sieraleonaj leonoj"
+    :SLL: 
+      :name: "sieraleona leono (1964–2022)"
+      :one: "sieraleona leono (1964–2022)"
+      :other: "sieraleonaj leonoj (1964–2022)"
+    :SOS: 
+      :name: "somala ŝilingo"
+      :one: "somala ŝilingo"
+      :other: "somalaj ŝilingoj"
     :SRD: 
+      :name: "surinama dolaro"
       :narrow_symbol: $
+      :one: "surinama dolaro"
+      :other: "surinamaj dolaroj"
       :symbol: $
     :SSP: 
+      :name: "sudsudana pundo"
       :narrow_symbol: £
+      :one: "sudsudana pundo"
+      :other: "sudsudanaj pundoj"
       :symbol: £
     :STN: 
+      :name: "santomea dobro"
       :narrow_symbol: Db
+      :one: "santomea dobro"
+      :other: "santomeaj dobroj"
       :symbol: Db
     :SYP: 
+      :name: "siria pundo"
       :narrow_symbol: £
+      :one: "siria pundo"
+      :other: "siriaj pundoj"
       :symbol: £
+    :SZL: 
+      :name: "svazilanda liliagenio"
+      :one: "svazia lilangenio"
+      :other: "svaziaj lilangenioj"
     :THB: 
+      :name: "taja bahto"
       :narrow_symbol: ฿
+      :one: "taja bahto"
+      :other: "tajaj bahtoj"
       :symbol: ฿
+    :TJS: 
+      :name: "taĝika somonio"
+      :one: "taĝika somonio"
+      :other: "taĝikaj somonioj"
+    :TMT: 
+      :name: "turkmena manato"
+      :one: "turkmena manato"
+      :other: "turkmenaj manatoj"
+    :TND: 
+      :name: "tunizia dinaro"
+      :one: "tunizia dinaro"
+      :other: "tuniziaj dinaroj"
     :TOP: 
+      :name: "tonga paangao"
       :narrow_symbol: T$
+      :one: "tonga paangao"
+      :other: "tongaj paangaoj"
       :symbol: T$
     :TRY: 
+      :name: "turka liro"
       :narrow_symbol: ₺
-      :symbol: ₺
+      :one: "turka liro"
+      :other: "turkaj liroj"
+      :symbol: TRY
     :TTD: 
+      :name: "trinidada dolaro"
       :narrow_symbol: $
+      :one: "trinidada dolaro"
+      :other: "trinidadaj dolaroj"
       :symbol: $
     :TWD: 
-      :narrow_symbol: NT$
-      :symbol: TWD
-    :UAH: 
-      :narrow_symbol: ₴
-      :symbol: ₴
-    :USD: 
+      :name: "tajvana nova dolaro"
       :narrow_symbol: $
+      :one: "tajvana nova dolaro"
+      :other: "tajvanaj novaj dolaroj"
+      :symbol: TWD
+    :TZS: 
+      :name: "tanzania ŝilingo"
+      :one: "tanzania ŝilingo"
+      :other: "tanzaniaj ŝilingoj"
+    :UAH: 
+      :name: "ukraina hrivno"
+      :narrow_symbol: ₴
+      :one: "ukraina hrivno"
+      :other: "ukrainaj hrivnoj"
+      :symbol: ₴
+    :UGX: 
+      :name: "uganda ŝilingo"
+      :one: "uganda ŝilingo"
+      :other: "ugandaj ŝilingoj"
+    :USD: 
+      :name: "usona dolaro"
+      :narrow_symbol: $
+      :one: "usona dolaro"
+      :other: "usonaj dolaroj"
       :symbol: USD
     :UYU: 
+      :name: "urugvaja peso"
       :narrow_symbol: $
+      :one: "urugvaja peso"
+      :other: "urugvajaj pesoj"
       :symbol: $
+    :UZS: 
+      :name: "uzbeka somo"
+      :one: "uzbeka somo"
+      :other: "uzbekaj somoj"
     :VEF: 
       :narrow_symbol: Bs
       :symbol: Bs
+    :VES: 
+      :name: "venezuela bolivaro"
+      :one: "venezuela bolivaro"
+      :other: "venezuelaj bolivaroj"
     :VND: 
+      :name: "vjetnama dongo"
       :narrow_symbol: ₫
+      :one: "vjetnama dongo"
+      :other: "vjetnamaj dongoj"
       :symbol: VND
+    :VUV: 
+      :name: "vanuatua vatuo"
+      :one: "vanuatua vatuo"
+      :other: "vanuatuaj vatuoj"
+    :WST: 
+      :name: "samoa talao"
+      :one: "samoa talao"
+      :other: "samoaj talaoj"
     :XAF: 
+      :name: "ekvatorafrika franko"
+      :one: "ekvatorafrika franko"
+      :other: "ekvatorafrikaj frankoj"
       :symbol: XAF
     :XCD: 
+      :name: "orientkariba dolaro"
       :narrow_symbol: $
+      :one: "orientkariba dolaro"
+      :other: "orientkaribaj dolaroj"
       :symbol: XCD
     :XCG: 
-      :symbol: Cg.
+      :name: "kariba guldeno"
+      :one: "kariba guldeno"
+      :other: "karibaj guldenoj"
+      :symbol: XCG
     :XOF: 
+      :name: "okcidentafrika franko"
+      :one: "okcidentafrika franko"
+      :other: "okcidentafrikaj frankoj"
       :symbol: XOF
     :XPF: 
+      :name: "pacifika franko"
+      :one: "pacifika franko"
+      :other: "pacifikaj frankoj"
       :symbol: XPF
     :XXX: 
+      :name: "nekonata monunuo"
+      :one: "(nekunata monunuo)"
+      :other: "(nekonata monunuo)"
       :symbol: ¤
+    :YER: 
+      :name: "jemena rialo"
+      :one: "jemena rialo"
+      :other: "jemenaj rialoj"
     :ZAR: 
+      :name: "sudafrika rando"
       :narrow_symbol: R
+      :one: "sudafrika rando"
+      :other: "sudafrikaj randoj"
       :symbol: R
     :ZMW: 
+      :name: "zambia kvaĉo"
       :narrow_symbol: ZK
+      :one: "zambia kvaĉo"
+      :other: "zambiaj kvaĉoj"
       :symbol: ZK
+    :ZWG: 
+      :name: "zimbabva oro"
+      :one: "zimbabva oro"
+      :other: "zimbabvaj oroj"

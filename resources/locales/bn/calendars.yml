@@ -7,14 +7,18 @@
         :Bhm: "h:mm B"
         :Bhms: "h:mm:ss B"
         :E: ccc
+        :EBh: "E h B"
         :EBhm: "E h:mm B"
         :EBhms: "E h:mm:ss B"
         :EHm: "E HH:mm"
         :EHms: "E HH:mm:ss"
         :Ed: "d E"
+        :Eh: "E h a"
         :Ehm: "E h:mm a"
         :Ehms: "E h:mm:ss a"
         :Gy: "y G"
+        :GyM: "G y-MM"
+        :GyMEd: "G y-MM-dd, E"
         :GyMMM: "MMM y G"
         :GyMMMEd: "E, d MMM, y G"
         :GyMMMd: "d MMM, y G"
@@ -24,6 +28,7 @@
         :Hms: "HH:mm:ss"
         :Hmsv: "HH:mm:ss v"
         :Hmv: "HH:mm v"
+        :Hv: "HH v"
         :M: L
         :MEd: "E, d-M"
         :MMM: LLL
@@ -40,6 +45,7 @@
         :hms: "h:mm:ss a"
         :hmsv: "h:mm:ss a v"
         :hmv: "h:mm a v"
+        :hv: "h a v"
         :ms: "mm:ss"
         ? !ruby/symbol "y"
         : "y"
@@ -126,8 +132,8 @@
           0: "\"খ্রিঃপূঃ\""
           1: খ্রিষ্টাব্দ
         :name: 
-          0: BCE
-          1: খ্রীষ্টাব্দ
+          0: খ্রিস্টপূর্বাব্দ
+          1: খ্রিস্টাব্দ
         :narrow: 
           0: BCE
           1: CE
@@ -145,8 +151,8 @@
         :era-narrow: যুগ
         :era-short: যুগ
         :hour: ঘণ্টা
-        :hour-narrow: ঘণ্টা
-        :hour-short: ঘণ্টা
+        :hour-narrow: Hour
+        :hour-short: Hour
         :minute: মিনিট
         :minute-narrow: মিনিট
         :minute-short: মিনিট
@@ -189,7 +195,7 @@
             :pattern: d/M/yy
         :datetime: 
           :full: 
-            :pattern: "{{date}} এ {{time}}"
+            :pattern: "{{date}} {{time}}-এ"
           :long: 
             :pattern: "{{date}} এ {{time}}"
           :medium: 
@@ -234,11 +240,11 @@
             8: আ
             9: সে
           :wide: 
-            1: জানুয়ারী
+            1: জানুয়ারি
             10: অক্টোবর
             11: নভেম্বর
             12: ডিসেম্বর
-            2: ফেব্রুয়ারী
+            2: ফেব্রুয়ারি
             3: মার্চ
             4: এপ্রিল
             5: মে
@@ -249,9 +255,9 @@
         :stand-alone: 
           :abbreviated: 
             1: জানু
-            10: অক্টোবর
+            10: অক্টো
             11: নভেম্বর
-            12: ডিসেম্বর
+            12: ডিসে
             2: ফেব
             3: মার্চ
             4: এপ্রিল
@@ -259,7 +265,7 @@
             6: জুন
             7: জুলাই
             8: আগস্ট
-            9: সেপ্টেম্বর
+            9: সেপ্ট
           :narrow: 
             1: জা
             10: অ
@@ -274,11 +280,11 @@
             8: আ
             9: সে
           :wide: 
-            1: জানুয়ারী
+            1: জানুয়ারি
             10: অক্টোবর
             11: নভেম্বর
             12: ডিসেম্বর
-            2: ফেব্রুয়ারী
+            2: ফেব্রুয়ারি
             3: মার্চ
             4: এপ্রিল
             5: মে

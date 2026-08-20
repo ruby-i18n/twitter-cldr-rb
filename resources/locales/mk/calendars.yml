@@ -7,23 +7,28 @@
         :Bhm: "h:mm B"
         :Bhms: "h:mm:ss B"
         :E: ccc
+        :EBh: "E h B"
         :EBhm: "E h:mm B"
         :EBhms: "E h:mm:ss B"
         :EHm: "E HH:mm"
         :EHms: "E HH:mm:ss"
         :Ed: "E, d"
+        :Eh: "E h a"
         :Ehm: "E h:mm a"
         :Ehms: "E h:mm:ss a"
         :Gy: "y 'г'. G"
+        :GyM: "M.y 'г'. G"
+        :GyMEd: "E, d.M.y 'г'. G"
         :GyMMM: "MMM y 'г'. G"
         :GyMMMEd: "E, d MMM y 'г'. G"
         :GyMMMd: "d MMM y 'г'. G"
         :GyMd: "d.M.y 'г'. G"
-        :H: HH
+        :H: H
         :Hm: "HH:mm"
         :Hms: "HH:mm:ss"
         :Hmsv: "HH:mm:ss v"
         :Hmv: "HH:mm v"
+        :Hv: "HH v"
         :M: L
         :MEd: "E, d.M"
         :MMM: LLL
@@ -40,6 +45,7 @@
         :hms: "h:mm:ss a"
         :hmsv: "h:mm:ss a v"
         :hmv: "h:mm a v"
+        :hv: "h a v"
         :ms: "mm:ss"
         ? !ruby/symbol "y"
         : y 'г'.
@@ -125,7 +131,7 @@
           0: "пр. н. е."
           1: "н. е."
         :name: 
-          0: "пр. н. е."
+          0: "пред нашата ера"
           1: "нашата ера"
         :narrow: 
           0: BCE
@@ -138,8 +144,8 @@
         :dayOfYear-narrow: "ден од год."
         :dayOfYear-short: "ден од год."
         :dayperiod: претпладне/попладне
-        :dayperiod-narrow: претпладне/попладне
-        :dayperiod-short: претпладне/попладне
+        :dayperiod-narrow: претпл./попл.
+        :dayperiod-short: претпл./попл.
         :era: ера
         :era-narrow: ера
         :era-short: ера
@@ -152,9 +158,9 @@
         :month: месец
         :month-narrow: мес.
         :month-short: мес.
-        :quarter: тромесечје
-        :quarter-narrow: тромес.
-        :quarter-short: тромес.
+        :quarter: тримесечје
+        :quarter-narrow: тримес.
+        :quarter-short: тримес.
         :second: секунда
         :second-narrow: сек.
         :second-short: сек.
@@ -162,11 +168,11 @@
         :week-narrow: сед.
         :week-short: сед.
         :weekOfMonth: "седмица од месецот"
-        :weekOfMonth-narrow: "седмица од месецот"
-        :weekOfMonth-short: "седмица од месецот"
+        :weekOfMonth-narrow: "сед. од мес."
+        :weekOfMonth-short: "сед. од мес."
         :weekday: "ден од неделата"
-        :weekday-narrow: "ден во неделата"
-        :weekday-short: "ден во неделата"
+        :weekday-narrow: "ден од нед."
+        :weekday-short: "ден од нед."
         :weekdayOfMonth: "ден од месецот"
         :weekdayOfMonth-narrow: "ден од мес."
         :weekdayOfMonth-short: "ден од мес."
@@ -183,18 +189,18 @@
           :long: 
             :pattern: "d MMMM y 'г'."
           :medium: 
-            :pattern: d.M.y 'г'.
+            :pattern: "d MMM y 'г'."
           :short: 
-            :pattern: d.M.yy
+            :pattern: d.M.y 'г'.
         :datetime: 
           :full: 
-            :pattern: "{{date}}, 'во' {{time}}"
+            :pattern: "{{date}} 'во' {{time}}"
           :long: 
-            :pattern: "{{date}}, 'во' {{time}}"
+            :pattern: "{{date}} 'во' {{time}}"
           :medium: 
             :pattern: "{{date}}, 'во' {{time}}"
           :short: 
-            :pattern: "{{date}}, 'во' {{time}}"
+            :pattern: "{{date}}, {{time}}"
         :time: 
           :full: 
             :pattern: "HH:mm:ss zzzz"

@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "за південноафриканським часом"
     :Africa_Western: 
       :long: 
-        :daylight: "за західноафриканським літнім часом"
-        :generic: "за західноафриканським часом"
-        :standard: "за західноафриканським стандартним часом"
+        :standard: "за західноафриканським часом"
     :Alaska: 
       :long: 
         :daylight: "за літнім часом на Алясці"
@@ -278,6 +278,9 @@
     :Guyana: 
       :long: 
         :standard: "за часом у Ґаяні"
+    :Hawaii: 
+      :long: 
+        :standard: "за стандартним гавайсько-алеутським часом"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "за літнім гавайсько-алеутським часом"
@@ -568,6 +571,11 @@
     :Truk: 
       :long: 
         :standard: "за часом на островах Чуук"
+    :Turkey: 
+      :long: 
+        :daylight: "за турецьким літнім часом"
+        :generic: "за турецьким часом"
+        :standard: "за турецьким стандартним часом"
     :Turkmenistan: 
       :long: 
         :daylight: "за літнім часом у Туркменістані"
@@ -805,6 +813,8 @@
       :city: Кордова
     :America/Costa_Rica: 
       :city: Коста-Ріка
+    :America/Coyhaique: 
+      :city: Кояїке
     :America/Creston: 
       :city: Крестон
     :America/Cuiaba: 
@@ -1409,7 +1419,7 @@
     :Pacific/Efate: 
       :city: Ефате
     :Pacific/Enderbury: 
-      :city: Ендербері
+      :city: Кантон
     :Pacific/Fakaofo: 
       :city: Факаофо
     :Pacific/Fiji: 
@@ -1426,8 +1436,6 @@
       :city: Гуам
     :Pacific/Honolulu: 
       :city: Гонолулу
-    :Pacific/Kanton: 
-      :city: Кантон
     :Pacific/Kiritimati: 
       :city: Кірітіматі
     :Pacific/Kosrae: 

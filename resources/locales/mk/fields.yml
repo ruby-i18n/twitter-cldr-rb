@@ -22,6 +22,10 @@
       :display_name: "ден од год."
     :dayperiod: 
       :display_name: претпладне/попладне
+    :dayperiod-narrow: 
+      :display_name: претпл./попл.
+    :dayperiod-short: 
+      :display_name: претпл./попл.
     :era: 
       :display_name: ера
     :fri: 
@@ -51,7 +55,7 @@
     :hour: 
       :display_name: час
       :relative: 
-        0: часов
+        0: "овој час"
       :relative_time: 
         :future: 
           :one: "за {0} час"
@@ -121,27 +125,36 @@
     :month-short: 
       :display_name: мес.
     :quarter: 
-      :display_name: тромесечје
+      :display_name: тримесечје
       :relative: 
-        -1: "последното тромесечје"
-        0: "ова тромесечје"
-        1: "следното тромесечје"
+        -1: "последното тримесечје"
+        0: "ова тримесечје"
+        1: "следното тримесечје"
       :relative_time: 
         :future: 
-          :one: "за {0} тромесечје"
-          :other: "за {0} тромесечја"
+          :one: "за {0} тримесечје"
+          :other: "за {0} тримесечја"
         :past: 
-          :one: "пред {0} тромесечје"
-          :other: "пред {0} тромесечја"
+          :one: "пред {0} тримесечје"
+          :other: "пред {0} тримесечја"
+    :quarter-narrow: 
+      :display_name: тримес.
+      :relative_time: 
+        :future: 
+          :one: "за {0} тримес."
+          :other: "за {0} тримес."
+        :past: 
+          :one: "пред {0} тримес."
+          :other: "пред {0} тримес."
     :quarter-short: 
-      :display_name: тромес.
+      :display_name: тримес.
       :relative_time: 
         :future: 
-          :one: "за {0} тромес."
-          :other: "за {0} тромес."
+          :one: "за {0} тримес."
+          :other: "за {0} тримес."
         :past: 
-          :one: "пред {0} тромес."
-          :other: "пред {0} тромес."
+          :one: "пред {0} тримес."
+          :other: "пред {0} тримес."
     :sat: 
       :relative: 
         -1: "минатата сабота"
@@ -299,10 +312,16 @@
       :display_name: сед.
     :weekOfMonth: 
       :display_name: "седмица од месецот"
+    :weekOfMonth-narrow: 
+      :display_name: "сед. од мес."
+    :weekOfMonth-short: 
+      :display_name: "сед. од мес."
     :weekday: 
       :display_name: "ден од неделата"
+    :weekday-narrow: 
+      :display_name: "ден од нед."
     :weekday-short: 
-      :display_name: "ден во неделата"
+      :display_name: "ден од нед."
     :weekdayOfMonth: 
       :display_name: "ден од месецот"
     :weekdayOfMonth-short: 

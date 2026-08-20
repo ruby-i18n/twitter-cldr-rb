@@ -843,6 +843,10 @@
   - 
     :other: Hawaii_Aleutian
     :territory: "001"
+    :type: America/Adak
+  - 
+    :other: Hawaii
+    :territory: "001"
     :type: Pacific/Honolulu
   - 
     :other: Hong_Kong
@@ -1473,9 +1477,9 @@
   :Africa/Monrovia: 
     - 
       :metazone: Liberia
-      :to: 1972-05-01T00:45:00+00:00
+      :to: 1972-01-07T00:45:00+00:00
     - 
-      :from: 1972-05-01T00:45:00+00:00
+      :from: 1972-01-07T00:45:00+00:00
       :metazone: GMT
   :Africa/Nairobi: 
     - 
@@ -1838,6 +1842,10 @@
   :America/Costa_Rica: 
     - 
       :metazone: America_Central
+  :America/Coyhaique: 
+    - 
+      :metazone: Chile
+      :to: 2025-03-20T03:00:00+00:00
   :America/Creston: 
     - 
       :metazone: America_Mountain
@@ -2532,7 +2540,7 @@
     - 
       :from: 1982-05-01T03:00:00+00:00
       :metazone: Chile
-      :to: 2016-12-03T23:00:00+00:00
+      :to: 2016-12-04T03:00:00+00:00
   :Antarctica/Rothera: 
     - 
       :metazone: Rothera
@@ -2573,10 +2581,10 @@
     - 
       :from: 2010-03-27T14:00:00+00:00
       :metazone: Magadan
-      :to: 2014-10-25T14:00:00+00:00
+      :to: 2011-03-26T15:00:00+00:00
     - 
-      :from: 2014-10-25T14:00:00+00:00
-      :metazone: Anadyr
+      :from: 2011-03-26T15:00:00+00:00
+      :metazone: Kamchatka
   :Asia/Aqtau: 
     - 
       :metazone: Shevchenko
@@ -2610,9 +2618,9 @@
   :Asia/Ashgabat: 
     - 
       :metazone: Ashkhabad
-      :to: 1991-10-26T20:00:00+00:00
+      :to: 1992-01-18T22:00:00+00:00
     - 
-      :from: 1991-10-26T20:00:00+00:00
+      :from: 1992-01-18T22:00:00+00:00
       :metazone: Turkmenistan
   :Asia/Atyrau: 
     - 
@@ -2635,22 +2643,26 @@
   :Asia/Baku: 
     - 
       :metazone: Baku
-      :to: 1991-08-29T20:00:00+00:00
+      :to: 1991-03-30T22:00:00+00:00
     - 
-      :from: 1991-08-29T20:00:00+00:00
+      :from: 1991-03-30T22:00:00+00:00
       :metazone: Azerbaijan
   :Asia/Bangkok: 
     - 
       :metazone: Indochina
+  :Asia/Barnaul: 
+    - 
+      :from: 2016-03-26T20:00:00+00:00
+      :metazone: Krasnoyarsk
   :Asia/Beirut: 
     - 
       :metazone: Europe_Eastern
   :Asia/Bishkek: 
     - 
       :metazone: Frunze
-      :to: 1991-08-30T20:00:00+00:00
+      :to: 1991-03-30T20:00:00+00:00
     - 
-      :from: 1991-08-30T20:00:00+00:00
+      :from: 1991-03-30T20:00:00+00:00
       :metazone: Kyrgystan
   :Asia/Brunei: 
     - 
@@ -2663,7 +2675,7 @@
       :metazone: Yakutsk
       :to: 2014-10-25T16:00:00+00:00
     - 
-      :from: 2014-10-25T16:00:00+00:00
+      :from: 2014-10-25T17:00:00+00:00
       :metazone: Irkutsk
       :to: 2016-03-26T18:00:00+00:00
     - 
@@ -2716,6 +2728,9 @@
     - 
       :metazone: Europe_Eastern
       :to: 2016-09-07T21:00:00+00:00
+    - 
+      :from: 2017-10-29T01:00:00+00:00
+      :metazone: Europe_Eastern
   :Asia/Gaza: 
     - 
       :metazone: Israel
@@ -2831,6 +2846,10 @@
   :Asia/Novosibirsk: 
     - 
       :metazone: Novosibirsk
+      :to: 2016-07-23T20:00:00+00:00
+    - 
+      :from: 2016-07-23T20:00:00+00:00
+      :metazone: Krasnoyarsk
   :Asia/Omsk: 
     - 
       :metazone: Omsk
@@ -2917,6 +2936,14 @@
   :Asia/Sakhalin: 
     - 
       :metazone: Sakhalin
+      :to: 2014-10-25T15:00:00+00:00
+    - 
+      :from: 2014-10-25T15:00:00+00:00
+      :metazone: Magadan
+      :to: 2016-03-26T16:00:00+00:00
+    - 
+      :from: 2016-04-26T16:00:00+00:00
+      :metazone: Magadan
   :Asia/Samarkand: 
     - 
       :metazone: Samarkand
@@ -2945,22 +2972,25 @@
     - 
       :metazone: Magadan
       :to: 2014-10-25T14:00:00+00:00
+    - 
+      :from: 2016-04-23T16:00:00+00:00
+      :metazone: Magadan
   :Asia/Taipei: 
     - 
       :metazone: Taipei
   :Asia/Tashkent: 
     - 
       :metazone: Tashkent
-      :to: 1991-08-31T18:00:00+00:00
+      :to: 1991-03-30T20:00:00+00:00
     - 
-      :from: 1991-08-31T18:00:00+00:00
+      :from: 1991-03-30T20:00:00+00:00
       :metazone: Uzbekistan
   :Asia/Tbilisi: 
     - 
       :metazone: Tbilisi
-      :to: 1991-04-08T20:00:00+00:00
+      :to: 1991-03-30T22:00:00+00:00
     - 
-      :from: 1991-04-08T20:00:00+00:00
+      :from: 1991-03-30T22:00:00+00:00
       :metazone: Georgia
   :Asia/Tehran: 
     - 
@@ -2975,6 +3005,10 @@
   :Asia/Tokyo: 
     - 
       :metazone: Japan
+  :Asia/Tomsk: 
+    - 
+      :from: 2016-05-28T20:00:00+00:00
+      :metazone: Krasnoyarsk
   :Asia/Ulaanbaatar: 
     - 
       :metazone: Mongolia
@@ -3011,9 +3045,9 @@
   :Asia/Yerevan: 
     - 
       :metazone: Yerevan
-      :to: 1991-09-22T20:00:00+00:00
+      :to: 1991-03-30T22:00:00+00:00
     - 
-      :from: 1991-09-22T20:00:00+00:00
+      :from: 1991-03-30T22:00:00+00:00
       :metazone: Armenia
   :Atlantic/Azores: 
     - 
@@ -3104,6 +3138,9 @@
       :from: 1992-03-28T22:00:00+00:00
       :metazone: Moscow
       :to: 2016-03-26T23:00:00+00:00
+    - 
+      :from: 2016-03-26T23:00:00+00:00
+      :metazone: Samara
   :Europe/Athens: 
     - 
       :metazone: Europe_Eastern
@@ -3131,9 +3168,9 @@
   :Europe/Chisinau: 
     - 
       :metazone: Moscow
-      :to: 1990-05-05T21:00:00+00:00
+      :to: 1990-05-05T22:00:00+00:00
     - 
-      :from: 1990-05-05T21:00:00+00:00
+      :from: 1990-05-05T22:00:00+00:00
       :metazone: Europe_Eastern
   :Europe/Copenhagen: 
     - 
@@ -3172,9 +3209,9 @@
     - 
       :from: 1978-06-28T21:00:00+00:00
       :metazone: Turkey
-      :to: 1985-04-19T21:00:00+00:00
+      :to: 1984-10-31T23:00:00+00:00
     - 
-      :from: 1985-04-19T21:00:00+00:00
+      :from: 1984-10-31T23:00:00+00:00
       :metazone: Europe_Eastern
       :to: 2016-09-06T21:00:00+00:00
     - 
@@ -3209,6 +3246,10 @@
     - 
       :from: 1990-06-30T22:00:00+00:00
       :metazone: Europe_Eastern
+  :Europe/Kirov: 
+    - 
+      :from: 2014-10-25T22:00:00+00:00
+      :metazone: Moscow
   :Europe/Lisbon: 
     - 
       :metazone: Europe_Central
@@ -3323,6 +3364,9 @@
       :from: 1992-03-28T22:00:00+00:00
       :metazone: Moscow
       :to: 2016-12-03T23:00:00+00:00
+    - 
+      :from: 2016-12-03T23:00:00+00:00
+      :metazone: Samara
   :Europe/Simferopol: 
     - 
       :metazone: Moscow
@@ -3366,6 +3410,9 @@
       :from: 1992-01-19T00:00:00+00:00
       :metazone: Moscow
       :to: 2016-03-26T23:00:00+00:00
+    - 
+      :from: 2016-03-26T23:00:00+00:00
+      :metazone: Samara
   :Europe/Vaduz: 
     - 
       :metazone: Europe_Central
@@ -3393,6 +3440,10 @@
   :Europe/Volgograd: 
     - 
       :metazone: Volgograd
+      :to: 2020-12-26T22:00:00+00:00
+    - 
+      :from: 2020-12-26T22:00:00+00:00
+      :metazone: Moscow
   :Europe/Warsaw: 
     - 
       :metazone: Europe_Central
@@ -3488,11 +3539,7 @@
       :metazone: Chamorro
   :Pacific/Honolulu: 
     - 
-      :metazone: Alaska_Hawaii
-      :to: 1983-10-30T11:00:00+00:00
-    - 
-      :from: 1983-10-30T11:00:00+00:00
-      :metazone: Hawaii_Aleutian
+      :metazone: Hawaii
   :Pacific/Kiritimati: 
     - 
       :metazone: Line_Islands

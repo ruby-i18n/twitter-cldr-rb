@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "sørafrikansk tid"
     :Africa_Western: 
       :long: 
-        :daylight: "vestafrikansk sommertid"
-        :generic: "vestafrikansk tid"
-        :standard: "vestafrikansk normaltid"
+        :standard: "vestafrikansk tid"
     :Alaska: 
       :long: 
         :daylight: "alaskisk sommertid"
@@ -337,6 +337,11 @@
     :Guyana: 
       :long: 
         :standard: "guyansk tid"
+    :Hawaii: 
+      :long: 
+        :standard: "normaltid for Hawaii og Aleutene"
+      :short: 
+        :standard: HAST
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "sommertid for Hawaii og Aleutene"
@@ -712,10 +717,14 @@
       :city: "El Aaiún"
     :Africa/Lome: 
       :city: Lomé
+    :Africa/Ndjamena: 
+      :city: N’Djamena
     :Africa/Sao_Tome: 
       :city: "São Tomé"
     :America/Araguaina: 
       :city: Araguaína
+    :America/Argentina/Rio_Gallegos: 
+      :city: "Río Gallegos"
     :America/Argentina/Tucuman: 
       :city: Tucumán
     :America/Asuncion: 
@@ -740,6 +749,8 @@
       :city: Cuiabá
     :America/Curacao: 
       :city: Curaçao
+    :America/Eirunepe: 
+      :city: Eirunepé
     :America/Godthab: 
       :city: Nuuk
     :America/Indiana/Knox: 
@@ -762,10 +773,16 @@
       :city: "Lower Prince’s Quarter"
     :America/Maceio: 
       :city: Maceió
+    :America/Mazatlan: 
+      :city: Mazatlán
     :America/Merida: 
       :city: Mérida
     :America/Mexico_City: 
       :city: "Mexico by"
+    :America/Miquelon: 
+      :city: Saint-Pierre
+    :America/Noronha: 
+      :city: "Fernando de Noronha"
     :America/North_Dakota/Beulah: 
       :city: "Beulah, Nord-Dakota"
     :America/North_Dakota/Center: 
@@ -791,7 +808,9 @@
     :America/St_Vincent: 
       :city: "St. Vincent"
     :Antarctica/DumontDUrville: 
-      :city: "Dumont d’Urville"
+      :city: Dumont-d’Urville
+    :Antarctica/Syowa: 
+      :city: Showa
     :Asia/Aqtau: 
       :city: Aktau
     :Asia/Aqtobe: 
@@ -812,6 +831,8 @@
       :city: Dusjanbe
     :Asia/Hong_Kong: 
       :city: Hongkong
+    :Asia/Hovd: 
+      :city: Khovd
     :Asia/Jayapura: 
       :city: Jajapura
     :Asia/Kamchatka: 
@@ -934,17 +955,11 @@
     :Pacific/Easter: 
       :city: Påskeøya
     :Pacific/Enderbury: 
-      :city: Enderbury
+      :city: Kantonøya
     :Pacific/Galapagos: 
       :city: Galápagosøyene
     :Pacific/Honolulu: 
       :city: Honolulu
-      :short: 
-        :daylight: HDT
-        :generic: HST
-        :standard: HST
-    :Pacific/Kanton: 
-      :city: Kantonøya
     :Pacific/Norfolk: 
       :city: Norfolkøya
     :Pacific/Noumea: 
@@ -953,3 +968,5 @@
       :city: Pohnpei
     :Pacific/Truk: 
       :city: Chuuk
+    :Pacific/Wallis: 
+      :city: "Wallis & Futuna"

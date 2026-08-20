@@ -42,6 +42,11 @@
           :many: "{0} pilno apsisukimo"
           :one: "{0} pilname apsisukime"
           :other: "{0} pilnų apsisukimų"
+        :angle-steradian: 
+          :few: "{0} steradianai"
+          :many: "{0} steradiano"
+          :one: "{0} steradianas"
+          :other: "{0} steradianų"
         :area-acre: 
           :few: "{0} akrai"
           :many: "{0} akro"
@@ -112,6 +117,26 @@
           :many: "{0} molio"
           :one: "{0} molyje"
           :other: "{0} molių"
+        :concentr-ofglucose: 
+          :few: "gliukozės kiekis – {0}"
+          :many: "gliukozės kiekis – {0}"
+          :one: "gliukozės kiekis – {0}"
+          :other: "gliukozės kiekis – {0}"
+        :concentr-part: 
+          :few: "{0} dalelės"
+          :many: "{0} dalelės"
+          :one: "{0} dalelė"
+          :other: "{0} dalelių"
+        :concentr-part-per-1e6: 
+          :few: "{0} milijoninėse dalyse"
+          :many: "{0} milijoninės dalies"
+          :one: "{0} milijoninėje dalyje"
+          :other: "{0} milijoninių dalių"
+        :concentr-part-per-1e9: 
+          :few: "{0} milijardinėse dalyse"
+          :many: "{0} milijardinės dalies"
+          :one: "{0} milijardinėje dalyje"
+          :other: "{0} milijardinių dalių"
         :concentr-percent: 
           :few: "{0} procentuose"
           :many: "{0} procento"
@@ -122,16 +147,6 @@
           :many: "{0} promilės"
           :one: "{0} promilėje"
           :other: "{0} promilių"
-        :concentr-permillion: 
-          :few: "{0} milijoninėse dalyse"
-          :many: "{0} milijoninės dalies"
-          :one: "{0} milijoninėje dalyje"
-          :other: "{0} milijoninių dalių"
-        :concentr-portion-per-1e9: 
-          :few: "{0} milijoninėse dalelytėse"
-          :many: "{0} milijoninės dalelytės"
-          :one: "{0} milijoninėje dalelytėje"
-          :other: "{0} milijoninių dalelyčių"
         :consumption-liter-per-100-kilometer: 
           :few: "{0} litruose 100 kilometrų"
           :many: "{0} litro 100 kilometrų"
@@ -282,6 +297,21 @@
           :many: "{0} ampero"
           :one: "{0} ampere"
           :other: "{0} amperų"
+        :electric-coulomb: 
+          :few: "{0} kulonai"
+          :many: "{0} kulono"
+          :one: "{0} kulonas"
+          :other: "{0} kulonų"
+        :electric-farad: 
+          :few: "{0} faradai"
+          :many: "{0} farado"
+          :one: "{0} faradas"
+          :other: "{0} faradų"
+        :electric-henry: 
+          :few: "{0} henriai"
+          :many: "{0} henrio"
+          :one: "{0} henris"
+          :other: "{0} henrių"
         :electric-milliampere: 
           :few: "{0} miliamperuose"
           :many: "{0} miliampero"
@@ -292,16 +322,31 @@
           :many: "{0} omo"
           :one: "{0} ome"
           :other: "{0} omų"
+        :electric-siemens: 
+          :few: "{0} simensai"
+          :many: "{0} simenso"
+          :one: "{0} simensas"
+          :other: "{0} simensų"
         :electric-volt: 
           :few: "{0} voltuose"
           :many: "{0} volto"
           :one: "{0} volte"
           :other: "{0} voltų"
+        :energy-becquerel: 
+          :few: "{0} bekereliai"
+          :many: "{0} bekerelio"
+          :one: "{0} < NBTSP>bekerelis"
+          :other: "{0} bekerelių"
         :energy-calorie: 
           :few: "{0} kalorijose"
           :many: "{0} kalorijos"
           :one: "{0} kalorijoje"
           :other: "{0} kalorijų"
+        :energy-calorie-it: 
+          :few: "{0} kalorijos"
+          :many: "{0} kalorijos"
+          :one: "{0} kalorija"
+          :other: "{0} kalorijų"
         :energy-electronvolt: 
           :few: "{0} elektronvoltai"
           :many: "{0} elektronvolto"
@@ -312,6 +357,11 @@
           :many: "{0} kalorijos"
           :one: "{0} kalorija"
           :other: "{0} kalorijų"
+        :energy-gray: 
+          :few: "{0} grėjai"
+          :many: "{0} grėjaus"
+          :one: "{0} grėjus"
+          :other: "{0} grėjų"
         :energy-joule: 
           :few: "{0} džauliuose"
           :many: "{0} džaulio"
@@ -332,6 +382,16 @@
           :many: "{0} kilovatvalandės"
           :one: "{0} kilovatvalandėje"
           :other: "{0} kilovatvalandžių"
+        :energy-sievert: 
+          :few: "{0} sivertai"
+          :many: "{0} siverto"
+          :one: "{0} sivertas"
+          :other: "{0} sivertų"
+        :force-kilogram-force: 
+          :few: "{0} kilogramo jėgos"
+          :many: "{0} kilogramo jėgos"
+          :one: "{0} kilogramo jėga"
+          :other: "{0} kilogramo jėgų"
         :force-kilowatt-hour-per-100-kilometer: 
           :few: "{0} kilovatvalandėse šimtui kilometrų"
           :many: "{0} kilovatvalandės šimtui kilometrų"
@@ -413,7 +473,7 @@
           :one: "{0} astronominis vienetas"
           :other: "{0} astronominių vienetų"
         :length-centimeter: 
-          :few: "{0} centimetrai"
+          :few: "{0} centimetruose"
           :many: "{0} centimetro"
           :one: "{0} centimetre"
           :other: "{0} centimetrų"
@@ -527,6 +587,16 @@
           :many: "{0} liukso"
           :one: "{0} liukse"
           :other: "{0} liuksų"
+        :magnetic-tesla: 
+          :few: "{0} teslos"
+          :many: "{0} teslos"
+          :one: "{0} tesla"
+          :other: "{0} teslų"
+        :magnetic-weber: 
+          :few: "{0} vėberiai"
+          :many: "{0} vėberio"
+          :one: "{0} vėberis"
+          :other: "{0} vėberių"
         :mass-carat: 
           :few: "{0} karatuose"
           :many: "{0} karato"
@@ -682,6 +752,11 @@
           :many: "{0} mazgo"
           :one: "{0} mazgas"
           :other: "{0} mazgų"
+        :speed-light-speed: 
+          :few: "{0} šm"
+          :many: "{0} šm"
+          :one: "{0} šm"
+          :other: "{0} šm"
         :speed-meter-per-second: 
           :few: "{0} metruose per sekundę"
           :many: "{0} metro per sekundę"
@@ -898,11 +973,16 @@
           :many: "{0} my²"
           :one: "{0} my²"
           :other: "{0} my²"
-        :concentr-portion-per-1e9: 
-          :few: "{0} dalelytės/mln."
-          :many: "{0} dalelytės/mln."
-          :one: "{0} dalelytė/mln."
-          :other: "{0} dalelyčių/mln."
+        :concentr-part: 
+          :few: "{0} dal."
+          :many: "{0} dal."
+          :one: "{0} dal."
+          :other: "{0} dal."
+        :concentr-part-per-1e9: 
+          :few: "{0} dal./mlrd."
+          :many: "{0} dal./mlrd."
+          :one: "{0} dal./mlrd."
+          :other: "{0} dal./mlrd."
         :consumption-mile-per-gallon: 
           :few: "{0} mi/gal"
           :many: "{0} mi/gal"
@@ -913,21 +993,26 @@
           :many: "{0} h"
           :one: "{0} h"
           :other: "{0} h"
-        :duration-night: 
-          :few: "{0} nakt."
-          :many: "{0} nakt."
-          :one: "{0} nakt."
-          :other: "{0} nakt."
         :duration-second: 
           :few: "{0} s"
           :many: "{0} s"
           :one: "{0} s"
           :other: "{0} s"
+        :energy-calorie-it: 
+          :few: "{0} cal"
+          :many: "{0} cal"
+          :one: "{0} cal"
+          :other: "{0} cal"
         :speed-kilometer-per-hour: 
           :few: "{0} km/h"
           :many: "{0} km/h"
           :one: "{0} km/h"
           :other: "{0} km/h"
+        :speed-light-speed: 
+          :few: "{0} šm"
+          :many: "{0} šm"
+          :one: "{0} šm"
+          :other: "{0} šm"
         :speed-meter-per-second: 
           :few: "{0} m/s"
           :many: "{0} m/s"
@@ -961,11 +1046,17 @@
           :many: "{0} apsisuk."
           :one: "{0} apsisuk."
           :other: "{0} apsisuk."
+        :angle-steradian: 
+          :other: "{0} sr"
         :area-acre: 
           :few: "{0} akr."
           :many: "{0} akr."
           :one: "{0} akr."
           :other: "{0} akr."
+        :area-bu-jp: 
+          :other: "{0} bu [JP]"
+        :area-cho: 
+          :other: "{0} cho [JP]"
         :area-dunam: 
           :few: "{0} dunamai"
           :many: "{0} dunamo"
@@ -973,6 +1064,8 @@
           :other: "{0} dunamų"
         :area-hectare: 
           :other: "{0} ha"
+        :area-se-jp: 
+          :other: "{0} se [JP]"
         :area-square-centimeter: 
           :other: "{0} cm²"
         :area-square-foot: 
@@ -1006,6 +1099,8 @@
           :other: "{0} elem."
         :concentr-karat: 
           :other: "{0} kt"
+        :concentr-katal: 
+          :other: "{0} kat"
         :concentr-milligram-ofglucose-per-deciliter: 
           :few: "{0} mg/dl"
           :many: "{0} mg/dl"
@@ -1018,6 +1113,20 @@
           :other: "{0} mmol/l"
         :concentr-mole: 
           :other: "{0} mol"
+        :concentr-ofglucose: 
+          :other: "{0} Glc"
+        :concentr-part: 
+          :few: "{0} dalelės"
+          :many: "{0} dalelės"
+          :one: "{0} dalelė"
+          :other: "{0} dalelių"
+        :concentr-part-per-1e6: 
+          :other: "{0} ppm"
+        :concentr-part-per-1e9: 
+          :few: "{0} dal./mlrd."
+          :many: "{0} dal./mlrd."
+          :one: "{0} dal./mlrd."
+          :other: "{0} dal./mlrd."
         :concentr-percent: 
           :few: "{0} %"
           :many: "{0} %"
@@ -1028,15 +1137,8 @@
           :many: "{0} ‰"
           :one: "{0} ‰"
           :other: "{0} ‰"
-        :concentr-permillion: 
-          :other: "{0} ppm"
         :concentr-permyriad: 
           :other: "{0}‱"
-        :concentr-portion-per-1e9: 
-          :few: "{0} dalelytės/mln."
-          :many: "{0} dalelytės/mln."
-          :one: "{0} dalelytė/mln."
-          :other: "{0} dalelyčių/mln."
         :consumption-liter-per-100-kilometer: 
           :few: "{0} l/100 km"
           :many: "{0} l/100 km"
@@ -1100,6 +1202,8 @@
           :many: "{0} dek."
           :one: "{0} dek."
           :other: "{0} dek."
+        :duration-fortnight: 
+          :other: "{0} fw"
         :duration-hour: 
           :few: "{0} val."
           :many: "{0} val."
@@ -1148,16 +1252,33 @@
           :other: "{0} m."
         :electric-ampere: 
           :other: "{0} A"
+        :electric-coulomb: 
+          :other: "{0} C"
+        :electric-farad: 
+          :other: "{0} F"
+        :electric-henry: 
+          :other: "{0} H"
         :electric-milliampere: 
           :other: "{0} mA"
         :electric-ohm: 
           :other: "{0} Ω"
+        :electric-siemens: 
+          :other: "{0} S"
         :electric-volt: 
           :other: "{0} V"
+        :energy-becquerel: 
+          :other: "{0} Bq"
         :energy-british-thermal-unit: 
           :other: "{0} Btu"
+        :energy-british-thermal-unit-it: 
+          :other: "{0} BTU-IT"
         :energy-calorie: 
           :other: "{0} cal"
+        :energy-calorie-it: 
+          :few: "{0} cal"
+          :many: "{0} cal"
+          :one: "{0} cal"
+          :other: "{0} cal"
         :energy-electronvolt: 
           :other: "{0} eV"
         :energy-foodcalorie: 
@@ -1165,6 +1286,8 @@
           :many: "{0} cal"
           :one: "{0} cal"
           :other: "{0} cal"
+        :energy-gray: 
+          :other: "{0} Gy"
         :energy-joule: 
           :other: "{0} J"
         :energy-kilocalorie: 
@@ -1173,11 +1296,15 @@
           :other: "{0} kJ"
         :energy-kilowatt-hour: 
           :other: "{0} kWh"
+        :energy-sievert: 
+          :other: "{0} Sv"
         :energy-therm-us: 
           :few: "{0} JAV termos"
           :many: "{0} JAV termos"
           :one: "{0} JAV terma"
           :other: "{0} JAV termų"
+        :force-kilogram-force: 
+          :other: "{0} kgf"
         :force-kilowatt-hour-per-100-kilometer: 
           :other: "{0} kWh/100km"
         :force-newton: 
@@ -1230,6 +1357,8 @@
           :other: "{0} AV"
         :length-centimeter: 
           :other: "{0} cm"
+        :length-chain: 
+          :other: "{0} chain"
         :length-decimeter: 
           :other: "{0} dm"
         :length-earth-radius: 
@@ -1242,13 +1371,17 @@
           :other: "{0} fur"
         :length-inch: 
           :other: "{0} in"
+        :length-jo-jp: 
+          :other: "{0} jo [JP]"
+        :length-ken: 
+          :other: "{0} ken [JP]"
         :length-kilometer: 
           :other: "{0} km"
         :length-light-year: 
-          :few: "{0} šm."
-          :many: "{0} šm."
-          :one: "{0} šm."
-          :other: "{0} šm."
+          :few: "{0} šviesm."
+          :many: "{0} šviesm."
+          :one: "{0} šviesm."
+          :other: "{0} šviesm."
         :length-meter: 
           :other: "{0} m"
         :length-micrometer: 
@@ -1275,8 +1408,20 @@
           :other: "{0} pm"
         :length-point: 
           :other: "{0} pt"
+        :length-ri-jp: 
+          :other: "{0} ri [JP]"
+        :length-rin: 
+          :other: "{0} rin [JP]"
+        :length-rod: 
+          :other: "{0} rod"
+        :length-shaku-cloth: 
+          :other: "{0} shaku [cloth, JP]"
+        :length-shaku-length: 
+          :other: "{0} shaku [JP]"
         :length-solar-radius: 
           :other: "{0} R☉"
+        :length-sun: 
+          :other: "{0} sun [JP]"
         :length-yard: 
           :other: "{0} yd"
         :light-candela: 
@@ -1287,6 +1432,10 @@
           :other: "{0} lx"
         :light-solar-luminosity: 
           :other: "{0} L☉"
+        :magnetic-tesla: 
+          :other: "{0} T"
+        :magnetic-weber: 
+          :other: "{0} Wb"
         :mass-carat: 
           :few: "{0} ct"
           :many: "{0} ct"
@@ -1296,6 +1445,8 @@
           :other: "{0} Da"
         :mass-earth-mass: 
           :other: "{0} M⊕"
+        :mass-fun: 
+          :other: "{0} fun [JP]"
         :mass-grain: 
           :few: "{0} grūdai"
           :many: "{0} grūdo"
@@ -1318,6 +1469,8 @@
           :other: "{0} ozt"
         :mass-pound: 
           :other: "{0} lb"
+        :mass-slug: 
+          :other: "{0} slug"
         :mass-solar-mass: 
           :other: "{0} M☉"
         :mass-stone: 
@@ -1354,6 +1507,8 @@
           :many: "{0} ba"
           :one: "{0} ba"
           :other: "{0} ba"
+        :pressure-gasoline-energy-density: 
+          :other: "{0} gas E"
         :pressure-hectopascal: 
           :other: "{0} hPa"
         :pressure-inch-ofhg: 
@@ -1366,6 +1521,8 @@
           :other: "{0} mbar"
         :pressure-millimeter-ofhg: 
           :other: "{0} mm Hg"
+        :pressure-ofhg: 
+          :other: "{0} Hg"
         :pressure-pascal: 
           :other: "{0} Pa"
         :pressure-pound-force-per-square-inch: 
@@ -1386,7 +1543,10 @@
           :one: "{0} KN"
           :other: "{0} KN"
         :speed-light-speed: 
-          :other: "{0} light"
+          :few: "{0} šm"
+          :many: "{0} šm"
+          :one: "{0} šm"
+          :other: "{0} šm"
         :speed-meter-per-second: 
           :few: "{0} m/sek."
           :many: "{0} m/sek."
@@ -1402,6 +1562,8 @@
           :other: "{0}°"
         :temperature-kelvin: 
           :other: "{0} K"
+        :temperature-rankine: 
+          :other: "{0} °R"
         :torque-newton-meter: 
           :few: "{0} N-m"
           :many: "{0} N-m"
@@ -1442,6 +1604,10 @@
           :many: "{0} stikl."
           :one: "{0} stikl."
           :other: "{0} stikl."
+        :volume-cup-imperial: 
+          :other: "{0} cup Imp."
+        :volume-cup-jp: 
+          :other: "{0} cup [JP]"
         :volume-cup-metric: 
           :few: "{0} mat. puodeliai"
           :many: "{0} mat. puodelio"
@@ -1482,6 +1648,8 @@
           :many: "{0} imp. fl oz"
           :one: "{0} imp. fl oz"
           :other: "{0} imp. fl oz"
+        :volume-fluid-ounce-metric: 
+          :other: "{0} fl oz m."
         :volume-gallon: 
           :few: "{0} gal"
           :many: "{0} gal"
@@ -1502,6 +1670,10 @@
           :many: "{0} džigerio"
           :one: "{0} džigeris"
           :other: "{0} džigerio"
+        :volume-koku: 
+          :other: "{0} koku [JP]"
+        :volume-kosaji: 
+          :other: "{0} kosaji [JP]"
         :volume-liter: 
           :other: "{0} l"
         :volume-megaliter: 
@@ -1514,6 +1686,8 @@
           :many: "{0} ml"
           :one: "{0} ml"
           :other: "{0} ml"
+        :volume-osaji: 
+          :other: "{0} osaji [JP]"
         :volume-pinch: 
           :few: "{0} žiupsn."
           :many: "{0} žiupsn."
@@ -1521,6 +1695,8 @@
           :other: "{0} žiupsn."
         :volume-pint: 
           :other: "{0} pt"
+        :volume-pint-imperial: 
+          :other: "{0} pt Imp."
         :volume-pint-metric: 
           :other: "{0} mpt"
         :volume-quart: 
@@ -1533,6 +1709,10 @@
           :many: "{0} imp. kv."
           :one: "{0} imp. kv."
           :other: "{0} imp. kv."
+        :volume-sai: 
+          :other: "{0} sai [JP]"
+        :volume-shaku: 
+          :other: "{0} shaku [vol, JP]"
         :volume-tablespoon: 
           :few: "{0} v. š."
           :many: "{0} v. š."
@@ -1543,3 +1723,5 @@
           :many: "{0} a. š."
           :one: "{0} a. š."
           :other: "{0} a. š."
+        :volume-to-jp: 
+          :other: "{0} to [JP]"

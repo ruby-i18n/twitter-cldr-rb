@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "Ora Africii Meridionale"
     :Africa_Western: 
       :long: 
-        :daylight: "Ora de vară a Africii Occidentale"
-        :generic: "Ora Africii Occidentale"
-        :standard: "Ora standard a Africii Occidentale"
+        :standard: "Ora Africii Occidentale"
     :Alaska: 
       :long: 
         :daylight: "Ora de vară din Alaska"
@@ -78,9 +78,9 @@
         :standard: "Ora standard din Anadyr"
     :Apia: 
       :long: 
-        :daylight: "Ora de vară din Apia"
-        :generic: "Ora din Apia"
-        :standard: "Ora standard din Apia"
+        :daylight: "Ora de vară din Samoa"
+        :generic: "Ora din Samoa"
+        :standard: "Ora standard din Samoa"
     :Aqtau: 
       :long: 
         :daylight: "Ora de vară a zonei Aqtau"
@@ -274,7 +274,7 @@
         :standard: "Ora din Teritoriile Australe și Antarctice Franceze"
     :GMT: 
       :long: 
-        :standard: "Ora de Greenwhich"
+        :standard: "Ora de Greenwich"
       :short: 
         :standard: GMT
     :Galapagos: 
@@ -307,6 +307,9 @@
     :Guyana: 
       :long: 
         :standard: "Ora din Guyana"
+    :Hawaii: 
+      :long: 
+        :standard: "Ora standard din Hawaii-Aleutine"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "Ora de vară din Hawaii-Aleutine"
@@ -654,24 +657,44 @@
       :city: Alger
     :Africa/Asmera: 
       :city: Asmara
+    :Africa/El_Aaiun: 
+      :city: "El Aaiún"
+    :Africa/Lome: 
+      :city: Lomé
     :Africa/Mogadishu: 
       :city: Mogadiscio
     :Africa/Ndjamena: 
       :city: N’Djamena
     :Africa/Sao_Tome: 
       :city: "Sao Tomé"
+    :America/Araguaina: 
+      :city: Araguaína
+    :America/Argentina/Rio_Gallegos: 
+      :city: "Río Gallegos"
+    :America/Argentina/Tucuman: 
+      :city: Tucumán
     :America/Asuncion: 
       :city: Asunción
     :America/Bahia_Banderas: 
       :city: "Bahia Banderas"
+    :America/Belem: 
+      :city: Belém
+    :America/Bogota: 
+      :city: Bogotá
     :America/Cancun: 
       :city: Cancun
     :America/Ciudad_Juarez: 
       :city: "Ciudad Juárez"
     :America/Coral_Harbour: 
       :city: Atikokan
+    :America/Cordoba: 
+      :city: Córdoba
+    :America/Cuiaba: 
+      :city: Cuiabá
     :America/Curacao: 
       :city: Curaçao
+    :America/Eirunepe: 
+      :city: Eirunepé
     :America/Godthab: 
       :city: Nuuk
     :America/Guadeloupe: 
@@ -694,18 +717,30 @@
       :city: "Monticello, Kentucky"
     :America/Lower_Princes: 
       :city: "Lower Prince’s Quarter"
+    :America/Maceio: 
+      :city: Maceió
     :America/Martinique: 
       :city: Martinica
+    :America/Mazatlan: 
+      :city: Mazatlán
     :America/Merida: 
       :city: Merida
     :America/Mexico_City: 
       :city: "Ciudad de Mexico"
+    :America/Miquelon: 
+      :city: Saint-Pierre
+    :America/Noronha: 
+      :city: "Fernando de Noronha"
     :America/North_Dakota/Beulah: 
       :city: "Beulah, Dakota de Nord"
     :America/North_Dakota/Center: 
       :city: "Center, Dakota de Nord"
     :America/North_Dakota/New_Salem: 
       :city: "New Salem, Dakota de Nord"
+    :America/Santarem: 
+      :city: Santarém
+    :America/Sao_Paulo: 
+      :city: "São Paulo"
     :America/Scoresbysund: 
       :city: Ittoqqortoormiit
     :America/St_Barthelemy: 
@@ -721,7 +756,7 @@
     :America/St_Vincent: 
       :city: "St. Vincent"
     :Antarctica/DumontDUrville: 
-      :city: "Dumont d’Urville"
+      :city: Dumont-d’Urville
     :Antarctica/Syowa: 
       :city: Showa
     :Asia/Almaty: 
@@ -750,6 +785,8 @@
       :city: Dacca
     :Asia/Dushanbe: 
       :city: Dușanbe
+    :Asia/Hovd: 
+      :city: Khovd
     :Asia/Irkutsk: 
       :city: Irkuțk
     :Asia/Jerusalem: 
@@ -782,6 +819,8 @@
       :city: "Ho Și Min"
     :Asia/Sakhalin: 
       :city: Sahalin
+    :Asia/Seoul: 
+      :city: Seul
     :Asia/Srednekolymsk: 
       :city: Srednekolimsk
     :Asia/Tashkent: 
@@ -790,6 +829,8 @@
       :city: Teheran
     :Asia/Ulaanbaatar: 
       :city: "Ulan Bator"
+    :Asia/Urumqi: 
+      :city: Ürümqi
     :Asia/Yakutsk: 
       :city: Iakuțk
     :Asia/Yekaterinburg: 
@@ -827,6 +868,8 @@
       :city: București
     :Europe/Budapest: 
       :city: Budapesta
+    :Europe/Busingen: 
+      :city: Büsingen
     :Europe/Chisinau: 
       :city: Chișinău
     :Europe/Copenhagen: 
@@ -864,8 +907,12 @@
       :city: Varșovia
     :Europe/Zurich: 
       :city: Zürich
+    :Indian/Christmas: 
+      :city: "Insula Christmas"
     :Indian/Comoro: 
       :city: Comore
+    :Indian/Mahe: 
+      :city: Mahé
     :Indian/Maldives: 
       :city: Maldive
     :Indian/Reunion: 
@@ -873,14 +920,22 @@
     :Pacific/Easter: 
       :city: "Insula Paștelui"
     :Pacific/Enderbury: 
-      :city: Enderbury
+      :city: "Insula Canton"
+    :Pacific/Galapagos: 
+      :city: Galápagos
     :Pacific/Honolulu: 
       :city: Honolulu
     :Pacific/Marquesas: 
       :city: Marchize
+    :Pacific/Noumea: 
+      :city: Nouméa
     :Pacific/Pitcairn: 
       :city: "Insula Pitcairn"
     :Pacific/Ponape: 
       :city: Pohnpei
     :Pacific/Truk: 
       :city: Chuuk
+    :Pacific/Wake: 
+      :city: "Insula Wake"
+    :Pacific/Wallis: 
+      :city: "Wallis & Futuna"

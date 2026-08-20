@@ -5,6 +5,8 @@
       :generic: "{1}（{0}）"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: 南非標準時間
     :Africa_Western: 
       :long: 
-        :daylight: 西非夏令時間
-        :generic: 西非時間
-        :standard: 西非標準時間
+        :standard: 西非時間
     :Alaska: 
       :long: 
         :daylight: 阿拉斯加夏令時間
@@ -325,6 +325,11 @@
     :Guyana: 
       :long: 
         :standard: 蓋亞那時間
+    :Hawaii: 
+      :long: 
+        :standard: 夏威夷-阿留申標準時間
+      :short: 
+        :standard: HAST
     :Hawaii_Aleutian: 
       :long: 
         :daylight: 夏威夷-阿留申夏令時間
@@ -627,6 +632,11 @@
     :Truk: 
       :long: 
         :standard: 楚克島時間
+    :Turkey: 
+      :long: 
+        :daylight: 土耳其夏令時間
+        :generic: 土耳其時間
+        :standard: 土耳其標準時間
     :Turkmenistan: 
       :long: 
         :daylight: 土庫曼夏令時間
@@ -864,6 +874,8 @@
       :city: 哥多華
     :America/Costa_Rica: 
       :city: 哥斯大黎加
+    :America/Coyhaique: 
+      :city: 科伊艾克
     :America/Creston: 
       :city: 克雷斯頓
     :America/Cuiaba: 
@@ -1468,7 +1480,7 @@
     :Pacific/Efate: 
       :city: 埃法特
     :Pacific/Enderbury: 
-      :city: 恩得伯理島
+      :city: 坎頓島
     :Pacific/Fakaofo: 
       :city: 法考福
     :Pacific/Fiji: 
@@ -1485,8 +1497,6 @@
       :city: 關島
     :Pacific/Honolulu: 
       :city: 檀香山
-    :Pacific/Kanton: 
-      :city: 坎頓島
     :Pacific/Kiritimati: 
       :city: 基里地馬地島
     :Pacific/Kosrae: 

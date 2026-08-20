@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "ದಕ್ಷಿಣ ಆಫ್ರಿಕಾ ಪ್ರಮಾಣಿತ ಸಮಯ"
     :Africa_Western: 
       :long: 
-        :daylight: "ಪಶ್ಚಿಮ ಆಫ್ರಿಕಾ ಬೇಸಿಗೆ ಸಮಯ"
-        :generic: "ಪಶ್ಚಿಮ ಆಫ್ರಿಕಾ ಸಮಯ"
-        :standard: "ಪಶ್ಚಿಮ ಆಫ್ರಿಕಾ ಪ್ರಮಾಣಿತ ಸಮಯ"
+        :standard: "ಪಶ್ಚಿಮ ಆಫ್ರಿಕಾ ಸಮಯ"
     :Alaska: 
       :long: 
         :daylight: "‌ಅಲಾಸ್ಕಾ ಹಗಲು ಸಮಯ"
@@ -296,6 +296,9 @@
     :Guyana: 
       :long: 
         :standard: "ಗಯಾನಾ ಸಮಯ"
+    :Hawaii: 
+      :long: 
+        :standard: "ಹವಾಯಿ-ಅಲ್ಯುಟಿಯನ್ ಪ್ರಮಾಣಿತ ಸಮಯ"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "ಹವಾಯಿ-ಅಲ್ಯುಟಿಯನ್ ಹಗಲು ಸಮಯ"
@@ -833,6 +836,8 @@
       :city: ಕೊರ್ಡೊಬಾ
     :America/Costa_Rica: 
       :city: "ಕೋಸ್ಟಾ ರಿಕಾ"
+    :America/Coyhaique: 
+      :city: ಕೊಯಯ್ಕಿ
     :America/Creston: 
       :city: ಕ್ರೆಸ್ಟನ್
     :America/Cuiaba: 
@@ -1437,7 +1442,7 @@
     :Pacific/Efate: 
       :city: ಇಫೇಟ್
     :Pacific/Enderbury: 
-      :city: ಎಂಡರ್ಬರಿ
+      :city: "ಕ್ಯಾಂಟನ್ ಐಲ್ಯಾಂಡ್"
     :Pacific/Fakaofo: 
       :city: ಫಕೋಫೋ
     :Pacific/Fiji: 
@@ -1454,8 +1459,6 @@
       :city: ಗ್ವಾಮ್
     :Pacific/Honolulu: 
       :city: ಹೊನಲುಲು
-    :Pacific/Kanton: 
-      :city: ಕ್ಯಾಂಟನ್
     :Pacific/Kiritimati: 
       :city: ಕಿರಿತಿಮತಿ
     :Pacific/Kosrae: 

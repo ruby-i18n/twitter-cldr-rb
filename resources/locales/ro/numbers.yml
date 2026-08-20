@@ -1,622 +1,586 @@
---- 
-:ro: 
-  :numbers: 
-    :default_number_systems: 
+---
+:ro:
+  :numbers:
+    :symbols:
+      :adlm: &1
+        :decimal: ","
+        :group: "."
+        :list: ";"
+        :percent_sign: "%"
+        :plus_sign: "+"
+        :minus_sign: "-"
+        :approximately_sign: "~"
+        :exponential: E
+        :superscripting_exponent: "×"
+        :per_mille: "‰"
+        :infinity: "∞"
+        :nan: NaN
+        :time_separator: ":"
+      :ahom: *1
+      :arab:
+        :decimal: "٫"
+        :group: "٬"
+        :list: "؛"
+        :percent_sign: "٪؜"
+        :plus_sign: "؜+"
+        :minus_sign: "؜-"
+        :approximately_sign: "~"
+        :exponential: اس
+        :superscripting_exponent: "×"
+        :per_mille: "؉"
+        :infinity: "∞"
+        :nan: NaN
+        :time_separator: ":"
+      :arabext:
+        :decimal: "٫"
+        :group: "٬"
+        :list: "؛"
+        :percent_sign: "٪"
+        :plus_sign: "‎+‎"
+        :minus_sign: "‎-‎"
+        :approximately_sign: "~"
+        :exponential: "×۱۰^"
+        :superscripting_exponent: "×"
+        :per_mille: "؉"
+        :infinity: "∞"
+        :nan: NaN
+        :time_separator: "٫"
+      :bali: *1
+      :beng: *1
+      :bhks: *1
+      :brah: *1
+      :cakm: *1
+      :cham: *1
+      :deva: *1
+      :diak: *1
+      :fullwide: *1
+      :gara: *1
+      :gong: *1
+      :gonm: *1
+      :gujr: *1
+      :gukh: *1
+      :guru: *1
+      :hanidec: *1
+      :hmng: *1
+      :hmnp: *1
+      :java: *1
+      :kali: *1
+      :kawi: *1
+      :khmr: *1
+      :knda: *1
+      :krai: *1
+      :lana: *1
+      :lanatham: *1
+      :laoo: *1
+      :latn: *1
+      :lepc: *1
+      :limb: *1
+      :mathbold: *1
+      :mathdbl: *1
+      :mathmono: *1
+      :mathsanb: *1
+      :mathsans: *1
+      :mlym: *1
+      :modi: *1
+      :mong: *1
+      :mroo: *1
+      :mtei: *1
+      :mymr: *1
+      :mymrepka: *1
+      :mymrpao: *1
+      :mymrshan: *1
+      :mymrtlng: *1
+      :nagm: *1
+      :newa: *1
+      :nkoo: *1
+      :olck: *1
+      :onao: *1
+      :orya: *1
+      :osma: *1
+      :outlined: *1
+      :rohg: *1
+      :saur: *1
+      :segment: *1
+      :shrd: *1
+      :sind: *1
+      :sinh: *1
+      :sora: *1
+      :sund: *1
+      :sunu: *1
+      :takr: *1
+      :talu: *1
+      :tamldec: *1
+      :telu: *1
+      :thai: *1
+      :tibt: *1
+      :tirh: *1
+      :tnsa: *1
+      :tols: *1
+      :vaii: *1
+      :wara: *1
+      :wcho: *1
+    :default_number_systems:
       :alternatives: {}
       :default: latn
-    :formats: 
-      :currency: 
-        :adlm: :numbers.formats.currency.latn
-        :ahom: :numbers.formats.currency.latn
-        :arab: 
-          :default: "#,##0.00 ¤"
-        :arabext: :numbers.formats.currency.latn
-        :bali: :numbers.formats.currency.latn
-        :beng: :numbers.formats.currency.latn
-        :bhks: :numbers.formats.currency.latn
-        :brah: :numbers.formats.currency.latn
-        :cakm: :numbers.formats.currency.latn
-        :cham: :numbers.formats.currency.latn
-        :default: :numbers.formats.currency.latn
-        :deva: :numbers.formats.currency.latn
-        :diak: :numbers.formats.currency.latn
-        :fullwide: :numbers.formats.currency.latn
-        :gara: :numbers.formats.currency.latn
-        :gong: :numbers.formats.currency.latn
-        :gonm: :numbers.formats.currency.latn
-        :gujr: :numbers.formats.currency.latn
-        :gukh: :numbers.formats.currency.latn
-        :guru: :numbers.formats.currency.latn
-        :hanidec: :numbers.formats.currency.latn
-        :hmng: :numbers.formats.currency.latn
-        :hmnp: :numbers.formats.currency.latn
-        :java: :numbers.formats.currency.latn
-        :kali: :numbers.formats.currency.latn
-        :kawi: :numbers.formats.currency.latn
-        :khmr: :numbers.formats.currency.latn
-        :knda: :numbers.formats.currency.latn
-        :krai: :numbers.formats.currency.latn
-        :lana: :numbers.formats.currency.latn
-        :lanatham: :numbers.formats.currency.latn
-        :laoo: :numbers.formats.currency.latn
-        :latn: 
-          :default: "#,##0.00 ¤"
-          :short: 
-            ? !ruby/symbol "1000"
-            : 
-              :few: 0 mii ¤
-              :one: 0 mie ¤
-              :other: 0 mii ¤
-            ? !ruby/symbol "10000"
-            : 
-              :few: 00 mii ¤
-              :one: 00 mii ¤
-              :other: 00 mii ¤
-            ? !ruby/symbol "100000"
-            : 
-              :few: 000 mii ¤
-              :one: 000 mii ¤
-              :other: 000 mii ¤
-            ? !ruby/symbol "1000000"
-            : 
-              :few: 0 mil'.' ¤
-              :one: 0 mil'.' ¤
-              :other: 0 mil'.' ¤
-            ? !ruby/symbol "10000000"
-            : 
-              :few: 00 mil'.' ¤
-              :one: 00 mil'.' ¤
-              :other: 00 mil'.' ¤
-            ? !ruby/symbol "100000000"
-            : 
-              :few: 000 mil'.' ¤
-              :one: 000 mil'.' ¤
-              :other: 000 mil'.' ¤
-            ? !ruby/symbol "1000000000"
-            : 
-              :few: 0 mld'.' ¤
-              :one: 0 mld'.' ¤
-              :other: 0 mld'.' ¤
-            ? !ruby/symbol "10000000000"
-            : 
-              :few: 00 mld'.' ¤
-              :one: 00 mld'.' ¤
-              :other: 00 mld'.' ¤
-            ? !ruby/symbol "100000000000"
-            : 
-              :few: 000 mld'.' ¤
-              :one: 000 mld'.' ¤
-              :other: 000 mld'.' ¤
-            ? !ruby/symbol "1000000000000"
-            : 
-              :few: 0 tril'.' ¤
-              :one: 0 tril'.' ¤
-              :other: 0 tril'.' ¤
-            ? !ruby/symbol "10000000000000"
-            : 
-              :few: 00 tril'.' ¤
-              :one: 00 tril'.' ¤
-              :other: 00 tril'.' ¤
-            ? !ruby/symbol "100000000000000"
-            : 
-              :few: 000 tril'.' ¤
-              :one: 000 tril'.' ¤
-              :other: 000 tril'.' ¤
-          :unit: 
-            :few: "{0} {1}"
-            :one: "{0} {1}"
-            :other: "{0} de {1}"
-        :lepc: :numbers.formats.currency.latn
-        :limb: :numbers.formats.currency.latn
-        :mathbold: :numbers.formats.currency.latn
-        :mathdbl: :numbers.formats.currency.latn
-        :mathmono: :numbers.formats.currency.latn
-        :mathsanb: :numbers.formats.currency.latn
-        :mathsans: :numbers.formats.currency.latn
-        :mlym: :numbers.formats.currency.latn
-        :modi: :numbers.formats.currency.latn
-        :mong: :numbers.formats.currency.latn
-        :mroo: :numbers.formats.currency.latn
-        :mtei: :numbers.formats.currency.latn
-        :mymr: :numbers.formats.currency.latn
-        :mymrepka: :numbers.formats.currency.latn
-        :mymrpao: :numbers.formats.currency.latn
-        :mymrshan: :numbers.formats.currency.latn
-        :mymrtlng: :numbers.formats.currency.latn
-        :nagm: :numbers.formats.currency.latn
-        :newa: :numbers.formats.currency.latn
-        :nkoo: :numbers.formats.currency.latn
-        :olck: :numbers.formats.currency.latn
-        :onao: :numbers.formats.currency.latn
-        :orya: :numbers.formats.currency.latn
-        :osma: :numbers.formats.currency.latn
-        :outlined: :numbers.formats.currency.latn
-        :rohg: :numbers.formats.currency.latn
-        :saur: :numbers.formats.currency.latn
-        :segment: :numbers.formats.currency.latn
-        :shrd: :numbers.formats.currency.latn
-        :sind: :numbers.formats.currency.latn
-        :sinh: :numbers.formats.currency.latn
-        :sora: :numbers.formats.currency.latn
-        :sund: :numbers.formats.currency.latn
-        :sunu: :numbers.formats.currency.latn
-        :takr: :numbers.formats.currency.latn
-        :talu: :numbers.formats.currency.latn
-        :tamldec: :numbers.formats.currency.latn
-        :telu: :numbers.formats.currency.latn
-        :thai: :numbers.formats.currency.latn
-        :tibt: :numbers.formats.currency.latn
-        :tirh: :numbers.formats.currency.latn
-        :tnsa: :numbers.formats.currency.latn
-        :vaii: :numbers.formats.currency.latn
-        :wara: :numbers.formats.currency.latn
-        :wcho: :numbers.formats.currency.latn
-      :decimal: 
-        :adlm: :numbers.formats.decimal.latn
-        :ahom: :numbers.formats.decimal.latn
-        :arab: :numbers.formats.decimal.latn
-        :arabext: :numbers.formats.decimal.latn
-        :bali: :numbers.formats.decimal.latn
-        :beng: :numbers.formats.decimal.latn
-        :bhks: :numbers.formats.decimal.latn
-        :brah: :numbers.formats.decimal.latn
-        :cakm: :numbers.formats.decimal.latn
-        :cham: :numbers.formats.decimal.latn
-        :default: :numbers.formats.decimal.latn
-        :deva: :numbers.formats.decimal.latn
-        :diak: :numbers.formats.decimal.latn
-        :fullwide: :numbers.formats.decimal.latn
-        :gara: :numbers.formats.decimal.latn
-        :gong: :numbers.formats.decimal.latn
-        :gonm: :numbers.formats.decimal.latn
-        :gujr: :numbers.formats.decimal.latn
-        :gukh: :numbers.formats.decimal.latn
-        :guru: :numbers.formats.decimal.latn
-        :hanidec: :numbers.formats.decimal.latn
-        :hmng: :numbers.formats.decimal.latn
-        :hmnp: :numbers.formats.decimal.latn
-        :java: :numbers.formats.decimal.latn
-        :kali: :numbers.formats.decimal.latn
-        :kawi: :numbers.formats.decimal.latn
-        :khmr: :numbers.formats.decimal.latn
-        :knda: :numbers.formats.decimal.latn
-        :krai: :numbers.formats.decimal.latn
-        :lana: :numbers.formats.decimal.latn
-        :lanatham: :numbers.formats.decimal.latn
-        :laoo: :numbers.formats.decimal.latn
-        :latn: 
+    :formats:
+      :decimal:
+        :adlm: &2
           :default: "#,##0.###"
-          :long: 
-            ? !ruby/symbol "1000"
-            : 
-              :few: "0 mii"
-              :one: "0 mie"
-              :other: "0 de mii"
-            ? !ruby/symbol "10000"
-            : 
-              :few: "00 mii"
-              :one: "00 mie"
-              :other: "00 de mii"
-            ? !ruby/symbol "100000"
-            : 
-              :few: "000 mii"
-              :one: "000 mie"
-              :other: "000 de mii"
-            ? !ruby/symbol "1000000"
-            : 
-              :few: "0 milioane"
-              :one: "0 milion"
-              :other: "0 de milioane"
-            ? !ruby/symbol "10000000"
-            : 
-              :few: "00 milioane"
-              :one: "00 milion"
-              :other: "00 de milioane"
-            ? !ruby/symbol "100000000"
-            : 
-              :few: "000 milioane"
-              :one: "000 milion"
-              :other: "000 de milioane"
-            ? !ruby/symbol "1000000000"
-            : 
-              :few: "0 miliarde"
-              :one: "0 miliard"
-              :other: "0 de miliarde"
-            ? !ruby/symbol "10000000000"
-            : 
-              :few: "00 miliarde"
-              :one: "00 miliard"
-              :other: "00 de miliarde"
-            ? !ruby/symbol "100000000000"
-            : 
-              :few: "000 miliarde"
-              :one: "000 miliard"
-              :other: "000 de miliarde"
-            ? !ruby/symbol "1000000000000"
-            : 
-              :few: "0 trilioane"
-              :one: "0 trilion"
-              :other: "0 de trilioane"
-            ? !ruby/symbol "10000000000000"
-            : 
-              :few: "00 trilioane"
-              :one: "00 trilion"
-              :other: "00 de trilioane"
-            ? !ruby/symbol "100000000000000"
-            : 
-              :few: "000 trilioane"
-              :one: "000 trilion"
-              :other: "000 de trilioane"
-          :short: 
-            ? !ruby/symbol "1000"
-            : 
-              :one: 0 K
+          :long:
+            :1000:
+              :other: 0 de mii
+              :one: 0 mie
+              :few: 0 mii
+            :10000:
+              :other: 00 de mii
+              :one: 00 mie
+              :few: 00 mii
+            :100000:
+              :other: 000 de mii
+              :one: 000 mie
+              :few: 000 mii
+            :1000000:
+              :other: 0 de milioane
+              :one: 0 milion
+              :few: 0 milioane
+            :10000000:
+              :other: 00 de milioane
+              :one: 00 milion
+              :few: 00 milioane
+            :100000000:
+              :other: 000 de milioane
+              :one: 000 milion
+              :few: 000 milioane
+            :1000000000:
+              :other: 0 de miliarde
+              :one: 0 miliard
+              :few: 0 miliarde
+            :10000000000:
+              :other: 00 de miliarde
+              :one: 00 miliard
+              :few: 00 miliarde
+            :100000000000:
+              :other: 000 de miliarde
+              :one: 000 miliard
+              :few: 000 miliarde
+            :1000000000000:
+              :other: 0 de trilioane
+              :one: 0 trilion
+              :few: 0 trilioane
+            :10000000000000:
+              :other: 00 de trilioane
+              :one: 00 trilion
+              :few: 00 trilioane
+            :100000000000000:
+              :other: 000 de trilioane
+              :one: 000 trilion
+              :few: 000 trilioane
+          :short:
+            :1000:
               :other: 0 K
-            ? !ruby/symbol "10000"
-            : 
-              :one: 00 K
+              :one: 0 K
+            :10000:
               :other: 00 K
-            ? !ruby/symbol "100000"
-            : 
-              :one: 000 K
+              :one: 00 K
+            :100000:
               :other: 000 K
-            ? !ruby/symbol "1000000"
-            : 
-              :one: 0 mil'.'
+              :one: 000 K
+            :1000000:
               :other: 0 mil'.'
-            ? !ruby/symbol "10000000"
-            : 
-              :one: 00 mil'.'
+              :one: 0 mil'.'
+            :10000000:
               :other: 00 mil'.'
-            ? !ruby/symbol "100000000"
-            : 
-              :one: 000 mil'.'
+              :one: 00 mil'.'
+            :100000000:
               :other: 000 mil'.'
-            ? !ruby/symbol "1000000000"
-            : 
-              :one: 0 mld'.'
+              :one: 000 mil'.'
+            :1000000000:
               :other: 0 mld'.'
-            ? !ruby/symbol "10000000000"
-            : 
-              :one: 00 mld'.'
+              :one: 0 mld'.'
+            :10000000000:
               :other: 00 mld'.'
-            ? !ruby/symbol "100000000000"
-            : 
-              :one: 000 mld'.'
+              :one: 00 mld'.'
+            :100000000000:
               :other: 000 mld'.'
-            ? !ruby/symbol "1000000000000"
-            : 
-              :one: 0 tril'.'
+              :one: 000 mld'.'
+            :1000000000000:
               :other: 0 tril'.'
-            ? !ruby/symbol "10000000000000"
-            : 
-              :one: 00 tril'.'
+              :one: 0 tril'.'
+            :10000000000000:
               :other: 00 tril'.'
-            ? !ruby/symbol "100000000000000"
-            : 
-              :one: 000 tril'.'
+              :one: 00 tril'.'
+            :100000000000000:
               :other: 000 tril'.'
-        :lepc: :numbers.formats.decimal.latn
-        :limb: :numbers.formats.decimal.latn
-        :mathbold: :numbers.formats.decimal.latn
-        :mathdbl: :numbers.formats.decimal.latn
-        :mathmono: :numbers.formats.decimal.latn
-        :mathsanb: :numbers.formats.decimal.latn
-        :mathsans: :numbers.formats.decimal.latn
-        :mlym: :numbers.formats.decimal.latn
-        :modi: :numbers.formats.decimal.latn
-        :mong: :numbers.formats.decimal.latn
-        :mroo: :numbers.formats.decimal.latn
-        :mtei: :numbers.formats.decimal.latn
-        :mymr: :numbers.formats.decimal.latn
-        :mymrepka: :numbers.formats.decimal.latn
-        :mymrpao: :numbers.formats.decimal.latn
-        :mymrshan: :numbers.formats.decimal.latn
-        :mymrtlng: :numbers.formats.decimal.latn
-        :nagm: :numbers.formats.decimal.latn
-        :newa: :numbers.formats.decimal.latn
-        :nkoo: :numbers.formats.decimal.latn
-        :olck: :numbers.formats.decimal.latn
-        :onao: :numbers.formats.decimal.latn
-        :orya: :numbers.formats.decimal.latn
-        :osma: :numbers.formats.decimal.latn
-        :outlined: :numbers.formats.decimal.latn
-        :rohg: :numbers.formats.decimal.latn
-        :saur: :numbers.formats.decimal.latn
-        :segment: :numbers.formats.decimal.latn
-        :shrd: :numbers.formats.decimal.latn
-        :sind: :numbers.formats.decimal.latn
-        :sinh: :numbers.formats.decimal.latn
-        :sora: :numbers.formats.decimal.latn
-        :sund: :numbers.formats.decimal.latn
-        :sunu: :numbers.formats.decimal.latn
-        :takr: :numbers.formats.decimal.latn
-        :talu: :numbers.formats.decimal.latn
-        :tamldec: :numbers.formats.decimal.latn
-        :telu: :numbers.formats.decimal.latn
-        :thai: :numbers.formats.decimal.latn
-        :tibt: :numbers.formats.decimal.latn
-        :tirh: :numbers.formats.decimal.latn
-        :tnsa: :numbers.formats.decimal.latn
-        :vaii: :numbers.formats.decimal.latn
-        :wara: :numbers.formats.decimal.latn
-        :wcho: :numbers.formats.decimal.latn
-      :percent: 
-        :adlm: :numbers.formats.percent.latn
-        :ahom: :numbers.formats.percent.latn
-        :arab: 
-          :default: "#,##0%"
-        :arabext: :numbers.formats.percent.latn
-        :bali: :numbers.formats.percent.latn
-        :beng: :numbers.formats.percent.latn
-        :bhks: :numbers.formats.percent.latn
-        :brah: :numbers.formats.percent.latn
-        :cakm: :numbers.formats.percent.latn
-        :cham: :numbers.formats.percent.latn
-        :default: :numbers.formats.percent.latn
-        :deva: :numbers.formats.percent.latn
-        :diak: :numbers.formats.percent.latn
-        :fullwide: :numbers.formats.percent.latn
-        :gara: :numbers.formats.percent.latn
-        :gong: :numbers.formats.percent.latn
-        :gonm: :numbers.formats.percent.latn
-        :gujr: :numbers.formats.percent.latn
-        :gukh: :numbers.formats.percent.latn
-        :guru: :numbers.formats.percent.latn
-        :hanidec: :numbers.formats.percent.latn
-        :hmng: :numbers.formats.percent.latn
-        :hmnp: :numbers.formats.percent.latn
-        :java: :numbers.formats.percent.latn
-        :kali: :numbers.formats.percent.latn
-        :kawi: :numbers.formats.percent.latn
-        :khmr: :numbers.formats.percent.latn
-        :knda: :numbers.formats.percent.latn
-        :krai: :numbers.formats.percent.latn
-        :lana: :numbers.formats.percent.latn
-        :lanatham: :numbers.formats.percent.latn
-        :laoo: :numbers.formats.percent.latn
-        :latn: 
-          :default: "#,##0 %"
-        :lepc: :numbers.formats.percent.latn
-        :limb: :numbers.formats.percent.latn
-        :mathbold: :numbers.formats.percent.latn
-        :mathdbl: :numbers.formats.percent.latn
-        :mathmono: :numbers.formats.percent.latn
-        :mathsanb: :numbers.formats.percent.latn
-        :mathsans: :numbers.formats.percent.latn
-        :mlym: :numbers.formats.percent.latn
-        :modi: :numbers.formats.percent.latn
-        :mong: :numbers.formats.percent.latn
-        :mroo: :numbers.formats.percent.latn
-        :mtei: :numbers.formats.percent.latn
-        :mymr: :numbers.formats.percent.latn
-        :mymrepka: :numbers.formats.percent.latn
-        :mymrpao: :numbers.formats.percent.latn
-        :mymrshan: :numbers.formats.percent.latn
-        :mymrtlng: :numbers.formats.percent.latn
-        :nagm: :numbers.formats.percent.latn
-        :newa: :numbers.formats.percent.latn
-        :nkoo: :numbers.formats.percent.latn
-        :olck: :numbers.formats.percent.latn
-        :onao: :numbers.formats.percent.latn
-        :orya: :numbers.formats.percent.latn
-        :osma: :numbers.formats.percent.latn
-        :outlined: :numbers.formats.percent.latn
-        :rohg: :numbers.formats.percent.latn
-        :saur: :numbers.formats.percent.latn
-        :segment: :numbers.formats.percent.latn
-        :shrd: :numbers.formats.percent.latn
-        :sind: :numbers.formats.percent.latn
-        :sinh: :numbers.formats.percent.latn
-        :sora: :numbers.formats.percent.latn
-        :sund: :numbers.formats.percent.latn
-        :sunu: :numbers.formats.percent.latn
-        :takr: :numbers.formats.percent.latn
-        :talu: :numbers.formats.percent.latn
-        :tamldec: :numbers.formats.percent.latn
-        :telu: :numbers.formats.percent.latn
-        :thai: :numbers.formats.percent.latn
-        :tibt: :numbers.formats.percent.latn
-        :tirh: :numbers.formats.percent.latn
-        :tnsa: :numbers.formats.percent.latn
-        :vaii: :numbers.formats.percent.latn
-        :wara: :numbers.formats.percent.latn
-        :wcho: :numbers.formats.percent.latn
-      :scientific: 
-        :adlm: :numbers.formats.scientific.latn
-        :ahom: :numbers.formats.scientific.latn
-        :arab: :numbers.formats.scientific.latn
-        :arabext: :numbers.formats.scientific.latn
-        :bali: :numbers.formats.scientific.latn
-        :beng: :numbers.formats.scientific.latn
-        :bhks: :numbers.formats.scientific.latn
-        :brah: :numbers.formats.scientific.latn
-        :cakm: :numbers.formats.scientific.latn
-        :cham: :numbers.formats.scientific.latn
-        :default: :numbers.formats.scientific.latn
-        :deva: :numbers.formats.scientific.latn
-        :diak: :numbers.formats.scientific.latn
-        :fullwide: :numbers.formats.scientific.latn
-        :gara: :numbers.formats.scientific.latn
-        :gong: :numbers.formats.scientific.latn
-        :gonm: :numbers.formats.scientific.latn
-        :gujr: :numbers.formats.scientific.latn
-        :gukh: :numbers.formats.scientific.latn
-        :guru: :numbers.formats.scientific.latn
-        :hanidec: :numbers.formats.scientific.latn
-        :hmng: :numbers.formats.scientific.latn
-        :hmnp: :numbers.formats.scientific.latn
-        :java: :numbers.formats.scientific.latn
-        :kali: :numbers.formats.scientific.latn
-        :kawi: :numbers.formats.scientific.latn
-        :khmr: :numbers.formats.scientific.latn
-        :knda: :numbers.formats.scientific.latn
-        :krai: :numbers.formats.scientific.latn
-        :lana: :numbers.formats.scientific.latn
-        :lanatham: :numbers.formats.scientific.latn
-        :laoo: :numbers.formats.scientific.latn
-        :latn: 
+              :one: 000 tril'.'
+        :ahom: *2
+        :arab: *2
+        :arabext: *2
+        :bali: *2
+        :beng: *2
+        :bhks: *2
+        :brah: *2
+        :cakm: *2
+        :cham: *2
+        :deva: *2
+        :diak: *2
+        :fullwide: *2
+        :gara: *2
+        :gong: *2
+        :gonm: *2
+        :gujr: *2
+        :gukh: *2
+        :guru: *2
+        :hanidec: *2
+        :hmng: *2
+        :hmnp: *2
+        :java: *2
+        :kali: *2
+        :kawi: *2
+        :khmr: *2
+        :knda: *2
+        :krai: *2
+        :lana: *2
+        :lanatham: *2
+        :laoo: *2
+        :latn: *2
+        :lepc: *2
+        :limb: *2
+        :mathbold: *2
+        :mathdbl: *2
+        :mathmono: *2
+        :mathsanb: *2
+        :mathsans: *2
+        :mlym: *2
+        :modi: *2
+        :mong: *2
+        :mroo: *2
+        :mtei: *2
+        :mymr: *2
+        :mymrepka: *2
+        :mymrpao: *2
+        :mymrshan: *2
+        :mymrtlng: *2
+        :nagm: *2
+        :newa: *2
+        :nkoo: *2
+        :olck: *2
+        :onao: *2
+        :orya: *2
+        :osma: *2
+        :outlined: *2
+        :rohg: *2
+        :saur: *2
+        :segment: *2
+        :shrd: *2
+        :sind: *2
+        :sinh: *2
+        :sora: *2
+        :sund: *2
+        :sunu: *2
+        :takr: *2
+        :talu: *2
+        :tamldec: *2
+        :telu: *2
+        :thai: *2
+        :tibt: *2
+        :tirh: *2
+        :tnsa: *2
+        :tols: *2
+        :vaii: *2
+        :wara: *2
+        :wcho: *2
+      :scientific:
+        :adlm: &3
           :default: "#E0"
-        :lepc: :numbers.formats.scientific.latn
-        :limb: :numbers.formats.scientific.latn
-        :mathbold: :numbers.formats.scientific.latn
-        :mathdbl: :numbers.formats.scientific.latn
-        :mathmono: :numbers.formats.scientific.latn
-        :mathsanb: :numbers.formats.scientific.latn
-        :mathsans: :numbers.formats.scientific.latn
-        :mlym: :numbers.formats.scientific.latn
-        :modi: :numbers.formats.scientific.latn
-        :mong: :numbers.formats.scientific.latn
-        :mroo: :numbers.formats.scientific.latn
-        :mtei: :numbers.formats.scientific.latn
-        :mymr: :numbers.formats.scientific.latn
-        :mymrepka: :numbers.formats.scientific.latn
-        :mymrpao: :numbers.formats.scientific.latn
-        :mymrshan: :numbers.formats.scientific.latn
-        :mymrtlng: :numbers.formats.scientific.latn
-        :nagm: :numbers.formats.scientific.latn
-        :newa: :numbers.formats.scientific.latn
-        :nkoo: :numbers.formats.scientific.latn
-        :olck: :numbers.formats.scientific.latn
-        :onao: :numbers.formats.scientific.latn
-        :orya: :numbers.formats.scientific.latn
-        :osma: :numbers.formats.scientific.latn
-        :outlined: :numbers.formats.scientific.latn
-        :rohg: :numbers.formats.scientific.latn
-        :saur: :numbers.formats.scientific.latn
-        :segment: :numbers.formats.scientific.latn
-        :shrd: :numbers.formats.scientific.latn
-        :sind: :numbers.formats.scientific.latn
-        :sinh: :numbers.formats.scientific.latn
-        :sora: :numbers.formats.scientific.latn
-        :sund: :numbers.formats.scientific.latn
-        :sunu: :numbers.formats.scientific.latn
-        :takr: :numbers.formats.scientific.latn
-        :talu: :numbers.formats.scientific.latn
-        :tamldec: :numbers.formats.scientific.latn
-        :telu: :numbers.formats.scientific.latn
-        :thai: :numbers.formats.scientific.latn
-        :tibt: :numbers.formats.scientific.latn
-        :tirh: :numbers.formats.scientific.latn
-        :tnsa: :numbers.formats.scientific.latn
-        :vaii: :numbers.formats.scientific.latn
-        :wara: :numbers.formats.scientific.latn
-        :wcho: :numbers.formats.scientific.latn
-    :symbols: 
-      :adlm: :numbers.symbols.latn
-      :ahom: :numbers.symbols.latn
-      :arab: 
-        :approximately_sign: "~"
-        :decimal: ٫
-        :exponential: اس
-        :group: ٬
-        :infinity: ∞
-        :list: ؛
-        :minus_sign: ؜-
-        :nan: NaN
-        :per_mille: ؉
-        :percent_sign: ٪؜
-        :plus_sign: ؜+
-        :superscripting_exponent: ×
-        :time_separator: ":"
-      :arabext: 
-        :approximately_sign: "~"
-        :decimal: ٫
-        :exponential: ×۱۰^
-        :group: ٬
-        :infinity: ∞
-        :list: ؛
-        :minus_sign: ‎-‎
-        :nan: NaN
-        :per_mille: ؉
-        :percent_sign: ٪
-        :plus_sign: ‎+‎
-        :superscripting_exponent: ×
-        :time_separator: ٫
-      :bali: :numbers.symbols.latn
-      :beng: :numbers.symbols.latn
-      :bhks: :numbers.symbols.latn
-      :brah: :numbers.symbols.latn
-      :cakm: :numbers.symbols.latn
-      :cham: :numbers.symbols.latn
-      :default: :numbers.symbols.latn
-      :deva: :numbers.symbols.latn
-      :diak: :numbers.symbols.latn
-      :fullwide: :numbers.symbols.latn
-      :gara: :numbers.symbols.latn
-      :gong: :numbers.symbols.latn
-      :gonm: :numbers.symbols.latn
-      :gujr: :numbers.symbols.latn
-      :gukh: :numbers.symbols.latn
-      :guru: :numbers.symbols.latn
-      :hanidec: :numbers.symbols.latn
-      :hmng: :numbers.symbols.latn
-      :hmnp: :numbers.symbols.latn
-      :java: :numbers.symbols.latn
-      :kali: :numbers.symbols.latn
-      :kawi: :numbers.symbols.latn
-      :khmr: :numbers.symbols.latn
-      :knda: :numbers.symbols.latn
-      :krai: :numbers.symbols.latn
-      :lana: :numbers.symbols.latn
-      :lanatham: :numbers.symbols.latn
-      :laoo: :numbers.symbols.latn
-      :latn: 
-        :approximately_sign: "~"
-        :decimal: ","
-        :exponential: E
-        :group: "."
-        :infinity: ∞
-        :list: ;
-        :minus_sign: "-"
-        :nan: NaN
-        :per_mille: ‰
-        :percent_sign: "%"
-        :plus_sign: +
-        :superscripting_exponent: ×
-        :time_separator: ":"
-      :lepc: :numbers.symbols.latn
-      :limb: :numbers.symbols.latn
-      :mathbold: :numbers.symbols.latn
-      :mathdbl: :numbers.symbols.latn
-      :mathmono: :numbers.symbols.latn
-      :mathsanb: :numbers.symbols.latn
-      :mathsans: :numbers.symbols.latn
-      :mlym: :numbers.symbols.latn
-      :modi: :numbers.symbols.latn
-      :mong: :numbers.symbols.latn
-      :mroo: :numbers.symbols.latn
-      :mtei: :numbers.symbols.latn
-      :mymr: :numbers.symbols.latn
-      :mymrepka: :numbers.symbols.latn
-      :mymrpao: :numbers.symbols.latn
-      :mymrshan: :numbers.symbols.latn
-      :mymrtlng: :numbers.symbols.latn
-      :nagm: :numbers.symbols.latn
-      :newa: :numbers.symbols.latn
-      :nkoo: :numbers.symbols.latn
-      :olck: :numbers.symbols.latn
-      :onao: :numbers.symbols.latn
-      :orya: :numbers.symbols.latn
-      :osma: :numbers.symbols.latn
-      :outlined: :numbers.symbols.latn
-      :rohg: :numbers.symbols.latn
-      :saur: :numbers.symbols.latn
-      :segment: :numbers.symbols.latn
-      :shrd: :numbers.symbols.latn
-      :sind: :numbers.symbols.latn
-      :sinh: :numbers.symbols.latn
-      :sora: :numbers.symbols.latn
-      :sund: :numbers.symbols.latn
-      :sunu: :numbers.symbols.latn
-      :takr: :numbers.symbols.latn
-      :talu: :numbers.symbols.latn
-      :tamldec: :numbers.symbols.latn
-      :telu: :numbers.symbols.latn
-      :thai: :numbers.symbols.latn
-      :tibt: :numbers.symbols.latn
-      :tirh: :numbers.symbols.latn
-      :tnsa: :numbers.symbols.latn
-      :vaii: :numbers.symbols.latn
-      :wara: :numbers.symbols.latn
-      :wcho: :numbers.symbols.latn
+        :ahom: *3
+        :arab: *3
+        :arabext: *3
+        :bali: *3
+        :beng: *3
+        :bhks: *3
+        :brah: *3
+        :cakm: *3
+        :cham: *3
+        :deva: *3
+        :diak: *3
+        :fullwide: *3
+        :gara: *3
+        :gong: *3
+        :gonm: *3
+        :gujr: *3
+        :gukh: *3
+        :guru: *3
+        :hanidec: *3
+        :hmng: *3
+        :hmnp: *3
+        :java: *3
+        :kali: *3
+        :kawi: *3
+        :khmr: *3
+        :knda: *3
+        :krai: *3
+        :lana: *3
+        :lanatham: *3
+        :laoo: *3
+        :latn: *3
+        :lepc: *3
+        :limb: *3
+        :mathbold: *3
+        :mathdbl: *3
+        :mathmono: *3
+        :mathsanb: *3
+        :mathsans: *3
+        :mlym: *3
+        :modi: *3
+        :mong: *3
+        :mroo: *3
+        :mtei: *3
+        :mymr: *3
+        :mymrepka: *3
+        :mymrpao: *3
+        :mymrshan: *3
+        :mymrtlng: *3
+        :nagm: *3
+        :newa: *3
+        :nkoo: *3
+        :olck: *3
+        :onao: *3
+        :orya: *3
+        :osma: *3
+        :outlined: *3
+        :rohg: *3
+        :saur: *3
+        :segment: *3
+        :shrd: *3
+        :sind: *3
+        :sinh: *3
+        :sora: *3
+        :sund: *3
+        :sunu: *3
+        :takr: *3
+        :talu: *3
+        :tamldec: *3
+        :telu: *3
+        :thai: *3
+        :tibt: *3
+        :tirh: *3
+        :tnsa: *3
+        :tols: *3
+        :vaii: *3
+        :wara: *3
+        :wcho: *3
+      :percent:
+        :adlm: &4
+          :default: "#,##0 %"
+        :ahom: *4
+        :arab:
+          :default: "#,##0%"
+        :arabext: *4
+        :bali: *4
+        :beng: *4
+        :bhks: *4
+        :brah: *4
+        :cakm: *4
+        :cham: *4
+        :deva: *4
+        :diak: *4
+        :fullwide: *4
+        :gara: *4
+        :gong: *4
+        :gonm: *4
+        :gujr: *4
+        :gukh: *4
+        :guru: *4
+        :hanidec: *4
+        :hmng: *4
+        :hmnp: *4
+        :java: *4
+        :kali: *4
+        :kawi: *4
+        :khmr: *4
+        :knda: *4
+        :krai: *4
+        :lana: *4
+        :lanatham: *4
+        :laoo: *4
+        :latn: *4
+        :lepc: *4
+        :limb: *4
+        :mathbold: *4
+        :mathdbl: *4
+        :mathmono: *4
+        :mathsanb: *4
+        :mathsans: *4
+        :mlym: *4
+        :modi: *4
+        :mong: *4
+        :mroo: *4
+        :mtei: *4
+        :mymr: *4
+        :mymrepka: *4
+        :mymrpao: *4
+        :mymrshan: *4
+        :mymrtlng: *4
+        :nagm: *4
+        :newa: *4
+        :nkoo: *4
+        :olck: *4
+        :onao: *4
+        :orya: *4
+        :osma: *4
+        :outlined: *4
+        :rohg: *4
+        :saur: *4
+        :segment: *4
+        :shrd: *4
+        :sind: *4
+        :sinh: *4
+        :sora: *4
+        :sund: *4
+        :sunu: *4
+        :takr: *4
+        :talu: *4
+        :tamldec: *4
+        :telu: *4
+        :thai: *4
+        :tibt: *4
+        :tirh: *4
+        :tnsa: *4
+        :tols: *4
+        :vaii: *4
+        :wara: *4
+        :wcho: *4
+      :currency:
+        :adlm: &5
+          :default: "#,##0.00 ¤"
+          :short:
+            :1000:
+              :other: 0 K ¤
+              :one: 0 K ¤
+              :few: 0 K ¤
+            :10000:
+              :other: 00 K ¤
+              :one: 00 K ¤
+              :few: 00 K ¤
+            :100000:
+              :other: 000 K ¤
+              :one: 000 K ¤
+              :few: 000 K ¤
+            :1000000:
+              :other: 0 mil'.' ¤
+              :one: 0 mil'.' ¤
+              :few: 0 mil'.' ¤
+            :10000000:
+              :other: 00 mil'.' ¤
+              :one: 00 mil'.' ¤
+              :few: 00 mil'.' ¤
+            :100000000:
+              :other: 000 mil'.' ¤
+              :one: 000 mil'.' ¤
+              :few: 000 mil'.' ¤
+            :1000000000:
+              :other: 0 mld'.' ¤
+              :one: 0 mld'.' ¤
+              :few: 0 mld'.' ¤
+            :10000000000:
+              :other: 00 mld'.' ¤
+              :one: 00 mld'.' ¤
+              :few: 00 mld'.' ¤
+            :100000000000:
+              :other: 000 mld'.' ¤
+              :one: 000 mld'.' ¤
+              :few: 000 mld'.' ¤
+            :1000000000000:
+              :other: 0 tril'.' ¤
+              :one: 0 tril'.' ¤
+              :few: 0 tril'.' ¤
+            :10000000000000:
+              :other: 00 tril'.' ¤
+              :one: 00 tril'.' ¤
+              :few: 00 tril'.' ¤
+            :100000000000000:
+              :other: 000 tril'.' ¤
+              :one: 000 tril'.' ¤
+              :few: 000 tril'.' ¤
+          :unit:
+            :other: "{0} de {1}"
+            :one: "{0} {1}"
+            :few: "{0} {1}"
+        :ahom: *5
+        :arab:
+          :default: "#,##0.00 ¤"
+        :arabext: *5
+        :bali: *5
+        :beng: *5
+        :bhks: *5
+        :brah: *5
+        :cakm: *5
+        :cham: *5
+        :deva: *5
+        :diak: *5
+        :fullwide: *5
+        :gara: *5
+        :gong: *5
+        :gonm: *5
+        :gujr: *5
+        :gukh: *5
+        :guru: *5
+        :hanidec: *5
+        :hmng: *5
+        :hmnp: *5
+        :java: *5
+        :kali: *5
+        :kawi: *5
+        :khmr: *5
+        :knda: *5
+        :krai: *5
+        :lana: *5
+        :lanatham: *5
+        :laoo: *5
+        :latn: *5
+        :lepc: *5
+        :limb: *5
+        :mathbold: *5
+        :mathdbl: *5
+        :mathmono: *5
+        :mathsanb: *5
+        :mathsans: *5
+        :mlym: *5
+        :modi: *5
+        :mong: *5
+        :mroo: *5
+        :mtei: *5
+        :mymr: *5
+        :mymrepka: *5
+        :mymrpao: *5
+        :mymrshan: *5
+        :mymrtlng: *5
+        :nagm: *5
+        :newa: *5
+        :nkoo: *5
+        :olck: *5
+        :onao: *5
+        :orya: *5
+        :osma: *5
+        :outlined: *5
+        :rohg: *5
+        :saur: *5
+        :segment: *5
+        :shrd: *5
+        :sind: *5
+        :sinh: *5
+        :sora: *5
+        :sund: *5
+        :sunu: *5
+        :takr: *5
+        :talu: *5
+        :tamldec: *5
+        :telu: *5
+        :thai: *5
+        :tibt: *5
+        :tirh: *5
+        :tnsa: *5
+        :tols: *5
+        :vaii: *5
+        :wara: *5
+        :wcho: *5

@@ -5,6 +5,8 @@
       :generic: "{1}（{0}）"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: 南アフリカ標準時
     :Africa_Western: 
       :long: 
-        :daylight: 西アフリカ夏時間
-        :generic: 西アフリカ時間
-        :standard: 西アフリカ標準時
+        :standard: 西アフリカ時間
     :Alaska: 
       :long: 
         :daylight: アラスカ夏時間
@@ -53,24 +53,24 @@
         :standard: アマゾン標準時
     :America_Central: 
       :long: 
-        :daylight: アメリカ中部夏時間
-        :generic: アメリカ中部時間
-        :standard: アメリカ中部標準時
+        :daylight: 米国中部夏時間
+        :generic: 米国中部時間
+        :standard: 米国中部標準時
     :America_Eastern: 
       :long: 
-        :daylight: アメリカ東部夏時間
-        :generic: アメリカ東部時間
-        :standard: アメリカ東部標準時
+        :daylight: 米国東部夏時間
+        :generic: 米国東部時間
+        :standard: 米国東部標準時
     :America_Mountain: 
       :long: 
-        :daylight: アメリカ山地夏時間
-        :generic: アメリカ山地時間
-        :standard: アメリカ山地標準時
+        :daylight: 米国山岳夏時間
+        :generic: 米国山岳部時間
+        :standard: 米国山岳標準時
     :America_Pacific: 
       :long: 
-        :daylight: アメリカ太平洋夏時間
-        :generic: アメリカ太平洋時間
-        :standard: アメリカ太平洋標準時
+        :daylight: 米国太平洋夏時間
+        :generic: 米国太平洋時間
+        :standard: 米国太平洋標準時
     :Anadyr: 
       :long: 
         :daylight: アナディリ夏時間
@@ -78,9 +78,9 @@
         :standard: アナディリ標準時
     :Apia: 
       :long: 
-        :daylight: アピア夏時間
-        :generic: アピア時間
-        :standard: アピア標準時
+        :daylight: サモア夏時間
+        :generic: サモア時間
+        :standard: サモア標準時
     :Aqtau: 
       :long: 
         :daylight: アクタウ夏時間
@@ -164,7 +164,7 @@
         :standard: ブラジリア標準時
     :Brunei: 
       :long: 
-        :standard: ブルネイ・ダルサラーム時間
+        :standard: ブルネイ時間
     :Cape_Verde: 
       :long: 
         :daylight: カーボベルデ夏時間
@@ -299,6 +299,9 @@
     :Guyana: 
       :long: 
         :standard: ガイアナ時間
+    :Hawaii: 
+      :long: 
+        :standard: ハワイ・アリューシャン標準時
     :Hawaii_Aleutian: 
       :long: 
         :daylight: ハワイ・アリューシャン夏時間
@@ -530,10 +533,10 @@
         :standard: ピトケアン時間
     :Ponape: 
       :long: 
-        :standard: ポナペ時間
+        :standard: ポンペイ時間
     :Pyongyang: 
       :long: 
-        :standard: 平壌時間
+        :standard: 北朝鮮時間
     :Qyzylorda: 
       :long: 
         :daylight: クズロルダ夏時間
@@ -557,9 +560,9 @@
         :standard: サマラ標準時
     :Samoa: 
       :long: 
-        :daylight: サモア夏時間
-        :generic: サモア時間
-        :standard: サモア標準時
+        :daylight: 米領サモア夏時間
+        :generic: 米領サモア時間
+        :standard: 米領サモア標準時
     :Seychelles: 
       :long: 
         :standard: セーシェル時間
@@ -583,9 +586,9 @@
         :standard: タヒチ時間
     :Taipei: 
       :long: 
-        :daylight: 台北夏時間
-        :generic: 台北時間
-        :standard: 台北標準時
+        :daylight: 台湾夏時間
+        :generic: 台湾時間
+        :standard: 台湾標準時
     :Tajikistan: 
       :long: 
         :standard: タジキスタン時間
@@ -600,6 +603,11 @@
     :Truk: 
       :long: 
         :standard: チューク時間
+    :Turkey: 
+      :long: 
+        :daylight: トルコ夏時間
+        :generic: トルコ時間
+        :standard: トルコ標準時
     :Turkmenistan: 
       :long: 
         :daylight: トルクメニスタン夏時間
@@ -837,6 +845,8 @@
       :city: コルドバ
     :America/Costa_Rica: 
       :city: コスタリカ
+    :America/Coyhaique: 
+      :city: コジャイケ
     :America/Creston: 
       :city: クレストン
     :America/Cuiaba: 
@@ -1441,7 +1451,7 @@
     :Pacific/Efate: 
       :city: エフェテ島
     :Pacific/Enderbury: 
-      :city: エンダーベリー島
+      :city: カントン島
     :Pacific/Fakaofo: 
       :city: ファカオフォ
     :Pacific/Fiji: 
@@ -1458,8 +1468,6 @@
       :city: グアム
     :Pacific/Honolulu: 
       :city: ホノルル
-    :Pacific/Kanton: 
-      :city: カントン島
     :Pacific/Kiritimati: 
       :city: キリスィマスィ島
     :Pacific/Kosrae: 
