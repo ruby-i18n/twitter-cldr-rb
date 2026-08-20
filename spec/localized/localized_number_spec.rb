@@ -53,13 +53,13 @@ describe TwitterCldr::Localized::LocalizedNumber do
     end
 
     describe "to_short_decimal" do
-      context "when the patter is missing" do
+      context "when the pattern is missing" do
         it "returns the number as is" do
           expect(described_class.new(7000, :af, type: :decimal, format: :short).to_s).to match_normalized("7 k")
         end
       end
 
-      context "when the patter uses 'ten thousands' abbreviation" do
+      context "when the pattern uses 'ten thousands' abbreviation" do
         it "formats the number properly" do
           expect(described_class.new(93_000_000, :ja, type: :decimal, format: :short).to_s).to match_normalized("9300万")
         end
@@ -67,13 +67,13 @@ describe TwitterCldr::Localized::LocalizedNumber do
     end
 
     describe "to_long_decimal" do
-      context "when the patter is missing" do
+      context "when the pattern is missing" do
         it "returns the number as is" do
           expect(described_class.new(7000, :ko, type: :decimal, format: :long).to_s).to match_normalized("7천")
         end
       end
 
-      context "when the patter uses 'ten thousands' abbreviation" do
+      context "when the pattern uses 'ten thousands' abbreviation" do
         it "formats the number properly" do
           expect(described_class.new(93_000_000, :'zh-Hant', type: :decimal, format: :long).to_s).to match_normalized("9300萬")
         end
@@ -199,8 +199,9 @@ describe TwitterCldr::Localized::LocalizedNumber do
   end
 
   describe 'formatters for every locale' do
-    it "makes sure currency formatters for every locale don't raise errors" do
-      TwitterCldr.supported_locales.each do |locale|
+
+    TwitterCldr.supported_locales.each do |locale|
+      it "makes sure currency formatters for #{locale} don't raise errors" do
         expect { 1337.localize(locale).to_currency.to_s }.not_to raise_error
         expect { 1337.localize(locale).to_currency.to_s(precision: 3) }.not_to raise_error
         expect { 1337.localize(locale).to_currency.to_s(precision: 3, currency: "EUR") }.not_to raise_error

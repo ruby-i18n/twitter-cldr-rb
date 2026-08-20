@@ -15,9 +15,9 @@ module TwitterCldr
       class << self
         def load_yaml(yaml, permitted_classes: [])
           if Psych::VERSION >= '4'
-            YAML.safe_load(yaml, permitted_classes: permitted_classes)
+            YAML.safe_load(yaml, permitted_classes: permitted_classes, aliases: true)
           else
-            YAML.safe_load(yaml, permitted_classes)
+            YAML.safe_load(yaml, permitted_classes, aliases: true)
           end
         end
       end

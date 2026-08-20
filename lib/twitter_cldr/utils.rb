@@ -41,6 +41,23 @@ module TwitterCldr
         first
       end
 
+      def squash(obj, cache = {})
+        if !cache.include?(obj)
+          cache[obj] = case obj
+            when Array
+              obj.map { |item| squash(item, cache) }
+            when Hash
+              obj.each_with_object({}) do |(k, v), memo|
+                memo[k] = squash(v, cache)
+              end
+            else
+              obj
+          end
+        end
+
+        cache[obj]
+      end
+
       def deep_merge_hash(first, second, &block)
         target = first.dup
 
