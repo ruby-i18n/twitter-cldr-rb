@@ -24,6 +24,7 @@ group :development do
   gem 'cldr-plurals', '~> 1.1'
   gem 'net-ftp'
   gem 'rexml'
+  gem 'debug' unless RUBY_PLATFORM == 'java'
 end
 
 group :test do
