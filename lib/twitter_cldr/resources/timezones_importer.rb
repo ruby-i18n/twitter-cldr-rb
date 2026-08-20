@@ -101,7 +101,7 @@ module TwitterCldr
         private
 
         def formats
-          @formats ||= doc.xpath('ldml/dates/timeZoneNames/*').inject({}) do |result, format|
+          @formats ||= docset.xpath('ldml/dates/timeZoneNames/*').inject({}) do |result, format|
             if format.name.end_with?('Format')
               next if unconfirmed_draft?(format)
 
@@ -122,7 +122,7 @@ module TwitterCldr
         end
 
         def timezones
-          @timezones ||= doc.xpath('ldml/dates/timeZoneNames/zone').inject({}) do |result, zone|
+          @timezones ||= docset.xpath('ldml/dates/timeZoneNames/zone').inject({}) do |result, zone|
             type = zone.attr('type').to_sym
             result[type] = {}
             long = nodes_to_hash(zone.xpath('long/*'))
@@ -138,7 +138,7 @@ module TwitterCldr
         end
 
         def metazones
-          @metazones ||= doc.xpath('ldml/dates/timeZoneNames/metazone').inject({}) do |result, zone|
+          @metazones ||= docset.xpath('ldml/dates/timeZoneNames/metazone').inject({}) do |result, zone|
             type = zone.attr('type').to_sym
             result[type] = {}
             long = nodes_to_hash(zone.xpath('long/*'))
@@ -152,7 +152,7 @@ module TwitterCldr
         def nodes_to_hash(nodes)
           nodes.inject({}) do |result, node|
             unless cldr_req.draft?(node)
-              result[node.name.to_sym] = node.content
+              result[node.name.to_sym] ||= node.content
             end
 
             result
@@ -171,11 +171,8 @@ module TwitterCldr
             node.attributes['alt'].value == 'secondary'
         end
 
-        def doc
-          @doc ||= begin
-            locale_fs = locale.to_s.gsub('-', '_')
-            Nokogiri.XML(File.read(File.join(cldr_main_path, "#{locale_fs}.xml")))
-          end
+        def docset
+          @docset ||= cldr_req.docset(cldr_main_path, locale)
         end
 
         def cldr_main_path
