@@ -68,11 +68,23 @@ module TwitterCldr
         end
 
         def open_bracket(list)
-          add_and_advance(list)
+          @current_alt = Alternation.new
+          @prev_list = list
+
+          advance(@current_alt.left)
+        end
+
+        def pipe(list)
+          advance(@current_alt.right)
         end
 
         def close_bracket(list)
-          add_and_advance(list)
+          @prev_list << @current_alt
+          @current_alt = nil
+          prev_list = @prev_list
+          @prev_list = nil
+
+          advance(prev_list)
         end
 
         def semicolon(list)
@@ -81,6 +93,10 @@ module TwitterCldr
 
         def add_and_advance(list)
           list << current_token
+          advance(list)
+        end
+
+        def advance(list)
           next_token(current_token.type)
           switch(list)
         end

@@ -28,6 +28,7 @@ module TwitterCldr
             TokenRecognizer.new(:right_arrow, />/),
             TokenRecognizer.new(:left_arrow, /</),
             TokenRecognizer.new(:open_bracket, /\[/),
+            TokenRecognizer.new(:pipe, /\|/),
             TokenRecognizer.new(:close_bracket, /\]/),
             TokenRecognizer.new(:decimal, /[0#][0#,\.]*/),
             TokenRecognizer.new(:plural, /\$\(.*\)\$/),

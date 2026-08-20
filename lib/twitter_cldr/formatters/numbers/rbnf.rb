@@ -13,6 +13,7 @@ module TwitterCldr
         autoload formatter, "twitter_cldr/formatters/numbers/rbnf/formatters"
       end
 
+      autoload :Alternation,  "twitter_cldr/formatters/numbers/rbnf/alternation"
       autoload :Rule,         "twitter_cldr/formatters/numbers/rbnf/rule"
       autoload :RuleSet,      "twitter_cldr/formatters/numbers/rbnf/rule_set"
       autoload :RuleGroup,    "twitter_cldr/formatters/numbers/rbnf/rule_group"
