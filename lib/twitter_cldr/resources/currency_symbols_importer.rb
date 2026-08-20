@@ -19,6 +19,10 @@ module TwitterCldr
       private
 
       def execute
+        if symbol_data.size <= 100
+          raise "Could only scrape #{symbol_data.size} currency symbols, something is likely wrong"
+        end
+
         path = File.join(params[:output_path], 'iso_currency_symbols.yml')
 
         File.open(path, 'w:utf-8') do |output|
@@ -32,17 +36,19 @@ module TwitterCldr
       end
 
       def symbol_data
-        # ughh all of this is gross
-        doc = Nokogiri::HTML(URI.open(URL).read)
-        rows = doc.css('.Container__FluidWrapper-sc-1skoo0z-0 ul li')
+        @symbol_data ||= begin
+          # ughh all of this is gross
+          doc = Nokogiri::HTML(URI.open(URL).read)
+          rows = doc.css('ul:not([class]) li')
 
-        rows.each_with_object({}) do |row, ret|
-          columns = row.css('div')
-          next if columns[1].text == 'Country and Currency' # skip header
+          rows.each_with_object({}) do |row, ret|
+            columns = row.css('div')
+            next if columns[1].text == 'Country and Currency' # skip header
 
-          code = columns[3].text
-          symbol = columns[4].text
-          ret[code] = { code_points: symbol.codepoints, symbol: symbol }
+            code = columns[3].text
+            symbol = columns[4].text
+            ret[code] = { code_points: symbol.codepoints, symbol: symbol }
+          end
         end
       end
 

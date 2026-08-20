@@ -25,9 +25,9 @@ describe TwitterCldr::Shared::Currencies do
       expect(data).to include(
         name:        "Peruvian Sol",
         currency:    :PEN,
-        symbol:      "PEN",
+        symbol:      "S/.",
         cldr_symbol: "PEN",
-        code_points: [80, 69, 78]
+        code_points: [83, 47, 46]
       )
     end
 
@@ -37,9 +37,9 @@ describe TwitterCldr::Shared::Currencies do
       expect(data).to include(
         name:        "Canadian Dollar",
         currency:    :CAD,
-        symbol:      "CA$",
+        symbol:      "$",
         cldr_symbol: "CA$",
-        code_points: [67, 65, 36]
+        code_points: [36]
       )
     end
 
