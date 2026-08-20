@@ -26,13 +26,13 @@ describe TwitterCldr::Shared::DayPeriods do
     context 'mid-morning' do
       let(:time) { Time.new(1987, 9, 20, 8, 0, 0) }
 
-      it { is_expected.to eq(:morning1) }
+      it { is_expected.to eq(:am) }
     end
 
     context 'start of morning' do
       let(:time) { Time.new(1987, 9, 20, 6, 0, 0) }
 
-      it { is_expected.to eq(:morning1) }
+      it { is_expected.to eq(:am) }
     end
 
     context 'barely not morning' do
@@ -68,7 +68,7 @@ describe TwitterCldr::Shared::DayPeriods do
     context 'after midnight' do
       let(:time) { Time.new(1987, 9, 20, 2, 0, 0) }
 
-      it { is_expected.to eq(:night1) }
+      it { is_expected.to eq(:am) }
     end
 
     context 'barely not night' do
