@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "Güney Afrika Standart Saati"
     :Africa_Western: 
       :long: 
-        :daylight: "Batı Afrika Yaz Saati"
-        :generic: "Batı Afrika Saati"
-        :standard: "Batı Afrika Standart Saati"
+        :standard: "Batı Afrika Saati"
     :Alaska: 
       :long: 
         :daylight: "Alaska Yaz Saati"
@@ -299,6 +299,9 @@
     :Guyana: 
       :long: 
         :standard: "Guyana Saati"
+    :Hawaii: 
+      :long: 
+        :standard: "Hawaii-Aleut Standart Saati"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "Hawaii-Aleut Yaz Saati"
@@ -597,6 +600,13 @@
     :Truk: 
       :long: 
         :standard: "Chuuk Saati"
+    :Turkey: 
+      :long: 
+        :daylight: "Türkiye Yaz Saati"
+        :generic: "Türkiye Saati"
+        :standard: "Türkiye Standart Saati"
+      :short: 
+        :generic: TSİ
     :Turkmenistan: 
       :long: 
         :daylight: "Türkmenistan Yaz Saati"
@@ -686,30 +696,50 @@
       :city: Kinşasa
     :Africa/Libreville: 
       :city: Librevil
+    :Africa/Lome: 
+      :city: Lomé
     :Africa/Mogadishu: 
       :city: Mogadişu
+    :Africa/Ndjamena: 
+      :city: N’Djamena
     :Africa/Sao_Tome: 
       :city: "São Tomé"
     :Africa/Tripoli: 
       :city: Trablus
     :Africa/Tunis: 
       :city: Tunus
+    :America/Araguaina: 
+      :city: Araguaína
+    :America/Argentina/Rio_Gallegos: 
+      :city: "Río Gallegos"
+    :America/Argentina/Tucuman: 
+      :city: Tucumán
     :America/Asuncion: 
       :city: Asunción
     :America/Bahia_Banderas: 
       :city: "Bahia Banderas"
+    :America/Belem: 
+      :city: Belém
+    :America/Bogota: 
+      :city: Bogotá
     :America/Cancun: 
       :city: Cancun
     :America/Ciudad_Juarez: 
       :city: "Ciudad Juárez"
     :America/Coral_Harbour: 
       :city: Atikokan
+    :America/Cordoba: 
+      :city: Córdoba
     :America/Costa_Rica: 
       :city: "Kosta Rika"
+    :America/Cuiaba: 
+      :city: Cuiabá
     :America/Curacao: 
       :city: Curaçao
     :America/Dominica: 
       :city: Dominika
+    :America/Eirunepe: 
+      :city: Eirunepé
     :America/Godthab: 
       :city: Nuuk
     :America/Indiana/Knox: 
@@ -732,8 +762,18 @@
       :city: "Monticello, Kentucky"
     :America/Lower_Princes: 
       :city: "Lower Prince’s Quarter"
+    :America/Maceio: 
+      :city: Maceió
+    :America/Mazatlan: 
+      :city: Mazatlán
     :America/Merida: 
       :city: Merida
+    :America/Mexico_City: 
+      :city: "Ciudad de México"
+    :America/Miquelon: 
+      :city: Saint-Pierre
+    :America/Noronha: 
+      :city: "Fernando de Noronha"
     :America/North_Dakota/Beulah: 
       :city: "Beulah, Kuzey Dakota"
     :America/North_Dakota/Center: 
@@ -742,6 +782,10 @@
       :city: "New Salem, Kuzey Dakota"
     :America/Puerto_Rico: 
       :city: "Porto Riko"
+    :America/Santarem: 
+      :city: Santarém
+    :America/Sao_Paulo: 
+      :city: "São Paulo"
     :America/Scoresbysund: 
       :city: Ittoqqortoormiit
     :America/St_Barthelemy: 
@@ -757,7 +801,7 @@
     :America/St_Vincent: 
       :city: "St. Vincent"
     :Antarctica/DumontDUrville: 
-      :city: "Dumont d’Urville"
+      :city: Dumont-d’Urville
     :Antarctica/Syowa: 
       :city: Showa
     :Asia/Almaty: 
@@ -800,6 +844,8 @@
       :city: Gazze
     :Asia/Hebron: 
       :city: "El Halil"
+    :Asia/Hovd: 
+      :city: Khovd
     :Asia/Irkutsk: 
       :city: İrkutsk
     :Asia/Jakarta: 
@@ -946,6 +992,8 @@
       :city: Zürih
     :Indian/Comoro: 
       :city: Komor
+    :Indian/Mahe: 
+      :city: Mahé
     :Indian/Maldives: 
       :city: Maldivler
     :Indian/Reunion: 
@@ -953,12 +1001,18 @@
     :Pacific/Easter: 
       :city: "Paskalya Adası"
     :Pacific/Enderbury: 
-      :city: Enderbury
+      :city: "Canton Adası"
+    :Pacific/Galapagos: 
+      :city: Galápagos
     :Pacific/Honolulu: 
       :city: Honolulu
     :Pacific/Marquesas: 
       :city: "Markiz Adaları"
+    :Pacific/Noumea: 
+      :city: Nouméa
     :Pacific/Ponape: 
       :city: Pohnpei
     :Pacific/Truk: 
       :city: Chuuk
+    :Pacific/Wallis: 
+      :city: "Wallis & Futuna"

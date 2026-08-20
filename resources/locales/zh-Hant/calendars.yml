@@ -7,14 +7,18 @@
         :Bhm: "Bh:mm"
         :Bhms: "Bh:mm:ss"
         :E: ccc
-        :EBhm: "E Bh:mm"
-        :EBhms: "E Bh:mm:ss"
+        :EBh: EBh時
+        :EBhm: "EBh:mm"
+        :EBhms: "EBh:mm:ss"
         :EHm: "E HH:mm"
         :EHms: "E HH:mm:ss"
         :Ed: "d E"
-        :Ehm: "E Bh:mm"
-        :Ehms: "E Bh:mm:ss"
+        :Eh: Eah時
+        :Ehm: "EBh:mm"
+        :Ehms: "EBh:mm:ss"
         :Gy: Gy年
+        :GyM: Gy/M
+        :GyMEd: Gy/M/d（E）
         :GyMMM: Gy年M月
         :GyMMMEd: "Gy年M月d日 E"
         :GyMMMd: Gy年M月d日
@@ -24,10 +28,11 @@
         :Hms: "HH:mm:ss"
         :Hmsv: "HH:mm:ss [v]"
         :Hmv: "HH:mm [v]"
+        :Hv: "H時 v"
         :M: M月
         :MEd: M/d（E）
         :MMM: LLL
-        :MMMEd: "M月d日 E"
+        :MMMEd: M月d日E
         :MMMMW: MMMM的第W週
         :MMMMd: M月d日
         :MMMd: M月d日
@@ -39,6 +44,7 @@
         :hms: "Bh:mm:ss"
         :hmsv: "Bh:mm:ss [v]"
         :hmv: "Bh:mm [v]"
+        :hv: "ah v"
         :ms: "mm:ss"
         ? !ruby/symbol "y"
         : y年
@@ -47,7 +53,7 @@
         :yMEd: y/M/d（E）
         :yMM: y/MM
         :yMMM: y年M月
-        :yMMMEd: "y年M月d日 E"
+        :yMMMEd: y年M月d日E
         :yMMMM: y年M月
         :yMMMd: y年M月d日
         :yMd: y/M/d
@@ -189,13 +195,13 @@
             :pattern: y/M/d
         :datetime: 
           :full: 
-            :pattern: "{{date}} {{time}}"
+            :pattern: "{{date}}{{time}}"
           :long: 
-            :pattern: "{{date}} {{time}}"
+            :pattern: "{{date}}{{time}}"
           :medium: 
-            :pattern: "{{date}} {{time}}"
+            :pattern: "{{date}}{{time}}"
           :short: 
-            :pattern: "{{date}} {{time}}"
+            :pattern: "{{date}}{{time}}"
         :time: 
           :full: 
             :pattern: "Bh:mm:ss [zzzz]"

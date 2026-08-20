@@ -7,14 +7,18 @@
         :Bhm: "h:mm B"
         :Bhms: "h:mm:ss B"
         :E: ccc
+        :EBh: "E, h B"
         :EBhm: "E h:mm B"
         :EBhms: "E h:mm:ss B"
         :EHm: "E, HH:mm"
         :EHms: "E, HH:mm:ss"
         :Ed: "E, d"
+        :Eh: "E, h a"
         :Ehm: "E, h:mm a"
         :Ehms: "E, h:mm:ss a"
         :Gy: "y G"
+        :GyM: "M.y G"
+        :GyMEd: "E, d.M.y G"
         :GyMMM: "MMM y G"
         :GyMMMEd: "E, d MMM y G"
         :GyMMMd: "d MMM y G"
@@ -24,6 +28,7 @@
         :Hms: "HH:mm:ss"
         :Hmsv: "HH:mm:ss, v"
         :Hmv: "HH:mm, v"
+        :Hv: "HH, v"
         :M: L
         :MEd: "E, d.M"
         :MMM: LLL
@@ -40,6 +45,7 @@
         :hms: "h:mm:ss a"
         :hmsv: "h:mm:ss a, v"
         :hmv: "h:mm a, v"
+        :hv: "h a, v"
         :ms: "mm:ss"
         ? !ruby/symbol "y"
         : "y"
@@ -153,8 +159,8 @@
         :month-narrow: muaj
         :month-short: muaj
         :quarter: tremujor
-        :quarter-narrow: tremujor
-        :quarter-short: tremujor
+        :quarter-narrow: tmj.
+        :quarter-short: tmj.
         :second: sekondë
         :second-narrow: sek
         :second-short: sek

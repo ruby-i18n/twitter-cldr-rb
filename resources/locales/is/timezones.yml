@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -28,9 +30,7 @@
         :standard: Suður-Afríkutími
     :Africa_Western: 
       :long: 
-        :daylight: "Sumartími í Vestur-Afríku"
-        :generic: Vestur-Afríkutími
-        :standard: "Staðaltími í Vestur-Afríku"
+        :standard: Vestur-Afríkutími
     :Alaska: 
       :long: 
         :daylight: "Sumartími í Alaska"
@@ -273,6 +273,9 @@
     :Guyana: 
       :long: 
         :standard: Gvæjanatími
+    :Hawaii: 
+      :long: 
+        :standard: "Staðaltími á Havaí og Aleúta"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "Sumartími á Havaí og Aleúta"
@@ -624,8 +627,14 @@
       :city: Kaíró
     :Africa/Djibouti: 
       :city: Djibútí
+    :Africa/El_Aaiun: 
+      :city: "El Aaiún"
     :Africa/Johannesburg: 
       :city: Jóhannesarborg
+    :Africa/Lome: 
+      :city: Lomé
+    :Africa/Ndjamena: 
+      :city: N’Djamena
     :Africa/Sao_Tome: 
       :city: "Saó Tóme"
     :Africa/Tripoli: 
@@ -636,14 +645,24 @@
       :city: Angvilla
     :America/Antigua: 
       :city: Antígva
+    :America/Araguaina: 
+      :city: Araguaína
+    :America/Argentina/Rio_Gallegos: 
+      :city: "Río Gallegos"
+    :America/Argentina/Tucuman: 
+      :city: Tucumán
     :America/Aruba: 
       :city: Arúba
     :America/Asuncion: 
       :city: Asunción
     :America/Bahia_Banderas: 
       :city: "Bahia Banderas"
+    :America/Belem: 
+      :city: Belém
     :America/Belize: 
       :city: Belís
+    :America/Bogota: 
+      :city: Bogotá
     :America/Cancun: 
       :city: Kankún
     :America/Cayman: 
@@ -652,12 +671,18 @@
       :city: "Ciudad Juárez"
     :America/Coral_Harbour: 
       :city: Atikokan
+    :America/Cordoba: 
+      :city: Córdoba
     :America/Costa_Rica: 
       :city: Kostaríka
+    :America/Cuiaba: 
+      :city: Cuiabá
     :America/Curacao: 
       :city: Curaçao
     :America/Dominica: 
       :city: Dóminíka
+    :America/Eirunepe: 
+      :city: Eirunepé
     :America/Godthab: 
       :city: Nuuk
     :America/Guadeloupe: 
@@ -686,12 +711,20 @@
       :city: "Monticello, Kentucky"
     :America/Lower_Princes: 
       :city: "Lower Prince’s Quarter"
+    :America/Maceio: 
+      :city: Maceió
     :America/Martinique: 
       :city: Martiník
+    :America/Mazatlan: 
+      :city: Mazatlán
     :America/Merida: 
       :city: Merida
     :America/Mexico_City: 
       :city: Mexíkóborg
+    :America/Miquelon: 
+      :city: Saint-Pierre
+    :America/Noronha: 
+      :city: "Fernando de Noronha"
     :America/North_Dakota/Beulah: 
       :city: "Beulah, North Dakota"
     :America/North_Dakota/Center: 
@@ -700,6 +733,10 @@
       :city: "New Salem, North Dakota"
     :America/Puerto_Rico: 
       :city: "Púertó Ríkó"
+    :America/Santarem: 
+      :city: Santarém
+    :America/Sao_Paulo: 
+      :city: "São Paulo"
     :America/Scoresbysund: 
       :city: Ittoqqortoormiit
     :America/St_Barthelemy: 
@@ -717,7 +754,9 @@
     :America/Tortola: 
       :city: Tortóla
     :Antarctica/DumontDUrville: 
-      :city: "Dumont d’Urville"
+      :city: Dumont-d’Urville
+    :Antarctica/Syowa: 
+      :city: Showa
     :Asia/Baghdad: 
       :city: Bagdad
     :Asia/Bahrain: 
@@ -736,6 +775,8 @@
       :city: Damaskus
     :Asia/Dhaka: 
       :city: Dakka
+    :Asia/Hovd: 
+      :city: Khovd
     :Asia/Jakarta: 
       :city: Djakarta
     :Asia/Jerusalem: 
@@ -778,6 +819,8 @@
       :city: Tókýó
     :Asia/Ulaanbaatar: 
       :city: "Úlan Bator"
+    :Asia/Urumqi: 
+      :city: Ürümqi
     :Asia/Yerevan: 
       :city: Jerevan
     :Atlantic/Azores: 
@@ -815,6 +858,10 @@
       :city: Búkarest
     :Europe/Budapest: 
       :city: Búdapest
+    :Europe/Busingen: 
+      :city: Büsingen
+    :Europe/Chisinau: 
+      :city: Chișinău
     :Europe/Copenhagen: 
       :city: Kaupmannahöfn
     :Europe/Dublin: 
@@ -874,6 +921,10 @@
       :city: Jólaey
     :Indian/Cocos: 
       :city: Kókoseyjar
+    :Indian/Comoro: 
+      :city: Comores
+    :Indian/Mahe: 
+      :city: Mahé
     :Indian/Maldives: 
       :city: Maldíveyjar
     :Indian/Mauritius: 
@@ -883,9 +934,11 @@
     :Pacific/Easter: 
       :city: Páskaeyja
     :Pacific/Enderbury: 
-      :city: Enderbury
+      :city: Kanton-eyja
     :Pacific/Fiji: 
       :city: Fídjí
+    :Pacific/Galapagos: 
+      :city: Galápagos
     :Pacific/Guam: 
       :city: Gvam
     :Pacific/Honolulu: 
@@ -894,6 +947,8 @@
       :city: Marquesas-eyjar
     :Pacific/Nauru: 
       :city: Nárú
+    :Pacific/Noumea: 
+      :city: Nouméa
     :Pacific/Palau: 
       :city: Palá
     :Pacific/Ponape: 
@@ -902,3 +957,5 @@
       :city: Tahítí
     :Pacific/Truk: 
       :city: Chuuk
+    :Pacific/Wallis: 
+      :city: "Wallis & Futuna"

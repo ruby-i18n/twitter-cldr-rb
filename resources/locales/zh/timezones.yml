@@ -5,6 +5,8 @@
       :generic: "{1}（{0}）"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: 南非标准时间
     :Africa_Western: 
       :long: 
-        :daylight: 西部非洲夏令时间
-        :generic: 西部非洲时间
-        :standard: 西部非洲标准时间
+        :standard: 西部非洲时间
     :Alaska: 
       :long: 
         :daylight: 阿拉斯加夏令时间
@@ -299,6 +299,9 @@
     :Guyana: 
       :long: 
         :standard: 圭亚那时间
+    :Hawaii: 
+      :long: 
+        :standard: 夏威夷-阿留申标准时间
     :Hawaii_Aleutian: 
       :long: 
         :daylight: 夏威夷-阿留申夏令时间
@@ -597,6 +600,11 @@
     :Truk: 
       :long: 
         :standard: 楚克时间
+    :Turkey: 
+      :long: 
+        :daylight: 土耳其夏令时间
+        :generic: 土耳其时间
+        :standard: 土耳其标准时间
     :Turkmenistan: 
       :long: 
         :daylight: 土库曼斯坦夏令时间
@@ -834,6 +842,8 @@
       :city: 科尔多瓦
     :America/Costa_Rica: 
       :city: 哥斯达黎加
+    :America/Coyhaique: 
+      :city: 科伊艾克
     :America/Creston: 
       :city: 克雷斯顿
     :America/Cuiaba: 
@@ -1053,7 +1063,7 @@
     :Antarctica/DumontDUrville: 
       :city: 迪蒙·迪维尔
     :Antarctica/Macquarie: 
-      :city: 麦格理
+      :city: 麦夸里岛
     :Antarctica/Mawson: 
       :city: 莫森
     :Antarctica/McMurdo: 
@@ -1227,7 +1237,7 @@
     :Asia/Vientiane: 
       :city: 万象
     :Asia/Vladivostok: 
-      :city: 符拉迪沃斯托克
+      :city: 海参崴
     :Asia/Yakutsk: 
       :city: 雅库茨克
     :Asia/Yekaterinburg: 
@@ -1282,7 +1292,7 @@
       :short: 
         :standard: UTC
     :Etc/Unknown: 
-      :city: 未知城市
+      :city: 未知地点
     :Europe/Amsterdam: 
       :city: 阿姆斯特丹
     :Europe/Andorra: 
@@ -1438,7 +1448,7 @@
     :Pacific/Efate: 
       :city: 埃法特
     :Pacific/Enderbury: 
-      :city: 恩德伯里
+      :city: 坎顿岛
     :Pacific/Fakaofo: 
       :city: 法考福
     :Pacific/Fiji: 
@@ -1455,8 +1465,6 @@
       :city: 关岛
     :Pacific/Honolulu: 
       :city: 檀香山
-    :Pacific/Kanton: 
-      :city: 坎顿岛
     :Pacific/Kiritimati: 
       :city: 基里地马地岛
     :Pacific/Kosrae: 

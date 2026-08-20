@@ -9,11 +9,19 @@
       :long: 
         :acceleration-meter-per-square-second: 
           :other: "每平方秒 {0} 公尺"
+        :angle-steradian: 
+          :other: "{0} 球面度"
+        :concentr-katal: 
+          :other: "{0} 開特"
         :concentr-milligram-ofglucose-per-deciliter: 
           :other: "每分升 {0} 毫克"
         :concentr-millimole-per-liter: 
           :other: "每公升 {0} 毫莫耳"
-        :concentr-portion-per-1e9: 
+        :concentr-ofglucose: 
+          :other: "{0} 葡萄糖"
+        :concentr-part: 
+          :other: "{0} 比例"
+        :concentr-part-per-1e9: 
           :other: "{0} 十億分點濃度"
         :consumption-liter-per-100-kilometer: 
           :other: "每 100 公里 {0} 公升"
@@ -25,16 +33,30 @@
           :other: "每英制加侖 {0} 英里"
         :duration-century: 
           :other: "{0} 個世紀"
-        :duration-night: 
-          :other: "{0} 夜"
+        :electric-coulomb: 
+          :other: "{0} 庫侖"
+        :electric-farad: 
+          :other: "{0} 法拉"
+        :electric-henry: 
+          :other: "{0} 亨利"
+        :electric-siemens: 
+          :other: "{0} 西門子"
+        :energy-becquerel: 
+          :other: "{0} 貝克勒"
         :energy-calorie: 
           :other: "{0} 卡路里"
+        :energy-gray: 
+          :other: "{0} 戈雷"
         :energy-joule: 
           :other: "{0} 焦耳"
         :energy-kilocalorie: 
           :other: "{0} 千卡路里"
         :energy-kilojoule: 
           :other: "{0} 千焦耳"
+        :energy-sievert: 
+          :other: "{0} 西弗"
+        :force-kilogram-force: 
+          :other: "{0} 公斤力"
         :force-newton: 
           :other: "{0} 牛頓"
         :force-pound-force: 
@@ -49,12 +71,14 @@
           :other: "{0} 英尺"
         :length-inch: 
           :other: "{0} 英寸"
-        :length-mile-scandinavian: 
-          :other: "{0} 斯堪地那維亞里"
         :length-solar-radius: 
           :other: "{0} 太陽半徑"
         :light-solar-luminosity: 
           :other: "{0} 太陽光度"
+        :magnetic-tesla: 
+          :other: "{0} 特斯拉"
+        :magnetic-weber: 
+          :other: "{0} 韋伯"
         :power-horsepower: 
           :other: "{0} 匹馬力"
         :power-kilowatt: 
@@ -67,12 +91,16 @@
           :other: "{0} 瓦特"
         :pressure-atmosphere: 
           :other: "{0} 大氣壓"
+        :pressure-ofhg: 
+          :other: "{0} 汞柱"
         :pressure-pascal: 
           :other: "{0} 帕斯卡"
         :pressure-pound-force-per-square-inch: 
           :other: "每平方英寸 {0} 磅力"
         :speed-kilometer-per-hour: 
           :other: "每小時 {0} 公里"
+        :speed-light-speed: 
+          :other: "{0} 倍光速"
         :speed-meter-per-second: 
           :other: "每秒 {0} 公尺"
         :speed-mile-per-hour: 
@@ -81,6 +109,8 @@
           :other: "攝氏 {0} 度"
         :temperature-fahrenheit: 
           :other: "華氏 {0} 度"
+        :volume-fluid-ounce-metric: 
+          :other: "{0}公制液盎司"
         :volume-liter: 
           :other: "{0} 公升"
       :narrow: 
@@ -128,9 +158,11 @@
           :other: "{0}毫莫耳/公升"
         :concentr-mole: 
           :other: "{0}莫耳"
-        :concentr-permillion: 
+        :concentr-part: 
+          :other: "{0} 比例"
+        :concentr-part-per-1e6: 
           :other: "{0}百萬分率"
-        :concentr-portion-per-1e9: 
+        :concentr-part-per-1e9: 
           :other: "{0}ppb"
         :consumption-liter-per-100-kilometer: 
           :other: "{0}升/100公里"
@@ -170,6 +202,8 @@
           :other: "{0}夜"
         :electric-ampere: 
           :other: "{0}安培"
+        :electric-henry: 
+          :other: "{0} 亨利"
         :electric-milliampere: 
           :other: "{0}毫安培"
         :electric-ohm: 
@@ -235,7 +269,7 @@
         :length-fathom: 
           :other: "{0}fth"
         :length-foot: 
-          :other: "{0}呎"
+          :other: "{0}英尺"
         :length-furlong: 
           :other: "{0}化朗"
         :length-inch: 
@@ -271,7 +305,7 @@
         :light-candela: 
           :other: "{0}燭光"
         :light-lumen: 
-          :other: "{0}流明"
+          :other: "{0}lm"
         :light-lux: 
           :other: "{0}勒克斯"
         :light-solar-luminosity: 
@@ -342,6 +376,8 @@
           :other: "蒲福風級{0}級"
         :speed-kilometer-per-hour: 
           :other: "{0}公里/小時"
+        :speed-light-speed: 
+          :other: "{0}倍光速"
         :speed-meter-per-second: 
           :other: "{0}公尺/秒"
         :speed-mile-per-hour: 
@@ -392,6 +428,8 @@
           :other: "{0}液盎司"
         :volume-fluid-ounce-imperial: 
           :other: "{0}英液盎司"
+        :volume-fluid-ounce-metric: 
+          :other: "{0}公制液盎司"
         :volume-gallon: 
           :other: "{0}加侖"
         :volume-gallon-imperial: 
@@ -435,12 +473,20 @@
           :other: "{0} 弧度"
         :angle-revolution: 
           :other: "{0} 圈"
+        :angle-steradian: 
+          :other: "{0} sr"
         :area-acre: 
           :other: "{0} 英畝"
+        :area-bu-jp: 
+          :other: "{0} bu [JP]"
+        :area-cho: 
+          :other: "{0} cho [JP]"
         :area-dunam: 
           :other: "{0} 杜納畝"
         :area-hectare: 
           :other: "{0} 公頃"
+        :area-se-jp: 
+          :other: "{0} se [JP]"
         :area-square-centimeter: 
           :other: "{0} 平方公分"
         :area-square-foot: 
@@ -459,22 +505,28 @@
           :other: "{0} 個項目"
         :concentr-karat: 
           :other: "{0} 克拉"
+        :concentr-katal: 
+          :other: "{0} kat"
         :concentr-milligram-ofglucose-per-deciliter: 
           :other: "{0} 毫克/分升"
         :concentr-millimole-per-liter: 
           :other: "{0} 毫莫耳/公升"
         :concentr-mole: 
           :other: "{0} 莫耳"
+        :concentr-ofglucose: 
+          :other: "{0} Glc"
+        :concentr-part: 
+          :other: "{0}比例"
+        :concentr-part-per-1e6: 
+          :other: "{0} 百萬分率"
+        :concentr-part-per-1e9: 
+          :other: "{0} ppb"
         :concentr-percent: 
           :other: "{0}%"
         :concentr-permille: 
           :other: "{0}‰"
-        :concentr-permillion: 
-          :other: "{0} 百萬分率"
         :concentr-permyriad: 
           :other: "{0}‱"
-        :concentr-portion-per-1e9: 
-          :other: "{0} ppb"
         :consumption-liter-per-100-kilometer: 
           :other: "{0} 升/100 公里"
         :consumption-liter-per-kilometer: 
@@ -511,6 +563,8 @@
           :other: "{0} 天"
         :duration-decade: 
           :other: "{0}0 年"
+        :duration-fortnight: 
+          :other: "{0} fw"
         :duration-hour: 
           :other: "{0} 小時"
         :duration-microsecond: 
@@ -535,20 +589,36 @@
           :other: "{0} 年"
         :electric-ampere: 
           :other: "{0} 安培"
+        :electric-coulomb: 
+          :other: "{0} 庫侖"
+        :electric-farad: 
+          :other: "{0} 法拉"
+        :electric-henry: 
+          :other: "{0} 亨利"
         :electric-milliampere: 
           :other: "{0} 毫安培"
         :electric-ohm: 
           :other: "{0} 歐姆"
+        :electric-siemens: 
+          :other: "{0} S"
         :electric-volt: 
           :other: "{0} 伏特"
+        :energy-becquerel: 
+          :other: "{0} Bq"
         :energy-british-thermal-unit: 
           :other: "{0} 英熱單位"
+        :energy-british-thermal-unit-it: 
+          :other: "{0} BTU-IT"
         :energy-calorie: 
           :other: "{0} 卡"
+        :energy-calorie-it: 
+          :other: "{0} cal-IT"
         :energy-electronvolt: 
           :other: "{0} 電子伏特"
         :energy-foodcalorie: 
           :other: "{0} 大卡"
+        :energy-gray: 
+          :other: "{0} Gy"
         :energy-joule: 
           :other: "{0} 焦"
         :energy-kilocalorie: 
@@ -557,8 +627,12 @@
           :other: "{0} 千焦"
         :energy-kilowatt-hour: 
           :other: "{0} 千瓦小時"
+        :energy-sievert: 
+          :other: "{0} Sv"
         :energy-therm-us: 
           :other: "{0} 美制撒姆"
+        :force-kilogram-force: 
+          :other: "{0} kgf"
         :force-kilowatt-hour-per-100-kilometer: 
           :other: "{0} kWh/100km"
         :force-newton: 
@@ -591,6 +665,8 @@
           :other: "{0} 天文單位"
         :length-centimeter: 
           :other: "{0} 公分"
+        :length-chain: 
+          :other: "{0} chain"
         :length-decimeter: 
           :other: "{0} 公寸"
         :length-earth-radius: 
@@ -598,11 +674,15 @@
         :length-fathom: 
           :other: "{0} 英尋"
         :length-foot: 
-          :other: "{0} 呎"
+          :other: "{0}英尺"
         :length-furlong: 
           :other: "{0} 化朗"
         :length-inch: 
           :other: "{0} 吋"
+        :length-jo-jp: 
+          :other: "{0} jo [JP]"
+        :length-ken: 
+          :other: "{0} ken [JP]"
         :length-kilometer: 
           :other: "{0} 公里"
         :length-light-year: 
@@ -627,24 +707,42 @@
           :other: "{0} 皮米"
         :length-point: 
           :other: "{0} 點"
+        :length-ri-jp: 
+          :other: "{0} ri [JP]"
+        :length-rin: 
+          :other: "{0} rin [JP]"
+        :length-rod: 
+          :other: "{0} rod"
+        :length-shaku-cloth: 
+          :other: "{0} shaku [cloth, JP]"
+        :length-shaku-length: 
+          :other: "{0} shaku [JP]"
         :length-solar-radius: 
           :other: "{0} R☉"
+        :length-sun: 
+          :other: "{0} sun [JP]"
         :length-yard: 
           :other: "{0} 碼"
         :light-candela: 
           :other: "{0} 燭光"
         :light-lumen: 
-          :other: "{0} 流明"
+          :other: "{0} lm"
         :light-lux: 
           :other: "{0} 勒克斯"
         :light-solar-luminosity: 
           :other: "{0} L☉"
+        :magnetic-tesla: 
+          :other: "{0} T"
+        :magnetic-weber: 
+          :other: "{0} Wb"
         :mass-carat: 
           :other: "{0} 克拉"
         :mass-dalton: 
           :other: "{0} 達爾頓"
         :mass-earth-mass: 
           :other: "{0} 地球質量"
+        :mass-fun: 
+          :other: "{0} fun [JP]"
         :mass-grain: 
           :other: "{0} 格林"
         :mass-gram: 
@@ -661,6 +759,8 @@
           :other: "{0} 金衡盎司"
         :mass-pound: 
           :other: "{0} 磅"
+        :mass-slug: 
+          :other: "{0} slug"
         :mass-solar-mass: 
           :other: "{0} 太陽質量"
         :mass-stone: 
@@ -685,6 +785,8 @@
           :other: "{0} atm"
         :pressure-bar: 
           :other: "{0} 巴"
+        :pressure-gasoline-energy-density: 
+          :other: "{0} gas E"
         :pressure-hectopascal: 
           :other: "{0} 百帕"
         :pressure-inch-ofhg: 
@@ -697,6 +799,8 @@
           :other: "{0} 毫巴"
         :pressure-millimeter-ofhg: 
           :other: "{0} 毫米汞柱"
+        :pressure-ofhg: 
+          :other: "{0} Hg"
         :pressure-pascal: 
           :other: "{0} 帕"
         :pressure-pound-force-per-square-inch: 
@@ -708,7 +812,7 @@
         :speed-knot: 
           :other: "{0} 節"
         :speed-light-speed: 
-          :other: "{0} light"
+          :other: "{0} 倍光速"
         :speed-meter-per-second: 
           :other: "{0} 公尺/秒"
         :speed-mile-per-hour: 
@@ -721,6 +825,8 @@
           :other: "{0}°"
         :temperature-kelvin: 
           :other: "{0} 克耳文"
+        :temperature-rankine: 
+          :other: "{0} °R"
         :torque-newton-meter: 
           :other: "{0} 牛頓米"
         :torque-pound-force-foot: 
@@ -749,6 +855,10 @@
           :other: "{0} 立方碼"
         :volume-cup: 
           :other: "{0} 杯"
+        :volume-cup-imperial: 
+          :other: "{0} cup Imp."
+        :volume-cup-jp: 
+          :other: "{0} cup [JP]"
         :volume-cup-metric: 
           :other: "{0} 公制杯"
         :volume-deciliter: 
@@ -765,6 +875,8 @@
           :other: "{0} 液盎司"
         :volume-fluid-ounce-imperial: 
           :other: "{0} 英液盎司"
+        :volume-fluid-ounce-metric: 
+          :other: "{0}公制液盎司"
         :volume-gallon: 
           :other: "{0} 加侖"
         :volume-gallon-imperial: 
@@ -773,23 +885,37 @@
           :other: "{0} 公石"
         :volume-jigger: 
           :other: "{0} 量酒杯"
+        :volume-koku: 
+          :other: "{0} koku [JP]"
+        :volume-kosaji: 
+          :other: "{0} kosaji [JP]"
         :volume-liter: 
           :other: "{0} 升"
         :volume-megaliter: 
           :other: "{0} 兆升"
         :volume-milliliter: 
           :other: "{0} 毫升"
+        :volume-osaji: 
+          :other: "{0} osaji [JP]"
         :volume-pinch: 
           :other: "{0} 小撮"
         :volume-pint: 
           :other: "{0} 品脫"
+        :volume-pint-imperial: 
+          :other: "{0} pt Imp."
         :volume-pint-metric: 
           :other: "{0} 公制品脫"
         :volume-quart: 
           :other: "{0} 夸脫"
         :volume-quart-imperial: 
           :other: "{0} 英制夸脫"
+        :volume-sai: 
+          :other: "{0} sai [JP]"
+        :volume-shaku: 
+          :other: "{0} shaku [vol, JP]"
         :volume-tablespoon: 
           :other: "{0} 湯匙"
         :volume-teaspoon: 
           :other: "{0} 茶匙"
+        :volume-to-jp: 
+          :other: "{0} to [JP]"

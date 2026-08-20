@@ -19,9 +19,9 @@
         :angle-arc-second: 
           :one: "{0} ثانیهٔ قوسی"
           :other: "{0} ثانیهٔ قوسی"
-        :area-hectare: 
-          :one: "{0} هکتار"
-          :other: "{0} هکتار"
+        :angle-steradian: 
+          :one: "{0} استرادیان"
+          :other: "{0} استرادیان"
         :area-square-centimeter: 
           :one: "{0} سانتی‌متر مربع"
           :other: "{0} سانتی‌متر مربع"
@@ -31,27 +31,36 @@
         :area-square-meter: 
           :one: "{0} متر مربع"
           :other: "{0} متر مربع"
+        :concentr-katal: 
+          :one: "{0} کاتال"
+          :other: "{0} کاتال"
         :concentr-milligram-ofglucose-per-deciliter: 
           :one: "{0} میلی‌گرم در دسی‌لیتر"
           :other: "{0} میلی‌گرم در دسی‌لیتر"
         :concentr-millimole-per-liter: 
           :one: "{0} میلی‌مول در لیتر"
           :other: "{0} میلی‌مول در لیتر"
+        :concentr-ofglucose: 
+          :one: "{0} گلوکز"
+          :other: "{0} گلوکز"
+        :concentr-part: 
+          :one: "{0} پارت"
+          :other: "{0} پارت"
+        :concentr-part-per-1e6: 
+          :one: "{0} بخش در میلیون"
+          :other: "{0} بخش در میلیون"
+        :concentr-part-per-1e9: 
+          :one: "{0} بخش در بیلیون"
+          :other: "{0} بخش در بیلیون"
         :concentr-percent: 
           :one: "{0} درصد"
           :other: "{0} درصد"
         :concentr-permille: 
           :one: "{0} هزارم"
           :other: "{0} هزارم"
-        :concentr-permillion: 
-          :one: "{0} بخش در میلیون"
-          :other: "{0} بخش در میلیون"
         :concentr-permyriad: 
           :one: "{0} ده‌هزارم"
           :other: "{0} ده‌هزارم"
-        :concentr-portion-per-1e9: 
-          :one: "{0} بخش در بیلیون"
-          :other: "{0} بخش در بیلیون"
         :consumption-liter-per-100-kilometer: 
           :one: "{0} لیتر در ۱۰۰ کیلومتر"
           :other: "{0} لیتر در ۱۰۰ کیلومتر"
@@ -91,15 +100,33 @@
         :duration-microsecond: 
           :one: "{0} میکروثانیه"
           :other: "{0} میکروثانیه"
-        :duration-night: 
-          :one: "{0} شب"
-          :other: "{0} شب"
         :duration-quarter: 
           :one: "{0} سه‌ماهه"
           :other: "{0} سه‌ماهه"
+        :electric-coulomb: 
+          :one: "{0} کولن"
+          :other: "{0} کولن"
+        :electric-farad: 
+          :one: "{0} فاراد"
+          :other: "{0} فاراد"
+        :electric-henry: 
+          :one: "{0} هنری"
+          :other: "{0} هنری"
+        :electric-siemens: 
+          :one: "{0} زیمنس"
+          :other: "{0} زیمنس"
+        :energy-becquerel: 
+          :one: "{0} بکرل"
+          :other: "{0} بکرل"
+        :energy-calorie-it: 
+          :one: "{0} کالری [IT]"
+          :other: "{0} کالری [IT]"
         :energy-electronvolt: 
           :one: "{0} الکترون‌ولت"
           :other: "{0} الکترون‌ولت"
+        :energy-gray: 
+          :one: "{0} گری"
+          :other: "{0} گری"
         :energy-kilocalorie: 
           :one: "{0} کیلوکالری"
           :other: "{0} کیلوکالری"
@@ -109,6 +136,12 @@
         :energy-kilowatt-hour: 
           :one: "{0} کیلووات‌ساعت"
           :other: "{0} کیلووات‌ساعت"
+        :energy-sievert: 
+          :one: "{0} سیورت"
+          :other: "{0} سیورت"
+        :force-kilogram-force: 
+          :one: "{0} کیلوگرم-نیرو"
+          :other: "{0} کیلوگرم-نیرو"
         :force-kilowatt-hour-per-100-kilometer: 
           :one: "{0} کیلووات-ساعت در ۱۰۰ کیلومتر"
           :other: "{0} کیلووات-ساعت در ۱۰۰ کیلومتر"
@@ -154,6 +187,12 @@
         :light-solar-luminosity: 
           :one: "{0} تابندگی خورشید"
           :other: "{0} تابندگی خورشید"
+        :magnetic-tesla: 
+          :one: "{0} تسلا"
+          :other: "{0} تسلا"
+        :magnetic-weber: 
+          :one: "{0} وبر"
+          :other: "{0} وبر"
         :mass-earth-mass: 
           :one: "{0} جرم زمین"
           :other: "{0} جرم زمین"
@@ -172,12 +211,18 @@
         :pressure-millimeter-ofhg: 
           :one: "{0} میلی‌متر جیوه"
           :other: "{0} میلی‌متر جیوه"
+        :pressure-ofhg: 
+          :one: "{0} جیوه"
+          :other: "{0} جیوه"
         :pressure-pound-force-per-square-inch: 
           :one: "{0} پوند در اینچ مربع"
           :other: "{0} پوند در اینچ مربع"
         :speed-kilometer-per-hour: 
           :one: "{0} کیلومتر در ساعت"
           :other: "{0} کیلومتر در ساعت"
+        :speed-light-speed: 
+          :one: "{0} نوری"
+          :other: "{0} نوری"
         :speed-meter-per-second: 
           :one: "{0} متر در ثانیه"
           :other: "{0} متر در ثانیه"
@@ -235,6 +280,9 @@
         :volume-fluid-ounce-imperial: 
           :one: "{0} اونس سیال انگلیسی"
           :other: "{0} اونس سیال انگلیسی"
+        :volume-fluid-ounce-metric: 
+          :one: "{0} اونس مایع متریک"
+          :other: "{0} اونس مایع متریک"
         :volume-hectoliter: 
           :one: "{0} هکتولیتر"
           :other: "{0} هکتولیتر"
@@ -263,6 +311,9 @@
         :angle-degree: 
           :one: "{0}°"
           :other: "{0}°"
+        :angle-radian: 
+          :one: "{0}rad"
+          :other: "{0}rad"
         :area-acre: 
           :one: "{0}ac"
           :other: "{0}ac"
@@ -293,9 +344,24 @@
         :concentr-item: 
           :one: "{0}مورد"
           :other: "{0}مورد"
-        :concentr-permillion: 
+        :concentr-karat: 
+          :one: "{0}kt"
+          :other: "{0}kt"
+        :concentr-millimole-per-liter: 
+          :one: "{0}mmol/L"
+          :other: "{0}mmol/L"
+        :concentr-part: 
+          :one: "{0} پارت"
+          :other: "{0}پارت"
+        :concentr-part-per-1e6: 
           :one: "{0}ppm"
           :other: "{0}ppm"
+        :concentr-part-per-1e9: 
+          :one: "{0}ppb"
+          :other: "{0}ppb"
+        :consumption-mile-per-gallon: 
+          :one: "{0}mpg"
+          :other: "{0}mpg"
         :consumption-mile-per-gallon-imperial: 
           :one: "{0}m/gUK"
           :other: "{0}m/gUK"
@@ -338,9 +404,6 @@
         :duration-nanosecond: 
           :one: "{0}ns"
           :other: "{0}ns"
-        :duration-night: 
-          :one: "{0} شب"
-          :other: "{0} شب"
         :duration-quarter: 
           :one: "{0}سه‌ماه"
           :other: "{0}سه‌ماه"
@@ -380,9 +443,12 @@
         :energy-kilowatt-hour: 
           :one: "{0}kWh"
           :other: "{0}kWh"
-        :force-kilowatt-hour-per-100-kilometer: 
-          :one: "{0}ک.وا.س/۱۰۰ ک.م"
-          :other: "{0} ک.وا.س/۱۰۰ ک.م"
+        :force-newton: 
+          :one: "{0}N"
+          :other: "{0}N"
+        :force-pound-force: 
+          :one: "{0}lbf"
+          :other: "{0}lbf"
         :frequency-gigahertz: 
           :one: "{0}GHz"
           :other: "{0}GHz"
@@ -470,6 +536,15 @@
         :length-yard: 
           :one: "{0}yd"
           :other: "{0}yd"
+        :light-candela: 
+          :one: "{0}cd"
+          :other: "{0}cd"
+        :light-lumen: 
+          :one: "{0}lm"
+          :other: "{0}lm"
+        :light-lux: 
+          :one: "{0}lx"
+          :other: "{0}lx"
         :mass-carat: 
           :one: "{0}CD"
           :other: "{0}CD"
@@ -539,6 +614,9 @@
         :pressure-inch-ofhg: 
           :one: "{0}inHg"
           :other: "{0}inHg"
+        :pressure-megapascal: 
+          :one: "{0}MPa"
+          :other: "{0}MPa"
         :pressure-millibar: 
           :one: "{0}mbar"
           :other: "{0}mbar"
@@ -551,6 +629,9 @@
         :speed-knot: 
           :one: "{0}kn"
           :other: "{0}kn"
+        :speed-light-speed: 
+          :one: "{0}نوری"
+          :other: "{0}نوری"
         :speed-meter-per-second: 
           :one: "{0}m/s"
           :other: "{0}m/s"
@@ -560,6 +641,12 @@
         :temperature-kelvin: 
           :one: "{0}K"
           :other: "{0}K"
+        :torque-newton-meter: 
+          :one: "{0}N⋅m"
+          :other: "{0}N⋅m"
+        :torque-pound-force-foot: 
+          :one: "{0}lbf⋅ft"
+          :other: "{0}lbf⋅ft"
         :volume-acre-foot: 
           :one: "{0}ac ft"
           :other: "{0}ac ft"
@@ -605,9 +692,6 @@
         :volume-quart-imperial: 
           :one: "{0}qt-Imp."
           :other: "{0}qt-Imp."
-        :volume-tablespoon: 
-          :one: "{0} ق.غ.خ"
-          :other: "{0} ق.غ.خ"
         :volume-teaspoon: 
           :one: "{0}ق.چ."
           :other: "{0}ق.چ."
@@ -632,15 +716,24 @@
         :angle-revolution: 
           :one: "{0} دور"
           :other: "{0} دور"
+        :angle-steradian: 
+          :one: "{0} استرادیان"
+          :other: "{0} استرادیان"
         :area-acre: 
           :one: "{0} جریب"
           :other: "{0} جریب"
+        :area-bu-jp: 
+          :other: "{0} bu [JP]"
+        :area-cho: 
+          :other: "{0} cho [JP]"
         :area-dunam: 
           :one: "{0} دونوم"
           :other: "{0} دونوم"
         :area-hectare: 
           :one: "{0} هکتار"
           :other: "{0} هکتار"
+        :area-se-jp: 
+          :other: "{0} se [JP]"
         :area-square-centimeter: 
           :one: "{0}‎ cm²"
           :other: "{0}‎ cm²"
@@ -667,6 +760,9 @@
         :concentr-karat: 
           :one: "{0} عیار"
           :other: "{0} عیار"
+        :concentr-katal: 
+          :one: "{0} کاتال"
+          :other: "{0} کاتال"
         :concentr-milligram-ofglucose-per-deciliter: 
           :other: "{0} mg/dL"
         :concentr-millimole-per-liter: 
@@ -674,17 +770,23 @@
         :concentr-mole: 
           :one: "{0} مول"
           :other: "{0} مول"
+        :concentr-ofglucose: 
+          :one: "{0} گلوکز"
+          :other: "{0} گلوکز"
+        :concentr-part: 
+          :one: "{0} پارت"
+          :other: "{0} پارت"
+        :concentr-part-per-1e6: 
+          :other: "{0} ppm"
+        :concentr-part-per-1e9: 
+          :other: "{0} ppb"
         :concentr-percent: 
           :one: "{0}٪"
           :other: "{0}٪"
         :concentr-permille: 
           :other: "{0}‰"
-        :concentr-permillion: 
-          :other: "{0} ppm"
         :concentr-permyriad: 
           :other: "{0}‱"
-        :concentr-portion-per-1e9: 
-          :other: "{0} ppb"
         :consumption-liter-per-100-kilometer: 
           :one: "{0} ل./۱۰۰ ک.م."
           :other: "{0} ل./۱۰۰ ک.م."
@@ -729,6 +831,8 @@
         :duration-decade: 
           :one: "{0} دهه"
           :other: "{0} دهه"
+        :duration-fortnight: 
+          :other: "{0} fw"
         :duration-hour: 
           :one: "{0} ساعت"
           :other: "{0} ساعت"
@@ -765,26 +869,49 @@
         :electric-ampere: 
           :one: "{0} آمپر"
           :other: "{0} آمپر"
+        :electric-coulomb: 
+          :one: "{0} کولن"
+          :other: "{0} کولن"
+        :electric-farad: 
+          :one: "{0} فاراد"
+          :other: "{0} فاراد"
+        :electric-henry: 
+          :one: "{0} هنری"
+          :other: "{0} هنری"
         :electric-milliampere: 
           :one: "{0} میلی‌آمپر"
           :other: "{0} میلی‌آمپر"
         :electric-ohm: 
           :one: "{0} اهم"
           :other: "{0} اهم"
+        :electric-siemens: 
+          :one: "{0} زیمنس"
+          :other: "{0} زیمنس"
         :electric-volt: 
           :one: "{0} ولت"
           :other: "{0} ولت"
+        :energy-becquerel: 
+          :one: "{0} بکرل"
+          :other: "{0} بکرل"
         :energy-british-thermal-unit: 
           :one: "{0} بی‌تی‌یو"
           :other: "{0} بی‌تی‌یو"
+        :energy-british-thermal-unit-it: 
+          :other: "{0} BTU-IT"
         :energy-calorie: 
           :one: "{0} کالری"
           :other: "{0} کالری"
+        :energy-calorie-it: 
+          :one: "{0} کالری-IT"
+          :other: "{0} کالری-IT"
         :energy-electronvolt: 
           :other: "{0} eV"
         :energy-foodcalorie: 
           :one: "{0} کالری"
           :other: "{0} کالری"
+        :energy-gray: 
+          :one: "{0} گری"
+          :other: "{0} گری"
         :energy-joule: 
           :one: "{0} ژول"
           :other: "{0} ژول"
@@ -797,9 +924,15 @@
         :energy-kilowatt-hour: 
           :one: "{0} ک.و.ساعت"
           :other: "{0} ک.و.ساعت"
+        :energy-sievert: 
+          :one: "{0} سیورت"
+          :other: "{0} سیورت"
         :energy-therm-us: 
           :one: "{0} ترم آمریکایی"
           :other: "{0} ترم آمریکایی"
+        :force-kilogram-force: 
+          :one: "{0} کیلوگرم-نیرو"
+          :other: "{0} کیلوگرم-نیرو"
         :force-kilowatt-hour-per-100-kilometer: 
           :one: "{0} ک.وا.س/۱۰۰ ک.م"
           :other: "{0} ک.وا.س/۱۰۰ ک.م"
@@ -846,6 +979,8 @@
         :length-centimeter: 
           :one: "{0} سانتی‌متر"
           :other: "{0} سانتی‌متر"
+        :length-chain: 
+          :other: "{0} chain"
         :length-decimeter: 
           :one: "{0} دسی‌متر"
           :other: "{0} دسی‌متر"
@@ -863,6 +998,10 @@
         :length-inch: 
           :one: "{0} اینچ"
           :other: "{0} اینچ"
+        :length-jo-jp: 
+          :other: "{0} jo [JP]"
+        :length-ken: 
+          :other: "{0} ken [JP]"
         :length-kilometer: 
           :one: "{0} کیلومتر"
           :other: "{0} کیلومتر"
@@ -899,22 +1038,42 @@
         :length-point: 
           :one: "{0} پوینت"
           :other: "{0} پوینت"
+        :length-ri-jp: 
+          :other: "{0} ri [JP]"
+        :length-rin: 
+          :other: "{0} rin [JP]"
+        :length-rod: 
+          :other: "{0} rod"
+        :length-shaku-cloth: 
+          :other: "{0} shaku [cloth, JP]"
+        :length-shaku-length: 
+          :other: "{0} shaku [JP]"
         :length-solar-radius: 
           :one: "{0} شعاع خورشید"
           :other: "{0} شعاع خورشید"
+        :length-sun: 
+          :other: "{0} sun [JP]"
         :length-yard: 
           :one: "{0} یارد"
           :other: "{0} یارد"
         :light-candela: 
-          :other: "{0} cd"
+          :one: "{0} شمع"
+          :other: "{0} شمع"
         :light-lumen: 
-          :other: "{0} lm"
+          :one: "{0} لومن"
+          :other: "{0} لومن"
         :light-lux: 
           :one: "{0} لوکس"
           :other: "{0} لوکس"
         :light-solar-luminosity: 
           :one: "{0} ☉L"
           :other: "{0} ☉L"
+        :magnetic-tesla: 
+          :one: "{0} تسلا"
+          :other: "{0} تسلا"
+        :magnetic-weber: 
+          :one: "{0} وبر"
+          :other: "{0} وبر"
         :mass-carat: 
           :one: "{0} قیراط"
           :other: "{0} قیراط"
@@ -924,6 +1083,8 @@
         :mass-earth-mass: 
           :one: "{0} M⊕"
           :other: "{0} ⊕M"
+        :mass-fun: 
+          :other: "{0} fun [JP]"
         :mass-grain: 
           :one: "{0} دانه"
           :other: "{0} دانه"
@@ -948,6 +1109,8 @@
         :mass-pound: 
           :one: "{0} پوند"
           :other: "{0} پوند"
+        :mass-slug: 
+          :other: "{0} slug"
         :mass-solar-mass: 
           :one: "{0} ☉M"
           :other: "{0} ☉M"
@@ -984,6 +1147,8 @@
         :pressure-bar: 
           :one: "{0} بار"
           :other: "{0} بار"
+        :pressure-gasoline-energy-density: 
+          :other: "{0} gas E"
         :pressure-hectopascal: 
           :one: "{0} هکتوپاسکال"
           :other: "{0} هکتوپاسکال"
@@ -1002,6 +1167,9 @@
         :pressure-millimeter-ofhg: 
           :one: "{0} م‌م جیوه"
           :other: "{0} م‌م جیوه"
+        :pressure-ofhg: 
+          :one: "{0} جیوه"
+          :other: "{0} جیوه"
         :pressure-pascal: 
           :one: "{0} پاسکال"
           :other: "{0} پاسکال"
@@ -1018,7 +1186,8 @@
           :one: "{0} گره"
           :other: "{0} گره"
         :speed-light-speed: 
-          :other: "{0} light"
+          :one: "{0} نوری"
+          :other: "{0} نوری"
         :speed-meter-per-second: 
           :other: "{0} m/s"
         :speed-mile-per-hour: 
@@ -1033,6 +1202,8 @@
         :temperature-kelvin: 
           :one: "‎{0} K"
           :other: "‎{0} K"
+        :temperature-rankine: 
+          :other: "{0} °R"
         :torque-newton-meter: 
           :one: "{0} نیوتن‌متر"
           :other: "{0} نیوتن‌متر"
@@ -1075,6 +1246,10 @@
         :volume-cup: 
           :one: "{0} پیمانه"
           :other: "{0} پیمانه"
+        :volume-cup-imperial: 
+          :other: "{0} cup Imp."
+        :volume-cup-jp: 
+          :other: "{0} cup [JP]"
         :volume-cup-metric: 
           :one: "{0} پیمانهٔ متریک"
           :other: "{0} پیمانهٔ متریک"
@@ -1099,6 +1274,9 @@
         :volume-fluid-ounce-imperial: 
           :one: "{0} fl oz Imp"
           :other: "{0} fl oz Imp"
+        :volume-fluid-ounce-metric: 
+          :one: "{0} fl oz m."
+          :other: "{0} fl oz m."
         :volume-gallon: 
           :one: "{0} گالن"
           :other: "{0} گالن"
@@ -1111,6 +1289,10 @@
         :volume-jigger: 
           :one: "{0} گیلاس"
           :other: "{0} گیلاس"
+        :volume-koku: 
+          :other: "{0} koku [JP]"
+        :volume-kosaji: 
+          :other: "{0} kosaji [JP]"
         :volume-liter: 
           :one: "{0}L"
           :other: "{0}L"
@@ -1120,12 +1302,16 @@
         :volume-milliliter: 
           :one: "{0} میلی‌لیتر"
           :other: "{0} میلی‌لیتر"
+        :volume-osaji: 
+          :other: "{0} osaji [JP]"
         :volume-pinch: 
           :one: "{0} سرانگشت"
           :other: "{0} سرانگشت"
         :volume-pint: 
           :one: "{0} پاینت"
           :other: "{0} پاینت"
+        :volume-pint-imperial: 
+          :other: "{0} pt Imp."
         :volume-pint-metric: 
           :one: "{0} پاینت متریک"
           :other: "{0} پاینت متریک"
@@ -1135,9 +1321,15 @@
         :volume-quart-imperial: 
           :one: "{0} کوارت انگلیسی"
           :other: "{0} کوارت انگلیسی"
+        :volume-sai: 
+          :other: "{0} sai [JP]"
+        :volume-shaku: 
+          :other: "{0} shaku [vol, JP]"
         :volume-tablespoon: 
           :one: "{0} ق.غ.خ"
           :other: "{0} ق.غ.خ"
         :volume-teaspoon: 
           :one: "{0} ق.چ."
           :other: "{0} ق.چ."
+        :volume-to-jp: 
+          :other: "{0} to [JP]"

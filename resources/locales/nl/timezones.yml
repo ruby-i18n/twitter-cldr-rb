@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "Zuid-Afrikaanse tijd"
     :Africa_Western: 
       :long: 
-        :daylight: "West-Afrikaanse zomertijd"
-        :generic: "West-Afrikaanse tijd"
-        :standard: "West-Afrikaanse standaardtijd"
+        :standard: "West-Afrikaanse tijd"
     :Alaska: 
       :long: 
         :daylight: Alaska-zomertijd
@@ -318,6 +318,11 @@
     :Gilbert_Islands: 
       :long: 
         :standard: "Gilberteilandse tijd"
+    :Greenland: 
+      :long: 
+        :daylight: "Groenlandse zomertijd"
+        :generic: "Groenlandse tijd"
+        :standard: "Groenlandse standaardtijd"
     :Greenland_Eastern: 
       :long: 
         :daylight: "Oost-Groenlandse zomertijd"
@@ -337,6 +342,11 @@
     :Guyana: 
       :long: 
         :standard: "Guyaanse tijd"
+    :Hawaii: 
+      :long: 
+        :standard: "Hawaii-Aleoetische standaardtijd"
+      :short: 
+        :standard: HAST
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "Hawaii-Aleoetische zomertijd"
@@ -639,6 +649,11 @@
     :Truk: 
       :long: 
         :standard: "Chuukse tijd"
+    :Turkey: 
+      :long: 
+        :daylight: "Turkse zomertijd"
+        :generic: "Turkse tijd"
+        :standard: "Turkse standaardtijd"
     :Turkmenistan: 
       :long: 
         :daylight: "Turkmeense zomertijd"
@@ -704,12 +719,18 @@
       :city: Asmara
     :Africa/Cairo: 
       :city: Caïro
+    :Africa/El_Aaiun: 
+      :city: "El Aaiún"
     :Africa/Khartoum: 
       :city: Khartoem
     :Africa/Lome: 
       :city: Lomé
+    :Africa/Ndjamena: 
+      :city: N’Djamena
     :Africa/Sao_Tome: 
       :city: "Sao Tomé"
+    :America/Araguaina: 
+      :city: Araguaína
     :America/Argentina/Rio_Gallegos: 
       :city: "Río Gallegos"
     :America/Argentina/Tucuman: 
@@ -720,6 +741,8 @@
       :city: "Bahía de Banderas"
     :America/Belem: 
       :city: Belém
+    :America/Bogota: 
+      :city: Bogotá
     :America/Cancun: 
       :city: Cancun
     :America/Ciudad_Juarez: 
@@ -732,6 +755,8 @@
       :city: Cuiabá
     :America/Curacao: 
       :city: Curaçao
+    :America/Eirunepe: 
+      :city: Eirunepé
     :America/Godthab: 
       :city: Nuuk
     :America/Indiana/Knox: 
@@ -760,12 +785,18 @@
       :city: Mérida
     :America/Mexico_City: 
       :city: Mexico-Stad
+    :America/Miquelon: 
+      :city: Saint-Pierre
+    :America/Noronha: 
+      :city: "Fernando de Noronha"
     :America/North_Dakota/Beulah: 
       :city: "Beulah, Noord-Dakota"
     :America/North_Dakota/Center: 
       :city: "Center, Noord-Dakota"
     :America/North_Dakota/New_Salem: 
       :city: "New Salem, Noord-Dakota"
+    :America/Santarem: 
+      :city: Santarém
     :America/Sao_Paulo: 
       :city: "São Paulo"
     :America/Scoresbysund: 
@@ -783,7 +814,9 @@
     :America/St_Vincent: 
       :city: "Saint Vincent"
     :Antarctica/DumontDUrville: 
-      :city: "Dumont d’Urville"
+      :city: Dumont-d’Urville
+    :Antarctica/Syowa: 
+      :city: Showa
     :Asia/Almaty: 
       :city: Alma-Ata
     :Asia/Aqtobe: 
@@ -808,6 +841,8 @@
       :city: Doesjanbe
     :Asia/Hong_Kong: 
       :city: Hongkong
+    :Asia/Hovd: 
+      :city: Khovd
     :Asia/Irkutsk: 
       :city: Irkoetsk
     :Asia/Jerusalem: 
@@ -840,6 +875,8 @@
       :city: Teheran
     :Asia/Tokyo: 
       :city: Tokio
+    :Asia/Urumqi: 
+      :city: Ürümqi
     :Asia/Yakutsk: 
       :city: Jakoetsk
     :Asia/Yekaterinburg: 
@@ -877,6 +914,10 @@
       :city: Boekarest
     :Europe/Budapest: 
       :city: Boedapest
+    :Europe/Busingen: 
+      :city: Büsingen
+    :Europe/Chisinau: 
+      :city: Chișinău
     :Europe/Copenhagen: 
       :city: Kopenhagen
     :Europe/Dublin: 
@@ -918,6 +959,8 @@
       :city: Christmaseiland
     :Indian/Cocos: 
       :city: Cocoseilanden
+    :Indian/Comoro: 
+      :city: Comores
     :Indian/Mahe: 
       :city: Mahé
     :Indian/Maldives: 
@@ -927,15 +970,13 @@
     :Pacific/Easter: 
       :city: Paaseiland
     :Pacific/Enderbury: 
-      :city: Enderbury
+      :city: Kanton
+    :Pacific/Galapagos: 
+      :city: Galápagos
     :Pacific/Gambier: 
       :city: "Îles Gambier"
     :Pacific/Honolulu: 
       :city: Honolulu
-      :short: 
-        :daylight: HDT
-        :generic: HST
-        :standard: HST
     :Pacific/Marquesas: 
       :city: Marquesaseilanden
     :Pacific/Noumea: 
@@ -944,3 +985,5 @@
       :city: Pohnpei
     :Pacific/Truk: 
       :city: Chuuk
+    :Pacific/Wallis: 
+      :city: "Wallis & Futuna"

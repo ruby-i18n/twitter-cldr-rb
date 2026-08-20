@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "ម៉ោង​សកល {0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: ម៉ោង​សកល
     :hour_formats: 
@@ -28,9 +30,7 @@
         :standard: ម៉ោង​នៅ​អាហ្វ្រិក​ខាង​ត្បូង
     :Africa_Western: 
       :long: 
-        :daylight: ម៉ោងនៅ​អាហ្វ្រិក​​​ខាងលិច​​នារដូវ​ក្ដៅ​
-        :generic: ម៉ោង​នៅ​អាហ្វ្រិក​ខាង​លិច
-        :standard: ម៉ោង​ស្តង់ដារ​នៅ​អាហ្វ្រិក​ខាង​លិច
+        :standard: ម៉ោង​នៅ​អាហ្វ្រិក​ខាង​លិច
     :Alaska: 
       :long: 
         :daylight: ម៉ោង​ពេល​ថ្ងៃ​នៅ​​អាឡាស្កា
@@ -268,6 +268,9 @@
     :Guyana: 
       :long: 
         :standard: ម៉ោង​នៅ​ហ្គីយ៉ាន
+    :Hawaii: 
+      :long: 
+        :standard: ម៉ោង​ស្តង់ដារ​​នៅ​ហាវៃ-អាល់ដ្យូសិន
     :Hawaii_Aleutian: 
       :long: 
         :daylight: ម៉ោង​ពេល​ថ្ងៃ​នៅ​ហាវៃ-អាល់ដ្យូសិន
@@ -777,6 +780,8 @@
       :city: កូដូបា
     :America/Costa_Rica: 
       :city: កូស្តារីកា
+    :America/Coyhaique: 
+      :city: កូយអៃកេ
     :America/Creston: 
       :city: ក្រេស្តុន
     :America/Cuiaba: 
@@ -1381,7 +1386,7 @@
     :Pacific/Efate: 
       :city: អ៊ីហ្វាតេ
     :Pacific/Enderbury: 
-      :city: អ៊ីនដឺប៊ូរី
+      :city: កាន់តុន
     :Pacific/Fakaofo: 
       :city: ហ្វាកៅហ្វូ
     :Pacific/Fiji: 
@@ -1398,8 +1403,6 @@
       :city: ហ្គាំ
     :Pacific/Honolulu: 
       :city: ហូណូលូលូ
-    :Pacific/Kanton: 
-      :city: កាន់តុន
     :Pacific/Kiritimati: 
       :city: គិរីទីម៉ាទិ
     :Pacific/Kosrae: 

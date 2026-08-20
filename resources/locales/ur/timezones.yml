@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT {0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -28,9 +30,7 @@
         :standard: "جنوبی افریقہ سٹینڈرڈ ٹائم"
     :Africa_Western: 
       :long: 
-        :daylight: "مغربی افریقہ سمر ٹائم"
-        :generic: "مغربی افریقہ ٹائم"
-        :standard: "مغربی افریقہ سٹینڈرڈ ٹائم"
+        :standard: "مغربی افریقہ ٹائم"
     :Alaska: 
       :long: 
         :daylight: "الاسکا ڈے لائٹ ٹائم"
@@ -273,6 +273,9 @@
     :Guyana: 
       :long: 
         :standard: "گیانا کا وقت"
+    :Hawaii: 
+      :long: 
+        :standard: "ہوائی الیوٹیئن اسٹینڈرڈ ٹائم"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "ہوائی الیوٹیئن ڈے لائٹ ٹائم"
@@ -792,6 +795,8 @@
       :city: کورڈوبا
     :America/Costa_Rica: 
       :city: "کوسٹا ریکا"
+    :America/Coyhaique: 
+      :city: کویائیکے
     :America/Creston: 
       :city: کریسٹون
     :America/Cuiaba: 
@@ -1396,7 +1401,7 @@
     :Pacific/Efate: 
       :city: ایفیٹ
     :Pacific/Enderbury: 
-      :city: اینڈربری
+      :city: کانٹن
     :Pacific/Fakaofo: 
       :city: فکاؤفو
     :Pacific/Fiji: 
@@ -1413,8 +1418,6 @@
       :city: گوآم
     :Pacific/Honolulu: 
       :city: ہونولولو
-    :Pacific/Kanton: 
-      :city: کانٹن
     :Pacific/Kiritimati: 
       :city: کریتیماٹی
     :Pacific/Kosrae: 

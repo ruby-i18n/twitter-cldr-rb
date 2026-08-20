@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT {0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "দক্ষিণ আফ্রিকা মানক সময়"
     :Africa_Western: 
       :long: 
-        :daylight: "পশ্চিম আফ্রিকা গ্রীষ্মকালীন সময়"
-        :generic: "পশ্চিম আফ্রিকা সময়"
-        :standard: "পশ্চিম আফ্রিকা মানক সময়"
+        :standard: "পশ্চিম আফ্রিকা সময়"
     :Alaska: 
       :long: 
         :daylight: "আলাস্কা দিবালোক সময়"
@@ -181,8 +181,8 @@
         :standard: "কোকোস দ্বীপপুঞ্জ সময়"
     :Colombia: 
       :long: 
-        :daylight: "কোলোম্বিয়া গ্রীষ্মকালীন সময়"
-        :generic: "কোলোম্বিয়া সময়"
+        :daylight: "কলম্বিয়া গ্রীষ্মকালীন সময়"
+        :generic: "কলম্বিয়া সময়"
         :standard: "কোলোম্বিয়া মানক সময়"
     :Cook: 
       :long: 
@@ -278,6 +278,9 @@
     :Guyana: 
       :long: 
         :standard: "গুয়ানা সময়"
+    :Hawaii: 
+      :long: 
+        :standard: "হাওয়াই-আলেউত মানক সময়"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "হাওয়াই-আলেউত দিবালোক সময়"
@@ -799,6 +802,8 @@
       :city: কর্ডোবা
     :America/Costa_Rica: 
       :city: কোস্টারিকা
+    :America/Coyhaique: 
+      :city: কোয়আইকে
     :America/Creston: 
       :city: ক্রিস্টান
     :America/Cuiaba: 
@@ -1403,7 +1408,7 @@
     :Pacific/Efate: 
       :city: ইফাতে
     :Pacific/Enderbury: 
-      :city: এন্ডারবারি
+      :city: ক্যান্টন
     :Pacific/Fakaofo: 
       :city: ফ্যাকাওফো
     :Pacific/Fiji: 
@@ -1420,8 +1425,6 @@
       :city: গুয়াম
     :Pacific/Honolulu: 
       :city: হনোলুলু
-    :Pacific/Kanton: 
-      :city: ক্যান্টন
     :Pacific/Kiritimati: 
       :city: কিরিতিমাতি
     :Pacific/Kosrae: 

@@ -7,14 +7,18 @@
         :Bhm: "h.mm B"
         :Bhms: "h.mm.ss B"
         :E: ccc
+        :EBh: "E h B"
         :EBhm: "E h.mm B"
         :EBhms: "E h.mm.ss B"
         :EHm: "E H.mm"
         :EHms: "E H.mm.ss"
         :Ed: "E d."
+        :Eh: "E h a"
         :Ehm: "E h.mm a"
         :Ehms: "E h.mm.ss a"
         :Gy: "y G"
+        :GyM: "M.y G"
+        :GyMEd: "E d.M.y G"
         :GyMMM: "LLL y G"
         :GyMMMEd: "E d.M.y G"
         :GyMMMMEd: "E d. MMMM y G"
@@ -26,6 +30,7 @@
         :Hms: H.mm.ss
         :Hmsv: "H.mm.ss v"
         :Hmv: "H.mm v"
+        :Hv: "H v"
         :M: L
         :MEd: "E d.M."
         :MMM: LLL
@@ -41,6 +46,7 @@
         :hms: h.mm.ss a
         :hmsv: "h.mm.ss a v"
         :hmv: "h.mm a v"
+        :hv: "h a v"
         :ms: m.ss
         ? !ruby/symbol "y"
         : "y"
@@ -88,7 +94,7 @@
             :fri: perjantaina
             :mon: maanantaina
             :sat: lauantaina
-            :sun: sunnuntai
+            :sun: sunnuntaina
             :thu: torstaina
             :tue: tiistaina
             :wed: keskiviikkona
@@ -197,9 +203,9 @@
           :long: 
             :pattern: "{{date}} 'klo' {{time}}"
           :medium: 
-            :pattern: "{{date}} 'klo' {{time}}"
+            :pattern: "{{date}}, {{time}}"
           :short: 
-            :pattern: "{{date}} 'klo' {{time}}"
+            :pattern: "{{date}}, {{time}}"
         :time: 
           :full: 
             :pattern: "H.mm.ss zzzz"

@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "juhoafrický čas"
     :Africa_Western: 
       :long: 
-        :daylight: "západoafrický letný čas"
-        :generic: "západoafrický čas"
-        :standard: "západoafrický štandardný čas"
+        :standard: "západoafrický čas"
     :Alaska: 
       :long: 
         :daylight: "aljašský letný čas"
@@ -303,6 +303,9 @@
     :Guyana: 
       :long: 
         :standard: "guyanský čas"
+    :Hawaii: 
+      :long: 
+        :standard: "havajsko-aleutský štandardný čas"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "havajsko-aleutský letný čas"
@@ -688,6 +691,12 @@
       :city: "Svätý Tomáš"
     :Africa/Tripoli: 
       :city: Tripolis
+    :America/Araguaina: 
+      :city: Araguaína
+    :America/Argentina/Rio_Gallegos: 
+      :city: "Río Gallegos"
+    :America/Argentina/Tucuman: 
+      :city: Tucumán
     :America/Asuncion: 
       :city: Asunción
     :America/Bahia_Banderas: 
@@ -750,6 +759,10 @@
       :city: Mérida
     :America/Mexico_City: 
       :city: México
+    :America/Miquelon: 
+      :city: Saint-Pierre
+    :America/Noronha: 
+      :city: "Fernando de Noronha"
     :America/North_Dakota/Beulah: 
       :city: "Beulah, Severná Dakota"
     :America/North_Dakota/Center: 
@@ -777,7 +790,7 @@
     :America/St_Vincent: 
       :city: "Sv. Vincent"
     :Antarctica/DumontDUrville: 
-      :city: "Dumont d’Urville"
+      :city: Dumont-d’Urville
     :Antarctica/Syowa: 
       :city: Šówa
     :Asia/Almaty: 
@@ -1001,17 +1014,13 @@
     :Pacific/Easter: 
       :city: "Veľkonočný ostrov"
     :Pacific/Enderbury: 
-      :city: Enderbury
+      :city: Canton
     :Pacific/Fiji: 
       :city: Fidži
     :Pacific/Galapagos: 
       :city: Galapágy
     :Pacific/Honolulu: 
       :city: Honolulu
-      :short: 
-        :daylight: HDT
-        :generic: HST
-        :standard: HST
     :Pacific/Marquesas: 
       :city: Markézy
     :Pacific/Noumea: 
@@ -1020,3 +1029,5 @@
       :city: Pohnpei
     :Pacific/Truk: 
       :city: Chuuk
+    :Pacific/Wallis: 
+      :city: "Wallis & Futuna"

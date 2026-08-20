@@ -186,9 +186,13 @@
           :other: "{0} çərşənbə axşamı öncə"
     :tue-short: 
       :relative: 
-        -1: "keçən ÇƏ"
+        -1: "keçən Ç.ax."
         0: "bu ÇƏ"
         1: "gələn ÇƏ"
+      :relative_time: 
+        :future: 
+          :one: "{0} çərşənbə axşamı sonra"
+          :other: "{0} çərşənbə axşamı ərzində"
     :wed: 
       :relative: 
         -1: "keçən çərşənbə"
@@ -230,7 +234,7 @@
     :weekday-short: 
       :display_name: "hft. günü"
     :weekdayOfMonth: 
-      :display_name: "ayın həftə günü"
+      :display_name: "ayın həftəiçi günü"
     :weekdayOfMonth-short: 
       :display_name: "ay hft. günü"
     :year: 

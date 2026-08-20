@@ -5,14 +5,16 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT {0}"
+    :gmt_unknown_formats: 
+      :generic: "GMT +?"
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
       :generic: +HH.mm;-HH.mm
     :region_formats: 
-      :daylight: "{0} poletni čas"
-      :generic: "{0} čas"
-      :standard: "{0} standardni čas"
+      :daylight: "{0} (poletni čas)"
+      :generic: "{0} (lokalni čas)"
+      :standard: "{0} (standardni čas)"
   :metazones: 
     :Afghanistan: 
       :long: 
@@ -28,9 +30,7 @@
         :standard: "Južnoafriški čas"
     :Africa_Western: 
       :long: 
-        :daylight: "Zahodnoafriški poletni čas"
-        :generic: "Zahodnoafriški čas"
-        :standard: "Zahodnoafriški standardni čas"
+        :standard: "Zahodnoafriški čas"
     :Alaska: 
       :long: 
         :daylight: "Aljaški poletni čas"
@@ -273,6 +273,9 @@
     :Guyana: 
       :long: 
         :standard: "Gvajanski čas"
+    :Hawaii: 
+      :long: 
+        :standard: "Havajski aleutski standardni čas"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "Havajski aleutski poletni čas"
@@ -555,6 +558,11 @@
     :Truk: 
       :long: 
         :standard: "Čas: Otok Chuuk"
+    :Turkey: 
+      :long: 
+        :daylight: "Turški poletni čas"
+        :generic: "Turški čas"
+        :standard: "Turški standardni čas"
     :Turkmenistan: 
       :long: 
         :daylight: "Turkmenistanski poletni čas"
@@ -628,22 +636,38 @@
       :city: Kairo
     :Africa/Djibouti: 
       :city: Džibuti
+    :Africa/El_Aaiun: 
+      :city: "El Aaiún"
     :Africa/Khartoum: 
       :city: Kartum
     :Africa/Kinshasa: 
       :city: Kinšasa
+    :Africa/Lome: 
+      :city: Lomé
     :Africa/Lubumbashi: 
       :city: Lubumbaši
     :Africa/Mogadishu: 
       :city: Mogadišu
+    :Africa/Ndjamena: 
+      :city: N’Djamena
     :Africa/Sao_Tome: 
       :city: "São Tomé"
     :America/Anguilla: 
       :city: Angvila
+    :America/Araguaina: 
+      :city: Araguaína
+    :America/Argentina/Rio_Gallegos: 
+      :city: "Río Gallegos"
+    :America/Argentina/Tucuman: 
+      :city: Tucumán
     :America/Asuncion: 
       :city: Asunción
     :America/Bahia_Banderas: 
       :city: "Bahia de Banderas"
+    :America/Belem: 
+      :city: Belém
+    :America/Bogota: 
+      :city: Bogotá
     :America/Cancun: 
       :city: Cancun
     :America/Cayman: 
@@ -652,12 +676,18 @@
       :city: "Ciudad Juárez"
     :America/Coral_Harbour: 
       :city: Atikokan
+    :America/Cordoba: 
+      :city: Córdoba
     :America/Costa_Rica: 
       :city: Kostarika
+    :America/Cuiaba: 
+      :city: Cuiabá
     :America/Curacao: 
       :city: Curaçao
     :America/Dominica: 
       :city: Dominika
+    :America/Eirunepe: 
+      :city: Eirunepé
     :America/El_Salvador: 
       :city: Salvador
     :America/Godthab: 
@@ -686,12 +716,20 @@
       :city: "Monticello, Kentucky"
     :America/Lower_Princes: 
       :city: "Lower Prince’s Quarter"
+    :America/Maceio: 
+      :city: Maceió
     :America/Martinique: 
       :city: Martinik
+    :America/Mazatlan: 
+      :city: Mazatlán
     :America/Merida: 
       :city: Merida
     :America/Mexico_City: 
       :city: "Ciudad de Mexico"
+    :America/Miquelon: 
+      :city: Saint-Pierre
+    :America/Noronha: 
+      :city: "Fernando de Noronha"
     :America/North_Dakota/Beulah: 
       :city: "Beulah, Severna Dakota"
     :America/North_Dakota/Center: 
@@ -700,6 +738,10 @@
       :city: "New Salem, Severna Dakota"
     :America/Puerto_Rico: 
       :city: Portoriko
+    :America/Santarem: 
+      :city: Santarém
+    :America/Sao_Paulo: 
+      :city: "São Paulo"
     :America/Scoresbysund: 
       :city: Ittoqqortoormiit
     :America/St_Barthelemy: 
@@ -715,7 +757,9 @@
     :America/St_Vincent: 
       :city: "Sv. Vincencij"
     :Antarctica/DumontDUrville: 
-      :city: "Dumont d’Urville"
+      :city: Dumont-d’Urville
+    :Antarctica/Syowa: 
+      :city: Showa
     :Asia/Almaty: 
       :city: Almati
     :Asia/Amman: 
@@ -754,6 +798,8 @@
       :city: Dušanbe
     :Asia/Hong_Kong: 
       :city: Hongkong
+    :Asia/Hovd: 
+      :city: Khovd
     :Asia/Jakarta: 
       :city: Džakarta
     :Asia/Jerusalem: 
@@ -859,6 +905,8 @@
       :city: Bukarešta
     :Europe/Budapest: 
       :city: Budimpešta
+    :Europe/Busingen: 
+      :city: Büsingen
     :Europe/Chisinau: 
       :city: Kišinjev
     :Europe/Copenhagen: 
@@ -911,6 +959,8 @@
       :city: "Kokosovi otoki"
     :Indian/Comoro: 
       :city: Komori
+    :Indian/Mahe: 
+      :city: Mahé
     :Indian/Maldives: 
       :city: Maldivi
     :Indian/Reunion: 
@@ -918,12 +968,18 @@
     :Pacific/Easter: 
       :city: "Velikonočni otok"
     :Pacific/Enderbury: 
-      :city: Enderbury
+      :city: Kanton
     :Pacific/Fiji: 
       :city: Fidži
+    :Pacific/Galapagos: 
+      :city: Galápagos
     :Pacific/Honolulu: 
       :city: Honolulu
+    :Pacific/Noumea: 
+      :city: Nouméa
     :Pacific/Ponape: 
       :city: Pohnpei
     :Pacific/Truk: 
       :city: Chuuk
+    :Pacific/Wallis: 
+      :city: "Wallis & Futuna"

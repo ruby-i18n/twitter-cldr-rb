@@ -188,6 +188,7 @@
           :one: "för {0} månad sedan"
           :other: "för {0} månader sedan"
     :month-narrow: 
+      :display_name: m
       :relative_time: 
         :future: 
           :one: "+{0} mån."
@@ -465,6 +466,7 @@
           :one: "för {0} vecka sedan"
           :other: "för {0} veckor sedan"
     :week-narrow: 
+      :display_name: v
       :relative_time: 
         :future: 
           :one: "+{0} v."
@@ -506,7 +508,7 @@
     :year: 
       :display_name: år
       :relative: 
-        -1: "i fjol"
+        -1: "förra året"
         0: "i år"
         1: "nästa år"
       :relative_time: 

@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "Pietų Afrikos laikas"
     :Africa_Western: 
       :long: 
-        :daylight: "Vakarų Afrikos vasaros laikas"
-        :generic: "Vakarų Afrikos laikas"
-        :standard: "Vakarų Afrikos žiemos laikas"
+        :standard: "Vakarų Afrikos laikas"
     :Alaska: 
       :long: 
         :daylight: "Aliaskos vasaros laikas"
@@ -299,6 +299,9 @@
     :Guyana: 
       :long: 
         :standard: "Gajanos laikas"
+    :Hawaii: 
+      :long: 
+        :standard: "Havajų–Aleutų žiemos laikas"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "Havajų–Aleutų vasaros laikas"
@@ -597,6 +600,11 @@
     :Truk: 
       :long: 
         :standard: "Čuko laikas"
+    :Turkey: 
+      :long: 
+        :daylight: "Turkijos vasaros laikas"
+        :generic: "Turkijos laikas"
+        :standard: "Turkijos žiemos laikas"
     :Turkmenistan: 
       :long: 
         :daylight: "Turkmėnistano vasaros laikas"
@@ -792,6 +800,8 @@
       :city: "Blanč Sablonas"
     :America/Boa_Vista: 
       :city: "Bua Vista"
+    :America/Bogota: 
+      :city: Bogotá
     :America/Boise: 
       :city: Boisis
     :America/Buenos_Aires: 
@@ -822,6 +832,8 @@
       :city: Kordoba
     :America/Costa_Rica: 
       :city: "Kosta Rika"
+    :America/Coyhaique: 
+      :city: Kojhaikė
     :America/Creston: 
       :city: Krestonas
     :America/Cuiaba: 
@@ -1386,7 +1398,7 @@
     :Pacific/Efate: 
       :city: Efatė
     :Pacific/Enderbury: 
-      :city: Enderburis
+      :city: "Kantono sala"
     :Pacific/Fakaofo: 
       :city: Fakaofas
     :Pacific/Fiji: 

@@ -13,7 +13,7 @@ module TwitterCldr
       class Element
         extend Forwardable
 
-        def_delegators :@element, :attribute, :content, :name, :path
+        def_delegators :@element, :attr, :attribute, :attributes, :content, :name, :path, :text
 
         attr_reader :docset, :element
 
@@ -83,19 +83,21 @@ module TwitterCldr
 
 
       def xpath(path)
-        cldr_locale.ancestors.each do |ancestor_locale|
-          data = doc_for(ancestor_locale).xpath(path)
+        found = {}
 
-          unless data.empty?
-            return ElementList.new(self, resolve_aliases_in(data))
+        cldr_locale.ancestors.each do |ancestor_locale|
+          if (children = doc_for(ancestor_locale).xpath(path))
+            children.each do |child|
+              found[path_for(child)] ||= child
+            end
           end
         end
 
-        ElementList.new(self, [])
+        elements = found.values.map { |elem| resolve_aliases_in(elem) }
+        ElementList.new(self, elements)
       end
 
       def path_for(node)
-        orig_node = node
         path = []
 
         while node
@@ -137,8 +139,8 @@ module TwitterCldr
 
       def selector_for(node)
         node.name.dup.tap do |selector|
-          if type = node.attribute('type')
-            selector << "[@type='#{type.value}']"
+          node.attributes.each do |key, value|
+            selector << "[@#{key}='#{value.value}']"
           end
         end
       end

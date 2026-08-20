@@ -7,23 +7,28 @@
         :Bhm: "hh:mm B"
         :Bhms: "hh:mm:ss B"
         :E: ccc
+        :EBh: "E h B"
         :EBhm: "E hh:mm B"
         :EBhms: "E hh:mm:ss B"
         :EHm: "E HH:mm"
         :EHms: "E HH:mm:ss"
         :Ed: "E d"
+        :Eh: "E h a"
         :Ehm: "E hh:mm a"
         :Ehms: "E hh:mm:ss a"
         :Gy: "y G"
+        :GyM: "G y-MM"
+        :GyMEd: "G y-MM-dd, E"
         :GyMMM: "MMM y G"
         :GyMMMEd: "E dd MMM y G"
         :GyMMMd: "dd MMM y G"
-        :GyMd: "GGGGG y-MM-dd"
+        :GyMd: "G y-MM-dd"
         :H: HH
         :Hm: "HH:mm"
         :Hms: "HH:mm:ss"
         :Hmsv: "HH:mm:ss v"
         :Hmv: "HH:mm v"
+        :Hv: "HH v"
         :M: L
         :MEd: "E d/M"
         :MMM: LLL
@@ -39,6 +44,7 @@
         :hms: "h:mm:ss a"
         :hmsv: "h:mm:ss a v"
         :hmv: "h:mm a v"
+        :hv: "h a v"
         :ms: "mm:ss"
         ? !ruby/symbol "y"
         : "y"
@@ -295,12 +301,12 @@
             :night1: "die nag"
             :pm: nm.
           :narrow: 
-            :afternoon1: m
+            :afternoon1: "in die middag"
             :am: v
-            :evening1: a
+            :evening1: "in die aand"
             :midnight: mn
-            :morning1: o
-            :night1: "n"
+            :morning1: "die oggend"
+            :night1: "in die nag"
             :pm: "n"
           :wide: 
             :afternoon1: "die middag"
@@ -319,13 +325,12 @@
             :night1: nag
             :pm: PM
           :narrow: 
-            :afternoon1: m
-            :am: v
-            :evening1: a
-            :midnight: mn
-            :morning1: o
-            :night1: "n"
-            :pm: "n"
+            :afternoon1: middag
+            :am: AM
+            :evening1: aand
+            :morning1: oggend
+            :night1: nag
+            :pm: PM
           :wide: 
             :afternoon1: middag
             :am: AM

@@ -62,7 +62,7 @@ module TwitterCldr
       end
 
       def tag
-        @tag ||= "release-#{Versions.icu_version.gsub('.', '-')}"
+        @tag ||= "release-#{Versions.icu_version}"
       end
 
       def output_path_for(dictionary_file)

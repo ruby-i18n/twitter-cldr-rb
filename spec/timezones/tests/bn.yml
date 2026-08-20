@@ -1,13 +1,13 @@
 ---
 Africa/Abidjan:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: কোট ডি‘আইভোর সময়
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
   :GENERIC_SHORT: কোট ডি‘আইভোর সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -22,13 +22,13 @@ Africa/Abidjan:
   :EXEMPLAR_LOCATION: আবিদজান
 Africa/Accra:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: ঘানা সময়
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
   :GENERIC_SHORT: ঘানা সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -127,13 +127,13 @@ Africa/Asmera:
   :EXEMPLAR_LOCATION: অ্যাসমারাহু
 Africa/Bamako:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: মালি সময়
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
   :GENERIC_SHORT: মালি সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -150,10 +150,10 @@ Africa/Bangui:
   :offset: 3600000
   :LOCALIZED_GMT: GMT +০১:০০
   :LOCALIZED_GMT_SHORT: GMT +১
-  :GENERIC_LOCATION: মধ্য আফ্রিকার প্রজাতন্ত্র সময়
-  :GENERIC_LONG: পশ্চিম আফ্রিকা মানক সময়
-  :GENERIC_SHORT: মধ্য আফ্রিকার প্রজাতন্ত্র সময়
-  :SPECIFIC_LONG: পশ্চিম আফ্রিকা মানক সময়
+  :GENERIC_LOCATION: মধ্য আফ্রিকান প্রজাতন্ত্র সময়
+  :GENERIC_LONG: পশ্চিম আফ্রিকা সময়
+  :GENERIC_SHORT: মধ্য আফ্রিকান প্রজাতন্ত্র সময়
+  :SPECIFIC_LONG: পশ্চিম আফ্রিকা সময়
   :SPECIFIC_SHORT: GMT +১
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -169,13 +169,13 @@ Africa/Bangui:
   :EXEMPLAR_LOCATION: বাঙ্গুই
 Africa/Banjul:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: গাম্বিয়া সময়
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
   :GENERIC_SHORT: গাম্বিয়া সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -190,13 +190,13 @@ Africa/Banjul:
   :EXEMPLAR_LOCATION: বাঞ্জুল
 Africa/Bissau:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: গিনি-বিসাউ সময়
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
   :GENERIC_SHORT: গিনি-বিসাউ সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -235,9 +235,9 @@ Africa/Brazzaville:
   :LOCALIZED_GMT: GMT +০১:০০
   :LOCALIZED_GMT_SHORT: GMT +১
   :GENERIC_LOCATION: কঙ্গো - ব্রাজাভিল সময়
-  :GENERIC_LONG: পশ্চিম আফ্রিকা মানক সময়
+  :GENERIC_LONG: পশ্চিম আফ্রিকা সময়
   :GENERIC_SHORT: কঙ্গো - ব্রাজাভিল সময়
-  :SPECIFIC_LONG: পশ্চিম আফ্রিকা মানক সময়
+  :SPECIFIC_LONG: পশ্চিম আফ্রিকা সময়
   :SPECIFIC_SHORT: GMT +১
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -297,9 +297,9 @@ Africa/Casablanca:
   :offset: 0
   :LOCALIZED_GMT: GMT +০১:০০
   :LOCALIZED_GMT_SHORT: GMT +১
-  :GENERIC_LOCATION: মোরক্কো সময়
-  :GENERIC_LONG: মোরক্কো সময়
-  :GENERIC_SHORT: মোরক্কো সময়
+  :GENERIC_LOCATION: মরক্কো সময়
+  :GENERIC_LONG: মরক্কো সময়
+  :GENERIC_SHORT: মরক্কো সময়
   :SPECIFIC_LONG: GMT +০১:০০
   :SPECIFIC_SHORT: GMT +১
   :ISO_BASIC_SHORT: "+01"
@@ -337,13 +337,13 @@ Africa/Ceuta:
   :EXEMPLAR_LOCATION: সেউটা
 Africa/Conakry:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: গিনি সময়
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
   :GENERIC_SHORT: গিনি সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -358,13 +358,13 @@ Africa/Conakry:
   :EXEMPLAR_LOCATION: কনাক্রি
 Africa/Dakar:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: সেনেগাল সময়
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
   :GENERIC_SHORT: সেনেগাল সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -424,9 +424,9 @@ Africa/Douala:
   :LOCALIZED_GMT: GMT +০১:০০
   :LOCALIZED_GMT_SHORT: GMT +১
   :GENERIC_LOCATION: ক্যামেরুন সময়
-  :GENERIC_LONG: পশ্চিম আফ্রিকা মানক সময়
+  :GENERIC_LONG: পশ্চিম আফ্রিকা সময়
   :GENERIC_SHORT: ক্যামেরুন সময়
-  :SPECIFIC_LONG: পশ্চিম আফ্রিকা মানক সময়
+  :SPECIFIC_LONG: পশ্চিম আফ্রিকা সময়
   :SPECIFIC_SHORT: GMT +১
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -463,13 +463,13 @@ Africa/El_Aaiun:
   :EXEMPLAR_LOCATION: এল আহইউন
 Africa/Freetown:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: সিয়েরা লিওন সময়
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
   :GENERIC_SHORT: সিয়েরা লিওন সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -634,9 +634,9 @@ Africa/Kinshasa:
   :LOCALIZED_GMT: GMT +০১:০০
   :LOCALIZED_GMT_SHORT: GMT +১
   :GENERIC_LOCATION: কিনশাসা সময়
-  :GENERIC_LONG: পশ্চিম আফ্রিকা মানক সময়
+  :GENERIC_LONG: পশ্চিম আফ্রিকা সময়
   :GENERIC_SHORT: কিনশাসা সময়
-  :SPECIFIC_LONG: পশ্চিম আফ্রিকা মানক সময়
+  :SPECIFIC_LONG: পশ্চিম আফ্রিকা সময়
   :SPECIFIC_SHORT: GMT +১
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -655,9 +655,9 @@ Africa/Lagos:
   :LOCALIZED_GMT: GMT +০১:০০
   :LOCALIZED_GMT_SHORT: GMT +১
   :GENERIC_LOCATION: নাইজেরিয়া সময়
-  :GENERIC_LONG: পশ্চিম আফ্রিকা মানক সময়
+  :GENERIC_LONG: পশ্চিম আফ্রিকা সময়
   :GENERIC_SHORT: নাইজেরিয়া সময়
-  :SPECIFIC_LONG: পশ্চিম আফ্রিকা মানক সময়
+  :SPECIFIC_LONG: পশ্চিম আফ্রিকা সময়
   :SPECIFIC_SHORT: GMT +১
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -676,9 +676,9 @@ Africa/Libreville:
   :LOCALIZED_GMT: GMT +০১:০০
   :LOCALIZED_GMT_SHORT: GMT +১
   :GENERIC_LOCATION: গ্যাবন সময়
-  :GENERIC_LONG: পশ্চিম আফ্রিকা মানক সময়
+  :GENERIC_LONG: পশ্চিম আফ্রিকা সময়
   :GENERIC_SHORT: গ্যাবন সময়
-  :SPECIFIC_LONG: পশ্চিম আফ্রিকা মানক সময়
+  :SPECIFIC_LONG: পশ্চিম আফ্রিকা সময়
   :SPECIFIC_SHORT: GMT +১
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -694,13 +694,13 @@ Africa/Libreville:
   :EXEMPLAR_LOCATION: লিব্রুভিল
 Africa/Lome:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: টোগো সময়
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
   :GENERIC_SHORT: টোগো সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -718,9 +718,9 @@ Africa/Luanda:
   :LOCALIZED_GMT: GMT +০১:০০
   :LOCALIZED_GMT_SHORT: GMT +১
   :GENERIC_LOCATION: অ্যাঙ্গোলা সময়
-  :GENERIC_LONG: পশ্চিম আফ্রিকা মানক সময়
+  :GENERIC_LONG: পশ্চিম আফ্রিকা সময়
   :GENERIC_SHORT: অ্যাঙ্গোলা সময়
-  :SPECIFIC_LONG: পশ্চিম আফ্রিকা মানক সময়
+  :SPECIFIC_LONG: পশ্চিম আফ্রিকা সময়
   :SPECIFIC_SHORT: GMT +১
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -781,9 +781,9 @@ Africa/Malabo:
   :LOCALIZED_GMT: GMT +০১:০০
   :LOCALIZED_GMT_SHORT: GMT +১
   :GENERIC_LOCATION: নিরক্ষীয় গিনি সময়
-  :GENERIC_LONG: পশ্চিম আফ্রিকা মানক সময়
+  :GENERIC_LONG: পশ্চিম আফ্রিকা সময়
   :GENERIC_SHORT: নিরক্ষীয় গিনি সময়
-  :SPECIFIC_LONG: পশ্চিম আফ্রিকা মানক সময়
+  :SPECIFIC_LONG: পশ্চিম আফ্রিকা সময়
   :SPECIFIC_SHORT: GMT +১
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -883,13 +883,13 @@ Africa/Mogadishu:
   :EXEMPLAR_LOCATION: মাওগাদিসু
 Africa/Monrovia:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: লাইবেরিয়া সময়
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
   :GENERIC_SHORT: লাইবেরিয়া সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -928,9 +928,9 @@ Africa/Ndjamena:
   :LOCALIZED_GMT: GMT +০১:০০
   :LOCALIZED_GMT_SHORT: GMT +১
   :GENERIC_LOCATION: চাদ সময়
-  :GENERIC_LONG: পশ্চিম আফ্রিকা মানক সময়
+  :GENERIC_LONG: পশ্চিম আফ্রিকা সময়
   :GENERIC_SHORT: চাদ সময়
-  :SPECIFIC_LONG: পশ্চিম আফ্রিকা মানক সময়
+  :SPECIFIC_LONG: পশ্চিম আফ্রিকা সময়
   :SPECIFIC_SHORT: GMT +১
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -949,9 +949,9 @@ Africa/Niamey:
   :LOCALIZED_GMT: GMT +০১:০০
   :LOCALIZED_GMT_SHORT: GMT +১
   :GENERIC_LOCATION: নাইজার সময়
-  :GENERIC_LONG: পশ্চিম আফ্রিকা মানক সময়
+  :GENERIC_LONG: পশ্চিম আফ্রিকা সময়
   :GENERIC_SHORT: নাইজার সময়
-  :SPECIFIC_LONG: পশ্চিম আফ্রিকা মানক সময়
+  :SPECIFIC_LONG: পশ্চিম আফ্রিকা সময়
   :SPECIFIC_SHORT: GMT +১
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -967,13 +967,13 @@ Africa/Niamey:
   :EXEMPLAR_LOCATION: নিয়ামে
 Africa/Nouakchott:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: মরিতানিয়া সময়
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
   :GENERIC_SHORT: মরিতানিয়া সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -988,13 +988,13 @@ Africa/Nouakchott:
   :EXEMPLAR_LOCATION: নোয়াকশট
 Africa/Ouagadougou:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: বুরকিনা ফাসো সময়
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
   :GENERIC_SHORT: বুরকিনা ফাসো সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -1012,9 +1012,9 @@ Africa/Porto-Novo:
   :LOCALIZED_GMT: GMT +০১:০০
   :LOCALIZED_GMT_SHORT: GMT +১
   :GENERIC_LOCATION: বেনিন সময়
-  :GENERIC_LONG: পশ্চিম আফ্রিকা মানক সময়
+  :GENERIC_LONG: পশ্চিম আফ্রিকা সময়
   :GENERIC_SHORT: বেনিন সময়
-  :SPECIFIC_LONG: পশ্চিম আফ্রিকা মানক সময়
+  :SPECIFIC_LONG: পশ্চিম আফ্রিকা সময়
   :SPECIFIC_SHORT: GMT +১
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -1030,13 +1030,13 @@ Africa/Porto-Novo:
   :EXEMPLAR_LOCATION: পোর্টো-নোভো
 Africa/Sao_Tome:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: সাওটোমা ও প্রিন্সিপি সময়
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
   :GENERIC_SHORT: সাওটোমা ও প্রিন্সিপি সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -1051,13 +1051,13 @@ Africa/Sao_Tome:
   :EXEMPLAR_LOCATION: সাও টোম
 Africa/Timbuktu:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: মালি সময়
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
   :GENERIC_SHORT: মালি সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -1533,7 +1533,7 @@ America/Aruba:
   :ZONE_ID_SHORT: awaua
   :EXEMPLAR_LOCATION: এরুবা
 America/Asuncion:
-  :offset: -14400000
+  :offset: -10800000
   :LOCALIZED_GMT: GMT -০৩:০০
   :LOCALIZED_GMT_SHORT: GMT -৩
   :GENERIC_LOCATION: প্যারাগুয়ে সময়
@@ -2078,6 +2078,27 @@ America/Costa_Rica:
   :ISO_EXTENDED_LOCAL_FULL: "-06:00"
   :ZONE_ID_SHORT: crsjo
   :EXEMPLAR_LOCATION: কোস্টারিকা
+America/Coyhaique:
+  :offset: -10800000
+  :LOCALIZED_GMT: GMT -০৩:০০
+  :LOCALIZED_GMT_SHORT: GMT -৩
+  :GENERIC_LOCATION: কোয়আইকে সময়
+  :GENERIC_LONG: চিলি সময়
+  :GENERIC_SHORT: কোয়আইকে সময়
+  :SPECIFIC_LONG: চিলি গ্রীষ্মকালীন সময়
+  :SPECIFIC_SHORT: GMT -৩
+  :ISO_BASIC_SHORT: "-03"
+  :ISO_BASIC_LOCAL_SHORT: "-03"
+  :ISO_BASIC_FIXED: "-0300"
+  :ISO_BASIC_LOCAL_FIXED: "-0300"
+  :ISO_BASIC_FULL: "-0300"
+  :ISO_BASIC_LOCAL_FULL: "-0300"
+  :ISO_EXTENDED_FIXED: "-03:00"
+  :ISO_EXTENDED_LOCAL_FIXED: "-03:00"
+  :ISO_EXTENDED_FULL: "-03:00"
+  :ISO_EXTENDED_LOCAL_FULL: "-03:00"
+  :ZONE_ID_SHORT: clcxq
+  :EXEMPLAR_LOCATION: কোয়আইকে
 America/Creston:
   :offset: -25200000
   :LOCALIZED_GMT: GMT -০৭:০০
@@ -2143,13 +2164,13 @@ America/Curacao:
   :EXEMPLAR_LOCATION: কুরাসাও
 America/Danmarkshavn:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: ডানমার্কশ্যাভন সময়
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
   :GENERIC_SHORT: ডানমার্কশ্যাভন সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -3846,9 +3867,9 @@ America/Port_of_Spain:
   :offset: -14400000
   :LOCALIZED_GMT: GMT -০৪:০০
   :LOCALIZED_GMT_SHORT: GMT -৪
-  :GENERIC_LOCATION: ত্রিনিনাদ ও টোব্যাগো সময়
+  :GENERIC_LOCATION: ত্রিনিদাদ ও টোবাগো সময়
   :GENERIC_LONG: অতলান্তিক মানক সময়
-  :GENERIC_SHORT: ত্রিনিনাদ ও টোব্যাগো সময়
+  :GENERIC_SHORT: ত্রিনিদাদ ও টোবাগো সময়
   :SPECIFIC_LONG: অতলান্তিক মানক সময়
   :SPECIFIC_SHORT: GMT -৪
   :ISO_BASIC_SHORT: "-04"
@@ -4833,9 +4854,9 @@ Antarctica/South_Pole:
   :offset: 43200000
   :LOCALIZED_GMT: GMT +১৩:০০
   :LOCALIZED_GMT_SHORT: GMT +১৩
-  :GENERIC_LOCATION: নিউজিল্যান্ড সময়
+  :GENERIC_LOCATION: ম্যাকমুর্ডো সময়
   :GENERIC_LONG: নিউজিল্যান্ড সময়
-  :GENERIC_SHORT: নিউজিল্যান্ড সময়
+  :GENERIC_SHORT: ম্যাকমুর্ডো সময়
   :SPECIFIC_LONG: নিউজিল্যান্ড দিবালোক সময়
   :SPECIFIC_SHORT: GMT +১৩
   :ISO_BASIC_SHORT: "+13"
@@ -4848,8 +4869,8 @@ Antarctica/South_Pole:
   :ISO_EXTENDED_LOCAL_FIXED: "+13:00"
   :ISO_EXTENDED_FULL: "+13:00"
   :ISO_EXTENDED_LOCAL_FULL: "+13:00"
-  :ZONE_ID_SHORT: nzakl
-  :EXEMPLAR_LOCATION: অকল্যান্ড
+  :ZONE_ID_SHORT: aqmcm
+  :EXEMPLAR_LOCATION: ম্যাকমুর্ডো
 Antarctica/Syowa:
   :offset: 10800000
   :LOCALIZED_GMT: GMT +০৩:০০
@@ -4873,13 +4894,13 @@ Antarctica/Syowa:
   :EXEMPLAR_LOCATION: সিওয়া
 Antarctica/Troll:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: ট্রল সময়
   :GENERIC_LONG: ট্রল সময়
   :GENERIC_SHORT: ট্রল সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -5002,9 +5023,9 @@ Asia/Anadyr:
   :LOCALIZED_GMT: GMT +১২:০০
   :LOCALIZED_GMT_SHORT: GMT +১২
   :GENERIC_LOCATION: অ্যানাডির সময়
-  :GENERIC_LONG: অনদ্য্র্ মানক সময়
+  :GENERIC_LONG: পিত্রেপ্যাভলস্ক- ক্যামচ্যাটস্কি মান সময়
   :GENERIC_SHORT: অ্যানাডির সময়
-  :SPECIFIC_LONG: অনদ্য্র্ মানক সময়
+  :SPECIFIC_LONG: পিত্রেপ্যাভলস্ক- ক্যামচ্যাটস্কি মান সময়
   :SPECIFIC_SHORT: GMT +১২
   :ISO_BASIC_SHORT: "+12"
   :ISO_BASIC_LOCAL_SHORT: "+12"
@@ -5212,9 +5233,9 @@ Asia/Barnaul:
   :LOCALIZED_GMT: GMT +০৭:০০
   :LOCALIZED_GMT_SHORT: GMT +৭
   :GENERIC_LOCATION: বার্নৌল সময়
-  :GENERIC_LONG: বার্নৌল সময়
+  :GENERIC_LONG: ক্রাসনোয়ার্স্কি মানক সময়
   :GENERIC_SHORT: বার্নৌল সময়
-  :SPECIFIC_LONG: GMT +০৭:০০
+  :SPECIFIC_LONG: ক্রাসনোয়ার্স্কি মানক সময়
   :SPECIFIC_SHORT: GMT +৭
   :ISO_BASIC_SHORT: "+07"
   :ISO_BASIC_LOCAL_SHORT: "+07"
@@ -5548,9 +5569,9 @@ Asia/Famagusta:
   :LOCALIZED_GMT: GMT +০২:০০
   :LOCALIZED_GMT_SHORT: GMT +২
   :GENERIC_LOCATION: ফামাগাস্তা সময়
-  :GENERIC_LONG: ফামাগাস্তা সময়
+  :GENERIC_LONG: পূর্ব ইউরোপীয় সময়
   :GENERIC_SHORT: ফামাগাস্তা সময়
-  :SPECIFIC_LONG: GMT +০২:০০
+  :SPECIFIC_LONG: পূর্ব ইউরোপীয় মানক সময়
   :SPECIFIC_SHORT: GMT +২
   :ISO_BASIC_SHORT: "+02"
   :ISO_BASIC_LOCAL_SHORT: "+02"
@@ -6220,9 +6241,9 @@ Asia/Novosibirsk:
   :LOCALIZED_GMT: GMT +০৭:০০
   :LOCALIZED_GMT_SHORT: GMT +৭
   :GENERIC_LOCATION: নভোসিবির্স্ক সময়
-  :GENERIC_LONG: নোভোসিবির্স্ক মানক সময়
+  :GENERIC_LONG: ক্রাসনোয়ার্স্কি মানক সময়
   :GENERIC_SHORT: নভোসিবির্স্ক সময়
-  :SPECIFIC_LONG: নোভোসিবির্স্ক মানক সময়
+  :SPECIFIC_LONG: ক্রাসনোয়ার্স্কি মানক সময়
   :SPECIFIC_SHORT: GMT +৭
   :ISO_BASIC_SHORT: "+07"
   :ISO_BASIC_LOCAL_SHORT: "+07"
@@ -6472,9 +6493,9 @@ Asia/Sakhalin:
   :LOCALIZED_GMT: GMT +১১:০০
   :LOCALIZED_GMT_SHORT: GMT +১১
   :GENERIC_LOCATION: সাখালিন সময়
-  :GENERIC_LONG: সাখালিন মানক সময়
+  :GENERIC_LONG: ম্যাগাডান মানক সময়
   :GENERIC_SHORT: সাখালিন সময়
-  :SPECIFIC_LONG: সাখালিন মানক সময়
+  :SPECIFIC_LONG: ম্যাগাডান মানক সময়
   :SPECIFIC_SHORT: GMT +১১
   :ISO_BASIC_SHORT: "+11"
   :ISO_BASIC_LOCAL_SHORT: "+11"
@@ -6577,9 +6598,9 @@ Asia/Srednekolymsk:
   :LOCALIZED_GMT: GMT +১১:০০
   :LOCALIZED_GMT_SHORT: GMT +১১
   :GENERIC_LOCATION: স্রেদনেকোলয়মস্ক সময়
-  :GENERIC_LONG: স্রেদনেকোলয়মস্ক সময়
+  :GENERIC_LONG: ম্যাগাডান মানক সময়
   :GENERIC_SHORT: স্রেদনেকোলয়মস্ক সময়
-  :SPECIFIC_LONG: GMT +১১:০০
+  :SPECIFIC_LONG: ম্যাগাডান মানক সময়
   :SPECIFIC_SHORT: GMT +১১
   :ISO_BASIC_SHORT: "+11"
   :ISO_BASIC_LOCAL_SHORT: "+11"
@@ -6766,9 +6787,9 @@ Asia/Tomsk:
   :LOCALIZED_GMT: GMT +০৭:০০
   :LOCALIZED_GMT_SHORT: GMT +৭
   :GENERIC_LOCATION: তোমস্ক সময়
-  :GENERIC_LONG: তোমস্ক সময়
+  :GENERIC_LONG: ক্রাসনোয়ার্স্কি মানক সময়
   :GENERIC_SHORT: তোমস্ক সময়
-  :SPECIFIC_LONG: GMT +০৭:০০
+  :SPECIFIC_LONG: ক্রাসনোয়ার্স্কি মানক সময়
   :SPECIFIC_SHORT: GMT +৭
   :ISO_BASIC_SHORT: "+07"
   :ISO_BASIC_LOCAL_SHORT: "+07"
@@ -7057,13 +7078,13 @@ Atlantic/Bermuda:
   :EXEMPLAR_LOCATION: বারমুডা
 Atlantic/Canary:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: কানেরি সময়
   :GENERIC_LONG: পশ্চিম ইউরোপীয় সময়
   :GENERIC_SHORT: কানেরি সময়
   :SPECIFIC_LONG: পশ্চিম ইউরোপীয় মানক সময়
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -7099,13 +7120,13 @@ Atlantic/Cape_Verde:
   :EXEMPLAR_LOCATION: কেপ ভার্দ
 Atlantic/Faeroe:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: ফ্যারো দ্বীপপুঞ্জ সময়
   :GENERIC_LONG: পশ্চিম ইউরোপীয় সময়
   :GENERIC_SHORT: ফ্যারো দ্বীপপুঞ্জ সময়
   :SPECIFIC_LONG: পশ্চিম ইউরোপীয় মানক সময়
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -7120,13 +7141,13 @@ Atlantic/Faeroe:
   :EXEMPLAR_LOCATION: ফ্যারো
 Atlantic/Faroe:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: ফ্যারো দ্বীপপুঞ্জ সময়
   :GENERIC_LONG: পশ্চিম ইউরোপীয় সময়
   :GENERIC_SHORT: ফ্যারো দ্বীপপুঞ্জ সময়
   :SPECIFIC_LONG: পশ্চিম ইউরোপীয় মানক সময়
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -7162,13 +7183,13 @@ Atlantic/Jan_Mayen:
   :EXEMPLAR_LOCATION: লঞ্জিয়বিয়েঁন
 Atlantic/Madeira:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: মাডেইরা সময়
   :GENERIC_LONG: পশ্চিম ইউরোপীয় সময়
   :GENERIC_SHORT: মাডেইরা সময়
   :SPECIFIC_LONG: পশ্চিম ইউরোপীয় মানক সময়
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -7183,13 +7204,13 @@ Atlantic/Madeira:
   :EXEMPLAR_LOCATION: মাডেইরা
 Atlantic/Reykjavik:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: আইসল্যান্ড সময়
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
   :GENERIC_SHORT: আইসল্যান্ড সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -7225,13 +7246,13 @@ Atlantic/South_Georgia:
   :EXEMPLAR_LOCATION: দক্ষিণ জর্জিয়া
 Atlantic/St_Helena:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: সেন্ট হেলেনা সময়
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
   :GENERIC_SHORT: সেন্ট হেলেনা সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -8191,13 +8212,13 @@ Egypt:
   :EXEMPLAR_LOCATION: কায়রো
 Eire:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: আয়ারল্যান্ড সময়
   :GENERIC_LONG: আয়ারল্যান্ড সময়
   :GENERIC_SHORT: আয়ারল্যান্ড সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -8212,13 +8233,13 @@ Eire:
   :EXEMPLAR_LOCATION: ডাবলিন
 Etc/GMT:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
+  :GENERIC_LOCATION: GMT +০০:০০
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
-  :GENERIC_SHORT: GMT
+  :GENERIC_SHORT: GMT +০
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -8233,13 +8254,13 @@ Etc/GMT:
   :EXEMPLAR_LOCATION: অজানা শহর
 Etc/GMT+0:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
+  :GENERIC_LOCATION: GMT +০০:০০
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
-  :GENERIC_SHORT: GMT
+  :GENERIC_SHORT: GMT +০
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -8506,13 +8527,13 @@ Etc/GMT+9:
   :EXEMPLAR_LOCATION: অজানা শহর
 Etc/GMT-0:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
+  :GENERIC_LOCATION: GMT +০০:০০
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
-  :GENERIC_SHORT: GMT
+  :GENERIC_SHORT: GMT +০
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -8821,13 +8842,13 @@ Etc/GMT-9:
   :EXEMPLAR_LOCATION: অজানা শহর
 Etc/GMT0:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
+  :GENERIC_LOCATION: GMT +০০:০০
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
-  :GENERIC_SHORT: GMT
+  :GENERIC_SHORT: GMT +০
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -8842,13 +8863,13 @@ Etc/GMT0:
   :EXEMPLAR_LOCATION: অজানা শহর
 Etc/Greenwich:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
+  :GENERIC_LOCATION: GMT +০০:০০
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
-  :GENERIC_SHORT: GMT
+  :GENERIC_SHORT: GMT +০
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -8863,11 +8884,11 @@ Etc/Greenwich:
   :EXEMPLAR_LOCATION: অজানা শহর
 Etc/UCT:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
+  :GENERIC_LOCATION: GMT +০০:০০
+  :GENERIC_LONG: GMT +০০:০০
+  :GENERIC_SHORT: GMT +০
   :SPECIFIC_LONG: স্থানাংকিত আন্তর্জাতিক সময়
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -8884,11 +8905,11 @@ Etc/UCT:
   :EXEMPLAR_LOCATION: অজানা শহর
 Etc/UTC:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
+  :GENERIC_LOCATION: GMT +০০:০০
+  :GENERIC_LONG: GMT +০০:০০
+  :GENERIC_SHORT: GMT +০
   :SPECIFIC_LONG: স্থানাংকিত আন্তর্জাতিক সময়
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -8905,11 +8926,11 @@ Etc/UTC:
   :EXEMPLAR_LOCATION: অজানা শহর
 Etc/Universal:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
+  :GENERIC_LOCATION: GMT +০০:০০
+  :GENERIC_LONG: GMT +০০:০০
+  :GENERIC_SHORT: GMT +০
   :SPECIFIC_LONG: স্থানাংকিত আন্তর্জাতিক সময়
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -8926,11 +8947,11 @@ Etc/Universal:
   :EXEMPLAR_LOCATION: অজানা শহর
 Etc/Zulu:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
+  :GENERIC_LOCATION: GMT +০০:০০
+  :GENERIC_LONG: GMT +০০:০০
+  :GENERIC_SHORT: GMT +০
   :SPECIFIC_LONG: স্থানাংকিত আন্তর্জাতিক সময়
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -8992,9 +9013,9 @@ Europe/Astrakhan:
   :LOCALIZED_GMT: GMT +০৪:০০
   :LOCALIZED_GMT_SHORT: GMT +৪
   :GENERIC_LOCATION: আসট্রাখান সময়
-  :GENERIC_LONG: আসট্রাখান সময়
+  :GENERIC_LONG: সামারা মান সময়
   :GENERIC_SHORT: আসট্রাখান সময়
-  :SPECIFIC_LONG: GMT +০৪:০০
+  :SPECIFIC_LONG: সামারা মান সময়
   :SPECIFIC_SHORT: GMT +৪
   :ISO_BASIC_SHORT: "+04"
   :ISO_BASIC_LOCAL_SHORT: "+04"
@@ -9031,13 +9052,13 @@ Europe/Athens:
   :EXEMPLAR_LOCATION: এথেন্স
 Europe/Belfast:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: যুক্তরাজ্য সময়
   :GENERIC_LONG: যুক্তরাজ্য সময়
   :GENERIC_SHORT: যুক্তরাজ্য সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -9241,13 +9262,13 @@ Europe/Copenhagen:
   :EXEMPLAR_LOCATION: কোপেনহেগেন
 Europe/Dublin:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: আয়ারল্যান্ড সময়
   :GENERIC_LONG: আয়ারল্যান্ড সময়
   :GENERIC_SHORT: আয়ারল্যান্ড সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -9283,13 +9304,13 @@ Europe/Gibraltar:
   :EXEMPLAR_LOCATION: জিব্রাল্টার
 Europe/Guernsey:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: গার্নসি সময়
   :GENERIC_LONG: গার্নসি সময়
   :GENERIC_SHORT: গার্নসি সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -9325,13 +9346,13 @@ Europe/Helsinki:
   :EXEMPLAR_LOCATION: হেলসিঙ্কি
 Europe/Isle_of_Man:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: আইল অফ ম্যান সময়
   :GENERIC_LONG: আইল অফ ম্যান সময়
   :GENERIC_SHORT: আইল অফ ম্যান সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -9367,13 +9388,13 @@ Europe/Istanbul:
   :EXEMPLAR_LOCATION: ইস্তানবুল
 Europe/Jersey:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: জার্সি সময়
   :GENERIC_LONG: জার্সি সময়
   :GENERIC_SHORT: জার্সি সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -9433,9 +9454,9 @@ Europe/Kirov:
   :LOCALIZED_GMT: GMT +০৩:০০
   :LOCALIZED_GMT_SHORT: GMT +৩
   :GENERIC_LOCATION: কিরোভ সময়
-  :GENERIC_LONG: কিরোভ সময়
+  :GENERIC_LONG: মস্কো মানক সময়
   :GENERIC_SHORT: কিরোভ সময়
-  :SPECIFIC_LONG: GMT +০৩:০০
+  :SPECIFIC_LONG: মস্কো মানক সময়
   :SPECIFIC_SHORT: GMT +৩
   :ISO_BASIC_SHORT: "+03"
   :ISO_BASIC_LOCAL_SHORT: "+03"
@@ -9472,13 +9493,13 @@ Europe/Kyiv:
   :EXEMPLAR_LOCATION: কিয়েভ
 Europe/Lisbon:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: পর্তুগাল সময়
   :GENERIC_LONG: পশ্চিম ইউরোপীয় সময়
   :GENERIC_SHORT: পর্তুগাল সময়
   :SPECIFIC_LONG: পশ্চিম ইউরোপীয় মানক সময়
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -9514,13 +9535,13 @@ Europe/Ljubljana:
   :EXEMPLAR_LOCATION: লুবলিয়ানা
 Europe/London:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: যুক্তরাজ্য সময়
   :GENERIC_LONG: যুক্তরাজ্য সময়
   :GENERIC_SHORT: যুক্তরাজ্য সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -9895,9 +9916,9 @@ Europe/Saratov:
   :LOCALIZED_GMT: GMT +০৪:০০
   :LOCALIZED_GMT_SHORT: GMT +৪
   :GENERIC_LOCATION: সারাটোভ সময়
-  :GENERIC_LONG: সারাটোভ সময়
+  :GENERIC_LONG: সামারা মান সময়
   :GENERIC_SHORT: সারাটোভ সময়
-  :SPECIFIC_LONG: GMT +০৪:০০
+  :SPECIFIC_LONG: সামারা মান সময়
   :SPECIFIC_SHORT: GMT +৪
   :ISO_BASIC_SHORT: "+04"
   :ISO_BASIC_LOCAL_SHORT: "+04"
@@ -10063,9 +10084,9 @@ Europe/Ulyanovsk:
   :LOCALIZED_GMT: GMT +০৪:০০
   :LOCALIZED_GMT_SHORT: GMT +৪
   :GENERIC_LOCATION: উলিয়ানোভস্ক সময়
-  :GENERIC_LONG: উলিয়ানোভস্ক সময়
+  :GENERIC_LONG: সামারা মান সময়
   :GENERIC_SHORT: উলিয়ানোভস্ক সময়
-  :SPECIFIC_LONG: GMT +০৪:০০
+  :SPECIFIC_LONG: সামারা মান সময়
   :SPECIFIC_SHORT: GMT +৪
   :ISO_BASIC_SHORT: "+04"
   :ISO_BASIC_LOCAL_SHORT: "+04"
@@ -10291,13 +10312,13 @@ Europe/Zurich:
   :EXEMPLAR_LOCATION: জুরিখ
 GB:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: যুক্তরাজ্য সময়
   :GENERIC_LONG: যুক্তরাজ্য সময়
   :GENERIC_SHORT: যুক্তরাজ্য সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -10312,13 +10333,13 @@ GB:
   :EXEMPLAR_LOCATION: লন্ডন
 GB-Eire:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: যুক্তরাজ্য সময়
   :GENERIC_LONG: যুক্তরাজ্য সময়
   :GENERIC_SHORT: যুক্তরাজ্য সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -10333,13 +10354,13 @@ GB-Eire:
   :EXEMPLAR_LOCATION: লন্ডন
 GMT:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
+  :GENERIC_LOCATION: GMT +০০:০০
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
-  :GENERIC_SHORT: GMT
+  :GENERIC_SHORT: GMT +০
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -10354,13 +10375,13 @@ GMT:
   :EXEMPLAR_LOCATION: অজানা শহর
 GMT+0:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
+  :GENERIC_LOCATION: GMT +০০:০০
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
-  :GENERIC_SHORT: GMT
+  :GENERIC_SHORT: GMT +০
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -10375,13 +10396,13 @@ GMT+0:
   :EXEMPLAR_LOCATION: অজানা শহর
 GMT-0:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
+  :GENERIC_LOCATION: GMT +০০:০০
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
-  :GENERIC_SHORT: GMT
+  :GENERIC_SHORT: GMT +০
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -10396,13 +10417,13 @@ GMT-0:
   :EXEMPLAR_LOCATION: অজানা শহর
 GMT0:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
+  :GENERIC_LOCATION: GMT +০০:০০
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
-  :GENERIC_SHORT: GMT
+  :GENERIC_SHORT: GMT +০
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -10417,13 +10438,13 @@ GMT0:
   :EXEMPLAR_LOCATION: অজানা শহর
 Greenwich:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
+  :GENERIC_LOCATION: GMT +০০:০০
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
-  :GENERIC_SHORT: GMT
+  :GENERIC_SHORT: GMT +০
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -10480,13 +10501,13 @@ Hongkong:
   :EXEMPLAR_LOCATION: হং কং
 Iceland:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: আইসল্যান্ড সময়
   :GENERIC_LONG: গ্রীনিচ মিন টাইম
   :GENERIC_SHORT: আইসল্যান্ড সময়
   :SPECIFIC_LONG: গ্রীনিচ মিন টাইম
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -11238,9 +11259,9 @@ Pacific/Enderbury:
   :offset: 46800000
   :LOCALIZED_GMT: GMT +১৩:০০
   :LOCALIZED_GMT_SHORT: GMT +১৩
-  :GENERIC_LOCATION: এন্ডারবারি সময়
+  :GENERIC_LOCATION: ক্যান্টন সময়
   :GENERIC_LONG: ফোনিক্স দ্বীপপুঞ্জ সময়
-  :GENERIC_SHORT: এন্ডারবারি সময়
+  :GENERIC_SHORT: ক্যান্টন সময়
   :SPECIFIC_LONG: ফোনিক্স দ্বীপপুঞ্জ সময়
   :SPECIFIC_SHORT: GMT +১৩
   :ISO_BASIC_SHORT: "+13"
@@ -11254,7 +11275,7 @@ Pacific/Enderbury:
   :ISO_EXTENDED_FULL: "+13:00"
   :ISO_EXTENDED_LOCAL_FULL: "+13:00"
   :ZONE_ID_SHORT: kipho
-  :EXEMPLAR_LOCATION: এন্ডারবারি
+  :EXEMPLAR_LOCATION: ক্যান্টন
 Pacific/Fakaofo:
   :offset: 46800000
   :LOCALIZED_GMT: GMT +১৩:০০
@@ -11448,9 +11469,9 @@ Pacific/Kanton:
   :offset: 46800000
   :LOCALIZED_GMT: GMT +১৩:০০
   :LOCALIZED_GMT_SHORT: GMT +১৩
-  :GENERIC_LOCATION: এন্ডারবারি সময়
+  :GENERIC_LOCATION: ক্যান্টন সময়
   :GENERIC_LONG: ফোনিক্স দ্বীপপুঞ্জ সময়
-  :GENERIC_SHORT: এন্ডারবারি সময়
+  :GENERIC_SHORT: ক্যান্টন সময়
   :SPECIFIC_LONG: ফোনিক্স দ্বীপপুঞ্জ সময়
   :SPECIFIC_SHORT: GMT +১৩
   :ISO_BASIC_SHORT: "+13"
@@ -11464,7 +11485,7 @@ Pacific/Kanton:
   :ISO_EXTENDED_FULL: "+13:00"
   :ISO_EXTENDED_LOCAL_FULL: "+13:00"
   :ZONE_ID_SHORT: kipho
-  :EXEMPLAR_LOCATION: এন্ডারবারি
+  :EXEMPLAR_LOCATION: ক্যান্টন
 Pacific/Kiritimati:
   :offset: 50400000
   :LOCALIZED_GMT: GMT +১৪:০০
@@ -12034,13 +12055,13 @@ Poland:
   :EXEMPLAR_LOCATION: ওয়ারশ
 Portugal:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: পর্তুগাল সময়
   :GENERIC_LONG: পশ্চিম ইউরোপীয় সময়
   :GENERIC_SHORT: পর্তুগাল সময়
   :SPECIFIC_LONG: পশ্চিম ইউরোপীয় মানক সময়
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -12139,11 +12160,11 @@ Turkey:
   :EXEMPLAR_LOCATION: ইস্তানবুল
 UCT:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
+  :GENERIC_LOCATION: GMT +০০:০০
+  :GENERIC_LONG: GMT +০০:০০
+  :GENERIC_SHORT: GMT +০
   :SPECIFIC_LONG: স্থানাংকিত আন্তর্জাতিক সময়
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -12412,11 +12433,11 @@ US/Samoa:
   :EXEMPLAR_LOCATION: প্যাগো প্যাগো
 UTC:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
+  :GENERIC_LOCATION: GMT +০০:০০
+  :GENERIC_LONG: GMT +০০:০০
+  :GENERIC_SHORT: GMT +০
   :SPECIFIC_LONG: স্থানাংকিত আন্তর্জাতিক সময়
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -12433,11 +12454,11 @@ UTC:
   :EXEMPLAR_LOCATION: অজানা শহর
 Universal:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
+  :GENERIC_LOCATION: GMT +০০:০০
+  :GENERIC_LONG: GMT +০০:০০
+  :GENERIC_SHORT: GMT +০
   :SPECIFIC_LONG: স্থানাংকিত আন্তর্জাতিক সময়
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -12475,13 +12496,13 @@ W-SU:
   :EXEMPLAR_LOCATION: মস্কো
 WET:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
   :GENERIC_LOCATION: পর্তুগাল সময়
   :GENERIC_LONG: পশ্চিম ইউরোপীয় সময়
   :GENERIC_SHORT: পর্তুগাল সময়
   :SPECIFIC_LONG: পশ্চিম ইউরোপীয় মানক সময়
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +০
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -12496,11 +12517,11 @@ WET:
   :EXEMPLAR_LOCATION: লিসবন
 Zulu:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT +০০:০০
+  :LOCALIZED_GMT_SHORT: GMT +০
+  :GENERIC_LOCATION: GMT +০০:০০
+  :GENERIC_LONG: GMT +০০:০০
+  :GENERIC_SHORT: GMT +০
   :SPECIFIC_LONG: স্থানাংকিত আন্তর্জাতিক সময়
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z

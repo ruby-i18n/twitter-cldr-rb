@@ -508,6 +508,10 @@
           :other: "il y a {0} ans"
     :year-narrow: 
       :display_name: a
+      :relative: 
+        -1: "l’an dernier"
+        0: "cette année"
+        1: "l’an prochain"
       :relative_time: 
         :future: 
           :one: "+{0} a"
@@ -517,6 +521,10 @@
           :other: "-{0} a"
     :year-short: 
       :display_name: a
+      :relative: 
+        -1: "l’an dernier"
+        0: "cette année"
+        1: "l’an prochain"
       :relative_time: 
         :future: 
           :one: "dans {0} a"

@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -28,9 +30,7 @@
         :standard: "სამხრეთ აფრიკის დრო"
     :Africa_Western: 
       :long: 
-        :daylight: "დასავლეთ აფრიკის ზაფხულის დრო"
-        :generic: "დასავლეთ აფრიკის დრო"
-        :standard: "დასავლეთ აფრიკის სტანდარტული დრო"
+        :standard: "დასავლეთ აფრიკის დრო"
     :Alaska: 
       :long: 
         :daylight: "ალასკის ზაფხულის დრო"
@@ -268,6 +268,9 @@
     :Guyana: 
       :long: 
         :standard: "გაიანის დრო"
+    :Hawaii: 
+      :long: 
+        :standard: "ჰავაისა და ალეუტის სტანდარტული დრო"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "ჰავაისა და ალეუტის ზაფხულის დრო"
@@ -777,6 +780,8 @@
       :city: კორდობა
     :America/Costa_Rica: 
       :city: კოსტა-რიკა
+    :America/Coyhaique: 
+      :city: კოიჰაიკე
     :America/Creston: 
       :city: კრესტონი
     :America/Cuiaba: 
@@ -1381,7 +1386,7 @@
     :Pacific/Efate: 
       :city: ეფატე
     :Pacific/Enderbury: 
-      :city: ენდერბური
+      :city: კანტონი
     :Pacific/Fakaofo: 
       :city: ფაკაოფო
     :Pacific/Fiji: 
@@ -1398,8 +1403,6 @@
       :city: გუამი
     :Pacific/Honolulu: 
       :city: ჰონოლულუ
-    :Pacific/Kanton: 
-      :city: კანტონი
     :Pacific/Kiritimati: 
       :city: კირიტიმატი
     :Pacific/Kosrae: 

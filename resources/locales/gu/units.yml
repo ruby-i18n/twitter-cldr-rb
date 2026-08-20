@@ -31,21 +31,24 @@
         :concentr-millimole-per-liter: 
           :one: "{0} મિલિમોલ પ્રતિ લિટર"
           :other: "{0} મિલિમોલ પ્રતિ લિટર"
+        :concentr-ofglucose: 
+          :one: "{0} ગ્લૂકોઝ"
+          :other: "{0} ગ્લૂકોઝ"
+        :concentr-part: 
+          :one: "{0} ભાગ"
+          :other: "{0} ભાગ"
+        :concentr-part-per-1e6: 
+          :one: "{0} કણ પ્રતિ મિલિયન"
+          :other: "{0} કણ પ્રતિ મિલિયન"
         :concentr-percent: 
           :one: "{0} ટકા"
           :other: "{0} ટકા"
         :concentr-permille: 
           :one: "{0} પ્રતિમાઈલ"
           :other: "{0} પ્રતિમાઈલ"
-        :concentr-permillion: 
-          :one: "{0} કણ પ્રતિ મિલિયન"
-          :other: "{0} કણ પ્રતિ મિલિયન"
         :concentr-permyriad: 
           :one: "{0} પરમિરિયડ"
           :other: "{0} પરમિરિયડ"
-        :concentr-portion-per-1e9: 
-          :one: "{0} પ્રતિ અબજ ભાગ"
-          :other: "{0} પ્રતિ અબજ ભાગ"
         :consumption-liter-per-100-kilometer: 
           :one: "{0} લિટર પ્રતિ 100 કિલોમીટર"
           :other: "{0} લિટર પ્રતિ 100 કિલોમીટર"
@@ -100,9 +103,6 @@
         :duration-nanosecond: 
           :one: "{0} નેનોસેકંડ"
           :other: "{0} નેનોસેકંડ"
-        :duration-night: 
-          :one: "{0} રાત"
-          :other: "{0} રાત"
         :duration-quarter: 
           :one: "{0} ત્રિમાસિક"
           :other: "{0} ત્રિમાસિક"
@@ -307,9 +307,6 @@
         :speed-kilometer-per-hour: 
           :one: "{0} કિલોમીટર પ્રતિ કલાક"
           :other: "{0} કિલોમીટર પ્રતિ કલાક"
-        :speed-light-speed: 
-          :one: "{0} લાઇટ"
-          :other: "{0} લાઇટ"
         :speed-meter-per-second: 
           :one: "{0} મીટર પ્રતિ સેકન્ડ"
           :other: "{0} મીટર પ્રતિ સેકન્ડ"
@@ -389,9 +386,12 @@
         :area-square-meter: 
           :one: "{0}ચો.મીટર"
           :other: "{0}ચો.મીટર"
-        :concentr-portion-per-1e9: 
-          :one: "{0} પ્રતિ અબજ ભાગ"
-          :other: "{0} પ્રતિ અબજ ભાગ"
+        :concentr-ofglucose: 
+          :one: "{0} ગ્લૂકોઝ"
+          :other: "{0} ગ્લૂકોઝ"
+        :concentr-part: 
+          :one: "{0} ભાગ"
+          :other: "{0} ભાગ"
         :consumption-liter-per-100-kilometer: 
           :one: "{0}લિ/100કિમી"
           :other: "{0}લિ/100કિમી"
@@ -410,9 +410,6 @@
         :duration-month: 
           :one: "{0} મ"
           :other: "{0} મ"
-        :duration-night: 
-          :one: "{0} રાત"
-          :other: "{0} રાત"
         :duration-second: 
           :one: "{0} સે"
           :other: "{0} સે"
@@ -446,9 +443,6 @@
         :speed-kilometer-per-hour: 
           :one: "{0} કિપ્રક"
           :other: "{0} કિપ્રક"
-        :speed-light-speed: 
-          :one: "{0} લાઇટ"
-          :other: "{0} લાઇટ"
         :volume-dessert-spoon-imperial: 
           :one: "{0} dstspn-Imp"
           :other: "{0} dstspn-Imp"
@@ -483,15 +477,23 @@
         :angle-revolution: 
           :one: "{0} પરિભ્રમણ"
           :other: "{0} પરિભ્રમણ"
+        :angle-steradian: 
+          :other: "{0} sr"
         :area-acre: 
           :one: "{0} એકર"
           :other: "{0} એકર"
+        :area-bu-jp: 
+          :other: "{0} bu [JP]"
+        :area-cho: 
+          :other: "{0} cho [JP]"
         :area-dunam: 
           :one: "{0} ડનમ"
           :other: "{0} ડનમ"
         :area-hectare: 
           :one: "{0} હેક્ટર"
           :other: "{0} હેક્ટર"
+        :area-se-jp: 
+          :other: "{0} se [JP]"
         :area-square-centimeter: 
           :one: "{0} ચોરસ સેમી"
           :other: "{0} ચોરસ સેમી"
@@ -519,6 +521,8 @@
         :concentr-karat: 
           :one: "{0} કૅરેટ"
           :other: "{0} કૅરેટ"
+        :concentr-katal: 
+          :other: "{0} kat"
         :concentr-milligram-ofglucose-per-deciliter: 
           :other: "{0} mg/dL"
         :concentr-millimole-per-liter: 
@@ -526,17 +530,23 @@
         :concentr-mole: 
           :one: "{0} મોલ"
           :other: "{0} મોલ"
+        :concentr-ofglucose: 
+          :one: "{0} ગ્લૂકોઝ"
+          :other: "{0} ગ્લૂકોઝ"
+        :concentr-part: 
+          :one: "{0} ભાગ"
+          :other: "{0} ભાગ"
+        :concentr-part-per-1e6: 
+          :other: "{0} ppm"
+        :concentr-part-per-1e9: 
+          :one: "{0} પ્રતિ અબજ ભાગ"
+          :other: "{0} પ્રતિ અબજ ભાગ"
         :concentr-percent: 
           :other: "{0}%"
         :concentr-permille: 
           :other: "{0}‰"
-        :concentr-permillion: 
-          :other: "{0} ppm"
         :concentr-permyriad: 
           :other: "{0}‱"
-        :concentr-portion-per-1e9: 
-          :one: "{0} પ્રતિ અબજ ભાગ"
-          :other: "{0} પ્રતિ અબજ ભાગ"
         :consumption-liter-per-100-kilometer: 
           :one: "{0} લિ/100 કિમી"
           :other: "{0} લિ/100 કિમી"
@@ -581,6 +591,8 @@
         :duration-decade: 
           :one: "{0} દા"
           :other: "{0} દા"
+        :duration-fortnight: 
+          :other: "{0} fw"
         :duration-hour: 
           :one: "{0} કલાક"
           :other: "{0} કલાક"
@@ -614,22 +626,38 @@
           :other: "{0} વર્ષ"
         :electric-ampere: 
           :other: "{0} A"
+        :electric-coulomb: 
+          :other: "{0} C"
+        :electric-farad: 
+          :other: "{0} F"
+        :electric-henry: 
+          :other: "{0} H"
         :electric-milliampere: 
           :other: "{0} mA"
         :electric-ohm: 
           :other: "{0} Ω"
+        :electric-siemens: 
+          :other: "{0} S"
         :electric-volt: 
           :other: "{0} V"
+        :energy-becquerel: 
+          :other: "{0} Bq"
         :energy-british-thermal-unit: 
           :other: "{0} Btu"
+        :energy-british-thermal-unit-it: 
+          :other: "{0} BTU-IT"
         :energy-calorie: 
           :one: "{0} Cal"
           :other: "{0} cal"
+        :energy-calorie-it: 
+          :other: "{0} cal-IT"
         :energy-electronvolt: 
           :other: "{0} eV"
         :energy-foodcalorie: 
           :one: "{0} કેલરી"
           :other: "{0} કેલરી"
+        :energy-gray: 
+          :other: "{0} Gy"
         :energy-joule: 
           :other: "{0} J"
         :energy-kilocalorie: 
@@ -638,9 +666,13 @@
           :other: "{0} kJ"
         :energy-kilowatt-hour: 
           :other: "{0} kWh"
+        :energy-sievert: 
+          :other: "{0} Sv"
         :energy-therm-us: 
           :one: "{0} યુએસ થર્મ"
           :other: "{0} યુએસ થર્મ"
+        :force-kilogram-force: 
+          :other: "{0} kgf"
         :force-kilowatt-hour-per-100-kilometer: 
           :other: "{0} kWh/100km"
         :force-newton: 
@@ -679,6 +711,8 @@
         :length-centimeter: 
           :one: "{0} સેમી"
           :other: "{0} સેમી"
+        :length-chain: 
+          :other: "{0} chain"
         :length-decimeter: 
           :one: "{0} ડેમી"
           :other: "{0} ડેમી"
@@ -694,6 +728,10 @@
         :length-inch: 
           :one: "{0} ઇંચ"
           :other: "{0} ઇંચ"
+        :length-jo-jp: 
+          :other: "{0} jo [JP]"
+        :length-ken: 
+          :other: "{0} ken [JP]"
         :length-kilometer: 
           :one: "{0} કિમી"
           :other: "{0} કિમી"
@@ -728,8 +766,20 @@
         :length-point: 
           :one: "{0} પોઈન્ટ"
           :other: "{0} પોઈન્ટ"
+        :length-ri-jp: 
+          :other: "{0} ri [JP]"
+        :length-rin: 
+          :other: "{0} rin [JP]"
+        :length-rod: 
+          :other: "{0} rod"
+        :length-shaku-cloth: 
+          :other: "{0} shaku [cloth, JP]"
+        :length-shaku-length: 
+          :other: "{0} shaku [JP]"
         :length-solar-radius: 
           :other: "{0} R☉"
+        :length-sun: 
+          :other: "{0} sun [JP]"
         :length-yard: 
           :one: "{0} વાર"
           :other: "{0} વાર"
@@ -742,6 +792,10 @@
           :other: "{0} લક્સ"
         :light-solar-luminosity: 
           :other: "{0} L☉"
+        :magnetic-tesla: 
+          :other: "{0} T"
+        :magnetic-weber: 
+          :other: "{0} Wb"
         :mass-carat: 
           :one: "{0} કેરેટ"
           :other: "{0} કેરેટ"
@@ -749,6 +803,8 @@
           :other: "{0} Da"
         :mass-earth-mass: 
           :other: "{0} M⊕"
+        :mass-fun: 
+          :other: "{0} fun [JP]"
         :mass-grain: 
           :one: "{0} ગ્રેન"
           :other: "{0} ગ્રેન"
@@ -773,6 +829,8 @@
         :mass-pound: 
           :one: "{0} પાઉન્ડ"
           :other: "{0} પાઉન્ડ"
+        :mass-slug: 
+          :other: "{0} slug"
         :mass-solar-mass: 
           :other: "{0} M☉"
         :mass-stone: 
@@ -800,6 +858,8 @@
         :pressure-bar: 
           :one: "{0} બાર"
           :other: "{0} બાર"
+        :pressure-gasoline-energy-density: 
+          :other: "{0} gas E"
         :pressure-hectopascal: 
           :other: "{0} hPa"
         :pressure-inch-ofhg: 
@@ -813,6 +873,8 @@
         :pressure-millimeter-ofhg: 
           :one: "{0} mmHg"
           :other: "{0} mmHg"
+        :pressure-ofhg: 
+          :other: "{0} Hg"
         :pressure-pascal: 
           :other: "{0} Pa"
         :pressure-pound-force-per-square-inch: 
@@ -842,6 +904,8 @@
           :other: "{0}°"
         :temperature-kelvin: 
           :other: "{0} K"
+        :temperature-rankine: 
+          :other: "{0} °R"
         :torque-newton-meter: 
           :other: "{0} N⋅m"
         :torque-pound-force-foot: 
@@ -880,6 +944,10 @@
         :volume-cup: 
           :one: "{0} કપ"
           :other: "{0} કપ"
+        :volume-cup-imperial: 
+          :other: "{0} cup Imp."
+        :volume-cup-jp: 
+          :other: "{0} cup [JP]"
         :volume-cup-metric: 
           :one: "{0} મે. કપ"
           :other: "{0} મે. કપ"
@@ -901,6 +969,8 @@
         :volume-fluid-ounce-imperial: 
           :one: "{0} પ્રવાહી ઔંસ ઇમ્પીરિયલ"
           :other: "{0} પ્રવાહી ઔંસ ઇમ્પીરિયલ"
+        :volume-fluid-ounce-metric: 
+          :other: "{0} fl oz m."
         :volume-gallon: 
           :one: "{0} ગૅલન"
           :other: "{0} ગૅલન"
@@ -913,6 +983,10 @@
         :volume-jigger: 
           :one: "{0} જિગર"
           :other: "{0} જિગર"
+        :volume-koku: 
+          :other: "{0} koku [JP]"
+        :volume-kosaji: 
+          :other: "{0} kosaji [JP]"
         :volume-liter: 
           :one: "{0} લિ"
           :other: "{0} લિ"
@@ -922,12 +996,16 @@
         :volume-milliliter: 
           :one: "{0} મિલિલીટર"
           :other: "{0} મિલિલીટર"
+        :volume-osaji: 
+          :other: "{0} osaji [JP]"
         :volume-pinch: 
           :one: "{0} ચપટી"
           :other: "{0} ચપટી"
         :volume-pint: 
           :one: "{0} પિન્ટ"
           :other: "{0} પિન્ટ"
+        :volume-pint-imperial: 
+          :other: "{0} pt Imp."
         :volume-pint-metric: 
           :one: "{0} મે.પિન્ટ"
           :other: "{0} મે.પિન્ટ"
@@ -936,9 +1014,15 @@
           :other: "{0} ક્વાર્ટ"
         :volume-quart-imperial: 
           :other: "{0} qt Imp."
+        :volume-sai: 
+          :other: "{0} sai [JP]"
+        :volume-shaku: 
+          :other: "{0} shaku [vol, JP]"
         :volume-tablespoon: 
           :one: "{0} ટેબલસ્પૂન"
           :other: "{0} ટેબલસ્પૂન"
         :volume-teaspoon: 
           :one: "{0} ટીસ્પૂન"
           :other: "{0} ટીસ્પૂન"
+        :volume-to-jp: 
+          :other: "{0} to [JP]"

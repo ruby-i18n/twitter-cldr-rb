@@ -16,6 +16,9 @@
         :angle-revolution: 
           :one: "mzunguko {0}"
           :other: "mizunguko {0}"
+        :angle-steradian: 
+          :one: "steradian {0}"
+          :other: "steradian {0}"
         :area-square-centimeter: 
           :one: "sentimita {0} ya mraba"
           :other: "sentimita {0} za mraba"
@@ -37,24 +40,33 @@
         :area-square-yard: 
           :one: "yadi {0} ya mraba"
           :other: "yadi {0} za mraba"
+        :concentr-katal: 
+          :one: "katal {0}"
+          :other: "katal {0}"
         :concentr-milligram-ofglucose-per-deciliter: 
           :one: "miligramu {0} kwa kila desilita"
           :other: "miligramu {0} kwa kila desilita"
         :concentr-millimole-per-liter: 
           :one: "milimoli {0} kwa kila lita"
           :other: "milimoli {0} kwa kila lita"
+        :concentr-ofglucose: 
+          :one: "{0} ya glukosi"
+          :other: "{0} ya glukosi"
+        :concentr-part: 
+          :one: "kipande {0}"
+          :other: "vipande {0}"
+        :concentr-part-per-1e6: 
+          :one: "sehemu {0} kwa kila milioni"
+          :other: "sehemu {0} kwa kila milioni"
+        :concentr-part-per-1e9: 
+          :one: "sehemu {0} kwa kila bilioni"
+          :other: "sehemu {0} kwa kila bilioni"
         :concentr-permille: 
           :one: "{0} kwa kila elfu"
           :other: "{0} kwa kila elfu"
-        :concentr-permillion: 
-          :one: "sehemu {0} kwa kila milioni"
-          :other: "sehemu {0} kwa kila milioni"
         :concentr-permyriad: 
           :one: "permyriadi {0}"
           :other: "permyriadi {0}"
-        :concentr-portion-per-1e9: 
-          :one: "sehemu {0} kwa kila bilioni"
-          :other: "sehemu {0} kwa kila bilioni"
         :consumption-liter-per-100-kilometer: 
           :one: "lita {0} kwa kilomita 100"
           :other: "lita {0} kwa kilomita 100"
@@ -76,24 +88,48 @@
         :duration-millisecond: 
           :one: "millisekunde {0}"
           :other: "millisekunde {0}"
-        :duration-night: 
-          :one: "usiku {0}"
-          :other: "usiku {0}"
+        :electric-coulomb: 
+          :one: "coulomb {0}"
+          :other: "coulomb {0}"
+        :electric-farad: 
+          :one: "farad {0}"
+          :other: "farad {0}"
+        :electric-henry: 
+          :one: "henry {0}"
+          :other: "henry {0}"
         :electric-milliampere: 
           :one: "miliampea {0}"
           :other: "miliampea {0}"
+        :electric-siemens: 
+          :one: "siemens {0}"
+          :other: "siemens {0}"
+        :energy-becquerel: 
+          :one: "bekereli {0}"
+          :other: "bekereli {0}"
         :energy-british-thermal-unit: 
           :one: "kipimo {0} cha joto cha Uingereza"
           :other: "vipimo {0} vya joto vya Uingereza"
+        :energy-calorie-it: 
+          :one: "calorie [IT] {0}"
+          :other: "calorie [IT] {0}"
         :energy-electronvolt: 
           :one: "elektrovolti {0}"
           :other: "elektrovolti {0}"
+        :energy-gray: 
+          :one: "grei {0}"
+          :other: "grei {0}"
         :energy-kilowatt-hour: 
           :one: "kilowati {0} kwa saa"
           :other: "kilowati {0} kwa saa"
+        :energy-sievert: 
+          :one: "sievert {0}"
+          :other: "sievert {0}"
         :energy-therm-us: 
           :one: "kipimo {0} cha gesi, Marekani"
           :other: "vipimo {0} vya gesi, Marekani"
+        :force-kilogram-force: 
+          :one: "kilogramu za kani {0}"
+          :other: "kilogramu za kani {0}"
         :force-kilowatt-hour-per-100-kilometer: 
           :one: "kilowati saa {0} kwa kilomita 100"
           :other: "kilowati saa {0} kwa kilomita 100"
@@ -160,6 +196,12 @@
         :light-solar-luminosity: 
           :one: "ung'avu wa jua {0}"
           :other: "ung'avu wa jua {0}"
+        :magnetic-tesla: 
+          :one: "tesla {0}"
+          :other: "tesla {0}"
+        :magnetic-weber: 
+          :one: "weber {0}"
+          :other: "weber {0}"
         :mass-dalton: 
           :one: "daltoni {0}"
           :other: "daltoni {0}"
@@ -202,6 +244,9 @@
         :pressure-millimeter-ofhg: 
           :one: "milimita {0} ya zebaki"
           :other: "milimita {0} za zebaki"
+        :pressure-ofhg: 
+          :one: "{0} ya zebaki"
+          :other: "{0} ya zebaki"
         :pressure-pascal: 
           :one: "paskali {0}"
           :other: "paskali {0}"
@@ -211,9 +256,6 @@
         :speed-kilometer-per-hour: 
           :one: "kilomita {0} kwa saa"
           :other: "kilomita {0} kwa saa"
-        :speed-light-speed: 
-          :one: "mwanga {0}"
-          :other: "mianga {0}"
         :speed-meter-per-second: 
           :one: "mita {0} kwa sekunde"
           :other: "mita {0} kwa sekunde"
@@ -299,6 +341,9 @@
         :angle-degree: 
           :one: "{0}°"
           :other: "{0}°"
+        :angle-steradian: 
+          :one: "sr {0}"
+          :other: "sr {0}"
         :area-acre: 
           :one: "Ekari {0}"
           :other: "Ekari {0}"
@@ -308,21 +353,54 @@
         :area-square-mile: 
           :one: "mi² {0}"
           :other: "mi² {0}"
+        :concentr-katal: 
+          :one: "kat {0}"
+          :other: "kat {0}"
         :concentr-millimole-per-liter: 
           :one: "mmol {0}/L"
           :other: "mmol {0}/L"
+        :concentr-ofglucose: 
+          :one: "Glc {0}"
+          :other: "Glc {0}"
+        :concentr-part: 
+          :one: "kipande {0}"
+          :other: "kipande {0}"
         :consumption-liter-per-100-kilometer: 
           :one: "L/100km {0}"
           :other: "L/100km {0}"
         :duration-minute: 
           :one: "dak {0}"
           :other: "dak {0}"
-        :duration-night: 
-          :one: "usiku {0}"
-          :other: "usiku {0}"
         :duration-second: 
           :one: "sek {0}"
           :other: "sek {0}"
+        :electric-coulomb: 
+          :one: "C {0}"
+          :other: "C {0}"
+        :electric-farad: 
+          :one: "F {0}"
+          :other: "F {0}"
+        :electric-henry: 
+          :one: "H {0}"
+          :other: "H {0}"
+        :electric-siemens: 
+          :one: "S {0}"
+          :other: "S {0}"
+        :energy-becquerel: 
+          :one: "Bq {0}"
+          :other: "Bq {0}"
+        :energy-calorie-it: 
+          :one: "cal-IT {0}"
+          :other: "cal-IT {0}"
+        :energy-gray: 
+          :one: "Gy {0}"
+          :other: "Gy {0}"
+        :energy-sievert: 
+          :one: "Sv {0}"
+          :other: "Sv {0}"
+        :force-kilogram-force: 
+          :one: "kgf {0}"
+          :other: "kgf {0}"
         :force-kilowatt-hour-per-100-kilometer: 
           :one: "kWh {0} kwa km 100"
           :other: "kWh {0} kwa km 100"
@@ -335,6 +413,12 @@
         :length-picometer: 
           :one: "pm {0}"
           :other: "pm {0}"
+        :magnetic-tesla: 
+          :one: "T{0}"
+          :other: "T{0}"
+        :magnetic-weber: 
+          :one: "Wb{0}"
+          :other: "Wb{0}"
         :mass-ounce: 
           :one: "Aunsi {0}"
           :other: "Aunsi {0}"
@@ -350,9 +434,9 @@
         :pressure-inch-ofhg: 
           :one: "{0} inHg"
           :other: "{0} inHg"
-        :speed-light-speed: 
-          :one: "mwanga {0}"
-          :other: "mianga {0}"
+        :pressure-ofhg: 
+          :one: "Hg {0}"
+          :other: "{0} za Hg"
         :speed-meter-per-second: 
           :one: "m {0}/s"
           :other: "m {0}/s"
@@ -381,15 +465,24 @@
         :angle-revolution: 
           :one: "raundi {0}"
           :other: "raundi {0}"
+        :angle-steradian: 
+          :one: "sr {0}"
+          :other: "sr {0}"
         :area-acre: 
           :one: "ekari {0}"
           :other: "ekari {0}"
+        :area-bu-jp: 
+          :other: "{0} bu [JP]"
+        :area-cho: 
+          :other: "{0} cho [JP]"
         :area-dunam: 
           :one: "dunamu {0}"
           :other: "dunamu {0}"
         :area-hectare: 
           :one: "hekta {0}"
           :other: "hekta {0}"
+        :area-se-jp: 
+          :other: "{0} se [JP]"
         :area-square-centimeter: 
           :one: "cm² {0}"
           :other: "cm² {0}"
@@ -417,6 +510,9 @@
         :concentr-karat: 
           :one: "karati {0}"
           :other: "karati {0}"
+        :concentr-katal: 
+          :one: "kat {0}"
+          :other: "kat {0}"
         :concentr-milligram-ofglucose-per-deciliter: 
           :other: "{0} mg/dL"
         :concentr-millimole-per-liter: 
@@ -425,19 +521,25 @@
         :concentr-mole: 
           :one: "moli {0}"
           :other: "moli {0}"
+        :concentr-ofglucose: 
+          :one: "Glc {0}"
+          :other: "Glc {0}"
+        :concentr-part: 
+          :one: "kipande {0}"
+          :other: "kipande {0}"
+        :concentr-part-per-1e6: 
+          :one: "ppm {0}"
+          :other: "ppm {0}"
+        :concentr-part-per-1e9: 
+          :other: "{0} ppb"
         :concentr-percent: 
           :one: "asilimia {0}"
           :other: "asilimia {0}"
         :concentr-permille: 
           :one: "{0} kwa elfu"
           :other: "{0} kwa elfu"
-        :concentr-permillion: 
-          :one: "ppm {0}"
-          :other: "ppm {0}"
         :concentr-permyriad: 
           :other: "{0}‱"
-        :concentr-portion-per-1e9: 
-          :other: "{0} ppb"
         :consumption-liter-per-100-kilometer: 
           :one: "lita {0}/km 100"
           :other: "lita {0}/km 100"
@@ -492,6 +594,8 @@
         :duration-decade: 
           :one: "mwongo {0}"
           :other: "miongo {0}"
+        :duration-fortnight: 
+          :other: "{0} fw"
         :duration-hour: 
           :one: "saa {0}"
           :other: "saa {0}"
@@ -528,26 +632,49 @@
         :electric-ampere: 
           :one: "ampea {0}"
           :other: "ampea {0}"
+        :electric-coulomb: 
+          :one: "C {0}"
+          :other: "C {0}"
+        :electric-farad: 
+          :one: "F {0}"
+          :other: "F {0}"
+        :electric-henry: 
+          :one: "H {0}"
+          :other: "H {0}"
         :electric-milliampere: 
           :one: "mA {0}"
           :other: "mA {0}"
         :electric-ohm: 
           :other: "{0} Ω"
+        :electric-siemens: 
+          :one: "S {0}"
+          :other: "S {0}"
         :electric-volt: 
           :one: "volti {0}"
           :other: "volti {0}"
+        :energy-becquerel: 
+          :one: "Bq {0}"
+          :other: "Bq {0}"
         :energy-british-thermal-unit: 
           :one: "Btu {0}"
           :other: "Btu {0}"
+        :energy-british-thermal-unit-it: 
+          :other: "{0} BTU-IT"
         :energy-calorie: 
           :one: "kalori {0}"
           :other: "kalori {0}"
+        :energy-calorie-it: 
+          :one: "cal-IT {0}"
+          :other: "cal-IT {0}"
         :energy-electronvolt: 
           :one: "eV {0}"
           :other: "eV {0}"
         :energy-foodcalorie: 
           :one: "kalori {0}"
           :other: "kalori {0}"
+        :energy-gray: 
+          :one: "Gy {0}"
+          :other: "Gy {0}"
         :energy-joule: 
           :one: "jouli {0}"
           :other: "jouli {0}"
@@ -560,9 +687,15 @@
         :energy-kilowatt-hour: 
           :one: "kWh {0}"
           :other: "kWh {0}"
+        :energy-sievert: 
+          :one: "Sv {0}"
+          :other: "Sv {0}"
         :energy-therm-us: 
           :one: "kipimo {0} cha gesi, US"
           :other: "vipimo {0} vya gesi, US"
+        :force-kilogram-force: 
+          :one: "kgf {0}"
+          :other: "kgf {0}"
         :force-kilowatt-hour-per-100-kilometer: 
           :one: "kWh {0} /km 100"
           :other: "kWh {0} /km 100"
@@ -614,6 +747,8 @@
         :length-centimeter: 
           :one: "sentimita {0}"
           :other: "sentimita {0}"
+        :length-chain: 
+          :other: "{0} chain"
         :length-decimeter: 
           :one: "desimita {0}"
           :other: "desimita {0}"
@@ -632,6 +767,10 @@
         :length-inch: 
           :one: "inchi {0}"
           :other: "inchi {0}"
+        :length-jo-jp: 
+          :other: "{0} jo [JP]"
+        :length-ken: 
+          :other: "{0} ken [JP]"
         :length-kilometer: 
           :one: "km {0}"
           :other: "km {0}"
@@ -668,9 +807,21 @@
         :length-point: 
           :one: "pointi {0}"
           :other: "pointi {0}"
+        :length-ri-jp: 
+          :other: "{0} ri [JP]"
+        :length-rin: 
+          :other: "{0} rin [JP]"
+        :length-rod: 
+          :other: "{0} rod"
+        :length-shaku-cloth: 
+          :other: "{0} shaku [cloth, JP]"
+        :length-shaku-length: 
+          :other: "{0} shaku [JP]"
         :length-solar-radius: 
           :one: "R☉ {0}"
           :other: "R☉ {0}"
+        :length-sun: 
+          :other: "{0} sun [JP]"
         :length-yard: 
           :one: "yadi {0}"
           :other: "yadi {0}"
@@ -686,6 +837,12 @@
         :light-solar-luminosity: 
           :one: "L☉ {0}"
           :other: "L☉ {0}"
+        :magnetic-tesla: 
+          :one: "T {0}"
+          :other: "T {0}"
+        :magnetic-weber: 
+          :one: "Wb {0}"
+          :other: "Wb {0}"
         :mass-carat: 
           :one: "karati {0}"
           :other: "karati {0}"
@@ -695,6 +852,8 @@
         :mass-earth-mass: 
           :one: "M⊕ {0}"
           :other: "M⊕ {0}"
+        :mass-fun: 
+          :other: "{0} fun [JP]"
         :mass-grain: 
           :one: "nafaka {0}"
           :other: "nafaka {0}"
@@ -719,6 +878,8 @@
         :mass-pound: 
           :one: "ratili {0}"
           :other: "ratili {0}"
+        :mass-slug: 
+          :other: "{0} slug"
         :mass-solar-mass: 
           :one: "M☉ {0}"
           :other: "M☉ {0}"
@@ -755,6 +916,8 @@
         :pressure-bar: 
           :one: "bari {0}"
           :other: "bari {0}"
+        :pressure-gasoline-energy-density: 
+          :other: "{0} gas E"
         :pressure-hectopascal: 
           :one: "hPa {0}"
           :other: "hPa {0}"
@@ -773,6 +936,9 @@
         :pressure-millimeter-ofhg: 
           :one: "mmHg {0}"
           :other: "mmHg {0}"
+        :pressure-ofhg: 
+          :one: "{0} ya Hg"
+          :other: "{0} za Hg"
         :pressure-pascal: 
           :one: "Pa {0}"
           :other: "Pa {0}"
@@ -804,6 +970,8 @@
           :other: "{0}°"
         :temperature-kelvin: 
           :other: "{0} K"
+        :temperature-rankine: 
+          :other: "{0} °R"
         :torque-newton-meter: 
           :one: "N⋅m {0}"
           :other: "N⋅m {0}"
@@ -846,6 +1014,10 @@
         :volume-cup: 
           :one: "kikombe {0}"
           :other: "vikombe {0}"
+        :volume-cup-imperial: 
+          :other: "{0} cup Imp."
+        :volume-cup-jp: 
+          :other: "{0} cup [JP]"
         :volume-cup-metric: 
           :one: "mc {0}"
           :other: "vikombe {0} vya mizani"
@@ -870,6 +1042,8 @@
         :volume-fluid-ounce-imperial: 
           :one: "fl oz Imp. {0}"
           :other: "fl oz Imp. {0}"
+        :volume-fluid-ounce-metric: 
+          :other: "{0} fl oz m."
         :volume-gallon: 
           :one: "galoni {0}"
           :other: "galoni {0}"
@@ -882,6 +1056,10 @@
         :volume-jigger: 
           :one: "toti {0}"
           :other: "toti {0}"
+        :volume-koku: 
+          :other: "{0} koku [JP]"
+        :volume-kosaji: 
+          :other: "{0} kosaji [JP]"
         :volume-liter: 
           :one: "lita {0}"
           :other: "lita {0}"
@@ -891,12 +1069,16 @@
         :volume-milliliter: 
           :one: "mililita {0}"
           :other: "mililita {0}"
+        :volume-osaji: 
+          :other: "{0} osaji [JP]"
         :volume-pinch: 
           :one: "mfinyo {0} kwa vidole"
           :other: "mifinyo {0} kwa vidole"
         :volume-pint: 
           :one: "painti {0}"
           :other: "painti {0}"
+        :volume-pint-imperial: 
+          :other: "{0} pt Imp."
         :volume-pint-metric: 
           :one: "mpt {0}"
           :other: "mpt {0}"
@@ -906,9 +1088,15 @@
         :volume-quart-imperial: 
           :one: "qt Imp. {0}"
           :other: "qt Imp. {0}"
+        :volume-sai: 
+          :other: "{0} sai [JP]"
+        :volume-shaku: 
+          :other: "{0} shaku [vol, JP]"
         :volume-tablespoon: 
           :one: "tbsp {0}"
           :other: "tbsp {0}"
         :volume-teaspoon: 
           :one: "tsp {0}"
           :other: "tsp {0}"
+        :volume-to-jp: 
+          :other: "{0} to [JP]"

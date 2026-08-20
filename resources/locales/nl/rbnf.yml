@@ -236,6 +236,24 @@
                 :value: 1000000000000000000
             :type: spellout-cardinal
           - 
+            :rules: 
+              - 
+                :rule: "min >>;"
+                :value: "-x"
+              - 
+                :rule: =%spellout-cardinal=;
+                :value: x.x
+              - 
+                :rule: =%spellout-cardinal=;
+                :value: 0
+              - 
+                :rule: één;
+                :value: 1
+              - 
+                :rule: =%spellout-cardinal=;
+                :value: 2
+            :type: spellout-cardinal-stressed
+          - 
             :access: private
             :rules: 
               - 

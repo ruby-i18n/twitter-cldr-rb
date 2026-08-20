@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "MAG{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: MAG
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "Am na hAfraice Theas"
     :Africa_Western: 
       :long: 
-        :daylight: "Am Samhraidh Iarthar na hAfraice"
-        :generic: "Am Iarthar na hAfraice"
-        :standard: "Am Caighdeánach Iarthar na hAfraice"
+        :standard: "Am Iarthar na hAfraice"
     :Alaska: 
       :long: 
         :daylight: "Am Samhraidh Alasca"
@@ -82,9 +82,9 @@
         :standard: "Am Caighdeánach Anadyr"
     :Apia: 
       :long: 
-        :daylight: "Am Samhraidh Apia"
-        :generic: "Am Apia"
-        :standard: "Am Caighdeánach Apia"
+        :daylight: "Am Samhraidh Shamó"
+        :generic: "Am Shamó"
+        :standard: "Am Caighdeánach Shamó"
     :Aqtau: 
       :long: 
         :daylight: "Am Samhraidh Aqtau"
@@ -208,7 +208,7 @@
         :standard: "Am Caighdeánach na Colóime"
     :Cook: 
       :long: 
-        :daylight: "Am Leathshamhraidh Oileáin Cook"
+        :daylight: "Am Samhraidh Oileáin Cook"
         :generic: "Am Oileáin Cook"
         :standard: "Am Caighdeánach Oileáin Cook"
     :Cuba: 
@@ -297,7 +297,7 @@
         :standard: "Am Caighdeánach na Seoirsia"
     :Gilbert_Islands: 
       :long: 
-        :standard: "Am Chireabaití"
+        :standard: "Am Chiribeas"
     :Greenland_Eastern: 
       :long: 
         :daylight: "Am Samhraidh Oirthear na Graonlainne"
@@ -317,6 +317,9 @@
     :Guyana: 
       :long: 
         :standard: "Am na Guáine"
+    :Hawaii: 
+      :long: 
+        :standard: "Am Caighdeánach Haváí-Ailiúit"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "Am Samhraidh Haváí-Ailiúit"
@@ -329,9 +332,9 @@
         :standard: "Am Caighdeánach Hong Cong"
     :Hovd: 
       :long: 
-        :daylight: "Am Samhraidh Hovd"
-        :generic: "Am Hovd"
-        :standard: "Am Caighdeánach Hovd"
+        :daylight: "Am Samhraidh Khovd"
+        :generic: "Am Khovd"
+        :standard: "Am Caighdeánach Khovd"
     :India: 
       :long: 
         :standard: "Am Caighdeánach na hIndia"
@@ -448,9 +451,9 @@
         :standard: "Am Caighdeánach Meicsiceach an Aigéin Chiúin"
     :Mongolia: 
       :long: 
-        :daylight: "Am Samhraidh Ulánbátar"
+        :daylight: "Am Samhraidh Ulan Bator"
         :generic: "Am Ulánbátar"
-        :standard: "Am Caighdeánach Ulánbátar"
+        :standard: "Am Caighdeánach Ulan Bator"
     :Moscow: 
       :long: 
         :daylight: "Am Samhraidh Mhoscó"
@@ -545,7 +548,7 @@
         :standard: "Am Pitcairn"
     :Ponape: 
       :long: 
-        :standard: "Am Phohnpei"
+        :standard: "Am Pohnpei"
     :Pyongyang: 
       :long: 
         :standard: "Am Pyongyang"
@@ -572,9 +575,9 @@
         :standard: "Am Caighdeánach Shamara"
     :Samoa: 
       :long: 
-        :daylight: "Am Samhraidh Shamó"
-        :generic: "Am Shamó"
-        :standard: "Am Caighdeánach Shamó"
+        :daylight: "Am Samhraidh Shamó Mheiriceá"
+        :generic: "Am Shamó Mheiriceá"
+        :standard: "Am Caighdeánach Shamó Mheiriceá"
     :Seychelles: 
       :long: 
         :standard: "Am na Séiséal"
@@ -606,7 +609,7 @@
         :standard: "Am na Táidsíceastáine"
     :Tokelau: 
       :long: 
-        :standard: "Am Oileáin Tócalá"
+        :standard: "Am Oileáin Thócaláú"
     :Tonga: 
       :long: 
         :daylight: "Am Samhraidh Thonga"
@@ -696,6 +699,8 @@
       :city: Mapútó
     :Africa/Mogadishu: 
       :city: Mogaidisiú
+    :Africa/Ndjamena: 
+      :city: N’Djamena
     :Africa/Nouakchott: 
       :city: Nuacsat
     :Africa/Sao_Tome: 
@@ -706,12 +711,18 @@
       :city: Túinis
     :America/Anguilla: 
       :city: Angaíle
+    :America/Araguaina: 
+      :city: Araguaína
+    :America/Argentina/Rio_Gallegos: 
+      :city: "Río Gallegos"
+    :America/Argentina/Tucuman: 
+      :city: Tucumán
     :America/Aruba: 
       :city: Arúba
     :America/Asuncion: 
       :city: Asunción
     :America/Bahia_Banderas: 
-      :city: "Bahia Banderas"
+      :city: "Bahía de Banderas"
     :America/Barbados: 
       :city: Barbadós
     :America/Belem: 
@@ -730,10 +741,14 @@
       :city: Córdoba
     :America/Costa_Rica: 
       :city: "Cósta Ríce"
+    :America/Cuiaba: 
+      :city: Cuiabá
     :America/Curacao: 
       :city: Cúrasó
     :America/Dominica: 
       :city: Doiminice
+    :America/Eirunepe: 
+      :city: Eirunepé
     :America/El_Salvador: 
       :city: "an tSalvadóir"
     :America/Godthab: 
@@ -768,14 +783,22 @@
       :city: Líoma
     :America/Lower_Princes: 
       :city: "Lower Prince’s Quarter"
+    :America/Maceio: 
+      :city: Maceió
+    :America/Mazatlan: 
+      :city: Mazatlán
     :America/Merida: 
-      :city: Merida
+      :city: Mérida
     :America/Mexico_City: 
       :city: "Cathair Mheicsiceo"
+    :America/Miquelon: 
+      :city: Saint-Pierre
     :America/Montserrat: 
       :city: Montsarat
     :America/New_York: 
       :city: Nua-Eabhrac
+    :America/Noronha: 
+      :city: "Fernando de Noronha"
     :America/North_Dakota/Beulah: 
       :city: "Beulah, North Dakota"
     :America/North_Dakota/Center: 
@@ -784,6 +807,8 @@
       :city: "New Salem, North Dakota"
     :America/Puerto_Rico: 
       :city: "Pórtó Ríce"
+    :America/Santarem: 
+      :city: Santarém
     :America/Sao_Paulo: 
       :city: "São Paulo"
     :America/Scoresbysund: 
@@ -799,13 +824,29 @@
     :America/St_Thomas: 
       :city: "St. Thomas"
     :America/St_Vincent: 
-      :city: "San Uinseann"
+      :city: "St. Vincent"
     :America/Thule: 
       :city: "Inis Tuile"
+    :Antarctica/Casey: 
+      :city: "Stáisiún Casey"
     :Antarctica/DumontDUrville: 
-      :city: "Dumont d’Urville"
+      :city: "Stáisiún Dumont-d’Urville"
     :Antarctica/Macquarie: 
-      :city: "Mac Guaire"
+      :city: "Oileán Mhic Guaire"
+    :Antarctica/Mawson: 
+      :city: "Stáisiún Mawson"
+    :Antarctica/McMurdo: 
+      :city: "Stáisiún McMurdo"
+    :Antarctica/Palmer: 
+      :city: "Tír Palmer"
+    :Antarctica/Rothera: 
+      :city: "Stáisiún Rothera"
+    :Antarctica/Syowa: 
+      :city: "Stáisiún Showa"
+    :Antarctica/Troll: 
+      :city: "Stáisiún Troll"
+    :Antarctica/Vostok: 
+      :city: "Stáisiún Vostok"
     :Asia/Aden: 
       :city: Áidin
     :Asia/Baghdad: 
@@ -813,7 +854,7 @@
     :Asia/Bahrain: 
       :city: Bairéin
     :Asia/Baku: 
-      :city: Baki
+      :city: Bakı
     :Asia/Beirut: 
       :city: Béiriút
     :Asia/Brunei: 
@@ -826,6 +867,8 @@
       :city: Heabrón
     :Asia/Hong_Kong: 
       :city: "Hong Cong"
+    :Asia/Hovd: 
+      :city: Khovd
     :Asia/Jakarta: 
       :city: Iacárta
     :Asia/Jerusalem: 
@@ -833,11 +876,11 @@
     :Asia/Kabul: 
       :city: Cabúl
     :Asia/Katmandu: 
-      :city: Kathmandu
+      :city: Katmandu
     :Asia/Kuwait: 
       :city: Cuáit
     :Asia/Macau: 
-      :city: Macao
+      :city: Macau
     :Asia/Makassar: 
       :city: Macasar
     :Asia/Manila: 
@@ -852,6 +895,8 @@
       :city: Rangún
     :Asia/Saigon: 
       :city: "Cathair Ho Chi Minh"
+    :Asia/Sakhalin: 
+      :city: Sacailín
     :Asia/Seoul: 
       :city: Súl
     :Asia/Shanghai: 
@@ -860,6 +905,10 @@
       :city: Singeapór
     :Asia/Tokyo: 
       :city: Tóiceo
+    :Asia/Ulaanbaatar: 
+      :city: "Ulan Bator"
+    :Asia/Urumqi: 
+      :city: Ürümqi
     :Asia/Yakutsk: 
       :city: Iacútsc
     :Asia/Yerevan: 
@@ -882,13 +931,15 @@
       :city: "an tSeoirsia Theas"
     :Atlantic/St_Helena: 
       :city: "San Héilin"
+    :Australia/Lord_Howe: 
+      :city: "Oileán an Tiarna Howe"
     :Etc/UTC: 
       :long: 
         :standard: "Am Uilíoch Lárnach"
       :short: 
         :standard: UTC
     :Etc/Unknown: 
-      :city: "Cathair Anaithnid"
+      :city: "Láthair Anaithnid"
     :Europe/Amsterdam: 
       :city: Amstardam
     :Europe/Andorra: 
@@ -909,6 +960,8 @@
       :city: Búcairist
     :Europe/Budapest: 
       :city: Búdaipeist
+    :Europe/Busingen: 
+      :city: Büsingen
     :Europe/Chisinau: 
       :city: Císineá
     :Europe/Copenhagen: 
@@ -997,35 +1050,51 @@
       :city: Zürich
     :Indian/Antananarivo: 
       :city: Antananairíveo
+    :Indian/Chagos: 
+      :city: "Oileánra Chagos"
     :Indian/Christmas: 
       :city: "Oileán na Nollag"
     :Indian/Cocos: 
-      :city: "Oileán Cocos"
+      :city: "Oileáin Cocos"
     :Indian/Comoro: 
       :city: "Oileáin Chomóra"
+    :Indian/Mahe: 
+      :city: Mahé
     :Indian/Maldives: 
       :city: "Oileáin Mhaildíve"
     :Indian/Mauritius: 
       :city: "Oileán Mhuirís"
     :Indian/Reunion: 
       :city: "La Réunion"
+    :Pacific/Easter: 
+      :city: "Oileán na Cásca"
     :Pacific/Enderbury: 
-      :city: Enderbury
+      :city: "Oileán Canton"
     :Pacific/Fiji: 
       :city: Fidsí
+    :Pacific/Galapagos: 
+      :city: Galápagos
     :Pacific/Honolulu: 
       :city: Honolulu
+    :Pacific/Kwajalein: 
+      :city: "Oileáin Kwajalein"
     :Pacific/Marquesas: 
       :city: "na hOileáin Mharcasacha"
     :Pacific/Midway: 
       :city: "Oileáin Midway"
     :Pacific/Nauru: 
       :city: Nárú
+    :Pacific/Norfolk: 
+      :city: "Oileán Norfolk"
+    :Pacific/Noumea: 
+      :city: Nouméa
     :Pacific/Ponape: 
       :city: Pohnpei
     :Pacific/Tahiti: 
       :city: Taihítí
     :Pacific/Truk: 
       :city: Chuuk
+    :Pacific/Wake: 
+      :city: "Oileán Wake"
     :Pacific/Wallis: 
-      :city: Vailís
+      :city: "Wallis agus Futuna"

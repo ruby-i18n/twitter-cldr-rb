@@ -8,6 +8,7 @@ require 'fileutils'
 require 'parallel'
 require 'etc'
 require 'set'
+require 'yaml'
 
 module TwitterCldr
   module Resources
@@ -44,10 +45,7 @@ module TwitterCldr
 
         File.open(output_file, 'w:utf-8') do |output|
           output.write(
-            TwitterCldr::Utils::YAML.dump(
-              TwitterCldr::Utils.deep_symbolize_keys(locale => data),
-              use_natural_symbols: true
-            )
+            ::YAML.dump(locale => TwitterCldr::Utils.squash(data))
           )
         end
       end
@@ -83,23 +81,13 @@ module TwitterCldr
       end
 
       def symbols
-        doc.xpath('//ldml/numbers/symbols').each_with_object({}) do |symbols_node, symbols_result|
-          number_system = if ns_node = symbols_node.attribute('numberSystem')
-            ns_node.value
-          else
-            :default
-          end
+        docset.xpath('//ldml/numbers/symbols').each_with_object({}) do |symbols_node, symbols_result|
+          number_system = symbols_node.attribute('numberSystem').value.to_sym
 
-          if aliased = symbols_node.xpath('alias').first
-            alias_number_system = aliased.attribute('path').value[/@numberSystem='(\w+)'/, 1]
-            symbols_result[number_system] = :"numbers.symbols.#{alias_number_system}"
-            next
-          end
-
-          symbols_result[number_system] = symbols_node.elements.each_with_object({}) do |symbol, symbol_result|
+          symbols_result[number_system] = symbols_node.element.element_children.each_with_object({}) do |symbol, symbol_result|
             unless cldr_req.draft?(symbol)
-              symbol_name = symbol.name.gsub(/([a-z])([A-Z])/) { "#{$1}_#{$2.downcase}"}
-              symbol_result[symbol_name] = symbol.content
+              symbol_name = symbol.name.gsub(/([a-z])([A-Z])/) { "#{$1}_#{$2.downcase}" }
+              symbol_result[symbol_name.to_sym] = symbol.content
             end
           end
         end
@@ -107,7 +95,7 @@ module TwitterCldr
 
       def default_number_systems
         { alternatives: {} }.tap do |result|
-          doc.xpath('//ldml/numbers/defaultNumberingSystem').each do |default_ns_node|
+          docset.xpath('//ldml/numbers/defaultNumberingSystem').each do |default_ns_node|
             if alt_attr = default_ns_node.attribute('alt')
               result[:alternatives][alt_attr.value] = default_ns_node.content
             else
@@ -118,48 +106,29 @@ module TwitterCldr
       end
 
       def formats_for_type(type)
-        doc.xpath("//ldml/numbers/#{type}Formats").each_with_object({}) do |formats_node, ret|
-          number_system = if ns_node = formats_node.attribute('numberSystem')
-            ns_node.value
-          else
-            :default
-          end
-
-          if aliased = formats_node.xpath('alias').first
-            alias_number_system = aliased.attribute('path').value[/@numberSystem='(\w+)'/, 1]
-            ret[number_system] = :"numbers.formats.#{type}.#{alias_number_system}"
-            next
-          end
-
+        docset.xpath("//ldml/numbers/#{type}Formats").each_with_object({}) do |formats_node, ret|
+          number_system = formats_node.attribute('numberSystem').value.to_sym
           formats = formats_from_node(formats_node, type, number_system)
           formats[:default] = formats[:default][:default] if formats[:default]
-          ret[number_system] = formats
 
           unit = unit_for(formats_node)
 
           unless unit.empty?
-            ret[number_system][:unit] = unit
+            formats[:unit] = unit
           end
+
+          ret[number_system] = TwitterCldr::Utils.deep_symbolize_keys(formats)
         end
       end
 
       def formats_from_node(formats_node, type, number_system)
         formats_node.xpath("#{type}FormatLength").each_with_object({}) do |format_length_node, format_result|
           format_nodes = format_length_node.xpath("#{type}Format")
-
           format_key = format_length_node.attribute('type')
           format_key = format_key ? format_key.value : :default
 
-          if format_nodes.size > 0
-            format_nodes.each do |format_node|
-              format_result[format_key] ||= patterns_from(format_node)
-            end
-          else
-            if aliased = format_length_node.xpath('alias').first
-              format_result[format_key] = pattern_xpath_to_redirect(
-                aliased.attribute('path').value, number_system
-              )
-            end
+          format_nodes.each do |format_node|
+            format_result[format_key] ||= patterns_from(format_node)
           end
         end
       end
@@ -193,13 +162,6 @@ module TwitterCldr
         end
       end
 
-      def pattern_xpath_to_redirect(xpath, number_system)
-        length = xpath[/(\w+)FormatLength/, 1]
-        type   = xpath[/@type='(\w+)'/, 1]
-
-        :"numbers.formats.#{length}.#{number_system}.#{type}"
-      end
-
       def unit_for(format_length_node)
         format_length_node.xpath('unitPattern').each_with_object({}) do |unit_node, result|
           count = unit_node.attribute('count').value rescue 'one'
@@ -207,11 +169,8 @@ module TwitterCldr
         end
       end
 
-      def doc
-        @doc ||= begin
-          locale_fs = locale.to_s.gsub('-', '_')
-          Nokogiri.XML(File.read(File.join(cldr_main_path, "#{locale_fs}.xml")))
-        end
+      def docset
+        @docset ||= cldr_req.docset(cldr_main_path, locale)
       end
 
       def cldr_main_path

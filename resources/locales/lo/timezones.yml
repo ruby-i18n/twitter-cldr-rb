@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: ເວ​ລາ​ອາ​ຟຣິ​ກາ​ໃຕ້
     :Africa_Western: 
       :long: 
-        :daylight: ເວ​ລາ​ລະ​ດູ​ຮ້ອນ​ອາ​ຟຣິ​ກາ​ຕາ​ເວັນ​ຕົກ
-        :generic: ເວ​ລາ​ອາ​ຟຣິ​ກາ​ຕາ​ເວັນ​ຕົກ
-        :standard: ເວ​ລາ​ມາດ​ຕະ​ຖານ​ອາ​ຟຣິ​ກາ​ຕາ​ເວັນ​ຕົກ
+        :standard: ເວ​ລາ​ອາ​ຟຣິ​ກາ​ຕາ​ເວັນ​ຕົກ
     :Alaska: 
       :long: 
         :daylight: ເວລາກາງເວັນອະລັສກາ
@@ -294,6 +294,9 @@
     :Guyana: 
       :long: 
         :standard: ເວລາກາຍອານາ
+    :Hawaii: 
+      :long: 
+        :standard: ເວລາມາດຕະຖານຮາວາຍ-ເອລູທຽນ
     :Hawaii_Aleutian: 
       :long: 
         :daylight: ເວລາຕອນທ່ຽງຮາວາຍ-ເອລູທຽນ
@@ -408,8 +411,8 @@
     :Mauritius: 
       :long: 
         :daylight: ​ເວ​ລາ​ລະ​ດູ​ຮ້ອນ​ເມົາ​ຣິ​ທຽ​ສ
-        :generic: ເວ​ລາ​ເມົາ​ຣິ​ທຽ​ສ
-        :standard: ເວ​ລາ​ມາດ​ຕະ​ຖານເມົາ​ຣິ​ທຽ​ສ
+        :generic: ເວ​ລາ​ມົວຣິ​ຊຽ​ສ
+        :standard: ເວ​ລາ​ມາດ​ຕະ​ຖານມົວ​ຣິ​ຊຽ​ສ
     :Mawson: 
       :long: 
         :standard: ເວລາມໍສັນ
@@ -1423,7 +1426,7 @@
     :Pacific/Efate: 
       :city: ເອຟາເຕ
     :Pacific/Enderbury: 
-      :city: ເອັນເດີເບີລີ
+      :city: ແຄນຕອນ
     :Pacific/Fakaofo: 
       :city: ຟາກາວໂຟ
     :Pacific/Fiji: 
@@ -1440,8 +1443,6 @@
       :city: ກວມ
     :Pacific/Honolulu: 
       :city: ໂຮໂນລູລູ
-    :Pacific/Kanton: 
-      :city: ແຄນຕອນ
     :Pacific/Kiritimati: 
       :city: ຄີຣິທີມາຕີ
     :Pacific/Kosrae: 

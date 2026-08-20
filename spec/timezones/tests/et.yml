@@ -1,13 +1,13 @@
 ---
 Africa/Abidjan:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Elevandiluurannik)"
   :GENERIC_LONG: Greenwichi aeg
   :GENERIC_SHORT: "(Elevandiluurannik)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -22,13 +22,13 @@ Africa/Abidjan:
   :EXEMPLAR_LOCATION: Abidjan
 Africa/Accra:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Ghana)"
   :GENERIC_LONG: Greenwichi aeg
   :GENERIC_SHORT: "(Ghana)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -127,13 +127,13 @@ Africa/Asmera:
   :EXEMPLAR_LOCATION: Asmara
 Africa/Bamako:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Mali)"
   :GENERIC_LONG: Greenwichi aeg
   :GENERIC_SHORT: "(Mali)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -151,9 +151,9 @@ Africa/Bangui:
   :LOCALIZED_GMT: GMT +01:00
   :LOCALIZED_GMT_SHORT: GMT +1
   :GENERIC_LOCATION: "(Kesk-Aafrika Vabariik)"
-  :GENERIC_LONG: Lääne-Aafrika standardaeg
+  :GENERIC_LONG: Lääne-Aafrika aeg
   :GENERIC_SHORT: "(Kesk-Aafrika Vabariik)"
-  :SPECIFIC_LONG: Lääne-Aafrika standardaeg
+  :SPECIFIC_LONG: Lääne-Aafrika aeg
   :SPECIFIC_SHORT: GMT +1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -169,13 +169,13 @@ Africa/Bangui:
   :EXEMPLAR_LOCATION: Bangui
 Africa/Banjul:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Gambia)"
   :GENERIC_LONG: Greenwichi aeg
   :GENERIC_SHORT: "(Gambia)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -190,13 +190,13 @@ Africa/Banjul:
   :EXEMPLAR_LOCATION: Banjul
 Africa/Bissau:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Guinea-Bissau)"
   :GENERIC_LONG: Greenwichi aeg
   :GENERIC_SHORT: "(Guinea-Bissau)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -235,9 +235,9 @@ Africa/Brazzaville:
   :LOCALIZED_GMT: GMT +01:00
   :LOCALIZED_GMT_SHORT: GMT +1
   :GENERIC_LOCATION: "(Kongo Vabariik)"
-  :GENERIC_LONG: Lääne-Aafrika standardaeg
+  :GENERIC_LONG: Lääne-Aafrika aeg
   :GENERIC_SHORT: "(Kongo Vabariik)"
-  :SPECIFIC_LONG: Lääne-Aafrika standardaeg
+  :SPECIFIC_LONG: Lääne-Aafrika aeg
   :SPECIFIC_SHORT: GMT +1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -337,13 +337,13 @@ Africa/Ceuta:
   :EXEMPLAR_LOCATION: Ceuta
 Africa/Conakry:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Guinea)"
   :GENERIC_LONG: Greenwichi aeg
   :GENERIC_SHORT: "(Guinea)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -358,13 +358,13 @@ Africa/Conakry:
   :EXEMPLAR_LOCATION: Conakry
 Africa/Dakar:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Senegal)"
   :GENERIC_LONG: Greenwichi aeg
   :GENERIC_SHORT: "(Senegal)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -424,9 +424,9 @@ Africa/Douala:
   :LOCALIZED_GMT: GMT +01:00
   :LOCALIZED_GMT_SHORT: GMT +1
   :GENERIC_LOCATION: "(Kamerun)"
-  :GENERIC_LONG: Lääne-Aafrika standardaeg
+  :GENERIC_LONG: Lääne-Aafrika aeg
   :GENERIC_SHORT: "(Kamerun)"
-  :SPECIFIC_LONG: Lääne-Aafrika standardaeg
+  :SPECIFIC_LONG: Lääne-Aafrika aeg
   :SPECIFIC_SHORT: GMT +1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -463,13 +463,13 @@ Africa/El_Aaiun:
   :EXEMPLAR_LOCATION: El Aaiún
 Africa/Freetown:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Sierra Leone)"
   :GENERIC_LONG: Greenwichi aeg
   :GENERIC_SHORT: "(Sierra Leone)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -634,9 +634,9 @@ Africa/Kinshasa:
   :LOCALIZED_GMT: GMT +01:00
   :LOCALIZED_GMT_SHORT: GMT +1
   :GENERIC_LOCATION: "(Kinshasa)"
-  :GENERIC_LONG: Lääne-Aafrika standardaeg
+  :GENERIC_LONG: Lääne-Aafrika aeg
   :GENERIC_SHORT: "(Kinshasa)"
-  :SPECIFIC_LONG: Lääne-Aafrika standardaeg
+  :SPECIFIC_LONG: Lääne-Aafrika aeg
   :SPECIFIC_SHORT: GMT +1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -655,9 +655,9 @@ Africa/Lagos:
   :LOCALIZED_GMT: GMT +01:00
   :LOCALIZED_GMT_SHORT: GMT +1
   :GENERIC_LOCATION: "(Nigeeria)"
-  :GENERIC_LONG: Lääne-Aafrika standardaeg
+  :GENERIC_LONG: Lääne-Aafrika aeg
   :GENERIC_SHORT: "(Nigeeria)"
-  :SPECIFIC_LONG: Lääne-Aafrika standardaeg
+  :SPECIFIC_LONG: Lääne-Aafrika aeg
   :SPECIFIC_SHORT: GMT +1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -676,9 +676,9 @@ Africa/Libreville:
   :LOCALIZED_GMT: GMT +01:00
   :LOCALIZED_GMT_SHORT: GMT +1
   :GENERIC_LOCATION: "(Gabon)"
-  :GENERIC_LONG: Lääne-Aafrika standardaeg
+  :GENERIC_LONG: Lääne-Aafrika aeg
   :GENERIC_SHORT: "(Gabon)"
-  :SPECIFIC_LONG: Lääne-Aafrika standardaeg
+  :SPECIFIC_LONG: Lääne-Aafrika aeg
   :SPECIFIC_SHORT: GMT +1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -694,13 +694,13 @@ Africa/Libreville:
   :EXEMPLAR_LOCATION: Libreville
 Africa/Lome:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Togo)"
   :GENERIC_LONG: Greenwichi aeg
   :GENERIC_SHORT: "(Togo)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -718,9 +718,9 @@ Africa/Luanda:
   :LOCALIZED_GMT: GMT +01:00
   :LOCALIZED_GMT_SHORT: GMT +1
   :GENERIC_LOCATION: "(Angola)"
-  :GENERIC_LONG: Lääne-Aafrika standardaeg
+  :GENERIC_LONG: Lääne-Aafrika aeg
   :GENERIC_SHORT: "(Angola)"
-  :SPECIFIC_LONG: Lääne-Aafrika standardaeg
+  :SPECIFIC_LONG: Lääne-Aafrika aeg
   :SPECIFIC_SHORT: GMT +1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -781,9 +781,9 @@ Africa/Malabo:
   :LOCALIZED_GMT: GMT +01:00
   :LOCALIZED_GMT_SHORT: GMT +1
   :GENERIC_LOCATION: "(Ekvatoriaal-Guinea)"
-  :GENERIC_LONG: Lääne-Aafrika standardaeg
+  :GENERIC_LONG: Lääne-Aafrika aeg
   :GENERIC_SHORT: "(Ekvatoriaal-Guinea)"
-  :SPECIFIC_LONG: Lääne-Aafrika standardaeg
+  :SPECIFIC_LONG: Lääne-Aafrika aeg
   :SPECIFIC_SHORT: GMT +1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -883,13 +883,13 @@ Africa/Mogadishu:
   :EXEMPLAR_LOCATION: Muqdisho
 Africa/Monrovia:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Libeeria)"
   :GENERIC_LONG: Greenwichi aeg
   :GENERIC_SHORT: "(Libeeria)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -928,9 +928,9 @@ Africa/Ndjamena:
   :LOCALIZED_GMT: GMT +01:00
   :LOCALIZED_GMT_SHORT: GMT +1
   :GENERIC_LOCATION: "(Tšaad)"
-  :GENERIC_LONG: Lääne-Aafrika standardaeg
+  :GENERIC_LONG: Lääne-Aafrika aeg
   :GENERIC_SHORT: "(Tšaad)"
-  :SPECIFIC_LONG: Lääne-Aafrika standardaeg
+  :SPECIFIC_LONG: Lääne-Aafrika aeg
   :SPECIFIC_SHORT: GMT +1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -949,9 +949,9 @@ Africa/Niamey:
   :LOCALIZED_GMT: GMT +01:00
   :LOCALIZED_GMT_SHORT: GMT +1
   :GENERIC_LOCATION: "(Niger)"
-  :GENERIC_LONG: Lääne-Aafrika standardaeg
+  :GENERIC_LONG: Lääne-Aafrika aeg
   :GENERIC_SHORT: "(Niger)"
-  :SPECIFIC_LONG: Lääne-Aafrika standardaeg
+  :SPECIFIC_LONG: Lääne-Aafrika aeg
   :SPECIFIC_SHORT: GMT +1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -967,13 +967,13 @@ Africa/Niamey:
   :EXEMPLAR_LOCATION: Niamey
 Africa/Nouakchott:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Mauritaania)"
   :GENERIC_LONG: Greenwichi aeg
   :GENERIC_SHORT: "(Mauritaania)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -988,13 +988,13 @@ Africa/Nouakchott:
   :EXEMPLAR_LOCATION: Nouakchott
 Africa/Ouagadougou:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Burkina Faso)"
   :GENERIC_LONG: Greenwichi aeg
   :GENERIC_SHORT: "(Burkina Faso)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -1012,9 +1012,9 @@ Africa/Porto-Novo:
   :LOCALIZED_GMT: GMT +01:00
   :LOCALIZED_GMT_SHORT: GMT +1
   :GENERIC_LOCATION: "(Benin)"
-  :GENERIC_LONG: Lääne-Aafrika standardaeg
+  :GENERIC_LONG: Lääne-Aafrika aeg
   :GENERIC_SHORT: "(Benin)"
-  :SPECIFIC_LONG: Lääne-Aafrika standardaeg
+  :SPECIFIC_LONG: Lääne-Aafrika aeg
   :SPECIFIC_SHORT: GMT +1
   :ISO_BASIC_SHORT: "+01"
   :ISO_BASIC_LOCAL_SHORT: "+01"
@@ -1030,13 +1030,13 @@ Africa/Porto-Novo:
   :EXEMPLAR_LOCATION: Porto-Novo
 Africa/Sao_Tome:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(São Tomé ja Príncipe)"
   :GENERIC_LONG: Greenwichi aeg
   :GENERIC_SHORT: "(São Tomé ja Príncipe)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -1051,13 +1051,13 @@ Africa/Sao_Tome:
   :EXEMPLAR_LOCATION: São Tomé
 Africa/Timbuktu:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Mali)"
   :GENERIC_LONG: Greenwichi aeg
   :GENERIC_SHORT: "(Mali)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -1533,7 +1533,7 @@ America/Aruba:
   :ZONE_ID_SHORT: awaua
   :EXEMPLAR_LOCATION: Aruba
 America/Asuncion:
-  :offset: -14400000
+  :offset: -10800000
   :LOCALIZED_GMT: GMT −03:00
   :LOCALIZED_GMT_SHORT: GMT −3
   :GENERIC_LOCATION: "(Paraguay)"
@@ -2078,6 +2078,27 @@ America/Costa_Rica:
   :ISO_EXTENDED_LOCAL_FULL: "-06:00"
   :ZONE_ID_SHORT: crsjo
   :EXEMPLAR_LOCATION: Costa Rica
+America/Coyhaique:
+  :offset: -10800000
+  :LOCALIZED_GMT: GMT −03:00
+  :LOCALIZED_GMT_SHORT: GMT −3
+  :GENERIC_LOCATION: "(Coyhaique)"
+  :GENERIC_LONG: Tšiili aeg
+  :GENERIC_SHORT: "(Coyhaique)"
+  :SPECIFIC_LONG: Tšiili suveaeg
+  :SPECIFIC_SHORT: GMT −3
+  :ISO_BASIC_SHORT: "-03"
+  :ISO_BASIC_LOCAL_SHORT: "-03"
+  :ISO_BASIC_FIXED: "-0300"
+  :ISO_BASIC_LOCAL_FIXED: "-0300"
+  :ISO_BASIC_FULL: "-0300"
+  :ISO_BASIC_LOCAL_FULL: "-0300"
+  :ISO_EXTENDED_FIXED: "-03:00"
+  :ISO_EXTENDED_LOCAL_FIXED: "-03:00"
+  :ISO_EXTENDED_FULL: "-03:00"
+  :ISO_EXTENDED_LOCAL_FULL: "-03:00"
+  :ZONE_ID_SHORT: clcxq
+  :EXEMPLAR_LOCATION: Coyhaique
 America/Creston:
   :offset: -25200000
   :LOCALIZED_GMT: GMT −07:00
@@ -2143,13 +2164,13 @@ America/Curacao:
   :EXEMPLAR_LOCATION: Curaçao
 America/Danmarkshavn:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Danmarkshavn)"
   :GENERIC_LONG: Greenwichi aeg
   :GENERIC_SHORT: "(Danmarkshavn)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -3421,7 +3442,7 @@ America/Miquelon:
   :ISO_EXTENDED_FULL: "-03:00"
   :ISO_EXTENDED_LOCAL_FULL: "-03:00"
   :ZONE_ID_SHORT: pmmqc
-  :EXEMPLAR_LOCATION: Miquelon
+  :EXEMPLAR_LOCATION: Saint-Pierre
 America/Moncton:
   :offset: -14400000
   :LOCALIZED_GMT: GMT −04:00
@@ -3615,9 +3636,9 @@ America/Noronha:
   :offset: -7200000
   :LOCALIZED_GMT: GMT −02:00
   :LOCALIZED_GMT_SHORT: GMT −2
-  :GENERIC_LOCATION: "(Noronha)"
+  :GENERIC_LOCATION: "(Fernando de Noronha)"
   :GENERIC_LONG: Fernando de Noronha standardaeg
-  :GENERIC_SHORT: "(Noronha)"
+  :GENERIC_SHORT: "(Fernando de Noronha)"
   :SPECIFIC_LONG: Fernando de Noronha standardaeg
   :SPECIFIC_SHORT: GMT −2
   :ISO_BASIC_SHORT: "-02"
@@ -3631,7 +3652,7 @@ America/Noronha:
   :ISO_EXTENDED_FULL: "-02:00"
   :ISO_EXTENDED_LOCAL_FULL: "-02:00"
   :ZONE_ID_SHORT: brfen
-  :EXEMPLAR_LOCATION: Noronha
+  :EXEMPLAR_LOCATION: Fernando de Noronha
 America/North_Dakota/Beulah:
   :offset: -21600000
   :LOCALIZED_GMT: GMT −06:00
@@ -4707,9 +4728,9 @@ Antarctica/DumontDUrville:
   :offset: 36000000
   :LOCALIZED_GMT: GMT +10:00
   :LOCALIZED_GMT_SHORT: GMT +10
-  :GENERIC_LOCATION: "(Dumont d’Urville)"
+  :GENERIC_LOCATION: "(Dumont-d’Urville)"
   :GENERIC_LONG: Dumont d’Urville’i aeg
-  :GENERIC_SHORT: "(Dumont d’Urville)"
+  :GENERIC_SHORT: "(Dumont-d’Urville)"
   :SPECIFIC_LONG: Dumont d’Urville’i aeg
   :SPECIFIC_SHORT: GMT +10
   :ISO_BASIC_SHORT: "+10"
@@ -4723,7 +4744,7 @@ Antarctica/DumontDUrville:
   :ISO_EXTENDED_FULL: "+10:00"
   :ISO_EXTENDED_LOCAL_FULL: "+10:00"
   :ZONE_ID_SHORT: aqddu
-  :EXEMPLAR_LOCATION: Dumont d’Urville
+  :EXEMPLAR_LOCATION: Dumont-d’Urville
 Antarctica/Macquarie:
   :offset: 36000000
   :LOCALIZED_GMT: GMT +11:00
@@ -4833,9 +4854,9 @@ Antarctica/South_Pole:
   :offset: 43200000
   :LOCALIZED_GMT: GMT +13:00
   :LOCALIZED_GMT_SHORT: GMT +13
-  :GENERIC_LOCATION: "(Uus-Meremaa)"
+  :GENERIC_LOCATION: "(McMurdo)"
   :GENERIC_LONG: Uus-Meremaa aeg
-  :GENERIC_SHORT: "(Uus-Meremaa)"
+  :GENERIC_SHORT: "(McMurdo)"
   :SPECIFIC_LONG: Uus-Meremaa suveaeg
   :SPECIFIC_SHORT: GMT +13
   :ISO_BASIC_SHORT: "+13"
@@ -4848,15 +4869,15 @@ Antarctica/South_Pole:
   :ISO_EXTENDED_LOCAL_FIXED: "+13:00"
   :ISO_EXTENDED_FULL: "+13:00"
   :ISO_EXTENDED_LOCAL_FULL: "+13:00"
-  :ZONE_ID_SHORT: nzakl
-  :EXEMPLAR_LOCATION: Auckland
+  :ZONE_ID_SHORT: aqmcm
+  :EXEMPLAR_LOCATION: McMurdo
 Antarctica/Syowa:
   :offset: 10800000
   :LOCALIZED_GMT: GMT +03:00
   :LOCALIZED_GMT_SHORT: GMT +3
-  :GENERIC_LOCATION: "(Syowa)"
+  :GENERIC_LOCATION: "(Showa)"
   :GENERIC_LONG: Syowa aeg
-  :GENERIC_SHORT: "(Syowa)"
+  :GENERIC_SHORT: "(Showa)"
   :SPECIFIC_LONG: Syowa aeg
   :SPECIFIC_SHORT: GMT +3
   :ISO_BASIC_SHORT: "+03"
@@ -4870,16 +4891,16 @@ Antarctica/Syowa:
   :ISO_EXTENDED_FULL: "+03:00"
   :ISO_EXTENDED_LOCAL_FULL: "+03:00"
   :ZONE_ID_SHORT: aqsyw
-  :EXEMPLAR_LOCATION: Syowa
+  :EXEMPLAR_LOCATION: Showa
 Antarctica/Troll:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Troll)"
   :GENERIC_LONG: "(Troll)"
   :GENERIC_SHORT: "(Troll)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -5002,9 +5023,9 @@ Asia/Anadyr:
   :LOCALIZED_GMT: GMT +12:00
   :LOCALIZED_GMT_SHORT: GMT +12
   :GENERIC_LOCATION: "(Anadõr)"
-  :GENERIC_LONG: Anadõri standardaeg
+  :GENERIC_LONG: Kamtšatka standardaeg
   :GENERIC_SHORT: "(Anadõr)"
-  :SPECIFIC_LONG: Anadõri standardaeg
+  :SPECIFIC_LONG: Kamtšatka standardaeg
   :SPECIFIC_SHORT: GMT +12
   :ISO_BASIC_SHORT: "+12"
   :ISO_BASIC_LOCAL_SHORT: "+12"
@@ -5212,9 +5233,9 @@ Asia/Barnaul:
   :LOCALIZED_GMT: GMT +07:00
   :LOCALIZED_GMT_SHORT: GMT +7
   :GENERIC_LOCATION: "(Barnaul)"
-  :GENERIC_LONG: "(Barnaul)"
+  :GENERIC_LONG: Krasnojarski standardaeg
   :GENERIC_SHORT: "(Barnaul)"
-  :SPECIFIC_LONG: GMT +07:00
+  :SPECIFIC_LONG: Krasnojarski standardaeg
   :SPECIFIC_SHORT: GMT +7
   :ISO_BASIC_SHORT: "+07"
   :ISO_BASIC_LOCAL_SHORT: "+07"
@@ -5548,9 +5569,9 @@ Asia/Famagusta:
   :LOCALIZED_GMT: GMT +02:00
   :LOCALIZED_GMT_SHORT: GMT +2
   :GENERIC_LOCATION: "(Famagusta)"
-  :GENERIC_LONG: "(Famagusta)"
+  :GENERIC_LONG: Ida-Euroopa aeg
   :GENERIC_SHORT: "(Famagusta)"
-  :SPECIFIC_LONG: GMT +02:00
+  :SPECIFIC_LONG: Ida-Euroopa standardaeg
   :SPECIFIC_SHORT: GMT +2
   :ISO_BASIC_SHORT: "+02"
   :ISO_BASIC_LOCAL_SHORT: "+02"
@@ -5673,9 +5694,9 @@ Asia/Hovd:
   :offset: 25200000
   :LOCALIZED_GMT: GMT +07:00
   :LOCALIZED_GMT_SHORT: GMT +7
-  :GENERIC_LOCATION: "(Hovd)"
+  :GENERIC_LOCATION: "(Khovd)"
   :GENERIC_LONG: Hovdi standardaeg
-  :GENERIC_SHORT: "(Hovd)"
+  :GENERIC_SHORT: "(Khovd)"
   :SPECIFIC_LONG: Hovdi standardaeg
   :SPECIFIC_SHORT: GMT +7
   :ISO_BASIC_SHORT: "+07"
@@ -5689,7 +5710,7 @@ Asia/Hovd:
   :ISO_EXTENDED_FULL: "+07:00"
   :ISO_EXTENDED_LOCAL_FULL: "+07:00"
   :ZONE_ID_SHORT: mnhvd
-  :EXEMPLAR_LOCATION: Hovd
+  :EXEMPLAR_LOCATION: Khovd
 Asia/Irkutsk:
   :offset: 28800000
   :LOCALIZED_GMT: GMT +08:00
@@ -5716,9 +5737,9 @@ Asia/Istanbul:
   :LOCALIZED_GMT: GMT +03:00
   :LOCALIZED_GMT_SHORT: GMT +3
   :GENERIC_LOCATION: "(Türgi)"
-  :GENERIC_LONG: "(Türgi)"
+  :GENERIC_LONG: Türgi standardaeg
   :GENERIC_SHORT: "(Türgi)"
-  :SPECIFIC_LONG: GMT +03:00
+  :SPECIFIC_LONG: Türgi standardaeg
   :SPECIFIC_SHORT: GMT +3
   :ISO_BASIC_SHORT: "+03"
   :ISO_BASIC_LOCAL_SHORT: "+03"
@@ -6220,9 +6241,9 @@ Asia/Novosibirsk:
   :LOCALIZED_GMT: GMT +07:00
   :LOCALIZED_GMT_SHORT: GMT +7
   :GENERIC_LOCATION: "(Novosibirsk)"
-  :GENERIC_LONG: Novosibirski standardaeg
+  :GENERIC_LONG: Krasnojarski standardaeg
   :GENERIC_SHORT: "(Novosibirsk)"
-  :SPECIFIC_LONG: Novosibirski standardaeg
+  :SPECIFIC_LONG: Krasnojarski standardaeg
   :SPECIFIC_SHORT: GMT +7
   :ISO_BASIC_SHORT: "+07"
   :ISO_BASIC_LOCAL_SHORT: "+07"
@@ -6472,9 +6493,9 @@ Asia/Sakhalin:
   :LOCALIZED_GMT: GMT +11:00
   :LOCALIZED_GMT_SHORT: GMT +11
   :GENERIC_LOCATION: "(Sahhalin)"
-  :GENERIC_LONG: Sahhalini standardaeg
+  :GENERIC_LONG: Magadani standardaeg
   :GENERIC_SHORT: "(Sahhalin)"
-  :SPECIFIC_LONG: Sahhalini standardaeg
+  :SPECIFIC_LONG: Magadani standardaeg
   :SPECIFIC_SHORT: GMT +11
   :ISO_BASIC_SHORT: "+11"
   :ISO_BASIC_LOCAL_SHORT: "+11"
@@ -6577,9 +6598,9 @@ Asia/Srednekolymsk:
   :LOCALIZED_GMT: GMT +11:00
   :LOCALIZED_GMT_SHORT: GMT +11
   :GENERIC_LOCATION: "(Srednekolõmsk)"
-  :GENERIC_LONG: "(Srednekolõmsk)"
+  :GENERIC_LONG: Magadani standardaeg
   :GENERIC_SHORT: "(Srednekolõmsk)"
-  :SPECIFIC_LONG: GMT +11:00
+  :SPECIFIC_LONG: Magadani standardaeg
   :SPECIFIC_SHORT: GMT +11
   :ISO_BASIC_SHORT: "+11"
   :ISO_BASIC_LOCAL_SHORT: "+11"
@@ -6766,9 +6787,9 @@ Asia/Tomsk:
   :LOCALIZED_GMT: GMT +07:00
   :LOCALIZED_GMT_SHORT: GMT +7
   :GENERIC_LOCATION: "(Tomsk)"
-  :GENERIC_LONG: "(Tomsk)"
+  :GENERIC_LONG: Krasnojarski standardaeg
   :GENERIC_SHORT: "(Tomsk)"
-  :SPECIFIC_LONG: GMT +07:00
+  :SPECIFIC_LONG: Krasnojarski standardaeg
   :SPECIFIC_SHORT: GMT +7
   :ISO_BASIC_SHORT: "+07"
   :ISO_BASIC_LOCAL_SHORT: "+07"
@@ -7057,13 +7078,13 @@ Atlantic/Bermuda:
   :EXEMPLAR_LOCATION: Bermuda
 Atlantic/Canary:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Kanaari saared)"
   :GENERIC_LONG: Lääne-Euroopa aeg
   :GENERIC_SHORT: "(Kanaari saared)"
   :SPECIFIC_LONG: Lääne-Euroopa standardaeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -7099,13 +7120,13 @@ Atlantic/Cape_Verde:
   :EXEMPLAR_LOCATION: Roheneemesaared
 Atlantic/Faeroe:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Fääri saared)"
   :GENERIC_LONG: Lääne-Euroopa aeg
   :GENERIC_SHORT: "(Fääri saared)"
   :SPECIFIC_LONG: Lääne-Euroopa standardaeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -7120,13 +7141,13 @@ Atlantic/Faeroe:
   :EXEMPLAR_LOCATION: Fääri saared
 Atlantic/Faroe:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Fääri saared)"
   :GENERIC_LONG: Lääne-Euroopa aeg
   :GENERIC_SHORT: "(Fääri saared)"
   :SPECIFIC_LONG: Lääne-Euroopa standardaeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -7162,13 +7183,13 @@ Atlantic/Jan_Mayen:
   :EXEMPLAR_LOCATION: Longyearbyen
 Atlantic/Madeira:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Madeira)"
   :GENERIC_LONG: Lääne-Euroopa aeg
   :GENERIC_SHORT: "(Madeira)"
   :SPECIFIC_LONG: Lääne-Euroopa standardaeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -7183,13 +7204,13 @@ Atlantic/Madeira:
   :EXEMPLAR_LOCATION: Madeira
 Atlantic/Reykjavik:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Island)"
   :GENERIC_LONG: Greenwichi aeg
   :GENERIC_SHORT: "(Island)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -7225,13 +7246,13 @@ Atlantic/South_Georgia:
   :EXEMPLAR_LOCATION: Lõuna-Georgia
 Atlantic/St_Helena:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Saint Helena)"
   :GENERIC_LONG: Greenwichi aeg
   :GENERIC_SHORT: "(Saint Helena)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -7773,9 +7794,9 @@ Brazil/DeNoronha:
   :offset: -7200000
   :LOCALIZED_GMT: GMT −02:00
   :LOCALIZED_GMT_SHORT: GMT −2
-  :GENERIC_LOCATION: "(Noronha)"
+  :GENERIC_LOCATION: "(Fernando de Noronha)"
   :GENERIC_LONG: Fernando de Noronha standardaeg
-  :GENERIC_SHORT: "(Noronha)"
+  :GENERIC_SHORT: "(Fernando de Noronha)"
   :SPECIFIC_LONG: Fernando de Noronha standardaeg
   :SPECIFIC_SHORT: GMT −2
   :ISO_BASIC_SHORT: "-02"
@@ -7789,7 +7810,7 @@ Brazil/DeNoronha:
   :ISO_EXTENDED_FULL: "-02:00"
   :ISO_EXTENDED_LOCAL_FULL: "-02:00"
   :ZONE_ID_SHORT: brfen
-  :EXEMPLAR_LOCATION: Noronha
+  :EXEMPLAR_LOCATION: Fernando de Noronha
 Brazil/East:
   :offset: -10800000
   :LOCALIZED_GMT: GMT −03:00
@@ -8191,13 +8212,13 @@ Egypt:
   :EXEMPLAR_LOCATION: Kairo
 Eire:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Iirimaa)"
   :GENERIC_LONG: "(Iirimaa)"
   :GENERIC_SHORT: "(Iirimaa)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -8212,13 +8233,13 @@ Eire:
   :EXEMPLAR_LOCATION: Dublin
 Etc/GMT:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
+  :GENERIC_LOCATION: GMT +00:00
   :GENERIC_LONG: Greenwichi aeg
-  :GENERIC_SHORT: GMT
+  :GENERIC_SHORT: GMT +0
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -8233,13 +8254,13 @@ Etc/GMT:
   :EXEMPLAR_LOCATION: määramata linn
 Etc/GMT+0:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
+  :GENERIC_LOCATION: GMT +00:00
   :GENERIC_LONG: Greenwichi aeg
-  :GENERIC_SHORT: GMT
+  :GENERIC_SHORT: GMT +0
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -8506,13 +8527,13 @@ Etc/GMT+9:
   :EXEMPLAR_LOCATION: määramata linn
 Etc/GMT-0:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
+  :GENERIC_LOCATION: GMT +00:00
   :GENERIC_LONG: Greenwichi aeg
-  :GENERIC_SHORT: GMT
+  :GENERIC_SHORT: GMT +0
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -8821,13 +8842,13 @@ Etc/GMT-9:
   :EXEMPLAR_LOCATION: määramata linn
 Etc/GMT0:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
+  :GENERIC_LOCATION: GMT +00:00
   :GENERIC_LONG: Greenwichi aeg
-  :GENERIC_SHORT: GMT
+  :GENERIC_SHORT: GMT +0
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -8842,13 +8863,13 @@ Etc/GMT0:
   :EXEMPLAR_LOCATION: määramata linn
 Etc/Greenwich:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
+  :GENERIC_LOCATION: GMT +00:00
   :GENERIC_LONG: Greenwichi aeg
-  :GENERIC_SHORT: GMT
+  :GENERIC_SHORT: GMT +0
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -8863,11 +8884,11 @@ Etc/Greenwich:
   :EXEMPLAR_LOCATION: määramata linn
 Etc/UCT:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
+  :GENERIC_LOCATION: GMT +00:00
+  :GENERIC_LONG: GMT +00:00
+  :GENERIC_SHORT: GMT +0
   :SPECIFIC_LONG: Koordineeritud maailmaaeg
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -8884,11 +8905,11 @@ Etc/UCT:
   :EXEMPLAR_LOCATION: määramata linn
 Etc/UTC:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
+  :GENERIC_LOCATION: GMT +00:00
+  :GENERIC_LONG: GMT +00:00
+  :GENERIC_SHORT: GMT +0
   :SPECIFIC_LONG: Koordineeritud maailmaaeg
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -8905,11 +8926,11 @@ Etc/UTC:
   :EXEMPLAR_LOCATION: määramata linn
 Etc/Universal:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
+  :GENERIC_LOCATION: GMT +00:00
+  :GENERIC_LONG: GMT +00:00
+  :GENERIC_SHORT: GMT +0
   :SPECIFIC_LONG: Koordineeritud maailmaaeg
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -8926,11 +8947,11 @@ Etc/Universal:
   :EXEMPLAR_LOCATION: määramata linn
 Etc/Zulu:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
+  :GENERIC_LOCATION: GMT +00:00
+  :GENERIC_LONG: GMT +00:00
+  :GENERIC_SHORT: GMT +0
   :SPECIFIC_LONG: Koordineeritud maailmaaeg
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -8992,9 +9013,9 @@ Europe/Astrakhan:
   :LOCALIZED_GMT: GMT +04:00
   :LOCALIZED_GMT_SHORT: GMT +4
   :GENERIC_LOCATION: "(Astrahan)"
-  :GENERIC_LONG: "(Astrahan)"
+  :GENERIC_LONG: Samara standardaeg
   :GENERIC_SHORT: "(Astrahan)"
-  :SPECIFIC_LONG: GMT +04:00
+  :SPECIFIC_LONG: Samara standardaeg
   :SPECIFIC_SHORT: GMT +4
   :ISO_BASIC_SHORT: "+04"
   :ISO_BASIC_LOCAL_SHORT: "+04"
@@ -9031,13 +9052,13 @@ Europe/Athens:
   :EXEMPLAR_LOCATION: Ateena
 Europe/Belfast:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Ühendkuningriik)"
   :GENERIC_LONG: "(Ühendkuningriik)"
   :GENERIC_SHORT: "(Ühendkuningriik)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -9241,13 +9262,13 @@ Europe/Copenhagen:
   :EXEMPLAR_LOCATION: Kopenhaagen
 Europe/Dublin:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Iirimaa)"
   :GENERIC_LONG: "(Iirimaa)"
   :GENERIC_SHORT: "(Iirimaa)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -9283,13 +9304,13 @@ Europe/Gibraltar:
   :EXEMPLAR_LOCATION: Gibraltar
 Europe/Guernsey:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Guernsey)"
   :GENERIC_LONG: "(Guernsey)"
   :GENERIC_SHORT: "(Guernsey)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -9325,13 +9346,13 @@ Europe/Helsinki:
   :EXEMPLAR_LOCATION: Helsingi
 Europe/Isle_of_Man:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Mani saar)"
   :GENERIC_LONG: "(Mani saar)"
   :GENERIC_SHORT: "(Mani saar)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -9349,9 +9370,9 @@ Europe/Istanbul:
   :LOCALIZED_GMT: GMT +03:00
   :LOCALIZED_GMT_SHORT: GMT +3
   :GENERIC_LOCATION: "(Türgi)"
-  :GENERIC_LONG: "(Türgi)"
+  :GENERIC_LONG: Türgi standardaeg
   :GENERIC_SHORT: "(Türgi)"
-  :SPECIFIC_LONG: GMT +03:00
+  :SPECIFIC_LONG: Türgi standardaeg
   :SPECIFIC_SHORT: GMT +3
   :ISO_BASIC_SHORT: "+03"
   :ISO_BASIC_LOCAL_SHORT: "+03"
@@ -9367,13 +9388,13 @@ Europe/Istanbul:
   :EXEMPLAR_LOCATION: İstanbul
 Europe/Jersey:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Jersey)"
   :GENERIC_LONG: "(Jersey)"
   :GENERIC_SHORT: "(Jersey)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -9433,9 +9454,9 @@ Europe/Kirov:
   :LOCALIZED_GMT: GMT +03:00
   :LOCALIZED_GMT_SHORT: GMT +3
   :GENERIC_LOCATION: "(Kirov)"
-  :GENERIC_LONG: "(Kirov)"
+  :GENERIC_LONG: Moskva standardaeg
   :GENERIC_SHORT: "(Kirov)"
-  :SPECIFIC_LONG: GMT +03:00
+  :SPECIFIC_LONG: Moskva standardaeg
   :SPECIFIC_SHORT: GMT +3
   :ISO_BASIC_SHORT: "+03"
   :ISO_BASIC_LOCAL_SHORT: "+03"
@@ -9472,13 +9493,13 @@ Europe/Kyiv:
   :EXEMPLAR_LOCATION: Kiiev
 Europe/Lisbon:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Portugal)"
   :GENERIC_LONG: Lääne-Euroopa aeg
   :GENERIC_SHORT: "(Portugal)"
   :SPECIFIC_LONG: Lääne-Euroopa standardaeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -9514,13 +9535,13 @@ Europe/Ljubljana:
   :EXEMPLAR_LOCATION: Ljubljana
 Europe/London:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Ühendkuningriik)"
   :GENERIC_LONG: "(Ühendkuningriik)"
   :GENERIC_SHORT: "(Ühendkuningriik)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -9895,9 +9916,9 @@ Europe/Saratov:
   :LOCALIZED_GMT: GMT +04:00
   :LOCALIZED_GMT_SHORT: GMT +4
   :GENERIC_LOCATION: "(Saratov)"
-  :GENERIC_LONG: "(Saratov)"
+  :GENERIC_LONG: Samara standardaeg
   :GENERIC_SHORT: "(Saratov)"
-  :SPECIFIC_LONG: GMT +04:00
+  :SPECIFIC_LONG: Samara standardaeg
   :SPECIFIC_SHORT: GMT +4
   :ISO_BASIC_SHORT: "+04"
   :ISO_BASIC_LOCAL_SHORT: "+04"
@@ -10063,9 +10084,9 @@ Europe/Ulyanovsk:
   :LOCALIZED_GMT: GMT +04:00
   :LOCALIZED_GMT_SHORT: GMT +4
   :GENERIC_LOCATION: "(Uljanovsk)"
-  :GENERIC_LONG: "(Uljanovsk)"
+  :GENERIC_LONG: Samara standardaeg
   :GENERIC_SHORT: "(Uljanovsk)"
-  :SPECIFIC_LONG: GMT +04:00
+  :SPECIFIC_LONG: Samara standardaeg
   :SPECIFIC_SHORT: GMT +4
   :ISO_BASIC_SHORT: "+04"
   :ISO_BASIC_LOCAL_SHORT: "+04"
@@ -10291,13 +10312,13 @@ Europe/Zurich:
   :EXEMPLAR_LOCATION: Zürich
 GB:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Ühendkuningriik)"
   :GENERIC_LONG: "(Ühendkuningriik)"
   :GENERIC_SHORT: "(Ühendkuningriik)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -10312,13 +10333,13 @@ GB:
   :EXEMPLAR_LOCATION: London
 GB-Eire:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Ühendkuningriik)"
   :GENERIC_LONG: "(Ühendkuningriik)"
   :GENERIC_SHORT: "(Ühendkuningriik)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -10333,13 +10354,13 @@ GB-Eire:
   :EXEMPLAR_LOCATION: London
 GMT:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
+  :GENERIC_LOCATION: GMT +00:00
   :GENERIC_LONG: Greenwichi aeg
-  :GENERIC_SHORT: GMT
+  :GENERIC_SHORT: GMT +0
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -10354,13 +10375,13 @@ GMT:
   :EXEMPLAR_LOCATION: määramata linn
 GMT+0:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
+  :GENERIC_LOCATION: GMT +00:00
   :GENERIC_LONG: Greenwichi aeg
-  :GENERIC_SHORT: GMT
+  :GENERIC_SHORT: GMT +0
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -10375,13 +10396,13 @@ GMT+0:
   :EXEMPLAR_LOCATION: määramata linn
 GMT-0:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
+  :GENERIC_LOCATION: GMT +00:00
   :GENERIC_LONG: Greenwichi aeg
-  :GENERIC_SHORT: GMT
+  :GENERIC_SHORT: GMT +0
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -10396,13 +10417,13 @@ GMT-0:
   :EXEMPLAR_LOCATION: määramata linn
 GMT0:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
+  :GENERIC_LOCATION: GMT +00:00
   :GENERIC_LONG: Greenwichi aeg
-  :GENERIC_SHORT: GMT
+  :GENERIC_SHORT: GMT +0
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -10417,13 +10438,13 @@ GMT0:
   :EXEMPLAR_LOCATION: määramata linn
 Greenwich:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
+  :GENERIC_LOCATION: GMT +00:00
   :GENERIC_LONG: Greenwichi aeg
-  :GENERIC_SHORT: GMT
+  :GENERIC_SHORT: GMT +0
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -10480,13 +10501,13 @@ Hongkong:
   :EXEMPLAR_LOCATION: Hongkong
 Iceland:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Island)"
   :GENERIC_LONG: Greenwichi aeg
   :GENERIC_SHORT: "(Island)"
   :SPECIFIC_LONG: Greenwichi aeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -10603,7 +10624,7 @@ Indian/Comoro:
   :ISO_EXTENDED_FULL: "+03:00"
   :ISO_EXTENDED_LOCAL_FULL: "+03:00"
   :ZONE_ID_SHORT: kmyva
-  :EXEMPLAR_LOCATION: Comoro
+  :EXEMPLAR_LOCATION: Comores
 Indian/Kerguelen:
   :offset: 18000000
   :LOCALIZED_GMT: GMT +05:00
@@ -11238,9 +11259,9 @@ Pacific/Enderbury:
   :offset: 46800000
   :LOCALIZED_GMT: GMT +13:00
   :LOCALIZED_GMT_SHORT: GMT +13
-  :GENERIC_LOCATION: "(Enderbury)"
+  :GENERIC_LOCATION: "(Abariringa)"
   :GENERIC_LONG: Fööniksisaarte aeg
-  :GENERIC_SHORT: "(Enderbury)"
+  :GENERIC_SHORT: "(Abariringa)"
   :SPECIFIC_LONG: Fööniksisaarte aeg
   :SPECIFIC_SHORT: GMT +13
   :ISO_BASIC_SHORT: "+13"
@@ -11254,7 +11275,7 @@ Pacific/Enderbury:
   :ISO_EXTENDED_FULL: "+13:00"
   :ISO_EXTENDED_LOCAL_FULL: "+13:00"
   :ZONE_ID_SHORT: kipho
-  :EXEMPLAR_LOCATION: Enderbury
+  :EXEMPLAR_LOCATION: Abariringa
 Pacific/Fakaofo:
   :offset: 46800000
   :LOCALIZED_GMT: GMT +13:00
@@ -11448,9 +11469,9 @@ Pacific/Kanton:
   :offset: 46800000
   :LOCALIZED_GMT: GMT +13:00
   :LOCALIZED_GMT_SHORT: GMT +13
-  :GENERIC_LOCATION: "(Enderbury)"
+  :GENERIC_LOCATION: "(Abariringa)"
   :GENERIC_LONG: Fööniksisaarte aeg
-  :GENERIC_SHORT: "(Enderbury)"
+  :GENERIC_SHORT: "(Abariringa)"
   :SPECIFIC_LONG: Fööniksisaarte aeg
   :SPECIFIC_SHORT: GMT +13
   :ISO_BASIC_SHORT: "+13"
@@ -11464,7 +11485,7 @@ Pacific/Kanton:
   :ISO_EXTENDED_FULL: "+13:00"
   :ISO_EXTENDED_LOCAL_FULL: "+13:00"
   :ZONE_ID_SHORT: kipho
-  :EXEMPLAR_LOCATION: Enderbury
+  :EXEMPLAR_LOCATION: Abariringa
 Pacific/Kiritimati:
   :offset: 50400000
   :LOCALIZED_GMT: GMT +14:00
@@ -11989,7 +12010,7 @@ Pacific/Wallis:
   :ISO_EXTENDED_FULL: "+12:00"
   :ISO_EXTENDED_LOCAL_FULL: "+12:00"
   :ZONE_ID_SHORT: wfmau
-  :EXEMPLAR_LOCATION: Wallis
+  :EXEMPLAR_LOCATION: Wallis & Futuna
 Pacific/Yap:
   :offset: 36000000
   :LOCALIZED_GMT: GMT +10:00
@@ -12034,13 +12055,13 @@ Poland:
   :EXEMPLAR_LOCATION: Varssavi
 Portugal:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Portugal)"
   :GENERIC_LONG: Lääne-Euroopa aeg
   :GENERIC_SHORT: "(Portugal)"
   :SPECIFIC_LONG: Lääne-Euroopa standardaeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -12121,9 +12142,9 @@ Turkey:
   :LOCALIZED_GMT: GMT +03:00
   :LOCALIZED_GMT_SHORT: GMT +3
   :GENERIC_LOCATION: "(Türgi)"
-  :GENERIC_LONG: "(Türgi)"
+  :GENERIC_LONG: Türgi standardaeg
   :GENERIC_SHORT: "(Türgi)"
-  :SPECIFIC_LONG: GMT +03:00
+  :SPECIFIC_LONG: Türgi standardaeg
   :SPECIFIC_SHORT: GMT +3
   :ISO_BASIC_SHORT: "+03"
   :ISO_BASIC_LOCAL_SHORT: "+03"
@@ -12139,11 +12160,11 @@ Turkey:
   :EXEMPLAR_LOCATION: İstanbul
 UCT:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
+  :GENERIC_LOCATION: GMT +00:00
+  :GENERIC_LONG: GMT +00:00
+  :GENERIC_SHORT: GMT +0
   :SPECIFIC_LONG: Koordineeritud maailmaaeg
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -12412,11 +12433,11 @@ US/Samoa:
   :EXEMPLAR_LOCATION: Pago Pago
 UTC:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
+  :GENERIC_LOCATION: GMT +00:00
+  :GENERIC_LONG: GMT +00:00
+  :GENERIC_SHORT: GMT +0
   :SPECIFIC_LONG: Koordineeritud maailmaaeg
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -12433,11 +12454,11 @@ UTC:
   :EXEMPLAR_LOCATION: määramata linn
 Universal:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
+  :GENERIC_LOCATION: GMT +00:00
+  :GENERIC_LONG: GMT +00:00
+  :GENERIC_SHORT: GMT +0
   :SPECIFIC_LONG: Koordineeritud maailmaaeg
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z
@@ -12475,13 +12496,13 @@ W-SU:
   :EXEMPLAR_LOCATION: Moskva
 WET:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
   :GENERIC_LOCATION: "(Portugal)"
   :GENERIC_LONG: Lääne-Euroopa aeg
   :GENERIC_SHORT: "(Portugal)"
   :SPECIFIC_LONG: Lääne-Euroopa standardaeg
-  :SPECIFIC_SHORT: GMT
+  :SPECIFIC_SHORT: GMT +0
   :ISO_BASIC_SHORT: Z
   :ISO_BASIC_LOCAL_SHORT: "+00"
   :ISO_BASIC_FIXED: Z
@@ -12496,11 +12517,11 @@ WET:
   :EXEMPLAR_LOCATION: Lissabon
 Zulu:
   :offset: 0
-  :LOCALIZED_GMT: GMT
-  :LOCALIZED_GMT_SHORT: GMT
-  :GENERIC_LOCATION: GMT
-  :GENERIC_LONG: GMT
-  :GENERIC_SHORT: GMT
+  :LOCALIZED_GMT: GMT +00:00
+  :LOCALIZED_GMT_SHORT: GMT +0
+  :GENERIC_LOCATION: GMT +00:00
+  :GENERIC_LONG: GMT +00:00
+  :GENERIC_SHORT: GMT +0
   :SPECIFIC_LONG: Koordineeritud maailmaaeg
   :SPECIFIC_SHORT: UTC
   :ISO_BASIC_SHORT: Z

@@ -7,14 +7,18 @@
         :Bhm: "h:mm 'ч'. B"
         :Bhms: "h:mm:ss 'ч'. B"
         :E: ccc
+        :EBh: "E, h B"
         :EBhm: "E, h:mm 'ч'. B"
         :EBhms: "E, h:mm:ss 'ч'. B"
         :EHm: "E, HH:mm 'ч'."
         :EHms: "E, HH:mm:ss 'ч'."
         :Ed: "E, d"
+        :Eh: "E, h a"
         :Ehm: "E, h:mm 'ч'. a"
         :Ehms: "E, h:mm:ss 'ч'. a"
         :Gy: "y 'г'. G"
+        :GyM: "M.y 'г'. G"
+        :GyMEd: "E, d.M.y 'г'. G"
         :GyMMM: "MM.y 'г'. G"
         :GyMMMEd: "E, d.MM.y 'г'. G"
         :GyMMMM: "MMMM y 'г'. G"
@@ -27,6 +31,7 @@
         :Hms: "HH:mm:ss 'ч'."
         :Hmsv: "HH:mm:ss 'ч'. v"
         :Hmv: "HH:mm 'ч'. v"
+        :Hv: "HH 'ч' v"
         :M: L
         :MEd: "E, d.MM"
         :MMM: MM
@@ -44,6 +49,7 @@
         :hms: "h:mm:ss 'ч'. a"
         :hmsv: "h:mm:ss 'ч'. a v"
         :hmv: "h:mm 'ч'. a v"
+        :hv: "h 'ч'. a v"
         :ms: "m:ss"
         ? !ruby/symbol "y"
         : y 'г'.
@@ -194,11 +200,11 @@
             :pattern: d.MM.yy 'г'.
         :datetime: 
           :full: 
-            :pattern: "{{date}} 'в' {{time}}"
+            :pattern: "{{date}} 'в' {{time}} 'ч'"
           :long: 
-            :pattern: "{{date}} 'в' {{time}}"
+            :pattern: "{{date}} 'в' {{time}} 'ч'"
           :medium: 
-            :pattern: "{{date}}, {{time}}"
+            :pattern: "{{date}}, {{time}} 'ч'"
           :short: 
             :pattern: "{{date}}, {{time}}"
         :time: 

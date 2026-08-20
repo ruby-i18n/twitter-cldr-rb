@@ -40,11 +40,27 @@
         0: "এই ঘণ্টায়"
       :relative_time: 
         :future: 
-          :one: "{0} ঘন্টায়"
-          :other: "{0} ঘন্টায়"
+          :one: "{0} ঘণ্টায়"
+          :other: "{0} ঘণ্টায়"
         :past: 
-          :one: "{0} ঘন্টা আগে"
-          :other: "{0} ঘন্টা আগে"
+          :one: "{0} ঘণ্টা আগে"
+          :other: "{0} ঘণ্টা আগে"
+    :hour-narrow: 
+      :relative_time: 
+        :future: 
+          :one: "{0} ঘণ্টায়"
+          :other: "{0} ঘণ্টায়"
+        :past: 
+          :one: "{0} ঘণ্টা আগে"
+          :other: "{0} ঘণ্টা আগে"
+    :hour-short: 
+      :relative_time: 
+        :future: 
+          :one: "{0} ঘণ্টায়"
+          :other: "{0} ঘণ্টায়"
+        :past: 
+          :one: "{0} ঘণ্টা আগে"
+          :other: "{0} ঘণ্টা আগে"
     :minute: 
       :display_name: মিনিট
       :relative: 
@@ -117,11 +133,6 @@
         :past: 
           :one: "{0} সেকেন্ড আগে"
           :other: "{0} সেকেন্ড পূর্বে"
-    :second-narrow: 
-      :relative_time: 
-        :past: 
-          :one: "{0} সেকেন্ড আগে"
-          :other: "{0} সেকেন্ড আগে"
     :second-short: 
       :relative_time: 
         :past: 

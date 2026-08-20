@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "தென் ஆப்பிரிக்க நிலையான நேரம்"
     :Africa_Western: 
       :long: 
-        :daylight: "மேற்கு ஆப்பிரிக்க கோடை நேரம்"
-        :generic: "மேற்கு ஆப்பிரிக்க நேரம்"
-        :standard: "மேற்கு ஆப்பிரிக்க நிலையான நேரம்"
+        :standard: "மேற்கு ஆப்பிரிக்க நேரம்"
     :Alaska: 
       :long: 
         :daylight: "அலாஸ்கா பகலொளி நேரம்"
@@ -296,6 +296,9 @@
     :Guyana: 
       :long: 
         :standard: "கயானா நேரம்"
+    :Hawaii: 
+      :long: 
+        :standard: "ஹவாய்-அலேஷியன் நிலையான நேரம்"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "ஹவாய்-அலேஷியன் பகலொளி நேரம்"
@@ -580,7 +583,7 @@
     :Taipei: 
       :long: 
         :daylight: "தாய்பே பகலொளி நேரம்"
-        :generic: "தாய்பே நேரம்"
+        :generic: "தைவான் நேரம்"
         :standard: "தாய்பே நிலையான நேரம்"
     :Tajikistan: 
       :long: 
@@ -596,6 +599,11 @@
     :Truk: 
       :long: 
         :standard: "சுக் நேரம்"
+    :Turkey: 
+      :long: 
+        :daylight: "துருக்கி கோடை நேரம்"
+        :generic: "துருக்கி நேரம்"
+        :standard: "துருக்கி தர நேரம்"
     :Turkmenistan: 
       :long: 
         :daylight: "துர்க்மெனிஸ்தான் கோடை நேரம்"
@@ -833,6 +841,8 @@
       :city: கார்டோபா
     :America/Costa_Rica: 
       :city: "கோஸ்டா ரிகா"
+    :America/Coyhaique: 
+      :city: கொயாய்கே
     :America/Creston: 
       :city: க்ரெஸ்டான்
     :America/Cuiaba: 
@@ -1437,7 +1447,7 @@
     :Pacific/Efate: 
       :city: ஈஃபேட்
     :Pacific/Enderbury: 
-      :city: எண்டர்பரி
+      :city: கேன்டன்
     :Pacific/Fakaofo: 
       :city: ஃபகாஃபோ
     :Pacific/Fiji: 
@@ -1454,8 +1464,6 @@
       :city: குவாம்
     :Pacific/Honolulu: 
       :city: ஹோனோலூலூ
-    :Pacific/Kanton: 
-      :city: கேன்டன்
     :Pacific/Kiritimati: 
       :city: கிரிடிமாட்டி
     :Pacific/Kosrae: 

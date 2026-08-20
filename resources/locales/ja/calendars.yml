@@ -7,15 +7,19 @@
         :Bhm: "BK:mm"
         :Bhms: "BK:mm:ss"
         :E: ccc
+        :EBh: "BK時 (E)"
         :EBhm: "BK:mm (E)"
         :EBhms: "BK:mm:ss (E)"
         :EEEEd: d日EEEE
         :EHm: "H:mm (E)"
         :EHms: "H:mm:ss (E)"
         :Ed: d日(E)
+        :Eh: "aK時 (E)"
         :Ehm: "aK:mm (E)"
         :Ehms: "aK:mm:ss (E)"
         :Gy: Gy年
+        :GyM: Gy/M
+        :GyMEd: Gy/M/d(E)
         :GyMMM: Gy年M月
         :GyMMMEEEEd: Gy年M月d日EEEE
         :GyMMMEd: Gy年M月d日(E)
@@ -26,6 +30,7 @@
         :Hms: "H:mm:ss"
         :Hmsv: "H:mm:ss v"
         :Hmv: "H:mm v"
+        :Hv: "H時 v"
         :M: M月
         :MEEEEd: M/dEEEE
         :MEd: M/d(E)
@@ -42,6 +47,7 @@
         :hms: "aK:mm:ss"
         :hmsv: "aK:mm:ss v"
         :hmv: "aK:mm v"
+        :hv: "aK時 v"
         :ms: "mm:ss"
         ? !ruby/symbol "y"
         : y年
@@ -193,9 +199,9 @@
             :pattern: y/MM/dd
         :datetime: 
           :full: 
-            :pattern: "{{date}} {{time}}"
+            :pattern: "{{date}}の {{time}}"
           :long: 
-            :pattern: "{{date}} {{time}}"
+            :pattern: "{{date}}の {{time}}"
           :medium: 
             :pattern: "{{date}} {{time}}"
           :short: 

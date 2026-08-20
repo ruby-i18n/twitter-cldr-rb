@@ -12,7 +12,7 @@ group :development, :test do
   # gemspec allows any version, but most people are probably using 1.x, so
   # let's test and develop against that
   gem 'tzinfo', '< 2'
-  gem 'tzinfo-data', '= 1.2024.2'  # try to keep in sync with ICU
+  gem 'tzinfo-data', '= 1.2026.1'  # try to keep in sync with ICU
 end
 
 group :development do
@@ -24,6 +24,7 @@ group :development do
   gem 'cldr-plurals', '~> 1.1'
   gem 'net-ftp'
   gem 'rexml'
+  gem 'debug' unless RUBY_PLATFORM == 'java'
 end
 
 group :test do

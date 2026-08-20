@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -28,9 +30,7 @@
         :standard: "Hora estàndard de l’Àfrica meridional"
     :Africa_Western: 
       :long: 
-        :daylight: "Hora d’estiu de l’Àfrica occidental"
-        :generic: "Hora de l’Àfrica occidental"
-        :standard: "Hora estàndard de l’Àfrica occidental"
+        :standard: "Hora de l’Àfrica occidental"
     :Alaska: 
       :long: 
         :daylight: "Hora d’estiu d’Alaska"
@@ -238,9 +238,9 @@
         :standard: WET
     :Falkland: 
       :long: 
-        :daylight: "Hora d’estiu de les illes Malvines"
-        :generic: "Hora de les illes Malvines"
-        :standard: "Hora estàndard de les illes Malvines"
+        :daylight: "Hora d’estiu de les illes Falkland"
+        :generic: "Hora de les illes Falkland"
+        :standard: "Hora estàndard de les illes Falkland"
     :Fiji: 
       :long: 
         :daylight: "Hora d’estiu de Fiji"
@@ -287,6 +287,9 @@
     :Guyana: 
       :long: 
         :standard: "Hora de Guyana"
+    :Hawaii: 
+      :long: 
+        :standard: "Hora estàndard de Hawaii-Aleutianes"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "Hora d’estiu de Hawaii-Aleutianes"
@@ -574,6 +577,11 @@
     :Truk: 
       :long: 
         :standard: "Hora de Chuuk"
+    :Turkey: 
+      :long: 
+        :daylight: "Hora d’estiu de Turquia"
+        :generic: "Hora de Turquia"
+        :standard: "Hora estàndard de Turquia"
     :Turkmenistan: 
       :long: 
         :daylight: "Hora d’estiu del Turkmenistan"
@@ -645,6 +653,8 @@
       :city: al-Aaiun
     :Africa/Khartoum: 
       :city: Khartum
+    :Africa/Lome: 
+      :city: Lomé
     :Africa/Mogadishu: 
       :city: Mogadiscio
     :Africa/Monrovia: 
@@ -719,8 +729,12 @@
       :city: Mérida
     :America/Mexico_City: 
       :city: "Ciutat de Mèxic"
+    :America/Miquelon: 
+      :city: Saint-Pierre
     :America/New_York: 
       :city: "Nova York"
+    :America/Noronha: 
+      :city: "Fernando de Noronha"
     :America/North_Dakota/Beulah: 
       :city: "Beulah, Dakota del Nord"
     :America/North_Dakota/Center: 
@@ -748,7 +762,9 @@
     :America/St_Vincent: 
       :city: "Saint Vincent"
     :Antarctica/DumontDUrville: 
-      :city: "Dumont d’Urville"
+      :city: Dumont-d’Urville
+    :Antarctica/Syowa: 
+      :city: Showa
     :Asia/Anadyr: 
       :city: Anàdir
     :Asia/Aqtau: 
@@ -858,6 +874,10 @@
       :city: Brussel·les
     :Europe/Bucharest: 
       :city: Bucarest
+    :Europe/Busingen: 
+      :city: Büsingen
+    :Europe/Chisinau: 
+      :city: Chișinău
     :Europe/Copenhagen: 
       :city: Copenhaguen
     :Europe/Dublin: 
@@ -910,6 +930,10 @@
       :city: Varsòvia
     :Europe/Zurich: 
       :city: Zúric
+    :Indian/Comoro: 
+      :city: Comores
+    :Indian/Mahe: 
+      :city: Mahé
     :Indian/Mauritius: 
       :city: Maurici
     :Indian/Reunion: 
@@ -917,13 +941,11 @@
     :Pacific/Easter: 
       :city: "Illa de Pasqua"
     :Pacific/Enderbury: 
-      :city: Enderbury
+      :city: Canton
     :Pacific/Galapagos: 
       :city: Galápagos
     :Pacific/Honolulu: 
       :city: Honolulu
-    :Pacific/Kanton: 
-      :city: Canton
     :Pacific/Marquesas: 
       :city: Marqueses
     :Pacific/Noumea: 
@@ -934,3 +956,5 @@
       :city: Tahití
     :Pacific/Truk: 
       :city: Chuuk
+    :Pacific/Wallis: 
+      :city: "Wallis & Futuna"

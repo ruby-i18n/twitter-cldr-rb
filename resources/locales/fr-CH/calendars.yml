@@ -7,14 +7,18 @@
         :Bhm: "h:mm B"
         :Bhms: "h:mm:ss B"
         :E: E
+        :EBh: "E h B"
         :EBhm: "E h:mm B"
         :EBhms: "E h:mm:ss B"
         :EHm: "E HH:mm"
         :EHms: "E HH:mm:ss"
         :Ed: "E d"
+        :Eh: "E h a"
         :Ehm: "E h:mm a"
         :Ehms: "E h:mm:ss a"
         :Gy: "y G"
+        :GyM: "MM/y G"
+        :GyMEd: "E dd/MM/y GGGGG"
         :GyMMM: "MMM y G"
         :GyMMMEd: "E d MMM y G"
         :GyMMMd: "d MMM y G"
@@ -24,6 +28,7 @@
         :Hms: "HH:mm:ss"
         :Hmsv: "HH:mm:ss v"
         :Hmv: "HH:mm v"
+        :Hv: "HH 'h' v"
         :M: L
         :MEd: "E, dd.MM."
         :MMM: LLL
@@ -39,6 +44,7 @@
         :hms: "h:mm:ss a"
         :hmsv: "h:mm:ss a v"
         :hmv: "h:mm a v"
+        :hv: "h a v"
         :ms: "mm:ss"
         ? !ruby/symbol "y"
         : "y"
@@ -193,7 +199,7 @@
           :medium: 
             :pattern: "{{date}}, {{time}}"
           :short: 
-            :pattern: "{{date}} {{time}}"
+            :pattern: "{{date}}, {{time}}"
         :time: 
           :full: 
             :pattern: "HH.mm:ss 'h' zzzz"
@@ -287,21 +293,21 @@
       :periods: 
         :format: 
           :abbreviated: 
-            :afternoon1: "de l’ap.m."
+            :afternoon1: après-midi
             :am: AM
-            :evening1: "du soir"
-            :midnight: min.
-            :morning1: "du mat."
-            :night1: "du mat."
+            :evening1: soir
+            :midnight: minuit
+            :morning1: matin
+            :night1: matin
             :noon: midi
             :pm: PM
           :narrow: 
-            :afternoon1: "de l’ap.m."
+            :afternoon1: ap.m.
             :am: AM
-            :evening1: "du soir"
-            :midnight: min.
-            :morning1: "du mat."
-            :night1: "du mat."
+            :evening1: soir
+            :midnight: minuit
+            :morning1: mat.
+            :night1: matin
             :noon: midi
             :pm: PM
           :wide: 

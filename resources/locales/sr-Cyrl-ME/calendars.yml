@@ -7,14 +7,18 @@
         :Bhm: "hh:mm B"
         :Bhms: "hh:mm:ss B"
         :E: E
+        :EBh: "E h B"
         :EBhm: "E h:mm B"
         :EBhms: "E, hh:mm:ss B"
         :EHm: "E HH:mm"
         :EHms: "E HH:mm:ss"
         :Ed: "E d."
+        :Eh: "E h a"
         :Ehm: "E h:mm a"
         :Ehms: "E h:mm:ss a"
         :Gy: "y. G"
+        :GyM: "G y-MM"
+        :GyMEd: "G y-MM-dd, E"
         :GyMMM: "MMM y. G"
         :GyMMMEd: "E, d. MMM y. G"
         :GyMMMd: "d. MMM y. G"
@@ -24,12 +28,13 @@
         :Hms: "HH:mm:ss"
         :Hmsv: "HH:mm:ss v"
         :Hmv: "HH:mm v"
+        :Hv: "HH v"
         :M: L
         :MEd: "E, d. M."
         :MMM: LLL
         :MMMEd: "E d. MMM"
         :MMMMEd: "E, d. MMMM"
-        :MMMMW: "W. 'сједмица' 'у' MMMM"
+        :MMMMW: "MMMM: W. 'недеља'"
         :MMMMd: "d. MMMM"
         :MMMd: "d. MMM"
         :MMMdd: dd.MMM
@@ -41,6 +46,7 @@
         :hms: "h:mm:ss a"
         :hmsv: "h:mm:ss a v"
         :hmv: "h:mm a v"
+        :hv: "h a v"
         :ms: "mm:ss"
         ? !ruby/symbol "y"
         : y.
@@ -55,7 +61,7 @@
         :yMd: "d. M. y."
         :yQQQ: "QQQ y."
         :yQQQQ: "QQQQ y."
-        :yw: "w. 'сједмица' 'у' Y."
+        :yw: "w. 'недеља' 'у' Y."
       :days: 
         :format: 
           :abbreviated: 
@@ -86,10 +92,10 @@
             :fri: петак
             :mon: понедељак
             :sat: субота
-            :sun: недјеља
+            :sun: недеља
             :thu: четвртак
             :tue: уторак
-            :wed: сриједа
+            :wed: среда
         :stand-alone: 
           :abbreviated: 
             :fri: пет
@@ -215,7 +221,7 @@
             11: нов
             12: дец
             2: феб
-            3: март
+            3: мар
             4: апр
             5: мај
             6: јун
@@ -291,14 +297,14 @@
       :periods: 
         :format: 
           :abbreviated: 
-            :afternoon1: "по под."
-            :am: прије подне
-            :evening1: вече
+            :afternoon1: "по подне"
+            :am: AM
+            :evening1: увече
             :midnight: поноћ
-            :morning1: јутро
+            :morning1: ујутру
             :night1: ноћу
             :noon: подне
-            :pm: по подне
+            :pm: PM
           :narrow: 
             :afternoon1: "по под."
             :am: AM

@@ -7,23 +7,28 @@
         :Bhm: "B h:mm"
         :Bhms: "B h:mm:ss"
         :E: ccc
+        :EBh: "E h B"
         :EBhm: "E B h:mm"
         :EBhms: "E B h:mm:ss"
         :EHm: "E HH:mm"
         :EHms: "E HH:mm:ss"
         :Ed: "d E"
+        :Eh: "E h a"
         :Ehm: "E h:mm a"
         :Ehms: "E h:mm:ss a"
         :Gy: "G y"
+        :GyM: "G M y"
+        :GyMEd: "G d M y, E"
         :GyMMM: "G MMM y"
         :GyMMMEd: "G d MMM y, E"
         :GyMMMd: "G d MMM y"
-        :GyMd: "GGGGG d MMM y"
+        :GyMd: "G d M y"
         :H: HH
         :Hm: "HH:mm"
         :Hms: "HH:mm:ss"
         :Hmsv: "HH:mm:ss v"
         :Hmv: "HH:mm v"
+        :Hv: "HH v"
         :M: L
         :MEd: "dd.MM, E"
         :MMM: LLL
@@ -38,6 +43,7 @@
         :hms: "h:mm:ss a"
         :hmsv: "h:mm:ss a v"
         :hmv: "h:mm a v"
+        :hv: "h a v"
         :ms: "mm:ss"
         ? !ruby/symbol "y"
         : "y"
@@ -165,7 +171,7 @@
         :weekday: "Həftənin Günü"
         :weekday-narrow: "hft. günü"
         :weekday-short: "hft. günü"
-        :weekdayOfMonth: "ayın həftə günü"
+        :weekdayOfMonth: "ayın həftəiçi günü"
         :weekdayOfMonth-narrow: "ay hft. günü"
         :weekdayOfMonth-short: "ay hft. günü"
         :year: İl
@@ -188,7 +194,7 @@
           :full: 
             :pattern: "{{date}}/{{time}}"
           :long: 
-            :pattern: "{{date}} 'at' {{time}}"
+            :pattern: "{{date}}/{{time}}"
           :medium: 
             :pattern: "{{date}}, {{time}}"
           :short: 

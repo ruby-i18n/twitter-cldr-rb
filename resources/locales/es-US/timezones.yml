@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "hora de Sudáfrica"
     :Africa_Western: 
       :long: 
-        :daylight: "hora de verano de África occidental"
-        :generic: "hora de África occidental"
-        :standard: "hora estándar de África occidental"
+        :standard: "hora de África occidental"
     :Alaska: 
       :long: 
         :daylight: "hora de verano de Alaska"
@@ -315,6 +315,11 @@
     :Guyana: 
       :long: 
         :standard: "hora de Guyana"
+    :Hawaii: 
+      :long: 
+        :standard: "hora estándar de Hawái-Aleutianas"
+      :short: 
+        :standard: HST
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "hora de verano de Hawái-Aleutianas"
@@ -617,6 +622,11 @@
     :Truk: 
       :long: 
         :standard: "hora de Chuuk"
+    :Turkey: 
+      :long: 
+        :daylight: "Hora de verano de Turquía"
+        :generic: "Hora de Turquía"
+        :standard: "Hora estándar de Turquía"
     :Turkmenistan: 
       :long: 
         :daylight: "hora de verano de Turkmenistán"
@@ -812,6 +822,8 @@
       :city: Nassau
     :America/New_York: 
       :city: "Nueva York"
+    :America/Noronha: 
+      :city: "Fernando de Noronha"
     :America/North_Dakota/Beulah: 
       :city: "Beulah, Dakota del Norte"
     :America/North_Dakota/Center: 
@@ -849,7 +861,9 @@
     :America/Tortola: 
       :city: Tórtola
     :Antarctica/DumontDUrville: 
-      :city: "Dumont d’Urville"
+      :city: Dumont-d’Urville
+    :Antarctica/Syowa: 
+      :city: Showa
     :Asia/Aden: 
       :city: Adén
     :Asia/Amman: 
@@ -886,6 +900,8 @@
       :city: Dusambé
     :Asia/Hebron: 
       :city: Hebrón
+    :Asia/Hovd: 
+      :city: Khovd
     :Asia/Jakarta: 
       :city: Yakarta
     :Asia/Jerusalem: 
@@ -974,7 +990,7 @@
       :short: 
         :standard: UTC
     :Etc/Unknown: 
-      :city: "ciudad desconocida"
+      :city: "Ciudad desconocida"
     :Europe/Amsterdam: 
       :city: Ámsterdam
     :Europe/Astrakhan: 
@@ -1074,17 +1090,13 @@
     :Pacific/Easter: 
       :city: "Isla de Pascua"
     :Pacific/Enderbury: 
-      :city: Enderbury
+      :city: "Isla Kanton"
     :Pacific/Fiji: 
       :city: Fiyi
     :Pacific/Galapagos: 
       :city: Galápagos
     :Pacific/Honolulu: 
       :city: Honolulu
-      :short: 
-        :daylight: HDT
-        :generic: HST
-        :standard: HST
     :Pacific/Noumea: 
       :city: Numea
     :Pacific/Palau: 
@@ -1099,3 +1111,5 @@
       :city: Chuuk
     :Pacific/Wake: 
       :city: Wake
+    :Pacific/Wallis: 
+      :city: "Wallis & Futuna"

@@ -7,14 +7,18 @@
         :Bhm: "h.mm B"
         :Bhms: "h.mm.ss B"
         :E: ccc
+        :EBh: "E h B"
         :EBhm: "E h.mm B"
         :EBhms: "E h.mm.ss B"
         :EHm: "E HH.mm"
         :EHms: "E HH.mm.ss"
         :Ed: "E 'den' d."
+        :Eh: "E h a"
         :Ehm: "E h.mm a"
         :Ehms: "E h.mm.ss a"
         :Gy: "y G"
+        :GyM: "M/y G"
+        :GyMEd: "E d/M/y G"
         :GyMMM: "MMM y G"
         :GyMMMEd: "E d. MMM y G"
         :GyMMMd: "d. MMM y G"
@@ -24,6 +28,7 @@
         :Hms: HH.mm.ss
         :Hmsv: "HH.mm.ss v"
         :Hmv: "HH.mm v"
+        :Hv: "HH v"
         :M: M
         :MEd: "E d.M"
         :MMM: MMM
@@ -40,6 +45,7 @@
         :hms: h.mm.ss a
         :hmsv: "h.mm.ss a v"
         :hmv: "h.mm a v"
+        :hv: "h a v"
         :ms: mm.ss
         ? !ruby/symbol "y"
         : "y"
@@ -193,9 +199,9 @@
           :long: 
             :pattern: "{{date}} 'kl'. {{time}}"
           :medium: 
-            :pattern: "{{date}}, {{time}}"
+            :pattern: "{{date}} 'kl'. {{time}}"
           :short: 
-            :pattern: "{{date}}, {{time}}"
+            :pattern: "{{date}} 'kl'. {{time}}"
         :time: 
           :full: 
             :pattern: "HH.mm.ss zzzz"

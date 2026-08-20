@@ -7,14 +7,18 @@
         :Bhm: "h:mm B"
         :Bhms: "h:mm:ss B"
         :E: ccc
+        :EBh: "E h B"
         :EBhm: "E h:mm B"
         :EBhms: "E h:mm:ss B"
         :EHm: "E HH:mm น."
         :EHms: "E HH:mm:ss"
         :Ed: "E d"
+        :Eh: "E h a"
         :Ehm: "E h:mm a"
         :Ehms: "E h:mm:ss a"
         :Gy: "G y"
+        :GyM: "G y-MM"
+        :GyMEd: "E d/M/G y"
         :GyMMM: "MMM G y"
         :GyMMMEEEEd: "EEEEที่ d MMM G y"
         :GyMMMEd: "E d MMM G y"
@@ -25,6 +29,7 @@
         :Hms: "HH:mm:ss"
         :Hmsv: "HH:mm:ss v"
         :Hmv: "HH:mm v"
+        :Hv: "HH v"
         :M: L
         :MEd: "E d/M"
         :MMM: LLL
@@ -42,6 +47,7 @@
         :hms: "h:mm:ss a"
         :hmsv: "h:mm:ss a v"
         :hmv: "h:mm น. a v"
+        :hv: "h a v"
         :mmss: "mm:ss"
         :ms: "mm:ss"
         ? !ruby/symbol "y"
@@ -63,13 +69,13 @@
       :days: 
         :format: 
           :abbreviated: 
-            :fri: ศ.
-            :mon: จ.
-            :sat: ส.
-            :sun: อา.
-            :thu: พฤ.
-            :tue: อ.
-            :wed: พ.
+            :fri: ศุกร์
+            :mon: จันทร์
+            :sat: เสาร์
+            :sun: อาทิตย์
+            :thu: พฤหัส
+            :tue: อังคาร
+            :wed: พุธ
           :narrow: 
             :fri: ศ
             :mon: จ
@@ -96,13 +102,13 @@
             :wed: วันพุธ
         :stand-alone: 
           :abbreviated: 
-            :fri: ศ.
-            :mon: จ.
-            :sat: ส.
-            :sun: อา.
-            :thu: พฤ.
-            :tue: อ.
-            :wed: พ.
+            :fri: ศุกร์
+            :mon: จันทร์
+            :sat: เสาร์
+            :sun: อาทิตย์
+            :thu: พฤหัส
+            :tue: อังคาร
+            :wed: พุธ
           :narrow: 
             :fri: ศ
             :mon: จ

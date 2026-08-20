@@ -24,8 +24,6 @@
       :display_name: д.
     :dayOfYear: 
       :display_name: "дзень года"
-    :dayperiod: 
-      :display_name: AM/PM
     :era: 
       :display_name: эра
     :fri: 
@@ -442,8 +440,8 @@
     :year: 
       :display_name: год
       :relative: 
-        -1: "у мінулым годзе"
-        0: "у гэтым годзе"
+        -1: летась
+        0: сёлета
         1: "у наступным годзе"
       :relative_time: 
         :future: 
@@ -460,7 +458,7 @@
       :display_name: г.
       :relative: 
         -1: "у мін. годзе"
-        0: "у гэтым годзе"
+        0: сёлета
         1: "у наст. годзе"
       :relative_time: 
         :future: 

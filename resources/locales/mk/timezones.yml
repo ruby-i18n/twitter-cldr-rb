@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "Време во Јужноафриканска Република"
     :Africa_Western: 
       :long: 
-        :daylight: "Западноафриканско летно сметање на времето"
-        :generic: "Западноафриканско време"
-        :standard: "Западноафриканско стандардно време"
+        :standard: "Западноафриканско време"
     :Alaska: 
       :long: 
         :daylight: "Летно сметање на времето во Алјаска"
@@ -290,6 +290,9 @@
     :Guyana: 
       :long: 
         :standard: "Време во Гвајана"
+    :Hawaii: 
+      :long: 
+        :standard: "Стандардно време во Хаваи - Алеутски острови"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "Летно сметање на времето во Хаваи - Алеутски острови"
@@ -538,7 +541,7 @@
         :standard: "Време во Соломонски Острови"
     :South_Georgia: 
       :long: 
-        :standard: "Време во Јужна Грузија"
+        :standard: "Време во Јужна Џорџија"
     :Suriname: 
       :long: 
         :standard: "Време во Суринам"
@@ -567,6 +570,11 @@
     :Truk: 
       :long: 
         :standard: "Време во Чуук"
+    :Turkey: 
+      :long: 
+        :daylight: "Турција летно сметање на времето"
+        :generic: "Турција време"
+        :standard: "Турција стандардно време"
     :Turkmenistan: 
       :long: 
         :daylight: "Летно време во Туркменистан"
@@ -799,11 +807,13 @@
     :America/Ciudad_Juarez: 
       :city: "Сиудад Хуарез"
     :America/Coral_Harbour: 
-      :city: "Корал Харбор"
+      :city: Атикокан
     :America/Cordoba: 
       :city: Кордоба
     :America/Costa_Rica: 
       :city: Костарика
+    :America/Coyhaique: 
+      :city: Којајке
     :America/Creston: 
       :city: Крестон
     :America/Cuiaba: 
@@ -1408,7 +1418,7 @@
     :Pacific/Efate: 
       :city: Ефате
     :Pacific/Enderbury: 
-      :city: Ендербери
+      :city: Кантон
     :Pacific/Fakaofo: 
       :city: Факаофо
     :Pacific/Fiji: 
@@ -1425,8 +1435,6 @@
       :city: Гвам
     :Pacific/Honolulu: 
       :city: Хонолулу
-    :Pacific/Kanton: 
-      :city: Кантон
     :Pacific/Kiritimati: 
       :city: Киритимати
     :Pacific/Kosrae: 

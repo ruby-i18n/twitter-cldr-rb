@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -28,9 +30,7 @@
         :standard: "တောင်အာဖရိက အချိန်"
     :Africa_Western: 
       :long: 
-        :daylight: "အနောက်အာဖရိက နွေရာသီ အချိန်"
-        :generic: "အနောက်အာဖရိက အချိန်"
-        :standard: "အနောက်အာဖရိက စံတော်ချိန်"
+        :standard: "အနောက်အာဖရိက အချိန်"
     :Alaska: 
       :long: 
         :daylight: "အလာစကာ နွေရာသီ စံတော်ချိန်"
@@ -268,6 +268,9 @@
     :Guyana: 
       :long: 
         :standard: "ဂိုင်ယာနာ အချိန်"
+    :Hawaii: 
+      :long: 
+        :standard: "ဟာဝိုင်ယီ အယ်လူးရှန်း စံတော်ချိန်"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "ဟာဝိုင်ယီ အယ်လူးရှန်း နွေရာသီ စံတော်ချိန်"
@@ -548,6 +551,11 @@
     :Truk: 
       :long: 
         :standard: "ချုခ် အချိန်"
+    :Turkey: 
+      :long: 
+        :daylight: "တူရကီ နွေရာသီ အချိန်"
+        :generic: "တူရကီ အချိန်"
+        :standard: "တူရကီ စံတော်ချိန်"
     :Turkmenistan: 
       :long: 
         :daylight: "တာ့ခ်မင်နစ္စတန် နွေရာသီ အချိန်"
@@ -785,6 +793,8 @@
       :city: ကိုဒိုဘာ
     :America/Costa_Rica: 
       :city: ကို့စတာရီကာ
+    :America/Coyhaique: 
+      :city: ကွိုင်းဟိုင်ခ်
     :America/Creston: 
       :city: ကရစ်စတွန်
     :America/Cuiaba: 
@@ -1389,7 +1399,7 @@
     :Pacific/Efate: 
       :city: အီဖာတီ
     :Pacific/Enderbury: 
-      :city: အန်ဒါဘူရီ
+      :city: ကန်တွန်
     :Pacific/Fakaofo: 
       :city: ဖာခါအိုဖို
     :Pacific/Fiji: 
@@ -1406,8 +1416,6 @@
       :city: ဂူအမ်
     :Pacific/Honolulu: 
       :city: ဟိုနိုလူလူ
-    :Pacific/Kanton: 
-      :city: ကန်တွန်
     :Pacific/Kiritimati: 
       :city: ခရိဒီမတီ
     :Pacific/Kosrae: 

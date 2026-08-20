@@ -40,7 +40,7 @@ TwitterCldr patches core Ruby objects like `Integer` and `Date` to make localiza
 1337.localize(:es).to_s                                    # "1.337"
 
 # currencies, default USD
-1337.localize(:es).to_currency.to_s                        # "1.337,00 US$"
+1337.localize(:es).to_currency.to_s                        # "1.337,00 $"
 1337.localize(:es).to_currency.to_s(:currency => "EUR")    # "1.337,00 €"
 
 # percentages
@@ -71,7 +71,7 @@ If you're looking for a list of supported currencies, use the `TwitterCldr::Shar
 TwitterCldr::Shared::Currencies.currency_codes             # ["ADP", "AED", "AFA", "AFN", ... ]
 
 # data for a specific currency code
-TwitterCldr::Shared::Currencies.for_code("CAD")            # {:currency=>:CAD, :name=>"Canadian Dollar", :cldr_symbol=>"CA$", :symbol=>"CA$", :code_points=>[67, 65, 36]}
+TwitterCldr::Shared::Currencies.for_code("CAD")            # {currency: :CAD, name: "Canadian Dollar", cldr_symbol: "CA$", symbol: "$", code_points: [36]}
 ```
 
 #### Short / Long Decimals
@@ -176,7 +176,7 @@ For English (and other languages), you can also specify an ordinal spellout:
 
 ```ruby
 DateTime.now.localize(:es).to_full_s               # "viernes, 14 de febrero de 2014, 12:20:05 (tiempo universal coordinado)"
-DateTime.now.localize(:es).to_long_s               # "14 de febrero de 2014, 12:20:05 UTC"
+DateTime.now.localize(:es).to_long_s               # "14 de febrero de 2014 a las 12:20:05 UTC"
 DateTime.now.localize(:es).to_medium_s             # "14 feb 2014, 12:20:05"
 DateTime.now.localize(:es).to_short_s              # "14/2/14, 12:20"
 
@@ -207,7 +207,7 @@ dt.to_short_s  # ...etc
 Besides the default date formats, CLDR supports a number of additional ones.  The list of available formats varies for each locale.  To get a full list, use the `additional_formats` method:
 
 ```ruby
-# ["Bh", "Bhm", "Bhms", "E", "EBhm", "EBhms", "EEEEd", "EHm", "EHms", "Ed", "Ehm", "Ehms", ... ]
+# ["Bh", "Bhm", "Bhms", "E", "EBh", "EBhm", "EBhms", "EEEEd", "EHm", "EHms", "Ed", "Eh", ... ]
 DateTime.now.localize(:ja).additional_formats
 ```
 
@@ -228,14 +228,18 @@ It's important to know that, even though any given format may not be available a
 | Bhm        | 12:20 in the afternoon |
 | Bhms       | 12:20:05 in the afternoon |
 | E          | Fri                    |
+| EBh        | Fri 12 in the afternoon |
 | EBhm       | Fri 12:20 in the afternoon |
 | EBhms      | Fri 12:20:05 in the afternoon |
 | EHm        | Fri 12:20              |
 | EHms       | Fri 12:20:05           |
 | Ed         | 14 Fri                 |
+| Eh         | Fri 12 PM              |
 | Ehm        | Fri 12:20 PM           |
 | Ehms       | Fri 12:20:05 PM        |
 | Gy         | 2014 CE                |
+| GyM        | 2/2014 CE              |
+| GyMEd      | Fri, 2/14/2014 CE      |
 | GyMMM      | Feb 2014 CE            |
 | GyMMMEd    | Fri, Feb 14, 2014 CE   |
 | GyMMMd     | Feb 14, 2014 CE        |
@@ -243,8 +247,9 @@ It's important to know that, even though any given format may not be available a
 | H          | 12                     |
 | Hm         | 12:20                  |
 | Hms        | 12:20:05               |
-| Hmsv       | 12:20:05 GMT           |
-| Hmv        | 12:20 GMT              |
+| Hmsv       | 12:20:05 GMT+0         |
+| Hmv        | 12:20 GMT+0            |
+| Hv         | 12 GMT+0               |
 | M          | 2                      |
 | MEd        | Fri, 2/14              |
 | MMM        | Feb                    |
@@ -257,8 +262,9 @@ It's important to know that, even though any given format may not be available a
 | h          | 12 PM                  |
 | hm         | 12:20 PM               |
 | hms        | 12:20:05 PM            |
-| hmsv       | 12:20:05 PM GMT        |
-| hmv        | 12:20 PM GMT           |
+| hmsv       | 12:20:05 PM GMT+0      |
+| hmv        | 12:20 PM GMT+0         |
+| hv         | 12 PM GMT+0            |
 | ms         | 20:05                  |
 | y          | 2014                   |
 | yM         | 2/2014                 |
@@ -561,20 +567,20 @@ The CLDR contains postal code validation regexes for a number of countries.
 
 ```ruby
 # United States
-postal_code = TwitterCldr::Shared::PostalCodes.for_territory(:us)
+postal_code = TwitterCldr::Shared::PostalCodes.for_territory(:us) 
 postal_code.valid?("94103")     # true
 postal_code.valid?("9410")      # false
 
 # England (Great Britain)
-postal_code = TwitterCldr::Shared::PostalCodes.for_territory(:gb)
+postal_code = TwitterCldr::Shared::PostalCodes.for_territory(:gb) 
 postal_code.valid?("BS98 1TL")  # true
 
 # Sweden
-postal_code = TwitterCldr::Shared::PostalCodes.for_territory(:se)
+postal_code = TwitterCldr::Shared::PostalCodes.for_territory(:se) 
 postal_code.valid?("280 12")    # true
 
 # Canada
-postal_code = TwitterCldr::Shared::PostalCodes.for_territory(:ca)
+postal_code = TwitterCldr::Shared::PostalCodes.for_territory(:ca) 
 postal_code.valid?("V3H 1Z7")   # true
 ```
 
@@ -582,7 +588,7 @@ Match all valid postal codes in a string with the `#find_all` method:
 
 ```ruby
 # United States
-postal_code = TwitterCldr::Shared::PostalCodes.for_territory(:us)
+postal_code = TwitterCldr::Shared::PostalCodes.for_territory(:us) 
 postal_code.find_all("12345 23456")    # ["12345", "23456"]
 ```
 
@@ -595,14 +601,14 @@ TwitterCldr::Shared::PostalCodes.territories  # [:ac, :ad, :af, :ai, :al, ... ]
 Just want the regex?  No problem:
 
 ```ruby
-postal_code = TwitterCldr::Shared::PostalCodes.for_territory(:us)
+postal_code = TwitterCldr::Shared::PostalCodes.for_territory(:us) 
 postal_code.regexp  # /(\d{5})(?:[ \-](\d{4}))?/
 ```
 
 Get a sample of valid postal codes with the `#sample` method:
 
 ```ruby
-postal_code.sample(5)  # ["33623-6826", "59924", "59999", "42268-1200", "68209-4464"]
+postal_code.sample(5)  # ["45013-4133", "86441-8919", "36145-5160", "90579", "80455-1358"]
 ```
 
 ### Phone Codes
@@ -1017,17 +1023,17 @@ The Psych gem that is the default YAML engine in Ruby 1.9 doesn't handle Unicode
 You can make use of TwitterCLDR's YAML dumper by calling `localize` and then `to_yaml` on an `Array`, `Hash`, or `String`:
 
 ```ruby
-{ :hello => "world" }.localize.to_yaml
-["hello", "world"].localize.to_yaml
-"hello, world".localize.to_yaml
+{ :hello => "world" }.localize.to_yaml 
+["hello", "world"].localize.to_yaml 
+"hello, world".localize.to_yaml 
 ```
 
 Behind the scenes, these convenience methods are using the `TwitterCldr::Shared::YAML` class.  You can do the same thing if you're feeling adventurous:
 
 ```ruby
-TwitterCldr::Shared::YAML.dump({ :hello => "world" })
-TwitterCldr::Shared::YAML.dump(["hello", "world"])
-TwitterCldr::Shared::YAML.dump("hello, world")
+TwitterCldr::Shared::YAML.dump({ :hello => "world" }) 
+TwitterCldr::Shared::YAML.dump(["hello", "world"]) 
+TwitterCldr::Shared::YAML.dump("hello, world") 
 ```
 
 ## Adding New Locales
@@ -1073,7 +1079,7 @@ TwitterCldr.locale    # will return :ru
 
 ## Compatibility
 
-TwitterCLDR is fully compatible with Ruby 2.5, 2.6, 2.7, 3.0, 3.1, 3.2.
+TwitterCLDR is fully compatible with Ruby 2.5, 2.6, 2.7, 3.0, 3.1, 3.2, 3.3, 3.4.
 
 ## Requirements
 
@@ -1102,6 +1108,6 @@ You can run the development test coverage suite (using simplecov) with `bundle e
 
 ## License
 
-Copyright 2025 Twitter, Inc.
+Copyright 2026 Twitter, Inc.
 
 Licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0

@@ -343,10 +343,34 @@
           - 
             :rules: 
               - 
+                :rule: =%digits-ordinal-masculine=;
+                :value: 0
+            :type: digits-ordinal
+          - 
+            :rules: 
+              - 
                 :rule: −>>;
                 :value: "-x"
               - 
-                :rule: "=#,##0=;"
+                :rule: "=#,##0=-$(ordinal,few{ій}other{ий})$;"
                 :value: 0
-            :type: digits-ordinal
+            :type: digits-ordinal-masculine
+          - 
+            :rules: 
+              - 
+                :rule: −>>;
+                :value: "-x"
+              - 
+                :rule: "=#,##0=-$(ordinal,few{є}other{е})$;"
+                :value: 0
+            :type: digits-ordinal-neuter
+          - 
+            :rules: 
+              - 
+                :rule: −>>;
+                :value: "-x"
+              - 
+                :rule: "=#,##0=-$(ordinal,few{я}other{а})$;"
+                :value: 0
+            :type: digits-ordinal-feminine
         :type: OrdinalRules

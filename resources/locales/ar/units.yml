@@ -21,6 +21,13 @@
           :other: "{0} دورة"
           :two: دورتان
           :zero: "{0} دورة"
+        :angle-steradian: 
+          :few: "{0} ستراديان"
+          :many: "{0} ستراديان"
+          :one: "{0} ستراديان"
+          :other: "{0} ستراديان"
+          :two: "{0} ستراديان"
+          :zero: "{0} ستراديان"
         :area-dunam: 
           :few: "{0} دونم"
           :many: "{0} دونم"
@@ -91,6 +98,13 @@
           :other: "{0} قيراط"
           :two: قيراطان
           :zero: "{0} قيراط"
+        :concentr-katal: 
+          :few: "{0} كاتال"
+          :many: "{0} كاتال"
+          :one: "{0} كاتال"
+          :other: "{0} كاتال"
+          :two: "{0} كاتال"
+          :zero: "{0} كاتال"
         :concentr-milligram-ofglucose-per-deciliter: 
           :few: "{0} مغم/ديسيلتر"
           :many: "{0} مغم/ديسيلتر"
@@ -105,6 +119,34 @@
           :other: "{0} ملي مول/لتر"
           :two: "{0} ملي مول/لتر"
           :zero: "{0} ملي مول/لتر"
+        :concentr-ofglucose: 
+          :few: "{0} سكّري"
+          :many: "{0} سكّري"
+          :one: "{0} سكّري"
+          :other: "{0} سكّري"
+          :two: "{0} سكّري"
+          :zero: "{0} سكّري"
+        :concentr-part: 
+          :few: "{0} أجزاء"
+          :many: "{0} جزءًا"
+          :one: "{0} جزء"
+          :other: "{0} جزء"
+          :two: جزآن
+          :zero: "{0} جزء"
+        :concentr-part-per-1e6: 
+          :few: "{0} أجزاء في المليون"
+          :many: "{0} جزءًا في المليون"
+          :one: "{0} جزء في المليون"
+          :other: "{0} جزء في المليون"
+          :two: "جزآن في المليون"
+          :zero: "{0} جزء في المليون"
+        :concentr-part-per-1e9: 
+          :few: "{0} أجزاء بالمليار"
+          :many: "{0} جزءًا بالمليار"
+          :one: "{0} جزء بالمليار"
+          :other: "{0} جزء بالمليار"
+          :two: "جزآن بالمليار"
+          :zero: "{0} جزء بالمليار"
         :concentr-percent: 
           :few: "{0}٪"
           :many: "{0}٪"
@@ -119,20 +161,6 @@
           :other: "{0} في الألف"
           :two: "{0} في الألف"
           :zero: "{0} في الألف"
-        :concentr-permillion: 
-          :few: "{0} أجزاء في المليون"
-          :many: "{0} جزءًا في المليون"
-          :one: "{0} جزء في المليون"
-          :other: "{0} جزء في المليون"
-          :two: "جزآن في المليون"
-          :zero: "{0} جزء في المليون"
-        :concentr-portion-per-1e9: 
-          :few: "{0} أجزاء بالمليار"
-          :many: "{0} جزءًا بالمليار"
-          :one: "{0} جزء بالمليار"
-          :other: "{0} جزء بالمليار"
-          :two: "جزآن بالمليار"
-          :zero: "{0} جزء بالمليار"
         :consumption-liter-per-100-kilometer: 
           :few: "{0} لترات لكل ١٠٠ كيلومتر"
           :many: "{0} لترًا لكل ١٠٠ كيلومتر"
@@ -210,13 +238,6 @@
           :other: "{0} نانو ثانية"
           :two: "{0} نانو ثانية"
           :zero: "{0} نانو ثانية"
-        :duration-night: 
-          :few: "{0} ليالٍ"
-          :many: "{0} ليلةً"
-          :one: ليلة
-          :other: "{0} ليلة"
-          :two: ليلتان
-          :zero: "{0} ليلة"
         :duration-quarter: 
           :few: "{0} أرباع سنوية"
           :many: "{0} ربعًا سنويًا"
@@ -238,6 +259,27 @@
           :other: "{0} سنة"
           :two: سنتان
           :zero: "{0} سنة"
+        :electric-coulomb: 
+          :few: "{0} كولوم"
+          :many: "{0} كولوم"
+          :one: "{0} كولوم"
+          :other: "{0} كولوم"
+          :two: "{0} كولوم"
+          :zero: "{0} كولوم"
+        :electric-farad: 
+          :few: "{0} فاراد"
+          :many: "{0} فاراد"
+          :one: "{0} فاراد"
+          :other: "{0} فاراد"
+          :two: "{0} فاراد"
+          :zero: "{0} فاراد"
+        :electric-henry: 
+          :few: "{0} هنري"
+          :many: "{0} هنري"
+          :one: "{0} هنري"
+          :other: "{0} هنري"
+          :two: "{0} هنري"
+          :zero: "{0} هنري"
         :electric-milliampere: 
           :few: "{0} ملي أمبير"
           :many: "{0} ملي أمبير"
@@ -245,6 +287,20 @@
           :other: "{0} ملي أمبير"
           :two: "{0} ملي أمبير"
           :zero: "{0} ملي أمبير"
+        :electric-siemens: 
+          :few: "{0} سيمنز"
+          :many: "{0} سيمنز"
+          :one: "{0} سيمنز"
+          :other: "{0} سيمنز"
+          :two: "{0} سيمنز"
+          :zero: "{0} سيمنز"
+        :energy-becquerel: 
+          :few: "{0} بيكريل"
+          :many: "{0} بيكريل"
+          :one: "{0} بيكريل"
+          :other: "{0} بيكريل"
+          :two: "{0} بيكريل"
+          :zero: "{0} بيكريل"
         :energy-british-thermal-unit: 
           :few: "{0} وحدات حرارية بريطانية"
           :many: "{0} وحدة حرارية بريطانية"
@@ -259,6 +315,13 @@
           :other: "{0} سعرة"
           :two: "{0} سعرة"
           :zero: "{0} سعرة"
+        :energy-calorie-it: 
+          :few: "{0} سعرة-it"
+          :many: "{0} سعرة-it"
+          :one: "{0} سعرة-it"
+          :other: "{0} سعرة-it"
+          :two: "{0} سعرة-it"
+          :zero: "{0} سعرة-it"
         :energy-foodcalorie: 
           :few: "{0} سعرة"
           :many: "{0} سعرة"
@@ -266,6 +329,13 @@
           :other: "{0} سعرة"
           :two: "{0} سعرة"
           :zero: "{0} سعرة"
+        :energy-gray: 
+          :few: "{0} جراي"
+          :many: "{0} جراي"
+          :one: "{0} جراي"
+          :other: "{0} جراي"
+          :two: "{0} جراي"
+          :zero: "{0} جراي"
         :energy-kilocalorie: 
           :few: "{0} كيلو سعرة"
           :many: "{0} كيلو سعرة"
@@ -287,6 +357,13 @@
           :other: "{0} كيلو واط/ساعة"
           :two: "{0} كيلو واط/ساعة"
           :zero: "{0} كيلو واط/ساعة"
+        :energy-sievert: 
+          :few: "{0} زيفرت"
+          :many: "{0} زيفرت"
+          :one: "{0} زيفرت"
+          :other: "{0} زيفرت"
+          :two: "{0} زيفرت"
+          :zero: "{0} زيفرت"
         :energy-therm-us: 
           :few: "{0} وحدات حرارية أمريكية"
           :many: "{0} وحدة حرارية أمريكية"
@@ -294,6 +371,13 @@
           :other: "{0} وحدة حرارية أمريكية"
           :two: "وحدتان حراريتان أمريكيتان"
           :zero: "{0} وحدة حرارية أمريكية"
+        :force-kilogram-force: 
+          :few: "{0} كيلوغرام ثقلي"
+          :many: "{0} كيلوغرام ثقلي"
+          :one: "{0} كيلوغرام ثقلي"
+          :other: "{0} كيلوغرام ثقلي"
+          :two: "{0} كيلوغرام ثقلي"
+          :zero: "{0} كيلوغرام ثقلي"
         :force-kilowatt-hour-per-100-kilometer: 
           :few: "{0} كيلوواط ساعة لكل 100 كيلومتر"
           :many: "{0} كيلوواط ساعة لكل 100 كيلومتر"
@@ -420,6 +504,20 @@
           :other: "{0} نصف قطر شمسي"
           :two: "{0} نصف قطر شمسي"
           :zero: "{0} نصف قطر شمسي"
+        :magnetic-tesla: 
+          :few: "{0} تسلا"
+          :many: "{0} تسلا"
+          :one: "{0} تسلا"
+          :other: "{0} تسلا"
+          :two: "{0} تسلا"
+          :zero: "{0} تسلا"
+        :magnetic-weber: 
+          :few: "{0} ويبر"
+          :many: "{0} ويبر"
+          :one: "{0} ويبر"
+          :other: "{0} ويبر"
+          :two: "{0} ويبر"
+          :zero: "{0} ويبر"
         :mass-carat: 
           :few: "{0} قراريط"
           :many: "{0} قيراطًا"
@@ -546,6 +644,13 @@
           :other: "{0} مليمتر زئبقي"
           :two: "{0} مليمتر زئبقي"
           :zero: "{0} مليمتر زئبقي"
+        :pressure-ofhg: 
+          :few: "{0} زئبقي"
+          :many: "{0} زئبقي"
+          :one: "{0} زئبقي"
+          :other: "{0} زئبقي"
+          :two: "{0} زئبقي"
+          :zero: "{0} زئبقي"
         :pressure-pound-force-per-square-inch: 
           :few: "{0} رطل لكل بوصة مربعة"
           :many: "{0} رطل لكل بوصة مربعة"
@@ -560,6 +665,13 @@
           :other: "{0} كيلومتر في الساعة"
           :two: "{0} كيلومتر في الساعة"
           :zero: "{0} كيلومتر في الساعة"
+        :speed-light-speed: 
+          :few: "{0} ضوئية"
+          :many: "{0} ضوئي"
+          :one: "{0} ضوئي"
+          :other: "{0} ضوئي"
+          :two: "{0} ضوئي"
+          :zero: "{0} ضوئي"
         :speed-meter-per-second: 
           :few: "{0} متر في الثانية"
           :many: "{0} متر في الثانية"
@@ -686,6 +798,13 @@
           :other: "{0} أونصة سائلة إمبراطورية"
           :two: "أونصتان سائلتان إمبراطوريتان"
           :zero: "{0} أونصة سائلة إمبراطورية"
+        :volume-fluid-ounce-metric: 
+          :few: "{0} أونصة سائلة مترية"
+          :many: "{0} أونصة سائلة مترية"
+          :one: "{0} أونصة سائلة مترية"
+          :other: "{0} أونصة سائلة مترية"
+          :two: "{0} أونصة سائلة مترية"
+          :zero: "{0} أونصة سائلة مترية"
         :volume-gallon-imperial: 
           :few: "{0} غالون إمبراطوري"
           :many: "{0} غالون إمبراطوري"
@@ -743,6 +862,13 @@
           :other: "{0} درجة"
           :two: درجتان
           :zero: "{0} درجة"
+        :angle-steradian: 
+          :few: "{0} ستراديان"
+          :many: "{0} ستراديان"
+          :one: "{0} ستراديان"
+          :other: "{0} ستراديان"
+          :two: "{0} ستراديان"
+          :zero: "{0} ستراديان"
         :concentr-item: 
           :few: "{0} عنصر"
           :many: "{0} عنصر"
@@ -750,6 +876,13 @@
           :other: "{0} عنصر"
           :two: "{0} عنصر"
           :zero: "{0} عنصر"
+        :concentr-katal: 
+          :few: "{0} كات"
+          :many: "{0} كات"
+          :one: "{0} كات"
+          :other: "{0} كات"
+          :two: "{0} كات"
+          :zero: "{0} كات"
         :concentr-milligram-ofglucose-per-deciliter: 
           :few: "{0} مغ/ديسيل"
           :many: "{0} مغ/ديسيل"
@@ -757,6 +890,20 @@
           :other: "{0} مغ/ديسيل"
           :two: "{0} مغ/ديسيل"
           :zero: "{0} مغ/ديسيل"
+        :concentr-ofglucose: 
+          :few: "{0} سكّري"
+          :many: "{0} سكّري"
+          :one: "{0} سكّري"
+          :other: "{0} سكّري"
+          :two: "{0} سكّري"
+          :zero: "{0} سكّري"
+        :concentr-part: 
+          :few: "{0} أجزاء"
+          :many: "{0} جزءًا"
+          :one: "{0} جزء"
+          :other: "{0} جزء"
+          :two: جزآن
+          :zero: "{0} جزء"
         :concentr-permyriad: 
           :few: "{0} ؊"
           :many: "{0} ؊"
@@ -764,13 +911,6 @@
           :other: "{0} ؊"
           :two: "{0} ؊"
           :zero: "{0} ؊"
-        :concentr-portion-per-1e9: 
-          :few: "{0} أجزاء/مليار"
-          :many: "{0} جزءًا/مليار"
-          :one: "{0} جزء/مليار"
-          :other: "{0} جزء/مليار"
-          :two: جزآن/مليار
-          :zero: "{0} جزء/مليار"
         :consumption-liter-per-100-kilometer: 
           :few: "{0} ل/١٠٠كم"
           :many: "{0} ل/١٠٠كم"
@@ -862,6 +1002,55 @@
           :other: "{0} سنة"
           :two: "{0} سنة"
           :zero: "{0} سنة"
+        :electric-coulomb: 
+          :few: "{0} كول"
+          :many: "{0} كول"
+          :one: "{0} كول"
+          :other: "{0} كول"
+          :two: "{0} كول"
+          :zero: "{0} كول"
+        :electric-farad: 
+          :few: "{0} ف"
+          :many: "{0} ف"
+          :one: "{0} ف"
+          :other: "{0} ف"
+          :two: "{0} ف"
+          :zero: "{0} ف"
+        :electric-henry: 
+          :few: "{0} ه"
+          :many: "{0} ه"
+          :one: "{0} ه"
+          :other: "{0} ه"
+          :two: "{0} ه"
+          :zero: "{0} ه"
+        :electric-siemens: 
+          :few: "{0} س"
+          :many: "{0} س"
+          :one: "{0} س"
+          :other: "{0} س"
+          :two: "{0} س"
+          :zero: "{0} س"
+        :energy-becquerel: 
+          :few: "{0} بيكريل"
+          :many: "{0} بيكريل"
+          :one: "{0} بيكريل"
+          :other: "{0} بيكريل"
+          :two: "{0} بيكريل"
+          :zero: "{0} بيكريل"
+        :energy-calorie-it: 
+          :few: "{0} سع-it"
+          :many: "{0} سع-it"
+          :one: "{0} سع-it"
+          :other: "{0} سع-it"
+          :two: "{0} سع-it"
+          :zero: "{0} سع-it"
+        :energy-gray: 
+          :few: "{0} جراي"
+          :many: "{0} جراي"
+          :one: "{0} جراي"
+          :other: "{0} جراي"
+          :two: "{0} جراي"
+          :zero: "{0} جراي"
         :energy-kilocalorie: 
           :few: "{0} ك سع"
           :many: "{0} ك سع"
@@ -869,6 +1058,20 @@
           :other: "{0} ك سع"
           :two: "{0} ك سع"
           :zero: "{0} ك سع"
+        :energy-sievert: 
+          :few: "{0} زيف"
+          :many: "{0} زيف"
+          :one: "{0} زيف"
+          :other: "{0} زيف"
+          :two: "{0} زيف"
+          :zero: "{0} زيف"
+        :force-kilogram-force: 
+          :few: "{0} كغ ث"
+          :many: "{0} كغ ث"
+          :one: "{0} كغ ث"
+          :other: "{0} كغ ث"
+          :two: "{0} كغ ث"
+          :zero: "{0} كغ ث"
         :force-kilowatt-hour-per-100-kilometer: 
           :few: "{0} ك.و.س/100 كم"
           :many: "{0} ك.و.س/100 كم"
@@ -946,6 +1149,20 @@
           :other: "{0} ياردة"
           :two: "{0} ياردة"
           :zero: "{0} ياردة"
+        :magnetic-tesla: 
+          :few: "{0} تسلا"
+          :many: "{0} تسلا"
+          :one: "{0} تسلا"
+          :other: "{0} تسلا"
+          :two: "{0} تسلا"
+          :zero: "{0} تسلا"
+        :magnetic-weber: 
+          :few: "{0} ويبر"
+          :many: "{0} ويبر"
+          :one: "{0} ويبر"
+          :other: "{0} ويبر"
+          :two: "{0} ويبر"
+          :zero: "{0} ويبر"
         :mass-gram: 
           :few: "{0} غ"
           :many: "{0} غ"
@@ -974,6 +1191,20 @@
           :other: "{0} ب ز"
           :two: "{0} ب ز"
           :zero: "{0} ب ز"
+        :pressure-ofhg: 
+          :few: "{0} زئبقي"
+          :many: "{0} زئبقي"
+          :one: "{0} زئبقي"
+          :other: "{0} زئبقي"
+          :two: "{0} زئبقي"
+          :zero: "{0} زئبقي"
+        :speed-light-speed: 
+          :few: "{0} ضوئية"
+          :many: "{0} ضوئي"
+          :one: "{0} ضوئي"
+          :other: "{0} ضوئي"
+          :two: "{0} ضوئي"
+          :zero: "{0} ضوئي"
         :torque-newton-meter: 
           :few: "{0} نيوتن م"
           :many: "{0} نيوتن م"
@@ -1009,6 +1240,13 @@
           :other: "{0} أونصة س إمبراطورية"
           :two: "{0} أونصة س إمبراطورية"
           :zero: "{0} أونصة س إمبراطورية"
+        :volume-fluid-ounce-metric: 
+          :few: "{0} أونصة س م"
+          :many: "{0} أونصة س م"
+          :one: "{0} أونصة س م"
+          :other: "{0} أونصة س م"
+          :two: "{0} أونصة س م"
+          :zero: "{0} أونصة س م"
         :volume-jigger: 
           :few: "{0} قدح"
           :many: "{0} قدح"
@@ -1080,6 +1318,13 @@
           :other: "{0} دورة"
           :two: "{0} دورة"
           :zero: "{0} دورة"
+        :angle-steradian: 
+          :few: "{0} ستراديان"
+          :many: "{0} ستراديان"
+          :one: "{0} ستراديان"
+          :other: "{0} ستراديان"
+          :two: "{0} ستراديان"
+          :zero: "{0} ستراديان"
         :area-acre: 
           :few: "{0} فدان"
           :many: "{0} فدان"
@@ -1087,6 +1332,10 @@
           :other: "{0} فدان"
           :two: "{0} فدان"
           :zero: "{0} فدان"
+        :area-bu-jp: 
+          :other: "{0} bu [JP]"
+        :area-cho: 
+          :other: "{0} cho [JP]"
         :area-dunam: 
           :few: "{0} دونم"
           :many: "{0} دونم"
@@ -1101,6 +1350,8 @@
           :other: "{0} هكتار"
           :two: "{0} هكتار"
           :zero: "{0} هكتار"
+        :area-se-jp: 
+          :other: "{0} se [JP]"
         :area-square-centimeter: 
           :few: "{0} سم²"
           :many: "{0} سم²"
@@ -1164,6 +1415,13 @@
           :other: "{0} قيراط"
           :two: "{0} قيراط"
           :zero: "{0} قيراط"
+        :concentr-katal: 
+          :few: "{0} كات"
+          :many: "{0} كات"
+          :one: "{0} كات"
+          :other: "{0} كات"
+          :two: "{0} كات"
+          :zero: "{0} كات"
         :concentr-milligram-ofglucose-per-deciliter: 
           :few: "{0} مغم/ديسيل"
           :many: "{0} مغم/ديسيل"
@@ -1185,6 +1443,34 @@
           :other: "{0} مول"
           :two: "{0} مول"
           :zero: "{0} مول"
+        :concentr-ofglucose: 
+          :few: "{0} سكّري"
+          :many: "{0} سكّري"
+          :one: "{0} سكّري"
+          :other: "{0} سكّري"
+          :two: "{0} سكّري"
+          :zero: "{0} سكّري"
+        :concentr-part: 
+          :few: "{0} أجزاء"
+          :many: "{0} جزءًا"
+          :one: "{0} جزء"
+          :other: "{0} جزء"
+          :two: جزآن
+          :zero: "{0} جزء"
+        :concentr-part-per-1e6: 
+          :few: "{0} جزء/مليون"
+          :many: "{0} جزء/مليون"
+          :one: "{0} جزء/مليون"
+          :other: "{0} جزء/مليون"
+          :two: "{0} جزء/مليون"
+          :zero: "{0} جزء/مليون"
+        :concentr-part-per-1e9: 
+          :few: "{0} أجزاء/مليار"
+          :many: "{0} جزءًا/مليار"
+          :one: "{0} جزء/مليار"
+          :other: "{0} جزء/مليار"
+          :two: جزآن/مليار
+          :zero: "{0} جزء/مليار"
         :concentr-percent: 
           :few: "{0}٪"
           :many: "{0}٪"
@@ -1199,22 +1485,8 @@
           :other: "{0}؉"
           :two: "{0}؉"
           :zero: "{0}؉"
-        :concentr-permillion: 
-          :few: "{0} جزء/مليون"
-          :many: "{0} جزء/مليون"
-          :one: "{0} جزء/مليون"
-          :other: "{0} جزء/مليون"
-          :two: "{0} جزء/مليون"
-          :zero: "{0} جزء/مليون"
         :concentr-permyriad: 
           :other: "{0}‱"
-        :concentr-portion-per-1e9: 
-          :few: "{0} أجزاء/مليار"
-          :many: "{0} جزءًا/مليار"
-          :one: "{0} جزء/مليار"
-          :other: "{0} جزء/مليار"
-          :two: جزآن/مليار
-          :zero: "{0} جزء/مليار"
         :consumption-liter-per-100-kilometer: 
           :few: "{0} لتر/١٠٠ كم"
           :many: "{0} لتر/١٠٠ كم"
@@ -1341,6 +1613,8 @@
           :other: "{0} عقد"
           :two: عقدان
           :zero: "{0} عقد"
+        :duration-fortnight: 
+          :other: "{0} fw"
         :duration-hour: 
           :few: "{0} س"
           :many: "{0} س"
@@ -1425,6 +1699,27 @@
           :other: "{0} أمبير"
           :two: "{0} أمبير"
           :zero: "{0} أمبير"
+        :electric-coulomb: 
+          :few: "{0} كول"
+          :many: "{0} كول"
+          :one: "{0} كول"
+          :other: "{0} كول"
+          :two: "{0} كول"
+          :zero: "{0} كول"
+        :electric-farad: 
+          :few: "{0} ف"
+          :many: "{0} ف"
+          :one: "{0} ف"
+          :other: "{0} ف"
+          :two: "{0} ف"
+          :zero: "{0} ف"
+        :electric-henry: 
+          :few: "{0} ه"
+          :many: "{0} ه"
+          :one: "{0} ه"
+          :other: "{0} ه"
+          :two: "{0} ه"
+          :zero: "{0} ه"
         :electric-milliampere: 
           :few: "{0} م أمبير"
           :many: "{0} م أمبير"
@@ -1439,6 +1734,13 @@
           :other: "{0} أوم"
           :two: "{0} أوم"
           :zero: "{0} أوم"
+        :electric-siemens: 
+          :few: "{0} س"
+          :many: "{0} س"
+          :one: "{0} س"
+          :other: "{0} س"
+          :two: "{0} س"
+          :zero: "{0} س"
         :electric-volt: 
           :few: "{0} فولت"
           :many: "{0} فولت"
@@ -1446,6 +1748,13 @@
           :other: "{0} فولت"
           :two: "{0} فولت"
           :zero: "{0} فولت"
+        :energy-becquerel: 
+          :few: "{0} بيكريل"
+          :many: "{0} بيكريل"
+          :one: "{0} بيكريل"
+          :other: "{0} بيكريل"
+          :two: "{0} بيكريل"
+          :zero: "{0} بيكريل"
         :energy-british-thermal-unit: 
           :few: "{0} وحدات حرارية بريطانية"
           :many: "{0} وحدة حرارية بريطانية"
@@ -1453,6 +1762,8 @@
           :other: "{0} وحدة حرارية بريطانية"
           :two: "{0} وحدة حرارية بريطانية"
           :zero: "{0} وحدة حرارية بريطانية"
+        :energy-british-thermal-unit-it: 
+          :other: "{0} BTU-IT"
         :energy-calorie: 
           :few: "{0} سع"
           :many: "{0} سع"
@@ -1460,6 +1771,13 @@
           :other: "{0} سع"
           :two: "{0} سع"
           :zero: "{0} سع"
+        :energy-calorie-it: 
+          :few: "{0} سع-it"
+          :many: "{0} سع-it"
+          :one: "{0} سع-it"
+          :other: "{0} سع-it"
+          :two: "{0} سع-it"
+          :zero: "{0} سع-it"
         :energy-electronvolt: 
           :few: "{0} إلكترون فولت"
           :many: "{0} إلكترون فولت"
@@ -1474,6 +1792,13 @@
           :other: "{0} سع"
           :two: "{0} سع"
           :zero: "{0} سع"
+        :energy-gray: 
+          :few: "{0} جراي"
+          :many: "{0} جراي"
+          :one: "{0} جراي"
+          :other: "{0} جراي"
+          :two: "{0} جراي"
+          :zero: "{0} جراي"
         :energy-joule: 
           :few: "{0} جول"
           :many: "{0} جول"
@@ -1502,6 +1827,13 @@
           :other: "{0} ك.و.س"
           :two: "{0} ك.و.س"
           :zero: "{0} ك.و.س"
+        :energy-sievert: 
+          :few: "{0} زيف"
+          :many: "{0} زيف"
+          :one: "{0} زيف"
+          :other: "{0} زيف"
+          :two: "{0} زيف"
+          :zero: "{0} زيف"
         :energy-therm-us: 
           :few: "{0} وحدات حرارية أمريكية"
           :many: "{0} وحدة حرارية أمريكية"
@@ -1509,6 +1841,13 @@
           :other: "{0} وحدة حرارية أمريكية"
           :two: "{0} وحدة حرارية أمريكية"
           :zero: "{0} وحدة حرارية أمريكية"
+        :force-kilogram-force: 
+          :few: "{0} كغ ث"
+          :many: "{0} كغ ث"
+          :one: "{0} كغ ث"
+          :other: "{0} كغ ث"
+          :two: "{0} كغ ث"
+          :zero: "{0} كغ ث"
         :force-kilowatt-hour-per-100-kilometer: 
           :few: "{0} ك.و.س لكل 100 كم"
           :many: "{0} ك.و.س لكل 100 كم"
@@ -1621,6 +1960,8 @@
           :other: "{0} سم"
           :two: "{0} سم"
           :zero: "{0} سم"
+        :length-chain: 
+          :other: "{0} chain"
         :length-decimeter: 
           :few: "{0} دسم"
           :many: "{0} دسم"
@@ -1663,6 +2004,10 @@
           :other: "{0} بوصة"
           :two: "{0} بوصة"
           :zero: "{0} بوصة"
+        :length-jo-jp: 
+          :other: "{0} jo [JP]"
+        :length-ken: 
+          :other: "{0} ken [JP]"
         :length-kilometer: 
           :few: "{0} كم"
           :many: "{0} كم"
@@ -1747,6 +2092,16 @@
           :other: "{0} نقطة"
           :two: نقطتان
           :zero: "{0} نقطة"
+        :length-ri-jp: 
+          :other: "{0} ri [JP]"
+        :length-rin: 
+          :other: "{0} rin [JP]"
+        :length-rod: 
+          :other: "{0} rod"
+        :length-shaku-cloth: 
+          :other: "{0} shaku [cloth, JP]"
+        :length-shaku-length: 
+          :other: "{0} shaku [JP]"
         :length-solar-radius: 
           :few: "{0} نق شمسي"
           :many: "{0} نق شمسي"
@@ -1754,6 +2109,8 @@
           :other: "{0} نق شمسي"
           :two: "{0} نق شمسي"
           :zero: "{0} نق شمسي"
+        :length-sun: 
+          :other: "{0} sun [JP]"
         :length-yard: 
           :few: "{0} ياردة"
           :many: "{0} ياردة"
@@ -1789,6 +2146,20 @@
           :other: "{0} ضياء شمسي"
           :two: "{0} ضياء شمسي"
           :zero: "{0} ضياء شمسي"
+        :magnetic-tesla: 
+          :few: "{0} تسلا"
+          :many: "{0} تسلا"
+          :one: "{0} تسلا"
+          :other: "{0} تسلا"
+          :two: "{0} تسلا"
+          :zero: "{0} تسلا"
+        :magnetic-weber: 
+          :few: "{0} ويبر"
+          :many: "{0} ويبر"
+          :one: "{0} ويبر"
+          :other: "{0} ويبر"
+          :two: "{0} ويبر"
+          :zero: "{0} ويبر"
         :mass-carat: 
           :few: "{0} قيراط"
           :many: "{0} قيراط"
@@ -1810,6 +2181,8 @@
           :other: "{0} كتلة أرضية"
           :two: "{0} كتلة أرضية"
           :zero: "{0} كتلة أرضية"
+        :mass-fun: 
+          :other: "{0} fun [JP]"
         :mass-grain: 
           :few: "{0} قمحة"
           :many: "{0} قمحة"
@@ -1866,6 +2239,8 @@
           :other: "{0} رطل"
           :two: "{0} رطل"
           :zero: "{0} رطل"
+        :mass-slug: 
+          :other: "{0} slug"
         :mass-solar-mass: 
           :few: "{0} كتلة شمسية"
           :many: "{0} كتلة شمسية"
@@ -1950,6 +2325,8 @@
           :other: "{0} بار"
           :two: "{0} بار"
           :zero: "{0} بار"
+        :pressure-gasoline-energy-density: 
+          :other: "{0} gas E"
         :pressure-hectopascal: 
           :few: "{0} هكتوباسكال"
           :many: "{0} هكتوباسكال"
@@ -1992,6 +2369,13 @@
           :other: "{0} ملم زئبقي"
           :two: "{0} ملم زئبقي"
           :zero: "{0} ملم زئبقي"
+        :pressure-ofhg: 
+          :few: "{0} زئبقي"
+          :many: "{0} زئبقي"
+          :one: "{0} زئبقي"
+          :other: "{0} زئبقي"
+          :two: "{0} زئبقي"
+          :zero: "{0} زئبقي"
         :pressure-pascal: 
           :few: "{0} باسكال"
           :many: "{0} باسكال"
@@ -2028,7 +2412,12 @@
           :two: "{0} عقدة"
           :zero: "{0} عقدة"
         :speed-light-speed: 
-          :other: "{0} light"
+          :few: "{0} ضوئية"
+          :many: "{0} ضوئي"
+          :one: "{0} ضوئي"
+          :other: "{0} ضوئي"
+          :two: "{0} ضوئي"
+          :zero: "{0} ضوئي"
         :speed-meter-per-second: 
           :few: "{0} م/ث"
           :many: "{0} م/ث"
@@ -2066,6 +2455,8 @@
           :other: "{0} د كلفن"
           :two: "{0} د كلفن"
           :zero: "{0} د كلفن"
+        :temperature-rankine: 
+          :other: "{0} °R"
         :torque-newton-meter: 
           :few: "{0} نيوتن متر"
           :many: "{0} نيوتن متر"
@@ -2164,6 +2555,10 @@
           :other: "{0} كوب"
           :two: "{0} كوب"
           :zero: "{0} كوب"
+        :volume-cup-imperial: 
+          :other: "{0} cup Imp."
+        :volume-cup-jp: 
+          :other: "{0} cup [JP]"
         :volume-cup-metric: 
           :few: "{0} كوب متري"
           :many: "{0} كوب متري"
@@ -2220,6 +2615,13 @@
           :other: "{0} أونصة سائلة إمبراطورية"
           :two: "{0} أونصة سائلة إمبراطورية"
           :zero: "{0} أونصة سائلة إمبراطورية"
+        :volume-fluid-ounce-metric: 
+          :few: "{0} أونصة س مترية"
+          :many: "{0} أونصة س مترية"
+          :one: "{0} أونصة س مترية"
+          :other: "{0} أونصة س مترية"
+          :two: "{0} أونصة س مترية"
+          :zero: "{0} أونصة س مترية"
         :volume-gallon: 
           :few: "{0} غالون"
           :many: "{0} غالون"
@@ -2248,6 +2650,10 @@
           :other: "{0} قدح"
           :two: "{0} قدح"
           :zero: "{0} قدح"
+        :volume-koku: 
+          :other: "{0} koku [JP]"
+        :volume-kosaji: 
+          :other: "{0} kosaji [JP]"
         :volume-liter: 
           :few: "{0} لتر"
           :many: "{0} لتر"
@@ -2269,6 +2675,8 @@
           :other: "{0} ملتر"
           :two: "{0} ملتر"
           :zero: "{0} ملتر"
+        :volume-osaji: 
+          :other: "{0} osaji [JP]"
         :volume-pinch: 
           :few: "{0} رشّة"
           :many: "{0} رشّة"
@@ -2283,6 +2691,8 @@
           :other: "{0} باينت"
           :two: "{0} باينت"
           :zero: "{0} باينت"
+        :volume-pint-imperial: 
+          :other: "{0} pt Imp."
         :volume-pint-metric: 
           :few: "{0} مكيال متري"
           :many: "{0} مكيال متري"
@@ -2304,6 +2714,10 @@
           :other: "{0} ربع غالون إمبراطوري"
           :two: "{0} ربع غالون إمبراطوري"
           :zero: "{0} ربع غالون إمبراطوري"
+        :volume-sai: 
+          :other: "{0} sai [JP]"
+        :volume-shaku: 
+          :other: "{0} shaku [vol, JP]"
         :volume-tablespoon: 
           :few: "{0} ملعقة ك."
           :many: "{0} ملعقة ك."
@@ -2318,3 +2732,5 @@
           :other: "{0} ملعقة ص"
           :two: "{0} ملعقة ص"
           :zero: "{0} ملعقة ص"
+        :volume-to-jp: 
+          :other: "{0} to [JP]"

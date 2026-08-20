@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -28,9 +30,7 @@
         :standard: "Оңтүстік Африка стандартты уақыты"
     :Africa_Western: 
       :long: 
-        :daylight: "Батыс Африка жазғы уақыты"
-        :generic: "Батыс Африка уақыты"
-        :standard: "Батыс Африка стандартты уақыты"
+        :standard: "Батыс Африка уақыты"
     :Alaska: 
       :long: 
         :daylight: "Аляска жазғы уақыты"
@@ -272,6 +272,9 @@
     :Guyana: 
       :long: 
         :standard: "Гайана уақыты"
+    :Hawaii: 
+      :long: 
+        :standard: "Гавай және Алеут аралдары стандартты уақыты"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "Гавай және Алеут аралдары жазғы уақыты"
@@ -781,6 +784,8 @@
       :city: Кордова
     :America/Costa_Rica: 
       :city: Коста-Рика
+    :America/Coyhaique: 
+      :city: Койайке
     :America/Creston: 
       :city: Крестон
     :America/Cuiaba: 
@@ -1385,7 +1390,7 @@
     :Pacific/Efate: 
       :city: Эфате
     :Pacific/Enderbury: 
-      :city: Эндербери
+      :city: Кантон
     :Pacific/Fakaofo: 
       :city: Факаофо
     :Pacific/Fiji: 
@@ -1402,8 +1407,6 @@
       :city: Гуам
     :Pacific/Honolulu: 
       :city: Гонолулу
-    :Pacific/Kanton: 
-      :city: Кантон
     :Pacific/Kiritimati: 
       :city: Киритимати
     :Pacific/Kosrae: 

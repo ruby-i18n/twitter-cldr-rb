@@ -13,7 +13,6 @@ module TwitterCldr
       def display_name_for(date, format = DEFAULT_FORMAT, dst = TZInfo::Timezone.default_dst, &block)
         offset = tz.period_for_local(date, dst, &block).offset
         offset_secs = offset.utc_offset + offset.std_offset
-        return gmt_zero_format if offset_secs == 0
 
         gmt_format.sub('{0}', format_offset(offset_secs, format))
       end
@@ -76,11 +75,6 @@ module TwitterCldr
           .map do |pat|
             TwitterCldr::Tokenizers::TimeTokenizer.tokenizer.tokenize(pat)
           end
-      end
-
-      def gmt_zero_format
-        @gmt_zero_format ||= resource[:formats][:gmt_zero_formats][:generic] ||
-          DEFAULT_GMT_ZERO_FORMAT
       end
 
       def gmt_format

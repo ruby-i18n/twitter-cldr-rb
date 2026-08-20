@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -28,9 +30,7 @@
         :standard: "Isikhathi esivamile saseNingizimu Afrika"
     :Africa_Western: 
       :long: 
-        :daylight: "Isikhathi sasehlobo saseNtshonalanga Afrika"
-        :generic: "Isikhathi saseNtshonalanga Afrika"
-        :standard: "Isikhathi esivamile saseNtshonalanga Afrika"
+        :standard: "Isikhathi saseNtshonalanga Afrika"
     :Alaska: 
       :long: 
         :daylight: "Isikhathi sase-Alaska sasemini"
@@ -273,6 +273,9 @@
     :Guyana: 
       :long: 
         :standard: "Isikhathi sase-Guyana"
+    :Hawaii: 
+      :long: 
+        :standard: "Isikhathi sase-Hawaii-Aleutia esijwayelekile"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "Isikhathi sase-Hawaii-Aleutia sasemini"
@@ -1392,7 +1395,7 @@
     :Pacific/Efate: 
       :city: i-Efate
     :Pacific/Enderbury: 
-      :city: i-Enderbury
+      :city: Canton
     :Pacific/Fakaofo: 
       :city: i-Fakaofo
     :Pacific/Fiji: 

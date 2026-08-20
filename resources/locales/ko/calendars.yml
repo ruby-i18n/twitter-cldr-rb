@@ -7,15 +7,19 @@
         :Bhm: "B h:mm"
         :Bhms: "B h:mm:ss"
         :E: ccc
+        :EBh: "(E) B h시"
         :EBhm: "(E) B h:mm"
         :EBhms: "(E) B h:mm:ss"
         :EEEEd: "d일 EEEE"
         :EHm: "(E) HH:mm"
         :EHms: "(E) HH:mm:ss"
         :Ed: "d일 (E)"
+        :Eh: "E h a"
         :Ehm: "(E) a h:mm"
         :Ehms: "(E) a h:mm:ss"
         :Gy: "G y년"
+        :GyM: "G y/M"
+        :GyMEd: "G y/M/d (E)"
         :GyMMM: "G y년 MMM"
         :GyMMMEEEEd: "G y년 MMM d일 EEEE"
         :GyMMMEd: "G y년 MMM d일 (E)"
@@ -27,6 +31,7 @@
         :Hms: "H시 m분 s초"
         :Hmsv: "H시 m분 s초 v"
         :Hmv: "HH:mm v"
+        :Hv: "HH v"
         :M: M월
         :MEEEEd: "M. d. EEEE"
         :MEd: "M. d. (E)"
@@ -43,6 +48,7 @@
         :hms: "a h:mm:ss"
         :hmsv: "a h:mm:ss v"
         :hmv: "a h:mm v"
+        :hv: "h a v"
         :mmss: "mm:ss"
         :ms: "mm:ss"
         ? !ruby/symbol "y"
@@ -296,26 +302,6 @@
         :format: 
           :abbreviated: 
             :afternoon1: 오후
-            :am: AM
-            :evening1: 저녁
-            :midnight: 자정
-            :morning1: 아침
-            :morning2: 오전
-            :night1: 밤
-            :noon: 정오
-            :pm: PM
-          :narrow: 
-            :afternoon1: 오후
-            :am: AM
-            :evening1: 저녁
-            :midnight: 자정
-            :morning1: 아침
-            :morning2: 오전
-            :night1: 밤
-            :noon: 정오
-            :pm: PM
-          :wide: 
-            :afternoon1: 오후
             :am: 오전
             :evening1: 저녁
             :midnight: 자정
@@ -324,30 +310,21 @@
             :night1: 밤
             :noon: 정오
             :pm: 오후
+          :narrow: 
+            :am: 오전
+            :pm: 오후
+          :wide: 
+            :am: 오전
+            :pm: 오후
         :stand-alone: 
           :abbreviated: 
-            :afternoon1: 오후
-            :am: AM
-            :evening1: 저녁
-            :morning1: 아침
-            :morning2: 오전
-            :night1: 밤
-            :pm: PM
-          :narrow: 
-            :afternoon1: 오후
-            :am: AM
-            :evening1: 저녁
-            :morning1: 아침
-            :morning2: 오전
-            :night1: 밤
-            :pm: PM
-          :wide: 
-            :afternoon1: 오후
             :am: 오전
-            :evening1: 저녁
-            :morning1: 아침
-            :morning2: 오전
-            :night1: 밤
+            :pm: 오후
+          :narrow: 
+            :am: 오전
+            :pm: 오후
+          :wide: 
+            :am: 오전
             :pm: 오후
       :quarters: 
         :format: 

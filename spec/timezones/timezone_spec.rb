@@ -36,7 +36,7 @@ describe 'Timezones' do
 
     locale_name = locale.localize.as_language_code || locale.to_s
 
-    context "timezones in #{locale_name}", slow: !fast_locales.include?(locale) do
+    context "in #{locale_name}", slow: !fast_locales.include?(locale) do
       tests = YAML.load_file(File.expand_path("../tests/#{locale}.yml", __FILE__))
       date = TwitterCldr::Resources::TimezoneTestsImporter::TEST_TIME
 

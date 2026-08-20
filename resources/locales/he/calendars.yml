@@ -7,14 +7,18 @@
         :Bhm: "h:mm B"
         :Bhms: "h:mm:ss B"
         :E: ccc
+        :EBh: "E h B"
         :EBhm: "E h:mm B"
         :EBhms: "E h:mm:ss B"
         :EHm: "E H:mm"
         :EHms: "E H:mm:ss"
         :Ed: "E ה-d"
+        :Eh: "E h a"
         :Ehm: "E h:mm a"
         :Ehms: "E h:mm:ss a"
         :Gy: "y G"
+        :GyM: "G y-MM"
+        :GyMEd: "G y-MM-dd, E"
         :GyMMM: "MMM y G"
         :GyMMMEd: "E, d בMMM y G"
         :GyMMMd: "d בMMM y G"
@@ -24,6 +28,7 @@
         :Hms: "H:mm:ss"
         :Hmsv: "HH:mm:ss v"
         :Hmv: "HH:mm v"
+        :Hv: "H v"
         :M: L
         :MEd: "E, d.M"
         :MMM: LLL
@@ -38,6 +43,7 @@
         :hms: "h:mm:ss a"
         :hmsv: "h:mm:ss a v"
         :hmv: "h:mm a v"
+        :hv: "h a v"
         :ms: "mm:ss"
         ? !ruby/symbol "y"
         : "y"
@@ -146,16 +152,16 @@
         :hour-narrow: שע׳
         :hour-short: Hour
         :minute: דקה
-        :minute-narrow: Minute
+        :minute-narrow: דק׳
         :minute-short: דק׳
         :month: חודש
         :month-narrow: Month
         :month-short: חו׳
         :quarter: רבעון
-        :quarter-narrow: רבע׳
+        :quarter-narrow: Quarter
         :quarter-short: רבע׳
         :second: שנייה
-        :second-narrow: שנ׳
+        :second-narrow: Second
         :second-short: שנ׳
         :week: שבוע
         :week-narrow: Week
@@ -170,7 +176,7 @@
         :weekdayOfMonth-narrow: "יום בחודש"
         :weekdayOfMonth-short: "יום בחודש"
         :year: שנה
-        :year-narrow: שנ׳
+        :year-narrow: Year
         :year-short: שנ׳
         :zone: "אזור זמן"
         :zone-narrow: אזור

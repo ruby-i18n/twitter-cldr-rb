@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "Südafrikanische Zeit"
     :Africa_Western: 
       :long: 
-        :daylight: "Westafrikanische Sommerzeit"
-        :generic: "Westafrikanische Zeit"
-        :standard: "Westafrikanische Normalzeit"
+        :standard: "Westafrikanische Zeit"
     :Alaska: 
       :long: 
         :daylight: Alaska-Sommerzeit
@@ -311,6 +311,9 @@
     :Guyana: 
       :long: 
         :standard: Guyana-Zeit
+    :Hawaii: 
+      :long: 
+        :standard: Hawaii-Aleuten-Normalzeit
     :Hawaii_Aleutian: 
       :long: 
         :daylight: Hawaii-Aleuten-Sommerzeit
@@ -539,7 +542,7 @@
         :standard: Pitcairninseln-Zeit
     :Ponape: 
       :long: 
-        :standard: Ponape-Zeit
+        :standard: Pohnpei-Zeit
     :Pyongyang: 
       :long: 
         :standard: Pjöngjang-Zeit
@@ -609,6 +612,11 @@
     :Truk: 
       :long: 
         :standard: Chuuk-Zeit
+    :Turkey: 
+      :long: 
+        :daylight: "Türkische Sommerzeit"
+        :generic: "Türkische Zeit"
+        :standard: "Türkische Normalzeit"
     :Turkmenistan: 
       :long: 
         :daylight: "Turkmenische Sommerzeit"
@@ -696,10 +704,18 @@
       :city: "São Tomé"
     :Africa/Tripoli: 
       :city: Tripolis
+    :America/Araguaina: 
+      :city: Araguaína
+    :America/Argentina/Rio_Gallegos: 
+      :city: "Río Gallegos"
+    :America/Argentina/Tucuman: 
+      :city: Tucumán
     :America/Asuncion: 
       :city: Asunción
     :America/Bahia_Banderas: 
       :city: "Bahia Banderas"
+    :America/Belem: 
+      :city: Belém
     :America/Bogota: 
       :city: Bogotá
     :America/Cancun: 
@@ -712,8 +728,12 @@
       :city: Atikokan
     :America/Cordoba: 
       :city: Córdoba
+    :America/Cuiaba: 
+      :city: Cuiabá
     :America/Curacao: 
       :city: Curaçao
+    :America/Eirunepe: 
+      :city: Eirunepé
     :America/Godthab: 
       :city: Nuuk
     :America/Havana: 
@@ -738,16 +758,26 @@
       :city: "Monticello, Kentucky"
     :America/Lower_Princes: 
       :city: "Lower Prince’s Quarter"
+    :America/Maceio: 
+      :city: Maceió
+    :America/Mazatlan: 
+      :city: Mazatlán
     :America/Merida: 
       :city: Merida
     :America/Mexico_City: 
       :city: Mexiko-Stadt
+    :America/Miquelon: 
+      :city: Saint-Pierre
+    :America/Noronha: 
+      :city: "Fernando de Noronha"
     :America/North_Dakota/Beulah: 
       :city: "Beulah, North Dakota"
     :America/North_Dakota/Center: 
       :city: "Center, North Dakota"
     :America/North_Dakota/New_Salem: 
       :city: "New Salem, North Dakota"
+    :America/Santarem: 
+      :city: Santarém
     :America/Sao_Paulo: 
       :city: "São Paulo"
     :America/Scoresbysund: 
@@ -765,7 +795,9 @@
     :America/St_Vincent: 
       :city: "St. Vincent"
     :Antarctica/DumontDUrville: 
-      :city: "Dumont d’Urville"
+      :city: Dumont-d’Urville
+    :Antarctica/Syowa: 
+      :city: Showa
     :Antarctica/Vostok: 
       :city: Wostok
     :Asia/Aqtobe: 
@@ -881,6 +913,8 @@
       :city: Bukarest
     :Europe/Busingen: 
       :city: Büsingen
+    :Europe/Chisinau: 
+      :city: Chișinău
     :Europe/Copenhagen: 
       :city: Kopenhagen
     :Europe/Dublin: 
@@ -923,6 +957,8 @@
       :city: Weihnachtsinsel
     :Indian/Comoro: 
       :city: Komoren
+    :Indian/Mahe: 
+      :city: Mahé
     :Indian/Maldives: 
       :city: Malediven
     :Indian/Reunion: 
@@ -930,12 +966,18 @@
     :Pacific/Easter: 
       :city: Osterinsel
     :Pacific/Enderbury: 
-      :city: Enderbury
+      :city: Canton
     :Pacific/Fiji: 
       :city: Fidschi
+    :Pacific/Galapagos: 
+      :city: Galápagos
     :Pacific/Honolulu: 
       :city: Honolulu
+    :Pacific/Noumea: 
+      :city: Nouméa
     :Pacific/Ponape: 
       :city: Pohnpei
     :Pacific/Truk: 
       :city: Chuuk
+    :Pacific/Wallis: 
+      :city: "Wallis & Futuna"

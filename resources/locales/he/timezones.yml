@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}‎"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -28,9 +30,7 @@
         :standard: "שעון דרום אפריקה"
     :Africa_Western: 
       :long: 
-        :daylight: "שעון מערב אפריקה (קיץ)"
-        :generic: "שעון מערב אפריקה"
-        :standard: "שעון מערב אפריקה (חורף)"
+        :standard: "שעון מערב אפריקה"
     :Alaska: 
       :long: 
         :daylight: "שעון אלסקה (קיץ)"
@@ -291,6 +291,9 @@
     :Guyana: 
       :long: 
         :standard: "שעון גיאנה"
+    :Hawaii: 
+      :long: 
+        :standard: "שעון האיים האלאוטיים הוואי (חורף)"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "שעון האיים האלאוטיים הוואי (קיץ)"
@@ -823,6 +826,8 @@
       :city: קורדובה
     :America/Costa_Rica: 
       :city: "קוסטה ריקה"
+    :America/Coyhaique: 
+      :city: קויאיקה
     :America/Creston: 
       :city: קרסטון
     :America/Cuiaba: 
@@ -1427,7 +1432,7 @@
     :Pacific/Efate: 
       :city: אפטה
     :Pacific/Enderbury: 
-      :city: אנדרבורי
+      :city: קנטון
     :Pacific/Fakaofo: 
       :city: פקאופו
     :Pacific/Fiji: 
@@ -1444,8 +1449,6 @@
       :city: גואם
     :Pacific/Honolulu: 
       :city: הונולולו
-    :Pacific/Kanton: 
-      :city: קנטון
     :Pacific/Kiritimati: 
       :city: קיריטימאטי
     :Pacific/Kosrae: 

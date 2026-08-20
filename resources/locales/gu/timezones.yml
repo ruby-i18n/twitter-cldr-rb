@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "દક્ષિણ આફ્રિકા માનક સમય"
     :Africa_Western: 
       :long: 
-        :daylight: "પશ્ચિમ આફ્રિકા ગ્રીષ્મ સમય"
-        :generic: "પશ્ચિમ આફ્રિકા સમય"
-        :standard: "પશ્ચિમ આફ્રિકા માનક સમય"
+        :standard: "પશ્ચિમ આફ્રિકા સમય"
     :Alaska: 
       :long: 
         :daylight: "અલાસ્કા દિવસ સમય"
@@ -296,6 +296,9 @@
     :Guyana: 
       :long: 
         :standard: "ગયાના સમય"
+    :Hawaii: 
+      :long: 
+        :standard: "હવાઇ-એલ્યુશિઅન માનક સમય"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "હવાઇ-એલ્યુશિઅન દિવસ સમય"
@@ -833,6 +836,8 @@
       :city: કોર્ડોબા
     :America/Costa_Rica: 
       :city: "કોસ્ટા રિકા"
+    :America/Coyhaique: 
+      :city: કોહેક
     :America/Creston: 
       :city: ક્રેસ્ટન
     :America/Cuiaba: 
@@ -1383,11 +1388,11 @@
     :Europe/Tallinn: 
       :city: તલ્લીન
     :Europe/Tirane: 
-      :city: તિરાને
+      :city: તિરાના
     :Europe/Ulyanovsk: 
       :city: ઉલેનોવ્સ્ક
     :Europe/Vaduz: 
-      :city: વૅદુઝ
+      :city: વડુઝ
     :Europe/Vatican: 
       :city: વેટિકન
     :Europe/Vienna: 
@@ -1437,7 +1442,7 @@
     :Pacific/Efate: 
       :city: એફેટ
     :Pacific/Enderbury: 
-      :city: એંડર્બરી
+      :city: "કેંટન આઇલૅન્ડ"
     :Pacific/Fakaofo: 
       :city: ફાકાઓફો
     :Pacific/Fiji: 
@@ -1454,8 +1459,6 @@
       :city: ગ્વામ
     :Pacific/Honolulu: 
       :city: હોનોલુલુ
-    :Pacific/Kanton: 
-      :city: કેન્ટન
     :Pacific/Kiritimati: 
       :city: કિરિતિમાતી
     :Pacific/Kosrae: 

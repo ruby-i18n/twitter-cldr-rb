@@ -7,23 +7,28 @@
         :Bhm: "h:mm B"
         :Bhms: "h:mm:ss B"
         :E: ccc
+        :EBh: "E h B"
         :EBhm: "E h:mm B"
         :EBhms: "E h:mm:ss B"
         :EHm: "E HH:mm"
         :EHms: "E HH:mm:ss"
         :Ed: "E, d"
+        :Eh: "E h a"
         :Ehm: "E h:mm a"
         :Ehms: "E h:mm:ss a"
         :Gy: "y G"
+        :GyM: "MM y G"
+        :GyMEd: "dd-MM-y, E, G"
         :GyMMM: "LLL y 'р'. G"
         :GyMMMEd: "E, d MMM y 'р'. G"
         :GyMMMd: "d MMM y 'р'. G"
         :GyMd: "dd-MM-y GGGGG"
-        :H: HH
+        :H: H
         :Hm: "HH:mm"
         :Hms: "HH:mm:ss"
         :Hmsv: "HH:mm:ss v"
         :Hmv: "HH:mm v"
+        :Hv: "HH v"
         :M: LL
         :MEd: "E, dd.MM"
         :MMM: LLL
@@ -39,6 +44,7 @@
         :hms: "h:mm:ss a"
         :hmsv: "h:mm:ss a v"
         :hmv: "h:mm a v"
+        :hv: "h a v"
         :ms: "mm:ss"
         ? !ruby/symbol "y"
         : "y"
@@ -297,22 +303,22 @@
             :pm: пп
           :narrow: 
             :afternoon1: дня
-            :am: AM
+            :am: дп
             :evening1: вечора
             :midnight: ночі
             :morning1: ранку
             :night1: ночі
             :noon: дня
-            :pm: PM
+            :pm: пп
           :wide: 
             :afternoon1: дня
-            :am: AM
+            :am: дп
             :evening1: вечора
             :midnight: ночі
             :morning1: ранку
             :night1: ночі
             :noon: дня
-            :pm: PM
+            :pm: пп
         :stand-alone: 
           :abbreviated: 
             :afternoon1: день

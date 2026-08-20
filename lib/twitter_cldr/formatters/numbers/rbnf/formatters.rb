@@ -59,10 +59,9 @@ module TwitterCldr
           @locale = locale
         end
 
-        def format(number, rule)
-          rule.tokens.map do |token|
-            result = send(token.type, number, rule, token)
-            @omit ? "" : result
+        def format(number, rule, tokens = rule.tokens)
+          tokens.map do |token|
+            send(token.type, number, rule, token)
           end.join
         end
 
@@ -104,13 +103,17 @@ module TwitterCldr
           end
         end
 
-        def open_bracket(number, rule, token)
-          @omit = rule.even_multiple_of?(number)
-          ""
-        end
+        def alternation(number, rule, token)
+          if rule.even_multiple_of?(number)
+            if !token.right.empty?
+              return format(number, rule, token.right)
+            end
+          else
+            if !token.left.empty?
+              return format(number, rule, token.left)
+            end
+          end
 
-        def close_bracket(number, rule, token)
-          @omit = false
           ""
         end
 
@@ -132,10 +135,6 @@ module TwitterCldr
         end
 
         protected
-
-        def invalid_token_error(token)
-          InvalidRbnfTokenError.new("'#{token.value}' not allowed in negative number rules.")
-        end
 
         def fractional_part(number)
           ".#{number.to_s.split(".")[1] || 0}".to_f
@@ -159,12 +158,14 @@ module TwitterCldr
           raise invalid_token_error(token)
         end
 
-        def open_bracket(number, rule, token)
-          raise invalid_token_error(token)
+        def alternation(number, rule, token)
+          raise InvalidRbnfTokenError, "Alternations are not allowed in negative number rules."
         end
 
-        def close_bracket(number, rule, token)
-          raise invalid_token_error(token)
+        private
+
+        def invalid_token_error(token)
+          InvalidRbnfTokenError.new("'#{token.value}' not allowed in negative number rules.")
         end
       end
 
@@ -193,23 +194,43 @@ module TwitterCldr
           end
         end
 
-        def open_bracket(number, rule, token)
-          @omit = if is_fractional
-            # is this necessary?
-            (number * fractional_rule(number).base_value) == 1
+        def alternation(number, rule, token)
+          if is_fractional
+            fractional_alternation(number, rule, token)
           else
-            # Omit the optional text if the number is an integer (same as specifying both an x.x rule and an x.0 rule)
-            @omit = number.is_a?(Integer)
+            default_alternation(number, rule, token)
           end
-          ""
-        end
-
-        def close_bracket(number, rule, token)
-          @omit = false
-          ""
         end
 
         protected
+
+        def fractional_alternation(number, rule, token)
+          if (number * fractional_rule(number).base_value) == 1
+            if !token.right.empty?
+              format(number, rule, token.right)
+            end
+          else
+            if !token.left.empty?
+              format(number, rule, token.left)
+            end
+          end
+
+          ""
+        end
+
+        def default_alternation(number, rule, token)
+          if number.is_a?(Integer)
+            if !token.right.empty?
+              format(number, rule, token.right)
+            end
+          else
+            if !token.left.empty?
+              format(number, rule, token.left)
+            end
+          end
+
+          ""
+        end
 
         def fractional_rule(number)
           @fractional_rule ||= rule_set.rule_for(number, true)
@@ -224,12 +245,30 @@ module TwitterCldr
         def close_bracket(number, rule, token)
           raise invalid_token_error(token)
         end
+
+        def alternation(number, rule, token)
+          raise InvalidRbnfTokenError, "Alternations are not allowed in proper fraction rules."
+        end
+
+        private
+
+        def invalid_token_error(token)
+          InvalidRbnfTokenError.new("'#{token.value}' not allowed in proper fraction rules.")
+        end
       end
 
       class ImproperFractionRuleFormatter < MasterRuleFormatter
-        def open_bracket(number, rule, token)
-          # Omit the optional text if the number is between 0 and 1 (same as specifying both an x.x rule and a 0.x rule)
-          @omit = number > 0 && number < 1
+        def alternation(number, rule, token)
+          if number > 0 && number < 1
+            if !token.right.empty?
+              return format(number, rule, token.right)
+            end
+          else
+            if !token.left.empty?
+              return format(number, rule, token.left)
+            end
+          end
+
           ""
         end
       end

@@ -7,14 +7,18 @@
         :Bhm: "B h:mm"
         :Bhms: "B h:mm:ss"
         :E: ccc
+        :EBh: "E B h"
         :EBhm: "E B h:mm"
         :EBhms: "E B h:mm:ss"
         :EHm: "E HH:mm"
         :EHms: "E HH:mm:ss"
         :Ed: "d., E"
+        :Eh: "E a h"
         :Ehm: "E h:mm a"
         :Ehms: "E h:mm:ss a"
         :Gy: "G y."
+        :GyM: "G y. MM."
+        :GyMEd: "G y. MM. dd., E"
         :GyMMM: "G y. MMM"
         :GyMMMEd: "G y. MMM d., E"
         :GyMMMd: "G y. MMM d."
@@ -24,6 +28,7 @@
         :Hms: "H:mm:ss"
         :Hmsv: "HH:mm:ss v"
         :Hmv: "HH:mm v"
+        :Hv: "H v"
         :M: L
         :MEd: "M. d., E"
         :MMM: LLL
@@ -38,6 +43,7 @@
         :hms: "a h:mm:ss"
         :hmsv: "a h:mm:ss v"
         :hmv: "a h:mm v"
+        :hv: "a h v"
         :mmss: "mm:ss"
         :ms: "mm:ss"
         ? !ruby/symbol "y"
@@ -298,8 +304,8 @@
             :noon: dél
             :pm: du.
           :narrow: 
-            :afternoon1: du.
-            :am: de.
+            :afternoon1: délután
+            :am: AM
             :evening1: este
             :midnight: éjfél
             :morning1: reggel
@@ -307,7 +313,7 @@
             :night1: éjjel
             :night2: hajnal
             :noon: dél
-            :pm: du.
+            :pm: PM
           :wide: 
             :afternoon1: délután
             :am: AM
@@ -332,16 +338,14 @@
             :noon: dél
             :pm: du.
           :narrow: 
-            :afternoon1: du.
-            :am: de.
+            :afternoon1: délután
+            :am: AM
             :evening1: este
-            :midnight: éjfél
             :morning1: reggel
             :morning2: de.
             :night1: éjjel
             :night2: hajnal
-            :noon: dél
-            :pm: du.
+            :pm: PM
           :wide: 
             :afternoon1: délután
             :am: AM

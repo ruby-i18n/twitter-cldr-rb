@@ -5,6 +5,8 @@
       :generic: "{1}({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "남아프리카 시간"
     :Africa_Western: 
       :long: 
-        :daylight: "서아프리카 하계 표준시"
-        :generic: "서아프리카 시간"
-        :standard: "서아프리카 표준시"
+        :standard: "서아프리카 시간"
     :Alaska: 
       :long: 
         :daylight: "알래스카 하계 표준시"
@@ -118,24 +118,24 @@
         :standard: "대서양 표준시"
     :Australia_Central: 
       :long: 
-        :daylight: "오스트레일리아 중부 하계 표준시"
-        :generic: "오스트레일리아 중부 시간"
-        :standard: "오스트레일리아 중부 표준시"
+        :daylight: "호주 중부 하계 표준시"
+        :generic: "호주 중부 시간"
+        :standard: "호주 중부 표준시"
     :Australia_CentralWestern: 
       :long: 
-        :daylight: "오스트레일리아 중서부 하계 표준시"
-        :generic: "오스트레일리아 중서부 시간"
-        :standard: "오스트레일리아 중서부 표준시"
+        :daylight: "호주 중서부 하계 표준시"
+        :generic: "호주 중서부 시간"
+        :standard: "호주 중서부 표준시"
     :Australia_Eastern: 
       :long: 
-        :daylight: "오스트레일리아 동부 하계 표준시"
-        :generic: "오스트레일리아 동부 시간"
-        :standard: "오스트레일리아 동부 표준시"
+        :daylight: "호주 동부 하계 표준시"
+        :generic: "호주 동부 시간"
+        :standard: "호주 동부 표준시"
     :Australia_Western: 
       :long: 
-        :daylight: "오스트레일리아 서부 하계 표준시"
-        :generic: "오스트레일리아 서부 시간"
-        :standard: "오스트레일리아 서부 표준시"
+        :daylight: "호주 서부 하계 표준시"
+        :generic: "호주 서부 시간"
+        :standard: "호주 서부 표준시"
     :Azerbaijan: 
       :long: 
         :daylight: "아제르바이잔 하계 표준시"
@@ -296,6 +296,9 @@
     :Guyana: 
       :long: 
         :standard: "가이아나 시간"
+    :Hawaii: 
+      :long: 
+        :standard: "하와이 알류샨 표준시"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "하와이 알류샨 하계 표준시"
@@ -365,9 +368,9 @@
         :standard: "서부 카자흐스탄 시간"
     :Korea: 
       :long: 
-        :daylight: "대한민국 하계 표준시"
-        :generic: "대한민국 시간"
-        :standard: "대한민국 표준시"
+        :daylight: "한국 하계 표준시"
+        :generic: "한국 시간"
+        :standard: "한국 표준시"
     :Kosrae: 
       :long: 
         :standard: "코스라에섬 시간"
@@ -825,6 +828,8 @@
       :city: 코르도바
     :America/Costa_Rica: 
       :city: 코스타리카
+    :America/Coyhaique: 
+      :city: 코이아이케
     :America/Creston: 
       :city: 크레스톤
     :America/Cuiaba: 
@@ -1429,7 +1434,7 @@
     :Pacific/Efate: 
       :city: 에파테
     :Pacific/Enderbury: 
-      :city: 엔더베리
+      :city: 칸톤
     :Pacific/Fakaofo: 
       :city: 파카오푸
     :Pacific/Fiji: 
@@ -1446,8 +1451,6 @@
       :city: 괌
     :Pacific/Honolulu: 
       :city: 호놀룰루
-    :Pacific/Kanton: 
-      :city: 칸톤
     :Pacific/Kiritimati: 
       :city: 키리티마티
     :Pacific/Kosrae: 

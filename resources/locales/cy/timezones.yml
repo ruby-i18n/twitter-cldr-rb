@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -28,9 +30,7 @@
         :standard: "Amser Safonol De Affrica"
     :Africa_Western: 
       :long: 
-        :daylight: "Amser Haf Gorllewin Affrica"
-        :generic: "Amser Gorllewin Affrica"
-        :standard: "Amser Safonol Gorllewin Affrica"
+        :standard: "Amser Gorllewin Affrica"
     :Alaska: 
       :long: 
         :daylight: "Amser Haf Alaska"
@@ -282,6 +282,9 @@
     :Guyana: 
       :long: 
         :standard: "Amser Guyana"
+    :Hawaii: 
+      :long: 
+        :standard: "Amser Safonol Hawaii-Aleutian"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "Amser Haf Hawaii-Aleutian"
@@ -622,8 +625,18 @@
       :city: Alger
     :Africa/Asmera: 
       :city: Asmara
+    :Africa/El_Aaiun: 
+      :city: "El Aaiún"
+    :Africa/Lome: 
+      :city: Lomé
+    :Africa/Ndjamena: 
+      :city: N’Djamena
     :Africa/Sao_Tome: 
       :city: "São Tomé"
+    :America/Araguaina: 
+      :city: Araguaína
+    :America/Argentina/Rio_Gallegos: 
+      :city: "Río Gallegos"
     :America/Argentina/Tucuman: 
       :city: Tucumán
     :America/Asuncion: 
@@ -642,6 +655,8 @@
       :city: "Ciudad Juárez"
     :America/Coral_Harbour: 
       :city: Atikokan
+    :America/Cordoba: 
+      :city: Córdoba
     :America/Cuiaba: 
       :city: Cuiabá
     :America/Curacao: 
@@ -668,18 +683,30 @@
       :city: "Monticello, Kentucky"
     :America/Lower_Princes: 
       :city: "Lower Prince’s Quarter"
+    :America/Maceio: 
+      :city: Maceió
+    :America/Mazatlan: 
+      :city: Mazatlán
     :America/Merida: 
       :city: Merida
     :America/Mexico_City: 
       :city: "Dinas Mecsico"
+    :America/Miquelon: 
+      :city: Saint-Pierre
     :America/New_York: 
       :city: "Efrog Newydd"
+    :America/Noronha: 
+      :city: "Fernando de Noronha"
     :America/North_Dakota/Beulah: 
       :city: "Beulah, Gogledd Dakota"
     :America/North_Dakota/Center: 
       :city: "Center, Gogledd Dakota"
     :America/North_Dakota/New_Salem: 
       :city: "New Salem, Gogledd Dakota"
+    :America/Santarem: 
+      :city: Santarém
+    :America/Sao_Paulo: 
+      :city: "São Paulo"
     :America/Scoresbysund: 
       :city: Ittoqqortoormiit
     :America/St_Barthelemy: 
@@ -695,11 +722,15 @@
     :America/St_Vincent: 
       :city: "St. Vincent"
     :Antarctica/DumontDUrville: 
-      :city: "Dumont d’Urville"
+      :city: Dumont-d’Urville
+    :Antarctica/Syowa: 
+      :city: Showa
     :Asia/Calcutta: 
       :city: Kolkata
     :Asia/Gaza: 
       :city: Gasa
+    :Asia/Hovd: 
+      :city: Khovd
     :Asia/Jerusalem: 
       :city: Jerwsalem
     :Asia/Katmandu: 
@@ -716,6 +747,8 @@
       :city: Tiflis
     :Asia/Ulaanbaatar: 
       :city: "Ulan Bator"
+    :Asia/Urumqi: 
+      :city: Ürümqi
     :Atlantic/Canary: 
       :city: "Yr Ynysoedd Dedwydd"
     :Atlantic/Faeroe: 
@@ -737,6 +770,10 @@
       :city: Brwsel
     :Europe/Bucharest: 
       :city: Bwcarést
+    :Europe/Busingen: 
+      :city: Büsingen
+    :Europe/Chisinau: 
+      :city: Chișinău
     :Europe/Dublin: 
       :city: Dulyn
       :long: 
@@ -759,21 +796,33 @@
       :city: Prag
     :Europe/Rome: 
       :city: Rhufain
+    :Europe/Tirane: 
+      :city: Tirana
     :Europe/Vatican: 
       :city: "Y Fatican"
     :Europe/Vienna: 
       :city: Fienna
     :Indian/Christmas: 
       :city: "Ynys y Nadolig"
+    :Indian/Comoro: 
+      :city: Comores
+    :Indian/Mahe: 
+      :city: Mahé
     :Indian/Reunion: 
       :city: Réunion
     :Pacific/Easter: 
       :city: "Ynys y Pasg"
     :Pacific/Enderbury: 
-      :city: Enderbury
+      :city: Canton
+    :Pacific/Galapagos: 
+      :city: Galápagos
     :Pacific/Honolulu: 
       :city: Honolulu
+    :Pacific/Noumea: 
+      :city: Nouméa
     :Pacific/Ponape: 
       :city: Pohnpei
     :Pacific/Truk: 
       :city: Chuuk
+    :Pacific/Wallis: 
+      :city: "Wallis & Futuna"

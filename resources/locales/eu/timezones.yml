@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "Afrikako hegoaldeko ordua"
     :Africa_Western: 
       :long: 
-        :daylight: "Afrikako mendebaldeko udako ordua"
-        :generic: "Afrikako mendebaldeko ordua"
-        :standard: "Afrikako mendebaldeko ordu estandarra"
+        :standard: "Afrikako mendebaldeko ordua"
     :Alaska: 
       :long: 
         :daylight: "Alaskako udako ordua"
@@ -337,6 +337,11 @@
     :Guyana: 
       :long: 
         :standard: "Guyanako ordua"
+    :Hawaii: 
+      :long: 
+        :standard: "Hawaii-Aleutiar uharteetako ordu estandarra"
+      :short: 
+        :standard: HAST
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "Hawaii-Aleutiar uharteetako udako ordua"
@@ -720,6 +725,8 @@
       :city: Aaiun
     :Africa/Khartoum: 
       :city: Khartum
+    :Africa/Lome: 
+      :city: Lomé
     :Africa/Mogadishu: 
       :city: Muqdisho
     :Africa/Ndjamena: 
@@ -738,12 +745,18 @@
       :city: Aingira
     :America/Araguaina: 
       :city: Araguaína
+    :America/Argentina/Rio_Gallegos: 
+      :city: "Río Gallegos"
     :America/Argentina/Tucuman: 
       :city: Tucumán
     :America/Asuncion: 
       :city: Asunción
     :America/Bahia_Banderas: 
       :city: "Bahía de Banderas"
+    :America/Belem: 
+      :city: Belém
+    :America/Bogota: 
+      :city: Bogotá
     :America/Cancun: 
       :city: Cancún
     :America/Cayman: 
@@ -800,6 +813,8 @@
       :city: "Mexiko Hiria"
     :America/Miquelon: 
       :city: Mikelune
+    :America/Noronha: 
+      :city: "Fernando de Noronha"
     :America/North_Dakota/Beulah: 
       :city: "Beulah, Ipar Dakota"
     :America/North_Dakota/Center: 
@@ -829,7 +844,9 @@
     :America/Thule: 
       :city: Qaanaaq
     :Antarctica/DumontDUrville: 
-      :city: "Dumont d’Urville"
+      :city: Dumont-d’Urville
+    :Antarctica/Syowa: 
+      :city: Showa
     :Asia/Aqtau: 
       :city: Aktau
     :Asia/Aqtobe: 
@@ -935,6 +952,8 @@
       :city: Bukarest
     :Europe/Busingen: 
       :city: Büsingen
+    :Europe/Chisinau: 
+      :city: Chișinău
     :Europe/Copenhagen: 
       :city: Kopenhage
     :Europe/Dublin: 
@@ -976,6 +995,8 @@
       :city: Varsovia
     :Europe/Zurich: 
       :city: Zürich
+    :Indian/Comoro: 
+      :city: Comores
     :Indian/Mahe: 
       :city: Mahé
     :Indian/Maldives: 
@@ -989,15 +1010,11 @@
     :Pacific/Efate: 
       :city: Éfaté
     :Pacific/Enderbury: 
-      :city: Enderbury
+      :city: Canton
     :Pacific/Galapagos: 
       :city: Galapagoak
     :Pacific/Honolulu: 
       :city: Honolulu
-      :short: 
-        :daylight: HDT
-        :generic: HST
-        :standard: HST
     :Pacific/Marquesas: 
       :city: Markesak
     :Pacific/Noumea: 
@@ -1006,3 +1023,5 @@
       :city: Pohnpei
     :Pacific/Truk: 
       :city: Chuuk
+    :Pacific/Wallis: 
+      :city: "Wallis & Futuna"

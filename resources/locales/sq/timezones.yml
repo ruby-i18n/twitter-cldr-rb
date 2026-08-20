@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "Ora standarde e Afrikës Jugore"
     :Africa_Western: 
       :long: 
-        :daylight: "Ora verore e Afrikës Perëndimore"
-        :generic: "Ora e Afrikës Perëndimore"
-        :standard: "Ora standarde e Afrikës Perëndimore"
+        :standard: "Ora e Afrikës Perëndimore"
     :Alaska: 
       :long: 
         :daylight: "Ora verore e Alaskës"
@@ -299,6 +299,9 @@
     :Guyana: 
       :long: 
         :standard: "Ora e Guajanës"
+    :Hawaii: 
+      :long: 
+        :standard: "Ora standarde e Ishujve Hauai-Aleutian"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "Ora verore e Ishujve Hauai-Aleutian"
@@ -700,6 +703,10 @@
       :city: Kartum
     :Africa/Libreville: 
       :city: Librevilë
+    :Africa/Lome: 
+      :city: Lomé
+    :Africa/Ndjamena: 
+      :city: N’Djamena
     :Africa/Niamey: 
       :city: Niamej
     :Africa/Nouakchott: 
@@ -738,6 +745,8 @@
       :city: Asunsion
     :America/Bahia_Banderas: 
       :city: Bahia-Banderas
+    :America/Belem: 
+      :city: Belém
     :America/Belize: 
       :city: Belizë
     :America/Blanc-Sablon: 
@@ -776,6 +785,8 @@
       :city: Kordoba
     :America/Costa_Rica: 
       :city: Kosta-Rikë
+    :America/Coyhaique: 
+      :city: Koihaiku
     :America/Creston: 
       :city: Kreston
     :America/Cuiaba: 
@@ -856,6 +867,8 @@
       :city: Makejo
     :America/Martinique: 
       :city: Martinikë
+    :America/Mazatlan: 
+      :city: Mazatlán
     :America/Menominee: 
       :city: Menomini
     :America/Merida: 
@@ -900,6 +913,8 @@
       :city: Rexhina
     :America/Rio_Branco: 
       :city: Rio-Branko
+    :America/Santarem: 
+      :city: Santarém
     :America/Santo_Domingo: 
       :city: Santo-Domingo
     :America/Sao_Paulo: 
@@ -986,6 +1001,8 @@
       :city: Famagustë
     :Asia/Hong_Kong: 
       :city: Hong-Kong
+    :Asia/Hovd: 
+      :city: Khovd
     :Asia/Jakarta: 
       :city: Xhakartë
     :Asia/Jayapura: 
@@ -1054,6 +1071,8 @@
       :city: Tokio
     :Asia/Ulaanbaatar: 
       :city: Ulanbatar
+    :Asia/Urumqi: 
+      :city: Ürümqi
     :Asia/Vientiane: 
       :city: Vjentianë
     :Asia/Yakutsk: 
@@ -1121,6 +1140,8 @@
       :city: Bruksel
     :Europe/Bucharest: 
       :city: Bukuresht
+    :Europe/Busingen: 
+      :city: Büsingen
     :Europe/Chisinau: 
       :city: Kishineu
     :Europe/Copenhagen: 
@@ -1196,6 +1217,8 @@
       :city: Kokos
     :Indian/Comoro: 
       :city: Komore
+    :Indian/Mahe: 
+      :city: Mahé
     :Indian/Maldives: 
       :city: Maldive
     :Indian/Mayotte: 
@@ -1211,9 +1234,11 @@
     :Pacific/Easter: 
       :city: Pashkë
     :Pacific/Enderbury: 
-      :city: Enderbur
+      :city: "Ishulli i Kantonit"
     :Pacific/Fiji: 
       :city: Fixhi
+    :Pacific/Galapagos: 
+      :city: Galápagos
     :Pacific/Guadalcanal: 
       :city: Guadalkanal
     :Pacific/Honolulu: 
@@ -1230,6 +1255,8 @@
       :city: Markez
     :Pacific/Midway: 
       :city: Miduej
+    :Pacific/Noumea: 
+      :city: Nouméa
     :Pacific/Pago_Pago: 
       :city: Pago-Pago
     :Pacific/Pitcairn: 

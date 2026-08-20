@@ -40,7 +40,14 @@ module TwitterCldr
 
         def substitution_count
           @substitution_count ||= tokens.inject(0) do |ret, token|
-            token.is_a?(Substitution) ? ret + 1 : ret
+            case token
+              when Substitution
+                ret + 1
+              when Alternation
+                ret + token.substitution_count
+              else
+                ret
+            end
           end
         end
 

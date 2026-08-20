@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "UTC{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: UTC
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "Etelä-Afrikan aika"
     :Africa_Western: 
       :long: 
-        :daylight: "Länsi-Afrikan kesäaika"
-        :generic: "Länsi-Afrikan aika"
-        :standard: "Länsi-Afrikan normaaliaika"
+        :standard: "Länsi-Afrikan aika"
     :Alaska: 
       :long: 
         :daylight: "Alaskan kesäaika"
@@ -299,6 +299,9 @@
     :Guyana: 
       :long: 
         :standard: "Guyanan aika"
+    :Hawaii: 
+      :long: 
+        :standard: "Havaijin-Aleuttien normaaliaika"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "Havaijin-Aleuttien kesäaika"
@@ -597,6 +600,11 @@
     :Truk: 
       :long: 
         :standard: "Chuukin aika"
+    :Turkey: 
+      :long: 
+        :daylight: "Turkin kesäaika"
+        :generic: "Turkin aika"
+        :standard: "Turkin normaaliaika"
     :Turkmenistan: 
       :long: 
         :daylight: "Turkmenistanin kesäaika"
@@ -676,12 +684,16 @@
       :city: "São Tomé"
     :America/Araguaina: 
       :city: Araguaína
+    :America/Argentina/Rio_Gallegos: 
+      :city: "Río Gallegos"
     :America/Argentina/Tucuman: 
       :city: Tucumán
     :America/Asuncion: 
       :city: Asunción
     :America/Bahia_Banderas: 
       :city: "Bahía de Banderas"
+    :America/Belem: 
+      :city: Belém
     :America/Bogota: 
       :city: Bogotá
     :America/Cancun: 
@@ -730,6 +742,10 @@
       :city: Mérida
     :America/Mexico_City: 
       :city: "Ciudad de México"
+    :America/Miquelon: 
+      :city: Saint-Pierre
+    :America/Noronha: 
+      :city: "Fernando de Noronha"
     :America/North_Dakota/Beulah: 
       :city: "Beulah, Pohjois-Dakota"
     :America/North_Dakota/Center: 
@@ -757,9 +773,11 @@
     :America/St_Vincent: 
       :city: "Saint Vincent"
     :Antarctica/DumontDUrville: 
-      :city: "Dumont d’Urville"
+      :city: Dumont-d’Urville
     :Antarctica/Macquarie: 
       :city: Macquariensaari
+    :Antarctica/Syowa: 
+      :city: Showa
     :Asia/Aqtau: 
       :city: Aqtaw
     :Asia/Aqtobe: 
@@ -782,6 +800,8 @@
       :city: Dušanbe
     :Asia/Hong_Kong: 
       :city: Hongkong
+    :Asia/Hovd: 
+      :city: Khovd
     :Asia/Kamchatka: 
       :city: Kamtšatka
     :Asia/Katmandu: 
@@ -933,9 +953,11 @@
     :Pacific/Easter: 
       :city: Pääsiäissaari
     :Pacific/Enderbury: 
-      :city: Enderbury
+      :city: Abariringa
     :Pacific/Fiji: 
       :city: Fidži
+    :Pacific/Galapagos: 
+      :city: Galápagos
     :Pacific/Gambier: 
       :city: Gambiersaaret
     :Pacific/Honolulu: 
@@ -950,3 +972,5 @@
       :city: Pohnpei
     :Pacific/Truk: 
       :city: Chuuk
+    :Pacific/Wallis: 
+      :city: "Wallis & Futuna"

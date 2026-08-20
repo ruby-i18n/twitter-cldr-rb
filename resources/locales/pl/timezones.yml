@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -28,9 +30,7 @@
         :standard: "czas południowoafrykański"
     :Africa_Western: 
       :long: 
-        :daylight: "czas zachodnioafrykański letni"
-        :generic: "czas zachodnioafrykański"
-        :standard: "czas zachodnioafrykański standardowy"
+        :standard: "czas zachodnioafrykański"
     :Alaska: 
       :long: 
         :daylight: "Alaska (czas letni)"
@@ -285,6 +285,9 @@
     :Guyana: 
       :long: 
         :standard: "czas Gujana"
+    :Hawaii: 
+      :long: 
+        :standard: "Hawaje-Aleuty (czas standardowy)"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "Hawaje-Aleuty (czas letni)"
@@ -676,6 +679,12 @@
       :city: Trypolis
     :Africa/Windhoek: 
       :city: Windhuk
+    :America/Araguaina: 
+      :city: Araguaína
+    :America/Argentina/Rio_Gallegos: 
+      :city: "Río Gallegos"
+    :America/Argentina/Tucuman: 
+      :city: Tucumán
     :America/Asuncion: 
       :city: Asunción
     :America/Bahia: 
@@ -684,6 +693,8 @@
       :city: "Bahia Banderas"
     :America/Belem: 
       :city: Belém
+    :America/Bogota: 
+      :city: Bogotá
     :America/Cancun: 
       :city: Cancún
     :America/Cayenne: 
@@ -704,6 +715,8 @@
       :city: Curaçao
     :America/Dominica: 
       :city: Dominika
+    :America/Eirunepe: 
+      :city: Eirunepé
     :America/El_Salvador: 
       :city: Salwador
     :America/Godthab: 
@@ -740,12 +753,18 @@
       :city: Maceió
     :America/Martinique: 
       :city: Martynika
+    :America/Mazatlan: 
+      :city: Mazatlán
     :America/Merida: 
       :city: Merida
     :America/Mexico_City: 
       :city: "Meksyk (miasto)"
+    :America/Miquelon: 
+      :city: Saint-Pierre
     :America/New_York: 
       :city: "Nowy Jork"
+    :America/Noronha: 
+      :city: "Fernando de Noronha"
     :America/North_Dakota/Beulah: 
       :city: "Beulah, Dakota Północna"
     :America/North_Dakota/Center: 
@@ -756,6 +775,10 @@
       :city: Port-of-Spain
     :America/Puerto_Rico: 
       :city: Portoryko
+    :America/Santarem: 
+      :city: Santarém
+    :America/Sao_Paulo: 
+      :city: "São Paulo"
     :America/Scoresbysund: 
       :city: Ittoqqortoormiit
     :America/St_Barthelemy: 
@@ -773,7 +796,9 @@
     :America/Thule: 
       :city: Qaanaaq
     :Antarctica/DumontDUrville: 
-      :city: "Dumont d’Urville"
+      :city: Dumont-d’Urville
+    :Antarctica/Syowa: 
+      :city: Showa
     :Antarctica/Vostok: 
       :city: Wostok
     :Asia/Almaty: 
@@ -1027,9 +1052,11 @@
     :Pacific/Easter: 
       :city: "Wyspa Wielkanocna"
     :Pacific/Enderbury: 
-      :city: Enderbury
+      :city: Kanton
     :Pacific/Fiji: 
       :city: Fidżi
+    :Pacific/Galapagos: 
+      :city: Galápagos
     :Pacific/Gambier: 
       :city: "Wyspy Gambiera"
     :Pacific/Honolulu: 
@@ -1042,3 +1069,5 @@
       :city: Pohnpei
     :Pacific/Truk: 
       :city: Chuuk
+    :Pacific/Wallis: 
+      :city: "Wallis & Futuna"

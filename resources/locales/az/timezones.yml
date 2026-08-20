@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -28,9 +30,7 @@
         :standard: "Cənubi Afrika Vaxtı"
     :Africa_Western: 
       :long: 
-        :daylight: "Qərbi Afrika Yay Vaxtı"
-        :generic: "Qərbi Afrika Vaxtı"
-        :standard: "Qərbi Afrika Standart Vaxtı"
+        :standard: "Qərbi Afrika Vaxtı"
     :Alaska: 
       :long: 
         :daylight: "Alyaska Yay Vaxtı"
@@ -43,9 +43,9 @@
         :standard: "Amazon Standart Vaxtı"
     :America_Central: 
       :long: 
-        :daylight: "Şimali Mərkəzi Amerika Yay Vaxtı"
-        :generic: "Şimali Mərkəzi Amerika Vaxtı"
-        :standard: "Şimali Mərkəzi Amerika Standart Vaxtı"
+        :daylight: "Mərkəzi Amerika yay vaxtı"
+        :generic: "Mərkəzi Amerika saat qurşağı"
+        :standard: "Mərkəzi Amerika Standart Vaxtı"
     :America_Eastern: 
       :long: 
         :daylight: "Şimali Şərqi Amerika Yay Vaxtı"
@@ -89,7 +89,7 @@
     :Atlantic: 
       :long: 
         :daylight: "Atlantik Yay Vaxtı"
-        :generic: "Atlantik Vaxt"
+        :generic: "Atlantik saat qurşağı"
         :standard: "Atlantik Standart Vaxt"
     :Australia_Central: 
       :long: 
@@ -268,6 +268,9 @@
     :Guyana: 
       :long: 
         :standard: "Qayana Vaxtı"
+    :Hawaii: 
+      :long: 
+        :standard: "Havay-Aleut Standart Vaxtı"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "Havay-Aleut Yay Vaxtı"
@@ -545,6 +548,11 @@
     :Truk: 
       :long: 
         :standard: "Çuuk Vaxtı"
+    :Turkey: 
+      :long: 
+        :daylight: "Türkiya yay vaxtı"
+        :generic: "Türkiya vaxtı"
+        :standard: "Türkiya standart vaxtı"
     :Turkmenistan: 
       :long: 
         :daylight: "Türkmənistan Yay Vaxtı"
@@ -654,6 +662,8 @@
       :city: Laqos
     :Africa/Libreville: 
       :city: Librevil
+    :Africa/Lome: 
+      :city: Lomé
     :Africa/Lubumbashi: 
       :city: Lubumbaşi
     :Africa/Mogadishu: 
@@ -692,6 +702,8 @@
       :city: Bahiya
     :America/Bahia_Banderas: 
       :city: "Bahia Banderas"
+    :America/Belem: 
+      :city: Belém
     :America/Belize: 
       :city: Beliz
     :America/Blanc-Sablon: 
@@ -728,6 +740,8 @@
       :city: Kordoba
     :America/Costa_Rica: 
       :city: "Kosta Rika"
+    :America/Coyhaique: 
+      :city: Koyayke
     :America/Creston: 
       :city: Kreston
     :America/Cuiaba: 
@@ -866,6 +880,8 @@
       :city: Rezolyut
     :America/Rio_Branco: 
       :city: "Rio Branko"
+    :America/Santarem: 
+      :city: Santarém
     :America/Santiago: 
       :city: Santyaqo
     :America/Santo_Domingo: 
@@ -960,6 +976,8 @@
       :city: Qəza
     :Asia/Hong_Kong: 
       :city: "Honq Konq"
+    :Asia/Hovd: 
+      :city: Khovd
     :Asia/Irkutsk: 
       :city: İrkutsk
     :Asia/Jakarta: 
@@ -1083,6 +1101,8 @@
       :city: Buxarest
     :Europe/Budapest: 
       :city: Budapeşt
+    :Europe/Busingen: 
+      :city: Büsingen
     :Europe/Chisinau: 
       :city: Kişinyov
     :Europe/Copenhagen: 
@@ -1165,6 +1185,8 @@
       :city: Komoro
     :Indian/Kerguelen: 
       :city: Kergelen
+    :Indian/Mahe: 
+      :city: Mahé
     :Indian/Maldives: 
       :city: Maldiv
     :Indian/Mauritius: 
@@ -1182,7 +1204,7 @@
     :Pacific/Easter: 
       :city: Pasxa
     :Pacific/Enderbury: 
-      :city: Enderböri
+      :city: Kanton
     :Pacific/Fiji: 
       :city: Fici
     :Pacific/Galapagos: 
@@ -1207,6 +1229,8 @@
       :city: Markesas
     :Pacific/Midway: 
       :city: Midvey
+    :Pacific/Noumea: 
+      :city: Nouméa
     :Pacific/Pago_Pago: 
       :city: "Paqo Paqo"
     :Pacific/Pitcairn: 

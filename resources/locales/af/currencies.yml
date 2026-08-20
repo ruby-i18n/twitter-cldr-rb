@@ -103,9 +103,10 @@
       :one: Botswana-pula
       :symbol: P
     :BYN: 
-      :name: "Belarusiese roebel"
+      :name: "Belarussiese roebel"
       :narrow_symbol: р.
-      :one: "Belarusiese roebel"
+      :one: "Belarussiese roebel"
+      :other: "Belarussiese roebel"
       :symbol: р.
     :BYR: 
       :name: "Belo-Russiese roebel (2000–2016)"
@@ -198,7 +199,7 @@
       :name: "Etiopiese birr"
       :one: "Etiopiese birr"
     :EUR: 
-      :name: Euro
+      :name: euro
       :narrow_symbol: €
       :one: euro
       :other: euro
@@ -251,7 +252,6 @@
       :name: "Guatemalaanse kwetsal"
       :narrow_symbol: Q
       :one: "Guatemalaanse kwetsal"
-      :other: "Guatemalaanse kwetsal"
       :symbol: Q
     :GYD: 
       :name: "Guyanese dollar"
@@ -294,8 +294,8 @@
     :INR: 
       :name: "Indiese roepee"
       :narrow_symbol: ₹
-      :one: "Indiese rupee"
-      :other: "Indiese rupee"
+      :one: "Indiese roepee"
+      :other: "Indiese roepee"
       :symbol: ₹
     :IQD: 
       :name: "Irakse dinar"
@@ -386,8 +386,9 @@
       :one: "Liberiese dollar"
       :symbol: $
     :LSL: 
-      :name: "Lesotho loti"
-      :one: "Lesotho loti"
+      :name: Lesotho-loti
+      :one: Lesotho-loti
+      :other: Lesotho-loti
     :LTL: 
       :name: "Litause litas"
       :narrow_symbol: Lt
@@ -548,6 +549,7 @@
     :SAR: 
       :name: "Saoedi-Arabiese riyal"
       :one: "Saoedi-Arabiese riyal"
+      :symbol: ⃁
     :SBD: 
       :name: "Salomonseilandse dollar"
       :narrow_symbol: $
@@ -581,8 +583,9 @@
       :name: "Sierra Leoniese leone"
       :one: "Sierra Leoniese leone"
     :SLL: 
-      :name: "Sierra Leoniese leone (1964—2022)"
-      :one: "Sierra Leoniese leone (1964—2022)"
+      :name: "Sierra Leoniese leone (1964–2022)"
+      :one: "Sierra Leoniese leone (1964–2022)"
+      :other: "Sierra Leoniese leone (1964–2022)"
     :SOS: 
       :name: "Somaliese sjieling"
       :one: "Somaliese sjieling"
@@ -703,6 +706,9 @@
       :one: "Oos-Karibiese dollar"
       :symbol: EC$
     :XCG: 
+      :name: "Karibiese gulde"
+      :one: "Karibiese gulde"
+      :other: "Karibiese gulde"
       :symbol: Cg.
     :XOF: 
       :name: "Wes-Afrikaanse CFA-frank"
@@ -736,3 +742,7 @@
     :ZWD: 
       :name: "Zimbabwiese dollar"
       :one: "Zimbabwiese dollar"
+    :ZWG: 
+      :name: "Zimbabwiese goud"
+      :one: "Zimbabwiese goud"
+      :other: "Zimbabwiese goud"

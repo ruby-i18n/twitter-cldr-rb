@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "jihoafrický čas"
     :Africa_Western: 
       :long: 
-        :daylight: "západoafrický letní čas"
-        :generic: "západoafrický čas"
-        :standard: "západoafrický standardní čas"
+        :standard: "západoafrický čas"
     :Alaska: 
       :long: 
         :daylight: "aljašský letní čas"
@@ -327,6 +327,9 @@
     :Guyana: 
       :long: 
         :standard: "guyanský čas"
+    :Hawaii: 
+      :long: 
+        :standard: "havajsko-aleutský standardní čas"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "havajsko-aleutský letní čas"
@@ -625,6 +628,11 @@
     :Truk: 
       :long: 
         :standard: "chuukský čas"
+    :Turkey: 
+      :long: 
+        :daylight: "Turecký letní čas"
+        :generic: "Turecký čas"
+        :standard: "Turecký standardní čas"
     :Turkmenistan: 
       :long: 
         :daylight: "turkmenský letní čas"
@@ -696,6 +704,8 @@
       :city: Káhira
     :Africa/Djibouti: 
       :city: Džibuti
+    :Africa/El_Aaiun: 
+      :city: "El Aaiún"
     :Africa/Khartoum: 
       :city: Chartúm
     :Africa/Lome: 
@@ -710,6 +720,12 @@
       :city: "Svatý Tomáš"
     :Africa/Tripoli: 
       :city: Tripolis
+    :America/Araguaina: 
+      :city: Araguaína
+    :America/Argentina/Rio_Gallegos: 
+      :city: "Río Gallegos"
+    :America/Argentina/Tucuman: 
+      :city: Tucumán
     :America/Asuncion: 
       :city: Asunción
     :America/Bahia: 
@@ -732,10 +748,14 @@
       :city: Córdoba
     :America/Costa_Rica: 
       :city: Kostarika
+    :America/Cuiaba: 
+      :city: Cuiabá
     :America/Curacao: 
       :city: Curaçao
     :America/Dominica: 
       :city: Dominika
+    :America/Eirunepe: 
+      :city: Eirunepé
     :America/El_Salvador: 
       :city: Salvador
     :America/Godthab: 
@@ -760,6 +780,8 @@
       :city: "Monticello, Kentucky"
     :America/Lower_Princes: 
       :city: "Lower Prince’s Quarter"
+    :America/Maceio: 
+      :city: Maceió
     :America/Martinique: 
       :city: Martinik
     :America/Mazatlan: 
@@ -768,6 +790,10 @@
       :city: Merida
     :America/Mexico_City: 
       :city: "Ciudad de México"
+    :America/Miquelon: 
+      :city: Saint-Pierre
+    :America/Noronha: 
+      :city: "Fernando de Noronha"
     :America/North_Dakota/Beulah: 
       :city: "Beulah, Severní Dakota"
     :America/North_Dakota/Center: 
@@ -795,7 +821,9 @@
     :America/St_Vincent: 
       :city: "Svatý Vincenc"
     :Antarctica/DumontDUrville: 
-      :city: "Dumont d’Urville"
+      :city: Dumont-d’Urville
+    :Antarctica/Syowa: 
+      :city: Showa
     :Asia/Amman: 
       :city: Ammán
     :Asia/Aqtau: 
@@ -830,6 +858,8 @@
       :city: Dušanbe
     :Asia/Hong_Kong: 
       :city: Hongkong
+    :Asia/Hovd: 
+      :city: Khovd
     :Asia/Jerusalem: 
       :city: Jeruzalém
     :Asia/Kabul: 
@@ -941,6 +971,8 @@
       :city: Bukurešť
     :Europe/Budapest: 
       :city: Budapešť
+    :Europe/Busingen: 
+      :city: Büsingen
     :Europe/Chisinau: 
       :city: Kišiněv
     :Europe/Copenhagen: 
@@ -1013,7 +1045,7 @@
     :Pacific/Efate: 
       :city: Éfaté
     :Pacific/Enderbury: 
-      :city: Enderbury
+      :city: "Kanton (ostrov)"
     :Pacific/Fiji: 
       :city: Fidži
     :Pacific/Galapagos: 
@@ -1022,10 +1054,6 @@
       :city: "Gambierovy ostrovy"
     :Pacific/Honolulu: 
       :city: Honolulu
-      :short: 
-        :daylight: HDT
-        :generic: HST
-        :standard: HST
     :Pacific/Marquesas: 
       :city: Markézy
     :Pacific/Noumea: 
@@ -1036,3 +1064,5 @@
       :city: Pohnpei
     :Pacific/Truk: 
       :city: "Chuukské ostrovy"
+    :Pacific/Wallis: 
+      :city: "Wallis & Futuna"

@@ -5,6 +5,8 @@
       :generic: "{1} ({0})"
     :gmt_formats: 
       :generic: "GMT{0}"
+    :gmt_unknown_formats: 
+      :generic: GMT+?
     :gmt_zero_formats: 
       :generic: GMT
     :hour_formats: 
@@ -33,9 +35,7 @@
         :standard: "Hora da África do Sul"
     :Africa_Western: 
       :long: 
-        :daylight: "Hora de verão da África Ocidental"
-        :generic: "Hora da África Ocidental"
-        :standard: "Hora padrão da África Ocidental"
+        :standard: "Hora da África Ocidental"
     :Alaska: 
       :long: 
         :daylight: "Hora de verão do Alasca"
@@ -78,9 +78,9 @@
         :standard: "Hora padrão de Anadyr"
     :Apia: 
       :long: 
-        :daylight: "Hora de verão de Apia"
-        :generic: "Hora de Apia"
-        :standard: "Hora padrão de Apia"
+        :daylight: "Hora de verão de Samoa"
+        :generic: "Hora de Samoa"
+        :standard: "Hora padrão de Samoa"
     :Aqtau: 
       :long: 
         :daylight: "Hora de verão de Aqtau"
@@ -168,7 +168,7 @@
         :standard: "Hora padrão de Brasília"
     :Brunei: 
       :long: 
-        :standard: "Hora do Brunei Darussalam"
+        :standard: "Hora do Brunei"
     :Cape_Verde: 
       :long: 
         :daylight: "Hora de verão de Cabo Verde"
@@ -312,6 +312,9 @@
     :Guyana: 
       :long: 
         :standard: "Hora da Guiana"
+    :Hawaii: 
+      :long: 
+        :standard: "Hora padrão do Havai e Aleutas"
     :Hawaii_Aleutian: 
       :long: 
         :daylight: "Hora de verão do Havai e Aleutas"
@@ -325,7 +328,7 @@
     :Hovd: 
       :long: 
         :daylight: "Hora de verão de Hovd"
-        :generic: "Hora de Hovd"
+        :generic: "Hora de Khovd"
         :standard: "Hora padrão de Hovd"
     :India: 
       :long: 
@@ -540,10 +543,10 @@
         :standard: "Hora de Pitcairn"
     :Ponape: 
       :long: 
-        :standard: "Hora de Ponape"
+        :standard: "Hora de Pohnpei"
     :Pyongyang: 
       :long: 
-        :standard: "Hora de Pyongyang"
+        :standard: "Hora da Coreia do Norte"
     :Qyzylorda: 
       :long: 
         :daylight: "Hora de verão de Qyzylorda"
@@ -567,9 +570,9 @@
         :standard: "Hora padrão de Samara"
     :Samoa: 
       :long: 
-        :daylight: "Hora de verão de Samoa"
-        :generic: "Hora de Samoa"
-        :standard: "Hora padrão de Samoa"
+        :daylight: "Hora de verão de Samoa Americana"
+        :generic: "Hora de Samoa Americana"
+        :standard: "Hora padrão de Samoa Americana"
     :Seychelles: 
       :long: 
         :standard: "Hora das Seicheles"
@@ -593,9 +596,9 @@
         :standard: "Hora do Taiti"
     :Taipei: 
       :long: 
-        :daylight: "Hora de verão de Taipé"
-        :generic: "Hora de Taipé"
-        :standard: "Hora padrão de Taipé"
+        :daylight: "Hora de verão de Taiwan"
+        :generic: "Hora de Taiwan"
+        :standard: "Hora padrão de Taiwan"
     :Tajikistan: 
       :long: 
         :standard: "Hora do Tajiquistão"
@@ -610,6 +613,11 @@
     :Truk: 
       :long: 
         :standard: "Hora de Chuuk"
+    :Turkey: 
+      :long: 
+        :daylight: "Hora de Verão da Turquia"
+        :generic: "Hora da Turquia"
+        :standard: "Hora Padrão da Turquia"
     :Turkmenistan: 
       :long: 
         :daylight: "Hora de verão do Turquemenistão"
@@ -720,7 +728,9 @@
     :America/Antigua: 
       :city: Antígua
     :America/Araguaina: 
-      :city: Araguaina
+      :city: Araguaína
+    :America/Argentina/Rio_Gallegos: 
+      :city: "Río Gallegos"
     :America/Argentina/Tucuman: 
       :city: Tucumán
     :America/Asuncion: 
@@ -745,6 +755,8 @@
       :city: Atikokan
     :America/Cordoba: 
       :city: Córdoba
+    :America/Coyhaique: 
+      :city: Coihaique
     :America/Cuiaba: 
       :city: Cuiabá
     :America/Curacao: 
@@ -791,10 +803,14 @@
       :city: Manágua
     :America/Martinique: 
       :city: Martinica
+    :America/Mazatlan: 
+      :city: Mazatlán
     :America/Merida: 
       :city: Mérida
     :America/Mexico_City: 
       :city: "Cidade do México"
+    :America/Miquelon: 
+      :city: Saint-Pierre
     :America/Montevideo: 
       :city: Montevideu
     :America/Montserrat: 
@@ -835,8 +851,26 @@
       :city: "St. Thomas"
     :America/St_Vincent: 
       :city: "São Vicente"
+    :Antarctica/Casey: 
+      :city: "Estação Casey"
     :Antarctica/DumontDUrville: 
-      :city: "Dumont d’Urville"
+      :city: "Estação Dumont-d’Urville"
+    :Antarctica/Macquarie: 
+      :city: "Ilha Macquarie"
+    :Antarctica/Mawson: 
+      :city: "Estação Mawson"
+    :Antarctica/McMurdo: 
+      :city: "Estação McMurdo"
+    :Antarctica/Palmer: 
+      :city: "Terra de Palmer"
+    :Antarctica/Rothera: 
+      :city: "Estação Rothera"
+    :Antarctica/Syowa: 
+      :city: "Estação Showa"
+    :Antarctica/Troll: 
+      :city: "Estação Troll"
+    :Antarctica/Vostok: 
+      :city: "Estação Vostok"
     :Asia/Aden: 
       :city: Adem
     :Asia/Amman: 
@@ -863,6 +897,8 @@
       :city: Daca
     :Asia/Dushanbe: 
       :city: Duchambe
+    :Asia/Hovd: 
+      :city: Khovd
     :Asia/Jakarta: 
       :city: Jacarta
     :Asia/Jerusalem: 
@@ -913,6 +949,8 @@
       :city: Tóquio
     :Asia/Ulaanbaatar: 
       :city: "Ulan Bator"
+    :Asia/Urumqi: 
+      :city: Ürümqi
     :Asia/Yekaterinburg: 
       :city: Ecaterimburgo
     :Asia/Yerevan: 
@@ -941,7 +979,7 @@
       :short: 
         :standard: UTC
     :Etc/Unknown: 
-      :city: "Cidade desconhecida"
+      :city: "Localização desconhecida"
     :Europe/Amsterdam: 
       :city: Amesterdão
     :Europe/Astrakhan: 
@@ -959,7 +997,9 @@
     :Europe/Budapest: 
       :city: Budapeste
     :Europe/Busingen: 
-      :city: Busingen
+      :city: Büsingen
+    :Europe/Chisinau: 
+      :city: Chișinău
     :Europe/Copenhagen: 
       :city: Copenhaga
     :Europe/Dublin: 
@@ -1017,14 +1057,18 @@
       :city: Varsóvia
     :Europe/Zurich: 
       :city: Zurique
+    :Indian/Chagos: 
+      :city: "Arquipélago de Chagos"
     :Indian/Christmas: 
       :city: "Ilha do Natal"
     :Indian/Cocos: 
       :city: "Ilhas Cocos"
     :Indian/Comoro: 
       :city: Comores
+    :Indian/Kerguelen: 
+      :city: "Ilhas Kerguelen"
     :Indian/Mahe: 
-      :city: Mahe
+      :city: Mahé
     :Indian/Maldives: 
       :city: Maldivas
     :Indian/Mauritius: 
@@ -1032,17 +1076,25 @@
     :Indian/Reunion: 
       :city: Reunião
     :Pacific/Chatham: 
-      :city: Chatham
+      :city: "Ilhas Chatham"
     :Pacific/Easter: 
       :city: "Ilha da Páscoa"
     :Pacific/Efate: 
       :city: Efate
     :Pacific/Enderbury: 
-      :city: Enderbury
+      :city: "Ilha Canton"
     :Pacific/Galapagos: 
-      :city: Galápagos
+      :city: "Ilhas Galápagos"
     :Pacific/Honolulu: 
       :city: Honolulu
+    :Pacific/Kwajalein: 
+      :city: "Atol de Kwajalein"
+    :Pacific/Marquesas: 
+      :city: "Ilhas Marquesas"
+    :Pacific/Midway: 
+      :city: "Atol de Midway"
+    :Pacific/Norfolk: 
+      :city: "Ilha Norfolk"
     :Pacific/Noumea: 
       :city: Nouméa
     :Pacific/Pitcairn: 
@@ -1055,3 +1107,7 @@
       :city: Tarawa
     :Pacific/Truk: 
       :city: Chuuk
+    :Pacific/Wake: 
+      :city: "Ilha Wake"
+    :Pacific/Wallis: 
+      :city: "Wallis & Futuna"
