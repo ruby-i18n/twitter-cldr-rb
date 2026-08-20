@@ -1,5 +1,8 @@
 # TwitterCldr Changelog
 
+### UNRELEASED
+* Upgrade to CLDR v48.2, ICU 78.3, and Unicode v17.0.0.
+
 ### 6.14.0 (Feb 21st, 2025)
 * Allow passing the `dst:` option to `LocalizedDateTime#to_*_s`. (@movermeyer, #280)
 
