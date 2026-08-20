@@ -1,5 +1,9 @@
 # TwitterCldr Changelog
 
+### UNRELEASED
+* Add BigDecimal as a dependency (@noraj, #4)
+* Fix frozen string warning under Ruby 3.4 (@william-stacken, #2)
+
 ### 6.14.0 (Feb 21st, 2025)
 * Allow passing the `dst:` option to `LocalizedDateTime#to_*_s`. (@movermeyer, #280)
 
