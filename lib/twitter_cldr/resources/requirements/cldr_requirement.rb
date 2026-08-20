@@ -15,7 +15,7 @@ module TwitterCldr
     module Requirements
 
       class CldrRequirement
-        CLDR_URL = "ftp://unicode.org/Public/cldr/%{version}/core.zip".freeze
+        CLDR_URL = "ftp://ftp.unicode.org/Public/cldr/%{version}/core.zip".freeze
 
         attr_reader :version
 
