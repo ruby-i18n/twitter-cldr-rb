@@ -20,7 +20,7 @@ describe TwitterCldr::Localized::LocalizedSymbol do
 
     it "calculates the correct value for mapped as well as CLDR language codes" do
       expect(:'zh-cn'.localize.as_language_code).to eq("Chinese")
-      expect(:'zh-tw'.localize.as_language_code).to eq("Traditional Chinese")
+      expect(:'zh-tw'.localize.as_language_code).to eq("Chinese")
       expect(:'zh-Hant'.localize.as_language_code).to eq("Traditional Chinese")
       expect(:'zh'.localize.as_language_code).to eq("Chinese")
     end

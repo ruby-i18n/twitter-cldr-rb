@@ -93,7 +93,7 @@ module TwitterCldr
         protected
 
         def get_resource(locale)
-          locale = TwitterCldr.convert_locale(locale)
+          locale = TwitterCldr.normalize_locale(locale)
           TwitterCldr.get_locale_resource(locale, :territories)[locale]
         end
 

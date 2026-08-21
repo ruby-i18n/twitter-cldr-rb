@@ -5,30 +5,7 @@
 
 require 'rspec'
 require 'twitter_cldr'
-require 'coveralls'
 require 'eprun'
-
-Coveralls.wear!
-
-if ENV['SCOV']
-  require 'simplecov'
-  SimpleCov.start
-  puts 'Running simplecov'
-end
-
-class FastGettext
-  class << self
-    @@locale = :en
-
-    def locale
-      @@locale
-    end
-
-    def locale=(new_locale)
-      @@locale = new_locale
-    end
-  end
-end
 
 module I18n
   class << self
@@ -50,9 +27,7 @@ RSpec.configure do |config|
   config.filter_run_excluding(slow: true) unless ENV['FULL_SPEC']
 
   config.before(:each) do
-    TwitterCldr.reset_locale_fallbacks
     TwitterCldr.locale = :en
-    FastGettext.locale = :en
     I18n.locale = :en
   end
 end

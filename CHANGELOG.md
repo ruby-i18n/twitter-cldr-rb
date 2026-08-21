@@ -1,9 +1,19 @@
 # TwitterCldr Changelog
 
 ### UNRELEASED
+
 * Add BigDecimal as a dependency. (@noraj, #4)
 * Fix frozen string warning under Ruby 3.4. (@william-stacken, #2)
 * Upgrade to CLDR v48.2, ICU 78.3, and Unicode v17.0.0. (@camertron)
+
+#### Breaking
+
+* Remove support for Ruby < 3.2.
+* Remove support for locale fallbacks. These were undocumented and likely unused by the majority of users.
+* Remove integration with the `fast_gettext` gem.
+* Remove Twitter-specific locale mappings. All supported locales now use the official CLDR locale codes.
+* Remove `TwitterCldr.convert_locale` in favor of `TwitterCldr.normalize_locale`.
+* `TwitterCldr.normalize_locale`, `TwitterCldr.locale=`, and any methods that call these methods, now `raise` if passed an unsupported locale.
 
 ### 6.14.0 (Feb 21st, 2025)
 * Allow passing the `dst:` option to `LocalizedDateTime#to_*_s`. (@movermeyer, #280)

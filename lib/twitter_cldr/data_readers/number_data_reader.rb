@@ -140,7 +140,7 @@ module TwitterCldr
       def resource
         @resource ||= begin
           raw = TwitterCldr.get_locale_resource(locale, :numbers)
-          raw[TwitterCldr.convert_locale(locale)]
+          raw[TwitterCldr.normalize_locale(locale)]
         end
       end
 

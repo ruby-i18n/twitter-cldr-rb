@@ -37,7 +37,7 @@ module TwitterCldr
         attr_reader :locale
 
         def initialize(locale = TwitterCldr.locale)
-          @locale = TwitterCldr.convert_locale(locale)
+          @locale = TwitterCldr.normalize_locale(locale)
         end
 
         def format(number, options = {})

@@ -97,7 +97,7 @@ module TwitterCldr
       private
 
       def locale_resource_path(locale, resource_name)
-        [:locales, TwitterCldr.convert_locale(locale), resource_name]
+        [:locales, TwitterCldr.normalize_locale(locale), resource_name]
       end
 
       def resources_cache

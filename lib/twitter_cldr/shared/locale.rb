@@ -244,7 +244,7 @@ module TwitterCldr
       def supported
         @supported ||= begin
           ancestor_chain.sort.find do |loc|
-            TwitterCldr.supported_locale?(loc.dasherized)
+            TwitterCldr.supported_locales.include?(loc.dasherized.to_sym)
           end
         end
       end

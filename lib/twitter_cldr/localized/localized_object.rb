@@ -12,8 +12,7 @@ module TwitterCldr
 
       def initialize(obj, locale, options = {})
         @base_obj = obj
-        @locale = TwitterCldr.convert_locale(locale)
-        @locale = TwitterCldr::DEFAULT_LOCALE unless TwitterCldr.supported_locale?(@locale)
+        @locale = TwitterCldr.normalize_locale(locale)
 
         options = options.dup
         options[:locale] = @locale

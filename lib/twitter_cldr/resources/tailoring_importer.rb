@@ -29,7 +29,7 @@ module TwitterCldr
         it: :root,
         ms: :root,
         nl: :root,
-        pt: :root
+        pt: :root,
       }
 
       EMPTY_TAILORING_DATA = {

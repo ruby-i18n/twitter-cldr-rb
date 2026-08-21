@@ -31,7 +31,7 @@ module TwitterCldr
           protected
 
           def get_resource(locale)
-            locale = TwitterCldr.convert_locale(locale)
+            locale = TwitterCldr.normalize_locale(locale)
             cache_key = TwitterCldr::Utils.compute_cache_key(locale)
             locale_cache[cache_key] ||= begin
               rsrc = TwitterCldr.get_locale_resource(locale, :plurals)[locale]

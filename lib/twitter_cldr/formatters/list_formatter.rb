@@ -10,7 +10,7 @@ module TwitterCldr
       attr_accessor :locale
 
       def initialize(locale = TwitterCldr.locale)
-        @locale = TwitterCldr.convert_locale(locale)
+        @locale = TwitterCldr.normalize_locale(locale)
       end
 
       def format(list, type = :default)

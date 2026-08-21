@@ -17,12 +17,6 @@ describe TwitterCldr do
       expect(TwitterCldr.supported_locale?("bogus")).to eq(false)
     end
 
-    it "should return true if the given locale code is twitter-specific" do
-      expect(TwitterCldr.supported_locale?(:'zh-cn')).to eq(true)
-      expect(TwitterCldr.supported_locale?(:'zh-tw')).to eq(true)
-      expect(TwitterCldr.supported_locale?(:msa)).to eq(true)
-    end
-
     it "should work with lowercase region codes" do
       expect(TwitterCldr.supported_locale?('en-gb')).to eq(true)
       expect(TwitterCldr.supported_locale?('zh-hant')).to eq(true)
@@ -39,7 +33,7 @@ describe TwitterCldr do
       locales = TwitterCldr.supported_locales
       expect(locales).to include(:es)
       expect(locales).to include(:zh)
-      expect(locales).to include(:nb)
+      expect(locales).to include(:no)
       expect(locales).to include(:ja)
     end
 
@@ -48,48 +42,17 @@ describe TwitterCldr do
     end
   end
 
-  describe "#convert_locale" do
-    it "should convert a twitter locale to a CLDR locale" do
-      expect(TwitterCldr.convert_locale(:msa)).to eq(:ms)
-      expect(TwitterCldr.convert_locale(:'zh-cn')).to eq(:zh)
-      expect(TwitterCldr.convert_locale(:'zh-tw')).to eq(:'zh-Hant')
-      expect(TwitterCldr.convert_locale(:'zh-TW')).to eq(:'zh-Hant')
-    end
-
+  describe "#normalize_locale" do
     it "should fallback to language if locale is unsupported but language is" do
-      expect(TwitterCldr.convert_locale(:'pt-BR')).to eq(:pt)
-      expect(TwitterCldr.convert_locale(:'zh-Hans-CN')).to eq(:zh)
+      expect(TwitterCldr.normalize_locale(:'pt-BR')).to eq(:pt)
+      expect(TwitterCldr.normalize_locale(:'zh-Hans-CN')).to eq(:zh)
     end
 
     it "should leave known locales alone" do
-      expect(TwitterCldr.convert_locale(:fr)).to eq(:fr)
-      expect(TwitterCldr.convert_locale(:'fr-ca')).to eq(:'fr-CA')
-      expect(TwitterCldr.convert_locale(:'fr-CA')).to eq(:'fr-CA')
-      expect(TwitterCldr.convert_locale(:'es-419')).to eq(:'es-419')
-    end
-
-    it "should leave unknown locales alone" do
-      expect(TwitterCldr.convert_locale(:blarg)).to eq(:blarg)
-      expect(TwitterCldr.convert_locale(:'zz-ZZ')).to eq(:'zz-ZZ')
-    end
-
-    it "shouldn't blowup on bad input" do
-      expect(TwitterCldr.convert_locale(5)).to eq(5)
-      expect(TwitterCldr.convert_locale([])).to eq([])
-      expect(TwitterCldr.convert_locale('')).to eq(:'')
-      expect(TwitterCldr.convert_locale(nil)).to eq(nil)
-    end
-  end
-
-  describe "#twitter_locale" do
-    it "should convert a CLDR locale to a twitter locale" do
-      expect(TwitterCldr.twitter_locale(:ms)).to eq(:msa)
-      expect(TwitterCldr.twitter_locale(:zh)).to eq(:'zh-cn')
-      expect(TwitterCldr.twitter_locale(:'zh-Hant')).to eq(:'zh-tw')
-    end
-
-    it "should leave unknown locales alone" do
-      expect(TwitterCldr.twitter_locale(:blarg)).to eq(:blarg)
+      expect(TwitterCldr.normalize_locale(:fr)).to eq(:fr)
+      expect(TwitterCldr.normalize_locale(:'fr-ca')).to eq(:'fr-CA')
+      expect(TwitterCldr.normalize_locale(:'fr-CA')).to eq(:'fr-CA')
+      expect(TwitterCldr.normalize_locale(:'es-419')).to eq(:'es-419')
     end
   end
 
@@ -104,16 +67,6 @@ describe TwitterCldr do
         TwitterCldr.locale = "es"
         expect(TwitterCldr.locale).to eq(:es)
       end
-
-      it "should fall back if the user sets an unsupported locale" do
-        FastGettext.locale = :ko
-        TwitterCldr.locale = "blarg"
-        expect(TwitterCldr.locale).to eq(:ko)
-
-        FastGettext.locale = nil
-        I18n.locale = :hu
-        expect(TwitterCldr.locale).to eq(:hu)
-      end
     end
 
     context "with implicit locale (fallbacks)" do
@@ -121,159 +74,15 @@ describe TwitterCldr do
         TwitterCldr.locale = nil
       end
 
-      it "should return FastGettext locale before I18n locale and fall back gracefully" do
-        FastGettext.locale = :pt
-        I18n.locale = :ar
-        expect(TwitterCldr.locale).to eq(:pt)
-
-        FastGettext.locale = nil
-        expect(TwitterCldr.locale).to eq(:ar)
-
-        I18n.locale = nil
-        expect(TwitterCldr.locale).to eq(:en)
-      end
-
-      context "with only FastGettext locale" do
-        before(:each) do
-          I18n.locale = nil  # disable I18n fallback
-        end
-
-        it "should return the FastGettext locale if it's supported" do
-          FastGettext.locale = "vi"
-          expect(TwitterCldr.locale).to eq(:vi)
-        end
-
-        it "should return the default locale if the FastGettext locale is unsupported" do
-          FastGettext.locale = "bogus"
-          expect(TwitterCldr.locale).to eq(TwitterCldr::DEFAULT_LOCALE)
-        end
-      end
-
-      context "with only I18n locale" do
-        before(:each) do
-          FastGettext.locale = nil  # disable FastGettext fallback
-        end
-
+      context "with I18n locale" do
         it "should return the I18n locale if it's supported" do
           I18n.locale = "ru"
           expect(TwitterCldr.locale).to eq(:ru)
         end
 
-        it "should return the default locale if the I18n locale is unsupported" do
+        it "should blow up if the I18n locale is unsupported" do
           I18n.locale = "bogus"
-          expect(TwitterCldr.locale).to eq(TwitterCldr::DEFAULT_LOCALE)
-        end
-      end
-
-      context "with a custom fallback" do
-        before(:each) do
-          @allow = false
-          TwitterCldr.register_locale_fallback(lambda { @allow ? :uk : nil })
-        end
-
-        it "should fall back to the custom locale" do
-          expect(TwitterCldr.locale).to eq(:en)
-          @allow = true
-          expect(TwitterCldr.locale).to eq(:uk)
-        end
-
-        it "should fall back to the next fallback option if the custom one returns nil" do
-          FastGettext.locale = :lv
-          expect(TwitterCldr.locale).to eq(:lv)
-          @allow = true
-          expect(TwitterCldr.locale).to eq(:uk)
-        end
-
-        it "should not return the fallback locale if it's unsupported" do
-          TwitterCldr.reset_locale_fallbacks
-          TwitterCldr.register_locale_fallback(lambda { :zzz })
-          expect(TwitterCldr.locale).to eq(:en)
-        end
-      end
-
-      it "should fall back if the user sets an unsupported locale" do
-        FastGettext.locale = :ko
-        TwitterCldr.locale = "blarg"
-        expect(TwitterCldr.locale).to eq(:ko)
-
-        FastGettext.locale = nil
-        I18n.locale = :hu
-        expect(TwitterCldr.locale).to eq(:hu)
-      end
-    end
-
-    context "with implicit locale (fallbacks)" do
-      before(:each) do
-        TwitterCldr.locale = nil
-      end
-
-      it "should return FastGettext locale before I18n locale and fall back gracefully" do
-        FastGettext.locale = :pt
-        I18n.locale = :ar
-        expect(TwitterCldr.locale).to eq(:pt)
-
-        FastGettext.locale = nil
-        expect(TwitterCldr.locale).to eq(:ar)
-
-        I18n.locale = nil
-        expect(TwitterCldr.locale).to eq(:en)
-      end
-
-      context "with only FastGettext locale" do
-        before(:each) do
-          I18n.locale = nil  # disable I18n fallback
-        end
-
-        it "should return the FastGettext locale if it's supported" do
-          FastGettext.locale = "vi"
-          expect(TwitterCldr.locale).to eq(:vi)
-        end
-
-        it "should return the default locale if the FastGettext locale is unsupported" do
-          FastGettext.locale = "bogus"
-          expect(TwitterCldr.locale).to eq(TwitterCldr::DEFAULT_LOCALE)
-        end
-      end
-
-      context "with only I18n locale" do
-        before(:each) do
-          FastGettext.locale = nil  # disable FastGettext fallback
-        end
-
-        it "should return the I18n locale if it's supported" do
-          I18n.locale = "ru"
-          expect(TwitterCldr.locale).to eq(:ru)
-        end
-
-        it "should return the default locale if the I18n locale is unsupported" do
-          I18n.locale = "bogus"
-          expect(TwitterCldr.locale).to eq(TwitterCldr::DEFAULT_LOCALE)
-        end
-      end
-
-      context "with a custom fallback" do
-        before(:each) do
-          @allow = false
-          TwitterCldr.register_locale_fallback(lambda { @allow ? :uk : nil })
-        end
-
-        it "should fall back to the custom locale" do
-          expect(TwitterCldr.locale).to eq(:en)
-          @allow = true
-          expect(TwitterCldr.locale).to eq(:uk)
-        end
-
-        it "should fall back to the next fallback option if the custom one returns nil" do
-          FastGettext.locale = :lv
-          expect(TwitterCldr.locale).to eq(:lv)
-          @allow = true
-          expect(TwitterCldr.locale).to eq(:uk)
-        end
-
-        it "should not return the fallback locale if it's unsupported" do
-          TwitterCldr.reset_locale_fallbacks
-          TwitterCldr.register_locale_fallback(lambda { :zzz })
-          expect(TwitterCldr.locale).to eq(:en)
+          expect { TwitterCldr.locale }.to raise_error(TwitterCldr::UnsupportedLocaleError)
         end
       end
     end
@@ -312,7 +121,9 @@ describe TwitterCldr do
     it "doesn't mess up if the given locale isn't supported" do
       TwitterCldr.locale = :pt
       expect(TwitterCldr.locale).to eq(:pt)
-      expect { TwitterCldr.with_locale(:xx) {} }.to raise_error(RuntimeError, 'Unsupported locale')
+      expect { TwitterCldr.with_locale(:xx) {} }.to(
+        raise_error(TwitterCldr::UnsupportedLocaleError, "':xx' is not a supported locale")
+      )
       expect(TwitterCldr.locale).to eq(:pt)
     end
 

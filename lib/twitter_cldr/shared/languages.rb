@@ -37,14 +37,14 @@ module TwitterCldr
         end
 
         def is_rtl?(locale)
-          locale = TwitterCldr.convert_locale(locale)
+          locale = TwitterCldr.normalize_locale(locale)
           TwitterCldr.get_locale_resource(locale, :layout)[locale][:layout][:orientation][:character_order] == "right-to-left"
         end
 
         protected
 
         def get_resource(locale)
-          locale = TwitterCldr.convert_locale(locale)
+          locale = TwitterCldr.normalize_locale(locale)
           TwitterCldr.get_locale_resource(locale, :languages)[locale]
         end
 

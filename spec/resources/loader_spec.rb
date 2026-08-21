@@ -85,10 +85,8 @@ describe TwitterCldr::Resources::Loader do
       expect(loader.get_locale_resource(:de, :numbers).object_id).to eq(result.object_id)
     end
 
-    it 'converts locales' do
-      expect(TwitterCldr).to receive(:convert_locale).with('zh-tw').and_return(:'zh-Hant')
-      expect(loader).to receive(:get_resource).with(:locales, :'zh-Hant', :numbers).and_return('foo')
-
+    it 'normalizes locales' do
+      expect(loader).to receive(:get_resource).with(:locales, :zh, :numbers).and_return('foo')
       expect(loader.get_locale_resource('zh-tw', :numbers)).to eq('foo')
     end
   end

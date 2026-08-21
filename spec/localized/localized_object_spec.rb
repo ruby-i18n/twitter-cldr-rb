@@ -31,12 +31,12 @@ describe TwitterCldr::Localized::LocalizedObject do
       expect(localized_object.locale).to eq(locale)
     end
 
-    it 'converts locale' do
+    it 'normalizes locale' do
       expect(LocalizedClass.new(base_object, :msa).locale).to eq(:ms)
     end
 
-    it 'falls back to default locale if unsupported locale is passed' do
-      expect(LocalizedClass.new(base_object, :foobar).locale).to eq(TwitterCldr::DEFAULT_LOCALE)
+    it 'raises an error if unsupported locale is passed' do
+      expect { LocalizedClass.new(base_object, :foobar) }.to raise_error(TwitterCldr::UnsupportedLocaleError)
     end
 
     it "doesn't change original options hash" do

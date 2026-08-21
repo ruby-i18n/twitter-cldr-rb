@@ -10,7 +10,7 @@ module TwitterCldr
       class << self
 
         def symbols(locale = TwitterCldr.locale)
-          get_resource(TwitterCldr.convert_locale(locale))[:symbols] rescue nil
+          get_resource(TwitterCldr.normalize_locale(locale))[:symbols] rescue nil
         end
 
         private

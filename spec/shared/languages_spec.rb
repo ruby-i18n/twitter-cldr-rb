@@ -47,7 +47,7 @@ describe TwitterCldr::Shared::Languages do
     end
 
     it "returns the language when passed a locale code that is not directly supported by TwitterCLDR" do
-      expect(described_class.from_code_for_locale(:nn, :en)).to match_normalized("Norwegian Nynorsk")
+      expect(described_class.from_code_for_locale(:nn, :en)).to match_normalized("Norwegian")
     end
   end
 

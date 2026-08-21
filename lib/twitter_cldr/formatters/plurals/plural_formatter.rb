@@ -29,7 +29,7 @@ module TwitterCldr
       attr_reader :locale
 
       def initialize(locale = TwitterCldr.locale)
-        @locale = TwitterCldr.convert_locale(locale)
+        @locale = TwitterCldr.normalize_locale(locale)
       end
 
       # Replaces every pluralization token in the +string+ with a phrase formed using a number and a pluralization

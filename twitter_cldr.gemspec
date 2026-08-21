@@ -35,7 +35,7 @@ Gem::Specification.new do |s|
     'rubygems_mfa_required' => 'true'
   }
 
-  gem_files       = Dir['{lib,resources}/**/*', 'Gemfile', 'History.txt', 'LICENSE', 'NOTICE', 'README.md',
+  gem_files       = Dir['{lib,resources}/**/*', 'Gemfile', 'CHANGELOG.md', 'LICENSE', 'NOTICE', 'README.md',
                         'Rakefile', 'twitter_cldr.gemspec']
   excluded_files  = %w[]
   versioned_files = `git ls-files`.split("\n")

@@ -65,8 +65,8 @@ describe TwitterCldr::Formatters::Plurals::Rules do
       expect(described_class.all_for(:ru)).to match_array([:one, :few, :many, :other])
     end
 
-    it "returns data for zh-Hant" do
-      expect(described_class.all_for(:'zh-Hant')).to match_array([:other])
+    it "returns data for zh-TW" do
+      expect(described_class.all_for(:'zh-TW')).to match_array([:other])
     end
 
     it "returns ordinal plurals if asked" do
@@ -89,7 +89,7 @@ describe TwitterCldr::Formatters::Plurals::Rules do
       expect(TwitterCldr).to receive(:locale).and_return(:ru)
     end
 
-    it "gets rules for the default locale (usually supplied by FastGettext)" do
+    it "gets rules for the default locale" do
       expect(described_class.all).to match_array([:one, :few, :many, :other])
     end
 

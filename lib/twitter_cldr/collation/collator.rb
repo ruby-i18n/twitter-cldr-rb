@@ -16,7 +16,7 @@ module TwitterCldr
       attr_accessor :locale
 
       def initialize(locale = nil)
-        @locale  = TwitterCldr.convert_locale(locale) if locale
+        @locale  = TwitterCldr.normalize_locale(locale) if locale
         @options = tailoring_options
         @trie    = load_trie
       end

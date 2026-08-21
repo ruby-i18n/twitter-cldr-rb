@@ -78,8 +78,8 @@ describe TwitterCldr::Collation::Collator do
         expect(described_class.new(:ru).locale).to eq(:ru)
       end
 
-      it 'converts locale' do
-        expect(described_class.new(:no).locale).to eq(:nb)
+      it 'normalizes locale' do
+        expect(described_class.new(:"zh-TW").locale).to eq(:zh)
       end
     end
   end
@@ -258,7 +258,7 @@ describe TwitterCldr::Collation::Collator do
       allow(TwitterCldr::Normalization).to receive(:normalize_code_points) { |code_points| code_points }
     end
 
-    let(:locale)            { :some_locale }
+    let(:locale)            { :en }
     let(:default_collator)  { described_class.new }
     let(:tailored_collator) { described_class.new(locale) }
 

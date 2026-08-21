@@ -21,7 +21,6 @@ describe TwitterCldr::Localized::LocalizedNumber do
 
     it 'sets up object with correct locale, falls back to default locale' do
       expect(described_class.new(10, :es).locale).to eq(:es)
-      expect(described_class.new(10, :blarg).locale).to eq(TwitterCldr::DEFAULT_LOCALE)
     end
   end
 
@@ -188,13 +187,6 @@ describe TwitterCldr::Localized::LocalizedNumber do
       expect(2.localize(:ru).plural_rule).to eq(:few)
       expect(5.localize(:ru).plural_rule).to eq(:many)
       expect(10.0.localize(:ru).plural_rule).to eq(:other)
-    end
-
-    it 'takes FastGettext.locale into account' do
-      FastGettext.locale = :es
-      expect(1.localize.plural_rule).to eq(:one)
-      expect(2.localize.plural_rule).to eq(:other)
-      expect(5.localize.plural_rule).to eq(:other)
     end
   end
 

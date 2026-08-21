@@ -3,6 +3,10 @@
 TwitterCldr uses Unicode's Common Locale Data Repository (CLDR) to format certain types of text into their
 localized equivalents.  Currently supported types of text include dates, times, currencies, decimals, percentages, and symbols.
 
+## History
+
+This project was initially written for Twitter, Inc back in 2012, before Twitter became X. This was back when Twitter was still primarily a Rails app, and the company used a lot of Ruby. The original author, @camertron, left Twitter in 2014 but has continued to maintain the library in his spare time. For a long time the project was hosted under the "twitter" GitHub organization, and that worked fine. Unfortunately in 2026, @camertron was removed as a maintainer of the project without any warning or explanation. After attempting to contact Twitter/X several times, @camertron and the community decided to hard fork the project and host a maintained version here.
+
 ## Installation
 
 `gem install twitter_cldr`
@@ -608,7 +612,7 @@ postal_code.regexp  # /(\d{5})(?:[ \-](\d{4}))?/
 Get a sample of valid postal codes with the `#sample` method:
 
 ```ruby
-postal_code.sample(5)  # ["45013-4133", "86441-8919", "36145-5160", "90579", "80455-1358"]
+postal_code.sample(5)  # ["63191", "68505-4475", "09256", "38320", "54169-3422"]
 ```
 
 ### Phone Codes
@@ -1052,34 +1056,9 @@ If you're using rbenv or rvm, try using the `add_locale.sh` script, which will i
 ./script/add_locale.sh bo
 ```
 
-## About Twitter-specific Locales
-
-Twitter tries to always use BCP-47 language codes.  Data from the CLDR doesn't always match those codes however, so TwitterCLDR provides a `convert_locale` method to convert between the two.  All functionality throughout the entire gem defers to `convert_locale` before retrieving CLDR data.  `convert_locale` supports Twitter-supported BCP-47 language codes as well as CLDR locale codes, so you don't have to guess which one to use.  Here are a few examples:
-
-```ruby
-TwitterCldr.convert_locale(:'zh-cn')          # :zh
-TwitterCldr.convert_locale(:zh)               # :zh
-TwitterCldr.convert_locale(:'zh-tw')          # :"zh-Hant"
-TwitterCldr.convert_locale(:'zh-Hant')        # :"zh-Hant"
-
-TwitterCldr.convert_locale(:msa)              # :ms
-TwitterCldr.convert_locale(:ms)               # :ms
-```
-
-There are a few functions in TwitterCLDR that don't require a locale code, and instead use the default locale by calling `TwitterCldr.locale`.  The `locale` function defers to `FastGettext.locale` when the FastGettext library is available, and falls back on :en (English) when it's not.  (Twitter uses the FastGettext gem to retrieve translations efficiently in Ruby).
-
-```ruby
-TwitterCldr.get_locale    # will return :en
-
-require 'fast_gettext'
-FastGettext.locale = "ru"
-
-TwitterCldr.locale    # will return :ru
-```
-
 ## Compatibility
 
-TwitterCLDR is fully compatible with Ruby 2.5, 2.6, 2.7, 3.0, 3.1, 3.2, 3.3, 3.4.
+TwitterCLDR is tested against Ruby 2.5, 2.6, 2.7, 3.0, 3.1, 3.2, 3.3, 3.4.
 
 ## Requirements
 
