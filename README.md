@@ -612,12 +612,8 @@ postal_code.regexp  # /(\d{5})(?:[ \-](\d{4}))?/
 Get a sample of valid postal codes with the `#sample` method:
 
 ```ruby
-postal_code.sample(5)  # ["47633-2755", "54778-8434", "84558-6629", "75670", "47817"]
+postal_code.sample(5)  # ["43700", "78568-9698", "86083-3133", "41989-8002", "70252"]
 ```
-
-### Phone Codes
-
-Telephone codes were deprecated and have now been removed from the CLDR data set. They have been removed from TwitterCLDR as of v5.0.0.
 
 ### Language Codes
 
