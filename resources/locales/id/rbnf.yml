@@ -1,133 +1,90 @@
---- 
-:id: 
-  :rbnf: 
-    :grouping: 
-      - 
-        :ruleset: 
-          - 
-            :rules: 
-              - 
-                :rule: =0.0=;
-                :value: x.x
-              - 
-                :rule: =%spellout-numbering=;
-                :value: 0
-            :type: spellout-numbering-year
-          - 
-            :rules: 
-              - 
-                :rule: =%spellout-cardinal=;
-                :value: 0
-            :type: spellout-numbering
-          - 
-            :rules: 
-              - 
-                :rule: "negatif >>;"
-                :value: "-x"
-              - 
-                :rule: "<< titik >>;"
-                :value: x.x
-              - 
-                :rule: "<< koma >>;"
-                :value: "x,x"
-              - 
-                :rule: nol;
-                :value: 0
-              - 
-                :rule: satu;
-                :value: 1
-              - 
-                :rule: dua;
-                :value: 2
-              - 
-                :rule: tiga;
-                :value: 3
-              - 
-                :rule: empat;
-                :value: 4
-              - 
-                :rule: lima;
-                :value: 5
-              - 
-                :rule: enam;
-                :value: 6
-              - 
-                :rule: tujuh;
-                :value: 7
-              - 
-                :rule: delapan;
-                :value: 8
-              - 
-                :rule: sembilan;
-                :value: 9
-              - 
-                :rule: sepuluh;
-                :value: 10
-              - 
-                :rule: sebelas;
-                :value: 11
-              - 
-                :rule: ">> belas;"
-                :value: 12
-              - 
-                :rule: "<< puluh[ >>];"
-                :value: 20
-              - 
-                :rule: "seratus[ >>];"
-                :value: 100
-              - 
-                :rule: "<< ratus[ >>];"
-                :value: 200
-              - 
-                :rule: "seribu[ >>];"
-                :value: 1000
-              - 
-                :rule: "<< ribu[ >>];"
-                :value: 2000
-              - 
-                :rule: "<< juta[ >>];"
-                :value: 1000000
-              - 
-                :rule: "<< miliar[ >>];"
-                :value: 1000000000
-              - 
-                :rule: "<< triliun[ >>];"
-                :value: 1000000000000
-              - 
-                :rule: "<< kuadriliun[ >>];"
-                :value: 1000000000000000
-              - 
-                :rule: "=#,##0.#=;"
-                :value: 1000000000000000000
-            :type: spellout-cardinal
-          - 
-            :rules: 
-              - 
-                :rule: "negatif >>;"
-                :value: "-x"
-              - 
-                :rule: "=#,##0.#=;"
-                :value: x.x
-              - 
-                :rule: ke=%spellout-cardinal=;
-                :value: 0
-              - 
-                :rule: pertama;
-                :value: 1
-              - 
-                :rule: ke=%spellout-cardinal=;
-                :value: 2
-            :type: spellout-ordinal
-        :type: SpelloutRules
-      - 
-        :ruleset: 
-          - 
-            :rules: 
-              - 
-                :rule: "−ke->#,##0>;"
-                :value: "-x"
-              - 
-                :rule: "ke-=#,##0=;"
-                :value: 0
-            :type: digits-ordinal
-        :type: OrdinalRules
+---
+:id:
+  :rbnf:
+    :grouping:
+    - :type: SpelloutRules
+      :ruleset:
+      - :type: spellout-numbering-year
+        :rules:
+        - :value: x.x
+          :rule: "=0.0=;"
+        - :value: 0
+          :rule: "=%spellout-numbering=;"
+      - :type: spellout-numbering
+        :rules:
+        - :value: 0
+          :rule: "=%spellout-cardinal=;"
+      - :type: spellout-cardinal
+        :rules:
+        - :value: "-x"
+          :rule: negatif >>;
+        - :value: x.x
+          :rule: "<< titik >>;"
+        - :value: x,x
+          :rule: "<< koma >>;"
+        - :value: 0
+          :rule: nol;
+        - :value: 1
+          :rule: satu;
+        - :value: 2
+          :rule: dua;
+        - :value: 3
+          :rule: tiga;
+        - :value: 4
+          :rule: empat;
+        - :value: 5
+          :rule: lima;
+        - :value: 6
+          :rule: enam;
+        - :value: 7
+          :rule: tujuh;
+        - :value: 8
+          :rule: delapan;
+        - :value: 9
+          :rule: sembilan;
+        - :value: 10
+          :rule: sepuluh;
+        - :value: 11
+          :rule: sebelas;
+        - :value: 12
+          :rule: ">> belas;"
+        - :value: 20
+          :rule: "<< puluh[ >>];"
+        - :value: 100
+          :rule: seratus[ >>];
+        - :value: 200
+          :rule: "<< ratus[ >>];"
+        - :value: 1000
+          :rule: seribu[ >>];
+        - :value: 2000
+          :rule: "<< ribu[ >>];"
+        - :value: 1000000
+          :rule: "<< juta[ >>];"
+        - :value: 1000000000
+          :rule: "<< miliar[ >>];"
+        - :value: 1000000000000
+          :rule: "<< triliun[ >>];"
+        - :value: 1000000000000000
+          :rule: "<< kuadriliun[ >>];"
+        - :value: 1000000000000000000
+          :rule: "=#,##0.#=;"
+      - :type: spellout-ordinal
+        :rules:
+        - :value: "-x"
+          :rule: negatif >>;
+        - :value: x.x
+          :rule: "=#,##0.#=;"
+        - :value: 0
+          :rule: ke=%spellout-cardinal=;
+        - :value: 1
+          :rule: pertama;
+        - :value: 2
+          :rule: ke=%spellout-cardinal=;
+    - :type: OrdinalRules
+      :ruleset:
+      - :type: digits-ordinal
+        :rules:
+        - :value: "-x"
+          :rule: "−ke->#,##0>;"
+        - :value: 0
+          :rule: ke-=#,##0=;

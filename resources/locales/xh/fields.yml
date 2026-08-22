@@ -1,210 +1,210 @@
---- 
-:xh: 
-  :fields: 
-    :day: 
+---
+:xh:
+  :fields:
+    :era:
+      :display_name: ixesha leminyaka
+    :year:
+      :display_name: unyaka
+      :relative:
+        -1: unyaka ophelileyo
+        0: kulo nyaka
+        1: kunyaka ozayo
+    :year-short:
+      :display_name: uny.
+      :relative:
+        -1: unyaka ophel.
+        0: kulo nyak.
+        1: kunyak oza.
+    :year-narrow:
+      :display_name: uny
+      :relative:
+        -1: unyaka ophel.
+        0: kulo nyak.
+        1: unyak oza.
+    :quarter:
+      :display_name: ikota
+      :relative:
+        -1: ikota edlulileyo
+        0: ikota esikuyo
+        1: ikota elandelayp
+    :quarter-short:
+      :display_name: kot.
+    :quarter-narrow:
+      :display_name: kot
+    :month:
+      :display_name: inyanga
+      :relative:
+        -1: inyanga ephelileyo
+        0: kule nyanga
+        1: kwinyanga ezayo
+    :month-short:
+      :display_name: iny.
+      :relative:
+        -1: inyanga ephel.
+        0: kule nya.
+        1: kwinyanga eza.
+    :month-narrow:
+      :display_name: nya
+      :relative:
+        -1: inya ephel.
+        0: kule nya.
+        1: kwinya eza.
+    :week:
+      :display_name: iveki
+      :relative:
+        -1: kwiveki ephelileyo
+        0: ku;e veki
+        1: kwiveki ezayo
+    :week-short:
+      :display_name: ive.
+      :relative:
+        -1: vek ephel.
+        0: kule vek.
+        1: vek eza.
+    :week-narrow:
+      :display_name: vek
+      :relative:
+        -1: veki ephel.
+        0: kule vek.
+        1: veki eza.
+    :day:
       :display_name: usuku
-      :relative: 
+      :relative:
         -1: izolo
         0: namhlanje
         1: ngomso
-    :dayperiod: 
-      :display_name: "Kusasa/Emva kwemini"
-    :era: 
-      :display_name: "ixesha leminyaka"
-    :fri: 
-      :relative: 
-        -1: "ngoLwesihlanu odlulileyo"
-        0: "ngalo Lwesihlanu"
-        1: "ngoLwesihlanu ozayo"
-    :fri-narrow: 
-      :relative: 
-        -1: "ngoLwesihlanu odlulileyo"
-        0: "ngalo Lwesihlanu"
-        1: "ngoLwesihlanu ozayo"
-    :fri-short: 
-      :relative: 
-        -1: "ngoLwesihlanu odlulileyo"
-        0: "ngalo Lwesihlanu"
-        1: "ngoLwesihlanu ozayo"
-    :hour: 
+    :weekday:
+      :display_name: usuku lweveki
+    :sun:
+      :relative:
+        -1: kwiCawa edlulileyo
+        0: kule iCawa
+        1: kwiCawa ezayo
+    :sun-short:
+      :relative:
+        -1: kwiCawa edlulileyo
+        0: kule iCawa
+        1: kwiCawa ezayo
+    :sun-narrow:
+      :relative:
+        -1: kwiCawa edlulileyo
+        0: kule iCawa
+        1: kwiCawa ezayo
+    :mon:
+      :relative:
+        -1: uMvulo odlulileyo
+        0: ngalo Mvulo
+        1: ngoMvulo ozayi
+    :mon-short:
+      :relative:
+        -1: uMvulo odlulileyo
+        0: ngalo Mvulo
+        1: ngoMvulo ozayi
+    :mon-narrow:
+      :relative:
+        -1: uMvulo odlulileyo
+        0: ngalo Mvulo
+        1: ngoMvulo ozayi
+    :tue:
+      :relative:
+        -1: ngoLwesibini odlulileyo
+        0: ngalo uLwesibini
+        1: ngoLwesibini ozayo
+    :tue-short:
+      :relative:
+        -1: ngoLwesibini odlulileyo
+        0: ngalo uLwesibini
+        1: ngoLwesibini ozayo
+    :tue-narrow:
+      :relative:
+        -1: ngoLwesibini odlulileyo
+        0: ngalo uLwesibini
+        1: ngoLwesibini ozayo
+    :wed:
+      :relative:
+        -1: ngoLwesithathu odlulileyo
+        0: ngalo Lwesithathu
+        1: ngoLwesithathu ozayo
+    :wed-short:
+      :relative:
+        -1: ngoLwesithathu odlulileyo
+        0: ngalo Lwesithathu
+        1: ngoLwesithathu ozayo
+    :wed-narrow:
+      :relative:
+        -1: ngoLwesithathu odlulileyo
+        0: ngalo Lwesithathu
+        1: lwest ozay
+    :thu:
+      :relative:
+        -1: ngoLwesine odlulileyo
+        0: ngalo Lwesine
+        1: ngoLwesine ozayo
+    :thu-short:
+      :relative:
+        -1: ngoLwesine odlulileyo
+        0: ngalo Lwesine
+        1: ngoLwesine ozayo
+    :thu-narrow:
+      :relative:
+        -1: ngoLwesine odlulileyo
+        0: ngalo Lwesine
+        1: ngoLwesine ozayo
+    :fri:
+      :relative:
+        -1: ngoLwesihlanu odlulileyo
+        0: ngalo Lwesihlanu
+        1: ngoLwesihlanu ozayo
+    :fri-short:
+      :relative:
+        -1: ngoLwesihlanu odlulileyo
+        0: ngalo Lwesihlanu
+        1: ngoLwesihlanu ozayo
+    :fri-narrow:
+      :relative:
+        -1: ngoLwesihlanu odlulileyo
+        0: ngalo Lwesihlanu
+        1: ngoLwesihlanu ozayo
+    :sat:
+      :relative:
+        -1: ngoMgqibelo odlulileyo
+        0: ngalo Mgqibelo
+        1: ngoMgqibelo ozayo
+    :sat-short:
+      :relative:
+        -1: ngoMgqibelo odlulileyo
+        0: ngalo Mgqibelo
+        1: ngoMgqibelo ozayo
+    :sat-narrow:
+      :relative:
+        -1: ngoMgqibelo odlulileyo
+        0: ngalo Mgqibelo
+        1: ngoMgqibelo ozayo
+    :dayperiod:
+      :display_name: Kusasa/Emva kwemini
+    :hour:
       :display_name: iyure
-      :relative: 
-        0: "ngale yure"
-    :hour-narrow: 
-      :display_name: yur
-    :hour-short: 
+      :relative:
+        0: ngale yure
+    :hour-short:
       :display_name: yur.
-    :minute: 
+    :hour-narrow:
+      :display_name: yur
+    :minute:
       :display_name: umzuzu
-      :relative: 
-        0: "ngalo mzuzu"
-    :minute-narrow: 
-      :display_name: umz
-    :minute-short: 
+      :relative:
+        0: ngalo mzuzu
+    :minute-short:
       :display_name: umz.
-    :mon: 
-      :relative: 
-        -1: "uMvulo odlulileyo"
-        0: "ngalo Mvulo"
-        1: "ngoMvulo ozayi"
-    :mon-narrow: 
-      :relative: 
-        -1: "uMvulo odlulileyo"
-        0: "ngalo Mvulo"
-        1: "ngoMvulo ozayi"
-    :mon-short: 
-      :relative: 
-        -1: "uMvulo odlulileyo"
-        0: "ngalo Mvulo"
-        1: "ngoMvulo ozayi"
-    :month: 
-      :display_name: inyanga
-      :relative: 
-        -1: "inyanga ephelileyo"
-        0: "kule nyanga"
-        1: "kwinyanga ezayo"
-    :month-narrow: 
-      :display_name: nya
-      :relative: 
-        -1: "inya ephel."
-        0: "kule nya."
-        1: "kwinya eza."
-    :month-short: 
-      :display_name: iny.
-      :relative: 
-        -1: "inyanga ephel."
-        0: "kule nya."
-        1: "kwinyanga eza."
-    :quarter: 
-      :display_name: ikota
-      :relative: 
-        -1: "ikota edlulileyo"
-        0: "ikota esikuyo"
-        1: "ikota elandelayp"
-    :quarter-narrow: 
-      :display_name: kot
-    :quarter-short: 
-      :display_name: kot.
-    :sat: 
-      :relative: 
-        -1: "ngoMgqibelo odlulileyo"
-        0: "ngalo Mgqibelo"
-        1: "ngoMgqibelo ozayo"
-    :sat-narrow: 
-      :relative: 
-        -1: "ngoMgqibelo odlulileyo"
-        0: "ngalo Mgqibelo"
-        1: "ngoMgqibelo ozayo"
-    :sat-short: 
-      :relative: 
-        -1: "ngoMgqibelo odlulileyo"
-        0: "ngalo Mgqibelo"
-        1: "ngoMgqibelo ozayo"
-    :second: 
+    :minute-narrow:
+      :display_name: umz
+    :second:
       :display_name: umzuzwana
-      :relative: 
+      :relative:
         0: ngoku
-    :second-narrow: 
-      :display_name: mzuzwa.
-    :second-short: 
+    :second-short:
       :display_name: zuzwa.
-    :sun: 
-      :relative: 
-        -1: "kwiCawa edlulileyo"
-        0: "kule iCawa"
-        1: "kwiCawa ezayo"
-    :sun-narrow: 
-      :relative: 
-        -1: "kwiCawa edlulileyo"
-        0: "kule iCawa"
-        1: "kwiCawa ezayo"
-    :sun-short: 
-      :relative: 
-        -1: "kwiCawa edlulileyo"
-        0: "kule iCawa"
-        1: "kwiCawa ezayo"
-    :thu: 
-      :relative: 
-        -1: "ngoLwesine odlulileyo"
-        0: "ngalo Lwesine"
-        1: "ngoLwesine ozayo"
-    :thu-narrow: 
-      :relative: 
-        -1: "ngoLwesine odlulileyo"
-        0: "ngalo Lwesine"
-        1: "ngoLwesine ozayo"
-    :thu-short: 
-      :relative: 
-        -1: "ngoLwesine odlulileyo"
-        0: "ngalo Lwesine"
-        1: "ngoLwesine ozayo"
-    :tue: 
-      :relative: 
-        -1: "ngoLwesibini odlulileyo"
-        0: "ngalo uLwesibini"
-        1: "ngoLwesibini ozayo"
-    :tue-narrow: 
-      :relative: 
-        -1: "ngoLwesibini odlulileyo"
-        0: "ngalo uLwesibini"
-        1: "ngoLwesibini ozayo"
-    :tue-short: 
-      :relative: 
-        -1: "ngoLwesibini odlulileyo"
-        0: "ngalo uLwesibini"
-        1: "ngoLwesibini ozayo"
-    :wed: 
-      :relative: 
-        -1: "ngoLwesithathu odlulileyo"
-        0: "ngalo Lwesithathu"
-        1: "ngoLwesithathu ozayo"
-    :wed-narrow: 
-      :relative: 
-        -1: "ngoLwesithathu odlulileyo"
-        0: "ngalo Lwesithathu"
-        1: "lwest ozay"
-    :wed-short: 
-      :relative: 
-        -1: "ngoLwesithathu odlulileyo"
-        0: "ngalo Lwesithathu"
-        1: "ngoLwesithathu ozayo"
-    :week: 
-      :display_name: iveki
-      :relative: 
-        -1: "kwiveki ephelileyo"
-        0: "ku;e veki"
-        1: "kwiveki ezayo"
-    :week-narrow: 
-      :display_name: vek
-      :relative: 
-        -1: "veki ephel."
-        0: "kule vek."
-        1: "veki eza."
-    :week-short: 
-      :display_name: ive.
-      :relative: 
-        -1: "vek ephel."
-        0: "kule vek."
-        1: "vek eza."
-    :weekday: 
-      :display_name: "usuku lweveki"
-    :year: 
-      :display_name: unyaka
-      :relative: 
-        -1: "unyaka ophelileyo"
-        0: "kulo nyaka"
-        1: "kunyaka ozayo"
-    :year-narrow: 
-      :display_name: uny
-      :relative: 
-        -1: "unyaka ophel."
-        0: "kulo nyak."
-        1: "unyak oza."
-    :year-short: 
-      :display_name: uny.
-      :relative: 
-        -1: "unyaka ophel."
-        0: "kulo nyak."
-        1: "kunyak oza."
-    :zone: 
-      :display_name: "ingingqi yexesha"
+    :second-narrow:
+      :display_name: mzuzwa.
+    :zone:
+      :display_name: ingingqi yexesha

@@ -1,1279 +1,1279 @@
---- 
-:el: 
-  :units: 
-    :durationUnit: 
-      :hm: "h:mm"
-      :hms: "h:mm:ss"
-      :ms: "m:ss"
-    :unitLength: 
-      :long: 
-        :acceleration-g-force: 
+---
+:el:
+  :units:
+    :unitLength:
+      :long:
+        :acceleration-g-force:
           :one: "{0} δύναμης επιτάχυνσης"
           :other: "{0} δυνάμεων επιτάχυνσης"
-        :acceleration-meter-per-square-second: 
+        :acceleration-meter-per-square-second:
           :one: "{0} μέτρου ανά τετραγωνικό δευτερόλεπτο"
           :other: "{0} μέτρων ανά τετραγωνικό δευτερόλεπτο"
-        :angle-arc-minute: 
-          :one: "{0} λεπτού του τόξου"
-          :other: "{0} λεπτών του τόξου"
-        :angle-arc-second: 
-          :one: "{0} δευτερολέπτου του τόξου"
-          :other: "{0} δευτερολέπτων του τόξου"
-        :angle-degree: 
-          :one: "{0} μοίρας"
-          :other: "{0} μοιρών"
-        :angle-radian: 
-          :one: "{0} ακτίνιου"
-          :other: "{0} ακτίνιων"
-        :angle-revolution: 
+        :angle-revolution:
           :one: "{0} στροφής"
           :other: "{0} στροφών"
-        :angle-steradian: 
-          :one: "{0} στερακτίνιο"
-          :other: "{0} στερακτίνια"
-        :area-hectare: 
-          :one: "{0} εκτάριου"
-          :other: "{0} εκτάριων"
-        :area-square-centimeter: 
-          :one: "{0} τετραγωνικού εκατοστού"
-          :other: "{0} τετραγωνικών εκατοστών"
-        :area-square-foot: 
-          :one: "{0} τετραγωνικό πόδι"
-          :other: "{0} τετραγωνικά πόδια"
-        :area-square-inch: 
-          :one: "{0} τετραγωνική ίντσα"
-          :other: "{0} τετραγωνικές ίντσες"
-        :area-square-kilometer: 
+        :angle-radian:
+          :one: "{0} ακτίνιου"
+          :other: "{0} ακτίνιων"
+        :angle-degree:
+          :one: "{0} μοίρας"
+          :other: "{0} μοιρών"
+        :angle-arc-minute:
+          :one: "{0} λεπτού του τόξου"
+          :other: "{0} λεπτών του τόξου"
+        :angle-arc-second:
+          :one: "{0} δευτερολέπτου του τόξου"
+          :other: "{0} δευτερολέπτων του τόξου"
+        :area-square-kilometer:
           :one: "{0} τετραγωνικού χιλιομέτρου"
           :other: "{0} τετραγωνικών χιλιομέτρων"
-        :area-square-meter: 
+        :area-hectare:
+          :one: "{0} εκτάριου"
+          :other: "{0} εκτάριων"
+        :area-square-meter:
           :one: "{0} τετραγωνικού μέτρου"
           :other: "{0} τετραγωνικών μέτρων"
-        :area-square-mile: 
+        :area-square-centimeter:
+          :one: "{0} τετραγωνικού εκατοστού"
+          :other: "{0} τετραγωνικών εκατοστών"
+        :area-square-mile:
           :one: "{0} τετραγωνικό μίλι"
           :other: "{0} τετραγωνικά μίλια"
-        :area-square-yard: 
+        :area-square-yard:
           :one: "{0} τετραγωνική γιάρδα"
           :other: "{0} τετραγωνικές γιάρδες"
-        :concentr-item: 
-          :one: "{0} στοιχείου"
-          :other: "{0} στοιχείων"
-        :concentr-karat: 
+        :area-square-foot:
+          :one: "{0} τετραγωνικό πόδι"
+          :other: "{0} τετραγωνικά πόδια"
+        :area-square-inch:
+          :one: "{0} τετραγωνική ίντσα"
+          :other: "{0} τετραγωνικές ίντσες"
+        :concentr-karat:
           :one: "{0} καρατίου"
           :other: "{0} καρατίων"
-        :concentr-katal: 
-          :one: "{0} κατάλ"
-          :other: "{0} κατάλ"
-        :concentr-milligram-ofglucose-per-deciliter: 
+        :concentr-milligram-ofglucose-per-deciliter:
           :one: "{0} χιλιοστόγραμμου ανά δεκατόλιτρο"
           :other: "{0} χιλιοστόγραμμων ανά δεκατόλιτρο"
-        :concentr-millimole-per-liter: 
+        :concentr-millimole-per-liter:
           :one: "{0} χιλιοστογραμμομορίου ανά λίτρο"
           :other: "{0} χιλιοστογραμμομορίων ανά λίτρο"
-        :concentr-ofglucose: 
-          :one: "{0} γλυκόζης"
-          :other: "{0} γλυκόζης"
-        :concentr-part: 
+        :concentr-item:
+          :one: "{0} στοιχείου"
+          :other: "{0} στοιχείων"
+        :concentr-part:
           :one: "{0} μέρος"
           :other: "{0} μέρη"
-        :concentr-part-per-1e6: 
+        :concentr-part-per-1e6:
           :one: "{0} μέρους ανά εκατομμύριο"
           :other: "{0} μερών ανά εκατομμύριο"
-        :concentr-part-per-1e9: 
-          :one: "{0} μέρους στο δισεκατομμύριο"
-          :other: "{0} μερών στο δισεκατομμύριο"
-        :concentr-percent: 
+        :concentr-percent:
           :one: "{0} τοις εκατό"
           :other: "{0} τοις εκατό"
-        :concentr-permille: 
+        :concentr-permille:
           :one: "{0} τοις χιλίοις"
           :other: "{0} τοις χιλίοις"
-        :concentr-permyriad: 
+        :concentr-permyriad:
           :one: "{0} τοις δεκάκις χιλίοις"
           :other: "{0} τοις δεκάκις χιλίοις"
-        :consumption-liter-per-100-kilometer: 
-          :one: "{0} λίτρου ανά 100 χιλιόμετρα"
-          :other: "{0} λίτρων ανά 100 χιλιόμετρα"
-        :consumption-liter-per-kilometer: 
+        :concentr-ofglucose:
+          :one: "{0} γλυκόζης"
+          :other: "{0} γλυκόζης"
+        :consumption-liter-per-kilometer:
           :one: "{0} λίτρου ανά χιλιόμετρο"
           :other: "{0} λίτρων ανά χιλιόμετρο"
-        :consumption-mile-per-gallon: 
+        :consumption-liter-per-100-kilometer:
+          :one: "{0} λίτρου ανά 100 χιλιόμετρα"
+          :other: "{0} λίτρων ανά 100 χιλιόμετρα"
+        :consumption-mile-per-gallon:
           :one: "{0} μίλι ανά γαλόνι"
           :other: "{0} μίλια ανά γαλόνι"
-        :consumption-mile-per-gallon-imperial: 
+        :consumption-mile-per-gallon-imperial:
           :one: "{0} μίλι ανά αγγλοσαξονικό γαλόνι"
           :other: "{0} μίλια ανά αγγλοσαξονικό γαλόνι"
-        :digital-gigabit: 
-          :one: "{0} gigabit"
-          :other: "{0} gigabit"
-        :digital-gigabyte: 
-          :one: "{0} gigabyte"
-          :other: "{0} gigabyte"
-        :digital-kilobit: 
-          :one: "{0} kilobit"
-          :other: "{0} kilobit"
-        :digital-kilobyte: 
-          :one: "{0} kilobyte"
-          :other: "{0} kilobyte"
-        :digital-megabit: 
-          :one: "{0} megabit"
-          :other: "{0} megabit"
-        :digital-megabyte: 
-          :one: "{0} megabyte"
-          :other: "{0} megabyte"
-        :digital-petabyte: 
+        :digital-petabyte:
           :one: "{0} petabyte"
           :other: "{0} petabyte"
-        :digital-terabit: 
-          :one: "{0} terabit"
-          :other: "{0} terabit"
-        :digital-terabyte: 
+        :digital-terabyte:
           :one: "{0} terabyte"
           :other: "{0} terabyte"
-        :duration-century: 
+        :digital-terabit:
+          :one: "{0} terabit"
+          :other: "{0} terabit"
+        :digital-gigabyte:
+          :one: "{0} gigabyte"
+          :other: "{0} gigabyte"
+        :digital-gigabit:
+          :one: "{0} gigabit"
+          :other: "{0} gigabit"
+        :digital-megabyte:
+          :one: "{0} megabyte"
+          :other: "{0} megabyte"
+        :digital-megabit:
+          :one: "{0} megabit"
+          :other: "{0} megabit"
+        :digital-kilobyte:
+          :one: "{0} kilobyte"
+          :other: "{0} kilobyte"
+        :digital-kilobit:
+          :one: "{0} kilobit"
+          :other: "{0} kilobit"
+        :duration-century:
           :one: "{0} αιώνα"
           :other: "{0} αιώνων"
-        :duration-day: 
-          :one: "{0} ημέρας"
-          :other: "{0} ημερών"
-        :duration-day-person: 
-          :one: "{0} ημέρας"
-          :other: "{0} ημερών"
-        :duration-decade: 
+        :duration-decade:
           :one: "{0} δεκαετίας"
           :other: "{0} δεκαετιών"
-        :duration-hour: 
-          :one: "{0} ώρας"
-          :other: "{0} ωρών"
-        :duration-microsecond: 
-          :one: μικροδευτερόλεπτου
-          :other: "{0} μικροδευτερόλεπτων"
-        :duration-millisecond: 
-          :one: "{0} χιλιοστού του δευτερολέπτου"
-          :other: "{0} χιλιοστών του δευτερολέπτου"
-        :duration-minute: 
-          :one: "{0} λεπτού"
-          :other: "{0} λεπτών"
-        :duration-month: 
-          :one: "{0} μήνα"
-          :other: "{0} μηνών"
-        :duration-nanosecond: 
-          :one: "{0} νανοδευτερόλεπτου"
-          :other: "{0} νανοδευτερόλεπτων"
-        :duration-night: 
-          :one: "{0} νύχτας"
-          :other: "{0} νυχτών"
-        :duration-quarter: 
-          :one: "{0} τέταρτου"
-          :other: "{0} τέταρτων"
-        :duration-second: 
-          :one: "{0} δευτερολέπτου"
-          :other: "{0} δευτερολέπτων"
-        :duration-week: 
-          :one: "{0} εβδομάδας"
-          :other: "{0} εβδομάδων"
-        :duration-year: 
+        :duration-year:
           :one: "{0} έτους"
           :other: "{0} ετών"
-        :electric-ampere: 
+        :duration-quarter:
+          :one: "{0} τέταρτου"
+          :other: "{0} τέταρτων"
+        :duration-month:
+          :one: "{0} μήνα"
+          :other: "{0} μηνών"
+        :duration-week:
+          :one: "{0} εβδομάδας"
+          :other: "{0} εβδομάδων"
+        :duration-day:
+          :one: "{0} ημέρας"
+          :other: "{0} ημερών"
+        :duration-day-person:
+          :one: "{0} ημέρας"
+          :other: "{0} ημερών"
+        :duration-hour:
+          :one: "{0} ώρας"
+          :other: "{0} ωρών"
+        :duration-minute:
+          :one: "{0} λεπτού"
+          :other: "{0} λεπτών"
+        :duration-second:
+          :one: "{0} δευτερολέπτου"
+          :other: "{0} δευτερολέπτων"
+        :duration-millisecond:
+          :one: "{0} χιλιοστού του δευτερολέπτου"
+          :other: "{0} χιλιοστών του δευτερολέπτου"
+        :duration-microsecond:
+          :one: μικροδευτερόλεπτου
+          :other: "{0} μικροδευτερόλεπτων"
+        :duration-nanosecond:
+          :one: "{0} νανοδευτερόλεπτου"
+          :other: "{0} νανοδευτερόλεπτων"
+        :electric-ampere:
           :one: "{0} αμπέρ"
           :other: "{0} αμπέρ"
-        :electric-coulomb: 
-          :one: "{0} κουλόμπ"
-          :other: "{0} κουλόμπ"
-        :electric-farad: 
-          :one: "{0} φαράντ"
-          :other: "{0} φαράντ"
-        :electric-henry: 
-          :one: "{0} ανρί"
-          :other: "{0} ανρί"
-        :electric-milliampere: 
+        :electric-milliampere:
           :one: "{0} μιλιαμπέρ"
           :other: "{0} μιλιαμπέρ"
-        :electric-ohm: 
+        :electric-ohm:
           :one: "{0} ωμ"
           :other: "{0} ωμ"
-        :electric-siemens: 
-          :one: "{0} ζίμενς"
-          :other: "{0} ζίμενς"
-        :electric-volt: 
+        :electric-volt:
           :one: "{0} βολτ"
           :other: "{0} βολτ"
-        :energy-becquerel: 
-          :one: "{0} μπεκερέλ"
-          :other: "{0} μπεκερέλ"
-        :energy-british-thermal-unit: 
-          :one: "{0} βρετανική μονάδα θερμότητας"
-          :other: "{0} βρετανικές μονάδες θερμότητας"
-        :energy-calorie: 
-          :one: "{0} θερμίδας"
-          :other: "{0} θερμίδων"
-        :energy-calorie-it: 
-          :one: "{0} θερμίδα IT"
-          :other: "{0} θερμίδες IT"
-        :energy-electronvolt: 
-          :one: "{0} ηλεκτρονιοβόλτ"
-          :other: "{0} ηλεκτρονιοβόλτ"
-        :energy-foodcalorie: 
-          :one: "{0} θερμίδα"
-          :other: "{0} θερμίδες"
-        :energy-gray: 
-          :one: "{0} γκρέυ"
-          :other: "{0} γκρέυ"
-        :energy-joule: 
-          :one: "{0} τζάουλ"
-          :other: "{0} τζάουλ"
-        :energy-kilocalorie: 
+        :energy-kilocalorie:
           :one: "{0} χιλιοθερμίδας"
           :other: "{0} χιλιοθερμίδων"
-        :energy-kilojoule: 
+        :energy-calorie:
+          :one: "{0} θερμίδας"
+          :other: "{0} θερμίδων"
+        :energy-foodcalorie:
+          :one: "{0} θερμίδα"
+          :other: "{0} θερμίδες"
+        :energy-kilojoule:
           :one: "{0} κιλοτζάουλ"
           :other: "{0} κιλοτζάουλ"
-        :energy-kilowatt-hour: 
+        :energy-joule:
+          :one: "{0} τζάουλ"
+          :other: "{0} τζάουλ"
+        :energy-kilowatt-hour:
           :one: "{0} κιλοβατώρας"
           :other: "{0} κιλοβατωρών"
-        :energy-sievert: 
-          :one: "{0} sievert"
-          :other: "{0} sievert"
-        :energy-therm-us: 
+        :energy-electronvolt:
+          :one: "{0} ηλεκτρονιοβόλτ"
+          :other: "{0} ηλεκτρονιοβόλτ"
+        :energy-british-thermal-unit:
+          :one: "{0} βρετανική μονάδα θερμότητας"
+          :other: "{0} βρετανικές μονάδες θερμότητας"
+        :energy-therm-us:
           :one: "{0} θερμική μονάδα ΗΠΑ"
           :other: "{0} θερμικές μονάδες ΗΠΑ"
-        :force-kilogram-force: 
-          :one: "{0} χιλιόγραμμο δύναμης"
-          :other: "{0} χιλιόγραμμα δύναμης"
-        :force-kilowatt-hour-per-100-kilometer: 
-          :one: "{0} κιλοβατώρας ανά 100 χιλιόμετρα"
-          :other: "{0} κιλοβατωρών ανά 100 χιλιόμετρα"
-        :force-newton: 
-          :one: "{0} νιούτον"
-          :other: "{0} νιούτον"
-        :force-pound-force: 
+        :force-pound-force:
           :one: "{0} λίβρα δύναμης"
           :other: "{0} λίβρες δύναμης"
-        :frequency-gigahertz: 
+        :force-newton:
+          :one: "{0} νιούτον"
+          :other: "{0} νιούτον"
+        :force-kilowatt-hour-per-100-kilometer:
+          :one: "{0} κιλοβατώρας ανά 100 χιλιόμετρα"
+          :other: "{0} κιλοβατωρών ανά 100 χιλιόμετρα"
+        :frequency-gigahertz:
           :one: "{0} γιγαχέρτζ"
           :other: "{0} γιγαχέρτζ"
-        :frequency-hertz: 
-          :one: "{0} χερτζ"
-          :other: "{0} χερτζ"
-        :frequency-kilohertz: 
-          :one: "{0} κιλοχέρτζ"
-          :other: "{0} κιλοχέρτζ"
-        :frequency-megahertz: 
+        :frequency-megahertz:
           :one: "{0} μεγαχέρτζ"
           :other: "{0} μεγαχέρτζ"
-        :graphics-dot: 
-          :one: "{0} κουκκίδα"
-          :other: "{0} κουκκίδες"
-        :graphics-dot-per-centimeter: 
-          :one: "{0} κουκκίδα ανά εκατοστό"
-          :other: "{0} κουκκίδες ανά εκατοστό"
-        :graphics-dot-per-inch: 
-          :one: "{0} κουκκίδα ανά ίντσα"
-          :other: "{0} κουκκίδες ανά ίντσα"
-        :graphics-em: 
+        :frequency-kilohertz:
+          :one: "{0} κιλοχέρτζ"
+          :other: "{0} κιλοχέρτζ"
+        :frequency-hertz:
+          :one: "{0} χερτζ"
+          :other: "{0} χερτζ"
+        :graphics-em:
           :one: "{0} τυπογραφικού em"
           :other: "{0} τυπογραφικών em"
-        :graphics-megapixel: 
-          :one: "{0} megapixel"
-          :other: "{0} megapixel"
-        :graphics-pixel: 
+        :graphics-pixel:
           :one: "{0} pixel"
           :other: "{0} pixel"
-        :graphics-pixel-per-centimeter: 
+        :graphics-megapixel:
+          :one: "{0} megapixel"
+          :other: "{0} megapixel"
+        :graphics-pixel-per-centimeter:
           :one: "{0} pixel ανά εκατοστό"
           :other: "{0} pixel ανά εκατοστό"
-        :graphics-pixel-per-inch: 
+        :graphics-pixel-per-inch:
           :one: "{0} pixel ανά ίντσα"
           :other: "{0} pixel ανά ίντσα"
-        :length-astronomical-unit: 
-          :one: "{0} αστρονομική μονάδα"
-          :other: "{0} αστρονομικές μονάδες"
-        :length-centimeter: 
-          :one: "{0} εκατοστού"
-          :other: "{0} εκατοστών"
-        :length-decimeter: 
-          :one: "{0} δεκατομέτρου"
-          :other: "{0} δεκατόμετρων"
-        :length-earth-radius: 
+        :graphics-dot-per-centimeter:
+          :one: "{0} κουκκίδα ανά εκατοστό"
+          :other: "{0} κουκκίδες ανά εκατοστό"
+        :graphics-dot-per-inch:
+          :one: "{0} κουκκίδα ανά ίντσα"
+          :other: "{0} κουκκίδες ανά ίντσα"
+        :graphics-dot:
+          :one: "{0} κουκκίδα"
+          :other: "{0} κουκκίδες"
+        :length-earth-radius:
           :one: "{0} ακτίνα της Γης"
           :other: "{0} ακτίνες της Γης"
-        :length-fathom: 
-          :one: "{0} οργιά"
-          :other: "{0} οργιές"
-        :length-foot: 
-          :one: "{0} πόδι"
-          :other: "{0} πόδια"
-        :length-furlong: 
-          :one: "{0} φέρλονγκ"
-          :other: "{0} φέρλονγκ"
-        :length-inch: 
-          :one: "{0} ίντσα"
-          :other: "{0} ίντσες"
-        :length-kilometer: 
+        :length-kilometer:
           :one: χιλιομέτρου
           :other: "{0} χιλιομέτρων"
-        :length-light-year: 
-          :one: "{0} έτος φωτός"
-          :other: "{0} έτη φωτός"
-        :length-meter: 
+        :length-meter:
           :one: "{0} μέτρου"
           :other: "{0} μέτρων"
-        :length-micrometer: 
-          :one: "{0} μικρομέτρου"
-          :other: "{0} μικρομέτρων"
-        :length-mile: 
-          :one: "{0} μίλι"
-          :other: "{0} μίλια"
-        :length-mile-scandinavian: 
-          :one: "{0} σκανδιναβικού μιλίου"
-          :other: "{0} σκανδιναβικών μιλίων"
-        :length-millimeter: 
+        :length-decimeter:
+          :one: "{0} δεκατομέτρου"
+          :other: "{0} δεκατόμετρων"
+        :length-centimeter:
+          :one: "{0} εκατοστού"
+          :other: "{0} εκατοστών"
+        :length-millimeter:
           :one: "{0} χιλιοστόμετρου"
           :other: "{0} χιλιοστόμετρων"
-        :length-nanometer: 
+        :length-micrometer:
+          :one: "{0} μικρομέτρου"
+          :other: "{0} μικρομέτρων"
+        :length-nanometer:
           :one: "{0} νανομέτρου"
           :other: "{0} νανομέτρων"
-        :length-nautical-mile: 
-          :one: "{0} ναυτικό μίλι"
-          :other: "{0} ναυτικά μίλια"
-        :length-parsec: 
-          :one: "{0} παρσέκ"
-          :other: "{0} παρσέκ"
-        :length-picometer: 
+        :length-picometer:
           :one: "{0} πικόμετρου"
           :other: "{0} πικόμετρων"
-        :length-point: 
-          :one: "{0} στιγμής"
-          :other: "{0} στιγμών"
-        :length-solar-radius: 
-          :one: "{0} ακτίνα του Ήλιου"
-          :other: "{0} ακτίνες του Ήλιου"
-        :length-yard: 
+        :length-mile:
+          :one: "{0} μίλι"
+          :other: "{0} μίλια"
+        :length-yard:
           :one: "{0} γιάρδα"
           :other: "{0} γιάρδες"
-        :light-candela: 
+        :length-foot:
+          :one: "{0} πόδι"
+          :other: "{0} πόδια"
+        :length-inch:
+          :one: "{0} ίντσα"
+          :other: "{0} ίντσες"
+        :length-parsec:
+          :one: "{0} παρσέκ"
+          :other: "{0} παρσέκ"
+        :length-light-year:
+          :one: "{0} έτος φωτός"
+          :other: "{0} έτη φωτός"
+        :length-astronomical-unit:
+          :one: "{0} αστρονομική μονάδα"
+          :other: "{0} αστρονομικές μονάδες"
+        :length-furlong:
+          :one: "{0} φέρλονγκ"
+          :other: "{0} φέρλονγκ"
+        :length-fathom:
+          :one: "{0} οργιά"
+          :other: "{0} οργιές"
+        :length-nautical-mile:
+          :one: "{0} ναυτικό μίλι"
+          :other: "{0} ναυτικά μίλια"
+        :length-mile-scandinavian:
+          :one: "{0} σκανδιναβικού μιλίου"
+          :other: "{0} σκανδιναβικών μιλίων"
+        :length-point:
+          :one: "{0} στιγμής"
+          :other: "{0} στιγμών"
+        :length-solar-radius:
+          :one: "{0} ακτίνα του Ήλιου"
+          :other: "{0} ακτίνες του Ήλιου"
+        :light-candela:
           :one: "{0} καντέλας"
           :other: "{0} καντέλων"
-        :light-lumen: 
+        :light-lumen:
           :one: "{0} λούμεν"
           :other: "{0} λούμεν"
-        :light-solar-luminosity: 
+        :light-solar-luminosity:
           :one: "{0} ηλιακή φωτεινότητα"
           :other: "{0} ηλιακές φωτεινότητες"
-        :magnetic-tesla: 
-          :one: "{0} τέσλα"
-          :other: "{0} τέσλα"
-        :magnetic-weber: 
-          :one: "{0} βέμπερ"
-          :other: "{0} βέμπερ"
-        :mass-carat: 
-          :one: "{0} καρατίου"
-          :other: "{0} καρατίων"
-        :mass-dalton: 
-          :one: "{0} Ντάλτον"
-          :other: "{0} Ντάλτον"
-        :mass-earth-mass: 
-          :one: "{0} μάζα της Γης"
-          :other: "{0} μάζες της Γης"
-        :mass-grain: 
-          :one: "{0} κόκκος"
-          :other: "{0} κόκκοι"
-        :mass-gram: 
-          :one: "{0} γραμμάριου"
-          :other: "{0} γραμμάριων"
-        :mass-kilogram: 
-          :one: "{0} χιλιόγραμμου"
-          :other: "{0} χιλιόγραμμων"
-        :mass-microgram: 
-          :one: "{0} μικρογραμμάριου"
-          :other: "{0} μικρογραμμαρίων"
-        :mass-milligram: 
-          :one: "{0} χιλιοστόγραμμου"
-          :other: "{0} χιλιοστόγραμμων"
-        :mass-ounce: 
-          :one: "{0} ουγγιά"
-          :other: "{0} ουγγιές"
-        :mass-ounce-troy: 
-          :one: "{0} ευγενής ουγγιά"
-          :other: "{0} ευγενείς ουγγιές"
-        :mass-pound: 
-          :one: "{0} λίβρα"
-          :other: "{0} λίβρες"
-        :mass-solar-mass: 
-          :one: "{0} μάζα του Ήλιου"
-          :other: "{0} μάζες του Ήλιου"
-        :mass-stone: 
-          :one: "{0} stone"
-          :other: "{0} stone"
-        :mass-ton: 
-          :one: "{0} τόνος ΗΠΑ"
-          :other: "{0} τόνοι ΗΠΑ"
-        :mass-tonne: 
+        :mass-tonne:
           :one: "{0} τόνου"
           :other: "{0} τόνων"
-        :power-gigawatt: 
+        :mass-kilogram:
+          :one: "{0} χιλιόγραμμου"
+          :other: "{0} χιλιόγραμμων"
+        :mass-gram:
+          :one: "{0} γραμμάριου"
+          :other: "{0} γραμμάριων"
+        :mass-milligram:
+          :one: "{0} χιλιοστόγραμμου"
+          :other: "{0} χιλιοστόγραμμων"
+        :mass-microgram:
+          :one: "{0} μικρογραμμάριου"
+          :other: "{0} μικρογραμμαρίων"
+        :mass-ton:
+          :one: "{0} τόνος ΗΠΑ"
+          :other: "{0} τόνοι ΗΠΑ"
+        :mass-stone:
+          :one: "{0} stone"
+          :other: "{0} stone"
+        :mass-pound:
+          :one: "{0} λίβρα"
+          :other: "{0} λίβρες"
+        :mass-ounce:
+          :one: "{0} ουγγιά"
+          :other: "{0} ουγγιές"
+        :mass-ounce-troy:
+          :one: "{0} ευγενής ουγγιά"
+          :other: "{0} ευγενείς ουγγιές"
+        :mass-carat:
+          :one: "{0} καρατίου"
+          :other: "{0} καρατίων"
+        :mass-dalton:
+          :one: "{0} Ντάλτον"
+          :other: "{0} Ντάλτον"
+        :mass-earth-mass:
+          :one: "{0} μάζα της Γης"
+          :other: "{0} μάζες της Γης"
+        :mass-solar-mass:
+          :one: "{0} μάζα του Ήλιου"
+          :other: "{0} μάζες του Ήλιου"
+        :mass-grain:
+          :one: "{0} κόκκος"
+          :other: "{0} κόκκοι"
+        :power-gigawatt:
           :one: "{0} γιγαβάτ"
           :other: "{0} γιγαβάτ"
-        :power-horsepower: 
-          :one: "{0} ίππος"
-          :other: "{0} ίπποι"
-        :power-kilowatt: 
-          :one: "{0} κιλοβάτ"
-          :other: "{0} κιλοβάτ"
-        :power-megawatt: 
+        :power-megawatt:
           :one: "{0} μεγαβάτ"
           :other: "{0} μεγαβάτ"
-        :power-milliwatt: 
-          :one: "{0} μιλιβάτ"
-          :other: "{0} μιλιβάτ"
-        :power-watt: 
+        :power-kilowatt:
+          :one: "{0} κιλοβάτ"
+          :other: "{0} κιλοβάτ"
+        :power-watt:
           :one: "{0} βατ"
           :other: "{0} βατ"
-        :pressure-atmosphere: 
-          :one: "{0} ατμόσφαιρας"
-          :other: "{0} ατμόσφαιρων"
-        :pressure-hectopascal: 
-          :one: "{0} εκτοπασκάλ"
-          :other: "{0} εκτοπασκάλ"
-        :pressure-inch-ofhg: 
-          :one: "{0} ίντσα στήλης υδραργύρου"
-          :other: "{0} ίντσες στήλης υδραργύρου"
-        :pressure-kilopascal: 
-          :one: "{0} κιλοπασκάλ"
-          :other: "{0} κιλοπασκάλ"
-        :pressure-megapascal: 
-          :one: "{0} μεγαπασκάλ"
-          :other: "{0} μεγαπασκάλ"
-        :pressure-millibar: 
-          :one: "{0} μιλιμπάρ"
-          :other: "{0} μιλιμπάρ"
-        :pressure-millimeter-ofhg: 
+        :power-milliwatt:
+          :one: "{0} μιλιβάτ"
+          :other: "{0} μιλιβάτ"
+        :power-horsepower:
+          :one: "{0} ίππος"
+          :other: "{0} ίπποι"
+        :pressure-millimeter-ofhg:
           :one: "{0} χιλιοστομέτρου στήλης υδραργύρου"
           :other: "{0} χιλιοστόμετρων στήλης υδραργύρου"
-        :pressure-ofhg: 
+        :pressure-ofhg:
           :one: "{0} στήλης υδραργύρου"
           :other: "{0} στήλης υδραργύρου"
-        :pressure-pascal: 
-          :one: "{0} πασκάλ"
-          :other: "{0} πασκάλ"
-        :pressure-pound-force-per-square-inch: 
+        :pressure-pound-force-per-square-inch:
           :one: "{0} λίβρα ανά τετραγωνική ίντσα"
           :other: "{0} λίβρες ανά τετραγωνική ίντσα"
-        :speed-beaufort: 
-          :one: "{0} μποφόρ"
-          :other: "{0} μποφόρ"
-        :speed-kilometer-per-hour: 
+        :pressure-inch-ofhg:
+          :one: "{0} ίντσα στήλης υδραργύρου"
+          :other: "{0} ίντσες στήλης υδραργύρου"
+        :pressure-millibar:
+          :one: "{0} μιλιμπάρ"
+          :other: "{0} μιλιμπάρ"
+        :pressure-atmosphere:
+          :one: "{0} ατμόσφαιρας"
+          :other: "{0} ατμόσφαιρων"
+        :pressure-pascal:
+          :one: "{0} πασκάλ"
+          :other: "{0} πασκάλ"
+        :pressure-hectopascal:
+          :one: "{0} εκτοπασκάλ"
+          :other: "{0} εκτοπασκάλ"
+        :pressure-kilopascal:
+          :one: "{0} κιλοπασκάλ"
+          :other: "{0} κιλοπασκάλ"
+        :pressure-megapascal:
+          :one: "{0} μεγαπασκάλ"
+          :other: "{0} μεγαπασκάλ"
+        :speed-kilometer-per-hour:
           :one: "{0} χιλιόμετρου ανά ώρα"
           :other: "{0} χιλιομέτρων ανά ώρα"
-        :speed-knot: 
-          :one: "{0} κόμβος"
-          :other: "{0} κόμβοι"
-        :speed-light-speed: 
-          :one: φωτός
-          :other: "{0} φωτός"
-        :speed-meter-per-second: 
+        :speed-meter-per-second:
           :one: "{0} μέτρου ανά δευτερόλεπτο"
           :other: "{0} μέτρων ανά δευτερόλεπτο"
-        :speed-mile-per-hour: 
+        :speed-mile-per-hour:
           :one: "{0} μίλι ανά ώρα"
           :other: "{0} μίλια ανά ώρα"
-        :temperature-celsius: 
-          :one: "{0} βαθμού Κελσίου"
-          :other: "{0} βαθμών Κελσίου"
-        :temperature-fahrenheit: 
-          :one: "{0} βαθμός Φαρενάιτ"
-          :other: "{0} βαθμοί Φαρενάιτ"
-        :temperature-generic: 
+        :speed-knot:
+          :one: "{0} κόμβος"
+          :other: "{0} κόμβοι"
+        :speed-beaufort:
+          :one: "{0} μποφόρ"
+          :other: "{0} μποφόρ"
+        :temperature-generic:
           :one: "{0} βαθμού"
           :other: "{0} βαθμών"
-        :temperature-kelvin: 
+        :temperature-celsius:
+          :one: "{0} βαθμού Κελσίου"
+          :other: "{0} βαθμών Κελσίου"
+        :temperature-fahrenheit:
+          :one: "{0} βαθμός Φαρενάιτ"
+          :other: "{0} βαθμοί Φαρενάιτ"
+        :temperature-kelvin:
           :one: "{0} βαθμού Κέλβιν"
           :other: "{0} βαθμών Κέλβιν"
-        :torque-newton-meter: 
-          :one: "{0} νιουτόμετρου"
-          :other: "{0} νιουτόμετρων"
-        :torque-pound-force-foot: 
+        :torque-pound-force-foot:
           :one: "{0} λίβρα-πόδι"
           :other: "{0} λίβρες-πόδια"
-        :volume-acre-foot: 
-          :one: "{0} ακρ-πόδι"
-          :other: "{0} ακρ-πόδια"
-        :volume-barrel: 
-          :one: "{0} βαρέλι"
-          :other: "{0} βαρέλια"
-        :volume-bushel: 
-          :one: "{0} μπούσελ"
-          :other: "{0} μπούσελ"
-        :volume-centiliter: 
-          :one: "{0} εκατοστόλιτρου"
-          :other: "{0} εκατοστόλιτρων"
-        :volume-cubic-centimeter: 
-          :one: "{0} κυβικού εκατοστού"
-          :other: "{0} κυβικών εκατοστών"
-        :volume-cubic-foot: 
-          :one: "{0} κυβικό πόδι"
-          :other: "{0} κυβικά πόδια"
-        :volume-cubic-inch: 
-          :one: "{0} κυβική ίντσα"
-          :other: "{0} κυβικές ίντσες"
-        :volume-cubic-kilometer: 
+        :torque-newton-meter:
+          :one: "{0} νιουτόμετρου"
+          :other: "{0} νιουτόμετρων"
+        :volume-cubic-kilometer:
           :one: "{0} κυβικού χιλιομέτρου"
           :other: "{0} κυβικών χιλιομέτρων"
-        :volume-cubic-meter: 
+        :volume-cubic-meter:
           :one: "{0} κυβικού μέτρου"
           :other: "{0} κυβικών μέτρων"
-        :volume-cubic-mile: 
+        :volume-cubic-centimeter:
+          :one: "{0} κυβικού εκατοστού"
+          :other: "{0} κυβικών εκατοστών"
+        :volume-cubic-mile:
           :one: "{0} κυβικό μίλι"
           :other: "{0} κυβικά μίλια"
-        :volume-cubic-yard: 
+        :volume-cubic-yard:
           :one: "{0} κυβική γιάρδα"
           :other: "{0} κυβικές γιάρδες"
-        :volume-cup: 
-          :one: "{0} κύπελλο"
-          :other: "{0} κύπελλα"
-        :volume-cup-metric: 
-          :one: "{0} μετρικού κύπελλου"
-          :other: "{0} μετρικών κύπελλων"
-        :volume-deciliter: 
-          :one: "{0} δεκατόλιτρου"
-          :other: "{0} δεκατόλιτρων"
-        :volume-dessert-spoon: 
-          :one: "{0} κουταλιά φρούτου"
-          :other: "{0} κουταλιές φρούτου"
-        :volume-dessert-spoon-imperial: 
-          :one: "{0} αγγλοσαξονική κουταλιά φρούτου"
-          :other: "{0} αγγλοσαξονικές κουταλιές φρούτου"
-        :volume-dram: 
-          :one: "{0} δράμι"
-          :other: "{0} δράμια"
-        :volume-drop: 
-          :one: "{0} σταγόνα"
-          :other: "{0} σταγόνες"
-        :volume-fluid-ounce: 
-          :one: "{0} ουγγιά όγκου"
-          :other: "{0} ουγγιές όγκου"
-        :volume-fluid-ounce-imperial: 
-          :one: "{0} αγγλοσαξονική ουγγιά όγκου"
-          :other: "{0} αγγλοσαξονικές ουγγιές όγκου"
-        :volume-fluid-ounce-metric: 
-          :one: "{0} μετρική ουγγιά υγρών"
-          :other: "{0} μετρικές ουγγιές υγρών"
-        :volume-gallon: 
-          :one: "{0} γαλόνι"
-          :other: "{0} γαλόνια"
-        :volume-gallon-imperial: 
-          :one: "{0} αγγλοσαξονικό γαλόνι"
-          :other: "{0} αγγλοσαξονικά γαλόνια"
-        :volume-hectoliter: 
-          :one: "{0} εκτόλιτρου"
-          :other: "{0} εκτόλιτρων"
-        :volume-jigger: 
-          :one: "{0} μεζούρα"
-          :other: "{0} μεζούρες"
-        :volume-liter: 
-          :one: "{0} λίτρου"
-          :other: "{0} λίτρων"
-        :volume-megaliter: 
+        :volume-cubic-foot:
+          :one: "{0} κυβικό πόδι"
+          :other: "{0} κυβικά πόδια"
+        :volume-cubic-inch:
+          :one: "{0} κυβική ίντσα"
+          :other: "{0} κυβικές ίντσες"
+        :volume-megaliter:
           :one: "{0} μεγαλίτρου"
           :other: "{0} μεγαλίτρων"
-        :volume-milliliter: 
+        :volume-hectoliter:
+          :one: "{0} εκτόλιτρου"
+          :other: "{0} εκτόλιτρων"
+        :volume-liter:
+          :one: "{0} λίτρου"
+          :other: "{0} λίτρων"
+        :volume-deciliter:
+          :one: "{0} δεκατόλιτρου"
+          :other: "{0} δεκατόλιτρων"
+        :volume-centiliter:
+          :one: "{0} εκατοστόλιτρου"
+          :other: "{0} εκατοστόλιτρων"
+        :volume-milliliter:
           :one: "{0} χιλιοστόλιτρου"
           :other: "{0} χιλιοστόλιτρων"
-        :volume-pinch: 
-          :one: "{0} πρέζα"
-          :other: "{0} πρέζες"
-        :volume-pint: 
-          :one: "{0} πίντα"
-          :other: "{0} πίντες"
-        :volume-pint-metric: 
+        :volume-pint-metric:
           :one: "{0} μετρικής πίντας"
           :other: "{0} μετρικών πιντών"
-        :volume-quart: 
+        :volume-cup-metric:
+          :one: "{0} μετρικού κύπελλου"
+          :other: "{0} μετρικών κύπελλων"
+        :volume-fluid-ounce-metric:
+          :one: "{0} μετρική ουγγιά υγρών"
+          :other: "{0} μετρικές ουγγιές υγρών"
+        :volume-acre-foot:
+          :one: "{0} ακρ-πόδι"
+          :other: "{0} ακρ-πόδια"
+        :volume-bushel:
+          :one: "{0} μπούσελ"
+          :other: "{0} μπούσελ"
+        :volume-gallon:
+          :one: "{0} γαλόνι"
+          :other: "{0} γαλόνια"
+        :volume-gallon-imperial:
+          :one: "{0} αγγλοσαξονικό γαλόνι"
+          :other: "{0} αγγλοσαξονικά γαλόνια"
+        :volume-quart:
           :one: "{0} τέταρτο του γαλονιού"
           :other: "{0} τέταρτα του γαλονιού"
-        :volume-quart-imperial: 
-          :one: "{0} αγγλοσαξονικό τέταρτο του γαλονιού"
-          :other: "{0} αγγλοσαξονικά τέταρτα του γαλονιού"
-        :volume-tablespoon: 
+        :volume-pint:
+          :one: "{0} πίντα"
+          :other: "{0} πίντες"
+        :volume-cup:
+          :one: "{0} κύπελλο"
+          :other: "{0} κύπελλα"
+        :volume-fluid-ounce:
+          :one: "{0} ουγγιά όγκου"
+          :other: "{0} ουγγιές όγκου"
+        :volume-fluid-ounce-imperial:
+          :one: "{0} αγγλοσαξονική ουγγιά όγκου"
+          :other: "{0} αγγλοσαξονικές ουγγιές όγκου"
+        :volume-tablespoon:
           :one: "{0} κουταλιά της σούπας"
           :other: "{0} κουταλιές της σούπας"
-        :volume-teaspoon: 
+        :volume-teaspoon:
           :one: "{0} κουταλιά του γλυκού"
           :other: "{0} κουταλιές του γλυκού"
-      :narrow: 
-        :acceleration-g-force: 
-          :one: "{0} G"
-          :other: "{0} G"
-        :angle-arc-minute: 
-          :one: "{0}′"
-          :other: "{0}′"
-        :angle-arc-second: 
-          :one: "{0}″"
-          :other: "{0}″"
-        :area-hectare: 
-          :one: "{0} ha"
-          :other: "{0} ha"
-        :area-square-kilometer: 
-          :one: "{0} km²"
-          :other: "{0} km²"
-        :concentr-katal: 
-          :one: "{0} kat"
-          :other: "{0} kat"
-        :concentr-part: 
-          :one: "{0} μέρος"
-          :other: "{0} μέρη"
-        :consumption-liter-per-100-kilometer: 
-          :one: "{0} λ/100 χλμ"
-          :other: "{0} λ/100 χλμ"
-        :consumption-liter-per-kilometer: 
-          :one: "{0} λ/χλμ"
-          :other: "{0} λ/χλμ"
-        :duration-day: 
-          :one: "{0} η"
-          :other: "{0} η"
-        :duration-hour: 
-          :one: "{0} ώ"
-          :other: "{0} ώ"
-        :duration-minute: 
-          :one: "{0} λ"
-          :other: "{0} λ"
-        :duration-month: 
-          :one: "{0} μ"
-          :other: "{0} μ"
-        :duration-quarter: 
-          :one: "{0} τέτ."
-          :other: "{0} τέτ."
-        :duration-second: 
-          :one: "{0} δ"
-          :other: "{0} δ"
-        :duration-week: 
-          :one: "{0} ε"
-          :other: "{0} ε"
-        :duration-year: 
-          :one: "{0} έ"
-          :other: "{0} έ"
-        :energy-kilowatt-hour: 
-          :one: "{0} kW/ώ."
-          :other: "{0} kW/ώ."
-        :length-foot: 
-          :one: "{0} ft"
-          :other: "{0} ft"
-        :length-inch: 
-          :one: "{0} in"
-          :other: "{0} in"
-        :length-light-year: 
-          :one: "{0} ly"
-          :other: "{0} ly"
-        :length-mile: 
-          :one: "{0} mi"
-          :other: "{0} mi"
-        :length-mile-scandinavian: 
-          :one: "{0}smi"
-          :other: "{0}smi"
-        :length-yard: 
-          :one: "{0} yd"
-          :other: "{0} yd"
-        :light-lumen: 
-          :one: "{0} λμ"
-          :other: "{0} λμ"
-        :mass-kilogram: 
-          :one: "{0} kg"
-          :other: "{0} kg"
-        :power-horsepower: 
-          :one: "{0} hp"
-          :other: "{0} hp"
-        :speed-beaufort: 
-          :one: "{0} Bf"
-          :other: "{0} Bf"
-        :speed-kilometer-per-hour: 
-          :one: "{0} χλμ/ώ."
-          :other: "{0} χλμ/ώ."
-        :speed-meter-per-second: 
-          :one: "{0} μ./δ."
-          :other: "{0} μ./δ."
-        :speed-mile-per-hour: 
-          :one: "{0} μίλι/ώ."
-          :other: "{0} μίλια/ώ."
-        :volume-cup-metric: 
-          :one: "{0} μ. κύπ."
-          :other: "{0} μ. κύπ."
-        :volume-dessert-spoon-imperial: 
-          :one: "{0} αγγλ. κ.φρ."
-          :other: "{0} αγγλ. κ.φρ."
-        :volume-fluid-ounce-metric: 
-          :one: "{0} μ. ουγγιά υγρ."
-          :other: "{0} μ. ουγγιές υγρ."
-        :volume-liter: 
-          :one: "{0} λ."
-          :other: "{0} λ."
-        :volume-pint-metric: 
-          :one: "{0} μ. πίντα"
-          :other: "{0} μ. πίντες"
-      :short: 
-        :acceleration-g-force: 
-          :one: "{0} δύν. επιτάχ."
+        :volume-barrel:
+          :one: "{0} βαρέλι"
+          :other: "{0} βαρέλια"
+        :volume-dessert-spoon:
+          :one: "{0} κουταλιά φρούτου"
+          :other: "{0} κουταλιές φρούτου"
+        :volume-dessert-spoon-imperial:
+          :one: "{0} αγγλοσαξονική κουταλιά φρούτου"
+          :other: "{0} αγγλοσαξονικές κουταλιές φρούτου"
+        :volume-drop:
+          :one: "{0} σταγόνα"
+          :other: "{0} σταγόνες"
+        :volume-dram:
+          :one: "{0} δράμι"
+          :other: "{0} δράμια"
+        :volume-jigger:
+          :one: "{0} μεζούρα"
+          :other: "{0} μεζούρες"
+        :volume-pinch:
+          :one: "{0} πρέζα"
+          :other: "{0} πρέζες"
+        :volume-quart-imperial:
+          :one: "{0} αγγλοσαξονικό τέταρτο του γαλονιού"
+          :other: "{0} αγγλοσαξονικά τέταρτα του γαλονιού"
+        :angle-steradian:
+          :one: "{0} στερακτίνιο"
+          :other: "{0} στερακτίνια"
+        :concentr-katal:
+          :one: "{0} κατάλ"
+          :other: "{0} κατάλ"
+        :electric-coulomb:
+          :one: "{0} κουλόμπ"
+          :other: "{0} κουλόμπ"
+        :electric-farad:
+          :one: "{0} φαράντ"
+          :other: "{0} φαράντ"
+        :electric-henry:
+          :one: "{0} ανρί"
+          :other: "{0} ανρί"
+        :electric-siemens:
+          :one: "{0} ζίμενς"
+          :other: "{0} ζίμενς"
+        :energy-calorie-it:
+          :one: "{0} θερμίδα IT"
+          :other: "{0} θερμίδες IT"
+        :energy-becquerel:
+          :one: "{0} μπεκερέλ"
+          :other: "{0} μπεκερέλ"
+        :energy-sievert:
+          :one: "{0} sievert"
+          :other: "{0} sievert"
+        :energy-gray:
+          :one: "{0} γκρέυ"
+          :other: "{0} γκρέυ"
+        :force-kilogram-force:
+          :one: "{0} χιλιόγραμμο δύναμης"
+          :other: "{0} χιλιόγραμμα δύναμης"
+        :magnetic-tesla:
+          :one: "{0} τέσλα"
+          :other: "{0} τέσλα"
+        :magnetic-weber:
+          :one: "{0} βέμπερ"
+          :other: "{0} βέμπερ"
+        :speed-light-speed:
+          :one: φωτός
+          :other: "{0} φωτός"
+        :concentr-part-per-1e9:
+          :one: "{0} μέρους στο δισεκατομμύριο"
+          :other: "{0} μερών στο δισεκατομμύριο"
+        :duration-night:
+          :one: "{0} νύχτας"
+          :other: "{0} νυχτών"
+      :short:
+        :acceleration-g-force:
           :other: "{0} δυν. επιτάχ."
-        :acceleration-meter-per-square-second: 
+          :one: "{0} δύν. επιτάχ."
+        :acceleration-meter-per-square-second:
           :other: "{0} m/s²"
-        :angle-arc-minute: 
-          :one: "{0} λεπ. τόξου"
-          :other: "{0} λεπ. τόξου"
-        :angle-arc-second: 
-          :one: "{0} arcsec"
-          :other: "{0} arcsec"
-        :angle-degree: 
-          :other: "{0}°"
-        :angle-radian: 
-          :one: "{0} ακτν"
-          :other: "{0} ακτν"
-        :angle-revolution: 
-          :one: "{0} στρφ"
+        :angle-revolution:
           :other: "{0} στρφ"
-        :angle-steradian: 
-          :other: "{0} sr"
-        :area-acre: 
-          :one: "{0} ακρ"
-          :other: "{0} ακρ"
-        :area-bu-jp: 
-          :other: "{0} bu [JP]"
-        :area-cho: 
-          :other: "{0} cho [JP]"
-        :area-dunam: 
-          :one: "{0} ντούναμ"
-          :other: "{0} ντούναμ"
-        :area-hectare: 
-          :one: "{0} εκτ."
-          :other: "{0} εκτ."
-        :area-se-jp: 
-          :other: "{0} se [JP]"
-        :area-square-centimeter: 
-          :one: "{0} τ.εκ."
-          :other: "{0} τ.εκ."
-        :area-square-foot: 
-          :one: "{0} τ.πδ"
-          :other: "{0} τ.πδ"
-        :area-square-inch: 
-          :one: "{0} τ. ίντσα"
-          :other: "{0} τ. ίντσες"
-        :area-square-kilometer: 
-          :one: "{0} τ.χλμ."
+          :one: "{0} στρφ"
+        :angle-radian:
+          :other: "{0} ακτν"
+          :one: "{0} ακτν"
+        :angle-degree:
+          :other: "{0}°"
+        :angle-arc-minute:
+          :other: "{0} λεπ. τόξου"
+          :one: "{0} λεπ. τόξου"
+        :angle-arc-second:
+          :other: "{0} arcsec"
+          :one: "{0} arcsec"
+        :area-square-kilometer:
           :other: "{0} τ.χλμ."
-        :area-square-meter: 
-          :one: "{0} τ.μ."
+          :one: "{0} τ.χλμ."
+        :area-hectare:
+          :other: "{0} εκτ."
+          :one: "{0} εκτ."
+        :area-square-meter:
           :other: "{0} τ.μ."
-        :area-square-mile: 
-          :one: "{0} τ.μίλι"
+          :one: "{0} τ.μ."
+        :area-square-centimeter:
+          :other: "{0} τ.εκ."
+          :one: "{0} τ.εκ."
+        :area-square-mile:
           :other: "{0} τ.μίλια"
-        :area-square-yard: 
-          :one: "{0} τ.γρδ"
+          :one: "{0} τ.μίλι"
+        :area-acre:
+          :other: "{0} ακρ"
+          :one: "{0} ακρ"
+        :area-square-yard:
           :other: "{0} τ.γρδ"
-        :concentr-item: 
-          :one: "{0} στοιχείο"
-          :other: "{0} στοιχεία"
-        :concentr-karat: 
-          :one: "{0} κρτ"
+          :one: "{0} τ.γρδ"
+        :area-square-foot:
+          :other: "{0} τ.πδ"
+          :one: "{0} τ.πδ"
+        :area-square-inch:
+          :other: "{0} τ. ίντσες"
+          :one: "{0} τ. ίντσα"
+        :area-dunam:
+          :other: "{0} ντούναμ"
+          :one: "{0} ντούναμ"
+        :concentr-karat:
           :other: "{0} κρτ"
-        :concentr-katal: 
-          :one: "{0} kat"
-          :other: "{0} kat"
-        :concentr-milligram-ofglucose-per-deciliter: 
+          :one: "{0} κρτ"
+        :concentr-milligram-ofglucose-per-deciliter:
           :other: "{0} mg/dL"
-        :concentr-millimole-per-liter: 
+        :concentr-millimole-per-liter:
           :other: "{0} mmol/L"
-        :concentr-mole: 
-          :one: "{0} μολ"
-          :other: "{0} μολ"
-        :concentr-ofglucose: 
-          :other: "{0} Glc"
-        :concentr-part: 
-          :one: "{0} μέρος"
+        :concentr-item:
+          :other: "{0} στοιχεία"
+          :one: "{0} στοιχείο"
+        :concentr-part:
           :other: "{0} μέρη"
-        :concentr-part-per-1e6: 
+          :one: "{0} μέρος"
+        :concentr-part-per-1e6:
           :other: "{0} ppm"
-        :concentr-part-per-1e9: 
-          :other: "{0} ppb"
-        :concentr-percent: 
+        :concentr-percent:
           :other: "{0}%"
-        :concentr-permille: 
+        :concentr-permille:
           :other: "{0}‰"
-        :concentr-permyriad: 
+        :concentr-permyriad:
           :other: "{0}‱"
-        :consumption-liter-per-100-kilometer: 
-          :one: "{0} λ./100 χλμ."
-          :other: "{0} λ./100 χλμ."
-        :consumption-liter-per-kilometer: 
-          :one: "{0} λίτρο/χλμ."
+        :concentr-mole:
+          :other: "{0} μολ"
+          :one: "{0} μολ"
+        :concentr-ofglucose:
+          :other: "{0} Glc"
+        :consumption-liter-per-kilometer:
           :other: "{0} λίτρα/χλμ."
-        :consumption-mile-per-gallon: 
-          :one: "{0} mpg"
+          :one: "{0} λίτρο/χλμ."
+        :consumption-liter-per-100-kilometer:
+          :other: "{0} λ./100 χλμ."
+          :one: "{0} λ./100 χλμ."
+        :consumption-mile-per-gallon:
           :other: "{0} mpg"
-        :consumption-mile-per-gallon-imperial: 
-          :one: "{0} μίλι/αγγλ. γαλόνι"
+          :one: "{0} mpg"
+        :consumption-mile-per-gallon-imperial:
           :other: "{0} μίλια/αγγλ. γαλόνι"
-        :digital-bit: 
-          :other: "{0} bit"
-        :digital-byte: 
-          :other: "{0} byte"
-        :digital-gigabit: 
-          :other: "{0} Gb"
-        :digital-gigabyte: 
-          :other: "{0} GB"
-        :digital-kilobit: 
-          :other: "{0} kb"
-        :digital-kilobyte: 
-          :other: "{0} kB"
-        :digital-megabit: 
-          :other: "{0} Mb"
-        :digital-megabyte: 
-          :other: "{0} MB"
-        :digital-petabyte: 
+          :one: "{0} μίλι/αγγλ. γαλόνι"
+        :digital-petabyte:
           :other: "{0} PB"
-        :digital-terabit: 
-          :other: "{0} Tb"
-        :digital-terabyte: 
+        :digital-terabyte:
           :other: "{0} TB"
-        :duration-century: 
-          :one: "{0} αιών."
+        :digital-terabit:
+          :other: "{0} Tb"
+        :digital-gigabyte:
+          :other: "{0} GB"
+        :digital-gigabit:
+          :other: "{0} Gb"
+        :digital-megabyte:
+          :other: "{0} MB"
+        :digital-megabit:
+          :other: "{0} Mb"
+        :digital-kilobyte:
+          :other: "{0} kB"
+        :digital-kilobit:
+          :other: "{0} kb"
+        :digital-byte:
+          :other: "{0} byte"
+        :digital-bit:
+          :other: "{0} bit"
+        :duration-century:
           :other: "{0} αιών."
-        :duration-day: 
-          :one: "{0} ημέρα"
-          :other: "{0} ημέρες"
-        :duration-decade: 
-          :one: "{0} δεκ."
+          :one: "{0} αιών."
+        :duration-decade:
           :other: "{0} δεκ."
-        :duration-fortnight: 
-          :other: "{0} fw"
-        :duration-hour: 
-          :one: "{0} ώ."
-          :other: "{0} ώ."
-        :duration-microsecond: 
-          :other: "{0} μs"
-        :duration-millisecond: 
-          :other: "{0} ms"
-        :duration-minute: 
-          :one: "{0} λ."
-          :other: "{0} λ."
-        :duration-month: 
-          :one: "{0} μήν."
-          :other: "{0} μήν."
-        :duration-nanosecond: 
-          :other: "{0} ns"
-        :duration-night: 
-          :one: "{0} νύχτ."
-          :other: "{0} νύχτ."
-        :duration-quarter: 
-          :one: "{0} τέτ."
-          :other: "{0} τέτ/α"
-        :duration-second: 
-          :one: "{0} δευτ."
-          :other: "{0} δευτ."
-        :duration-week: 
-          :one: "{0} εβδ."
-          :other: "{0} εβδ."
-        :duration-year: 
-          :one: "{0} έτ."
+          :one: "{0} δεκ."
+        :duration-year:
           :other: "{0} έτ."
-        :electric-ampere: 
+          :one: "{0} έτ."
+        :duration-quarter:
+          :other: "{0} τέτ/α"
+          :one: "{0} τέτ."
+        :duration-month:
+          :other: "{0} μήν."
+          :one: "{0} μήν."
+        :duration-week:
+          :other: "{0} εβδ."
+          :one: "{0} εβδ."
+        :duration-day:
+          :other: "{0} ημέρες"
+          :one: "{0} ημέρα"
+        :duration-hour:
+          :other: "{0} ώ."
+          :one: "{0} ώ."
+        :duration-minute:
+          :other: "{0} λ."
+          :one: "{0} λ."
+        :duration-second:
+          :other: "{0} δευτ."
+          :one: "{0} δευτ."
+        :duration-millisecond:
+          :other: "{0} ms"
+        :duration-microsecond:
+          :other: "{0} μs"
+        :duration-nanosecond:
+          :other: "{0} ns"
+        :electric-ampere:
           :other: "{0} A"
-        :electric-coulomb: 
-          :other: "{0} C"
-        :electric-farad: 
-          :other: "{0} F"
-        :electric-henry: 
-          :other: "{0} H"
-        :electric-milliampere: 
+        :electric-milliampere:
           :other: "{0} mA"
-        :electric-ohm: 
+        :electric-ohm:
           :other: "{0} Ω"
-        :electric-siemens: 
-          :other: "{0} S"
-        :electric-volt: 
+        :electric-volt:
           :other: "{0} V"
-        :energy-becquerel: 
-          :other: "{0} Bq"
-        :energy-british-thermal-unit: 
-          :one: "{0} BTU"
-          :other: "{0} BTU"
-        :energy-british-thermal-unit-it: 
-          :other: "{0} BTU-IT"
-        :energy-calorie: 
-          :one: "{0} θερμ."
-          :other: "{0} θερμ."
-        :energy-calorie-it: 
-          :other: "{0} cal-IT"
-        :energy-electronvolt: 
-          :other: "{0} eV"
-        :energy-foodcalorie: 
-          :one: "{0} θερμ."
-          :other: "{0} θερμ."
-        :energy-gray: 
-          :other: "{0} Gy"
-        :energy-joule: 
-          :other: "{0} J"
-        :energy-kilocalorie: 
+        :energy-kilocalorie:
           :other: "{0} kcal"
-        :energy-kilojoule: 
+        :energy-calorie:
+          :other: "{0} θερμ."
+          :one: "{0} θερμ."
+        :energy-kilojoule:
           :other: "{0} kJ"
-        :energy-kilowatt-hour: 
-          :one: "{0} κιλοβάτ/ώρα"
+        :energy-joule:
+          :other: "{0} J"
+        :energy-kilowatt-hour:
           :other: "{0} κιλοβάτ/ώρα"
-        :energy-sievert: 
-          :other: "{0} Sv"
-        :energy-therm-us: 
-          :one: "{0} θερμ. μονάδα ΗΠΑ"
+          :one: "{0} κιλοβάτ/ώρα"
+        :energy-electronvolt:
+          :other: "{0} eV"
+        :energy-british-thermal-unit:
+          :other: "{0} BTU"
+          :one: "{0} BTU"
+        :energy-therm-us:
           :other: "{0} θερμ. μονάδες ΗΠΑ"
-        :force-kilogram-force: 
-          :other: "{0} kgf"
-        :force-kilowatt-hour-per-100-kilometer: 
-          :one: "{0} kWh/100 χλμ."
-          :other: "{0} kWh/100 χλμ."
-        :force-newton: 
-          :other: "{0} N"
-        :force-pound-force: 
+          :one: "{0} θερμ. μονάδα ΗΠΑ"
+        :force-pound-force:
           :other: "{0} lbf"
-        :frequency-gigahertz: 
+        :force-newton:
+          :other: "{0} N"
+        :force-kilowatt-hour-per-100-kilometer:
+          :other: "{0} kWh/100 χλμ."
+          :one: "{0} kWh/100 χλμ."
+        :frequency-gigahertz:
           :other: "{0} GHz"
-        :frequency-hertz: 
-          :other: "{0} Hz"
-        :frequency-kilohertz: 
-          :other: "{0} kHz"
-        :frequency-megahertz: 
+        :frequency-megahertz:
           :other: "{0} MHz"
-        :graphics-dot: 
-          :one: "{0} κουκ."
-          :other: "{0} κουκ."
-        :graphics-dot-per-centimeter: 
+        :frequency-kilohertz:
+          :other: "{0} kHz"
+        :frequency-hertz:
+          :other: "{0} Hz"
+        :graphics-em:
+          :other: "{0} em"
+        :graphics-pixel:
+          :other: "{0} px"
+        :graphics-megapixel:
+          :other: "{0} MP"
+        :graphics-pixel-per-centimeter:
+          :other: "{0} ppcm"
+        :graphics-pixel-per-inch:
+          :other: "{0} ppi"
+        :length-earth-radius:
+          :other: "{0} R⊕"
+        :length-kilometer:
+          :other: "{0} χλμ."
+          :one: "{0} χλμ."
+        :length-meter:
+          :other: "{0} μ."
+          :one: "{0} μ."
+        :length-decimeter:
+          :other: "{0} δεκ."
+          :one: "{0} δεκ."
+        :length-centimeter:
+          :other: "{0} εκ."
+          :one: "{0} εκ."
+        :length-millimeter:
+          :other: "{0} χλστ."
+          :one: "{0} χλστ."
+        :length-micrometer:
+          :other: "{0} μm"
+        :length-nanometer:
+          :other: "{0} nm"
+        :length-picometer:
+          :other: "{0} pm"
+        :length-mile:
+          :other: "{0} μίλ."
+          :one: "{0} μίλ."
+        :length-yard:
+          :other: "{0} γρδ"
+          :one: "{0} γρδ"
+        :length-foot:
+          :other: "{0} πδ"
+          :one: "{0} πδ"
+        :length-inch:
+          :other: "{0} ίν."
+          :one: "{0} ίν."
+        :length-parsec:
+          :other: "{0} pc"
+        :length-light-year:
+          :other: "{0} έ.φ."
+          :one: "{0} έ.φ."
+        :length-astronomical-unit:
+          :other: "{0} α.μ."
+          :one: "{0} α.μ."
+        :length-furlong:
+          :other: "{0} φέρλ."
+          :one: "{0} φέρλ."
+        :length-fathom:
+          :other: "{0} οργ."
+          :one: "{0} οργ."
+        :length-nautical-mile:
+          :other: "{0} ν.μ."
+          :one: "{0} ν.μ."
+        :length-mile-scandinavian:
+          :other: "{0} σκανδ. μίλια"
+          :one: "{0} σκανδ. μίλι"
+        :length-point:
+          :other: "{0} στ."
+          :one: "{0} στ."
+        :length-solar-radius:
+          :other: "{0} R☉"
+        :light-lux:
+          :other: "{0} λουξ"
+          :one: "{0} λουξ"
+        :light-candela:
+          :other: "{0} καντ."
+          :one: "{0} καντ."
+        :light-lumen:
+          :other: "{0} λμ."
+          :one: "{0} λμ."
+        :light-solar-luminosity:
+          :other: "{0} L☉"
+        :mass-tonne:
+          :other: "{0} τ."
+          :one: "{0} τ."
+        :mass-kilogram:
+          :other: "{0} κιλά"
+          :one: "{0} κιλό"
+        :mass-gram:
+          :other: "{0} γρ."
+          :one: "{0} γρ."
+        :mass-milligram:
+          :other: "{0} mg"
+        :mass-microgram:
+          :other: "{0} μg"
+        :mass-ton:
+          :other: "{0} τ. ΗΠΑ"
+          :one: "{0} τ. ΗΠΑ"
+        :mass-stone:
+          :other: "{0} st"
+        :mass-pound:
+          :other: "{0} λβ"
+          :one: "{0} λβ"
+        :mass-ounce:
+          :other: "{0} oz"
+        :mass-ounce-troy:
+          :other: "{0} oz t"
+        :mass-carat:
+          :other: "{0} κρτ"
+          :one: "{0} κρτ"
+        :mass-dalton:
+          :other: "{0} Da"
+        :mass-earth-mass:
+          :other: "{0} M⊕"
+        :mass-solar-mass:
+          :other: "{0} M☉"
+        :mass-grain:
+          :other: "{0} κόκ."
+          :one: "{0} κόκ."
+        :power-gigawatt:
+          :other: "{0} GW"
+        :power-megawatt:
+          :other: "{0} MW"
+        :power-kilowatt:
+          :other: "{0} kW"
+        :power-watt:
+          :other: "{0} W"
+        :power-milliwatt:
+          :other: "{0} mW"
+        :power-horsepower:
+          :other: "{0} ίπ."
+          :one: "{0} ίπ."
+        :pressure-millimeter-ofhg:
+          :other: "{0} mmHg"
+          :one: "{0} mmHg"
+        :pressure-ofhg:
+          :other: "{0} Hg"
+        :pressure-pound-force-per-square-inch:
+          :other: "{0} psi"
+        :pressure-inch-ofhg:
+          :other: "{0} inHg"
+        :pressure-bar:
+          :other: "{0} μπαρ"
+          :one: "{0} μπαρ"
+        :pressure-millibar:
+          :other: "{0} mbar"
+        :pressure-atmosphere:
+          :other: "{0} atm"
+        :pressure-pascal:
+          :other: "{0} Pa"
+        :pressure-hectopascal:
+          :other: "{0} hPa"
+        :pressure-kilopascal:
+          :other: "{0} kPa"
+        :pressure-megapascal:
+          :other: "{0} MPa"
+        :speed-kilometer-per-hour:
+          :other: "{0} χλμ./ώρα"
+          :one: "{0} χλμ./ώρα"
+        :speed-meter-per-second:
+          :other: "{0} μέτρα/δευτ."
+          :one: "{0} μέτρο/δευτ."
+        :speed-mile-per-hour:
+          :other: "{0} μίλια/ώρα"
+          :one: "{0} μίλι/ώρα"
+        :speed-knot:
+          :other: "{0} κμβ"
+          :one: "{0} κμβ"
+        :speed-beaufort:
+          :other: "{0} μποφ."
+          :one: "{0} μποφ."
+        :temperature-generic:
+          :other: "{0}°"
+        :temperature-celsius:
+          :other: "{0}°C"
+        :temperature-fahrenheit:
+          :other: "{0}°F"
+        :temperature-kelvin:
+          :other: "{0} K"
+        :torque-pound-force-foot:
+          :other: "{0} λβρ⋅πδ"
+          :one: "{0} λβρ⋅πδ"
+        :torque-newton-meter:
+          :other: "{0} N⋅m"
+        :volume-cubic-kilometer:
+          :other: "{0} km³"
+        :volume-cubic-meter:
+          :other: "{0} m³"
+        :volume-cubic-centimeter:
+          :other: "{0} cm³"
+        :volume-cubic-mile:
+          :other: "{0} mi³"
+        :volume-cubic-yard:
+          :other: "{0} κυβ. γιάρδες"
+          :one: "{0} κυβ. γιάρδα"
+        :volume-cubic-foot:
+          :other: "{0} ft³"
+        :volume-cubic-inch:
+          :other: "{0} in³"
+        :volume-megaliter:
+          :other: "{0} ML"
+        :volume-hectoliter:
+          :other: "{0} hL"
+        :volume-liter:
+          :other: "{0} λίτ."
+          :one: "{0} λίτ."
+        :volume-deciliter:
+          :other: "{0} dL"
+        :volume-centiliter:
+          :other: "{0} cL"
+        :volume-milliliter:
+          :other: "{0} mL"
+        :volume-pint-metric:
+          :other: "{0} μετρ. πίντες"
+          :one: "{0} μετρ. πίντα"
+        :volume-cup-metric:
+          :other: "{0} μετρ. κύπελλα"
+          :one: "{0} μετρ. κύπελλο"
+        :volume-fluid-ounce-metric:
+          :other: "{0} μ. ουγγιές υγρ."
+          :one: μ. ουγγιά υγρ.
+        :volume-acre-foot:
+          :other: "{0} ακρ πδ"
+          :one: "{0} ακρ πδ"
+        :volume-bushel:
+          :other: "{0} μπ."
+          :one: "{0} μπ."
+        :volume-gallon:
+          :other: "{0} γαλ."
+          :one: "{0} γαλ."
+        :volume-gallon-imperial:
+          :other: "{0} αγγλοσαξ. γαλόνια"
+          :one: "{0} αγγλοσαξ. γαλόνι"
+        :volume-quart:
+          :other: "{0} τέτ. γαλ."
+          :one: "{0} τέτ. γαλ."
+        :volume-pint:
+          :other: "{0} πντ"
+          :one: "{0} πντ"
+        :volume-pint-imperial:
+          :other: "{0} pt Imp."
+        :volume-cup:
+          :other: "{0} κύπ."
+          :one: "{0} κύπ."
+        :volume-cup-imperial:
+          :other: "{0} cup Imp."
+        :volume-fluid-ounce:
+          :other: "{0} fl oz"
+          :one: "{0} fl oz"
+        :volume-fluid-ounce-imperial:
+          :other: "{0} αγγλ. ουγγιές όγκου"
+          :one: "{0} αγγλ. ουγγιά όγκου"
+        :volume-tablespoon:
+          :other: "{0} κ.σ."
+          :one: "{0} κ.σ."
+        :volume-teaspoon:
+          :other: "{0} κ.γ."
+          :one: "{0} κ.γ."
+        :volume-barrel:
+          :other: "{0} βρλ"
+          :one: "{0} βρλ"
+        :volume-dessert-spoon:
+          :other: "{0} κ.φρ."
+          :one: "{0} κ.φρ."
+        :volume-dessert-spoon-imperial:
+          :other: "{0} αγγλ. κουτ. φρ."
+          :one: "{0} αγγλ. κουτ. φρ."
+        :volume-drop:
+          :other: "{0} σταγ."
+          :one: "{0} σταγ."
+        :volume-dram:
+          :other: "{0} δρ. όγκου"
+          :one: "{0} δρ. όγκου"
+        :volume-jigger:
+          :other: "{0} μεζ."
+          :one: "{0} μεζ."
+        :volume-pinch:
+          :other: "{0} πρ."
+          :one: "{0} πρ."
+        :volume-quart-imperial:
+          :other: "{0} αγγλ. τέτ. γαλ."
+          :one: "{0} αγγλ. τέτ. γαλ."
+        :angle-steradian:
+          :other: "{0} sr"
+        :concentr-katal:
+          :other: "{0} kat"
+          :one: "{0} kat"
+        :electric-coulomb:
+          :other: "{0} C"
+        :electric-farad:
+          :other: "{0} F"
+        :electric-henry:
+          :other: "{0} H"
+        :electric-siemens:
+          :other: "{0} S"
+        :energy-calorie-it:
+          :other: "{0} cal-IT"
+        :energy-british-thermal-unit-it:
+          :other: "{0} BTU-IT"
+        :energy-becquerel:
+          :other: "{0} Bq"
+        :energy-sievert:
+          :other: "{0} Sv"
+        :energy-gray:
+          :other: "{0} Gy"
+        :force-kilogram-force:
+          :other: "{0} kgf"
+        :length-rod:
+          :other: "{0} rod"
+        :length-chain:
+          :other: "{0} chain"
+        :magnetic-tesla:
+          :other: "{0} T"
+        :magnetic-weber:
+          :other: "{0} Wb"
+        :temperature-rankine:
+          :other: "{0} °R"
+        :duration-fortnight:
+          :other: "{0} fw"
+        :mass-slug:
+          :other: "{0} slug"
+        :pressure-gasoline-energy-density:
+          :other: "{0} gas E"
+        :length-rin:
+          :other: "{0} rin [JP]"
+        :length-sun:
+          :other: "{0} sun [JP]"
+        :length-shaku-length:
+          :other: "{0} shaku [JP]"
+        :length-shaku-cloth:
+          :other: "{0} shaku [cloth, JP]"
+        :length-ken:
+          :other: "{0} ken [JP]"
+        :length-jo-jp:
+          :other: "{0} jo [JP]"
+        :length-ri-jp:
+          :other: "{0} ri [JP]"
+        :area-bu-jp:
+          :other: "{0} bu [JP]"
+        :area-se-jp:
+          :other: "{0} se [JP]"
+        :area-cho:
+          :other: "{0} cho [JP]"
+        :volume-kosaji:
+          :other: "{0} kosaji [JP]"
+        :volume-osaji:
+          :other: "{0} osaji [JP]"
+        :volume-cup-jp:
+          :other: "{0} cup [JP]"
+        :volume-shaku:
+          :other: "{0} shaku [vol, JP]"
+        :volume-sai:
+          :other: "{0} sai [JP]"
+        :volume-to-jp:
+          :other: "{0} to [JP]"
+        :volume-koku:
+          :other: "{0} koku [JP]"
+        :speed-light-speed:
+          :other: "{0} φως"
+          :one: "{0} φως"
+        :mass-fun:
+          :other: "{0} fun [JP]"
+        :concentr-part-per-1e9:
+          :other: "{0} ppb"
+        :duration-night:
+          :other: "{0} νύχτ."
+          :one: "{0} νύχτ."
+        :energy-foodcalorie:
+          :one: "{0} θερμ."
+          :other: "{0} θερμ."
+        :graphics-dot-per-centimeter:
           :one: "{0} κουκ./εκ."
           :other: "{0} κουκ./εκ."
-        :graphics-dot-per-inch: 
+        :graphics-dot-per-inch:
           :one: "{0} κουκ./ίντσα"
           :other: "{0} κουκ./ίντσα"
-        :graphics-em: 
-          :other: "{0} em"
-        :graphics-megapixel: 
-          :other: "{0} MP"
-        :graphics-pixel: 
-          :other: "{0} px"
-        :graphics-pixel-per-centimeter: 
-          :other: "{0} ppcm"
-        :graphics-pixel-per-inch: 
-          :other: "{0} ppi"
-        :length-astronomical-unit: 
-          :one: "{0} α.μ."
-          :other: "{0} α.μ."
-        :length-centimeter: 
-          :one: "{0} εκ."
-          :other: "{0} εκ."
-        :length-chain: 
-          :other: "{0} chain"
-        :length-decimeter: 
-          :one: "{0} δεκ."
-          :other: "{0} δεκ."
-        :length-earth-radius: 
-          :other: "{0} R⊕"
-        :length-fathom: 
-          :one: "{0} οργ."
-          :other: "{0} οργ."
-        :length-foot: 
-          :one: "{0} πδ"
-          :other: "{0} πδ"
-        :length-furlong: 
-          :one: "{0} φέρλ."
-          :other: "{0} φέρλ."
-        :length-inch: 
-          :one: "{0} ίν."
-          :other: "{0} ίν."
-        :length-jo-jp: 
-          :other: "{0} jo [JP]"
-        :length-ken: 
-          :other: "{0} ken [JP]"
-        :length-kilometer: 
-          :one: "{0} χλμ."
-          :other: "{0} χλμ."
-        :length-light-year: 
-          :one: "{0} έ.φ."
-          :other: "{0} έ.φ."
-        :length-meter: 
-          :one: "{0} μ."
-          :other: "{0} μ."
-        :length-micrometer: 
-          :other: "{0} μm"
-        :length-mile: 
-          :one: "{0} μίλ."
-          :other: "{0} μίλ."
-        :length-mile-scandinavian: 
-          :one: "{0} σκανδ. μίλι"
-          :other: "{0} σκανδ. μίλια"
-        :length-millimeter: 
-          :one: "{0} χλστ."
-          :other: "{0} χλστ."
-        :length-nanometer: 
-          :other: "{0} nm"
-        :length-nautical-mile: 
-          :one: "{0} ν.μ."
-          :other: "{0} ν.μ."
-        :length-parsec: 
-          :other: "{0} pc"
-        :length-picometer: 
-          :other: "{0} pm"
-        :length-point: 
-          :one: "{0} στ."
-          :other: "{0} στ."
-        :length-ri-jp: 
-          :other: "{0} ri [JP]"
-        :length-rin: 
-          :other: "{0} rin [JP]"
-        :length-rod: 
-          :other: "{0} rod"
-        :length-shaku-cloth: 
-          :other: "{0} shaku [cloth, JP]"
-        :length-shaku-length: 
-          :other: "{0} shaku [JP]"
-        :length-solar-radius: 
-          :other: "{0} R☉"
-        :length-sun: 
-          :other: "{0} sun [JP]"
-        :length-yard: 
-          :one: "{0} γρδ"
-          :other: "{0} γρδ"
-        :light-candela: 
-          :one: "{0} καντ."
-          :other: "{0} καντ."
-        :light-lumen: 
-          :one: "{0} λμ."
-          :other: "{0} λμ."
-        :light-lux: 
-          :one: "{0} λουξ"
-          :other: "{0} λουξ"
-        :light-solar-luminosity: 
-          :other: "{0} L☉"
-        :magnetic-tesla: 
-          :other: "{0} T"
-        :magnetic-weber: 
-          :other: "{0} Wb"
-        :mass-carat: 
-          :one: "{0} κρτ"
-          :other: "{0} κρτ"
-        :mass-dalton: 
-          :other: "{0} Da"
-        :mass-earth-mass: 
-          :other: "{0} M⊕"
-        :mass-fun: 
-          :other: "{0} fun [JP]"
-        :mass-grain: 
-          :one: "{0} κόκ."
-          :other: "{0} κόκ."
-        :mass-gram: 
-          :one: "{0} γρ."
-          :other: "{0} γρ."
-        :mass-kilogram: 
-          :one: "{0} κιλό"
-          :other: "{0} κιλά"
-        :mass-microgram: 
-          :other: "{0} μg"
-        :mass-milligram: 
-          :other: "{0} mg"
-        :mass-ounce: 
-          :other: "{0} oz"
-        :mass-ounce-troy: 
-          :other: "{0} oz t"
-        :mass-pound: 
-          :one: "{0} λβ"
-          :other: "{0} λβ"
-        :mass-slug: 
-          :other: "{0} slug"
-        :mass-solar-mass: 
-          :other: "{0} M☉"
-        :mass-stone: 
-          :other: "{0} st"
-        :mass-ton: 
-          :one: "{0} τ. ΗΠΑ"
-          :other: "{0} τ. ΗΠΑ"
-        :mass-tonne: 
-          :one: "{0} τ."
-          :other: "{0} τ."
-        :power-gigawatt: 
-          :other: "{0} GW"
-        :power-horsepower: 
-          :one: "{0} ίπ."
-          :other: "{0} ίπ."
-        :power-kilowatt: 
-          :other: "{0} kW"
-        :power-megawatt: 
-          :other: "{0} MW"
-        :power-milliwatt: 
-          :other: "{0} mW"
-        :power-watt: 
-          :other: "{0} W"
-        :pressure-atmosphere: 
-          :other: "{0} atm"
-        :pressure-bar: 
-          :one: "{0} μπαρ"
-          :other: "{0} μπαρ"
-        :pressure-gasoline-energy-density: 
-          :other: "{0} gas E"
-        :pressure-hectopascal: 
-          :other: "{0} hPa"
-        :pressure-inch-ofhg: 
-          :other: "{0} inHg"
-        :pressure-kilopascal: 
-          :other: "{0} kPa"
-        :pressure-megapascal: 
-          :other: "{0} MPa"
-        :pressure-millibar: 
-          :other: "{0} mbar"
-        :pressure-millimeter-ofhg: 
-          :one: "{0} mmHg"
-          :other: "{0} mmHg"
-        :pressure-ofhg: 
-          :other: "{0} Hg"
-        :pressure-pascal: 
-          :other: "{0} Pa"
-        :pressure-pound-force-per-square-inch: 
-          :other: "{0} psi"
-        :speed-beaufort: 
-          :one: "{0} μποφ."
-          :other: "{0} μποφ."
-        :speed-kilometer-per-hour: 
-          :one: "{0} χλμ./ώρα"
-          :other: "{0} χλμ./ώρα"
-        :speed-knot: 
-          :one: "{0} κμβ"
-          :other: "{0} κμβ"
-        :speed-light-speed: 
-          :one: "{0} φως"
-          :other: "{0} φως"
-        :speed-meter-per-second: 
-          :one: "{0} μέτρο/δευτ."
-          :other: "{0} μέτρα/δευτ."
-        :speed-mile-per-hour: 
-          :one: "{0} μίλι/ώρα"
-          :other: "{0} μίλια/ώρα"
-        :temperature-celsius: 
-          :other: "{0}°C"
-        :temperature-fahrenheit: 
-          :other: "{0}°F"
-        :temperature-generic: 
-          :other: "{0}°"
-        :temperature-kelvin: 
-          :other: "{0} K"
-        :temperature-rankine: 
-          :other: "{0} °R"
-        :torque-newton-meter: 
-          :other: "{0} N⋅m"
-        :torque-pound-force-foot: 
-          :one: "{0} λβρ⋅πδ"
-          :other: "{0} λβρ⋅πδ"
-        :volume-acre-foot: 
-          :one: "{0} ακρ πδ"
-          :other: "{0} ακρ πδ"
-        :volume-barrel: 
-          :one: "{0} βρλ"
-          :other: "{0} βρλ"
-        :volume-bushel: 
-          :one: "{0} μπ."
-          :other: "{0} μπ."
-        :volume-centiliter: 
-          :other: "{0} cL"
-        :volume-cubic-centimeter: 
-          :other: "{0} cm³"
-        :volume-cubic-foot: 
-          :other: "{0} ft³"
-        :volume-cubic-inch: 
-          :other: "{0} in³"
-        :volume-cubic-kilometer: 
-          :other: "{0} km³"
-        :volume-cubic-meter: 
-          :other: "{0} m³"
-        :volume-cubic-mile: 
-          :other: "{0} mi³"
-        :volume-cubic-yard: 
-          :one: "{0} κυβ. γιάρδα"
-          :other: "{0} κυβ. γιάρδες"
-        :volume-cup: 
-          :one: "{0} κύπ."
-          :other: "{0} κύπ."
-        :volume-cup-imperial: 
-          :other: "{0} cup Imp."
-        :volume-cup-jp: 
-          :other: "{0} cup [JP]"
-        :volume-cup-metric: 
-          :one: "{0} μετρ. κύπελλο"
-          :other: "{0} μετρ. κύπελλα"
-        :volume-deciliter: 
-          :other: "{0} dL"
-        :volume-dessert-spoon: 
-          :one: "{0} κ.φρ."
-          :other: "{0} κ.φρ."
-        :volume-dessert-spoon-imperial: 
-          :one: "{0} αγγλ. κουτ. φρ."
-          :other: "{0} αγγλ. κουτ. φρ."
-        :volume-dram: 
-          :one: "{0} δρ. όγκου"
-          :other: "{0} δρ. όγκου"
-        :volume-drop: 
-          :one: "{0} σταγ."
-          :other: "{0} σταγ."
-        :volume-fluid-ounce: 
-          :one: "{0} fl oz"
-          :other: "{0} fl oz"
-        :volume-fluid-ounce-imperial: 
-          :one: "{0} αγγλ. ουγγιά όγκου"
-          :other: "{0} αγγλ. ουγγιές όγκου"
-        :volume-fluid-ounce-metric: 
-          :one: "μ. ουγγιά υγρ."
+        :graphics-dot:
+          :one: "{0} κουκ."
+          :other: "{0} κουκ."
+      :narrow:
+        :acceleration-g-force:
+          :one: "{0} G"
+          :other: "{0} G"
+        :angle-arc-minute:
+          :one: "{0}′"
+          :other: "{0}′"
+        :angle-arc-second:
+          :one: "{0}″"
+          :other: "{0}″"
+        :area-square-kilometer:
+          :one: "{0} km²"
+          :other: "{0} km²"
+        :area-hectare:
+          :one: "{0} ha"
+          :other: "{0} ha"
+        :concentr-part:
+          :one: "{0} μέρος"
+          :other: "{0} μέρη"
+        :consumption-liter-per-kilometer:
+          :one: "{0} λ/χλμ"
+          :other: "{0} λ/χλμ"
+        :consumption-liter-per-100-kilometer:
+          :one: "{0} λ/100 χλμ"
+          :other: "{0} λ/100 χλμ"
+        :duration-year:
+          :one: "{0} έ"
+          :other: "{0} έ"
+        :duration-quarter:
+          :one: "{0} τέτ."
+          :other: "{0} τέτ."
+        :duration-month:
+          :one: "{0} μ"
+          :other: "{0} μ"
+        :duration-week:
+          :one: "{0} ε"
+          :other: "{0} ε"
+        :duration-day:
+          :one: "{0} η"
+          :other: "{0} η"
+        :duration-hour:
+          :one: "{0} ώ"
+          :other: "{0} ώ"
+        :duration-minute:
+          :one: "{0} λ"
+          :other: "{0} λ"
+        :duration-second:
+          :one: "{0} δ"
+          :other: "{0} δ"
+        :energy-kilowatt-hour:
+          :one: "{0} kW/ώ."
+          :other: "{0} kW/ώ."
+        :length-mile:
+          :one: "{0} mi"
+          :other: "{0} mi"
+        :length-yard:
+          :one: "{0} yd"
+          :other: "{0} yd"
+        :length-foot:
+          :one: "{0} ft"
+          :other: "{0} ft"
+        :length-inch:
+          :one: "{0} in"
+          :other: "{0} in"
+        :length-light-year:
+          :one: "{0} ly"
+          :other: "{0} ly"
+        :length-mile-scandinavian:
+          :one: "{0}smi"
+          :other: "{0}smi"
+        :light-lumen:
+          :one: "{0} λμ"
+          :other: "{0} λμ"
+        :mass-kilogram:
+          :one: "{0} kg"
+          :other: "{0} kg"
+        :power-horsepower:
+          :one: "{0} hp"
+          :other: "{0} hp"
+        :speed-kilometer-per-hour:
+          :one: "{0} χλμ/ώ."
+          :other: "{0} χλμ/ώ."
+        :speed-meter-per-second:
+          :one: "{0} μ./δ."
+          :other: "{0} μ./δ."
+        :speed-mile-per-hour:
+          :one: "{0} μίλι/ώ."
+          :other: "{0} μίλια/ώ."
+        :speed-beaufort:
+          :one: "{0} Bf"
+          :other: "{0} Bf"
+        :volume-liter:
+          :one: "{0} λ."
+          :other: "{0} λ."
+        :volume-pint-metric:
+          :one: "{0} μ. πίντα"
+          :other: "{0} μ. πίντες"
+        :volume-cup-metric:
+          :one: "{0} μ. κύπ."
+          :other: "{0} μ. κύπ."
+        :volume-fluid-ounce-metric:
+          :one: "{0} μ. ουγγιά υγρ."
           :other: "{0} μ. ουγγιές υγρ."
-        :volume-gallon: 
-          :one: "{0} γαλ."
-          :other: "{0} γαλ."
-        :volume-gallon-imperial: 
-          :one: "{0} αγγλοσαξ. γαλόνι"
-          :other: "{0} αγγλοσαξ. γαλόνια"
-        :volume-hectoliter: 
-          :other: "{0} hL"
-        :volume-jigger: 
-          :one: "{0} μεζ."
-          :other: "{0} μεζ."
-        :volume-koku: 
-          :other: "{0} koku [JP]"
-        :volume-kosaji: 
-          :other: "{0} kosaji [JP]"
-        :volume-liter: 
-          :one: "{0} λίτ."
-          :other: "{0} λίτ."
-        :volume-megaliter: 
-          :other: "{0} ML"
-        :volume-milliliter: 
-          :other: "{0} mL"
-        :volume-osaji: 
-          :other: "{0} osaji [JP]"
-        :volume-pinch: 
-          :one: "{0} πρ."
-          :other: "{0} πρ."
-        :volume-pint: 
-          :one: "{0} πντ"
-          :other: "{0} πντ"
-        :volume-pint-imperial: 
-          :other: "{0} pt Imp."
-        :volume-pint-metric: 
-          :one: "{0} μετρ. πίντα"
-          :other: "{0} μετρ. πίντες"
-        :volume-quart: 
-          :one: "{0} τέτ. γαλ."
-          :other: "{0} τέτ. γαλ."
-        :volume-quart-imperial: 
-          :one: "{0} αγγλ. τέτ. γαλ."
-          :other: "{0} αγγλ. τέτ. γαλ."
-        :volume-sai: 
-          :other: "{0} sai [JP]"
-        :volume-shaku: 
-          :other: "{0} shaku [vol, JP]"
-        :volume-tablespoon: 
-          :one: "{0} κ.σ."
-          :other: "{0} κ.σ."
-        :volume-teaspoon: 
-          :one: "{0} κ.γ."
-          :other: "{0} κ.γ."
-        :volume-to-jp: 
-          :other: "{0} to [JP]"
+        :volume-dessert-spoon-imperial:
+          :one: "{0} αγγλ. κ.φρ."
+          :other: "{0} αγγλ. κ.φρ."
+        :concentr-katal:
+          :one: "{0} kat"
+          :other: "{0} kat"
+    :durationUnit:
+      :hm: h:mm
+      :hms: h:mm:ss
+      :ms: m:ss

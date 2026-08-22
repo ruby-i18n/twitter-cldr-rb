@@ -1,1138 +1,1138 @@
---- 
-:hu: 
-  :units: 
-    :durationUnit: 
-      :hm: "h:mm"
-      :hms: "h:mm:ss"
-      :ms: "m:ss"
-    :unitLength: 
-      :long: 
-        :acceleration-g-force: 
+---
+:hu:
+  :units:
+    :unitLength:
+      :long:
+        :acceleration-g-force:
           :one: "{0} g gyorsulássá"
           :other: "{0} g gyorsulássá"
-        :acceleration-meter-per-square-second: 
+        :acceleration-meter-per-square-second:
           :one: "{0} méter per másodpercnégyzetté"
           :other: "{0} méter per másodpercnégyzetté"
-        :angle-arc-minute: 
-          :one: "{0} ívperccé"
-          :other: "{0} ívperccé"
-        :angle-arc-second: 
-          :one: "{0} ívmásodperccé"
-          :other: "{0} ívmásodperccé"
-        :angle-degree: 
-          :one: "{0} fokká"
-          :other: "{0} fokká"
-        :angle-radian: 
-          :one: "{0} radiánná"
-          :other: "{0} radiánná"
-        :angle-revolution: 
+        :angle-revolution:
           :one: "{0} fordulattá"
           :other: "{0} fordulattá"
-        :angle-steradian: 
-          :one: "{0} szteradián"
-          :other: "{0} szteradián"
-        :area-acre: 
-          :one: "{0} hold"
-          :other: "{0} hold"
-        :area-hectare: 
-          :one: "{0} hektárrá"
-          :other: "{0} hektárrá"
-        :area-square-centimeter: 
-          :one: "{0} négyzetcentiméterré"
-          :other: "{0} négyzetcentiméterré"
-        :area-square-foot: 
-          :one: "{0} négyzetláb"
-          :other: "{0} négyzetláb"
-        :area-square-inch: 
-          :one: "{0} négyzethüvelyk"
-          :other: "{0} négyzethüvelyk"
-        :area-square-kilometer: 
-          :one: "{0} négyzetkilométerré"
-          :other: "{0} négyzetkilométerré"
-        :area-square-meter: 
-          :one: "{0} négyzetméterré"
-          :other: "{0} négyzetméterré"
-        :area-square-mile: 
-          :one: "{0} négyzetmérföld"
-          :other: "{0} négyzetmérföld"
-        :area-square-yard: 
-          :one: "{0} négyzetyard"
-          :other: "{0} négyzetyard"
-        :concentr-item: 
-          :one: "{0} itemmé"
-          :other: "{0} itemmé"
-        :concentr-karat: 
-          :one: "{0} karáttá"
-          :other: "{0} karáttá"
-        :concentr-katal: 
-          :one: "{0} katal"
-          :other: "{0} katal"
-        :concentr-milligram-ofglucose-per-deciliter: 
-          :one: "{0} milligramm/deciliterré"
-          :other: "{0} milligramm/deciliterré"
-        :concentr-millimole-per-liter: 
-          :one: "{0} millimól/literré"
-          :other: "{0} millimól/literré"
-        :concentr-mole: 
-          :one: "{0} móllá"
-          :other: "{0} móllá"
-        :concentr-ofglucose: 
-          :one: "{0} glükóz"
-          :other: "{0} glükóz"
-        :concentr-part: 
-          :one: "{0} rész"
-          :other: "{0} rész"
-        :concentr-part-per-1e6: 
-          :one: "{0} részecske/millióvá"
-          :other: "{0} részecske/millióvá"
-        :concentr-percent: 
-          :one: "{0} százalékká"
-          :other: "{0} százalékká"
-        :concentr-permille: 
-          :one: "{0} ezrelékké"
-          :other: "{0} ezrelékké"
-        :concentr-permyriad: 
-          :one: "{0} tízezrelékké"
-          :other: "{0} tízezrelékké"
-        :consumption-liter-per-100-kilometer: 
-          :one: "{0} liter/100 km-ré"
-          :other: "{0} liter/100 km-ré"
-        :consumption-liter-per-kilometer: 
-          :one: "{0} liter per kilométerré"
-          :other: "{0} liter per kilométerré"
-        :consumption-mile-per-gallon: 
-          :one: "{0} mérföld per gallon"
-          :other: "{0} mérföld per gallon"
-        :consumption-mile-per-gallon-imperial: 
-          :one: "{0} mérföld/birodalmi gallon"
-          :other: "{0} mérföld/birodalmi gallon"
-        :digital-bit: 
-          :one: "{0} bitté"
-          :other: "{0} bitté"
-        :digital-byte: 
-          :one: "{0} bájttá"
-          :other: "{0} bájttá"
-        :digital-gigabit: 
-          :one: "{0} gigabitté"
-          :other: "{0} gigabitté"
-        :digital-gigabyte: 
-          :one: "{0} gigabájttá"
-          :other: "{0} gigabájttá"
-        :digital-kilobit: 
-          :one: "{0} kilobitté"
-          :other: "{0} kilobitté"
-        :digital-kilobyte: 
-          :one: "{0} kilobájttá"
-          :other: "{0} kilobájttá"
-        :digital-megabit: 
-          :one: "{0} megabitté"
-          :other: "{0} megabitté"
-        :digital-megabyte: 
-          :one: "{0} megabájttá"
-          :other: "{0} megabájttá"
-        :digital-petabyte: 
-          :one: "{0} petabájttá"
-          :other: "{0} petabájttá"
-        :digital-terabit: 
-          :one: "{0} terabitté"
-          :other: "{0} terabitté"
-        :digital-terabyte: 
-          :one: "{0} terabájttá"
-          :other: "{0} terabájttá"
-        :duration-century: 
-          :one: "{0} évszázaddá"
-          :other: "{0} évszázaddá"
-        :duration-day: 
-          :one: "{0} nappá"
-          :other: "{0} nappá"
-        :duration-day-person: 
-          :one: "{0} nappá"
-          :other: "{0} nappá"
-        :duration-decade: 
-          :one: "{0} évtizeddé"
-          :other: "{0} évtizeddé"
-        :duration-hour: 
-          :one: "{0} órává"
-          :other: "{0} órává"
-        :duration-microsecond: 
-          :one: "{0} mikroszekundummá"
-          :other: "{0} mikroszekundummá"
-        :duration-millisecond: 
-          :one: "{0} ezredmásodperccé"
-          :other: "{0} ezredmásodperccé"
-        :duration-minute: 
-          :one: "{0} perccé"
-          :other: "{0} perccé"
-        :duration-month: 
-          :one: "{0} hónappá"
-          :other: "{0} hónappá"
-        :duration-nanosecond: 
-          :one: "{0} nanoszekundummá"
-          :other: "{0} nanoszekundummá"
-        :duration-night: 
-          :one: "{0} éjszakává"
-          :other: "{0} éjszakává"
-        :duration-quarter: 
-          :one: "{0} negyedévvé"
-          :other: "{0} negyedévvé"
-        :duration-second: 
-          :one: "{0} másodperccé"
-          :other: "{0} másodperccé"
-        :duration-week: 
-          :one: "{0} hétté"
-          :other: "{0} hétté"
-        :duration-year: 
-          :one: "{0} évvé"
-          :other: "{0} évvé"
-        :electric-ampere: 
-          :one: "{0} amperré"
-          :other: "{0} amperré"
-        :electric-coulomb: 
-          :one: "{0} coulomb"
-          :other: "{0} coulomb"
-        :electric-farad: 
-          :one: "{0} farad"
-          :other: "{0} farad"
-        :electric-henry: 
-          :one: "{0} henry"
-          :other: "{0} henry"
-        :electric-milliampere: 
-          :one: "{0} milliamperré"
-          :other: "{0} milliamperré"
-        :electric-ohm: 
-          :one: "{0} ohmmá"
-          :other: "{0} ohmmá"
-        :electric-siemens: 
-          :one: "{0} siemens"
-          :other: "{0} siemens"
-        :electric-volt: 
-          :one: "{0} volttá"
-          :other: "{0} volttá"
-        :energy-becquerel: 
-          :one: "{0} becquerel"
-          :other: "{0} becquerel"
-        :energy-british-thermal-unit: 
-          :one: "{0} brit hőegység"
-          :other: "{0} brit hőegység"
-        :energy-calorie: 
-          :one: "{0} kalóriává"
-          :other: "{0} kalóriává"
-        :energy-calorie-it: 
-          :one: "{0} kalória [IT]"
-          :other: "{0} kalória [IT]"
-        :energy-electronvolt: 
-          :one: "{0} elektronvolt"
-          :other: "{0} elektronvolt"
-        :energy-foodcalorie: 
-          :one: "{0} kalória"
-          :other: "{0} kalória"
-        :energy-gray: 
-          :one: "{0} gray"
-          :other: "{0} gray"
-        :energy-joule: 
-          :one: "{0} joule-lá"
-          :other: "{0} joule-lá"
-        :energy-kilocalorie: 
-          :one: "{0} kilokalóriává"
-          :other: "{0} kilokalóriává"
-        :energy-kilojoule: 
-          :one: "{0} kilojoule-lá"
-          :other: "{0} kilojoule-lá"
-        :energy-kilowatt-hour: 
-          :one: "{0} kilowattórává"
-          :other: "{0} kilowattórává"
-        :energy-sievert: 
-          :one: "{0} sievert"
-          :other: "{0} sievert"
-        :energy-therm-us: 
-          :one: "{0} amerikai therm"
-          :other: "{0} amerikai therm"
-        :force-kilogram-force: 
-          :one: "{0} kilogramm-erő"
-          :other: "{0} kilogramm-erő"
-        :force-kilowatt-hour-per-100-kilometer: 
-          :one: "{0} kWh/100 km-ré"
-          :other: "{0} kWh/100 km-ré"
-        :force-newton: 
-          :one: "{0} newtonná"
-          :other: "{0} newtonná"
-        :force-pound-force: 
-          :one: "{0} fonterő"
-          :other: "{0} fonterő"
-        :frequency-gigahertz: 
-          :one: "{0} gigahertzcé"
-          :other: "{0} gigahertzcé"
-        :frequency-hertz: 
-          :one: "{0} hertzcé"
-          :other: "{0} hertzcé"
-        :frequency-kilohertz: 
-          :one: "{0} kilohertzcé"
-          :other: "{0} kilohertzcé"
-        :frequency-megahertz: 
-          :one: "{0} megahertzcé"
-          :other: "{0} megahertzcé"
-        :graphics-dot-per-centimeter: 
-          :one: "{0} pont per centiméter"
-          :other: "{0} pont per centiméter"
-        :graphics-dot-per-inch: 
-          :one: "{0} pont per hüvelyk"
-          :other: "{0} pont per hüvelyk"
-        :graphics-em: 
-          :one: "{0} kvirtté"
-          :other: "{0} kvirtté"
-        :graphics-megapixel: 
-          :one: "{0} millió képponttá"
-          :other: "{0} millió képponttá"
-        :graphics-pixel: 
-          :one: "{0} képponttá"
-          :other: "{0} képponttá"
-        :graphics-pixel-per-centimeter: 
-          :one: "{0} képpont per centiméterré"
-          :other: "{0} képpont per centiméterré"
-        :graphics-pixel-per-inch: 
-          :one: "{0} képpont per hüvelyk"
-          :other: "{0} képpont per hüvelyk"
-        :length-astronomical-unit: 
-          :one: "{0} csillagászati egység"
-          :other: "{0} csillagászati egység"
-        :length-centimeter: 
-          :one: "{0} centiméterré"
-          :other: "{0} centiméterré"
-        :length-decimeter: 
-          :one: "{0} deciméterré"
-          :other: "{0} deciméterré"
-        :length-earth-radius: 
-          :one: "{0} földsugár"
-          :other: "{0} földsugár"
-        :length-furlong: 
-          :one: "{0} furlong"
-          :other: "{0} furlong"
-        :length-kilometer: 
-          :one: "{0} kilométerré"
-          :other: "{0} kilométerré"
-        :length-meter: 
-          :one: "{0} méterré"
-          :other: "{0} méterré"
-        :length-micrometer: 
-          :one: "{0} mikrométerré"
-          :other: "{0} mikrométerré"
-        :length-mile: 
-          :one: "{0} mérföld"
-          :other: "{0} mérföld"
-        :length-mile-scandinavian: 
-          :one: "{0} svéd mérfölddé"
-          :other: "{0} svéd mérfölddé"
-        :length-millimeter: 
-          :one: "{0} milliméterré"
-          :other: "{0} milliméterré"
-        :length-nanometer: 
-          :one: "{0} nanométerré"
-          :other: "{0} nanométerré"
-        :length-nautical-mile: 
-          :one: "{0} tengeri mérföld"
-          :other: "{0} tengeri mérföld"
-        :length-parsec: 
-          :one: "{0} parszek"
-          :other: "{0} parszek"
-        :length-picometer: 
-          :one: "{0} pikométerré"
-          :other: "{0} pikométerré"
-        :length-point: 
-          :one: "{0} ponttá"
-          :other: "{0} ponttá"
-        :length-solar-radius: 
-          :one: "{0} Nap-sugár"
-          :other: "{0} Nap-sugár"
-        :length-yard: 
-          :one: "{0} yard"
-          :other: "{0} yard"
-        :light-candela: 
-          :one: "{0} kandelává"
-          :other: "{0} kandelává"
-        :light-lumen: 
-          :one: "{0} lumenné"
-          :other: "{0} lumenné"
-        :light-lux: 
-          :one: "{0} luxszá"
-          :other: "{0} luxszá"
-        :light-solar-luminosity: 
-          :one: "{0} Nap-fényerő"
-          :other: "{0} Nap-fényerő"
-        :magnetic-tesla: 
-          :one: "{0} tesla"
-          :other: "{0} tesla"
-        :magnetic-weber: 
-          :one: "{0} weber"
-          :other: "{0} weber"
-        :mass-carat: 
-          :one: "{0} karáttá"
-          :other: "{0} karáttá"
-        :mass-dalton: 
-          :one: "{0} dalton"
-          :other: "{0} dalton"
-        :mass-earth-mass: 
-          :one: "{0} Föld-tömeg"
-          :other: "{0} Föld-tömeg"
-        :mass-gram: 
-          :one: "{0} grammá"
-          :other: "{0} grammá"
-        :mass-kilogram: 
-          :one: "{0} kilogrammá"
-          :other: "{0} kilogrammá"
-        :mass-microgram: 
-          :one: "{0} mikrogrammá"
-          :other: "{0} mikrogrammá"
-        :mass-milligram: 
-          :one: "{0} milligrammá"
-          :other: "{0} milligrammá"
-        :mass-ounce: 
-          :one: "{0} uncia"
-          :other: "{0} uncia"
-        :mass-ounce-troy: 
-          :one: "{0} troy uncia"
-          :other: "{0} troy uncia"
-        :mass-pound: 
-          :one: "{0} font"
-          :other: "{0} font"
-        :mass-solar-mass: 
-          :one: "{0} Nap-tömeg"
-          :other: "{0} Nap-tömeg"
-        :mass-stone: 
-          :one: "{0} stone"
-          :other: "{0} stone"
-        :mass-ton: 
-          :one: "{0} amerikai tonna"
-          :other: "{0} amerikai tonna"
-        :mass-tonne: 
-          :one: "{0} metrikus tonnává"
-          :other: "{0} metrikus tonnává"
-        :power-gigawatt: 
-          :one: "{0} gigawattá"
-          :other: "{0} gigawattá"
-        :power-horsepower: 
-          :one: "{0} lóerő"
-          :other: "{0} lóerő"
-        :power-kilowatt: 
-          :one: "{0} kilowattá"
-          :other: "{0} kilowattá"
-        :power-megawatt: 
-          :one: "{0} megawattá"
-          :other: "{0} megawattá"
-        :power-milliwatt: 
-          :one: "{0} milliwattá"
-          :other: "{0} milliwattá"
-        :power-watt: 
-          :one: "{0} wattá"
-          :other: "{0} wattá"
-        :pressure-atmosphere: 
-          :one: "{0} atmoszférává"
-          :other: "{0} atmoszférává"
-        :pressure-bar: 
-          :one: "{0} barrá"
-          :other: "{0} barrá"
-        :pressure-hectopascal: 
-          :one: "{0} hektopascallá"
-          :other: "{0} hektopascallá"
-        :pressure-inch-ofhg: 
-          :one: "{0} higanyhüvelyk"
-          :other: "{0} higanyhüvelyk"
-        :pressure-kilopascal: 
-          :one: "{0} kilopascallá"
-          :other: "{0} kilopascallá"
-        :pressure-megapascal: 
-          :one: "{0} megapascallá"
-          :other: "{0} megapascallá"
-        :pressure-millibar: 
-          :one: "{0} millibarrá"
-          :other: "{0} millibarrá"
-        :pressure-millimeter-ofhg: 
-          :one: "{0} higanymilliméterré"
-          :other: "{0} higanymilliméterré"
-        :pressure-ofhg: 
-          :one: "{0} higany"
-          :other: "{0} higany"
-        :pressure-pascal: 
-          :one: "{0} pascallá"
-          :other: "{0} pascallá"
-        :pressure-pound-force-per-square-inch: 
-          :one: "{0} font per négyzethüvelyk"
-          :other: "{0} font per négyzethüvelyk"
-        :speed-beaufort: 
-          :one: "Beaufort {0}"
-          :other: "Beaufort {0}"
-        :speed-kilometer-per-hour: 
-          :one: "{0} kilométer per órává"
-          :other: "{0} kilométer per órává"
-        :speed-knot: 
-          :one: "{0} csomó"
-          :other: "{0} csomó"
-        :speed-meter-per-second: 
-          :one: "{0} méter per másodperccé"
-          :other: "{0} méter per másodperccé"
-        :speed-mile-per-hour: 
-          :one: "{0} mérföld per óra"
-          :other: "{0} mérföld per óra"
-        :temperature-celsius: 
-          :one: "{0} Celsius-fokká"
-          :other: "{0} Celsius-fokká"
-        :temperature-fahrenheit: 
-          :one: "{0} Fahrenheit-fok"
-          :other: "{0} Fahrenheit-fok"
-        :temperature-generic: 
+        :angle-radian:
+          :one: "{0} radiánná"
+          :other: "{0} radiánná"
+        :angle-degree:
           :one: "{0} fokká"
           :other: "{0} fokká"
-        :temperature-kelvin: 
+        :angle-arc-minute:
+          :one: "{0} ívperccé"
+          :other: "{0} ívperccé"
+        :angle-arc-second:
+          :one: "{0} ívmásodperccé"
+          :other: "{0} ívmásodperccé"
+        :area-square-kilometer:
+          :one: "{0} négyzetkilométerré"
+          :other: "{0} négyzetkilométerré"
+        :area-hectare:
+          :one: "{0} hektárrá"
+          :other: "{0} hektárrá"
+        :area-square-meter:
+          :one: "{0} négyzetméterré"
+          :other: "{0} négyzetméterré"
+        :area-square-centimeter:
+          :one: "{0} négyzetcentiméterré"
+          :other: "{0} négyzetcentiméterré"
+        :area-square-mile:
+          :one: "{0} négyzetmérföld"
+          :other: "{0} négyzetmérföld"
+        :area-acre:
+          :one: "{0} hold"
+          :other: "{0} hold"
+        :area-square-yard:
+          :one: "{0} négyzetyard"
+          :other: "{0} négyzetyard"
+        :area-square-foot:
+          :one: "{0} négyzetláb"
+          :other: "{0} négyzetláb"
+        :area-square-inch:
+          :one: "{0} négyzethüvelyk"
+          :other: "{0} négyzethüvelyk"
+        :concentr-karat:
+          :one: "{0} karáttá"
+          :other: "{0} karáttá"
+        :concentr-milligram-ofglucose-per-deciliter:
+          :one: "{0} milligramm/deciliterré"
+          :other: "{0} milligramm/deciliterré"
+        :concentr-millimole-per-liter:
+          :one: "{0} millimól/literré"
+          :other: "{0} millimól/literré"
+        :concentr-item:
+          :one: "{0} itemmé"
+          :other: "{0} itemmé"
+        :concentr-part:
+          :one: "{0} rész"
+          :other: "{0} rész"
+        :concentr-part-per-1e6:
+          :one: "{0} részecske/millióvá"
+          :other: "{0} részecske/millióvá"
+        :concentr-percent:
+          :one: "{0} százalékká"
+          :other: "{0} százalékká"
+        :concentr-permille:
+          :one: "{0} ezrelékké"
+          :other: "{0} ezrelékké"
+        :concentr-permyriad:
+          :one: "{0} tízezrelékké"
+          :other: "{0} tízezrelékké"
+        :concentr-mole:
+          :one: "{0} móllá"
+          :other: "{0} móllá"
+        :concentr-ofglucose:
+          :one: "{0} glükóz"
+          :other: "{0} glükóz"
+        :consumption-liter-per-kilometer:
+          :one: "{0} liter per kilométerré"
+          :other: "{0} liter per kilométerré"
+        :consumption-liter-per-100-kilometer:
+          :one: "{0} liter/100 km-ré"
+          :other: "{0} liter/100 km-ré"
+        :consumption-mile-per-gallon:
+          :one: "{0} mérföld per gallon"
+          :other: "{0} mérföld per gallon"
+        :consumption-mile-per-gallon-imperial:
+          :one: "{0} mérföld/birodalmi gallon"
+          :other: "{0} mérföld/birodalmi gallon"
+        :digital-petabyte:
+          :one: "{0} petabájttá"
+          :other: "{0} petabájttá"
+        :digital-terabyte:
+          :one: "{0} terabájttá"
+          :other: "{0} terabájttá"
+        :digital-terabit:
+          :one: "{0} terabitté"
+          :other: "{0} terabitté"
+        :digital-gigabyte:
+          :one: "{0} gigabájttá"
+          :other: "{0} gigabájttá"
+        :digital-gigabit:
+          :one: "{0} gigabitté"
+          :other: "{0} gigabitté"
+        :digital-megabyte:
+          :one: "{0} megabájttá"
+          :other: "{0} megabájttá"
+        :digital-megabit:
+          :one: "{0} megabitté"
+          :other: "{0} megabitté"
+        :digital-kilobyte:
+          :one: "{0} kilobájttá"
+          :other: "{0} kilobájttá"
+        :digital-kilobit:
+          :one: "{0} kilobitté"
+          :other: "{0} kilobitté"
+        :digital-byte:
+          :one: "{0} bájttá"
+          :other: "{0} bájttá"
+        :digital-bit:
+          :one: "{0} bitté"
+          :other: "{0} bitté"
+        :duration-century:
+          :one: "{0} évszázaddá"
+          :other: "{0} évszázaddá"
+        :duration-decade:
+          :one: "{0} évtizeddé"
+          :other: "{0} évtizeddé"
+        :duration-year:
+          :one: "{0} évvé"
+          :other: "{0} évvé"
+        :duration-quarter:
+          :one: "{0} negyedévvé"
+          :other: "{0} negyedévvé"
+        :duration-month:
+          :one: "{0} hónappá"
+          :other: "{0} hónappá"
+        :duration-week:
+          :one: "{0} hétté"
+          :other: "{0} hétté"
+        :duration-day:
+          :one: "{0} nappá"
+          :other: "{0} nappá"
+        :duration-day-person:
+          :one: "{0} nappá"
+          :other: "{0} nappá"
+        :duration-hour:
+          :one: "{0} órává"
+          :other: "{0} órává"
+        :duration-minute:
+          :one: "{0} perccé"
+          :other: "{0} perccé"
+        :duration-second:
+          :one: "{0} másodperccé"
+          :other: "{0} másodperccé"
+        :duration-millisecond:
+          :one: "{0} ezredmásodperccé"
+          :other: "{0} ezredmásodperccé"
+        :duration-microsecond:
+          :one: "{0} mikroszekundummá"
+          :other: "{0} mikroszekundummá"
+        :duration-nanosecond:
+          :one: "{0} nanoszekundummá"
+          :other: "{0} nanoszekundummá"
+        :electric-ampere:
+          :one: "{0} amperré"
+          :other: "{0} amperré"
+        :electric-milliampere:
+          :one: "{0} milliamperré"
+          :other: "{0} milliamperré"
+        :electric-ohm:
+          :one: "{0} ohmmá"
+          :other: "{0} ohmmá"
+        :electric-volt:
+          :one: "{0} volttá"
+          :other: "{0} volttá"
+        :energy-kilocalorie:
+          :one: "{0} kilokalóriává"
+          :other: "{0} kilokalóriává"
+        :energy-calorie:
+          :one: "{0} kalóriává"
+          :other: "{0} kalóriává"
+        :energy-foodcalorie:
+          :one: "{0} kalória"
+          :other: "{0} kalória"
+        :energy-kilojoule:
+          :one: "{0} kilojoule-lá"
+          :other: "{0} kilojoule-lá"
+        :energy-joule:
+          :one: "{0} joule-lá"
+          :other: "{0} joule-lá"
+        :energy-kilowatt-hour:
+          :one: "{0} kilowattórává"
+          :other: "{0} kilowattórává"
+        :energy-electronvolt:
+          :one: "{0} elektronvolt"
+          :other: "{0} elektronvolt"
+        :energy-british-thermal-unit:
+          :one: "{0} brit hőegység"
+          :other: "{0} brit hőegység"
+        :energy-therm-us:
+          :one: "{0} amerikai therm"
+          :other: "{0} amerikai therm"
+        :force-pound-force:
+          :one: "{0} fonterő"
+          :other: "{0} fonterő"
+        :force-newton:
+          :one: "{0} newtonná"
+          :other: "{0} newtonná"
+        :force-kilowatt-hour-per-100-kilometer:
+          :one: "{0} kWh/100 km-ré"
+          :other: "{0} kWh/100 km-ré"
+        :frequency-gigahertz:
+          :one: "{0} gigahertzcé"
+          :other: "{0} gigahertzcé"
+        :frequency-megahertz:
+          :one: "{0} megahertzcé"
+          :other: "{0} megahertzcé"
+        :frequency-kilohertz:
+          :one: "{0} kilohertzcé"
+          :other: "{0} kilohertzcé"
+        :frequency-hertz:
+          :one: "{0} hertzcé"
+          :other: "{0} hertzcé"
+        :graphics-em:
+          :one: "{0} kvirtté"
+          :other: "{0} kvirtté"
+        :graphics-pixel:
+          :one: "{0} képponttá"
+          :other: "{0} képponttá"
+        :graphics-megapixel:
+          :one: "{0} millió képponttá"
+          :other: "{0} millió képponttá"
+        :graphics-pixel-per-centimeter:
+          :one: "{0} képpont per centiméterré"
+          :other: "{0} képpont per centiméterré"
+        :graphics-pixel-per-inch:
+          :one: "{0} képpont per hüvelyk"
+          :other: "{0} képpont per hüvelyk"
+        :graphics-dot-per-centimeter:
+          :one: "{0} pont per centiméter"
+          :other: "{0} pont per centiméter"
+        :graphics-dot-per-inch:
+          :one: "{0} pont per hüvelyk"
+          :other: "{0} pont per hüvelyk"
+        :length-earth-radius:
+          :one: "{0} földsugár"
+          :other: "{0} földsugár"
+        :length-kilometer:
+          :one: "{0} kilométerré"
+          :other: "{0} kilométerré"
+        :length-meter:
+          :one: "{0} méterré"
+          :other: "{0} méterré"
+        :length-decimeter:
+          :one: "{0} deciméterré"
+          :other: "{0} deciméterré"
+        :length-centimeter:
+          :one: "{0} centiméterré"
+          :other: "{0} centiméterré"
+        :length-millimeter:
+          :one: "{0} milliméterré"
+          :other: "{0} milliméterré"
+        :length-micrometer:
+          :one: "{0} mikrométerré"
+          :other: "{0} mikrométerré"
+        :length-nanometer:
+          :one: "{0} nanométerré"
+          :other: "{0} nanométerré"
+        :length-picometer:
+          :one: "{0} pikométerré"
+          :other: "{0} pikométerré"
+        :length-mile:
+          :one: "{0} mérföld"
+          :other: "{0} mérföld"
+        :length-yard:
+          :one: "{0} yard"
+          :other: "{0} yard"
+        :length-parsec:
+          :one: "{0} parszek"
+          :other: "{0} parszek"
+        :length-astronomical-unit:
+          :one: "{0} csillagászati egység"
+          :other: "{0} csillagászati egység"
+        :length-furlong:
+          :one: "{0} furlong"
+          :other: "{0} furlong"
+        :length-nautical-mile:
+          :one: "{0} tengeri mérföld"
+          :other: "{0} tengeri mérföld"
+        :length-mile-scandinavian:
+          :one: "{0} svéd mérfölddé"
+          :other: "{0} svéd mérfölddé"
+        :length-point:
+          :one: "{0} ponttá"
+          :other: "{0} ponttá"
+        :length-solar-radius:
+          :one: "{0} Nap-sugár"
+          :other: "{0} Nap-sugár"
+        :light-lux:
+          :one: "{0} luxszá"
+          :other: "{0} luxszá"
+        :light-candela:
+          :one: "{0} kandelává"
+          :other: "{0} kandelává"
+        :light-lumen:
+          :one: "{0} lumenné"
+          :other: "{0} lumenné"
+        :light-solar-luminosity:
+          :one: "{0} Nap-fényerő"
+          :other: "{0} Nap-fényerő"
+        :mass-tonne:
+          :one: "{0} metrikus tonnává"
+          :other: "{0} metrikus tonnává"
+        :mass-kilogram:
+          :one: "{0} kilogrammá"
+          :other: "{0} kilogrammá"
+        :mass-gram:
+          :one: "{0} grammá"
+          :other: "{0} grammá"
+        :mass-milligram:
+          :one: "{0} milligrammá"
+          :other: "{0} milligrammá"
+        :mass-microgram:
+          :one: "{0} mikrogrammá"
+          :other: "{0} mikrogrammá"
+        :mass-ton:
+          :one: "{0} amerikai tonna"
+          :other: "{0} amerikai tonna"
+        :mass-stone:
+          :one: "{0} stone"
+          :other: "{0} stone"
+        :mass-pound:
+          :one: "{0} font"
+          :other: "{0} font"
+        :mass-ounce:
+          :one: "{0} uncia"
+          :other: "{0} uncia"
+        :mass-ounce-troy:
+          :one: "{0} troy uncia"
+          :other: "{0} troy uncia"
+        :mass-carat:
+          :one: "{0} karáttá"
+          :other: "{0} karáttá"
+        :mass-dalton:
+          :one: "{0} dalton"
+          :other: "{0} dalton"
+        :mass-earth-mass:
+          :one: "{0} Föld-tömeg"
+          :other: "{0} Föld-tömeg"
+        :mass-solar-mass:
+          :one: "{0} Nap-tömeg"
+          :other: "{0} Nap-tömeg"
+        :power-gigawatt:
+          :one: "{0} gigawattá"
+          :other: "{0} gigawattá"
+        :power-megawatt:
+          :one: "{0} megawattá"
+          :other: "{0} megawattá"
+        :power-kilowatt:
+          :one: "{0} kilowattá"
+          :other: "{0} kilowattá"
+        :power-watt:
+          :one: "{0} wattá"
+          :other: "{0} wattá"
+        :power-milliwatt:
+          :one: "{0} milliwattá"
+          :other: "{0} milliwattá"
+        :power-horsepower:
+          :one: "{0} lóerő"
+          :other: "{0} lóerő"
+        :pressure-millimeter-ofhg:
+          :one: "{0} higanymilliméterré"
+          :other: "{0} higanymilliméterré"
+        :pressure-ofhg:
+          :one: "{0} higany"
+          :other: "{0} higany"
+        :pressure-pound-force-per-square-inch:
+          :one: "{0} font per négyzethüvelyk"
+          :other: "{0} font per négyzethüvelyk"
+        :pressure-inch-ofhg:
+          :one: "{0} higanyhüvelyk"
+          :other: "{0} higanyhüvelyk"
+        :pressure-bar:
+          :one: "{0} barrá"
+          :other: "{0} barrá"
+        :pressure-millibar:
+          :one: "{0} millibarrá"
+          :other: "{0} millibarrá"
+        :pressure-atmosphere:
+          :one: "{0} atmoszférává"
+          :other: "{0} atmoszférává"
+        :pressure-pascal:
+          :one: "{0} pascallá"
+          :other: "{0} pascallá"
+        :pressure-hectopascal:
+          :one: "{0} hektopascallá"
+          :other: "{0} hektopascallá"
+        :pressure-kilopascal:
+          :one: "{0} kilopascallá"
+          :other: "{0} kilopascallá"
+        :pressure-megapascal:
+          :one: "{0} megapascallá"
+          :other: "{0} megapascallá"
+        :speed-kilometer-per-hour:
+          :one: "{0} kilométer per órává"
+          :other: "{0} kilométer per órává"
+        :speed-meter-per-second:
+          :one: "{0} méter per másodperccé"
+          :other: "{0} méter per másodperccé"
+        :speed-mile-per-hour:
+          :one: "{0} mérföld per óra"
+          :other: "{0} mérföld per óra"
+        :speed-knot:
+          :one: "{0} csomó"
+          :other: "{0} csomó"
+        :speed-beaufort:
+          :one: Beaufort {0}
+          :other: Beaufort {0}
+        :temperature-generic:
+          :one: "{0} fokká"
+          :other: "{0} fokká"
+        :temperature-celsius:
+          :one: "{0} Celsius-fokká"
+          :other: "{0} Celsius-fokká"
+        :temperature-fahrenheit:
+          :one: "{0} Fahrenheit-fok"
+          :other: "{0} Fahrenheit-fok"
+        :temperature-kelvin:
           :one: "{0} kelvinné"
           :other: "{0} kelvinné"
-        :torque-newton-meter: 
-          :one: "{0} newtonméterré"
-          :other: "{0} newtonméterré"
-        :torque-pound-force-foot: 
+        :torque-pound-force-foot:
           :one: "{0} fontláb"
           :other: "{0} fontláb"
-        :volume-acre-foot: 
-          :one: "{0} hold-láb"
-          :other: "{0} hold-láb"
-        :volume-centiliter: 
-          :one: "{0} centiliterré"
-          :other: "{0} centiliterré"
-        :volume-cubic-centimeter: 
-          :one: "{0} köbcentiméterré"
-          :other: "{0} köbcentiméterré"
-        :volume-cubic-foot: 
-          :one: "{0} köbláb"
-          :other: "{0} köbláb"
-        :volume-cubic-inch: 
-          :one: "{0} köbhüvelyk"
-          :other: "{0} köbhüvelyk"
-        :volume-cubic-kilometer: 
+        :torque-newton-meter:
+          :one: "{0} newtonméterré"
+          :other: "{0} newtonméterré"
+        :volume-cubic-kilometer:
           :one: "{0} köbkilométerré"
           :other: "{0} köbkilométerré"
-        :volume-cubic-meter: 
+        :volume-cubic-meter:
           :one: "{0} köbméterré"
           :other: "{0} köbméterré"
-        :volume-cubic-mile: 
+        :volume-cubic-centimeter:
+          :one: "{0} köbcentiméterré"
+          :other: "{0} köbcentiméterré"
+        :volume-cubic-mile:
           :one: "{0} köbmérföld"
           :other: "{0} köbmérföld"
-        :volume-cubic-yard: 
+        :volume-cubic-yard:
           :one: "{0} köbyard"
           :other: "{0} köbyard"
-        :volume-cup: 
-          :one: "{0} csésze"
-          :other: "{0} csésze"
-        :volume-cup-metric: 
-          :one: "{0} bögrévé"
-          :other: "{0} bögrévé"
-        :volume-deciliter: 
-          :one: "{0} deciliterré"
-          :other: "{0} deciliterré"
-        :volume-dram: 
-          :one: "{0} dram"
-          :other: "{0} dram"
-        :volume-fluid-ounce: 
-          :one: "{0} folyadékuncia"
-          :other: "{0} folyadékuncia"
-        :volume-fluid-ounce-imperial: 
-          :one: "{0} bir. folyadék uncia"
-          :other: "{0} bir. folyadék uncia"
-        :volume-fluid-ounce-metric: 
-          :one: "{0} metrikus folyadékuncia"
-          :other: "{0} metrikus folyadékuncia"
-        :volume-gallon: 
-          :one: "{0} gallon"
-          :other: "{0} gallon"
-        :volume-gallon-imperial: 
-          :one: "{0} birodalmi gallon"
-          :other: "{0} birodalmi gallon"
-        :volume-hectoliter: 
-          :one: "{0} hektoliterré"
-          :other: "{0} hektoliterré"
-        :volume-liter: 
-          :one: "{0} literré"
-          :other: "{0} literré"
-        :volume-megaliter: 
+        :volume-cubic-foot:
+          :one: "{0} köbláb"
+          :other: "{0} köbláb"
+        :volume-cubic-inch:
+          :one: "{0} köbhüvelyk"
+          :other: "{0} köbhüvelyk"
+        :volume-megaliter:
           :one: "{0} megaliterré"
           :other: "{0} megaliterré"
-        :volume-milliliter: 
+        :volume-hectoliter:
+          :one: "{0} hektoliterré"
+          :other: "{0} hektoliterré"
+        :volume-liter:
+          :one: "{0} literré"
+          :other: "{0} literré"
+        :volume-deciliter:
+          :one: "{0} deciliterré"
+          :other: "{0} deciliterré"
+        :volume-centiliter:
+          :one: "{0} centiliterré"
+          :other: "{0} centiliterré"
+        :volume-milliliter:
           :one: "{0} milliliterré"
           :other: "{0} milliliterré"
-        :volume-pint: 
-          :one: "{0} pint"
-          :other: "{0} pint"
-        :volume-pint-metric: 
+        :volume-pint-metric:
           :one: "{0} metrikus pintté"
           :other: "{0} metrikus pintté"
-        :volume-quart: 
+        :volume-cup-metric:
+          :one: "{0} bögrévé"
+          :other: "{0} bögrévé"
+        :volume-fluid-ounce-metric:
+          :one: "{0} metrikus folyadékuncia"
+          :other: "{0} metrikus folyadékuncia"
+        :volume-acre-foot:
+          :one: "{0} hold-láb"
+          :other: "{0} hold-láb"
+        :volume-gallon:
+          :one: "{0} gallon"
+          :other: "{0} gallon"
+        :volume-gallon-imperial:
+          :one: "{0} birodalmi gallon"
+          :other: "{0} birodalmi gallon"
+        :volume-quart:
           :one: "{0} quart"
           :other: "{0} quart"
-        :volume-quart-imperial: 
-          :one: "{0} birodalmi kvart"
-          :other: "{0} birodalmi kvart"
-        :volume-tablespoon: 
+        :volume-pint:
+          :one: "{0} pint"
+          :other: "{0} pint"
+        :volume-cup:
+          :one: "{0} csésze"
+          :other: "{0} csésze"
+        :volume-fluid-ounce:
+          :one: "{0} folyadékuncia"
+          :other: "{0} folyadékuncia"
+        :volume-fluid-ounce-imperial:
+          :one: "{0} bir. folyadék uncia"
+          :other: "{0} bir. folyadék uncia"
+        :volume-tablespoon:
           :one: "{0} evőkanál"
           :other: "{0} evőkanál"
-        :volume-teaspoon: 
+        :volume-teaspoon:
           :one: "{0} kávéskanál"
           :other: "{0} kávéskanál"
-      :narrow: 
-        :angle-degree: 
-          :one: "{0}°"
-          :other: "{0}°"
-        :area-acre: 
-          :one: "{0} ac"
-          :other: "{0} ac"
-        :concentr-part: 
-          :one: "{0} rész"
-          :other: "{0} rész"
-        :consumption-liter-per-100-kilometer: 
-          :one: "{0} l/100 km"
-          :other: "{0} l/100 km"
-        :digital-byte: 
-          :one: "{0} B"
-          :other: "{0} B"
-        :duration-month: 
-          :one: "{0} h."
-          :other: "{0} h."
-        :mass-ounce: 
-          :one: "{0} oz"
-          :other: "{0} uncia"
-        :mass-pound: 
-          :one: "{0} lb"
-          :other: "{0} font"
-        :speed-beaufort: 
-          :one: "B{0}"
-          :other: "B{0}"
-        :volume-dram: 
-          :one: "{0} fl.dr."
-          :other: "{0} fl.dr."
-        :volume-pinch: 
-          :one: "{0} csi"
-          :other: "{0} csi"
-      :short: 
-        :acceleration-g-force: 
+        :volume-dram:
+          :one: "{0} dram"
+          :other: "{0} dram"
+        :volume-quart-imperial:
+          :one: "{0} birodalmi kvart"
+          :other: "{0} birodalmi kvart"
+        :angle-steradian:
+          :one: "{0} szteradián"
+          :other: "{0} szteradián"
+        :concentr-katal:
+          :one: "{0} katal"
+          :other: "{0} katal"
+        :electric-coulomb:
+          :one: "{0} coulomb"
+          :other: "{0} coulomb"
+        :electric-farad:
+          :one: "{0} farad"
+          :other: "{0} farad"
+        :electric-henry:
+          :one: "{0} henry"
+          :other: "{0} henry"
+        :electric-siemens:
+          :one: "{0} siemens"
+          :other: "{0} siemens"
+        :energy-calorie-it:
+          :one: "{0} kalória [IT]"
+          :other: "{0} kalória [IT]"
+        :energy-becquerel:
+          :one: "{0} becquerel"
+          :other: "{0} becquerel"
+        :energy-sievert:
+          :one: "{0} sievert"
+          :other: "{0} sievert"
+        :energy-gray:
+          :one: "{0} gray"
+          :other: "{0} gray"
+        :force-kilogram-force:
+          :one: "{0} kilogramm-erő"
+          :other: "{0} kilogramm-erő"
+        :magnetic-tesla:
+          :one: "{0} tesla"
+          :other: "{0} tesla"
+        :magnetic-weber:
+          :one: "{0} weber"
+          :other: "{0} weber"
+        :duration-night:
+          :one: "{0} éjszakává"
+          :other: "{0} éjszakává"
+      :short:
+        :acceleration-g-force:
           :other: "{0} G"
-        :acceleration-meter-per-square-second: 
+        :acceleration-meter-per-square-second:
           :other: "{0} m/s²"
-        :angle-arc-minute: 
-          :other: "{0}′"
-        :angle-arc-second: 
-          :other: "{0}″"
-        :angle-degree: 
-          :one: "{0} fok"
-          :other: "{0} fok"
-        :angle-radian: 
-          :other: "{0} rad"
-        :angle-revolution: 
-          :one: "{0} ford."
+        :angle-revolution:
           :other: "{0} ford."
-        :angle-steradian: 
-          :other: "{0} sr"
-        :area-acre: 
-          :one: "{0} kh"
-          :other: "{0} kh"
-        :area-bu-jp: 
-          :other: "{0} bu [JP]"
-        :area-cho: 
-          :other: "{0} cho [JP]"
-        :area-dunam: 
-          :other: "{0} dunam"
-        :area-hectare: 
-          :other: "{0} ha"
-        :area-se-jp: 
-          :other: "{0} se [JP]"
-        :area-square-centimeter: 
-          :other: "{0} cm²"
-        :area-square-foot: 
-          :other: "{0} ft²"
-        :area-square-inch: 
-          :other: "{0} in²"
-        :area-square-kilometer: 
+          :one: "{0} ford."
+        :angle-radian:
+          :other: "{0} rad"
+        :angle-degree:
+          :other: "{0} fok"
+          :one: "{0} fok"
+        :angle-arc-minute:
+          :other: "{0}′"
+        :angle-arc-second:
+          :other: "{0}″"
+        :area-square-kilometer:
           :other: "{0} km²"
-        :area-square-meter: 
+        :area-hectare:
+          :other: "{0} ha"
+        :area-square-meter:
           :other: "{0} m²"
-        :area-square-mile: 
+        :area-square-centimeter:
+          :other: "{0} cm²"
+        :area-square-mile:
           :other: "{0} mi²"
-        :area-square-yard: 
+        :area-acre:
+          :other: "{0} kh"
+          :one: "{0} kh"
+        :area-square-yard:
           :other: "{0} yd²"
-        :concentr-item: 
-          :other: "{0} item"
-        :concentr-karat: 
+        :area-square-foot:
+          :other: "{0} ft²"
+        :area-square-inch:
+          :other: "{0} in²"
+        :area-dunam:
+          :other: "{0} dunam"
+        :concentr-karat:
           :other: "{0} kt"
-        :concentr-katal: 
-          :other: "{0} kat"
-        :concentr-milligram-ofglucose-per-deciliter: 
-          :one: "{0} mg/dl"
+        :concentr-milligram-ofglucose-per-deciliter:
           :other: "{0} mg/dl"
-        :concentr-millimole-per-liter: 
-          :one: "{0} mmol/l"
+          :one: "{0} mg/dl"
+        :concentr-millimole-per-liter:
           :other: "{0} mmol/l"
-        :concentr-mole: 
-          :other: "{0} mol"
-        :concentr-ofglucose: 
-          :other: "{0} Glc"
-        :concentr-part: 
-          :one: "{0} rész"
+          :one: "{0} mmol/l"
+        :concentr-item:
+          :other: "{0} item"
+        :concentr-part:
           :other: "{0} rész"
-        :concentr-part-per-1e6: 
+          :one: "{0} rész"
+        :concentr-part-per-1e6:
           :other: "{0} ppm"
-        :concentr-part-per-1e9: 
-          :other: "{0} ppb"
-        :concentr-percent: 
+        :concentr-percent:
           :other: "{0}%"
-        :concentr-permille: 
+        :concentr-permille:
           :other: "{0}‰"
-        :concentr-permyriad: 
+        :concentr-permyriad:
           :other: "{0}‱"
-        :consumption-liter-per-100-kilometer: 
-          :one: "{0} l/100 km"
-          :other: "{0} l/100km"
-        :consumption-liter-per-kilometer: 
-          :one: "{0} l/km"
+        :concentr-mole:
+          :other: "{0} mol"
+        :concentr-ofglucose:
+          :other: "{0} Glc"
+        :consumption-liter-per-kilometer:
           :other: "{0} l/km"
-        :consumption-mile-per-gallon: 
-          :one: "{0} mpg"
+          :one: "{0} l/km"
+        :consumption-liter-per-100-kilometer:
+          :other: "{0} l/100km"
+          :one: "{0} l/100 km"
+        :consumption-mile-per-gallon:
           :other: "{0} mpg"
-        :consumption-mile-per-gallon-imperial: 
-          :one: "{0} mpg bir."
+          :one: "{0} mpg"
+        :consumption-mile-per-gallon-imperial:
           :other: "{0} mpg bir."
-        :digital-bit: 
-          :other: "{0} bit"
-        :digital-byte: 
-          :one: "{0} bájt"
-          :other: "{0} bájt"
-        :digital-gigabit: 
-          :other: "{0} Gb"
-        :digital-gigabyte: 
-          :other: "{0} GB"
-        :digital-kilobit: 
-          :other: "{0} kb"
-        :digital-kilobyte: 
-          :other: "{0} kB"
-        :digital-megabit: 
-          :other: "{0} Mb"
-        :digital-megabyte: 
-          :other: "{0} MB"
-        :digital-petabyte: 
+          :one: "{0} mpg bir."
+        :digital-petabyte:
           :other: "{0} PB"
-        :digital-terabit: 
-          :other: "{0} Tb"
-        :digital-terabyte: 
+        :digital-terabyte:
           :other: "{0} TB"
-        :duration-century: 
-          :one: "{0} sz."
+        :digital-terabit:
+          :other: "{0} Tb"
+        :digital-gigabyte:
+          :other: "{0} GB"
+        :digital-gigabit:
+          :other: "{0} Gb"
+        :digital-megabyte:
+          :other: "{0} MB"
+        :digital-megabit:
+          :other: "{0} Mb"
+        :digital-kilobyte:
+          :other: "{0} kB"
+        :digital-kilobit:
+          :other: "{0} kb"
+        :digital-byte:
+          :other: "{0} bájt"
+          :one: "{0} bájt"
+        :digital-bit:
+          :other: "{0} bit"
+        :duration-century:
           :other: "{0} sz."
-        :duration-day: 
-          :one: "{0} nap"
-          :other: "{0} nap"
-        :duration-decade: 
-          :one: "{0} dek"
+          :one: "{0} sz."
+        :duration-decade:
           :other: "{0} dek"
-        :duration-fortnight: 
-          :other: "{0} fw"
-        :duration-hour: 
-          :one: "{0} ó"
-          :other: "{0} ó"
-        :duration-microsecond: 
-          :other: "{0} μs"
-        :duration-millisecond: 
-          :other: "{0} ms"
-        :duration-minute: 
-          :one: "{0} p"
-          :other: "{0} p"
-        :duration-month: 
-          :one: "{0} hónap"
-          :other: "{0} hónap"
-        :duration-nanosecond: 
-          :other: "{0} ns"
-        :duration-night: 
-          :one: "{0} éjszaka"
-          :other: "{0} éjszaka"
-        :duration-quarter: 
-          :one: "{0} n.év"
-          :other: "{0} n.év"
-        :duration-second: 
-          :one: "{0} mp"
-          :other: "{0} mp"
-        :duration-week: 
-          :one: "{0} hét"
-          :other: "{0} hét"
-        :duration-year: 
-          :one: "{0} év"
+          :one: "{0} dek"
+        :duration-year:
           :other: "{0} év"
-        :electric-ampere: 
+          :one: "{0} év"
+        :duration-quarter:
+          :other: "{0} n.év"
+          :one: "{0} n.év"
+        :duration-month:
+          :other: "{0} hónap"
+          :one: "{0} hónap"
+        :duration-week:
+          :other: "{0} hét"
+          :one: "{0} hét"
+        :duration-day:
+          :other: "{0} nap"
+          :one: "{0} nap"
+        :duration-hour:
+          :other: "{0} ó"
+          :one: "{0} ó"
+        :duration-minute:
+          :other: "{0} p"
+          :one: "{0} p"
+        :duration-second:
+          :other: "{0} mp"
+          :one: "{0} mp"
+        :duration-millisecond:
+          :other: "{0} ms"
+        :duration-microsecond:
+          :other: "{0} μs"
+        :duration-nanosecond:
+          :other: "{0} ns"
+        :electric-ampere:
           :other: "{0} A"
-        :electric-coulomb: 
-          :other: "{0} C"
-        :electric-farad: 
-          :other: "{0} F"
-        :electric-henry: 
-          :other: "{0} H"
-        :electric-milliampere: 
+        :electric-milliampere:
           :other: "{0} mA"
-        :electric-ohm: 
+        :electric-ohm:
           :other: "{0} Ω"
-        :electric-siemens: 
-          :other: "{0} S"
-        :electric-volt: 
+        :electric-volt:
           :other: "{0} V"
-        :energy-becquerel: 
-          :other: "{0} Bq"
-        :energy-british-thermal-unit: 
-          :other: "{0} Btu"
-        :energy-british-thermal-unit-it: 
-          :other: "{0} BTU-IT"
-        :energy-calorie: 
+        :energy-kilocalorie:
+          :other: "{0} kcal"
+        :energy-calorie:
           :other: "{0} cal"
-        :energy-calorie-it: 
-          :other: "{0} cal-IT"
-        :energy-electronvolt: 
+        :energy-kilojoule:
+          :other: "{0} kJ"
+        :energy-joule:
+          :other: "{0} J"
+        :energy-kilowatt-hour:
+          :other: "{0} kWh"
+        :energy-electronvolt:
           :other: "{0} eV"
-        :energy-foodcalorie: 
+        :energy-british-thermal-unit:
+          :other: "{0} Btu"
+        :energy-therm-us:
+          :other: "{0} USA therm"
+          :one: "{0} USA therm"
+        :force-pound-force:
+          :other: "{0} lbf"
+        :force-newton:
+          :other: "{0} N"
+        :force-kilowatt-hour-per-100-kilometer:
+          :other: "{0} kWh/100 km"
+          :one: "{0} kWh/100 km"
+        :frequency-gigahertz:
+          :other: "{0} GHz"
+        :frequency-megahertz:
+          :other: "{0} MHz"
+        :frequency-kilohertz:
+          :other: "{0} kHz"
+        :frequency-hertz:
+          :other: "{0} Hz"
+        :graphics-em:
+          :other: "{0} em"
+        :graphics-pixel:
+          :other: "{0} px"
+        :graphics-megapixel:
+          :other: "{0} MP"
+        :graphics-pixel-per-centimeter:
+          :other: "{0} ppcm"
+        :graphics-pixel-per-inch:
+          :other: "{0} ppi"
+        :length-earth-radius:
+          :other: "{0} R⊕"
+        :length-kilometer:
+          :other: "{0} km"
+        :length-meter:
+          :other: "{0} m"
+        :length-decimeter:
+          :other: "{0} dm"
+        :length-centimeter:
+          :other: "{0} cm"
+        :length-millimeter:
+          :other: "{0} mm"
+        :length-micrometer:
+          :other: "{0} μm"
+        :length-nanometer:
+          :other: "{0} nm"
+        :length-picometer:
+          :other: "{0} pm"
+        :length-mile:
+          :other: "{0} mf"
+          :one: "{0} mf"
+        :length-yard:
+          :other: "{0} yd"
+        :length-foot:
+          :other: "{0} láb"
+          :one: "{0} láb"
+        :length-inch:
+          :other: "{0} hüvelyk"
+          :one: "{0} hüvelyk"
+        :length-parsec:
+          :other: "{0} pc"
+        :length-light-year:
+          :other: "{0} fényév"
+          :one: "{0} fényév"
+        :length-astronomical-unit:
+          :other: "{0} CsE"
+          :one: "{0} CsE"
+        :length-furlong:
+          :other: "{0} fur"
+        :length-fathom:
+          :other: "{0} öl"
+          :one: "{0} öl"
+        :length-nautical-mile:
+          :other: "{0} nmi"
+        :length-mile-scandinavian:
+          :other: "{0} mil"
+          :one: "{0} mil"
+        :length-point:
+          :other: "{0} pt"
+        :length-solar-radius:
+          :other: "{0} R☉"
+        :light-lux:
+          :other: "{0} lx"
+        :light-candela:
+          :other: "{0} cd"
+        :light-lumen:
+          :other: "{0} lm"
+        :light-solar-luminosity:
+          :other: "{0} L☉"
+        :mass-tonne:
+          :other: "{0} t"
+        :mass-kilogram:
+          :other: "{0} kg"
+        :mass-gram:
+          :other: "{0} g"
+        :mass-milligram:
+          :other: "{0} mg"
+        :mass-microgram:
+          :other: "{0} μg"
+        :mass-ton:
+          :other: "{0} tn"
+        :mass-stone:
+          :other: "{0} st"
+        :mass-pound:
+          :other: "{0} lb"
+        :mass-ounce:
+          :other: "{0} oz"
+        :mass-ounce-troy:
+          :other: "{0} oz t"
+        :mass-carat:
+          :other: "{0} Kt"
+          :one: "{0} Kt"
+        :mass-dalton:
+          :other: "{0} Da"
+        :mass-earth-mass:
+          :other: "{0} M⊕"
+        :mass-solar-mass:
+          :other: "{0} M☉"
+        :mass-grain:
+          :other: "{0} grain"
+        :power-gigawatt:
+          :other: "{0} GW"
+        :power-megawatt:
+          :other: "{0} MW"
+        :power-kilowatt:
+          :other: "{0} kW"
+        :power-watt:
+          :other: "{0} W"
+        :power-milliwatt:
+          :other: "{0} mW"
+        :power-horsepower:
+          :other: "{0} LE"
+          :one: "{0} LE"
+        :pressure-millimeter-ofhg:
+          :other: "{0} Hgmm"
+          :one: "{0} Hgmm"
+        :pressure-ofhg:
+          :other: "{0} Hg"
+        :pressure-pound-force-per-square-inch:
+          :other: "{0} psi"
+        :pressure-inch-ofhg:
+          :other: "{0} inHg"
+        :pressure-bar:
+          :other: "{0} bar"
+        :pressure-millibar:
+          :other: "{0} mb"
+          :one: "{0} mb"
+        :pressure-atmosphere:
+          :other: "{0} atm"
+        :pressure-pascal:
+          :other: "{0} Pa"
+        :pressure-hectopascal:
+          :other: "{0} hPa"
+        :pressure-kilopascal:
+          :other: "{0} kPa"
+        :pressure-megapascal:
+          :other: "{0} MPa"
+        :speed-kilometer-per-hour:
+          :other: "{0} km/h"
+        :speed-meter-per-second:
+          :other: "{0} m/s"
+        :speed-mile-per-hour:
+          :other: "{0} mph"
+          :one: "{0} mph"
+        :speed-knot:
+          :other: "{0} kn"
+        :speed-beaufort:
+          :other: B {0}
+        :temperature-generic:
+          :other: "{0}°"
+        :temperature-celsius:
+          :other: "{0} °C"
+          :one: "{0} °C"
+        :temperature-fahrenheit:
+          :other: "{0} °F"
+          :one: "{0} °F"
+        :temperature-kelvin:
+          :other: "{0} K"
+        :torque-pound-force-foot:
+          :other: "{0} lbf⋅ft"
+        :torque-newton-meter:
+          :other: "{0} Nm"
+          :one: "{0} Nm"
+        :volume-cubic-kilometer:
+          :other: "{0} km³"
+        :volume-cubic-meter:
+          :other: "{0} m³"
+        :volume-cubic-centimeter:
+          :other: "{0} cm³"
+        :volume-cubic-mile:
+          :other: "{0} mi³"
+        :volume-cubic-yard:
+          :other: "{0} yd³"
+        :volume-cubic-foot:
+          :other: "{0} ft³"
+        :volume-cubic-inch:
+          :other: "{0} in³"
+        :volume-megaliter:
+          :other: "{0} Ml"
+          :one: "{0} Ml"
+        :volume-hectoliter:
+          :other: "{0} hl"
+          :one: "{0} hl"
+        :volume-liter:
+          :other: "{0} l"
+        :volume-deciliter:
+          :other: "{0} dl"
+          :one: "{0} dl"
+        :volume-centiliter:
+          :other: "{0} cl"
+          :one: "{0} cl"
+        :volume-milliliter:
+          :other: "{0} ml"
+          :one: "{0} ml"
+        :volume-pint-metric:
+          :other: "{0} mpt"
+        :volume-cup-metric:
+          :other: "{0} bg"
+          :one: "{0} bg"
+        :volume-fluid-ounce-metric:
+          :other: "{0} fl oz m."
+        :volume-acre-foot:
+          :other: "{0} ac ft"
+        :volume-bushel:
+          :other: "{0} véka"
+          :one: "{0} véka"
+        :volume-gallon:
+          :other: "{0} gal"
+          :one: "{0} gal"
+        :volume-gallon-imperial:
+          :other: "{0} bir. gal"
+          :one: "{0} bir. gal"
+        :volume-quart:
+          :other: "{0} qt"
+        :volume-pint:
+          :other: "{0} pt"
+        :volume-pint-imperial:
+          :other: "{0} pt Imp."
+        :volume-cup:
+          :other: "{0} cs."
+          :one: "{0} cs."
+        :volume-cup-imperial:
+          :other: "{0} cup Imp."
+        :volume-fluid-ounce:
+          :other: "{0} fl oz"
+          :one: "{0} fl oz"
+        :volume-fluid-ounce-imperial:
+          :other: "{0} bir. f. uncia"
+          :one: "{0} bir. f. uncia"
+        :volume-tablespoon:
+          :other: "{0} ek."
+          :one: "{0} ek."
+        :volume-teaspoon:
+          :other: "{0} kk."
+          :one: "{0} kk."
+        :volume-barrel:
+          :other: "{0} hordó"
+          :one: "{0} hordó"
+        :volume-dessert-spoon:
+          :other: "{0} desszertkanál"
+          :one: "{0} desszertkanál"
+        :volume-dessert-spoon-imperial:
+          :other: "{0} bir. desszertkanál"
+          :one: "{0} bir. desszertkanál"
+        :volume-drop:
+          :other: "{0} csepp"
+          :one: "{0} csepp"
+        :volume-dram:
+          :other: "{0} fl dram"
+          :one: "{0} fl dram"
+        :volume-jigger:
+          :other: "{0} adagolópohár"
+          :one: "{0} adagolópohár"
+        :volume-pinch:
+          :other: "{0} csipet"
+          :one: "{0} csipet"
+        :volume-quart-imperial:
+          :other: "{0} bir. qt"
+          :one: "{0} bir. qt"
+        :angle-steradian:
+          :other: "{0} sr"
+        :concentr-katal:
+          :other: "{0} kat"
+        :electric-coulomb:
+          :other: "{0} C"
+        :electric-farad:
+          :other: "{0} F"
+        :electric-henry:
+          :other: "{0} H"
+        :electric-siemens:
+          :other: "{0} S"
+        :energy-calorie-it:
+          :other: "{0} cal-IT"
+        :energy-british-thermal-unit-it:
+          :other: "{0} BTU-IT"
+        :energy-becquerel:
+          :other: "{0} Bq"
+        :energy-sievert:
+          :other: "{0} Sv"
+        :energy-gray:
+          :other: "{0} Gy"
+        :force-kilogram-force:
+          :other: "{0} kgf"
+        :length-rod:
+          :other: "{0} rod"
+        :length-chain:
+          :other: "{0} chain"
+        :magnetic-tesla:
+          :other: "{0} T"
+        :magnetic-weber:
+          :other: "{0} Wb"
+        :temperature-rankine:
+          :other: "{0} °R"
+        :duration-fortnight:
+          :other: "{0} fw"
+        :mass-slug:
+          :other: "{0} slug"
+        :pressure-gasoline-energy-density:
+          :other: "{0} gas E"
+        :length-rin:
+          :other: "{0} rin [JP]"
+        :length-sun:
+          :other: "{0} sun [JP]"
+        :length-shaku-length:
+          :other: "{0} shaku [JP]"
+        :length-shaku-cloth:
+          :other: "{0} shaku [cloth, JP]"
+        :length-ken:
+          :other: "{0} ken [JP]"
+        :length-jo-jp:
+          :other: "{0} jo [JP]"
+        :length-ri-jp:
+          :other: "{0} ri [JP]"
+        :area-bu-jp:
+          :other: "{0} bu [JP]"
+        :area-se-jp:
+          :other: "{0} se [JP]"
+        :area-cho:
+          :other: "{0} cho [JP]"
+        :volume-kosaji:
+          :other: "{0} kosaji [JP]"
+        :volume-osaji:
+          :other: "{0} osaji [JP]"
+        :volume-cup-jp:
+          :other: "{0} cup [JP]"
+        :volume-shaku:
+          :other: "{0} shaku [vol, JP]"
+        :volume-sai:
+          :other: "{0} sai [JP]"
+        :volume-to-jp:
+          :other: "{0} to [JP]"
+        :volume-koku:
+          :other: "{0} koku [JP]"
+        :speed-light-speed:
+          :other: "{0} light"
+        :mass-fun:
+          :other: "{0} fun [JP]"
+        :concentr-part-per-1e9:
+          :other: "{0} ppb"
+        :duration-night:
+          :other: "{0} éjszaka"
+          :one: "{0} éjszaka"
+        :energy-foodcalorie:
           :one: "{0} cal"
           :other: "{0} cal"
-        :energy-gray: 
-          :other: "{0} Gy"
-        :energy-joule: 
-          :other: "{0} J"
-        :energy-kilocalorie: 
-          :other: "{0} kcal"
-        :energy-kilojoule: 
-          :other: "{0} kJ"
-        :energy-kilowatt-hour: 
-          :other: "{0} kWh"
-        :energy-sievert: 
-          :other: "{0} Sv"
-        :energy-therm-us: 
-          :one: "{0} USA therm"
-          :other: "{0} USA therm"
-        :force-kilogram-force: 
-          :other: "{0} kgf"
-        :force-kilowatt-hour-per-100-kilometer: 
-          :one: "{0} kWh/100 km"
-          :other: "{0} kWh/100 km"
-        :force-newton: 
-          :other: "{0} N"
-        :force-pound-force: 
-          :other: "{0} lbf"
-        :frequency-gigahertz: 
-          :other: "{0} GHz"
-        :frequency-hertz: 
-          :other: "{0} Hz"
-        :frequency-kilohertz: 
-          :other: "{0} kHz"
-        :frequency-megahertz: 
-          :other: "{0} MHz"
-        :graphics-dot: 
-          :one: "{0} képpont"
-          :other: "{0} képpont"
-        :graphics-dot-per-centimeter: 
+        :graphics-dot-per-centimeter:
           :one: "{0} dpcm"
           :other: "{0} dpcm"
-        :graphics-dot-per-inch: 
+        :graphics-dot-per-inch:
           :one: "{0} dpi"
           :other: "{0} dpi"
-        :graphics-em: 
-          :other: "{0} em"
-        :graphics-megapixel: 
-          :other: "{0} MP"
-        :graphics-pixel: 
-          :other: "{0} px"
-        :graphics-pixel-per-centimeter: 
-          :other: "{0} ppcm"
-        :graphics-pixel-per-inch: 
-          :other: "{0} ppi"
-        :length-astronomical-unit: 
-          :one: "{0} CsE"
-          :other: "{0} CsE"
-        :length-centimeter: 
-          :other: "{0} cm"
-        :length-chain: 
-          :other: "{0} chain"
-        :length-decimeter: 
-          :other: "{0} dm"
-        :length-earth-radius: 
-          :other: "{0} R⊕"
-        :length-fathom: 
-          :one: "{0} öl"
-          :other: "{0} öl"
-        :length-foot: 
-          :one: "{0} láb"
-          :other: "{0} láb"
-        :length-furlong: 
-          :other: "{0} fur"
-        :length-inch: 
-          :one: "{0} hüvelyk"
-          :other: "{0} hüvelyk"
-        :length-jo-jp: 
-          :other: "{0} jo [JP]"
-        :length-ken: 
-          :other: "{0} ken [JP]"
-        :length-kilometer: 
-          :other: "{0} km"
-        :length-light-year: 
-          :one: "{0} fényév"
-          :other: "{0} fényév"
-        :length-meter: 
-          :other: "{0} m"
-        :length-micrometer: 
-          :other: "{0} μm"
-        :length-mile: 
-          :one: "{0} mf"
-          :other: "{0} mf"
-        :length-mile-scandinavian: 
-          :one: "{0} mil"
-          :other: "{0} mil"
-        :length-millimeter: 
-          :other: "{0} mm"
-        :length-nanometer: 
-          :other: "{0} nm"
-        :length-nautical-mile: 
-          :other: "{0} nmi"
-        :length-parsec: 
-          :other: "{0} pc"
-        :length-picometer: 
-          :other: "{0} pm"
-        :length-point: 
-          :other: "{0} pt"
-        :length-ri-jp: 
-          :other: "{0} ri [JP]"
-        :length-rin: 
-          :other: "{0} rin [JP]"
-        :length-rod: 
-          :other: "{0} rod"
-        :length-shaku-cloth: 
-          :other: "{0} shaku [cloth, JP]"
-        :length-shaku-length: 
-          :other: "{0} shaku [JP]"
-        :length-solar-radius: 
-          :other: "{0} R☉"
-        :length-sun: 
-          :other: "{0} sun [JP]"
-        :length-yard: 
-          :other: "{0} yd"
-        :light-candela: 
-          :other: "{0} cd"
-        :light-lumen: 
-          :other: "{0} lm"
-        :light-lux: 
-          :other: "{0} lx"
-        :light-solar-luminosity: 
-          :other: "{0} L☉"
-        :magnetic-tesla: 
-          :other: "{0} T"
-        :magnetic-weber: 
-          :other: "{0} Wb"
-        :mass-carat: 
-          :one: "{0} Kt"
-          :other: "{0} Kt"
-        :mass-dalton: 
-          :other: "{0} Da"
-        :mass-earth-mass: 
-          :other: "{0} M⊕"
-        :mass-fun: 
-          :other: "{0} fun [JP]"
-        :mass-grain: 
-          :other: "{0} grain"
-        :mass-gram: 
-          :other: "{0} g"
-        :mass-kilogram: 
-          :other: "{0} kg"
-        :mass-microgram: 
-          :other: "{0} μg"
-        :mass-milligram: 
-          :other: "{0} mg"
-        :mass-ounce: 
-          :other: "{0} oz"
-        :mass-ounce-troy: 
-          :other: "{0} oz t"
-        :mass-pound: 
-          :other: "{0} lb"
-        :mass-slug: 
-          :other: "{0} slug"
-        :mass-solar-mass: 
-          :other: "{0} M☉"
-        :mass-stone: 
-          :other: "{0} st"
-        :mass-ton: 
-          :other: "{0} tn"
-        :mass-tonne: 
-          :other: "{0} t"
-        :power-gigawatt: 
-          :other: "{0} GW"
-        :power-horsepower: 
-          :one: "{0} LE"
-          :other: "{0} LE"
-        :power-kilowatt: 
-          :other: "{0} kW"
-        :power-megawatt: 
-          :other: "{0} MW"
-        :power-milliwatt: 
-          :other: "{0} mW"
-        :power-watt: 
-          :other: "{0} W"
-        :pressure-atmosphere: 
-          :other: "{0} atm"
-        :pressure-bar: 
-          :other: "{0} bar"
-        :pressure-gasoline-energy-density: 
-          :other: "{0} gas E"
-        :pressure-hectopascal: 
-          :other: "{0} hPa"
-        :pressure-inch-ofhg: 
-          :other: "{0} inHg"
-        :pressure-kilopascal: 
-          :other: "{0} kPa"
-        :pressure-megapascal: 
-          :other: "{0} MPa"
-        :pressure-millibar: 
-          :one: "{0} mb"
-          :other: "{0} mb"
-        :pressure-millimeter-ofhg: 
-          :one: "{0} Hgmm"
-          :other: "{0} Hgmm"
-        :pressure-ofhg: 
-          :other: "{0} Hg"
-        :pressure-pascal: 
-          :other: "{0} Pa"
-        :pressure-pound-force-per-square-inch: 
-          :other: "{0} psi"
-        :speed-beaufort: 
-          :other: "B {0}"
-        :speed-kilometer-per-hour: 
-          :other: "{0} km/h"
-        :speed-knot: 
-          :other: "{0} kn"
-        :speed-light-speed: 
-          :other: "{0} light"
-        :speed-meter-per-second: 
-          :other: "{0} m/s"
-        :speed-mile-per-hour: 
-          :one: "{0} mph"
-          :other: "{0} mph"
-        :temperature-celsius: 
-          :one: "{0} °C"
-          :other: "{0} °C"
-        :temperature-fahrenheit: 
-          :one: "{0} °F"
-          :other: "{0} °F"
-        :temperature-generic: 
+        :graphics-dot:
+          :one: "{0} képpont"
+          :other: "{0} képpont"
+      :narrow:
+        :angle-degree:
+          :one: "{0}°"
           :other: "{0}°"
-        :temperature-kelvin: 
-          :other: "{0} K"
-        :temperature-rankine: 
-          :other: "{0} °R"
-        :torque-newton-meter: 
-          :one: "{0} Nm"
-          :other: "{0} Nm"
-        :torque-pound-force-foot: 
-          :other: "{0} lbf⋅ft"
-        :volume-acre-foot: 
-          :other: "{0} ac ft"
-        :volume-barrel: 
-          :one: "{0} hordó"
-          :other: "{0} hordó"
-        :volume-bushel: 
-          :one: "{0} véka"
-          :other: "{0} véka"
-        :volume-centiliter: 
-          :one: "{0} cl"
-          :other: "{0} cl"
-        :volume-cubic-centimeter: 
-          :other: "{0} cm³"
-        :volume-cubic-foot: 
-          :other: "{0} ft³"
-        :volume-cubic-inch: 
-          :other: "{0} in³"
-        :volume-cubic-kilometer: 
-          :other: "{0} km³"
-        :volume-cubic-meter: 
-          :other: "{0} m³"
-        :volume-cubic-mile: 
-          :other: "{0} mi³"
-        :volume-cubic-yard: 
-          :other: "{0} yd³"
-        :volume-cup: 
-          :one: "{0} cs."
-          :other: "{0} cs."
-        :volume-cup-imperial: 
-          :other: "{0} cup Imp."
-        :volume-cup-jp: 
-          :other: "{0} cup [JP]"
-        :volume-cup-metric: 
-          :one: "{0} bg"
-          :other: "{0} bg"
-        :volume-deciliter: 
-          :one: "{0} dl"
-          :other: "{0} dl"
-        :volume-dessert-spoon: 
-          :one: "{0} desszertkanál"
-          :other: "{0} desszertkanál"
-        :volume-dessert-spoon-imperial: 
-          :one: "{0} bir. desszertkanál"
-          :other: "{0} bir. desszertkanál"
-        :volume-dram: 
-          :one: "{0} fl dram"
-          :other: "{0} fl dram"
-        :volume-drop: 
-          :one: "{0} csepp"
-          :other: "{0} csepp"
-        :volume-fluid-ounce: 
-          :one: "{0} fl oz"
-          :other: "{0} fl oz"
-        :volume-fluid-ounce-imperial: 
-          :one: "{0} bir. f. uncia"
-          :other: "{0} bir. f. uncia"
-        :volume-fluid-ounce-metric: 
-          :other: "{0} fl oz m."
-        :volume-gallon: 
-          :one: "{0} gal"
-          :other: "{0} gal"
-        :volume-gallon-imperial: 
-          :one: "{0} bir. gal"
-          :other: "{0} bir. gal"
-        :volume-hectoliter: 
-          :one: "{0} hl"
-          :other: "{0} hl"
-        :volume-jigger: 
-          :one: "{0} adagolópohár"
-          :other: "{0} adagolópohár"
-        :volume-koku: 
-          :other: "{0} koku [JP]"
-        :volume-kosaji: 
-          :other: "{0} kosaji [JP]"
-        :volume-liter: 
-          :other: "{0} l"
-        :volume-megaliter: 
-          :one: "{0} Ml"
-          :other: "{0} Ml"
-        :volume-milliliter: 
-          :one: "{0} ml"
-          :other: "{0} ml"
-        :volume-osaji: 
-          :other: "{0} osaji [JP]"
-        :volume-pinch: 
-          :one: "{0} csipet"
-          :other: "{0} csipet"
-        :volume-pint: 
-          :other: "{0} pt"
-        :volume-pint-imperial: 
-          :other: "{0} pt Imp."
-        :volume-pint-metric: 
-          :other: "{0} mpt"
-        :volume-quart: 
-          :other: "{0} qt"
-        :volume-quart-imperial: 
-          :one: "{0} bir. qt"
-          :other: "{0} bir. qt"
-        :volume-sai: 
-          :other: "{0} sai [JP]"
-        :volume-shaku: 
-          :other: "{0} shaku [vol, JP]"
-        :volume-tablespoon: 
-          :one: "{0} ek."
-          :other: "{0} ek."
-        :volume-teaspoon: 
-          :one: "{0} kk."
-          :other: "{0} kk."
-        :volume-to-jp: 
-          :other: "{0} to [JP]"
+        :area-acre:
+          :one: "{0} ac"
+          :other: "{0} ac"
+        :concentr-part:
+          :one: "{0} rész"
+          :other: "{0} rész"
+        :consumption-liter-per-100-kilometer:
+          :one: "{0} l/100 km"
+          :other: "{0} l/100 km"
+        :digital-byte:
+          :one: "{0} B"
+          :other: "{0} B"
+        :duration-month:
+          :one: "{0} h."
+          :other: "{0} h."
+        :mass-pound:
+          :one: "{0} lb"
+          :other: "{0} font"
+        :mass-ounce:
+          :one: "{0} oz"
+          :other: "{0} uncia"
+        :speed-beaufort:
+          :one: B{0}
+          :other: B{0}
+        :volume-dram:
+          :one: "{0} fl.dr."
+          :other: "{0} fl.dr."
+        :volume-pinch:
+          :one: "{0} csi"
+          :other: "{0} csi"
+    :durationUnit:
+      :hm: h:mm
+      :hms: h:mm:ss
+      :ms: m:ss

@@ -1,12 +1,11 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - fa-t-hy-arevmda
-    :direction: forward
-    :rules: 
-      - "::hy_AREVMDA-hy_AREVMDA_FONIPA ;"
-      - "::und_FONIPA-fa ;"
-    :source: hy_AREVMDA
-    :target: fa
-    :variant: ~
+---
+:transforms:
+- :source: hy_AREVMDA
+  :target: fa
+  :aliases:
+  - fa-t-hy-arevmda
+  :variant:
+  :direction: forward
+  :rules:
+  - "::hy_AREVMDA-hy_AREVMDA_FONIPA ;"
+  - "::und_FONIPA-fa ;"

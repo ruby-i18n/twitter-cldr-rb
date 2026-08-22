@@ -1,12 +1,11 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - fa-t-rm-sursilv
-    :direction: forward
-    :rules: 
-      - "::rm_SURSILV-rm_FONIPA_SURSILV ;"
-      - "::und_FONIPA-fa ;"
-    :source: rm_SURSILV
-    :target: fa
-    :variant: ~
+---
+:transforms:
+- :source: rm_SURSILV
+  :target: fa
+  :aliases:
+  - fa-t-rm-sursilv
+  :variant:
+  :direction: forward
+  :rules:
+  - "::rm_SURSILV-rm_FONIPA_SURSILV ;"
+  - "::und_FONIPA-fa ;"

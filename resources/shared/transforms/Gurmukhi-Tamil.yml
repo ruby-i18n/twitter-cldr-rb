@@ -1,16 +1,15 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - Gurmukhi-Tamil
-      - und-Taml-t-und-guru
-    :direction: forward
-    :rules: 
-      - "::[।-॥ਁਂਅ-ਊਏ-ਐਓ-ਨਪ-ਰਲ-ਲ਼ਵ-ਸ਼ਸ-ਹ਼ਾ-ੂੇ-ੈੋ-੍ਖ਼-ੜਫ਼੦-ੴ] ;"
-      - "::NFD ;"
-      - "::Gurmukhi-InterIndic ;"
-      - "::InterIndic-Tamil ;"
-      - "::NFC ;"
-    :source: Guru
-    :target: Taml
-    :variant: ~
+---
+:transforms:
+- :source: Guru
+  :target: Taml
+  :aliases:
+  - Gurmukhi-Tamil
+  - und-Taml-t-und-guru
+  :variant:
+  :direction: forward
+  :rules:
+  - "::[।-॥ਁਂਅ-ਊਏ-ਐਓ-ਨਪ-ਰਲ-ਲ਼ਵ-ਸ਼ਸ-ਹ਼ਾ-ੂੇ-ੈੋ-੍ਖ਼-ੜਫ਼੦-ੴ] ;"
+  - "::NFD ;"
+  - "::Gurmukhi-InterIndic ;"
+  - "::InterIndic-Tamil ;"
+  - "::NFC ;"

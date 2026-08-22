@@ -1,587 +1,587 @@
---- 
-:he: 
-  :fields: 
-    :day: 
+---
+:he:
+  :fields:
+    :era:
+      :display_name: תקופה
+    :year:
+      :display_name: שנה
+      :relative:
+        -1: השנה שעברה
+        0: השנה
+        1: השנה הבאה
+      :relative_time:
+        :future:
+          :one: בעוד שנה
+          :two: בעוד שנתיים
+          :other: בעוד {0} שנים
+        :past:
+          :one: לפני שנה
+          :two: לפני שנתיים
+          :other: לפני {0} שנים
+    :year-short:
+      :display_name: שנ׳
+      :relative_time:
+        :future:
+          :one: בעוד שנה
+          :two: בעוד שנתיים ({0})
+          :other: בעוד {0} שנים
+        :past:
+          :one: לפני שנה ({0})
+          :two: לפני שנתיים ({0})
+          :other: לפני {0} שנים
+    :year-narrow:
+      :relative_time:
+        :future:
+          :one: בעוד שנה ({0})
+          :two: בעוד שנתיים ({0})
+          :other: בעוד {0} שנים
+        :past:
+          :one: לפני שנה ({0})
+          :two: לפני שנתיים ({0})
+          :other: לפני {0} שנים
+    :quarter:
+      :display_name: רבעון
+      :relative:
+        -1: הרבעון הקודם
+        0: הרבעון הזה
+        1: הרבעון הבא
+      :relative_time:
+        :future:
+          :one: בעוד רבעון אחד ({0})
+          :two: בעוד שני רבעונים
+          :other: בעוד {0} רבעונים
+        :past:
+          :one: לפני רבעון אחד ({0})
+          :two: לפני {0} רבעונים
+          :other: לפני {0} רבעונים
+    :quarter-short:
+      :display_name: רבע׳
+      :relative_time:
+        :future:
+          :one: בעוד רבע׳ אחד ({0})
+          :two: בעוד {0} רבע׳
+          :many: בעוד {0} רבע׳
+          :other: בעוד {0} רבע׳
+        :past:
+          :one: לפני רבע׳ אחד ({0})
+          :two: לפני {0} רבע׳
+          :many: לפני {0} רבע׳
+          :other: לפני {0} רבע׳
+    :quarter-narrow:
+      :relative_time:
+        :future:
+          :one: בעוד רבע׳ אחד ({0})
+          :two: בעוד {0} רבע׳
+          :other: בעוד {0} רבע׳
+        :past:
+          :one: לפני רבע׳ אחד ({0})
+          :two: לפני {0} רבע׳
+          :other: לפני {0} רבע׳
+    :month:
+      :display_name: חודש
+      :relative:
+        -1: החודש שעבר
+        0: החודש
+        1: החודש הבא
+      :relative_time:
+        :future:
+          :one: בעוד חודש ({0})
+          :two: בעוד חודשיים ({0})
+          :other: בעוד {0} חודשים
+        :past:
+          :one: לפני חודש ({0})
+          :two: לפני חודשיים ({0})
+          :other: לפני {0} חודשים
+    :month-short:
+      :display_name: חו׳
+    :month-narrow:
+      :relative_time:
+        :future:
+          :one: בעוד חו׳
+          :two: בעוד חודשיים ({0})
+          :many: בעוד {0} חו׳
+          :other: בעוד {0} חו׳
+        :past:
+          :one: לפני חו׳ ({0})
+          :two: לפני חודשיים ({0})
+          :many: לפני {0} חו׳
+          :other: לפני {0} חו׳
+    :week:
+      :display_name: שבוע
+      :relative:
+        -1: השבוע שעבר
+        0: השבוע
+        1: השבוע הבא
+      :relative_time:
+        :future:
+          :one: בעוד שבוע ({0})
+          :two: בעוד שבועיים ({0})
+          :other: בעוד {0} שבועות
+        :past:
+          :one: לפני שבוע ({0})
+          :two: לפני שבועיים ({0})
+          :other: לפני {0} שבועות
+    :week-short:
+      :display_name: שב׳
+      :relative_time:
+        :future:
+          :one: בעוד שב׳ ({0})
+          :two: בעוד שבועיים ({0})
+          :many: בעוד {0} שב׳
+          :other: בעוד {0} שב׳
+        :past:
+          :one: לפני שב׳ ({0})
+          :two: לפני שבועיים ({0})
+          :many: לפני {0} שב׳
+          :other: לפני {0} שב׳
+    :week-narrow:
+      :relative_time:
+        :past:
+          :one: לפני שב׳ ({0})
+          :two: לפני שבועיים ({0})
+          :other: לפני {0} שב׳
+    :weekOfMonth:
+      :display_name: השבוע בחודש
+    :day:
       :display_name: יום
-      :relative: 
-        -1: אתמול
+      :relative:
         -2: שלשום
+        -1: אתמול
         0: היום
         1: מחר
         2: מחרתיים
-      :relative_time: 
-        :future: 
-          :one: "בעוד יום ({0})"
-          :other: "בעוד {0} ימים"
-          :two: "בעוד יומיים ({0})"
-        :past: 
-          :one: "לפני יום אחד ({0})"
-          :other: "לפני {0} ימים"
-          :two: "לפני יומיים ({0})"
-    :day-narrow: 
-      :relative_time: 
-        :future: 
-          :one: "בעוד יום אחד ({0})"
-          :other: "בעוד {0} ימים"
-          :two: "בעוד יומיים ({0})"
-        :past: 
-          :one: "לפני יום אחד ({0})"
-          :other: "לפני {0} ימים"
-          :two: "לפני יומיים ({0})"
-    :day-short: 
-      :relative_time: 
-        :future: 
-          :one: "בעוד יום אחד ({0})"
-          :other: "בעוד {0} ימים"
-          :two: "בעוד יומיים ({0})"
-        :past: 
-          :one: "לפני יום אחד ({0})"
-          :other: "לפני {0} ימים"
-          :two: "לפני יומיים ({0})"
-    :dayOfYear: 
-      :display_name: "יום בשנה"
-    :dayperiod: 
-      :display_name: לפנה״צ/אחה״צ
-    :dayperiod-short: 
-      :display_name: AM/PM
-    :era: 
-      :display_name: תקופה
-    :fri: 
-      :relative: 
-        -1: "יום שישי שעבר"
-        0: "יום שישי"
-        1: "יום שישי הבא"
-      :relative_time: 
-        :future: 
-          :one: "בעוד יום שישי אחד ({0})"
-          :other: "בעוד {0} ימי שישי"
-          :two: "בעוד {0} ימי שישי"
-        :past: 
-          :one: "לפני יום שישי אחד ({0})"
-          :other: "לפני {0} ימי שישי"
-          :two: "לפני {0} ימי שישי"
-    :fri-narrow: 
-      :relative_time: 
-        :future: 
-          :many: "בעוד {0} ימי ו׳"
-          :one: "בעוד יום ו׳ אחד ({0})"
-          :other: "בעוד {0} ימי ו׳"
-          :two: "בעוד {0} ימי ו׳"
-        :past: 
-          :many: "לפני {0} ימי ו׳"
-          :one: "לפני יום ו׳ אחד ({0})"
-          :other: "לפני {0} ימי ו׳"
-          :two: "לפני {0} ימי ו׳"
-    :fri-short: 
-      :relative: 
-        -1: "יום ו׳ שעבר"
-        0: "יום ו׳"
-        1: "יום ו׳ הבא"
-      :relative_time: 
-        :future: 
-          :many: "בעוד {0} ימי ו׳"
-          :one: "בעוד יום ו׳ אחד ({0})"
-          :other: "בעוד {0} ימי ו׳"
-          :two: "בעוד {0} ימי ו׳"
-        :past: 
-          :many: "לפני {0} ימי ו׳"
-          :one: "לפני יום ו׳ אחד ({0})"
-          :other: "לפני {0} ימי ו׳"
-          :two: "לפני {0} ימי ו׳"
-    :hour: 
-      :display_name: שעה
-      :relative: 
-        0: "בשעה זו"
-      :relative_time: 
-        :future: 
-          :one: "בעוד שעה ({0})"
-          :other: "בעוד {0} שעות"
-          :two: "בעוד שעתיים ({0})"
-        :past: 
-          :one: "לפני שעה ({0})"
-          :other: "לפני {0} שעות"
-          :two: "לפני שעתיים ({0})"
-    :hour-narrow: 
-      :display_name: שע׳
-      :relative_time: 
-        :future: 
-          :one: "בעוד שעה ({0})"
-          :other: "בעוד {0} שע׳"
-          :two: "בעוד שעתיים ({0})"
-        :past: 
-          :one: "לפני שע׳ ({0})"
-          :other: "לפני {0} שע׳"
-          :two: "לפני שעתיים ({0})"
-    :hour-short: 
-      :relative_time: 
-        :future: 
-          :many: "בעוד {0} שע׳"
-          :one: "בעוד שעה ({0})"
-          :other: "בעוד {0} שע׳"
-          :two: "בעוד שעתיים ({0})"
-        :past: 
-          :many: "לפני {0} שע׳"
-          :one: "לפני שע׳ ({0})"
-          :other: "לפני {0} שע׳"
-          :two: "לפני שעתיים ({0})"
-    :minute: 
-      :display_name: דקה
-      :relative: 
-        0: "בדקה זו"
-      :relative_time: 
-        :future: 
-          :one: "בעוד דקה ({0})"
-          :other: "בעוד {0} דקות"
-          :two: "בעוד {0} דקות"
-        :past: 
-          :one: "לפני דקה ({0})"
-          :other: "לפני {0} דקות"
-          :two: "לפני {0} דקות"
-    :minute-short: 
-      :display_name: דק׳
-      :relative: 
-        0: "דקה זו"
-      :relative_time: 
-        :future: 
-          :many: "בעוד {0} דק׳"
-          :one: "בעוד דק׳ ({0})"
-          :other: "בעוד {0} דק׳"
-          :two: "בעוד {0} דק׳"
-        :past: 
-          :many: "לפני {0} דק׳"
-          :one: "לפני דק׳ ({0})"
-          :other: "לפני {0} דק׳"
-          :two: "לפני {0} דק׳"
-    :mon: 
-      :relative: 
-        -1: "יום שני שעבר"
-        0: "יום שני"
-        1: "יום שני הבא"
-      :relative_time: 
-        :future: 
-          :one: "בעוד יום שני אחד ({0})"
-          :other: "בעוד {0} ימי שני"
-          :two: "בעוד {0} ימי שני"
-        :past: 
-          :one: "לפני יום שני אחד ({0})"
-          :other: "לפני {0} ימי שני"
-          :two: "לפני {0} ימי שני"
-    :mon-narrow: 
-      :relative_time: 
-        :future: 
-          :many: "בעוד {0} ימי ב׳"
-          :one: "בעוד יום ב׳ אחד ({0})"
-          :other: "בעוד {0} ימי ב׳"
-          :two: "בעוד {0} ימי ב׳"
-        :past: 
-          :many: "לפני {0} ימי ב׳"
-          :one: "לפני יום ב׳ אחד ({0})"
-          :other: "לפני {0} ימי ב׳"
-          :two: "לפני {0} ימי ב׳"
-    :mon-short: 
-      :relative: 
-        -1: "יום ב׳ שעבר"
-        0: "יום ב׳"
-        1: "יום ב׳ הבא"
-      :relative_time: 
-        :future: 
-          :many: "בעוד {0} ימי ב׳"
-          :one: "בעוד יום ב׳ אחד ({0})"
-          :other: "בעוד {0} ימי ב׳"
-          :two: "בעוד {0} ימי ב׳"
-        :past: 
-          :many: "לפני {0} ימי ב׳"
-          :one: "לפני יום ב׳ אחד ({0})"
-          :other: "לפני {0} ימי ב׳"
-          :two: "לפני {0} ימי ב׳"
-    :month: 
-      :display_name: חודש
-      :relative: 
-        -1: "החודש שעבר"
-        0: החודש
-        1: "החודש הבא"
-      :relative_time: 
-        :future: 
-          :one: "בעוד חודש ({0})"
-          :other: "בעוד {0} חודשים"
-          :two: "בעוד חודשיים ({0})"
-        :past: 
-          :one: "לפני חודש ({0})"
-          :other: "לפני {0} חודשים"
-          :two: "לפני חודשיים ({0})"
-    :month-narrow: 
-      :relative_time: 
-        :future: 
-          :many: "בעוד {0} חו׳"
-          :one: "בעוד חו׳"
-          :other: "בעוד {0} חו׳"
-          :two: "בעוד חודשיים ({0})"
-        :past: 
-          :many: "לפני {0} חו׳"
-          :one: "לפני חו׳ ({0})"
-          :other: "לפני {0} חו׳"
-          :two: "לפני חודשיים ({0})"
-    :month-short: 
-      :display_name: חו׳
-    :quarter: 
-      :display_name: רבעון
-      :relative: 
-        -1: "הרבעון הקודם"
-        0: "הרבעון הזה"
-        1: "הרבעון הבא"
-      :relative_time: 
-        :future: 
-          :one: "בעוד רבעון אחד ({0})"
-          :other: "בעוד {0} רבעונים"
-          :two: "בעוד שני רבעונים"
-        :past: 
-          :one: "לפני רבעון אחד ({0})"
-          :other: "לפני {0} רבעונים"
-          :two: "לפני {0} רבעונים"
-    :quarter-narrow: 
-      :relative_time: 
-        :future: 
-          :one: "בעוד רבע׳ אחד ({0})"
-          :other: "בעוד {0} רבע׳"
-          :two: "בעוד {0} רבע׳"
-        :past: 
-          :one: "לפני רבע׳ אחד ({0})"
-          :other: "לפני {0} רבע׳"
-          :two: "לפני {0} רבע׳"
-    :quarter-short: 
-      :display_name: רבע׳
-      :relative_time: 
-        :future: 
-          :many: "בעוד {0} רבע׳"
-          :one: "בעוד רבע׳ אחד ({0})"
-          :other: "בעוד {0} רבע׳"
-          :two: "בעוד {0} רבע׳"
-        :past: 
-          :many: "לפני {0} רבע׳"
-          :one: "לפני רבע׳ אחד ({0})"
-          :other: "לפני {0} רבע׳"
-          :two: "לפני {0} רבע׳"
-    :sat: 
-      :relative: 
-        -1: "יום שבת שעבר"
-        0: "יום שבת"
-        1: "יום שבת הבא"
-      :relative_time: 
-        :future: 
-          :one: "בעוד שבת אחת ({0})"
-          :other: "בעוד {0} שבתות"
-          :two: "בעוד {0} שבתות"
-        :past: 
-          :one: "לפני שבת אחת ({0})"
-          :other: "לפני {0} שבתות"
-          :two: "לפני {0} שבתות"
-    :sat-narrow: 
-      :relative_time: 
-        :future: 
-          :one: "בעוד שבת אחת ({0})"
-          :other: "בעוד {0} שבתות"
-          :two: "בעוד {0} שבתות"
-        :past: 
-          :one: "לפני שבת אחת ({0})"
-          :other: "לפני {0} שבתות"
-          :two: "לפני {0} שבתות"
-    :sat-short: 
-      :relative: 
-        -1: "שבת שעברה"
+      :relative_time:
+        :future:
+          :one: בעוד יום ({0})
+          :two: בעוד יומיים ({0})
+          :other: בעוד {0} ימים
+        :past:
+          :one: לפני יום אחד ({0})
+          :two: לפני יומיים ({0})
+          :other: לפני {0} ימים
+    :day-short:
+      :relative_time:
+        :future:
+          :one: בעוד יום אחד ({0})
+          :two: בעוד יומיים ({0})
+          :other: בעוד {0} ימים
+        :past:
+          :one: לפני יום אחד ({0})
+          :two: לפני יומיים ({0})
+          :other: לפני {0} ימים
+    :day-narrow:
+      :relative_time:
+        :future:
+          :one: בעוד יום אחד ({0})
+          :two: בעוד יומיים ({0})
+          :other: בעוד {0} ימים
+        :past:
+          :one: לפני יום אחד ({0})
+          :two: לפני יומיים ({0})
+          :other: לפני {0} ימים
+    :dayOfYear:
+      :display_name: יום בשנה
+    :weekday:
+      :display_name: יום בשבוע
+    :weekdayOfMonth:
+      :display_name: יום חול בחודש
+    :weekdayOfMonth-short:
+      :display_name: יום בחודש
+    :sun:
+      :relative:
+        -1: ביום ראשון שעבר
+        0: ביום ראשון הזה
+        1: ביום ראשון הבא
+      :relative_time:
+        :future:
+          :one: בעוד יום ראשון {0}
+          :two: בעוד {0} ימי ראשון
+          :other: בעוד {0} ימי ראשון
+        :past:
+          :one: לפני יום ראשון {0}
+          :two: לפני {0} ימי ראשון
+          :other: לפני {0} ימי ראשון
+    :sun-short:
+      :relative:
+        -1: יום א׳ שעבר
+        0: יום א׳
+        1: יום א׳ הבא
+      :relative_time:
+        :future:
+          :one: בעוד יום א׳ אחד ({0})
+          :two: בעוד {0} ימי א׳
+          :many: בעוד {0} ימי א׳
+          :other: בעוד {0} ימי א׳
+        :past:
+          :one: לפני יום א׳ אחד ({0})
+          :two: לפני {0} ימי א׳
+          :many: לפני {0} ימי א׳
+          :other: לפני {0} ימי א׳
+    :sun-narrow:
+      :relative_time:
+        :future:
+          :one: בעוד יום א׳ אחד ({0})
+          :two: בעוד {0} ימי א׳
+          :many: בעוד {0} ימי א׳
+          :other: בעוד {0} ימי א׳
+        :past:
+          :one: לפני יום א׳ אחד ({0})
+          :two: לפני {0} ימי א׳
+          :many: לפני {0} ימי א׳
+          :other: לפני {0} ימי א׳
+    :mon:
+      :relative:
+        -1: יום שני שעבר
+        0: יום שני
+        1: יום שני הבא
+      :relative_time:
+        :future:
+          :one: בעוד יום שני אחד ({0})
+          :two: בעוד {0} ימי שני
+          :other: בעוד {0} ימי שני
+        :past:
+          :one: לפני יום שני אחד ({0})
+          :two: לפני {0} ימי שני
+          :other: לפני {0} ימי שני
+    :mon-short:
+      :relative:
+        -1: יום ב׳ שעבר
+        0: יום ב׳
+        1: יום ב׳ הבא
+      :relative_time:
+        :future:
+          :one: בעוד יום ב׳ אחד ({0})
+          :two: בעוד {0} ימי ב׳
+          :many: בעוד {0} ימי ב׳
+          :other: בעוד {0} ימי ב׳
+        :past:
+          :one: לפני יום ב׳ אחד ({0})
+          :two: לפני {0} ימי ב׳
+          :many: לפני {0} ימי ב׳
+          :other: לפני {0} ימי ב׳
+    :mon-narrow:
+      :relative_time:
+        :future:
+          :one: בעוד יום ב׳ אחד ({0})
+          :two: בעוד {0} ימי ב׳
+          :many: בעוד {0} ימי ב׳
+          :other: בעוד {0} ימי ב׳
+        :past:
+          :one: לפני יום ב׳ אחד ({0})
+          :two: לפני {0} ימי ב׳
+          :many: לפני {0} ימי ב׳
+          :other: לפני {0} ימי ב׳
+    :tue:
+      :relative:
+        -1: יום שלישי שעבר
+        0: יום שלישי
+        1: יום שלישי הבא
+      :relative_time:
+        :future:
+          :one: בעוד יום שלישי אחד ({0})
+          :two: בעוד {0} ימי שלישי
+          :other: בעוד {0} ימי שלישי
+        :past:
+          :one: לפני יום שלישי אחד ({0})
+          :two: לפני {0} ימי שלישי
+          :other: לפני {0} ימי שלישי
+    :tue-short:
+      :relative:
+        -1: יום ג׳ שעבר
+        0: יום ג׳
+        1: יום ג׳ הבא
+      :relative_time:
+        :future:
+          :one: בעוד יום ג׳ אחד ({0})
+          :two: בעוד {0} ימי ג׳
+          :many: בעוד {0} ימי ג׳
+          :other: בעוד {0} ימי ג׳
+        :past:
+          :one: לפני יום ג׳ אחד ({0})
+          :two: לפני {0} ימי ג׳
+          :many: לפני {0} ימי ג׳
+          :other: לפני {0} ימי ג׳
+    :tue-narrow:
+      :relative_time:
+        :future:
+          :one: בעוד יום ג׳ אחד ({0})
+          :two: בעוד {0} ימי ג׳
+          :many: בעוד {0} ימי ג׳
+          :other: בעוד {0} ימי ג׳
+        :past:
+          :one: לפני יום ג׳ אחד ({0})
+          :two: לפני {0} ימי ג׳
+          :many: לפני {0} ימי ג׳
+          :other: לפני {0} ימי ג׳
+    :wed:
+      :relative:
+        -1: יום רביעי שעבר
+        0: יום רביעי
+        1: יום רביעי הבא
+      :relative_time:
+        :future:
+          :one: בעוד יום רביעי אחד ({0})
+          :two: בעוד {0} ימי רביעי
+          :other: בעוד {0} ימי רביעי
+        :past:
+          :one: לפני יום רביעי אחד ({0})
+          :two: לפני {0} ימי רביעי
+          :other: לפני {0} ימי רביעי
+    :wed-short:
+      :relative:
+        -1: יום ד׳ שעבר
+        0: יום ד׳
+        1: יום ד׳ הבא
+      :relative_time:
+        :future:
+          :one: בעוד יום ד׳ אחד ({0})
+          :two: בעוד {0} ימי ד׳
+          :many: בעוד {0} ימי ד׳
+          :other: בעוד {0} ימי ד׳
+        :past:
+          :one: לפני יום ד׳ אחד ({0})
+          :two: לפני {0} ימי ד׳
+          :many: לפני {0} ימי ד׳
+          :other: לפני {0} ימי ד׳
+    :wed-narrow:
+      :relative_time:
+        :future:
+          :one: בעוד יום ד׳ אחד ({0})
+          :two: בעוד {0} ימי ד׳
+          :many: בעוד {0} ימי ד׳
+          :other: בעוד {0} ימי ד׳
+        :past:
+          :one: לפני יום ד׳ אחד ({0})
+          :two: לפני {0} ימי ד׳
+          :many: לפני {0} ימי ד׳
+          :other: לפני {0} ימי ד׳
+    :thu:
+      :relative:
+        -1: יום חמישי שעבר
+        0: יום חמישי
+        1: יום חמישי הבא
+      :relative_time:
+        :future:
+          :one: בעוד יום חמישי אחד ({0})
+          :two: בעוד {0} ימי חמישי
+          :other: בעוד {0} ימי חמישי
+        :past:
+          :one: לפני יום חמישי אחד ({0})
+          :two: לפני {0} ימי חמישי
+          :other: לפני {0} ימי חמישי
+    :thu-short:
+      :relative:
+        -1: יום ה׳ שעבר
+        0: יום ה׳
+        1: יום ה׳ הבא
+      :relative_time:
+        :future:
+          :one: בעוד יום ה׳ אחד ({0})
+          :two: בעוד {0} ימי ה׳
+          :many: בעוד {0} ימי ה׳
+          :other: בעוד {0} ימי ה׳
+        :past:
+          :one: לפני יום ה׳ אחד ({0})
+          :two: לפני {0} ימי ה׳
+          :many: לפני {0} ימי ה׳
+          :other: לפני {0} ימי ה׳
+    :thu-narrow:
+      :relative_time:
+        :future:
+          :one: בעוד יום ה׳ אחד ({0})
+          :two: בעוד {0} ימי ה׳
+          :many: בעוד {0} ימי ה׳
+          :other: בעוד {0} ימי ה׳
+        :past:
+          :one: לפני יום ה׳ אחד ({0})
+          :two: לפני {0} ימי ה׳
+          :many: לפני {0} ימי ה׳
+          :other: לפני {0} ימי ה׳
+    :fri:
+      :relative:
+        -1: יום שישי שעבר
+        0: יום שישי
+        1: יום שישי הבא
+      :relative_time:
+        :future:
+          :one: בעוד יום שישי אחד ({0})
+          :two: בעוד {0} ימי שישי
+          :other: בעוד {0} ימי שישי
+        :past:
+          :one: לפני יום שישי אחד ({0})
+          :two: לפני {0} ימי שישי
+          :other: לפני {0} ימי שישי
+    :fri-short:
+      :relative:
+        -1: יום ו׳ שעבר
+        0: יום ו׳
+        1: יום ו׳ הבא
+      :relative_time:
+        :future:
+          :one: בעוד יום ו׳ אחד ({0})
+          :two: בעוד {0} ימי ו׳
+          :many: בעוד {0} ימי ו׳
+          :other: בעוד {0} ימי ו׳
+        :past:
+          :one: לפני יום ו׳ אחד ({0})
+          :two: לפני {0} ימי ו׳
+          :many: לפני {0} ימי ו׳
+          :other: לפני {0} ימי ו׳
+    :fri-narrow:
+      :relative_time:
+        :future:
+          :one: בעוד יום ו׳ אחד ({0})
+          :two: בעוד {0} ימי ו׳
+          :many: בעוד {0} ימי ו׳
+          :other: בעוד {0} ימי ו׳
+        :past:
+          :one: לפני יום ו׳ אחד ({0})
+          :two: לפני {0} ימי ו׳
+          :many: לפני {0} ימי ו׳
+          :other: לפני {0} ימי ו׳
+    :sat:
+      :relative:
+        -1: יום שבת שעבר
+        0: יום שבת
+        1: יום שבת הבא
+      :relative_time:
+        :future:
+          :one: בעוד שבת אחת ({0})
+          :two: בעוד {0} שבתות
+          :other: בעוד {0} שבתות
+        :past:
+          :one: לפני שבת אחת ({0})
+          :two: לפני {0} שבתות
+          :other: לפני {0} שבתות
+    :sat-short:
+      :relative:
+        -1: שבת שעברה
         0: שבת
-        1: "שבת הבאה"
-      :relative_time: 
-        :future: 
-          :one: "בעוד שבת אחת ({0})"
-          :other: "בעוד {0} שבתות"
-          :two: "בעוד {0} שבתות"
-        :past: 
-          :one: "לפני שבת אחת ({0})"
-          :other: "לפני {0} שבתות"
-          :two: "לפני {0} שבתות"
-    :second: 
+        1: שבת הבאה
+      :relative_time:
+        :future:
+          :one: בעוד שבת אחת ({0})
+          :two: בעוד {0} שבתות
+          :other: בעוד {0} שבתות
+        :past:
+          :one: לפני שבת אחת ({0})
+          :two: לפני {0} שבתות
+          :other: לפני {0} שבתות
+    :sat-narrow:
+      :relative_time:
+        :future:
+          :one: בעוד שבת אחת ({0})
+          :two: בעוד {0} שבתות
+          :other: בעוד {0} שבתות
+        :past:
+          :one: לפני שבת אחת ({0})
+          :two: לפני {0} שבתות
+          :other: לפני {0} שבתות
+    :dayperiod-short:
+      :display_name: AM/PM
+    :dayperiod:
+      :display_name: לפנה״צ/אחה״צ
+    :hour:
+      :display_name: שעה
+      :relative:
+        0: בשעה זו
+      :relative_time:
+        :future:
+          :one: בעוד שעה ({0})
+          :two: בעוד שעתיים ({0})
+          :other: בעוד {0} שעות
+        :past:
+          :one: לפני שעה ({0})
+          :two: לפני שעתיים ({0})
+          :other: לפני {0} שעות
+    :hour-short:
+      :relative_time:
+        :future:
+          :one: בעוד שעה ({0})
+          :two: בעוד שעתיים ({0})
+          :many: בעוד {0} שע׳
+          :other: בעוד {0} שע׳
+        :past:
+          :one: לפני שע׳ ({0})
+          :two: לפני שעתיים ({0})
+          :many: לפני {0} שע׳
+          :other: לפני {0} שע׳
+    :hour-narrow:
+      :display_name: שע׳
+      :relative_time:
+        :future:
+          :one: בעוד שעה ({0})
+          :two: בעוד שעתיים ({0})
+          :other: בעוד {0} שע׳
+        :past:
+          :one: לפני שע׳ ({0})
+          :two: לפני שעתיים ({0})
+          :other: לפני {0} שע׳
+    :minute:
+      :display_name: דקה
+      :relative:
+        0: בדקה זו
+      :relative_time:
+        :future:
+          :one: בעוד דקה ({0})
+          :two: בעוד {0} דקות
+          :other: בעוד {0} דקות
+        :past:
+          :one: לפני דקה ({0})
+          :two: לפני {0} דקות
+          :other: לפני {0} דקות
+    :minute-short:
+      :display_name: דק׳
+      :relative:
+        0: דקה זו
+      :relative_time:
+        :future:
+          :one: בעוד דק׳ ({0})
+          :two: בעוד {0} דק׳
+          :many: בעוד {0} דק׳
+          :other: בעוד {0} דק׳
+        :past:
+          :one: לפני דק׳ ({0})
+          :two: לפני {0} דק׳
+          :many: לפני {0} דק׳
+          :other: לפני {0} דק׳
+    :second:
       :display_name: שנייה
-      :relative: 
+      :relative:
         0: עכשיו
-      :relative_time: 
-        :future: 
-          :one: "בעוד שנייה ({0})"
-          :other: "בעוד {0} שניות"
-          :two: "בעוד שתי שניות"
-        :past: 
-          :one: "לפני שנייה"
-          :other: "לפני {0} שניות"
-          :two: "לפני שתי שניות"
-    :second-narrow: 
-      :relative_time: 
-        :future: 
-          :one: "בעוד שנ׳ ({0})"
-          :other: "בעוד {0} שנ׳"
-          :two: "בעוד {0} שנ׳"
-        :past: 
-          :one: "לפני שנ׳ ({0})"
-          :other: "לפני {0} שנ׳"
-          :two: "לפני שתי שנ׳"
-    :second-short: 
+      :relative_time:
+        :future:
+          :one: בעוד שנייה ({0})
+          :two: בעוד שתי שניות
+          :other: בעוד {0} שניות
+        :past:
+          :one: לפני שנייה
+          :two: לפני שתי שניות
+          :other: לפני {0} שניות
+    :second-short:
       :display_name: שנ׳
-      :relative_time: 
-        :future: 
-          :many: "בעוד {0} שנ׳"
-          :one: "בעוד שנ׳ ({0})"
-          :other: "בעוד {0} שנ׳"
-          :two: "בעוד {0} שנ׳"
-        :past: 
-          :many: "לפני {0} שנ׳"
-          :one: "לפני שנ׳ ({0})"
-          :other: "לפני {0} שנ׳"
-          :two: "לפני שתי שנ׳"
-    :sun: 
-      :relative: 
-        -1: "ביום ראשון שעבר"
-        0: "ביום ראשון הזה"
-        1: "ביום ראשון הבא"
-      :relative_time: 
-        :future: 
-          :one: "בעוד יום ראשון {0}"
-          :other: "בעוד {0} ימי ראשון"
-          :two: "בעוד {0} ימי ראשון"
-        :past: 
-          :one: "לפני יום ראשון {0}"
-          :other: "לפני {0} ימי ראשון"
-          :two: "לפני {0} ימי ראשון"
-    :sun-narrow: 
-      :relative_time: 
-        :future: 
-          :many: "בעוד {0} ימי א׳"
-          :one: "בעוד יום א׳ אחד ({0})"
-          :other: "בעוד {0} ימי א׳"
-          :two: "בעוד {0} ימי א׳"
-        :past: 
-          :many: "לפני {0} ימי א׳"
-          :one: "לפני יום א׳ אחד ({0})"
-          :other: "לפני {0} ימי א׳"
-          :two: "לפני {0} ימי א׳"
-    :sun-short: 
-      :relative: 
-        -1: "יום א׳ שעבר"
-        0: "יום א׳"
-        1: "יום א׳ הבא"
-      :relative_time: 
-        :future: 
-          :many: "בעוד {0} ימי א׳"
-          :one: "בעוד יום א׳ אחד ({0})"
-          :other: "בעוד {0} ימי א׳"
-          :two: "בעוד {0} ימי א׳"
-        :past: 
-          :many: "לפני {0} ימי א׳"
-          :one: "לפני יום א׳ אחד ({0})"
-          :other: "לפני {0} ימי א׳"
-          :two: "לפני {0} ימי א׳"
-    :thu: 
-      :relative: 
-        -1: "יום חמישי שעבר"
-        0: "יום חמישי"
-        1: "יום חמישי הבא"
-      :relative_time: 
-        :future: 
-          :one: "בעוד יום חמישי אחד ({0})"
-          :other: "בעוד {0} ימי חמישי"
-          :two: "בעוד {0} ימי חמישי"
-        :past: 
-          :one: "לפני יום חמישי אחד ({0})"
-          :other: "לפני {0} ימי חמישי"
-          :two: "לפני {0} ימי חמישי"
-    :thu-narrow: 
-      :relative_time: 
-        :future: 
-          :many: "בעוד {0} ימי ה׳"
-          :one: "בעוד יום ה׳ אחד ({0})"
-          :other: "בעוד {0} ימי ה׳"
-          :two: "בעוד {0} ימי ה׳"
-        :past: 
-          :many: "לפני {0} ימי ה׳"
-          :one: "לפני יום ה׳ אחד ({0})"
-          :other: "לפני {0} ימי ה׳"
-          :two: "לפני {0} ימי ה׳"
-    :thu-short: 
-      :relative: 
-        -1: "יום ה׳ שעבר"
-        0: "יום ה׳"
-        1: "יום ה׳ הבא"
-      :relative_time: 
-        :future: 
-          :many: "בעוד {0} ימי ה׳"
-          :one: "בעוד יום ה׳ אחד ({0})"
-          :other: "בעוד {0} ימי ה׳"
-          :two: "בעוד {0} ימי ה׳"
-        :past: 
-          :many: "לפני {0} ימי ה׳"
-          :one: "לפני יום ה׳ אחד ({0})"
-          :other: "לפני {0} ימי ה׳"
-          :two: "לפני {0} ימי ה׳"
-    :tue: 
-      :relative: 
-        -1: "יום שלישי שעבר"
-        0: "יום שלישי"
-        1: "יום שלישי הבא"
-      :relative_time: 
-        :future: 
-          :one: "בעוד יום שלישי אחד ({0})"
-          :other: "בעוד {0} ימי שלישי"
-          :two: "בעוד {0} ימי שלישי"
-        :past: 
-          :one: "לפני יום שלישי אחד ({0})"
-          :other: "לפני {0} ימי שלישי"
-          :two: "לפני {0} ימי שלישי"
-    :tue-narrow: 
-      :relative_time: 
-        :future: 
-          :many: "בעוד {0} ימי ג׳"
-          :one: "בעוד יום ג׳ אחד ({0})"
-          :other: "בעוד {0} ימי ג׳"
-          :two: "בעוד {0} ימי ג׳"
-        :past: 
-          :many: "לפני {0} ימי ג׳"
-          :one: "לפני יום ג׳ אחד ({0})"
-          :other: "לפני {0} ימי ג׳"
-          :two: "לפני {0} ימי ג׳"
-    :tue-short: 
-      :relative: 
-        -1: "יום ג׳ שעבר"
-        0: "יום ג׳"
-        1: "יום ג׳ הבא"
-      :relative_time: 
-        :future: 
-          :many: "בעוד {0} ימי ג׳"
-          :one: "בעוד יום ג׳ אחד ({0})"
-          :other: "בעוד {0} ימי ג׳"
-          :two: "בעוד {0} ימי ג׳"
-        :past: 
-          :many: "לפני {0} ימי ג׳"
-          :one: "לפני יום ג׳ אחד ({0})"
-          :other: "לפני {0} ימי ג׳"
-          :two: "לפני {0} ימי ג׳"
-    :wed: 
-      :relative: 
-        -1: "יום רביעי שעבר"
-        0: "יום רביעי"
-        1: "יום רביעי הבא"
-      :relative_time: 
-        :future: 
-          :one: "בעוד יום רביעי אחד ({0})"
-          :other: "בעוד {0} ימי רביעי"
-          :two: "בעוד {0} ימי רביעי"
-        :past: 
-          :one: "לפני יום רביעי אחד ({0})"
-          :other: "לפני {0} ימי רביעי"
-          :two: "לפני {0} ימי רביעי"
-    :wed-narrow: 
-      :relative_time: 
-        :future: 
-          :many: "בעוד {0} ימי ד׳"
-          :one: "בעוד יום ד׳ אחד ({0})"
-          :other: "בעוד {0} ימי ד׳"
-          :two: "בעוד {0} ימי ד׳"
-        :past: 
-          :many: "לפני {0} ימי ד׳"
-          :one: "לפני יום ד׳ אחד ({0})"
-          :other: "לפני {0} ימי ד׳"
-          :two: "לפני {0} ימי ד׳"
-    :wed-short: 
-      :relative: 
-        -1: "יום ד׳ שעבר"
-        0: "יום ד׳"
-        1: "יום ד׳ הבא"
-      :relative_time: 
-        :future: 
-          :many: "בעוד {0} ימי ד׳"
-          :one: "בעוד יום ד׳ אחד ({0})"
-          :other: "בעוד {0} ימי ד׳"
-          :two: "בעוד {0} ימי ד׳"
-        :past: 
-          :many: "לפני {0} ימי ד׳"
-          :one: "לפני יום ד׳ אחד ({0})"
-          :other: "לפני {0} ימי ד׳"
-          :two: "לפני {0} ימי ד׳"
-    :week: 
-      :display_name: שבוע
-      :relative: 
-        -1: "השבוע שעבר"
-        0: השבוע
-        1: "השבוע הבא"
-      :relative_time: 
-        :future: 
-          :one: "בעוד שבוע ({0})"
-          :other: "בעוד {0} שבועות"
-          :two: "בעוד שבועיים ({0})"
-        :past: 
-          :one: "לפני שבוע ({0})"
-          :other: "לפני {0} שבועות"
-          :two: "לפני שבועיים ({0})"
-    :week-narrow: 
-      :relative_time: 
-        :past: 
-          :one: "לפני שב׳ ({0})"
-          :other: "לפני {0} שב׳"
-          :two: "לפני שבועיים ({0})"
-    :week-short: 
-      :display_name: שב׳
-      :relative_time: 
-        :future: 
-          :many: "בעוד {0} שב׳"
-          :one: "בעוד שב׳ ({0})"
-          :other: "בעוד {0} שב׳"
-          :two: "בעוד שבועיים ({0})"
-        :past: 
-          :many: "לפני {0} שב׳"
-          :one: "לפני שב׳ ({0})"
-          :other: "לפני {0} שב׳"
-          :two: "לפני שבועיים ({0})"
-    :weekOfMonth: 
-      :display_name: "השבוע בחודש"
-    :weekday: 
-      :display_name: "יום בשבוע"
-    :weekdayOfMonth: 
-      :display_name: "יום חול בחודש"
-    :weekdayOfMonth-short: 
-      :display_name: "יום בחודש"
-    :year: 
-      :display_name: שנה
-      :relative: 
-        -1: "השנה שעברה"
-        0: השנה
-        1: "השנה הבאה"
-      :relative_time: 
-        :future: 
-          :one: "בעוד שנה"
-          :other: "בעוד {0} שנים"
-          :two: "בעוד שנתיים"
-        :past: 
-          :one: "לפני שנה"
-          :other: "לפני {0} שנים"
-          :two: "לפני שנתיים"
-    :year-narrow: 
-      :relative_time: 
-        :future: 
-          :one: "בעוד שנה ({0})"
-          :other: "בעוד {0} שנים"
-          :two: "בעוד שנתיים ({0})"
-        :past: 
-          :one: "לפני שנה ({0})"
-          :other: "לפני {0} שנים"
-          :two: "לפני שנתיים ({0})"
-    :year-short: 
-      :display_name: שנ׳
-      :relative_time: 
-        :future: 
-          :one: "בעוד שנה"
-          :other: "בעוד {0} שנים"
-          :two: "בעוד שנתיים ({0})"
-        :past: 
-          :one: "לפני שנה ({0})"
-          :other: "לפני {0} שנים"
-          :two: "לפני שנתיים ({0})"
-    :zone: 
-      :display_name: "אזור זמן"
-    :zone-short: 
+      :relative_time:
+        :future:
+          :one: בעוד שנ׳ ({0})
+          :two: בעוד {0} שנ׳
+          :many: בעוד {0} שנ׳
+          :other: בעוד {0} שנ׳
+        :past:
+          :one: לפני שנ׳ ({0})
+          :two: לפני שתי שנ׳
+          :many: לפני {0} שנ׳
+          :other: לפני {0} שנ׳
+    :second-narrow:
+      :relative_time:
+        :future:
+          :one: בעוד שנ׳ ({0})
+          :two: בעוד {0} שנ׳
+          :other: בעוד {0} שנ׳
+        :past:
+          :one: לפני שנ׳ ({0})
+          :two: לפני שתי שנ׳
+          :other: לפני {0} שנ׳
+    :zone:
+      :display_name: אזור זמן
+    :zone-short:
       :display_name: אזור

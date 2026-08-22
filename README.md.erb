@@ -969,26 +969,6 @@ bidi.to_s
 
 **Disclaimer**: Google Translate tells me the Arabic in the example above means "fancy", but my confidence is not very high, especially since all the letters are unattached. Apologies to any native speakers :)
 
-### Unicode YAML Support
-
-The Psych gem that is the default YAML engine in Ruby 1.9 doesn't handle Unicode characters perfectly.  To mitigate this problem, TwitterCLDR contains an adaptation of the [ya2yaml](https://github.com/afunai/ya2yaml) gem by Akira Funai.  Our changes specifically add better dumping of Ruby symbols.  If you can get Mr. Funai's attention, please gently remind him to merge @camertron's pull request so we can use his gem and not have to maintain a separate version :)  Fortunately, YAML parsing can still be done with the usual `YAML.load` or `YAML.load_file`.
-
-You can make use of TwitterCLDR's YAML dumper by calling `localize` and then `to_yaml` on an `Array`, `Hash`, or `String`:
-
-```ruby
-{ :hello => "world" }.localize.to_yaml <% assert_no_error(lambda { { :hello => "world" }.localize.to_yaml }) %>
-["hello", "world"].localize.to_yaml <% assert_no_error(lambda { { :hello => "world" }.localize.to_yaml }) %>
-"hello, world".localize.to_yaml <% assert_no_error(lambda { "hello, world".localize.to_yaml }) %>
-```
-
-Behind the scenes, these convenience methods are using the `TwitterCldr::Shared::YAML` class.  You can do the same thing if you're feeling adventurous:
-
-```ruby
-TwitterCldr::Shared::YAML.dump({ :hello => "world" }) <% assert_no_error(lambda { TwitterCldr::Utils::YAML.dump({ :hello => "world" }) }) %>
-TwitterCldr::Shared::YAML.dump(["hello", "world"]) <% assert_no_error(lambda { TwitterCldr::Utils::YAML.dump(["hello", "world"]) }) %>
-TwitterCldr::Shared::YAML.dump("hello, world") <% assert_no_error(lambda { TwitterCldr::Utils::YAML.dump("hello, world") }) %>
-```
-
 ## Adding New Locales
 
 TwitterCLDR doesn't support every locale available in the CLDR data set. If the library doesn't support the locale you need, feel free to add it and create a pull request. Adding (or updating) locales is easy. You'll need to run several rake tasks, one with MRI and another with JRuby. You'll also need an internet connection, since most of the tasks require downloading versions of CLDR, ICU, and various Unicode data files.

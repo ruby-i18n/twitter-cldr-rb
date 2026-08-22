@@ -137,11 +137,25 @@ module TwitterCldr
 
         File.open(path, 'w:utf-8') do |output|
           output.write(
-            TwitterCldr::Utils::YAML.dump(
-              TwitterCldr::Utils.deep_symbolize_keys(data),
-              use_natural_symbols: true
+            ::YAML.dump(
+              deep_normalize(TwitterCldr::Utils.deep_symbolize_keys(data))
             )
           )
+        end
+      end
+
+      def deep_normalize(obj)
+        case obj
+          when Hash
+            obj.each_with_object({}) do |(k, v), memo|
+              memo[k] = deep_normalize(v)
+            end
+          when Array
+            obj.map { |elem| deep_normalize(elem) }
+          when DateTime, Date, Time
+            obj.to_s
+          else
+            obj
         end
       end
 

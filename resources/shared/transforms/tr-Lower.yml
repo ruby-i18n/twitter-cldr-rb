@@ -1,14 +1,13 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - tr-t-d0-lower
-    :direction: forward
-    :rules: 
-      - "İ>i ;"
-      - "I([^[:ccc=Not_Reordered:][:ccc=Above:]]*)\\u0307 > i$1 ;"
-      - "I>ı ;"
-      - "::Any-Lower() ;"
-    :source: tr
-    :target: Lower
-    :variant: ~
+---
+:transforms:
+- :source: tr
+  :target: Lower
+  :aliases:
+  - tr-t-d0-lower
+  :variant:
+  :direction: forward
+  :rules:
+  - İ>i ;
+  - I([^[:ccc=Not_Reordered:][:ccc=Above:]]*)\u0307 > i$1 ;
+  - I>ı ;
+  - "::Any-Lower() ;"

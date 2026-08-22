@@ -1,16 +1,15 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - Bengali-Telugu
-      - und-Telu-t-und-beng
-    :direction: forward
-    :rules: 
-      - "::[।-॥ঁ-ঃঅ-ঌএ-ঐও-নপ-রলশ-হ়-ৄে-ৈো-্ৗড়-ঢ়য়-ৣ০-৺ৎ] ;"
-      - "::NFD ;"
-      - "::Bengali-InterIndic ;"
-      - "::InterIndic-Telugu ;"
-      - "::NFC ;"
-    :source: Beng
-    :target: Telu
-    :variant: ~
+---
+:transforms:
+- :source: Beng
+  :target: Telu
+  :aliases:
+  - Bengali-Telugu
+  - und-Telu-t-und-beng
+  :variant:
+  :direction: forward
+  :rules:
+  - "::[।-॥ঁ-ঃঅ-ঌএ-ঐও-নপ-রলশ-হ়-ৄে-ৈো-্ৗড়-ঢ়য়-ৣ০-৺ৎ] ;"
+  - "::NFD ;"
+  - "::Bengali-InterIndic ;"
+  - "::InterIndic-Telugu ;"
+  - "::NFC ;"

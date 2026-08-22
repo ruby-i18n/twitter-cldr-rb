@@ -1,1435 +1,1435 @@
---- 
-:fi: 
-  :currencies: 
-    :ADP: 
-      :name: "Andorran peseta"
-      :one: "Andorran peseta"
-      :other: "Andorran pesetaa"
-    :AED: 
-      :name: "Arabiemiirikuntien dirhami"
-      :one: "Arabiemiirikuntien dirhami"
-      :other: "Arabiemiirikuntien dirhamia"
-    :AFA: 
-      :name: "Afganistanin afgaani (1927–2002)"
-      :one: "Afganistanin afgaani (1927–2002)"
-      :other: "Afganistanin afgaania (1927–2002)"
-    :AFN: 
-      :name: "Afganistanin afgaani"
-      :narrow_symbol: ؋
-      :one: "Afganistanin afgaani"
-      :other: "Afganistanin afgaania"
-      :symbol: ؋
-    :ALK: 
-      :name: "Albanian lek (1946–1965)"
-      :one: "Albanian lek (1946–1965)"
-      :other: "Albanian lekiä (1946–1965)"
-    :ALL: 
-      :name: "Albanian lek"
-      :one: "Albanian lek"
-      :other: "Albanian lekiä"
-    :AMD: 
-      :name: "Armenian dram"
-      :narrow_symbol: ֏
-      :one: "Armenian dram"
-      :other: "Armenian dramia"
-      :symbol: ֏
-    :ANG: 
-      :name: "Alankomaiden Antillien guldeni"
-      :one: "Alankomaiden Antillien guldeni"
-      :other: "Alankomaiden Antillien guldenia"
-    :AOA: 
-      :name: "Angolan kwanza"
-      :narrow_symbol: AOA
-      :one: "Angolan kwanza"
-      :other: "Angolan kwanzaa"
+---
+:fi:
+  :currencies:
+    :AFN:
+      :symbol: "؋"
+      :narrow_symbol: "؋"
+      :one: Afganistanin afgaani
+      :name: Afganistanin afgaani
+      :other: Afganistanin afgaania
+    :AMD:
+      :symbol: "֏"
+      :narrow_symbol: "֏"
+      :one: Armenian dram
+      :name: Armenian dram
+      :other: Armenian dramia
+    :AOA:
       :symbol: AOA
-    :AOK: 
-      :name: "Angolan kwanza (1977–1991)"
-      :one: "Angolan kwanza (1977–1990)"
-      :other: "Angolan kwanzaa (1977–1990)"
-    :AON: 
-      :name: "Angolan uusi kwanza (1990–2000)"
-      :one: "Angolan uusi kwanza (1990–2000)"
-      :other: "Angolan uutta kwanzaa (1990–2000)"
-    :AOR: 
-      :name: "Angolan kwanza reajustado (1995–1999)"
-      :one: "Angolan kwanza reajustado (1995–1999)"
-      :other: "Angolan kwanza reajustadoa (1995–1999)"
-    :ARA: 
-      :name: "Argentiinan austral"
-      :one: "Argentiinan austral"
-      :other: "Argentiinan australia"
-    :ARL: 
-      :name: "Argentiinan ley-peso (1970–1983)"
-      :one: "Argentiinan ley-peso (1970–1983)"
-      :other: "Argentiinan ley-pesoa (1970–1983)"
-    :ARM: 
-      :name: "Argentiinan peso (1881–1970)"
-      :one: "Argentiinan peso (1881–1970)"
-      :other: "Argentiinan pesoa (1881–1970)"
-    :ARP: 
-      :name: "Argentiinan peso (1983–1985)"
-      :one: "Argentiinan peso (1983–1985)"
-      :other: "Argentiinan pesoa (1983–1985)"
-    :ARS: 
-      :name: "Argentiinan peso"
-      :narrow_symbol: ARS
-      :one: "Argentiinan peso"
-      :other: "Argentiinan pesoa"
+      :narrow_symbol: AOA
+      :one: Angolan kwanza
+      :name: Angolan kwanza
+      :other: Angolan kwanzaa
+    :ARS:
       :symbol: ARS
-    :ATS: 
-      :name: "Itävallan šillinki"
-      :one: "Itävallan šillinki"
-      :other: "Itävallan šillinkiä"
-    :AUD: 
-      :name: "Australian dollari"
-      :narrow_symbol: AUD
-      :one: "Australian dollari"
-      :other: "Australian dollaria"
+      :narrow_symbol: ARS
+      :one: Argentiinan peso
+      :name: Argentiinan peso
+      :other: Argentiinan pesoa
+    :AUD:
       :symbol: AUD
-    :AWG: 
-      :name: "Aruban floriini"
-      :one: "Aruban floriini"
-      :other: "Aruban floriinia"
-    :AZM: 
-      :name: "Azerbaidžanin manat (1993–2006)"
-      :one: "Azerbaidžanin manat (1993–2006)"
-      :other: "Azerbaidžanin manatia (1993–2006)"
-    :AZN: 
-      :name: "Azerbaidžanin manat"
-      :narrow_symbol: ₼
-      :one: "Azerbaidžanin manat"
-      :other: "Azerbaidžanin manatia"
-      :symbol: ₼
-    :BAD: 
-      :name: "Bosnia-Hertsegovinan dinaari (1992–1994)"
-      :one: "Bosnia-Hertsegovinan dinaari (1992–1994)"
-      :other: "Bosnia-Hertsegovinan dinaaria (1992–1994)"
-    :BAM: 
-      :name: "Bosnia-Hertsegovinan vaihdettava markka"
-      :narrow_symbol: BAM
-      :one: "Bosnia-Hertsegovinan vaihdettava markka"
-      :other: "Bosnia-Hertsegovinan vaihdettavaa markkaa"
+      :narrow_symbol: AUD
+      :one: Australian dollari
+      :name: Australian dollari
+      :other: Australian dollaria
+    :AZN:
+      :symbol: "₼"
+      :narrow_symbol: "₼"
+      :one: Azerbaidžanin manat
+      :name: Azerbaidžanin manat
+      :other: Azerbaidžanin manatia
+    :BAM:
       :symbol: BAM
-    :BAN: 
-      :name: "Bosnia-Hertsegovinan uusi dinaari (1994–1997)"
-      :one: "Bosnia-Hertsegovinan uusi dinaari (1994–1997)"
-      :other: "Bosnia-Hertsegovinan uutta dinaaria (1994–1997)"
-    :BBD: 
-      :name: "Barbadosin dollari"
-      :narrow_symbol: BBD
-      :one: "Barbadosin dollari"
-      :other: "Barbadosin dollaria"
+      :narrow_symbol: BAM
+      :one: Bosnia-Hertsegovinan vaihdettava markka
+      :name: Bosnia-Hertsegovinan vaihdettava markka
+      :other: Bosnia-Hertsegovinan vaihdettavaa markkaa
+    :BBD:
       :symbol: BBD
-    :BDT: 
-      :name: "Bangladeshin taka"
-      :narrow_symbol: BDT
-      :one: "Bangladeshin taka"
-      :other: "Bangladeshin takaa"
+      :narrow_symbol: BBD
+      :one: Barbadosin dollari
+      :name: Barbadosin dollari
+      :other: Barbadosin dollaria
+    :BDT:
       :symbol: BDT
-    :BEC: 
-      :name: "Belgian vaihdettava frangi"
-      :one: "Belgian vaihdettava frangi"
-      :other: "Belgian vaihdettavaa frangia"
-    :BEF: 
-      :name: "Belgian frangi"
-      :one: "Belgian frangi"
-      :other: "Belgian frangia"
-    :BEL: 
-      :name: "Belgian rahoitusfrangi"
-      :one: "Belgian rahoitusfrangi"
-      :other: "Belgian rahoitusfrangia"
-    :BGL: 
-      :name: "Bulgarian kova lev"
-      :one: "Bulgarian kova lev"
-      :other: "Bulgarian kovaa leviä"
-    :BGM: 
-      :name: "Bulgarian sosialistinen lev"
-      :one: "Bulgarian sosialistinen lev"
-      :other: "Bulgarian sosialistista leviä"
-    :BGN: 
-      :name: "Bulgarian lev"
-      :one: "Bulgarian lev"
-      :other: "Bulgarian leviä"
-    :BGO: 
-      :name: "Bulgarian lev (1879–1952)"
-      :one: "Bulgarian lev (1879–1952)"
-      :other: "Bulgarian leviä (1879–1952)"
-    :BHD: 
-      :name: "Bahrainin dinaari"
-      :one: "Bahrainin dinaari"
-      :other: "Bahrainin dinaaria"
-    :BIF: 
-      :name: "Burundin frangi"
-      :one: "Burundin frangi"
-      :other: "Burundin frangia"
-    :BMD: 
-      :name: "Bermudan dollari"
-      :narrow_symbol: BMD
-      :one: "Bermudan dollari"
-      :other: "Bermudan dollaria"
+      :narrow_symbol: BDT
+      :one: Bangladeshin taka
+      :name: Bangladeshin taka
+      :other: Bangladeshin takaa
+    :BMD:
       :symbol: BMD
-    :BND: 
-      :name: "Brunein dollari"
-      :narrow_symbol: BND
-      :one: "Brunein dollari"
-      :other: "Brunein dollaria"
+      :narrow_symbol: BMD
+      :one: Bermudan dollari
+      :name: Bermudan dollari
+      :other: Bermudan dollaria
+    :BND:
       :symbol: BND
-    :BOB: 
-      :name: "Bolivian boliviano"
-      :narrow_symbol: BOB
-      :one: "Bolivian boliviano"
-      :other: "Bolivian bolivianoa"
+      :narrow_symbol: BND
+      :one: Brunein dollari
+      :name: Brunein dollari
+      :other: Brunein dollaria
+    :BOB:
       :symbol: BOB
-    :BOL: 
-      :name: "Bolivian boliviano (1863–1963)"
-      :one: "Bolivian boliviano (1863–1963)"
-      :other: "Bolivian bolivianoa (1863–1963)"
-    :BOP: 
-      :name: "Bolivian peso"
-      :one: "Bolivian peso"
-      :other: "Bolivian pesoa"
-    :BOV: 
-      :name: "Bolivian mvdol"
-      :one: "Bolivian mvdol"
-      :other: "Bolivian mvdol’ia"
-    :BRB: 
-      :name: "Brasilian uusi cruzeiro (1967–1986)"
-      :one: "Brasilian uusi cruzeiro (1967–1986)"
-      :other: "Brasilian uutta cruzeiroa (1967–1986)"
-    :BRC: 
-      :name: "Brasilian cruzado (1986–1989)"
-      :one: "Brasilian cruzado (1986–1989)"
-      :other: "Brasilian cruzadoa (1986–1989)"
-    :BRE: 
-      :name: "Brasilian cruzeiro (1990–1993)"
-      :one: "Brasilian cruzeiro (1990–1993)"
-      :other: "Brasilian cruzeiroa (1990–1993)"
-    :BRL: 
-      :name: "Brasilian real"
-      :narrow_symbol: BRL
-      :one: "Brasilian real"
-      :other: "Brasilian realia"
+      :narrow_symbol: BOB
+      :one: Bolivian boliviano
+      :name: Bolivian boliviano
+      :other: Bolivian bolivianoa
+    :BRL:
       :symbol: BRL
-    :BRN: 
-      :name: "Brasilian uusi cruzado (1989–1990)"
-      :one: "Brasilian uusi cruzado (1989–1990)"
-      :other: "Brasilian uutta cruzadoa (1989–1990)"
-    :BRR: 
-      :name: "Brasilian cruzeiro (1993–1994)"
-      :one: "Brasilian cruzeiro (1993–1994)"
-      :other: "Brasilian cruzeiroa (1993–1994)"
-    :BRZ: 
-      :name: "Brasilian cruzeiro (1942–1967)"
-      :one: "Brasilian cruzeiro (1942–1967)"
-      :other: "Brasilian cruzeiroa (1942–1967)"
-    :BSD: 
-      :name: "Bahaman dollari"
-      :narrow_symbol: BSD
-      :one: "Bahaman dollari"
-      :other: "Bahaman dollaria"
+      :narrow_symbol: BRL
+      :one: Brasilian real
+      :name: Brasilian real
+      :other: Brasilian realia
+    :BSD:
       :symbol: BSD
-    :BTN: 
-      :name: "Bhutanin ngultrum"
-      :one: "Bhutanin ngultrum"
-      :other: "Bhutanin ngultrumia"
-    :BUK: 
-      :name: "Burman kyat"
-      :one: "Burman kyat"
-      :other: "Burman kyatia"
-    :BWP: 
-      :name: "Botswanan pula"
-      :narrow_symbol: BWP
-      :one: "Botswanan pula"
-      :other: "Botswanan pulaa"
+      :narrow_symbol: BSD
+      :one: Bahaman dollari
+      :name: Bahaman dollari
+      :other: Bahaman dollaria
+    :BWP:
       :symbol: BWP
-    :BYB: 
-      :name: "Valko-Venäjän uusi rupla (1994–1999)"
-      :one: "Valko-Venäjän uusi rupla (1994–1999)"
-      :other: "Valko-Venäjän uutta ruplaa (1994–1999)"
-    :BYN: 
-      :name: "Valko-Venäjän rupla"
-      :one: "Valko-Venäjän rupla"
-      :other: "Valko-Venäjän ruplaa"
-    :BYR: 
-      :name: "Valko-Venäjän rupla (2000–2016)"
-      :one: "Valko-Venäjän rupla (2000–2016)"
-      :other: "Valko-Venäjän ruplaa (2000–2016)"
-    :BZD: 
-      :name: "Belizen dollari"
-      :narrow_symbol: BZD
-      :one: "Belizen dollari"
-      :other: "Belizen dollaria"
+      :narrow_symbol: BWP
+      :one: Botswanan pula
+      :name: Botswanan pula
+      :other: Botswanan pulaa
+    :BZD:
       :symbol: BZD
-    :CAD: 
-      :name: "Kanadan dollari"
-      :narrow_symbol: CAD
-      :one: "Kanadan dollari"
-      :other: "Kanadan dollaria"
+      :narrow_symbol: BZD
+      :one: Belizen dollari
+      :name: Belizen dollari
+      :other: Belizen dollaria
+    :CAD:
       :symbol: CAD
-    :CDF: 
-      :name: "Kongon frangi"
-      :one: "Kongon frangi"
-      :other: "Kongon frangia"
-    :CHE: 
-      :name: "Sveitsin WIR-euro"
-      :one: "Sveitsin WIR-euro"
-      :other: "Sveitsin WIR-euroa"
-    :CHF: 
-      :name: "Sveitsin frangi"
-      :one: "Sveitsin frangi"
-      :other: "Sveitsin frangia"
-    :CHW: 
-      :name: "Sveitsin WIR-frangi"
-      :one: "Sveitsin WIR-frangi"
-      :other: "Sveitsin WIR-frangia"
-    :CLE: 
-      :name: "Chilen escudo"
-      :one: "Chilen escudo"
-      :other: "Chilen escudoa"
-    :CLF: 
-      :name: "Chilen unidades de fomento"
-      :one: "Chilen unidades de fomento"
-      :other: "Chilen unidades de fomentoa"
-    :CLP: 
-      :name: "Chilen peso"
-      :narrow_symbol: CLP
-      :one: "Chilen peso"
-      :other: "Chilen pesoa"
+      :narrow_symbol: CAD
+      :one: Kanadan dollari
+      :name: Kanadan dollari
+      :other: Kanadan dollaria
+    :CLP:
       :symbol: CLP
-    :CNH: 
-      :name: "Kiinan juan (offshore)"
-      :one: "Kiinan juan (offshore)"
-      :other: "Kiinan juania (offshore)"
-    :CNX: 
-      :name: "Kiinan kansanpankin dollari"
-      :one: "Kiinan kansanpankin dollari"
-      :other: "Kiinan kansanpankin dollaria"
-    :CNY: 
-      :name: "Kiinan juan"
-      :narrow_symbol: CNY
-      :one: "Kiinan juan"
-      :other: "Kiinan juania"
+      :narrow_symbol: CLP
+      :one: Chilen peso
+      :name: Chilen peso
+      :other: Chilen pesoa
+    :CNY:
       :symbol: CNY
-    :COP: 
-      :name: "Kolumbian peso"
-      :narrow_symbol: COP
-      :one: "Kolumbian peso"
-      :other: "Kolumbian pesoa"
+      :narrow_symbol: CNY
+      :one: Kiinan juan
+      :name: Kiinan juan
+      :other: Kiinan juania
+    :COP:
       :symbol: COP
-    :COU: 
-      :name: "Kolumbian unidad de valor real"
-      :one: "Kolumbian unidad de valor real"
-      :other: "Kolumbian unidad de valor realia"
-    :CRC: 
-      :name: "Costa Rican colón"
-      :narrow_symbol: CRC
-      :one: "Costa Rican colón"
-      :other: "Costa Rican colónia"
+      :narrow_symbol: COP
+      :one: Kolumbian peso
+      :name: Kolumbian peso
+      :other: Kolumbian pesoa
+    :CRC:
       :symbol: CRC
-    :CSD: 
-      :name: "Serbian dinaari (2002–2006)"
-      :one: "Serbian dinaari (2002–2006)"
-      :other: "Serbian dinaaria (2002–2006)"
-    :CSK: 
-      :name: "Tšekkoslovakian kova koruna"
-      :one: "Tšekkoslovakian kova koruna"
-      :other: "Tšekkoslovakian kovaa korunaa"
-    :CUC: 
-      :name: "Kuuban vaihdettava peso"
-      :narrow_symbol: CUC
-      :one: "Kuuban vaihdettava peso"
-      :other: "Kuuban vaihdettavaa pesoa"
+      :narrow_symbol: CRC
+      :one: Costa Rican colón
+      :name: Costa Rican colón
+      :other: Costa Rican colónia
+    :CUC:
       :symbol: CUC
-    :CUP: 
-      :name: "Kuuban peso"
-      :narrow_symbol: CUP
-      :one: "Kuuban peso"
-      :other: "Kuuban pesoa"
+      :narrow_symbol: CUC
+      :one: Kuuban vaihdettava peso
+      :name: Kuuban vaihdettava peso
+      :other: Kuuban vaihdettavaa pesoa
+    :CUP:
       :symbol: CUP
-    :CVE: 
-      :name: "Kap Verden escudo"
-      :one: "Kap Verden escudo"
-      :other: "Kap Verden escudoa"
-    :CYP: 
-      :name: "Kyproksen punta"
-      :one: "Kyproksen punta"
-      :other: "Kyproksen puntaa"
-    :CZK: 
-      :name: "Tšekin koruna"
-      :narrow_symbol: CZK
-      :one: "Tšekin koruna"
-      :other: "Tšekin korunaa"
+      :narrow_symbol: CUP
+      :one: Kuuban peso
+      :name: Kuuban peso
+      :other: Kuuban pesoa
+    :CZK:
       :symbol: CZK
-    :DDM: 
-      :name: "Itä-Saksan markka"
-      :one: "Itä-Saksan markka"
-      :other: "Itä-Saksan markkaa"
-    :DEM: 
-      :name: "Saksan markka"
-      :one: "Saksan markka"
-      :other: "Saksan markkaa"
-    :DJF: 
-      :name: "Djiboutin frangi"
-      :one: "Djiboutin frangi"
-      :other: "Djiboutin frangia"
-    :DKK: 
-      :name: "Tanskan kruunu"
-      :narrow_symbol: DKK
-      :one: "Tanskan kruunu"
-      :other: "Tanskan kruunua"
+      :narrow_symbol: CZK
+      :one: Tšekin koruna
+      :name: Tšekin koruna
+      :other: Tšekin korunaa
+    :DKK:
       :symbol: DKK
-    :DOP: 
-      :name: "Dominikaanisen tasavallan peso"
-      :narrow_symbol: DOP
-      :one: "Dominikaanisen tasavallan peso"
-      :other: "Dominikaanisen tasavallan pesoa"
+      :narrow_symbol: DKK
+      :one: Tanskan kruunu
+      :name: Tanskan kruunu
+      :other: Tanskan kruunua
+    :DOP:
       :symbol: DOP
-    :DZD: 
-      :name: "Algerian dinaari"
-      :one: "Algerian dinaari"
-      :other: "Algerian dinaaria"
-    :ECS: 
-      :name: "Ecuadorin sucre"
-      :one: "Ecuadorin sucre"
-      :other: "Ecuadorin sucrea"
-    :ECV: 
-      :name: "Ecuadorin UVC"
-      :one: "Ecuadorin UVC"
-      :other: "Ecuadorin UVC’ta"
-    :EEK: 
-      :name: "Viron kruunu"
-      :one: "Viron kruunu"
-      :other: "Viron kruunua"
-    :EGP: 
-      :name: "Egyptin punta"
-      :narrow_symbol: EGP
-      :one: "Egyptin punta"
-      :other: "Egyptin puntaa"
+      :narrow_symbol: DOP
+      :one: Dominikaanisen tasavallan peso
+      :name: Dominikaanisen tasavallan peso
+      :other: Dominikaanisen tasavallan pesoa
+    :EGP:
       :symbol: EGP
-    :ERN: 
-      :name: "Eritrean nakfa"
-      :one: "Eritrean nakfa"
-      :other: "Eritrean nakfaa"
-    :ESA: 
-      :name: "Espanjan peseta (A-tili)"
-      :one: "Espanjan peseta (A-tili)"
-      :other: "Espanjan pesetaa (A-tili)"
-    :ESB: 
-      :name: "Espanjan peseta (vaihdettava tili)"
-      :one: "Espanjan peseta (vaihdettava tili)"
-      :other: "Espanjan pesetaa (vaihdettava tili)"
-    :ESP: 
-      :name: "Espanjan peseta"
-      :narrow_symbol: ESP
-      :one: "Espanjan peseta"
-      :other: "Espanjan pesetaa"
+      :narrow_symbol: EGP
+      :one: Egyptin punta
+      :name: Egyptin punta
+      :other: Egyptin puntaa
+    :ESP:
       :symbol: ESP
-    :ETB: 
-      :name: "Etiopian birr"
-      :one: "Etiopian birr"
-      :other: "Etiopian birriä"
-    :EUR: 
-      :name: euro
-      :narrow_symbol: €
+      :narrow_symbol: ESP
+      :one: Espanjan peseta
+      :name: Espanjan peseta
+      :other: Espanjan pesetaa
+    :EUR:
+      :symbol: "€"
+      :narrow_symbol: "€"
       :one: euro
+      :name: euro
       :other: euroa
-      :symbol: €
-    :FIM: 
-      :name: "Suomen markka"
-      :one: "Suomen markka"
-      :other: "Suomen markkaa"
-      :symbol: mk
-    :FJD: 
-      :name: "Fidžin dollari"
-      :narrow_symbol: FJD
-      :one: "Fidžin dollari"
-      :other: "Fidžin dollaria"
+    :FJD:
       :symbol: FJD
-    :FKP: 
-      :name: "Falklandinsaarten punta"
-      :narrow_symbol: FKP
-      :one: "Falklandinsaarten punta"
-      :other: "Falklandinsaarten puntaa"
+      :narrow_symbol: FJD
+      :one: Fidžin dollari
+      :name: Fidžin dollari
+      :other: Fidžin dollaria
+    :FKP:
       :symbol: FKP
-    :FRF: 
-      :name: "Ranskan frangi"
-      :one: "Ranskan frangi"
-      :other: "Ranskan frangia"
-    :GBP: 
-      :name: "Englannin punta"
-      :narrow_symbol: £
-      :one: "Englannin punta"
-      :other: "Englannin puntaa"
-      :symbol: £
-    :GEK: 
-      :name: "Georgian kuponkilari"
-      :one: "Georgian kuponkilari"
-      :other: "Georgian kuponkilaria"
-    :GEL: 
-      :name: "Georgian lari"
-      :narrow_symbol: GEL
-      :one: "Georgian lari"
-      :other: "Georgian laria"
+      :narrow_symbol: FKP
+      :one: Falklandinsaarten punta
+      :name: Falklandinsaarten punta
+      :other: Falklandinsaarten puntaa
+    :GBP:
+      :symbol: "£"
+      :narrow_symbol: "£"
+      :one: Englannin punta
+      :name: Englannin punta
+      :other: Englannin puntaa
+    :GEL:
       :symbol: GEL
-    :GHC: 
-      :name: "Ghanan cedi (1979–2007)"
-      :one: "Ghanan cedi (1979–2007)"
-      :other: "Ghanan cediä (1979–2007)"
-    :GHS: 
-      :name: "Ghanan cedi"
-      :narrow_symbol: GH₵
-      :one: "Ghanan cedi"
-      :other: "Ghanan cediä"
+      :narrow_symbol: GEL
+      :one: Georgian lari
+      :name: Georgian lari
+      :other: Georgian laria
+    :GHS:
       :symbol: GH₵
-    :GIP: 
-      :name: "Gibraltarin punta"
-      :narrow_symbol: GIP
-      :one: "Gibraltarin punta"
-      :other: "Gibraltarin puntaa"
+      :narrow_symbol: GH₵
+      :one: Ghanan cedi
+      :name: Ghanan cedi
+      :other: Ghanan cediä
+    :GIP:
       :symbol: GIP
-    :GMD: 
-      :name: "Gambian dalasi"
-      :one: "Gambian dalasi"
-      :other: "Gambian dalasia"
-    :GNF: 
-      :name: "Guinean frangi"
-      :narrow_symbol: GNF
-      :one: "Guinean frangi"
-      :other: "Guinean frangia"
+      :narrow_symbol: GIP
+      :one: Gibraltarin punta
+      :name: Gibraltarin punta
+      :other: Gibraltarin puntaa
+    :GNF:
       :symbol: GNF
-    :GNS: 
-      :name: "Guinean syli"
-      :one: "Guinean syli"
-      :other: "Guinean syliä"
-    :GQE: 
-      :name: "Päiväntasaajan Guinean ekwele"
-      :one: "Päiväntasaajan Guinean ekwele"
-      :other: "Päiväntasaajan Guinean ekweleä"
-    :GRD: 
-      :name: "Kreikan drakma"
-      :one: "Kreikan drakma"
-      :other: "Kreikan drakmaa"
-    :GTQ: 
-      :name: "Guatemalan quetzal"
-      :narrow_symbol: GTQ
-      :one: "Guatemalan quetzal"
-      :other: "Guatemalan quetzalia"
+      :narrow_symbol: GNF
+      :one: Guinean frangi
+      :name: Guinean frangi
+      :other: Guinean frangia
+    :GTQ:
       :symbol: GTQ
-    :GWE: 
-      :name: "Portugalin Guinean escudo"
-      :one: "Portugalin Guinean escudo"
-      :other: "Portugalin Guinean escudoa"
-    :GWP: 
-      :name: "Guinea-Bissaun peso"
-      :one: "Guinea-Bissaun peso"
-      :other: "Guinea-Bissaun pesoa"
-    :GYD: 
-      :name: "Guyanan dollari"
-      :narrow_symbol: GYD
-      :one: "Guyanan dollari"
-      :other: "Guyanan dollaria"
+      :narrow_symbol: GTQ
+      :one: Guatemalan quetzal
+      :name: Guatemalan quetzal
+      :other: Guatemalan quetzalia
+    :GYD:
       :symbol: GYD
-    :HKD: 
-      :name: "Hongkongin dollari"
-      :narrow_symbol: HKD
-      :one: "Hongkongin dollari"
-      :other: "Hongkongin dollaria"
+      :narrow_symbol: GYD
+      :one: Guyanan dollari
+      :name: Guyanan dollari
+      :other: Guyanan dollaria
+    :HKD:
       :symbol: HKD
-    :HNL: 
-      :name: "Hondurasin lempira"
-      :narrow_symbol: HNL
-      :one: "Hondurasin lempira"
-      :other: "Hondurasin lempiraa"
+      :narrow_symbol: HKD
+      :one: Hongkongin dollari
+      :name: Hongkongin dollari
+      :other: Hongkongin dollaria
+    :HNL:
       :symbol: HNL
-    :HRD: 
-      :name: "Kroatian dinaari"
-      :one: "Kroatian dinaari"
-      :other: "Kroatian dinaaria"
-    :HRK: 
-      :name: "Kroatian kuna"
-      :narrow_symbol: HRK
-      :one: "Kroatian kuna"
-      :other: "Kroatian kunaa"
+      :narrow_symbol: HNL
+      :one: Hondurasin lempira
+      :name: Hondurasin lempira
+      :other: Hondurasin lempiraa
+    :HRK:
       :symbol: HRK
-    :HTG: 
-      :name: "Haitin gourde"
-      :one: "Haitin gourde"
-      :other: "Haitin gourdea"
-    :HUF: 
-      :name: "Unkarin forintti"
-      :narrow_symbol: HUF
-      :one: "Unkarin forintti"
-      :other: "Unkarin forinttia"
+      :narrow_symbol: HRK
+      :one: Kroatian kuna
+      :name: Kroatian kuna
+      :other: Kroatian kunaa
+    :HUF:
       :symbol: HUF
-    :IDR: 
-      :name: "Indonesian rupia"
-      :narrow_symbol: IDR
-      :one: "Indonesian rupia"
-      :other: "Indonesian rupiaa"
+      :narrow_symbol: HUF
+      :one: Unkarin forintti
+      :name: Unkarin forintti
+      :other: Unkarin forinttia
+    :IDR:
       :symbol: IDR
-    :IEP: 
-      :name: "Irlannin punta"
-      :one: "Irlannin punta"
-      :other: "Irlannin puntaa"
-    :ILP: 
-      :name: "Israelin punta"
-      :one: "Israelin punta"
-      :other: "Israelin puntaa"
-    :ILR: 
-      :name: "Israelin sekeli (1980–1985)"
-      :one: "Israelin sekeli (1980–1985)"
-      :other: "Israelin sekeliä (1980–1985)"
-    :ILS: 
-      :name: "Israelin uusi sekeli"
-      :narrow_symbol: ILS
-      :one: "Israelin uusi sekeli"
-      :other: "Israelin uutta sekeliä"
+      :narrow_symbol: IDR
+      :one: Indonesian rupia
+      :name: Indonesian rupia
+      :other: Indonesian rupiaa
+    :ILS:
       :symbol: ILS
-    :INR: 
-      :name: "Intian rupia"
-      :narrow_symbol: INR
-      :one: "Intian rupia"
-      :other: "Intian rupiaa"
+      :narrow_symbol: ILS
+      :one: Israelin uusi sekeli
+      :name: Israelin uusi sekeli
+      :other: Israelin uutta sekeliä
+    :INR:
       :symbol: INR
-    :IQD: 
-      :name: "Irakin dinaari"
-      :one: "Irakin dinaari"
-      :other: "Irakin dinaaria"
-    :IRR: 
-      :name: "Iranin rial"
-      :one: "Iranin rial"
-      :other: "Iranin rialia"
-    :ISJ: 
-      :name: "Islannin kruunu (1918–1981)"
-      :one: "Islannin kruunu (1918–1981)"
-      :other: "Islannin kruunua (1918–1981)"
-    :ISK: 
-      :name: "Islannin kruunu"
-      :narrow_symbol: ISK
-      :one: "Islannin kruunu"
-      :other: "Islannin kruunua"
+      :narrow_symbol: INR
+      :one: Intian rupia
+      :name: Intian rupia
+      :other: Intian rupiaa
+    :ISK:
       :symbol: ISK
-    :ITL: 
-      :name: "Italian liira"
-      :one: "Italian liira"
-      :other: "Italian liiraa"
-    :JMD: 
-      :name: "Jamaikan dollari"
-      :narrow_symbol: JMD
-      :one: "Jamaikan dollari"
-      :other: "Jamaikan dollaria"
+      :narrow_symbol: ISK
+      :one: Islannin kruunu
+      :name: Islannin kruunu
+      :other: Islannin kruunua
+    :JMD:
       :symbol: JMD
-    :JOD: 
-      :name: "Jordanian dinaari"
-      :one: "Jordanian dinaari"
-      :other: "Jordanian dinaaria"
-    :JPY: 
-      :name: "Japanin jeni"
-      :narrow_symbol: ¥
-      :one: "Japanin jeni"
-      :other: "Japanin jeniä"
-      :symbol: ¥
-    :KES: 
-      :name: "Kenian šillinki"
-      :one: "Kenian šillinki"
-      :other: "Kenian šillinkiä"
-    :KGS: 
-      :name: "Kirgisian som"
-      :narrow_symbol: ⃀
-      :one: "Kirgisian som"
-      :other: "Kirgisian somia"
-      :symbol: ⃀
-    :KHR: 
-      :name: "Kambodžan riel"
-      :narrow_symbol: KHR
-      :one: "Kambodžan riel"
-      :other: "Kambodžan rieliä"
+      :narrow_symbol: JMD
+      :one: Jamaikan dollari
+      :name: Jamaikan dollari
+      :other: Jamaikan dollaria
+    :JPY:
+      :symbol: "¥"
+      :narrow_symbol: "¥"
+      :one: Japanin jeni
+      :name: Japanin jeni
+      :other: Japanin jeniä
+    :KGS:
+      :symbol: "⃀"
+      :narrow_symbol: "⃀"
+      :one: Kirgisian som
+      :name: Kirgisian som
+      :other: Kirgisian somia
+    :KHR:
       :symbol: KHR
-    :KMF: 
-      :name: "Komorien frangi"
-      :narrow_symbol: KMF
-      :one: "Komorien frangi"
-      :other: "Komorien frangia"
+      :narrow_symbol: KHR
+      :one: Kambodžan riel
+      :name: Kambodžan riel
+      :other: Kambodžan rieliä
+    :KMF:
       :symbol: KMF
-    :KPW: 
-      :name: "Pohjois-Korean won"
-      :narrow_symbol: KPW
-      :one: "Pohjois-Korean won"
-      :other: "Pohjois-Korean wonia"
+      :narrow_symbol: KMF
+      :one: Komorien frangi
+      :name: Komorien frangi
+      :other: Komorien frangia
+    :KPW:
       :symbol: KPW
-    :KRH: 
-      :name: "Etelä-Korean hwan (1953–1962)"
-      :one: "Etelä-Korean hwan (1953–1962)"
-      :other: "Etelä-Korean hwania (1953–1962)"
-    :KRO: 
-      :name: "Etelä-Korean won (1945–1953)"
-      :one: "Etelä-Korean won (1945–1953)"
-      :other: "Etelä-Korean wonia (1945–1953)"
-    :KRW: 
-      :name: "Etelä-Korean won"
-      :narrow_symbol: KRW
-      :one: "Etelä-Korean won"
-      :other: "Etelä-Korean wonia"
+      :narrow_symbol: KPW
+      :one: Pohjois-Korean won
+      :name: Pohjois-Korean won
+      :other: Pohjois-Korean wonia
+    :KRW:
       :symbol: KRW
-    :KWD: 
-      :name: "Kuwaitin dinaari"
-      :one: "Kuwaitin dinaari"
-      :other: "Kuwaitin dinaaria"
-    :KYD: 
-      :name: "Caymansaarten dollari"
-      :narrow_symbol: KYD
-      :one: "Caymansaarten dollari"
-      :other: "Caymansaarten dollaria"
+      :narrow_symbol: KRW
+      :one: Etelä-Korean won
+      :name: Etelä-Korean won
+      :other: Etelä-Korean wonia
+    :KYD:
       :symbol: KYD
-    :KZT: 
-      :name: "Kazakstanin tenge"
-      :narrow_symbol: KZT
-      :one: "Kazakstanin tenge"
-      :other: "Kazakstanin tengeä"
+      :narrow_symbol: KYD
+      :one: Caymansaarten dollari
+      :name: Caymansaarten dollari
+      :other: Caymansaarten dollaria
+    :KZT:
       :symbol: KZT
-    :LAK: 
-      :name: "Laosin kip"
-      :narrow_symbol: LAK
-      :one: "Laosin kip"
-      :other: "Laosin kipiä"
+      :narrow_symbol: KZT
+      :one: Kazakstanin tenge
+      :name: Kazakstanin tenge
+      :other: Kazakstanin tengeä
+    :LAK:
       :symbol: LAK
-    :LBP: 
-      :name: "Libanonin punta"
-      :narrow_symbol: LBP
-      :one: "Libanonin punta"
-      :other: "Libanonin puntaa"
+      :narrow_symbol: LAK
+      :one: Laosin kip
+      :name: Laosin kip
+      :other: Laosin kipiä
+    :LBP:
       :symbol: LBP
-    :LKR: 
-      :name: "Sri Lankan rupia"
-      :narrow_symbol: LKR
-      :one: "Sri Lankan rupia"
-      :other: "Sri Lankan rupiaa"
+      :narrow_symbol: LBP
+      :one: Libanonin punta
+      :name: Libanonin punta
+      :other: Libanonin puntaa
+    :LKR:
       :symbol: LKR
-    :LRD: 
-      :name: "Liberian dollari"
-      :narrow_symbol: LRD
-      :one: "Liberian dollari"
-      :other: "Liberian dollaria"
+      :narrow_symbol: LKR
+      :one: Sri Lankan rupia
+      :name: Sri Lankan rupia
+      :other: Sri Lankan rupiaa
+    :LRD:
       :symbol: LRD
-    :LSL: 
-      :name: "Lesothon loti"
-      :one: "Lesothon loti"
-      :other: "Lesothon lotia"
-    :LTL: 
-      :name: "Liettuan liti"
-      :narrow_symbol: LTL
-      :one: "Liettuan liti"
-      :other: "Liettuan litiä"
+      :narrow_symbol: LRD
+      :one: Liberian dollari
+      :name: Liberian dollari
+      :other: Liberian dollaria
+    :LTL:
       :symbol: LTL
-    :LTT: 
-      :name: "Liettuan talonas"
-      :one: "Liettuan talonas"
-      :other: "Liettuan talonasia"
-    :LUC: 
-      :name: "Luxemburgin vaihdettava frangi"
-      :one: "Luxemburgin vaihdettava frangi"
-      :other: "Luxemburgin vaihdettavaa frangia"
-    :LUF: 
-      :name: "Luxemburgin frangi"
-      :one: "Luxemburgin frangi"
-      :other: "Luxemburgin frangia"
-    :LUL: 
-      :name: "Luxemburgin rahoitusfrangi"
-      :one: "Luxemburgin rahoitusfrangi"
-      :other: "Luxemburgin rahoitusfrangia"
-    :LVL: 
-      :name: "Latvian lati"
-      :narrow_symbol: LVL
-      :one: "Latvian lati"
-      :other: "Latvian latia"
+      :narrow_symbol: LTL
+      :one: Liettuan liti
+      :name: Liettuan liti
+      :other: Liettuan litiä
+    :LVL:
       :symbol: LVL
-    :LVR: 
-      :name: "Latvian rupla"
-      :one: "Latvian rupla"
-      :other: "Latvian ruplaa"
-    :LYD: 
-      :name: "Libyan dinaari"
-      :one: "Libyan dinaari"
-      :other: "Libyan dinaaria"
-    :MAD: 
-      :name: "Marokon dirhami"
-      :one: "Marokon dirhami"
-      :other: "Marokon dirhamia"
-    :MAF: 
-      :name: "Marokon frangi"
-      :one: "Marokon frangi"
-      :other: "Marokon frangia"
-    :MCF: 
-      :name: "Monacon frangi"
-      :one: "Monacon frangi"
-      :other: "Monacon frangia"
-    :MDC: 
-      :name: "Moldovan kuponkileu"
-      :one: "Moldovan kuponkileu"
-      :other: "Moldovan kuponkileuta"
-    :MDL: 
-      :name: "Moldovan leu"
-      :one: "Moldovan leu"
-      :other: "Moldovan leuta"
-    :MGA: 
-      :name: "Madagaskarin ariary"
-      :narrow_symbol: MGA
-      :one: "Madagaskarin ariary"
-      :other: "Madagaskarin ariarya"
+      :narrow_symbol: LVL
+      :one: Latvian lati
+      :name: Latvian lati
+      :other: Latvian latia
+    :MGA:
       :symbol: MGA
-    :MGF: 
-      :name: "Madagaskarin frangi"
-      :one: "Madagaskarin frangi"
-      :other: "Madagaskarin frangia"
-    :MKD: 
-      :name: "Makedonian denaari"
-      :one: "Makedonian denaari"
-      :other: "Makedonian denaaria"
-    :MKN: 
-      :name: "Makedonian dinaari (1992–1993)"
-      :one: "Makedonian dinaari (1992–1993)"
-      :other: "Makedonian dinaaria (1992–1993)"
-    :MLF: 
-      :name: "Malin frangi"
-      :one: "Malin frangi"
-      :other: "Malin frangia"
-    :MMK: 
-      :name: "Myanmarin kyat"
-      :narrow_symbol: MMK
-      :one: "Myanmarin kyat"
-      :other: "Myanmarin kyatia"
+      :narrow_symbol: MGA
+      :one: Madagaskarin ariary
+      :name: Madagaskarin ariary
+      :other: Madagaskarin ariarya
+    :MMK:
       :symbol: MMK
-    :MNT: 
-      :name: "Mongolian tugrik"
-      :narrow_symbol: MNT
-      :one: "Mongolian tugrik"
-      :other: "Mongolian tugrikia"
+      :narrow_symbol: MMK
+      :one: Myanmarin kyat
+      :name: Myanmarin kyat
+      :other: Myanmarin kyatia
+    :MNT:
       :symbol: MNT
-    :MOP: 
-      :name: "Macaon pataca"
-      :one: "Macaon pataca"
-      :other: "Macaon patacaa"
-    :MRO: 
-      :name: "Mauritanian ouguiya (1973–2017)"
-      :one: "Mauritanian ouguiya (1973–2017)"
-      :other: "Mauritanian ouguiyaa (1973–2017)"
-    :MRU: 
-      :name: "Mauritanian ouguiya"
-      :one: "Mauritanian ouguiya"
-      :other: "Mauritanian ouguiyaa"
-    :MTL: 
-      :name: "Maltan liira"
-      :one: "Maltan liira"
-      :other: "Maltan liiraa"
-    :MTP: 
-      :name: "Maltan punta"
-      :one: "Maltan punta"
-      :other: "Maltan puntaa"
-    :MUR: 
-      :name: "Mauritiuksen rupia"
-      :narrow_symbol: MUR
-      :one: "Mauritiuksen rupia"
-      :other: "Mauritiuksen rupiaa"
+      :narrow_symbol: MNT
+      :one: Mongolian tugrik
+      :name: Mongolian tugrik
+      :other: Mongolian tugrikia
+    :MUR:
       :symbol: MUR
-    :MVP: 
-      :name: "Malediivien rupia (1947–1981)"
-      :one: "Malediivien rupia (1947–1981)"
-      :other: "Malediivien rupiaa (1947–1981)"
-    :MVR: 
-      :name: "Malediivien rufiyaa"
-      :one: "Malediivien rufiyaa"
-      :other: "Malediivien rufiyaata"
-    :MWK: 
-      :name: "Malawin kwacha"
-      :one: "Malawin kwacha"
-      :other: "Malawin kwachaa"
-    :MXN: 
-      :name: "Meksikon peso"
-      :narrow_symbol: MXN
-      :one: "Meksikon peso"
-      :other: "Meksikon pesoa"
+      :narrow_symbol: MUR
+      :one: Mauritiuksen rupia
+      :name: Mauritiuksen rupia
+      :other: Mauritiuksen rupiaa
+    :MXN:
       :symbol: MXN
-    :MXP: 
-      :name: "Meksikon hopeapeso (1861–1992)"
-      :one: "Meksikon hopeapeso (1861–1992)"
-      :other: "Meksikon hopeapesoa (1861–1992)"
-    :MXV: 
-      :name: "Meksikon UDI"
-      :one: "Meksikon UDI"
-      :other: "Meksikon UDI’ta"
-    :MYR: 
-      :name: "Malesian ringgit"
-      :narrow_symbol: MYR
-      :one: "Malesian ringgit"
-      :other: "Malesian ringgitiä"
+      :narrow_symbol: MXN
+      :one: Meksikon peso
+      :name: Meksikon peso
+      :other: Meksikon pesoa
+    :MYR:
       :symbol: MYR
-    :MZE: 
-      :name: "Mosambikin escudo"
-      :one: "Mosambikin escudo"
-      :other: "Mosambikin escudoa"
-    :MZM: 
-      :name: "Mosambikin metical (1980–2006)"
-      :one: "Mosambikin metical (1980–2006)"
-      :other: "Mosambikin meticalia (1980–2006)"
-    :MZN: 
-      :name: "Mosambikin metical"
-      :one: "Mosambikin metical"
-      :other: "Mosambikin meticalia"
-    :NAD: 
-      :name: "Namibian dollari"
-      :narrow_symbol: NAD
-      :one: "Namibian dollari"
-      :other: "Namibian dollaria"
+      :narrow_symbol: MYR
+      :one: Malesian ringgit
+      :name: Malesian ringgit
+      :other: Malesian ringgitiä
+    :NAD:
       :symbol: NAD
-    :NGN: 
-      :name: "Nigerian naira"
-      :narrow_symbol: NGN
-      :one: "Nigerian naira"
-      :other: "Nigerian nairaa"
+      :narrow_symbol: NAD
+      :one: Namibian dollari
+      :name: Namibian dollari
+      :other: Namibian dollaria
+    :NGN:
       :symbol: NGN
-    :NIC: 
-      :name: "Nicaraguan córdoba (1988–1991)"
-      :one: "Nicaraguan córdoba (1988–1991)"
-      :other: "Nicaraguan córdobaa (1988–1991)"
-    :NIO: 
-      :name: "Nicaraguan córdoba"
-      :narrow_symbol: NIO
-      :one: "Nicaraguan córdoba"
-      :other: "Nicaraguan córdobaa"
+      :narrow_symbol: NGN
+      :one: Nigerian naira
+      :name: Nigerian naira
+      :other: Nigerian nairaa
+    :NIO:
       :symbol: NIO
-    :NLG: 
-      :name: "Alankomaiden guldeni"
-      :one: "Alankomaiden guldeni"
-      :other: "Alankomaiden guldenia"
-    :NOK: 
-      :name: "Norjan kruunu"
-      :narrow_symbol: NOK
-      :one: "Norjan kruunu"
-      :other: "Norjan kruunua"
+      :narrow_symbol: NIO
+      :one: Nicaraguan córdoba
+      :name: Nicaraguan córdoba
+      :other: Nicaraguan córdobaa
+    :NOK:
       :symbol: NOK
-    :NPR: 
-      :name: "Nepalin rupia"
-      :narrow_symbol: NPR
-      :one: "Nepalin rupia"
-      :other: "Nepalin rupiaa"
+      :narrow_symbol: NOK
+      :one: Norjan kruunu
+      :name: Norjan kruunu
+      :other: Norjan kruunua
+    :NPR:
       :symbol: NPR
-    :NZD: 
-      :name: "Uuden-Seelannin dollari"
-      :narrow_symbol: NZD
-      :one: "Uuden-Seelannin dollari"
-      :other: "Uuden-Seelannin dollaria"
+      :narrow_symbol: NPR
+      :one: Nepalin rupia
+      :name: Nepalin rupia
+      :other: Nepalin rupiaa
+    :NZD:
       :symbol: NZD
-    :OMR: 
-      :name: "Omanin rial"
-      :one: "Omanin rial"
-      :other: "Omanin rialia"
-    :PAB: 
-      :name: "Panaman balboa"
-      :one: "Panaman balboa"
-      :other: "Panaman balboaa"
-    :PEI: 
-      :name: "Perun inti"
-      :one: "Perun inti"
-      :other: "Perun intiä"
-    :PEN: 
-      :name: "Perun sol"
-      :one: "Perun sol"
-      :other: "Perun solia"
-    :PES: 
-      :name: "Perun sol (1863–1965)"
-      :one: "Perun sol (1863–1965)"
-      :other: "Perun solia (1863–1965)"
-    :PGK: 
-      :name: "Papua-Uuden-Guinean kina"
-      :one: "Papua-Uuden-Guinean kina"
-      :other: "Papua-Uuden-Guinean kinaa"
-    :PHP: 
-      :name: "Filippiinien peso"
-      :narrow_symbol: PHP
-      :one: "Filippiinien peso"
-      :other: "Filippiinien pesoa"
+      :narrow_symbol: NZD
+      :one: Uuden-Seelannin dollari
+      :name: Uuden-Seelannin dollari
+      :other: Uuden-Seelannin dollaria
+    :PHP:
       :symbol: PHP
-    :PKR: 
-      :name: "Pakistanin rupia"
-      :narrow_symbol: PKR
-      :one: "Pakistanin rupia"
-      :other: "Pakistanin rupiaa"
+      :narrow_symbol: PHP
+      :one: Filippiinien peso
+      :name: Filippiinien peso
+      :other: Filippiinien pesoa
+    :PKR:
       :symbol: PKR
-    :PLN: 
-      :name: "Puolan złoty"
-      :narrow_symbol: PLN
-      :one: "Puolan złoty"
-      :other: "Puolan złotya"
+      :narrow_symbol: PKR
+      :one: Pakistanin rupia
+      :name: Pakistanin rupia
+      :other: Pakistanin rupiaa
+    :PLN:
       :symbol: PLN
-    :PLZ: 
-      :name: "Puolan złoty (1950–1995)"
-      :one: "Puolan złoty (1950–1995)"
-      :other: "Puolan złotya (1950–1995)"
-    :PTE: 
-      :name: "Portugalin escudo"
-      :one: "Portugalin escudo"
-      :other: "Portugalin escudoa"
-    :PYG: 
-      :name: "Paraguayn guarani"
-      :narrow_symbol: PYG
-      :one: "Paraguayn guarani"
-      :other: "Paraguayn guarania"
+      :narrow_symbol: PLN
+      :one: Puolan złoty
+      :name: Puolan złoty
+      :other: Puolan złotya
+    :PYG:
       :symbol: PYG
-    :QAR: 
-      :name: "Qatarin rial"
-      :one: "Qatarin rial"
-      :other: "Qatarin rialia"
-    :RHD: 
-      :name: "Rhodesian dollari"
-      :one: "Rhodesian dollari"
-      :other: "Rhodesian dollaria"
-    :ROL: 
-      :name: "Romanian leu (1952–2006)"
-      :one: "Romanian leu (1952–2006)"
-      :other: "Romanian leuta (1952–2006)"
-    :RON: 
-      :name: "Romanian leu"
-      :narrow_symbol: RON
-      :one: "Romanian leu"
-      :other: "Romanian leuta"
+      :narrow_symbol: PYG
+      :one: Paraguayn guarani
+      :name: Paraguayn guarani
+      :other: Paraguayn guarania
+    :RON:
       :symbol: RON
-    :RSD: 
-      :name: "Serbian dinaari"
-      :one: "Serbian dinaari"
-      :other: "Serbian dinaaria"
-    :RUB: 
-      :name: "Venäjän rupla"
-      :narrow_symbol: ₽
-      :one: "Venäjän rupla"
-      :other: "Venäjän ruplaa"
-      :symbol: ₽
-    :RUR: 
-      :name: "Venäjän rupla (1991–1998)"
-      :one: "Venäjän rupla (1991–1998)"
-      :other: "Venäjän ruplaa (1991–1998)"
-    :RWF: 
-      :name: "Ruandan frangi"
-      :narrow_symbol: RWF
-      :one: "Ruandan frangi"
-      :other: "Ruandan frangia"
+      :narrow_symbol: RON
+      :one: Romanian leu
+      :name: Romanian leu
+      :other: Romanian leuta
+    :RUB:
+      :symbol: "₽"
+      :narrow_symbol: "₽"
+      :one: Venäjän rupla
+      :name: Venäjän rupla
+      :other: Venäjän ruplaa
+    :RWF:
       :symbol: RWF
-    :SAR: 
-      :name: "Saudi-Arabian rial"
-      :one: "Saudi-Arabian rial"
-      :other: "Saudi-Arabian rialia"
-      :symbol: ⃁
-    :SBD: 
-      :name: "Salomonsaarten dollari"
-      :narrow_symbol: SBD
-      :one: "Salomonsaarten dollari"
-      :other: "Salomonsaarten dollaria"
+      :narrow_symbol: RWF
+      :one: Ruandan frangi
+      :name: Ruandan frangi
+      :other: Ruandan frangia
+    :SAR:
+      :symbol: "⃁"
+      :one: Saudi-Arabian rial
+      :name: Saudi-Arabian rial
+      :other: Saudi-Arabian rialia
+    :SBD:
       :symbol: SBD
-    :SCR: 
-      :name: "Seychellien rupia"
-      :one: "Seychellien rupia"
-      :other: "Seychellien rupiaa"
-    :SDD: 
-      :name: "Sudanin dinaari (1992–2007)"
-      :one: "Sudanin dinaari (1992–2007)"
-      :other: "Sudanin dinaaria (1992–2007)"
-    :SDG: 
-      :name: "Sudanin punta"
-      :one: "Sudanin punta"
-      :other: "Sudanin puntaa"
-    :SDP: 
-      :name: "Sudanin punta (1957–1998)"
-      :one: "Sudanin punta (1957–1998)"
-      :other: "Sudanin puntaa (1957–1998)"
-    :SEK: 
-      :name: "Ruotsin kruunu"
-      :narrow_symbol: SEK
-      :one: "Ruotsin kruunu"
-      :other: "Ruotsin kruunua"
+      :narrow_symbol: SBD
+      :one: Salomonsaarten dollari
+      :name: Salomonsaarten dollari
+      :other: Salomonsaarten dollaria
+    :SEK:
       :symbol: SEK
-    :SGD: 
-      :name: "Singaporen dollari"
-      :narrow_symbol: SGD
-      :one: "Singaporen dollari"
-      :other: "Singaporen dollaria"
+      :narrow_symbol: SEK
+      :one: Ruotsin kruunu
+      :name: Ruotsin kruunu
+      :other: Ruotsin kruunua
+    :SGD:
       :symbol: SGD
-    :SHP: 
-      :name: "Saint Helenan punta"
-      :narrow_symbol: SHP
-      :one: "Saint Helenan punta"
-      :other: "Saint Helenan puntaa"
+      :narrow_symbol: SGD
+      :one: Singaporen dollari
+      :name: Singaporen dollari
+      :other: Singaporen dollaria
+    :SHP:
       :symbol: SHP
-    :SIT: 
-      :name: "Slovenian tolar"
-      :one: "Slovenian tolar"
-      :other: "Slovenian tolaria"
-    :SKK: 
-      :name: "Slovakian koruna"
-      :one: "Slovakian koruna"
-      :other: "Slovakian korunaa"
-    :SLE: 
-      :name: "Sierra Leonen leone"
-      :one: "Sierra Leonen leone"
-      :other: "Sierra Leonen leonea"
-    :SLL: 
-      :name: "Sierra Leonen leone (1964–2022)"
-      :one: "Sierra Leonen leone (1964–2022)"
-      :other: "Sierra Leonen leonea (1964–2022)"
-    :SOS: 
-      :name: "Somalian šillinki"
-      :one: "Somalian šillinki"
-      :other: "Somalian šillinkiä"
-    :SRD: 
-      :name: "Surinamen dollari"
-      :narrow_symbol: SRD
-      :one: "Surinamen dollari"
-      :other: "Surinamen dollaria"
+      :narrow_symbol: SHP
+      :one: Saint Helenan punta
+      :name: Saint Helenan punta
+      :other: Saint Helenan puntaa
+    :SRD:
       :symbol: SRD
-    :SRG: 
-      :name: "Surinamen guldeni"
-      :one: "Surinamen guldeni"
-    :SSP: 
-      :name: "Etelä-Sudanin punta"
-      :narrow_symbol: SSP
-      :one: "Etelä-Sudanin punta"
-      :other: "Etelä-Sudanin puntaa"
+      :narrow_symbol: SRD
+      :one: Surinamen dollari
+      :name: Surinamen dollari
+      :other: Surinamen dollaria
+    :SSP:
       :symbol: SSP
-    :STD: 
-      :name: "São Tomén ja Príncipen dobra (1977–2017)"
-      :one: "São Tomén ja Príncipen dobra (1977–2017)"
-      :other: "São Tomén ja Príncipen dobraa (1977–2017)"
-    :STN: 
-      :name: "São Tomén ja Príncipen dobra"
-      :narrow_symbol: STD
-      :one: "São Tomén ja Príncipen dobra"
-      :other: "São Tomén ja Príncipen dobraa"
+      :narrow_symbol: SSP
+      :one: Etelä-Sudanin punta
+      :name: Etelä-Sudanin punta
+      :other: Etelä-Sudanin puntaa
+    :STN:
       :symbol: STD
-    :SUR: 
-      :name: "Neuvostoliiton rupla"
-      :one: "Neuvostoliiton rupla"
-      :other: "Neuvostoliiton ruplaa"
-    :SVC: 
-      :name: "El Salvadorin colón"
-      :one: "El Salvadorin colón"
-      :other: "El Salvadorin colónia"
-    :SYP: 
-      :name: "Syyrian punta"
-      :narrow_symbol: SYP
-      :one: "Syyrian punta"
-      :other: "Syyrian puntaa"
+      :narrow_symbol: STD
+      :one: São Tomén ja Príncipen dobra
+      :name: São Tomén ja Príncipen dobra
+      :other: São Tomén ja Príncipen dobraa
+    :SYP:
       :symbol: SYP
-    :SZL: 
-      :name: "Swazimaan lilangeni"
-      :one: "Swazimaan lilangeni"
-      :other: "Swazimaan lilangenia"
-    :THB: 
-      :name: "Thaimaan baht"
-      :narrow_symbol: THB
-      :one: "Thaimaan baht"
-      :other: "Thaimaan bahtia"
+      :narrow_symbol: SYP
+      :one: Syyrian punta
+      :name: Syyrian punta
+      :other: Syyrian puntaa
+    :THB:
       :symbol: THB
-    :TJR: 
-      :name: "Tadžikistanin rupla"
-      :one: "Tadžikistanin rupla"
-      :other: "Tadžikistanin ruplaa"
-    :TJS: 
-      :name: "Tadžikistanin somoni"
-      :one: "Tadžikistanin somoni"
-      :other: "Tadžikistanin somonia"
-    :TMM: 
-      :name: "Turkmenistanin manat (1993–2009)"
-      :one: "Turkmenistanin manat (1993–2009)"
-      :other: "Turkmenistanin manatia (1993–2009)"
-    :TMT: 
-      :name: "Turkmenistanin manat"
-      :one: "Turkmenistanin manat"
-      :other: "Turkmenistanin manatia"
-    :TND: 
-      :name: "Tunisian dinaari"
-      :one: "Tunisian dinaari"
-      :other: "Tunisian dinaaria"
-    :TOP: 
-      :name: "Tongan pa’anga"
-      :narrow_symbol: TOP
-      :one: "Tongan pa’anga"
-      :other: "Tongan pa’angaa"
+      :narrow_symbol: THB
+      :one: Thaimaan baht
+      :name: Thaimaan baht
+      :other: Thaimaan bahtia
+    :TOP:
       :symbol: TOP
-    :TPE: 
-      :name: "Timorin escudo"
-      :one: "Timorin escudo"
-      :other: "Timorin escudoa"
-    :TRL: 
-      :name: "Turkin liira (1922–2005)"
-      :one: "Turkin liira (1922–2005)"
-      :other: "Turkin liiraa (1922–2005)"
-    :TRY: 
-      :name: "Turkin liira"
-      :narrow_symbol: TRY
-      :one: "Turkin liira"
-      :other: "Turkin liiraa"
+      :narrow_symbol: TOP
+      :one: Tongan pa’anga
+      :name: Tongan pa’anga
+      :other: Tongan pa’angaa
+    :TRY:
       :symbol: TRY
-    :TTD: 
-      :name: "Trinidadin ja Tobagon dollari"
-      :narrow_symbol: TTD
-      :one: "Trinidadin ja Tobagon dollari"
-      :other: "Trinidadin ja Tobagon dollaria"
+      :narrow_symbol: TRY
+      :one: Turkin liira
+      :name: Turkin liira
+      :other: Turkin liiraa
+    :TTD:
       :symbol: TTD
-    :TWD: 
-      :name: "Taiwanin uusi dollari"
-      :narrow_symbol: TWD
-      :one: "Taiwanin uusi dollari"
-      :other: "Taiwanin uutta dollaria"
+      :narrow_symbol: TTD
+      :one: Trinidadin ja Tobagon dollari
+      :name: Trinidadin ja Tobagon dollari
+      :other: Trinidadin ja Tobagon dollaria
+    :TWD:
       :symbol: TWD
-    :TZS: 
-      :name: "Tansanian šillinki"
-      :one: "Tansanian šillinki"
-      :other: "Tansanian šillinkiä"
-    :UAH: 
-      :name: "Ukrainan hryvnia"
-      :narrow_symbol: UAH
-      :one: "Ukrainan hryvnia"
-      :other: "Ukrainan hryvniaa"
+      :narrow_symbol: TWD
+      :one: Taiwanin uusi dollari
+      :name: Taiwanin uusi dollari
+      :other: Taiwanin uutta dollaria
+    :UAH:
       :symbol: UAH
-    :UAK: 
-      :name: "Ukrainan karbovanetz"
-      :one: "Ukrainan karbovanetz"
-      :other: "Ukrainan karbovanetzia"
-    :UGS: 
-      :name: "Ugandan šillinki (1966–1987)"
-      :one: "Ugandan šillinki (1966–1987)"
-      :other: "Ugandan šillinkiä (1966–1987)"
-    :UGX: 
-      :name: "Ugandan šillinki"
-      :one: "Ugandan šillinki"
-      :other: "Ugandan šillinkiä"
-    :USD: 
-      :name: "Yhdysvaltain dollari"
-      :narrow_symbol: $
-      :one: "Yhdysvaltain dollari"
-      :other: "Yhdysvaltain dollaria"
-      :symbol: $
-    :USN: 
-      :name: "Yhdysvaltain dollari (seuraava päivä)"
-      :one: "Yhdysvaltain dollari (seuraava päivä)"
-      :other: "Yhdysvaltain dollaria (seuraava päivä)"
-    :USS: 
-      :name: "Yhdysvaltain dollari (sama päivä)"
-      :one: "Yhdysvaltain dollari (sama päivä)"
-      :other: "Yhdysvaltain dollaria (sama päivä)"
-    :UYI: 
-      :name: "Uruguayn peso en unidades indexadas"
-      :one: "Uruguayn peso en unidades indexadas"
-      :other: "Uruguayn pesoa en unidades indexadas"
-    :UYP: 
-      :name: "Uruguayn peso (1975–1993)"
-      :one: "Uruguayn peso (1975–1993)"
-      :other: "Uruguayn pesoa (1975–1993)"
-    :UYU: 
-      :name: "Uruguayn peso"
-      :narrow_symbol: UYU
-      :one: "Uruguayn peso"
-      :other: "Uruguayn pesoa"
+      :narrow_symbol: UAH
+      :one: Ukrainan hryvnia
+      :name: Ukrainan hryvnia
+      :other: Ukrainan hryvniaa
+    :USD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: Yhdysvaltain dollari
+      :name: Yhdysvaltain dollari
+      :other: Yhdysvaltain dollaria
+    :UYU:
       :symbol: UYU
-    :UYW: 
-      :name: "Uruguayn nimellinen palkkaindeksiyksikkö"
-      :one: "Uruguayn nimellinen palkkaindeksiyksikkö"
-      :other: "Uruguayn nimellistä palkkaindeksiyksikköä"
-    :UZS: 
-      :name: "Uzbekistanin som"
-      :one: "Uzbekistanin som"
-      :other: "Uzbekistanin somia"
-    :VEB: 
-      :name: "Venezuelan bolívar (1871–2008)"
-      :one: "Venezuelan bolívar (1871–2008)"
-      :other: "Venezuelan bolívaria (1871–2008)"
-    :VEF: 
-      :name: "Venezuelan bolívar (2008–2018)"
-      :narrow_symbol: VEF
-      :one: "Venezuelan bolívar (2008–2018)"
-      :other: "Venezuelan bolívaria (2008–2018)"
+      :narrow_symbol: UYU
+      :one: Uruguayn peso
+      :name: Uruguayn peso
+      :other: Uruguayn pesoa
+    :VEF:
       :symbol: VEF
-    :VES: 
-      :name: "Venezuelan suvereeni bolívar"
-      :one: "Venezuelan suvereeni bolívar"
-      :other: "Venezuelan suvereenia bolívaria"
-    :VND: 
-      :name: "Vietnamin dong"
-      :narrow_symbol: VND
-      :one: "Vietnamin dong"
-      :other: "Vietnamin dongia"
+      :narrow_symbol: VEF
+      :one: Venezuelan bolívar (2008–2018)
+      :name: Venezuelan bolívar (2008–2018)
+      :other: Venezuelan bolívaria (2008–2018)
+    :VND:
       :symbol: VND
-    :VNN: 
-      :name: "Vietnamin dong (1978–1985)"
-      :one: "Vietnamin dong (1978–1985)"
-      :other: "Vietnamin dongia (1978–1985)"
-    :VUV: 
-      :name: "Vanuatun vatu"
-      :one: "Vanuatun vatu"
-      :other: "Vanuatun vatua"
-    :WST: 
-      :name: "Samoan tala"
-      :one: "Samoan tala"
-      :other: "Samoan talaa"
-    :XAF: 
-      :name: "CFA-frangi BEAC"
-      :one: "CFA-frangi BEAC"
-      :other: "CFA-frangia BEAC"
+      :narrow_symbol: VND
+      :one: Vietnamin dong
+      :name: Vietnamin dong
+      :other: Vietnamin dongia
+    :XAF:
       :symbol: FCFA
-    :XAG: 
-      :name: hopea
-      :one: "troy-unssi hopeaa"
-      :other: "troy-unssia hopeaa"
-    :XAU: 
-      :name: kulta
-      :one: "troy-unssi kultaa"
-      :other: "troy-unssia kultaa"
-    :XBA: 
-      :name: EURCO
-      :one: EURCO
-      :other: EURCO’a
-    :XBB: 
-      :name: "Euroopan rahayksikkö (EMU)"
-      :one: "Euroopan rahayksikkö (EMU)"
-      :other: "Euroopan rahayksikköä (EMU)"
-    :XBC: 
-      :name: "EUA (XBC)"
-      :one: "EUA (XBC)"
-      :other: "EUA’ta (XBC)"
-    :XBD: 
-      :name: "EUA (XBD)"
-      :one: "EUA (XBD)"
-      :other: "EUA’ta (XBD)"
-    :XCD: 
-      :name: "Itä-Karibian dollari"
-      :narrow_symbol: XCD
-      :one: "Itä-Karibian dollari"
-      :other: "Itä-Karibian dollaria"
+      :one: CFA-frangi BEAC
+      :name: CFA-frangi BEAC
+      :other: CFA-frangia BEAC
+    :XCD:
       :symbol: XCD
-    :XCG: 
-      :name: "Karibian guldeni"
-      :one: "Karibian guldeni"
-      :other: "Karibian guldenia"
+      :narrow_symbol: XCD
+      :one: Itä-Karibian dollari
+      :name: Itä-Karibian dollari
+      :other: Itä-Karibian dollaria
+    :XCG:
       :symbol: Cg.
-    :XDR: 
-      :name: "erityisnosto-oikeus (SDR)"
-      :one: "erityisnosto-oikeus (SDR)"
-      :other: "erityisnosto-oikeutta (SDR)"
-    :XEU: 
-      :name: "Euroopan valuuttayksikkö (ECU)"
-      :one: "Euroopan valuuttayksikkö (ECU)"
-      :other: "Euroopan valuuttayksikköä (ECU)"
-    :XFO: 
-      :name: "Ranskan kultafrangi"
-      :one: "Ranskan kultafrangi"
-      :other: "Ranskan kultafrangia"
-    :XFU: 
-      :name: "Ranskan UIC-frangi"
-      :one: "Ranskan UIC-frangi"
-      :other: "Ranskan UIC-frangia"
-    :XOF: 
-      :name: "CFA-frangi BCEAO"
-      :one: "CFA-frangi BCEAO"
-      :other: "CFA-frangia BCEAO"
+      :one: Karibian guldeni
+      :name: Karibian guldeni
+      :other: Karibian guldenia
+    :XOF:
       :symbol: F CFA
-    :XPD: 
-      :name: palladium
-      :one: "troy-unssi palladiumia"
-      :other: "troy-unssia palladiumia"
-    :XPF: 
-      :name: CFP-frangi
-      :one: CFP-frangi
-      :other: CFP-frangia
+      :one: CFA-frangi BCEAO
+      :name: CFA-frangi BCEAO
+      :other: CFA-frangia BCEAO
+    :XPF:
       :symbol: XPF
-    :XPT: 
-      :name: platina
-      :one: "troy-unssi platinaa"
-      :other: "troy-unssia platinaa"
-    :XRE: 
-      :name: RINET-rahastot
-      :one: RINET-rahastoyksikkö
-      :other: RINET-rahastoyksikköä
-    :XSU: 
-      :name: "etelä-amerikkalaisen ALBA:n laskentayksikkö sucre"
-      :one: sucre
-      :other: sucrea
-    :XTS: 
-      :name: "testaustarkoitukseen varattu valuuttakoodi"
-      :one: "testaustarkoitukseen varattu valuuttakoodi"
-      :other: "testaustarkoitukseen varattua valuuttakoodia"
-    :XUA: 
-      :name: "afrikkalainen AfDB-laskentayksikkö"
-      :one: AfDB-laskentayksikkö
-      :other: AfDB-laskentayksikköä
-    :XXX: 
-      :name: "tuntematon rahayksikkö"
-      :one: "tuntematon rahayksikkö"
-      :other: "tuntematonta rahayksikköä"
+      :one: CFP-frangi
+      :name: CFP-frangi
+      :other: CFP-frangia
+    :XXX:
       :symbol: XXX
-    :YDD: 
-      :name: "Jemenin dinaari"
-      :one: "Jemenin dinaari"
-      :other: "Jemenin dinaaria"
-    :YER: 
-      :name: "Jemenin rial"
-      :one: "Jemenin rial"
-      :other: "Jemenin rialia"
-    :YUD: 
-      :name: "Jugoslavian kova dinaari (1966–1990)"
-      :one: "Jugoslavian kova dinaari (1966–1990)"
-      :other: "Jugoslavian kovaa dinaaria (1966–1990)"
-    :YUM: 
-      :name: "Jugoslavian uusi dinaari (1994–2002)"
-      :one: "Jugoslavian uusi dinaari (1994–2002)"
-      :other: "Jugoslavian uutta dinaaria (1994–2002)"
-    :YUN: 
-      :name: "Jugoslavian vaihdettava dinaari (1990–1992)"
-      :one: "Jugoslavian vaihdettava dinaari (1990–1992)"
-      :other: "Jugoslavian vaihdettavaa dinaaria (1990–1992)"
-    :YUR: 
-      :name: "Jugoslavian uudistettu dinaari (1992–1993)"
-      :one: "Jugoslavian uudistettu dinaari (1992–1993)"
-      :other: "Jugoslavian uudistettua dinaaria (1992–1993)"
-    :ZAL: 
-      :name: "Etelä-Afrikan rahoitusrandi"
-      :one: "Etelä-Afrikan rahoitusrandi"
-      :other: "Etelä-Afrikan rahoitusrandia"
-    :ZAR: 
-      :name: "Etelä-Afrikan randi"
-      :narrow_symbol: ZAR
-      :one: "Etelä-Afrikan randi"
-      :other: "Etelä-Afrikan randia"
+      :one: tuntematon rahayksikkö
+      :name: tuntematon rahayksikkö
+      :other: tuntematonta rahayksikköä
+    :ZAR:
       :symbol: ZAR
-    :ZMK: 
-      :name: "Sambian kwacha (1968–2012)"
-      :one: "Sambian kwacha (1968–2012)"
-      :other: "Sambian kwachaa (1968–2012)"
-    :ZMW: 
-      :name: "Sambian kwacha"
-      :narrow_symbol: ZMW
-      :one: "Sambian kwacha"
-      :other: "Sambian kwachaa"
+      :narrow_symbol: ZAR
+      :one: Etelä-Afrikan randi
+      :name: Etelä-Afrikan randi
+      :other: Etelä-Afrikan randia
+    :ZMW:
       :symbol: ZMW
-    :ZRN: 
-      :name: "Zairen uusi zaire (1993–1998)"
-      :one: "Zairen uusi zaire (1993–1998)"
-      :other: "Zairen uutta zairea (1993–1998)"
-    :ZRZ: 
-      :name: "Zairen zaire (1971–1993)"
-      :one: "Zairen zaire (1971–1993)"
-      :other: "Zairen zairea (1971–1993)"
-    :ZWD: 
-      :name: "Zimbabwen dollari (1980–2008)"
-      :one: "Zimbabwen dollari (1980–2008)"
-      :other: "Zimbabwen dollaria (1980–2008)"
-    :ZWG: 
-      :name: "Zimbabwen kulta"
-      :one: "Zimbabwen kulta"
-      :other: "Zimbabwen kultaa"
-    :ZWL: 
-      :name: "Zimbabwen dollari (2009)"
-      :one: "Zimbabwen dollari (2009)"
-      :other: "Zimbabwen dollaria (2009)"
-    :ZWR: 
-      :name: "Zimbabwen dollari (2008)"
-      :one: "Zimbabwen dollari (2008)"
-      :other: "Zimbabwen dollaria (2008)"
+      :narrow_symbol: ZMW
+      :one: Sambian kwacha
+      :name: Sambian kwacha
+      :other: Sambian kwachaa
+    :ADP:
+      :one: Andorran peseta
+      :name: Andorran peseta
+      :other: Andorran pesetaa
+    :AED:
+      :one: Arabiemiirikuntien dirhami
+      :name: Arabiemiirikuntien dirhami
+      :other: Arabiemiirikuntien dirhamia
+    :AFA:
+      :one: Afganistanin afgaani (1927–2002)
+      :name: Afganistanin afgaani (1927–2002)
+      :other: Afganistanin afgaania (1927–2002)
+    :ALK:
+      :one: Albanian lek (1946–1965)
+      :name: Albanian lek (1946–1965)
+      :other: Albanian lekiä (1946–1965)
+    :ALL:
+      :one: Albanian lek
+      :name: Albanian lek
+      :other: Albanian lekiä
+    :ANG:
+      :one: Alankomaiden Antillien guldeni
+      :name: Alankomaiden Antillien guldeni
+      :other: Alankomaiden Antillien guldenia
+    :AOK:
+      :one: Angolan kwanza (1977–1990)
+      :name: Angolan kwanza (1977–1991)
+      :other: Angolan kwanzaa (1977–1990)
+    :AON:
+      :one: Angolan uusi kwanza (1990–2000)
+      :name: Angolan uusi kwanza (1990–2000)
+      :other: Angolan uutta kwanzaa (1990–2000)
+    :AOR:
+      :one: Angolan kwanza reajustado (1995–1999)
+      :name: Angolan kwanza reajustado (1995–1999)
+      :other: Angolan kwanza reajustadoa (1995–1999)
+    :ARA:
+      :one: Argentiinan austral
+      :name: Argentiinan austral
+      :other: Argentiinan australia
+    :ARL:
+      :one: Argentiinan ley-peso (1970–1983)
+      :name: Argentiinan ley-peso (1970–1983)
+      :other: Argentiinan ley-pesoa (1970–1983)
+    :ARM:
+      :one: Argentiinan peso (1881–1970)
+      :name: Argentiinan peso (1881–1970)
+      :other: Argentiinan pesoa (1881–1970)
+    :ARP:
+      :one: Argentiinan peso (1983–1985)
+      :name: Argentiinan peso (1983–1985)
+      :other: Argentiinan pesoa (1983–1985)
+    :ATS:
+      :one: Itävallan šillinki
+      :name: Itävallan šillinki
+      :other: Itävallan šillinkiä
+    :AWG:
+      :one: Aruban floriini
+      :name: Aruban floriini
+      :other: Aruban floriinia
+    :AZM:
+      :one: Azerbaidžanin manat (1993–2006)
+      :name: Azerbaidžanin manat (1993–2006)
+      :other: Azerbaidžanin manatia (1993–2006)
+    :BAD:
+      :one: Bosnia-Hertsegovinan dinaari (1992–1994)
+      :name: Bosnia-Hertsegovinan dinaari (1992–1994)
+      :other: Bosnia-Hertsegovinan dinaaria (1992–1994)
+    :BAN:
+      :one: Bosnia-Hertsegovinan uusi dinaari (1994–1997)
+      :name: Bosnia-Hertsegovinan uusi dinaari (1994–1997)
+      :other: Bosnia-Hertsegovinan uutta dinaaria (1994–1997)
+    :BEC:
+      :one: Belgian vaihdettava frangi
+      :name: Belgian vaihdettava frangi
+      :other: Belgian vaihdettavaa frangia
+    :BEF:
+      :one: Belgian frangi
+      :name: Belgian frangi
+      :other: Belgian frangia
+    :BEL:
+      :one: Belgian rahoitusfrangi
+      :name: Belgian rahoitusfrangi
+      :other: Belgian rahoitusfrangia
+    :BGL:
+      :one: Bulgarian kova lev
+      :name: Bulgarian kova lev
+      :other: Bulgarian kovaa leviä
+    :BGM:
+      :one: Bulgarian sosialistinen lev
+      :name: Bulgarian sosialistinen lev
+      :other: Bulgarian sosialistista leviä
+    :BGN:
+      :one: Bulgarian lev
+      :name: Bulgarian lev
+      :other: Bulgarian leviä
+    :BGO:
+      :one: Bulgarian lev (1879–1952)
+      :name: Bulgarian lev (1879–1952)
+      :other: Bulgarian leviä (1879–1952)
+    :BHD:
+      :one: Bahrainin dinaari
+      :name: Bahrainin dinaari
+      :other: Bahrainin dinaaria
+    :BIF:
+      :one: Burundin frangi
+      :name: Burundin frangi
+      :other: Burundin frangia
+    :BOL:
+      :one: Bolivian boliviano (1863–1963)
+      :name: Bolivian boliviano (1863–1963)
+      :other: Bolivian bolivianoa (1863–1963)
+    :BOP:
+      :one: Bolivian peso
+      :name: Bolivian peso
+      :other: Bolivian pesoa
+    :BOV:
+      :one: Bolivian mvdol
+      :name: Bolivian mvdol
+      :other: Bolivian mvdol’ia
+    :BRB:
+      :one: Brasilian uusi cruzeiro (1967–1986)
+      :name: Brasilian uusi cruzeiro (1967–1986)
+      :other: Brasilian uutta cruzeiroa (1967–1986)
+    :BRC:
+      :one: Brasilian cruzado (1986–1989)
+      :name: Brasilian cruzado (1986–1989)
+      :other: Brasilian cruzadoa (1986–1989)
+    :BRE:
+      :one: Brasilian cruzeiro (1990–1993)
+      :name: Brasilian cruzeiro (1990–1993)
+      :other: Brasilian cruzeiroa (1990–1993)
+    :BRN:
+      :one: Brasilian uusi cruzado (1989–1990)
+      :name: Brasilian uusi cruzado (1989–1990)
+      :other: Brasilian uutta cruzadoa (1989–1990)
+    :BRR:
+      :one: Brasilian cruzeiro (1993–1994)
+      :name: Brasilian cruzeiro (1993–1994)
+      :other: Brasilian cruzeiroa (1993–1994)
+    :BRZ:
+      :one: Brasilian cruzeiro (1942–1967)
+      :name: Brasilian cruzeiro (1942–1967)
+      :other: Brasilian cruzeiroa (1942–1967)
+    :BTN:
+      :one: Bhutanin ngultrum
+      :name: Bhutanin ngultrum
+      :other: Bhutanin ngultrumia
+    :BUK:
+      :one: Burman kyat
+      :name: Burman kyat
+      :other: Burman kyatia
+    :BYB:
+      :one: Valko-Venäjän uusi rupla (1994–1999)
+      :name: Valko-Venäjän uusi rupla (1994–1999)
+      :other: Valko-Venäjän uutta ruplaa (1994–1999)
+    :BYN:
+      :one: Valko-Venäjän rupla
+      :name: Valko-Venäjän rupla
+      :other: Valko-Venäjän ruplaa
+    :BYR:
+      :one: Valko-Venäjän rupla (2000–2016)
+      :name: Valko-Venäjän rupla (2000–2016)
+      :other: Valko-Venäjän ruplaa (2000–2016)
+    :CDF:
+      :one: Kongon frangi
+      :name: Kongon frangi
+      :other: Kongon frangia
+    :CHE:
+      :one: Sveitsin WIR-euro
+      :name: Sveitsin WIR-euro
+      :other: Sveitsin WIR-euroa
+    :CHF:
+      :one: Sveitsin frangi
+      :name: Sveitsin frangi
+      :other: Sveitsin frangia
+    :CHW:
+      :one: Sveitsin WIR-frangi
+      :name: Sveitsin WIR-frangi
+      :other: Sveitsin WIR-frangia
+    :CLE:
+      :one: Chilen escudo
+      :name: Chilen escudo
+      :other: Chilen escudoa
+    :CLF:
+      :one: Chilen unidades de fomento
+      :name: Chilen unidades de fomento
+      :other: Chilen unidades de fomentoa
+    :CNH:
+      :one: Kiinan juan (offshore)
+      :name: Kiinan juan (offshore)
+      :other: Kiinan juania (offshore)
+    :CNX:
+      :one: Kiinan kansanpankin dollari
+      :name: Kiinan kansanpankin dollari
+      :other: Kiinan kansanpankin dollaria
+    :COU:
+      :one: Kolumbian unidad de valor real
+      :name: Kolumbian unidad de valor real
+      :other: Kolumbian unidad de valor realia
+    :CSD:
+      :one: Serbian dinaari (2002–2006)
+      :name: Serbian dinaari (2002–2006)
+      :other: Serbian dinaaria (2002–2006)
+    :CSK:
+      :one: Tšekkoslovakian kova koruna
+      :name: Tšekkoslovakian kova koruna
+      :other: Tšekkoslovakian kovaa korunaa
+    :CVE:
+      :one: Kap Verden escudo
+      :name: Kap Verden escudo
+      :other: Kap Verden escudoa
+    :CYP:
+      :one: Kyproksen punta
+      :name: Kyproksen punta
+      :other: Kyproksen puntaa
+    :DDM:
+      :one: Itä-Saksan markka
+      :name: Itä-Saksan markka
+      :other: Itä-Saksan markkaa
+    :DEM:
+      :one: Saksan markka
+      :name: Saksan markka
+      :other: Saksan markkaa
+    :DJF:
+      :one: Djiboutin frangi
+      :name: Djiboutin frangi
+      :other: Djiboutin frangia
+    :DZD:
+      :one: Algerian dinaari
+      :name: Algerian dinaari
+      :other: Algerian dinaaria
+    :ECS:
+      :one: Ecuadorin sucre
+      :name: Ecuadorin sucre
+      :other: Ecuadorin sucrea
+    :ECV:
+      :one: Ecuadorin UVC
+      :name: Ecuadorin UVC
+      :other: Ecuadorin UVC’ta
+    :EEK:
+      :one: Viron kruunu
+      :name: Viron kruunu
+      :other: Viron kruunua
+    :ERN:
+      :one: Eritrean nakfa
+      :name: Eritrean nakfa
+      :other: Eritrean nakfaa
+    :ESA:
+      :one: Espanjan peseta (A-tili)
+      :name: Espanjan peseta (A-tili)
+      :other: Espanjan pesetaa (A-tili)
+    :ESB:
+      :one: Espanjan peseta (vaihdettava tili)
+      :name: Espanjan peseta (vaihdettava tili)
+      :other: Espanjan pesetaa (vaihdettava tili)
+    :ETB:
+      :one: Etiopian birr
+      :name: Etiopian birr
+      :other: Etiopian birriä
+    :FIM:
+      :one: Suomen markka
+      :name: Suomen markka
+      :other: Suomen markkaa
+      :symbol: mk
+    :FRF:
+      :one: Ranskan frangi
+      :name: Ranskan frangi
+      :other: Ranskan frangia
+    :GEK:
+      :one: Georgian kuponkilari
+      :name: Georgian kuponkilari
+      :other: Georgian kuponkilaria
+    :GHC:
+      :one: Ghanan cedi (1979–2007)
+      :name: Ghanan cedi (1979–2007)
+      :other: Ghanan cediä (1979–2007)
+    :GMD:
+      :one: Gambian dalasi
+      :name: Gambian dalasi
+      :other: Gambian dalasia
+    :GNS:
+      :one: Guinean syli
+      :name: Guinean syli
+      :other: Guinean syliä
+    :GQE:
+      :one: Päiväntasaajan Guinean ekwele
+      :name: Päiväntasaajan Guinean ekwele
+      :other: Päiväntasaajan Guinean ekweleä
+    :GRD:
+      :one: Kreikan drakma
+      :name: Kreikan drakma
+      :other: Kreikan drakmaa
+    :GWE:
+      :one: Portugalin Guinean escudo
+      :name: Portugalin Guinean escudo
+      :other: Portugalin Guinean escudoa
+    :GWP:
+      :one: Guinea-Bissaun peso
+      :name: Guinea-Bissaun peso
+      :other: Guinea-Bissaun pesoa
+    :HRD:
+      :one: Kroatian dinaari
+      :name: Kroatian dinaari
+      :other: Kroatian dinaaria
+    :HTG:
+      :one: Haitin gourde
+      :name: Haitin gourde
+      :other: Haitin gourdea
+    :IEP:
+      :one: Irlannin punta
+      :name: Irlannin punta
+      :other: Irlannin puntaa
+    :ILP:
+      :one: Israelin punta
+      :name: Israelin punta
+      :other: Israelin puntaa
+    :ILR:
+      :one: Israelin sekeli (1980–1985)
+      :name: Israelin sekeli (1980–1985)
+      :other: Israelin sekeliä (1980–1985)
+    :IQD:
+      :one: Irakin dinaari
+      :name: Irakin dinaari
+      :other: Irakin dinaaria
+    :IRR:
+      :one: Iranin rial
+      :name: Iranin rial
+      :other: Iranin rialia
+    :ISJ:
+      :one: Islannin kruunu (1918–1981)
+      :name: Islannin kruunu (1918–1981)
+      :other: Islannin kruunua (1918–1981)
+    :ITL:
+      :one: Italian liira
+      :name: Italian liira
+      :other: Italian liiraa
+    :JOD:
+      :one: Jordanian dinaari
+      :name: Jordanian dinaari
+      :other: Jordanian dinaaria
+    :KES:
+      :one: Kenian šillinki
+      :name: Kenian šillinki
+      :other: Kenian šillinkiä
+    :KRH:
+      :one: Etelä-Korean hwan (1953–1962)
+      :name: Etelä-Korean hwan (1953–1962)
+      :other: Etelä-Korean hwania (1953–1962)
+    :KRO:
+      :one: Etelä-Korean won (1945–1953)
+      :name: Etelä-Korean won (1945–1953)
+      :other: Etelä-Korean wonia (1945–1953)
+    :KWD:
+      :one: Kuwaitin dinaari
+      :name: Kuwaitin dinaari
+      :other: Kuwaitin dinaaria
+    :LSL:
+      :one: Lesothon loti
+      :name: Lesothon loti
+      :other: Lesothon lotia
+    :LTT:
+      :one: Liettuan talonas
+      :name: Liettuan talonas
+      :other: Liettuan talonasia
+    :LUC:
+      :one: Luxemburgin vaihdettava frangi
+      :name: Luxemburgin vaihdettava frangi
+      :other: Luxemburgin vaihdettavaa frangia
+    :LUF:
+      :one: Luxemburgin frangi
+      :name: Luxemburgin frangi
+      :other: Luxemburgin frangia
+    :LUL:
+      :one: Luxemburgin rahoitusfrangi
+      :name: Luxemburgin rahoitusfrangi
+      :other: Luxemburgin rahoitusfrangia
+    :LVR:
+      :one: Latvian rupla
+      :name: Latvian rupla
+      :other: Latvian ruplaa
+    :LYD:
+      :one: Libyan dinaari
+      :name: Libyan dinaari
+      :other: Libyan dinaaria
+    :MAD:
+      :one: Marokon dirhami
+      :name: Marokon dirhami
+      :other: Marokon dirhamia
+    :MAF:
+      :one: Marokon frangi
+      :name: Marokon frangi
+      :other: Marokon frangia
+    :MCF:
+      :one: Monacon frangi
+      :name: Monacon frangi
+      :other: Monacon frangia
+    :MDC:
+      :one: Moldovan kuponkileu
+      :name: Moldovan kuponkileu
+      :other: Moldovan kuponkileuta
+    :MDL:
+      :one: Moldovan leu
+      :name: Moldovan leu
+      :other: Moldovan leuta
+    :MGF:
+      :one: Madagaskarin frangi
+      :name: Madagaskarin frangi
+      :other: Madagaskarin frangia
+    :MKD:
+      :one: Makedonian denaari
+      :name: Makedonian denaari
+      :other: Makedonian denaaria
+    :MKN:
+      :one: Makedonian dinaari (1992–1993)
+      :name: Makedonian dinaari (1992–1993)
+      :other: Makedonian dinaaria (1992–1993)
+    :MLF:
+      :one: Malin frangi
+      :name: Malin frangi
+      :other: Malin frangia
+    :MOP:
+      :one: Macaon pataca
+      :name: Macaon pataca
+      :other: Macaon patacaa
+    :MRO:
+      :one: Mauritanian ouguiya (1973–2017)
+      :name: Mauritanian ouguiya (1973–2017)
+      :other: Mauritanian ouguiyaa (1973–2017)
+    :MRU:
+      :one: Mauritanian ouguiya
+      :name: Mauritanian ouguiya
+      :other: Mauritanian ouguiyaa
+    :MTL:
+      :one: Maltan liira
+      :name: Maltan liira
+      :other: Maltan liiraa
+    :MTP:
+      :one: Maltan punta
+      :name: Maltan punta
+      :other: Maltan puntaa
+    :MVP:
+      :one: Malediivien rupia (1947–1981)
+      :name: Malediivien rupia (1947–1981)
+      :other: Malediivien rupiaa (1947–1981)
+    :MVR:
+      :one: Malediivien rufiyaa
+      :name: Malediivien rufiyaa
+      :other: Malediivien rufiyaata
+    :MWK:
+      :one: Malawin kwacha
+      :name: Malawin kwacha
+      :other: Malawin kwachaa
+    :MXP:
+      :one: Meksikon hopeapeso (1861–1992)
+      :name: Meksikon hopeapeso (1861–1992)
+      :other: Meksikon hopeapesoa (1861–1992)
+    :MXV:
+      :one: Meksikon UDI
+      :name: Meksikon UDI
+      :other: Meksikon UDI’ta
+    :MZE:
+      :one: Mosambikin escudo
+      :name: Mosambikin escudo
+      :other: Mosambikin escudoa
+    :MZM:
+      :one: Mosambikin metical (1980–2006)
+      :name: Mosambikin metical (1980–2006)
+      :other: Mosambikin meticalia (1980–2006)
+    :MZN:
+      :one: Mosambikin metical
+      :name: Mosambikin metical
+      :other: Mosambikin meticalia
+    :NIC:
+      :one: Nicaraguan córdoba (1988–1991)
+      :name: Nicaraguan córdoba (1988–1991)
+      :other: Nicaraguan córdobaa (1988–1991)
+    :NLG:
+      :one: Alankomaiden guldeni
+      :name: Alankomaiden guldeni
+      :other: Alankomaiden guldenia
+    :OMR:
+      :one: Omanin rial
+      :name: Omanin rial
+      :other: Omanin rialia
+    :PAB:
+      :one: Panaman balboa
+      :name: Panaman balboa
+      :other: Panaman balboaa
+    :PEI:
+      :one: Perun inti
+      :name: Perun inti
+      :other: Perun intiä
+    :PEN:
+      :one: Perun sol
+      :name: Perun sol
+      :other: Perun solia
+    :PES:
+      :one: Perun sol (1863–1965)
+      :name: Perun sol (1863–1965)
+      :other: Perun solia (1863–1965)
+    :PGK:
+      :one: Papua-Uuden-Guinean kina
+      :name: Papua-Uuden-Guinean kina
+      :other: Papua-Uuden-Guinean kinaa
+    :PLZ:
+      :one: Puolan złoty (1950–1995)
+      :name: Puolan złoty (1950–1995)
+      :other: Puolan złotya (1950–1995)
+    :PTE:
+      :one: Portugalin escudo
+      :name: Portugalin escudo
+      :other: Portugalin escudoa
+    :QAR:
+      :one: Qatarin rial
+      :name: Qatarin rial
+      :other: Qatarin rialia
+    :RHD:
+      :one: Rhodesian dollari
+      :name: Rhodesian dollari
+      :other: Rhodesian dollaria
+    :ROL:
+      :one: Romanian leu (1952–2006)
+      :name: Romanian leu (1952–2006)
+      :other: Romanian leuta (1952–2006)
+    :RSD:
+      :one: Serbian dinaari
+      :name: Serbian dinaari
+      :other: Serbian dinaaria
+    :RUR:
+      :one: Venäjän rupla (1991–1998)
+      :name: Venäjän rupla (1991–1998)
+      :other: Venäjän ruplaa (1991–1998)
+    :SCR:
+      :one: Seychellien rupia
+      :name: Seychellien rupia
+      :other: Seychellien rupiaa
+    :SDD:
+      :one: Sudanin dinaari (1992–2007)
+      :name: Sudanin dinaari (1992–2007)
+      :other: Sudanin dinaaria (1992–2007)
+    :SDG:
+      :one: Sudanin punta
+      :name: Sudanin punta
+      :other: Sudanin puntaa
+    :SDP:
+      :one: Sudanin punta (1957–1998)
+      :name: Sudanin punta (1957–1998)
+      :other: Sudanin puntaa (1957–1998)
+    :SIT:
+      :one: Slovenian tolar
+      :name: Slovenian tolar
+      :other: Slovenian tolaria
+    :SKK:
+      :one: Slovakian koruna
+      :name: Slovakian koruna
+      :other: Slovakian korunaa
+    :SLE:
+      :one: Sierra Leonen leone
+      :name: Sierra Leonen leone
+      :other: Sierra Leonen leonea
+    :SLL:
+      :one: Sierra Leonen leone (1964–2022)
+      :name: Sierra Leonen leone (1964–2022)
+      :other: Sierra Leonen leonea (1964–2022)
+    :SOS:
+      :one: Somalian šillinki
+      :name: Somalian šillinki
+      :other: Somalian šillinkiä
+    :SRG:
+      :one: Surinamen guldeni
+      :name: Surinamen guldeni
+    :STD:
+      :one: São Tomén ja Príncipen dobra (1977–2017)
+      :name: São Tomén ja Príncipen dobra (1977–2017)
+      :other: São Tomén ja Príncipen dobraa (1977–2017)
+    :SUR:
+      :one: Neuvostoliiton rupla
+      :name: Neuvostoliiton rupla
+      :other: Neuvostoliiton ruplaa
+    :SVC:
+      :one: El Salvadorin colón
+      :name: El Salvadorin colón
+      :other: El Salvadorin colónia
+    :SZL:
+      :one: Swazimaan lilangeni
+      :name: Swazimaan lilangeni
+      :other: Swazimaan lilangenia
+    :TJR:
+      :one: Tadžikistanin rupla
+      :name: Tadžikistanin rupla
+      :other: Tadžikistanin ruplaa
+    :TJS:
+      :one: Tadžikistanin somoni
+      :name: Tadžikistanin somoni
+      :other: Tadžikistanin somonia
+    :TMM:
+      :one: Turkmenistanin manat (1993–2009)
+      :name: Turkmenistanin manat (1993–2009)
+      :other: Turkmenistanin manatia (1993–2009)
+    :TMT:
+      :one: Turkmenistanin manat
+      :name: Turkmenistanin manat
+      :other: Turkmenistanin manatia
+    :TND:
+      :one: Tunisian dinaari
+      :name: Tunisian dinaari
+      :other: Tunisian dinaaria
+    :TPE:
+      :one: Timorin escudo
+      :name: Timorin escudo
+      :other: Timorin escudoa
+    :TRL:
+      :one: Turkin liira (1922–2005)
+      :name: Turkin liira (1922–2005)
+      :other: Turkin liiraa (1922–2005)
+    :TZS:
+      :one: Tansanian šillinki
+      :name: Tansanian šillinki
+      :other: Tansanian šillinkiä
+    :UAK:
+      :one: Ukrainan karbovanetz
+      :name: Ukrainan karbovanetz
+      :other: Ukrainan karbovanetzia
+    :UGS:
+      :one: Ugandan šillinki (1966–1987)
+      :name: Ugandan šillinki (1966–1987)
+      :other: Ugandan šillinkiä (1966–1987)
+    :UGX:
+      :one: Ugandan šillinki
+      :name: Ugandan šillinki
+      :other: Ugandan šillinkiä
+    :USN:
+      :one: Yhdysvaltain dollari (seuraava päivä)
+      :name: Yhdysvaltain dollari (seuraava päivä)
+      :other: Yhdysvaltain dollaria (seuraava päivä)
+    :USS:
+      :one: Yhdysvaltain dollari (sama päivä)
+      :name: Yhdysvaltain dollari (sama päivä)
+      :other: Yhdysvaltain dollaria (sama päivä)
+    :UYI:
+      :one: Uruguayn peso en unidades indexadas
+      :name: Uruguayn peso en unidades indexadas
+      :other: Uruguayn pesoa en unidades indexadas
+    :UYP:
+      :one: Uruguayn peso (1975–1993)
+      :name: Uruguayn peso (1975–1993)
+      :other: Uruguayn pesoa (1975–1993)
+    :UYW:
+      :one: Uruguayn nimellinen palkkaindeksiyksikkö
+      :name: Uruguayn nimellinen palkkaindeksiyksikkö
+      :other: Uruguayn nimellistä palkkaindeksiyksikköä
+    :UZS:
+      :one: Uzbekistanin som
+      :name: Uzbekistanin som
+      :other: Uzbekistanin somia
+    :VEB:
+      :one: Venezuelan bolívar (1871–2008)
+      :name: Venezuelan bolívar (1871–2008)
+      :other: Venezuelan bolívaria (1871–2008)
+    :VES:
+      :one: Venezuelan suvereeni bolívar
+      :name: Venezuelan suvereeni bolívar
+      :other: Venezuelan suvereenia bolívaria
+    :VNN:
+      :one: Vietnamin dong (1978–1985)
+      :name: Vietnamin dong (1978–1985)
+      :other: Vietnamin dongia (1978–1985)
+    :VUV:
+      :one: Vanuatun vatu
+      :name: Vanuatun vatu
+      :other: Vanuatun vatua
+    :WST:
+      :one: Samoan tala
+      :name: Samoan tala
+      :other: Samoan talaa
+    :XAG:
+      :one: troy-unssi hopeaa
+      :name: hopea
+      :other: troy-unssia hopeaa
+    :XAU:
+      :one: troy-unssi kultaa
+      :name: kulta
+      :other: troy-unssia kultaa
+    :XBA:
+      :one: EURCO
+      :name: EURCO
+      :other: EURCO’a
+    :XBB:
+      :one: Euroopan rahayksikkö (EMU)
+      :name: Euroopan rahayksikkö (EMU)
+      :other: Euroopan rahayksikköä (EMU)
+    :XBC:
+      :one: EUA (XBC)
+      :name: EUA (XBC)
+      :other: EUA’ta (XBC)
+    :XBD:
+      :one: EUA (XBD)
+      :name: EUA (XBD)
+      :other: EUA’ta (XBD)
+    :XDR:
+      :one: erityisnosto-oikeus (SDR)
+      :name: erityisnosto-oikeus (SDR)
+      :other: erityisnosto-oikeutta (SDR)
+    :XEU:
+      :one: Euroopan valuuttayksikkö (ECU)
+      :name: Euroopan valuuttayksikkö (ECU)
+      :other: Euroopan valuuttayksikköä (ECU)
+    :XFO:
+      :one: Ranskan kultafrangi
+      :name: Ranskan kultafrangi
+      :other: Ranskan kultafrangia
+    :XFU:
+      :one: Ranskan UIC-frangi
+      :name: Ranskan UIC-frangi
+      :other: Ranskan UIC-frangia
+    :XPD:
+      :one: troy-unssi palladiumia
+      :name: palladium
+      :other: troy-unssia palladiumia
+    :XPT:
+      :one: troy-unssi platinaa
+      :name: platina
+      :other: troy-unssia platinaa
+    :XRE:
+      :one: RINET-rahastoyksikkö
+      :name: RINET-rahastot
+      :other: RINET-rahastoyksikköä
+    :XSU:
+      :one: sucre
+      :name: etelä-amerikkalaisen ALBA:n laskentayksikkö sucre
+      :other: sucrea
+    :XTS:
+      :one: testaustarkoitukseen varattu valuuttakoodi
+      :name: testaustarkoitukseen varattu valuuttakoodi
+      :other: testaustarkoitukseen varattua valuuttakoodia
+    :XUA:
+      :one: AfDB-laskentayksikkö
+      :name: afrikkalainen AfDB-laskentayksikkö
+      :other: AfDB-laskentayksikköä
+    :YDD:
+      :one: Jemenin dinaari
+      :name: Jemenin dinaari
+      :other: Jemenin dinaaria
+    :YER:
+      :one: Jemenin rial
+      :name: Jemenin rial
+      :other: Jemenin rialia
+    :YUD:
+      :one: Jugoslavian kova dinaari (1966–1990)
+      :name: Jugoslavian kova dinaari (1966–1990)
+      :other: Jugoslavian kovaa dinaaria (1966–1990)
+    :YUM:
+      :one: Jugoslavian uusi dinaari (1994–2002)
+      :name: Jugoslavian uusi dinaari (1994–2002)
+      :other: Jugoslavian uutta dinaaria (1994–2002)
+    :YUN:
+      :one: Jugoslavian vaihdettava dinaari (1990–1992)
+      :name: Jugoslavian vaihdettava dinaari (1990–1992)
+      :other: Jugoslavian vaihdettavaa dinaaria (1990–1992)
+    :YUR:
+      :one: Jugoslavian uudistettu dinaari (1992–1993)
+      :name: Jugoslavian uudistettu dinaari (1992–1993)
+      :other: Jugoslavian uudistettua dinaaria (1992–1993)
+    :ZAL:
+      :one: Etelä-Afrikan rahoitusrandi
+      :name: Etelä-Afrikan rahoitusrandi
+      :other: Etelä-Afrikan rahoitusrandia
+    :ZMK:
+      :one: Sambian kwacha (1968–2012)
+      :name: Sambian kwacha (1968–2012)
+      :other: Sambian kwachaa (1968–2012)
+    :ZRN:
+      :one: Zairen uusi zaire (1993–1998)
+      :name: Zairen uusi zaire (1993–1998)
+      :other: Zairen uutta zairea (1993–1998)
+    :ZRZ:
+      :one: Zairen zaire (1971–1993)
+      :name: Zairen zaire (1971–1993)
+      :other: Zairen zairea (1971–1993)
+    :ZWD:
+      :one: Zimbabwen dollari (1980–2008)
+      :name: Zimbabwen dollari (1980–2008)
+      :other: Zimbabwen dollaria (1980–2008)
+    :ZWG:
+      :one: Zimbabwen kulta
+      :name: Zimbabwen kulta
+      :other: Zimbabwen kultaa
+    :ZWL:
+      :one: Zimbabwen dollari (2009)
+      :name: Zimbabwen dollari (2009)
+      :other: Zimbabwen dollaria (2009)
+    :ZWR:
+      :one: Zimbabwen dollari (2008)
+      :name: Zimbabwen dollari (2008)
+      :other: Zimbabwen dollaria (2008)

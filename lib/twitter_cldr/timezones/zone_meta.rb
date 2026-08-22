@@ -133,7 +133,12 @@ module TwitterCldr
         def tz_metazone_map
           @tz_metazone_map ||= metazones_resource[:timezones].each_with_object({}) do |(tz_id, metazones), ret|
             ret[tz_id] = metazones.map do |mz|
-              TimezoneMetazone.new(tz_id, mz[:metazone], mz[:from], mz[:to])
+              TimezoneMetazone.new(
+                tz_id,
+                mz[:metazone],
+                mz[:from] ? Time.parse(mz[:from]) : nil,
+                mz[:to] ? Time.parse(mz[:to]) : nil
+              )
             end
           end
         end

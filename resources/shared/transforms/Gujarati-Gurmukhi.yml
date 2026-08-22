@@ -1,16 +1,15 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - Gujarati-Gurmukhi
-      - und-Guru-t-und-gujr
-    :direction: forward
-    :rules: 
-      - "::[।-॥ઁ-ઃઅ-ઍએ-ઑઓ-નપ-રલ-ળવ-હ઼-ૅે-ૉો-્ૐૠૡ૦-૯] ;"
-      - "::NFD ;"
-      - "::Gujarati-InterIndic ;"
-      - "::InterIndic-Gurmukhi ;"
-      - "::NFC ;"
-    :source: Gujr
-    :target: Guru
-    :variant: ~
+---
+:transforms:
+- :source: Gujr
+  :target: Guru
+  :aliases:
+  - Gujarati-Gurmukhi
+  - und-Guru-t-und-gujr
+  :variant:
+  :direction: forward
+  :rules:
+  - "::[।-॥ઁ-ઃઅ-ઍએ-ઑઓ-નપ-રલ-ળવ-હ઼-ૅે-ૉો-્ૐૠૡ૦-૯] ;"
+  - "::NFD ;"
+  - "::Gujarati-InterIndic ;"
+  - "::InterIndic-Gurmukhi ;"
+  - "::NFC ;"

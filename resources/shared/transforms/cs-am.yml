@@ -1,12 +1,11 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - am-t-cs
-    :direction: forward
-    :rules: 
-      - "::cs-cs_FONIPA ;"
-      - "::am_FONIPA-am ;"
-    :source: cs
-    :target: am
-    :variant: ~
+---
+:transforms:
+- :source: cs
+  :target: am
+  :aliases:
+  - am-t-cs
+  :variant:
+  :direction: forward
+  :rules:
+  - "::cs-cs_FONIPA ;"
+  - "::am_FONIPA-am ;"

@@ -1,1263 +1,1263 @@
---- 
-:eo: 
-  :formats: 
-    :fallback_formats: 
-      :generic: "{1} ({0})"
-    :gmt_formats: 
-      :generic: "UTC{0}"
-    :gmt_unknown_formats: 
-      :generic: UTC+?
-    :gmt_zero_formats: 
-      :generic: UTC
-    :hour_formats: 
+---
+:eo:
+  :formats:
+    :hour_formats:
       :generic: "+HH:mm;-HH:mm"
-    :region_formats: 
+    :gmt_formats:
+      :generic: UTC{0}
+    :gmt_zero_formats:
+      :generic: UTC
+    :gmt_unknown_formats:
+      :generic: UTC+?
+    :region_formats:
+      :generic: 'tempo: {0}'
       :daylight: "{0} (somera tempo)"
-      :generic: "tempo: {0}"
       :standard: "{0} (norma tempo)"
-  :metazones: 
-    :Afghanistan: 
-      :long: 
-        :standard: "afgana tempo"
-    :Africa_Central: 
-      :long: 
-        :standard: "centrafrika tempo"
-    :Africa_Eastern: 
-      :long: 
-        :standard: "orientafrika tempo"
-    :Africa_Southern: 
-      :long: 
-        :standard: "sudafrika tempo"
-    :Africa_Western: 
-      :long: 
-        :standard: "okcidentafrika tempo"
-    :Alaska: 
-      :long: 
-        :daylight: "alaska somera tempo"
-        :generic: "alaska tempo"
-        :standard: "alaska norma tempo"
-    :Amazon: 
-      :long: 
-        :daylight: "amazona somera tempo"
-        :generic: "amazona tempo"
-        :standard: "amazona norma tempo"
-    :America_Central: 
-      :long: 
-        :daylight: "centra nordamerika somera tempo"
-        :generic: "centra nordamerika tempo"
-        :standard: "centra nordamerika norma tempo"
-    :America_Eastern: 
-      :long: 
-        :daylight: "orienta nordamerika somera tempo"
-        :generic: "orienta nordamerika tempo"
-        :standard: "orienta nordamerika norma tempo"
-    :America_Mountain: 
-      :long: 
-        :daylight: "montara nordamerika somera tempo"
-        :generic: "montara nordamerika tempo"
-        :standard: "montara nordamerika norma tempo"
-    :America_Pacific: 
-      :long: 
-        :daylight: "pacifika nordamerika somera tempo"
-        :generic: "pacifika nordamerika tempo"
-        :standard: "pacifika nordamerika norma tempo"
-    :Apia: 
-      :long: 
-        :daylight: "samoa somera tempo"
-        :generic: "samoa tempo"
-        :standard: "samoa norma tempo"
-    :Arabian: 
-      :long: 
-        :daylight: "araba somera tempo"
-        :generic: "araba tempo"
-        :standard: "araba norma tempo"
-    :Argentina: 
-      :long: 
-        :daylight: "argentina somera tempo"
-        :generic: "argentina tempo"
-        :standard: "argentina norma tempo"
-    :Argentina_Western: 
-      :long: 
-        :daylight: "okcident-argentina somera tempo"
-        :generic: "okcident-argentina tempo"
-        :standard: "okcident-argentina norma tempo"
-    :Armenia: 
-      :long: 
-        :daylight: "armena somera tempo"
-        :generic: "armena tempo"
-        :standard: "armena norma tempo"
-    :Atlantic: 
-      :long: 
-        :daylight: "atlantika nordamerika somera tempo"
-        :generic: "atlantika nordamerika tempo"
-        :standard: "atlantika nordamerika norma tempo"
-    :Australia_Central: 
-      :long: 
-        :daylight: "centra aŭstralia somera tempo"
-        :generic: "centra aŭstralia tempo"
-        :standard: "centra aŭstralia norma tempo"
-    :Australia_CentralWestern: 
-      :long: 
-        :daylight: "centrokcidenta aŭstralia somera tempo"
-        :generic: "centrokcidenta aŭstralia tempo"
-        :standard: "centrokcidenta aŭstralia norma tempo"
-    :Australia_Eastern: 
-      :long: 
-        :daylight: "orienta aŭstralia somera tempo"
-        :generic: "orienta aŭstralia tempo"
-        :standard: "orienta aŭstralia norma tempo"
-    :Australia_Western: 
-      :long: 
-        :daylight: "okcidenta aŭstralia somera tempo"
-        :generic: "okcidenta aŭstralia tempo"
-        :standard: "okcidenta aŭstralia norma tempo"
-    :Azerbaijan: 
-      :long: 
-        :daylight: "azerbajĝana somera tempo"
-        :generic: "azerbajĝana tempo"
-        :standard: "azerbajĝana norma tempo"
-    :Azores: 
-      :long: 
-        :daylight: "Acoroj (somera tempo)"
-        :generic: "tempo: Acoroj"
-        :standard: "Acoroj (norma tempo)"
-    :Bangladesh: 
-      :long: 
-        :daylight: "bangladeŝa somera tempo"
-        :generic: "bangladeŝa tempo"
-        :standard: "bangladeŝa norma tempo"
-    :Bhutan: 
-      :long: 
-        :standard: "butana tempo"
-    :Bolivia: 
-      :long: 
-        :standard: "bolivia tempo"
-    :Brasilia: 
-      :long: 
-        :daylight: "brazilja somera tempo"
-        :generic: "brazilja tempo"
-        :standard: "brazilja norma tempo"
-    :Brunei: 
-      :long: 
-        :standard: "bruneja tempo"
-    :Cape_Verde: 
-      :long: 
-        :daylight: "kaboverda somera tempo"
-        :generic: "kaboverda tempo"
-        :standard: "kaboverda norma tempo"
-    :Chamorro: 
-      :long: 
-        :standard: "ĉamora tempo"
-    :Chatham: 
-      :long: 
-        :daylight: "ĉathama somera tempo"
-        :generic: "ĉathama tempo"
-        :standard: "ĉathama norma tempo"
-    :Chile: 
-      :long: 
-        :daylight: "ĉilia somera tempo"
-        :generic: "ĉilia tempo"
-        :standard: "ĉilia norma tempo"
-    :China: 
-      :long: 
-        :daylight: "ĉina somera tempo"
-        :generic: "ĉina tempo"
-        :standard: "ĉina norma tempo"
-    :Christmas: 
-      :long: 
-        :standard: "kristnaskinsula tempo"
-    :Cocos: 
-      :long: 
-        :standard: "kokosinsula tempo"
-    :Colombia: 
-      :long: 
-        :daylight: "kolombia somera tempo"
-        :generic: "kolombia tempo"
-        :standard: "kolombia norma tempo"
-    :Cook: 
-      :long: 
-        :daylight: "kukinsula somera tempo"
-        :generic: "kukinsula tempo"
-        :standard: "kukinsula norma tempo"
-    :Cuba: 
-      :long: 
-        :daylight: "Kubo (somera tempo)"
-        :generic: "tempo: Kubo"
-        :standard: "Kubo (norma tempo)"
-    :Davis: 
-      :long: 
-        :standard: "tempo: Davis"
-    :DumontDUrville: 
-      :long: 
-        :standard: "tempo: Dumont d’Urville"
-    :East_Timor: 
-      :long: 
-        :standard: "orient-timora tempo"
-    :Easter: 
-      :long: 
-        :daylight: "paskinsula somera tempo"
-        :generic: "paskinsula tempo"
-        :standard: "paskinsula norma tempo"
-    :Ecuador: 
-      :long: 
-        :standard: "ekvadora tempo"
-    :Europe_Central: 
-      :long: 
-        :daylight: "centreŭropa somera tempo"
-        :generic: "centreŭropa tempo"
-        :standard: "centreŭropa norma tempo"
-    :Europe_Eastern: 
-      :long: 
-        :daylight: "orienteŭropa somera tempo"
-        :generic: "orienteŭropa tempo"
-        :standard: "orienteŭropa norma tempo"
-    :Europe_Further_Eastern: 
-      :long: 
-        :standard: "ekstrem-orienteŭropa tempo"
-    :Europe_Western: 
-      :long: 
-        :daylight: "okcidenteŭropa somera tempo"
-        :generic: "okcidenteŭropa tempo"
-        :standard: "okcidenteŭropa norma tempo"
-    :Falkland: 
-      :long: 
-        :daylight: "falklanda somera tempo"
-        :generic: "falklanda tempo"
-        :standard: "falklanda norma tempo"
-    :Fiji: 
-      :long: 
-        :daylight: "fiĝia somera tempo"
-        :generic: "fiĝia tempo"
-        :standard: "fiĝia norma tempo"
-    :French_Guiana: 
-      :long: 
-        :standard: "tempo: Franca Gujano"
-    :French_Southern: 
-      :long: 
-        :standard: "tempo: Francaj Sudaj Teritorioj"
-    :GMT: 
-      :long: 
-        :standard: "universala tempo kunordigita"
-    :Galapagos: 
-      :long: 
-        :standard: "galapaga tempo"
-    :Gambier: 
-      :long: 
-        :standard: "tempo: Gambier"
-    :Georgia: 
-      :long: 
-        :daylight: "kartvela somera tempo"
-        :generic: "kartvela tempo"
-        :standard: "kartvela norma tempo"
-    :Gilbert_Islands: 
-      :long: 
-        :standard: "gilbertinsula tempo"
-    :Greenland_Eastern: 
-      :long: 
-        :daylight: "orienta gronlanda somera tempo"
-        :generic: "orienta gronlanda tempo"
-        :standard: "orienta gronlanda norma tempo"
-    :Greenland_Western: 
-      :long: 
-        :daylight: "okcidenta gronlanda somera tempo"
-        :generic: "okcidenta gronlanda tempo"
-        :standard: "okcidenta gronlanda norma tempo"
-    :Gulf: 
-      :long: 
-        :standard: "arabgolfa norma tempo"
-    :Guyana: 
-      :long: 
-        :standard: "gujana tempo"
-    :Hawaii: 
-      :long: 
-        :standard: "Havajo-Aleutoj (norma tempo)"
-    :Hawaii_Aleutian: 
-      :long: 
-        :daylight: "Havajo-Aleutoj (somera tempo)"
-        :generic: "tempo: Havajo-Aleutoj"
-        :standard: "Havajo-Aleutoj (norma tempo)"
-    :Hong_Kong: 
-      :long: 
-        :daylight: "honkonga somera tempo"
-        :generic: "honkonga tempo"
-        :standard: "honkonga norma tempo"
-    :Hovd: 
-      :long: 
-        :daylight: "ĥovda somera tempo"
-        :generic: "ĥovda tempo"
-        :standard: "ĥovda norma tempo"
-    :India: 
-      :long: 
-        :standard: "hinda norma tempo"
-    :Indian_Ocean: 
-      :long: 
-        :standard: "hindoceana tempo"
-    :Indochina: 
-      :long: 
-        :standard: "hindoĉina tempo"
-    :Indonesia_Central: 
-      :long: 
-        :standard: "centr-indonezia tempo"
-    :Indonesia_Eastern: 
-      :long: 
-        :standard: "orient-indonezia tempo"
-    :Indonesia_Western: 
-      :long: 
-        :standard: "okcident-indonezia tempo"
-    :Iran: 
-      :long: 
-        :daylight: "irana somera tempo"
-        :generic: "irana tempo"
-        :standard: "irana norma tempo"
-    :Irkutsk: 
-      :long: 
-        :daylight: "irkutska somera tempo"
-        :generic: "irkutska tempo"
-        :standard: "irkutska norma tempo"
-    :Israel: 
-      :long: 
-        :daylight: "israela somera tempo"
-        :generic: "israela tempo"
-        :standard: "israela norma tempo"
-    :Japan: 
-      :long: 
-        :daylight: "japana somera tempo"
-        :generic: "japana tempo"
-        :standard: "japana norma tempo"
-    :Kazakhstan: 
-      :long: 
-        :standard: "kazaĥa tempo"
-    :Kazakhstan_Eastern: 
-      :long: 
-        :standard: "orient-kazaĥa tempo"
-    :Kazakhstan_Western: 
-      :long: 
-        :standard: "okcident-kazaĥa tempo"
-    :Korea: 
-      :long: 
-        :daylight: "korea somera tempo"
-        :generic: "korea tempo"
-        :standard: "korea norma tempo"
-    :Kosrae: 
-      :long: 
-        :standard: "tempo: Kosrae"
-    :Krasnoyarsk: 
-      :long: 
-        :daylight: "krasnojarska somera tempo"
-        :generic: "krasnojarska tempo"
-        :standard: "krasnojarska norma tempo"
-    :Kyrgystan: 
-      :long: 
-        :standard: "kirgiza tempo"
-    :Line_Islands: 
-      :long: 
-        :standard: "tempo: Liniaj Insuloj"
-    :Lord_Howe: 
-      :long: 
-        :daylight: "Lord Howe (somera tempo)"
-        :generic: "tempo: Lord Howe"
-        :standard: "Lord Howe (norma tempo)"
-    :Magadan: 
-      :long: 
-        :daylight: "magadana somera tempo"
-        :generic: "magadana tempo"
-        :standard: "magadana norma tempo"
-    :Malaysia: 
-      :long: 
-        :standard: "malajzia tempo"
-    :Maldives: 
-      :long: 
-        :standard: "maldiva tempo"
-    :Marquesas: 
-      :long: 
-        :standard: "markizinsula tempo"
-    :Marshall_Islands: 
-      :long: 
-        :standard: "marŝalinsula tempo"
-    :Mauritius: 
-      :long: 
-        :daylight: "maŭricia somera tempo"
-        :generic: "maŭricia tempo"
-        :standard: "maŭricia norma tempo"
-    :Mawson: 
-      :long: 
-        :standard: "tempo: Mawson"
-    :Mexico_Pacific: 
-      :long: 
-        :daylight: "pacifika meksika somera tempo"
-        :generic: "pacifika meksika tempo"
-        :standard: "pacifika meksika norma tempo"
-    :Mongolia: 
-      :long: 
-        :daylight: "ulanbatora somera tempo"
-        :generic: "ulanbatora tempo"
-        :standard: "ulanbatora norma tempo"
-    :Moscow: 
-      :long: 
-        :daylight: "moskva somera tempo"
-        :generic: "moskva tempo"
-        :standard: "moskva norma tempo"
-    :Myanmar: 
-      :long: 
-        :standard: "birma tempo"
-    :Nauru: 
-      :long: 
-        :standard: "naura tempo"
-    :Nepal: 
-      :long: 
-        :standard: "nepala tempo"
-    :New_Caledonia: 
-      :long: 
-        :daylight: "novkaledonia somera tempo"
-        :generic: "novkaledonia tempo"
-        :standard: "novkaledonia norma tempo"
-    :New_Zealand: 
-      :long: 
-        :daylight: "novzelanda somera tempo"
-        :generic: "novzelanda tempo"
-        :standard: "novzelanda norma tempo"
-    :Newfoundland: 
-      :long: 
-        :daylight: "Novlando (somera tempo)"
-        :generic: "tempo: Novlando"
-        :standard: "Novlando (norma tempo)"
-    :Niue: 
-      :long: 
-        :standard: "niua tempo"
-    :Norfolk: 
-      :long: 
-        :daylight: "norfolkinsula somera tempo"
-        :generic: "norfolkinsula tempo"
-        :standard: "norfolkinsula norma tempo"
-    :Noronha: 
-      :long: 
-        :daylight: "Fernando de Noronha (somera tempo)"
-        :generic: "tempo: Fernando de Noronha"
-        :standard: "Fernando de Noronha (norma tempo)"
-    :Novosibirsk: 
-      :long: 
-        :daylight: "novosibirska somera tempo"
-        :generic: "novosibirska tempo"
-        :standard: "novosibirska norma tempo"
-    :Omsk: 
-      :long: 
-        :daylight: "omska somera tempo"
-        :generic: "omska tempo"
-        :standard: "omska norma tempo"
-    :Pakistan: 
-      :long: 
-        :daylight: "pakistana somera tempo"
-        :generic: "pakistana tempo"
-        :standard: "pakistana norma tempo"
-    :Palau: 
-      :long: 
-        :standard: "palaŭa tempo"
-    :Papua_New_Guinea: 
-      :long: 
-        :standard: "tempo: Papuo-Nov-Gvineo"
-    :Paraguay: 
-      :long: 
-        :daylight: "paragvaja somera tempo"
-        :generic: "paragvaja tempo"
-        :standard: "paragvaja norma tempo"
-    :Peru: 
-      :long: 
-        :daylight: "perua somera tempo"
-        :generic: "perua tempo"
-        :standard: "perua norma tempo"
-    :Philippines: 
-      :long: 
-        :daylight: "filipina somera tempo"
-        :generic: "filipina tempo"
-        :standard: "filipina norma tempo"
-    :Phoenix_Islands: 
-      :long: 
-        :standard: "feniksinsula tempo"
-    :Pierre_Miquelon: 
-      :long: 
-        :daylight: "Sankta Piero kaj Mikelono (somera tempo)"
-        :generic: "tempo: Sankta Piero kaj Mikelono"
-        :standard: "Sankta Piero kaj Mikelono (norma tempo)"
-    :Pitcairn: 
-      :long: 
-        :standard: "pitkarninsula tempo"
-    :Ponape: 
-      :long: 
-        :standard: "tempo: Ponape"
-    :Pyongyang: 
-      :long: 
-        :standard: "nord-korea tempo"
-    :Reunion: 
-      :long: 
-        :standard: "tempo: Reunio"
-    :Rothera: 
-      :long: 
-        :standard: "tempo: Rothera"
-    :Sakhalin: 
-      :long: 
-        :daylight: "saĥalena somera tempo"
-        :generic: "saĥalena tempo"
-        :standard: "saĥalena norma tempo"
-    :Samoa: 
-      :long: 
-        :daylight: "uson-samoa somera tempo"
-        :generic: "uson-samoa tempo"
-        :standard: "uson-samoa norma tempo"
-    :Seychelles: 
-      :long: 
-        :standard: "sejŝela tempo"
-    :Singapore: 
-      :long: 
-        :standard: "singapura norma tempo"
-    :Solomon: 
-      :long: 
-        :standard: "tempo: Salomonoj"
-    :South_Georgia: 
-      :long: 
-        :standard: "tempo: Sud-Georgio"
-    :Suriname: 
-      :long: 
-        :standard: "surinama tempo"
-    :Syowa: 
-      :long: 
-        :standard: "tempo: Showa"
-    :Tahiti: 
-      :long: 
-        :standard: "tahitia tempo"
-    :Taipei: 
-      :long: 
-        :daylight: "tajvana somera tempo"
-        :generic: "tajvana tempo"
-        :standard: "tajvana norma tempo"
-    :Tajikistan: 
-      :long: 
-        :standard: "taĝika tempo"
-    :Tokelau: 
-      :long: 
-        :standard: "tokelaa tempo"
-    :Tonga: 
-      :long: 
-        :daylight: "tonga somera tempo"
-        :generic: "tonga tempo"
-        :standard: "tonga norma tempo"
-    :Truk: 
-      :long: 
-        :standard: "tempo: Ĉuuk"
-    :Turkmenistan: 
-      :long: 
-        :daylight: "turkmena somera tempo"
-        :generic: "turkmena tempo"
-        :standard: "turkmena norma tempo"
-    :Tuvalu: 
-      :long: 
-        :standard: "tuvala tempo"
-    :Uruguay: 
-      :long: 
-        :daylight: "urugvaja somera tempo"
-        :generic: "urugvaja tempo"
-        :standard: "urugvaja norma tempo"
-    :Uzbekistan: 
-      :long: 
-        :daylight: "uzbeka somera tempo"
-        :generic: "uzbeka tempo"
-        :standard: "uzbeka norma tempo"
-    :Vanuatu: 
-      :long: 
-        :daylight: "vanuatua somera tempo"
-        :generic: "vanuatua tempo"
-        :standard: "vanuatua norma tempo"
-    :Venezuela: 
-      :long: 
-        :standard: "venezuela tempo"
-    :Vladivostok: 
-      :long: 
-        :daylight: "vladivostoka somera tempo"
-        :generic: "vladivostoka tempo"
-        :standard: "vladivostoka norma tempo"
-    :Volgograd: 
-      :long: 
-        :daylight: "volgograda somera tempo"
-        :generic: "volgograda tempo"
-        :standard: "volgograda norma tempo"
-    :Vostok: 
-      :long: 
-        :standard: "tempo: Vostok"
-    :Wake: 
-      :long: 
-        :standard: "vejkinsula tempo"
-    :Wallis: 
-      :long: 
-        :standard: "tempo: Valiso kaj Futuno"
-    :Yakutsk: 
-      :long: 
-        :daylight: "jakutska somera tempo"
-        :generic: "jakutska tempo"
-        :standard: "jakutska norma tempo"
-    :Yekaterinburg: 
-      :long: 
-        :daylight: "jekaterinburga somera tempo"
-        :generic: "jekaterinburga tempo"
-        :standard: "jekaterinburga norma tempo"
-    :Yukon: 
-      :long: 
-        :standard: "jukonia tempo"
-  :timezones: 
-    :Africa/Abidjan: 
-      :city: Abiĝano
-    :Africa/Accra: 
-      :city: Akrao
-    :Africa/Addis_Ababa: 
-      :city: Adisabebo
-    :Africa/Algiers: 
-      :city: Alĝero
-    :Africa/Asmera: 
-      :city: Asmero
-    :Africa/Bangui: 
-      :city: Bango
-    :Africa/Banjul: 
-      :city: Banjulo
-    :Africa/Bissau: 
-      :city: Bisaŭo
-    :Africa/Brazzaville: 
-      :city: Brazavilo
-    :Africa/Bujumbura: 
-      :city: Buĵumburo
-    :Africa/Cairo: 
-      :city: Kairo
-    :Africa/Casablanca: 
-      :city: Kazablanko
-    :Africa/Ceuta: 
-      :city: Ceŭto
-    :Africa/Conakry: 
-      :city: Konakrio
-    :Africa/Dakar: 
-      :city: Dakaro
-    :Africa/Dar_es_Salaam: 
-      :city: Daresalamo
-    :Africa/Djibouti: 
-      :city: Ĝibutio
-    :Africa/Douala: 
-      :city: Dualao
-    :Africa/El_Aaiun: 
-      :city: Ajuno
-    :Africa/Freetown: 
-      :city: Fritaŭno
-    :Africa/Gaborone: 
-      :city: Gaborono
-    :Africa/Harare: 
-      :city: Harareo
-    :Africa/Johannesburg: 
-      :city: Johanesburgo
-    :Africa/Juba: 
-      :city: Ĝubao
-    :Africa/Kampala: 
-      :city: Kampalo
-    :Africa/Khartoum: 
-      :city: Ĥartumo
-    :Africa/Kigali: 
-      :city: Kigalo
-    :Africa/Kinshasa: 
-      :city: Kinŝaso
-    :Africa/Lagos: 
-      :city: Lagoso
-    :Africa/Libreville: 
-      :city: Librevilo
-    :Africa/Lome: 
-      :city: Lomeo
-    :Africa/Luanda: 
-      :city: Luando
-    :Africa/Lubumbashi: 
-      :city: Lubumbaŝo
-    :Africa/Lusaka: 
-      :city: Lusako
-    :Africa/Maseru: 
-      :city: Maseruo
-    :Africa/Mbabane: 
-      :city: Mbabano
-    :Africa/Mogadishu: 
-      :city: Mogadiŝo
-    :Africa/Monrovia: 
-      :city: Monrovio
-    :Africa/Nairobi: 
-      :city: Najrobio
-    :Africa/Ndjamena: 
-      :city: Niĝameno
-    :Africa/Niamey: 
-      :city: Niamejo
-    :Africa/Nouakchott: 
-      :city: Nuakŝoto
-    :Africa/Ouagadougou: 
-      :city: Vagaduguo
-    :Africa/Porto-Novo: 
-      :city: Portonovo
-    :Africa/Sao_Tome: 
-      :city: Santomeo
-    :Africa/Tripoli: 
-      :city: Tripolo
-    :Africa/Tunis: 
-      :city: Tunizo
-    :Africa/Windhoek: 
-      :city: Vindhuko
-    :America/Anguilla: 
-      :city: Angvilo
-    :America/Antigua: 
-      :city: Antigvo
-    :America/Araguaina: 
-      :city: Araguaína
-    :America/Argentina/Rio_Gallegos: 
-      :city: "Río Gallegos"
-    :America/Argentina/Salta: 
-      :city: Saltaurbo
-    :America/Argentina/Tucuman: 
-      :city: Tucumán
-    :America/Aruba: 
-      :city: Arubo
-    :America/Asuncion: 
-      :city: Asunciono
-    :America/Bahia: 
-      :city: Bahio
-    :America/Bahia_Banderas: 
-      :city: "Bahía de Banderas"
-    :America/Barbados: 
-      :city: Barbado
-    :America/Belem: 
-      :city: Belemo
-    :America/Belize: 
-      :city: Belizo
-    :America/Bogota: 
-      :city: Bogoto
-    :America/Buenos_Aires: 
-      :city: Bonaero
-    :America/Cambridge_Bay: 
-      :city: "Kembriĝa Golfo"
-    :America/Cancun: 
-      :city: Kankuno
-    :America/Caracas: 
-      :city: Karakaso
-    :America/Cayenne: 
-      :city: Kajeno
-    :America/Cayman: 
-      :city: Kajmanoj
-    :America/Chicago: 
-      :city: Ĉikago
-    :America/Ciudad_Juarez: 
-      :city: "Ciudad Juárez"
-    :America/Coral_Harbour: 
-      :city: Atikokan
-    :America/Cordoba: 
-      :city: Kordobo
-    :America/Costa_Rica: 
-      :city: Kostariko
-    :America/Cuiaba: 
-      :city: Cuiabá
-    :America/Curacao: 
-      :city: Kuracao
-    :America/Denver: 
-      :city: Denvero
-    :America/Detroit: 
-      :city: Detrojto
-    :America/Dominica: 
-      :city: Dominiko
-    :America/Edmonton: 
-      :city: Edmontono
-    :America/Eirunepe: 
-      :city: Eirunepé
-    :America/El_Salvador: 
-      :city: Salvadoro
-    :America/Fortaleza: 
-      :city: Fortalezo
-    :America/Godthab: 
-      :city: Nuko
-    :America/Grand_Turk: 
-      :city: "Granda Turko"
-    :America/Grenada: 
-      :city: Grenado
-    :America/Guadeloupe: 
-      :city: Gvadelupo
-    :America/Guatemala: 
-      :city: Gvatemalo
-    :America/Guyana: 
-      :city: Gujano
-    :America/Halifax: 
-      :city: Halifakso
-    :America/Havana: 
-      :city: Havano
-    :America/Indiana/Knox: 
-      :city: "Knox, Indianao"
-    :America/Indiana/Marengo: 
-      :city: "Marengo, Indianao"
-    :America/Indiana/Petersburg: 
-      :city: "Petersburg, Indianao"
-    :America/Indiana/Tell_City: 
-      :city: "Tell City, Indianao"
-    :America/Indiana/Vevay: 
-      :city: "Vevay, Indianao"
-    :America/Indiana/Vincennes: 
-      :city: "Vincennes, Indianao"
-    :America/Indiana/Winamac: 
-      :city: "Winamac, Indianao"
-    :America/Indianapolis: 
-      :city: "Indianapolo, Indianao"
-    :America/Iqaluit: 
-      :city: Ikaluito
-    :America/Jamaica: 
-      :city: Jamajko
-    :America/Kentucky/Monticello: 
-      :city: "Monticello, Kentukio"
-    :America/Lima: 
-      :city: Limo
-    :America/Los_Angeles: 
-      :city: Losanĝeleso
-    :America/Lower_Princes: 
-      :city: "Lower Prince’s Quarter"
-    :America/Maceio: 
-      :city: Maceió
-    :America/Managua: 
-      :city: Managvo
-    :America/Manaus: 
-      :city: Manaŭso
-    :America/Marigot: 
-      :city: Marigoto
-    :America/Martinique: 
-      :city: Martiniko
-    :America/Mazatlan: 
-      :city: Mazatlán
-    :America/Merida: 
-      :city: Merido
-    :America/Mexico_City: 
-      :city: Meksikurbo
-    :America/Miquelon: 
-      :city: Mikelono
-    :America/Moncton: 
-      :city: Monktono
-    :America/Monterrey: 
-      :city: Monterejo
-    :America/Montserrat: 
-      :city: Moncerato
-    :America/Nassau: 
-      :city: Nasaŭo
-    :America/New_York: 
-      :city: Nov-Jorko
-    :America/Noronha: 
-      :city: "Fernando de Noronha"
-    :America/North_Dakota/Beulah: 
-      :city: "Beulah, Norda Dakoto"
-    :America/North_Dakota/Center: 
-      :city: "Center, Norda Dakoto"
-    :America/North_Dakota/New_Salem: 
-      :city: "New Salem, Norda Dakoto"
-    :America/Panama: 
-      :city: Panamo
-    :America/Phoenix: 
-      :city: Fenikso
-    :America/Port-au-Prince: 
-      :city: Portoprinco
-    :America/Port_of_Spain: 
-      :city: Portospeno
-    :America/Puerto_Rico: 
-      :city: Puertoriko
-    :America/Santarem: 
-      :city: Santarém
-    :America/Santo_Domingo: 
-      :city: "Sankta Domingo"
-    :America/Sao_Paulo: 
-      :city: Sanpaŭlo
-    :America/Scoresbysund: 
-      :city: Ittoqqortoormiit
-    :America/St_Barthelemy: 
-      :city: "Sankta Bartolomeo"
-    :America/St_Johns: 
-      :city: "St. John’s"
-    :America/St_Kitts: 
-      :city: "Sankta Kristoforo"
-    :America/St_Lucia: 
-      :city: "Sankta Lucio"
-    :America/St_Thomas: 
-      :city: "Sankta Tomaso"
-    :America/St_Vincent: 
-      :city: "Sankta Vincento"
-    :America/Tegucigalpa: 
-      :city: Tegucigalpo
-    :America/Thule: 
-      :city: Qaanaaq
-    :America/Vancouver: 
-      :city: Vankuvero
-    :America/Winnipeg: 
-      :city: Vinipego
-    :Antarctica/DumontDUrville: 
-      :city: Dumont-d’Urville
-    :Antarctica/Macquarie: 
-      :city: "Makvora insulo"
-    :Antarctica/Syowa: 
-      :city: Showa
-    :Arctic/Longyearbyen: 
-      :city: Longjerurbo
-    :Asia/Aden: 
-      :city: Adeno
-    :Asia/Almaty: 
-      :city: Almato
-    :Asia/Amman: 
-      :city: Amano
-    :Asia/Anadyr: 
-      :city: Anadir
-    :Asia/Aqtau: 
-      :city: Aktau
-    :Asia/Aqtobe: 
-      :city: Aktobe
-    :Asia/Ashgabat: 
-      :city: Aŝĥabado
-    :Asia/Atyrau: 
-      :city: Atirau
-    :Asia/Baghdad: 
-      :city: Bagdado
-    :Asia/Bahrain: 
-      :city: Barejno
-    :Asia/Baku: 
-      :city: Bakuo
-    :Asia/Bangkok: 
-      :city: Bankoko
-    :Asia/Beirut: 
-      :city: Bejruto
-    :Asia/Bishkek: 
-      :city: Biŝkeko
-    :Asia/Brunei: 
-      :city: Brunejo
-    :Asia/Calcutta: 
-      :city: Kolkato
-    :Asia/Chita: 
-      :city: Ĉita
-    :Asia/Colombo: 
-      :city: Kolombo
-    :Asia/Damascus: 
-      :city: Damasko
-    :Asia/Dhaka: 
-      :city: Dako
-    :Asia/Dili: 
-      :city: Dilo
-    :Asia/Dubai: 
-      :city: Dubajurbo
-    :Asia/Dushanbe: 
-      :city: Duŝanbeo
-    :Asia/Gaza: 
-      :city: Gazao
-    :Asia/Hebron: 
-      :city: Hebrono
-    :Asia/Hong_Kong: 
-      :city: Honkongo
-    :Asia/Hovd: 
-      :city: Ĥovd
-    :Asia/Irkutsk: 
-      :city: Irkutsko
-    :Asia/Jakarta: 
-      :city: Ĝakarto
-    :Asia/Jerusalem: 
-      :city: Jerusalemo
-    :Asia/Kabul: 
-      :city: Kabulo
-    :Asia/Kamchatka: 
-      :city: Kamĉatko
-    :Asia/Karachi: 
-      :city: Karaĉio
-    :Asia/Katmandu: 
-      :city: Katmanduo
-    :Asia/Khandyga: 
-      :city: Ĥandiga
-    :Asia/Krasnoyarsk: 
-      :city: Krasnojarsko
-    :Asia/Kuala_Lumpur: 
-      :city: Kualalumpuro
-    :Asia/Kuwait: 
-      :city: Kuvajto
-    :Asia/Macau: 
-      :city: Makao
-    :Asia/Manila: 
-      :city: Manilo
-    :Asia/Muscat: 
-      :city: Maskato
-    :Asia/Nicosia: 
-      :city: Nikozio
-    :Asia/Novokuznetsk: 
-      :city: Novokuznecko
-    :Asia/Novosibirsk: 
-      :city: Novosibirsko
-    :Asia/Omsk: 
-      :city: Omsko
-    :Asia/Oral: 
-      :city: Oralo
-    :Asia/Phnom_Penh: 
-      :city: Pnompeno
-    :Asia/Pyongyang: 
-      :city: Pjongjango
-    :Asia/Qatar: 
-      :city: Kataro
-    :Asia/Qostanay: 
-      :city: Kostanaj
-    :Asia/Qyzylorda: 
-      :city: Kizilordo
-    :Asia/Rangoon: 
-      :city: Ranguno
-    :Asia/Riyadh: 
-      :city: Riado
-    :Asia/Saigon: 
-      :city: Hoĉimino
-    :Asia/Sakhalin: 
-      :city: Saĥaleno
-    :Asia/Samarkand: 
-      :city: Samarkando
-    :Asia/Seoul: 
-      :city: Seulo
-    :Asia/Shanghai: 
-      :city: Ŝanhajo
-    :Asia/Singapore: 
-      :city: Singapuro
-    :Asia/Srednekolymsk: 
-      :city: Srednekolimsk
-    :Asia/Taipei: 
-      :city: Tajpeo
-    :Asia/Tashkent: 
-      :city: Taŝkento
-    :Asia/Tbilisi: 
-      :city: Tbiliso
-    :Asia/Tehran: 
-      :city: Teherano
-    :Asia/Thimphu: 
-      :city: Timbuo
-    :Asia/Tokyo: 
-      :city: Tokio
-    :Asia/Ulaanbaatar: 
-      :city: Ulanbatoro
-    :Asia/Urumqi: 
-      :city: Urumĉio
-    :Asia/Ust-Nera: 
-      :city: Ustnero
-    :Asia/Vientiane: 
-      :city: Vjentiano
-    :Asia/Vladivostok: 
-      :city: Vladivostoko
-    :Asia/Yakutsk: 
-      :city: Jakutsko
-    :Asia/Yekaterinburg: 
-      :city: Jekaterinburgo
-    :Asia/Yerevan: 
-      :city: Erevano
-    :Atlantic/Azores: 
-      :city: Acoroj
-    :Atlantic/Bermuda: 
-      :city: Bermudoj
-    :Atlantic/Canary: 
-      :city: Kanarioj
-    :Atlantic/Cape_Verde: 
-      :city: Kaboverdo
-    :Atlantic/Faeroe: 
-      :city: Ferooj
-    :Atlantic/Madeira: 
-      :city: Madejro
-    :Atlantic/Reykjavik: 
-      :city: Rejkjaviko
-    :Atlantic/South_Georgia: 
-      :city: Sud-Georgio
-    :Atlantic/St_Helena: 
-      :city: "Sankta Heleno"
-    :Atlantic/Stanley: 
-      :city: Stanlejo
-    :Australia/Adelaide: 
-      :city: Adelajdo
-    :Australia/Brisbane: 
-      :city: Brisbano
-    :Australia/Darwin: 
-      :city: Darvino
-    :Australia/Hobart: 
-      :city: Hobarto
-    :Australia/Melbourne: 
-      :city: Melburno
-    :Australia/Perth: 
-      :city: Perto
-    :Australia/Sydney: 
-      :city: Sidnejo
-    :Etc/UTC: 
-      :long: 
-        :standard: "universala tempo kunordigita"
-      :short: 
+    :fallback_formats:
+      :generic: "{1} ({0})"
+  :timezones:
+    :Etc/UTC:
+      :short:
         :standard: UTC
-    :Etc/Unknown: 
-      :city: "nekonata loko"
-    :Europe/Amsterdam: 
-      :city: Amsterdamo
-    :Europe/Andorra: 
-      :city: Andoro
-    :Europe/Astrakhan: 
-      :city: Astraĥano
-    :Europe/Athens: 
-      :city: Ateno
-    :Europe/Belgrade: 
-      :city: Beogrado
-    :Europe/Berlin: 
-      :city: Berlino
-    :Europe/Bratislava: 
-      :city: Bratislavo
-    :Europe/Brussels: 
-      :city: Bruselo
-    :Europe/Bucharest: 
-      :city: Bukareŝto
-    :Europe/Budapest: 
-      :city: Budapeŝto
-    :Europe/Busingen: 
-      :city: "Büsingen am Hochrhein"
-    :Europe/Chisinau: 
-      :city: Kiŝinevo
-    :Europe/Copenhagen: 
-      :city: Kopenhago
-    :Europe/Dublin: 
-      :city: Dublino
-      :long: 
-        :daylight: "irlanda norma tempo"
-    :Europe/Gibraltar: 
-      :city: Ĝibraltaro
-    :Europe/Guernsey: 
-      :city: Gernezejo
-    :Europe/Helsinki: 
-      :city: Helsinko
-    :Europe/Isle_of_Man: 
-      :city: Manksinsulo
-    :Europe/Istanbul: 
-      :city: Istanbulo
-    :Europe/Jersey: 
-      :city: Ĵerzejo
-    :Europe/Kaliningrad: 
-      :city: Kaliningrado
-    :Europe/Kiev: 
-      :city: Kievo
-    :Europe/Lisbon: 
-      :city: Lisbono
-    :Europe/Ljubljana: 
-      :city: Ljubljano
-    :Europe/London: 
-      :city: Londono
-      :long: 
-        :daylight: "brita somera tempo"
-    :Europe/Luxembourg: 
-      :city: Luksemburgo
-    :Europe/Madrid: 
-      :city: Madrido
-    :Europe/Malta: 
-      :city: Malto
-    :Europe/Minsk: 
-      :city: Minsko
-    :Europe/Monaco: 
-      :city: Monako
-    :Europe/Moscow: 
-      :city: Moskvo
-    :Europe/Paris: 
-      :city: Parizo
-    :Europe/Podgorica: 
-      :city: Podgorico
-    :Europe/Prague: 
-      :city: Prago
-    :Europe/Riga: 
-      :city: Rigo
-    :Europe/Rome: 
-      :city: Romo
-    :Europe/San_Marino: 
-      :city: Sanmarino
-    :Europe/Simferopol: 
-      :city: Simferopolo
-    :Europe/Skopje: 
-      :city: Skopjo
-    :Europe/Sofia: 
-      :city: Sofio
-    :Europe/Stockholm: 
-      :city: Stokholmo
-    :Europe/Tallinn: 
-      :city: Talino
-    :Europe/Tirane: 
+      :long:
+        :standard: universala tempo kunordigita
+    :Europe/Tirane:
       :city: Tirano
-    :Europe/Ulyanovsk: 
-      :city: Uljanovsko
-    :Europe/Vaduz: 
-      :city: Vaduzo
-    :Europe/Vatican: 
-      :city: Vatikano
-    :Europe/Vienna: 
-      :city: Vieno
-    :Europe/Vilnius: 
-      :city: Vilno
-    :Europe/Volgograd: 
-      :city: Volgogrado
-    :Europe/Warsaw: 
-      :city: Varsovio
-    :Europe/Zagreb: 
-      :city: Zagrebo
-    :Europe/Zurich: 
-      :city: Zuriko
-    :Indian/Chagos: 
-      :city: Ĉagosoj
-    :Indian/Christmas: 
-      :city: Kristnaskinsulo
-    :Indian/Cocos: 
-      :city: Kokosinsuloj
-    :Indian/Comoro: 
-      :city: Komoroj
-    :Indian/Kerguelen: 
-      :city: Kergelenoj
-    :Indian/Mahe: 
-      :city: Mahé
-    :Indian/Maldives: 
-      :city: Maldivoj
-    :Indian/Mauritius: 
-      :city: Maŭricio
-    :Indian/Mayotte: 
-      :city: Majoto
-    :Indian/Reunion: 
-      :city: Reunio
-    :Pacific/Apia: 
-      :city: Apio
-    :Pacific/Auckland: 
-      :city: Aŭklando
-    :Pacific/Chatham: 
-      :city: Ĉathamo
-    :Pacific/Easter: 
-      :city: Paskinsulo
-    :Pacific/Enderbury: 
-      :city: Kanton-insulo
-    :Pacific/Fiji: 
-      :city: Fiĝio
-    :Pacific/Funafuti: 
-      :city: Funafutio
-    :Pacific/Galapagos: 
+    :Antarctica/Syowa:
+      :city: Showa
+    :Antarctica/DumontDUrville:
+      :city: Dumont-d’Urville
+    :America/Argentina/Rio_Gallegos:
+      :city: Río Gallegos
+    :America/Argentina/Tucuman:
+      :city: Tucumán
+    :America/Cordoba:
+      :city: Kordobo
+    :America/St_Barthelemy:
+      :city: Sankta Bartolomeo
+    :America/Eirunepe:
+      :city: Eirunepé
+    :America/Cuiaba:
+      :city: Cuiabá
+    :America/Santarem:
+      :city: Santarém
+    :America/Belem:
+      :city: Belemo
+    :America/Araguaina:
+      :city: Araguaína
+    :America/Sao_Paulo:
+      :city: Sanpaŭlo
+    :America/Maceio:
+      :city: Maceió
+    :America/Noronha:
+      :city: Fernando de Noronha
+    :America/Coral_Harbour:
+      :city: Atikokan
+    :America/St_Johns:
+      :city: St. John’s
+    :Asia/Urumqi:
+      :city: Urumĉio
+    :America/Bogota:
+      :city: Bogoto
+    :America/Curacao:
+      :city: Kuracao
+    :Europe/Busingen:
+      :city: Büsingen am Hochrhein
+    :Pacific/Galapagos:
       :city: Galapagoj
-    :Pacific/Guam: 
-      :city: Gvamo
-    :Pacific/Marquesas: 
-      :city: Markizinsuloj
-    :Pacific/Midway: 
-      :city: Midvejinsuloj
-    :Pacific/Nauru: 
-      :city: Nauro
-    :Pacific/Niue: 
-      :city: Niuo
-    :Pacific/Norfolk: 
-      :city: Norfolkinsulo
-    :Pacific/Noumea: 
-      :city: Numeo
-    :Pacific/Pago_Pago: 
-      :city: Pagopago
-    :Pacific/Palau: 
-      :city: Palaŭo
-    :Pacific/Pitcairn: 
-      :city: "Pitkarna Insulo"
-    :Pacific/Ponape: 
-      :city: Ponape
-    :Pacific/Rarotonga: 
-      :city: Rarotongo
-    :Pacific/Saipan: 
-      :city: Saipano
-    :Pacific/Tahiti: 
-      :city: Tahitio
-    :Pacific/Tarawa: 
-      :city: Taravo
-    :Pacific/Truk: 
+    :Africa/El_Aaiun:
+      :city: Ajuno
+    :Africa/Asmera:
+      :city: Asmero
+    :Atlantic/Canary:
+      :city: Kanarioj
+    :Pacific/Truk:
       :city: Ĉuuk
-    :Pacific/Wake: 
-      :city: Vejkinsulo
-    :Pacific/Wallis: 
+    :Pacific/Ponape:
+      :city: Ponape
+    :Atlantic/Faeroe:
+      :city: Ferooj
+    :America/Godthab:
+      :city: Nuko
+    :America/Scoresbysund:
+      :city: Ittoqqortoormiit
+    :Asia/Calcutta:
+      :city: Kolkato
+    :Pacific/Enderbury:
+      :city: Kanton-insulo
+    :Indian/Comoro:
+      :city: Komoroj
+    :America/St_Kitts:
+      :city: Sankta Kristoforo
+    :America/St_Lucia:
+      :city: Sankta Lucio
+    :Europe/Chisinau:
+      :city: Kiŝinevo
+    :Asia/Rangoon:
+      :city: Ranguno
+    :Asia/Hovd:
+      :city: Ĥovd
+    :Asia/Macau:
+      :city: Makao
+    :America/Ciudad_Juarez:
+      :city: Ciudad Juárez
+    :America/Mazatlan:
+      :city: Mazatlán
+    :America/Bahia_Banderas:
+      :city: Bahía de Banderas
+    :America/Mexico_City:
+      :city: Meksikurbo
+    :America/Merida:
+      :city: Merido
+    :America/Cancun:
+      :city: Kankuno
+    :Pacific/Noumea:
+      :city: Numeo
+    :Asia/Katmandu:
+      :city: Katmanduo
+    :America/Miquelon:
+      :city: Mikelono
+    :America/Asuncion:
+      :city: Asunciono
+    :Indian/Reunion:
+      :city: Reunio
+    :Indian/Mahe:
+      :city: Mahé
+    :Atlantic/St_Helena:
+      :city: Sankta Heleno
+    :Africa/Sao_Tome:
+      :city: Santomeo
+    :America/Lower_Princes:
+      :city: Lower Prince’s Quarter
+    :Africa/Ndjamena:
+      :city: Niĝameno
+    :Africa/Lome:
+      :city: Lomeo
+    :Europe/Kiev:
+      :city: Kievo
+    :America/North_Dakota/Beulah:
+      :city: Beulah, Norda Dakoto
+    :America/North_Dakota/New_Salem:
+      :city: New Salem, Norda Dakoto
+    :America/North_Dakota/Center:
+      :city: Center, Norda Dakoto
+    :America/Indiana/Vincennes:
+      :city: Vincennes, Indianao
+    :America/Indiana/Petersburg:
+      :city: Petersburg, Indianao
+    :America/Indiana/Tell_City:
+      :city: Tell City, Indianao
+    :America/Indiana/Knox:
+      :city: Knox, Indianao
+    :America/Indiana/Winamac:
+      :city: Winamac, Indianao
+    :America/Indiana/Marengo:
+      :city: Marengo, Indianao
+    :America/Indiana/Vevay:
+      :city: Vevay, Indianao
+    :America/Kentucky/Monticello:
+      :city: Monticello, Kentukio
+    :America/St_Vincent:
+      :city: Sankta Vincento
+    :America/St_Thomas:
+      :city: Sankta Tomaso
+    :Asia/Saigon:
+      :city: Hoĉimino
+    :Pacific/Wallis:
       :city: Valiso
+    :Etc/Unknown:
+      :city: nekonata loko
+    :Europe/Andorra:
+      :city: Andoro
+    :Asia/Dubai:
+      :city: Dubajurbo
+    :Asia/Kabul:
+      :city: Kabulo
+    :America/Antigua:
+      :city: Antigvo
+    :America/Anguilla:
+      :city: Angvilo
+    :Asia/Yerevan:
+      :city: Erevano
+    :Africa/Luanda:
+      :city: Luando
+    :America/Argentina/Salta:
+      :city: Saltaurbo
+    :America/Buenos_Aires:
+      :city: Bonaero
+    :Pacific/Pago_Pago:
+      :city: Pagopago
+    :Europe/Vienna:
+      :city: Vieno
+    :Australia/Perth:
+      :city: Perto
+    :Australia/Darwin:
+      :city: Darvino
+    :Australia/Adelaide:
+      :city: Adelajdo
+    :Australia/Melbourne:
+      :city: Melburno
+    :Australia/Hobart:
+      :city: Hobarto
+    :Australia/Sydney:
+      :city: Sidnejo
+    :Australia/Brisbane:
+      :city: Brisbano
+    :Antarctica/Macquarie:
+      :city: Makvora insulo
+    :America/Aruba:
+      :city: Arubo
+    :Asia/Baku:
+      :city: Bakuo
+    :America/Barbados:
+      :city: Barbado
+    :Asia/Dhaka:
+      :city: Dako
+    :Europe/Brussels:
+      :city: Bruselo
+    :Africa/Ouagadougou:
+      :city: Vagaduguo
+    :Europe/Sofia:
+      :city: Sofio
+    :Asia/Bahrain:
+      :city: Barejno
+    :Africa/Bujumbura:
+      :city: Buĵumburo
+    :Africa/Porto-Novo:
+      :city: Portonovo
+    :Atlantic/Bermuda:
+      :city: Bermudoj
+    :Asia/Brunei:
+      :city: Brunejo
+    :America/Manaus:
+      :city: Manaŭso
+    :America/Bahia:
+      :city: Bahio
+    :America/Fortaleza:
+      :city: Fortalezo
+    :America/Nassau:
+      :city: Nasaŭo
+    :Asia/Thimphu:
+      :city: Timbuo
+    :Africa/Gaborone:
+      :city: Gaborono
+    :Europe/Minsk:
+      :city: Minsko
+    :America/Belize:
+      :city: Belizo
+    :America/Vancouver:
+      :city: Vankuvero
+    :America/Edmonton:
+      :city: Edmontono
+    :America/Cambridge_Bay:
+      :city: Kembriĝa Golfo
+    :America/Winnipeg:
+      :city: Vinipego
+    :America/Iqaluit:
+      :city: Ikaluito
+    :America/Moncton:
+      :city: Monktono
+    :America/Halifax:
+      :city: Halifakso
+    :Indian/Cocos:
+      :city: Kokosinsuloj
+    :Africa/Kinshasa:
+      :city: Kinŝaso
+    :Africa/Lubumbashi:
+      :city: Lubumbaŝo
+    :Africa/Bangui:
+      :city: Bango
+    :Africa/Brazzaville:
+      :city: Brazavilo
+    :Europe/Zurich:
+      :city: Zuriko
+    :Africa/Abidjan:
+      :city: Abiĝano
+    :Pacific/Rarotonga:
+      :city: Rarotongo
+    :Pacific/Easter:
+      :city: Paskinsulo
+    :Africa/Douala:
+      :city: Dualao
+    :Asia/Shanghai:
+      :city: Ŝanhajo
+    :America/Costa_Rica:
+      :city: Kostariko
+    :America/Havana:
+      :city: Havano
+    :Atlantic/Cape_Verde:
+      :city: Kaboverdo
+    :Indian/Christmas:
+      :city: Kristnaskinsulo
+    :Asia/Nicosia:
+      :city: Nikozio
+    :Europe/Prague:
+      :city: Prago
+    :Europe/Berlin:
+      :city: Berlino
+    :Africa/Djibouti:
+      :city: Ĝibutio
+    :Europe/Copenhagen:
+      :city: Kopenhago
+    :America/Dominica:
+      :city: Dominiko
+    :America/Santo_Domingo:
+      :city: Sankta Domingo
+    :Africa/Algiers:
+      :city: Alĝero
+    :Europe/Tallinn:
+      :city: Talino
+    :Africa/Cairo:
+      :city: Kairo
+    :Africa/Ceuta:
+      :city: Ceŭto
+    :Europe/Madrid:
+      :city: Madrido
+    :Africa/Addis_Ababa:
+      :city: Adisabebo
+    :Europe/Helsinki:
+      :city: Helsinko
+    :Pacific/Fiji:
+      :city: Fiĝio
+    :Atlantic/Stanley:
+      :city: Stanlejo
+    :Europe/Paris:
+      :city: Parizo
+    :Africa/Libreville:
+      :city: Librevilo
+    :Europe/London:
+      :long:
+        :daylight: brita somera tempo
+      :city: Londono
+    :America/Grenada:
+      :city: Grenado
+    :Asia/Tbilisi:
+      :city: Tbiliso
+    :America/Cayenne:
+      :city: Kajeno
+    :Europe/Guernsey:
+      :city: Gernezejo
+    :Africa/Accra:
+      :city: Akrao
+    :Europe/Gibraltar:
+      :city: Ĝibraltaro
+    :America/Thule:
+      :city: Qaanaaq
+    :Africa/Banjul:
+      :city: Banjulo
+    :Africa/Conakry:
+      :city: Konakrio
+    :America/Guadeloupe:
+      :city: Gvadelupo
+    :Europe/Athens:
+      :city: Ateno
+    :Atlantic/South_Georgia:
+      :city: Sud-Georgio
+    :America/Guatemala:
+      :city: Gvatemalo
+    :Pacific/Guam:
+      :city: Gvamo
+    :Africa/Bissau:
+      :city: Bisaŭo
+    :America/Guyana:
+      :city: Gujano
+    :Asia/Hong_Kong:
+      :city: Honkongo
+    :America/Tegucigalpa:
+      :city: Tegucigalpo
+    :Europe/Zagreb:
+      :city: Zagrebo
+    :America/Port-au-Prince:
+      :city: Portoprinco
+    :Europe/Budapest:
+      :city: Budapeŝto
+    :Asia/Jakarta:
+      :city: Ĝakarto
+    :Europe/Dublin:
+      :long:
+        :daylight: irlanda norma tempo
+      :city: Dublino
+    :Asia/Jerusalem:
+      :city: Jerusalemo
+    :Europe/Isle_of_Man:
+      :city: Manksinsulo
+    :Indian/Chagos:
+      :city: Ĉagosoj
+    :Asia/Baghdad:
+      :city: Bagdado
+    :Asia/Tehran:
+      :city: Teherano
+    :Atlantic/Reykjavik:
+      :city: Rejkjaviko
+    :Europe/Rome:
+      :city: Romo
+    :Europe/Jersey:
+      :city: Ĵerzejo
+    :America/Jamaica:
+      :city: Jamajko
+    :Asia/Amman:
+      :city: Amano
+    :Asia/Tokyo:
+      :city: Tokio
+    :Africa/Nairobi:
+      :city: Najrobio
+    :Asia/Bishkek:
+      :city: Biŝkeko
+    :Asia/Phnom_Penh:
+      :city: Pnompeno
+    :Pacific/Tarawa:
+      :city: Taravo
+    :Asia/Pyongyang:
+      :city: Pjongjango
+    :Asia/Seoul:
+      :city: Seulo
+    :Asia/Kuwait:
+      :city: Kuvajto
+    :America/Cayman:
+      :city: Kajmanoj
+    :Asia/Aqtau:
+      :city: Aktau
+    :Asia/Oral:
+      :city: Oralo
+    :Asia/Atyrau:
+      :city: Atirau
+    :Asia/Aqtobe:
+      :city: Aktobe
+    :Asia/Qostanay:
+      :city: Kostanaj
+    :Asia/Qyzylorda:
+      :city: Kizilordo
+    :Asia/Almaty:
+      :city: Almato
+    :Asia/Vientiane:
+      :city: Vjentiano
+    :Asia/Beirut:
+      :city: Bejruto
+    :Europe/Vaduz:
+      :city: Vaduzo
+    :Asia/Colombo:
+      :city: Kolombo
+    :Africa/Monrovia:
+      :city: Monrovio
+    :Africa/Maseru:
+      :city: Maseruo
+    :Europe/Vilnius:
+      :city: Vilno
+    :Europe/Luxembourg:
+      :city: Luksemburgo
+    :Europe/Riga:
+      :city: Rigo
+    :Africa/Tripoli:
+      :city: Tripolo
+    :Africa/Casablanca:
+      :city: Kazablanko
+    :Europe/Monaco:
+      :city: Monako
+    :Europe/Podgorica:
+      :city: Podgorico
+    :America/Marigot:
+      :city: Marigoto
+    :Europe/Skopje:
+      :city: Skopjo
+    :Asia/Ulaanbaatar:
+      :city: Ulanbatoro
+    :Pacific/Saipan:
+      :city: Saipano
+    :America/Martinique:
+      :city: Martiniko
+    :Africa/Nouakchott:
+      :city: Nuakŝoto
+    :America/Montserrat:
+      :city: Moncerato
+    :Europe/Malta:
+      :city: Malto
+    :Indian/Mauritius:
+      :city: Maŭricio
+    :Indian/Maldives:
+      :city: Maldivoj
+    :America/Monterrey:
+      :city: Monterejo
+    :Asia/Kuala_Lumpur:
+      :city: Kualalumpuro
+    :Africa/Windhoek:
+      :city: Vindhuko
+    :Africa/Niamey:
+      :city: Niamejo
+    :Pacific/Norfolk:
+      :city: Norfolkinsulo
+    :Africa/Lagos:
+      :city: Lagoso
+    :America/Managua:
+      :city: Managvo
+    :Europe/Amsterdam:
+      :city: Amsterdamo
+    :Pacific/Nauru:
+      :city: Nauro
+    :Pacific/Niue:
+      :city: Niuo
+    :Pacific/Chatham:
+      :city: Ĉathamo
+    :Pacific/Auckland:
+      :city: Aŭklando
+    :Asia/Muscat:
+      :city: Maskato
+    :America/Panama:
+      :city: Panamo
+    :America/Lima:
+      :city: Limo
+    :Pacific/Tahiti:
+      :city: Tahitio
+    :Pacific/Marquesas:
+      :city: Markizinsuloj
+    :Asia/Manila:
+      :city: Manilo
+    :Asia/Karachi:
+      :city: Karaĉio
+    :Europe/Warsaw:
+      :city: Varsovio
+    :Pacific/Pitcairn:
+      :city: Pitkarna Insulo
+    :America/Puerto_Rico:
+      :city: Puertoriko
+    :Asia/Gaza:
+      :city: Gazao
+    :Asia/Hebron:
+      :city: Hebrono
+    :Atlantic/Azores:
+      :city: Acoroj
+    :Atlantic/Madeira:
+      :city: Madejro
+    :Europe/Lisbon:
+      :city: Lisbono
+    :Pacific/Palau:
+      :city: Palaŭo
+    :Asia/Qatar:
+      :city: Kataro
+    :Europe/Bucharest:
+      :city: Bukareŝto
+    :Europe/Belgrade:
+      :city: Beogrado
+    :Europe/Kaliningrad:
+      :city: Kaliningrado
+    :Europe/Moscow:
+      :city: Moskvo
+    :Europe/Volgograd:
+      :city: Volgogrado
+    :Europe/Astrakhan:
+      :city: Astraĥano
+    :Europe/Ulyanovsk:
+      :city: Uljanovsko
+    :Asia/Yekaterinburg:
+      :city: Jekaterinburgo
+    :Asia/Omsk:
+      :city: Omsko
+    :Asia/Novosibirsk:
+      :city: Novosibirsko
+    :Asia/Novokuznetsk:
+      :city: Novokuznecko
+    :Asia/Krasnoyarsk:
+      :city: Krasnojarsko
+    :Asia/Irkutsk:
+      :city: Irkutsko
+    :Asia/Chita:
+      :city: Ĉita
+    :Asia/Yakutsk:
+      :city: Jakutsko
+    :Asia/Vladivostok:
+      :city: Vladivostoko
+    :Asia/Khandyga:
+      :city: Ĥandiga
+    :Asia/Sakhalin:
+      :city: Saĥaleno
+    :Asia/Ust-Nera:
+      :city: Ustnero
+    :Asia/Srednekolymsk:
+      :city: Srednekolimsk
+    :Asia/Kamchatka:
+      :city: Kamĉatko
+    :Asia/Anadyr:
+      :city: Anadir
+    :Africa/Kigali:
+      :city: Kigalo
+    :Asia/Riyadh:
+      :city: Riado
+    :Africa/Khartoum:
+      :city: Ĥartumo
+    :Europe/Stockholm:
+      :city: Stokholmo
+    :Asia/Singapore:
+      :city: Singapuro
+    :Europe/Ljubljana:
+      :city: Ljubljano
+    :Arctic/Longyearbyen:
+      :city: Longjerurbo
+    :Europe/Bratislava:
+      :city: Bratislavo
+    :Africa/Freetown:
+      :city: Fritaŭno
+    :Europe/San_Marino:
+      :city: Sanmarino
+    :Africa/Dakar:
+      :city: Dakaro
+    :Africa/Mogadishu:
+      :city: Mogadiŝo
+    :Africa/Juba:
+      :city: Ĝubao
+    :America/El_Salvador:
+      :city: Salvadoro
+    :Asia/Damascus:
+      :city: Damasko
+    :Africa/Mbabane:
+      :city: Mbabano
+    :America/Grand_Turk:
+      :city: Granda Turko
+    :Indian/Kerguelen:
+      :city: Kergelenoj
+    :Asia/Bangkok:
+      :city: Bankoko
+    :Asia/Dushanbe:
+      :city: Duŝanbeo
+    :Asia/Dili:
+      :city: Dilo
+    :Asia/Ashgabat:
+      :city: Aŝĥabado
+    :Africa/Tunis:
+      :city: Tunizo
+    :Europe/Istanbul:
+      :city: Istanbulo
+    :America/Port_of_Spain:
+      :city: Portospeno
+    :Pacific/Funafuti:
+      :city: Funafutio
+    :Asia/Taipei:
+      :city: Tajpeo
+    :Africa/Dar_es_Salaam:
+      :city: Daresalamo
+    :Europe/Simferopol:
+      :city: Simferopolo
+    :Africa/Kampala:
+      :city: Kampalo
+    :Pacific/Midway:
+      :city: Midvejinsuloj
+    :Pacific/Wake:
+      :city: Vejkinsulo
+    :America/Los_Angeles:
+      :city: Losanĝeleso
+    :America/Phoenix:
+      :city: Fenikso
+    :America/Denver:
+      :city: Denvero
+    :America/Chicago:
+      :city: Ĉikago
+    :America/Indianapolis:
+      :city: Indianapolo, Indianao
+    :America/Detroit:
+      :city: Detrojto
+    :America/New_York:
+      :city: Nov-Jorko
+    :Asia/Samarkand:
+      :city: Samarkando
+    :Asia/Tashkent:
+      :city: Taŝkento
+    :Europe/Vatican:
+      :city: Vatikano
+    :America/Caracas:
+      :city: Karakaso
+    :Pacific/Apia:
+      :city: Apio
+    :Asia/Aden:
+      :city: Adeno
+    :Indian/Mayotte:
+      :city: Majoto
+    :Africa/Johannesburg:
+      :city: Johanesburgo
+    :Africa/Lusaka:
+      :city: Lusako
+    :Africa/Harare:
+      :city: Harareo
+  :metazones:
+    :Afghanistan:
+      :long:
+        :standard: afgana tempo
+    :Africa_Central:
+      :long:
+        :standard: centrafrika tempo
+    :Africa_Eastern:
+      :long:
+        :standard: orientafrika tempo
+    :Africa_Southern:
+      :long:
+        :standard: sudafrika tempo
+    :Africa_Western:
+      :long:
+        :standard: okcidentafrika tempo
+    :Alaska:
+      :long:
+        :generic: alaska tempo
+        :standard: alaska norma tempo
+        :daylight: alaska somera tempo
+    :Amazon:
+      :long:
+        :generic: amazona tempo
+        :standard: amazona norma tempo
+        :daylight: amazona somera tempo
+    :America_Central:
+      :long:
+        :generic: centra nordamerika tempo
+        :standard: centra nordamerika norma tempo
+        :daylight: centra nordamerika somera tempo
+    :America_Eastern:
+      :long:
+        :generic: orienta nordamerika tempo
+        :standard: orienta nordamerika norma tempo
+        :daylight: orienta nordamerika somera tempo
+    :America_Mountain:
+      :long:
+        :generic: montara nordamerika tempo
+        :standard: montara nordamerika norma tempo
+        :daylight: montara nordamerika somera tempo
+    :America_Pacific:
+      :long:
+        :generic: pacifika nordamerika tempo
+        :standard: pacifika nordamerika norma tempo
+        :daylight: pacifika nordamerika somera tempo
+    :Apia:
+      :long:
+        :generic: samoa tempo
+        :standard: samoa norma tempo
+        :daylight: samoa somera tempo
+    :Arabian:
+      :long:
+        :generic: araba tempo
+        :standard: araba norma tempo
+        :daylight: araba somera tempo
+    :Argentina:
+      :long:
+        :generic: argentina tempo
+        :standard: argentina norma tempo
+        :daylight: argentina somera tempo
+    :Argentina_Western:
+      :long:
+        :generic: okcident-argentina tempo
+        :standard: okcident-argentina norma tempo
+        :daylight: okcident-argentina somera tempo
+    :Armenia:
+      :long:
+        :generic: armena tempo
+        :standard: armena norma tempo
+        :daylight: armena somera tempo
+    :Atlantic:
+      :long:
+        :generic: atlantika nordamerika tempo
+        :standard: atlantika nordamerika norma tempo
+        :daylight: atlantika nordamerika somera tempo
+    :Australia_Central:
+      :long:
+        :generic: centra aŭstralia tempo
+        :standard: centra aŭstralia norma tempo
+        :daylight: centra aŭstralia somera tempo
+    :Australia_CentralWestern:
+      :long:
+        :generic: centrokcidenta aŭstralia tempo
+        :standard: centrokcidenta aŭstralia norma tempo
+        :daylight: centrokcidenta aŭstralia somera tempo
+    :Australia_Eastern:
+      :long:
+        :generic: orienta aŭstralia tempo
+        :standard: orienta aŭstralia norma tempo
+        :daylight: orienta aŭstralia somera tempo
+    :Australia_Western:
+      :long:
+        :generic: okcidenta aŭstralia tempo
+        :standard: okcidenta aŭstralia norma tempo
+        :daylight: okcidenta aŭstralia somera tempo
+    :Azerbaijan:
+      :long:
+        :generic: azerbajĝana tempo
+        :standard: azerbajĝana norma tempo
+        :daylight: azerbajĝana somera tempo
+    :Azores:
+      :long:
+        :generic: 'tempo: Acoroj'
+        :standard: Acoroj (norma tempo)
+        :daylight: Acoroj (somera tempo)
+    :Bangladesh:
+      :long:
+        :generic: bangladeŝa tempo
+        :standard: bangladeŝa norma tempo
+        :daylight: bangladeŝa somera tempo
+    :Bhutan:
+      :long:
+        :standard: butana tempo
+    :Bolivia:
+      :long:
+        :standard: bolivia tempo
+    :Brasilia:
+      :long:
+        :generic: brazilja tempo
+        :standard: brazilja norma tempo
+        :daylight: brazilja somera tempo
+    :Brunei:
+      :long:
+        :standard: bruneja tempo
+    :Cape_Verde:
+      :long:
+        :generic: kaboverda tempo
+        :standard: kaboverda norma tempo
+        :daylight: kaboverda somera tempo
+    :Chamorro:
+      :long:
+        :standard: ĉamora tempo
+    :Chatham:
+      :long:
+        :generic: ĉathama tempo
+        :standard: ĉathama norma tempo
+        :daylight: ĉathama somera tempo
+    :Chile:
+      :long:
+        :generic: ĉilia tempo
+        :standard: ĉilia norma tempo
+        :daylight: ĉilia somera tempo
+    :China:
+      :long:
+        :generic: ĉina tempo
+        :standard: ĉina norma tempo
+        :daylight: ĉina somera tempo
+    :Christmas:
+      :long:
+        :standard: kristnaskinsula tempo
+    :Cocos:
+      :long:
+        :standard: kokosinsula tempo
+    :Colombia:
+      :long:
+        :generic: kolombia tempo
+        :standard: kolombia norma tempo
+        :daylight: kolombia somera tempo
+    :Cook:
+      :long:
+        :generic: kukinsula tempo
+        :standard: kukinsula norma tempo
+        :daylight: kukinsula somera tempo
+    :Cuba:
+      :long:
+        :generic: 'tempo: Kubo'
+        :standard: Kubo (norma tempo)
+        :daylight: Kubo (somera tempo)
+    :Davis:
+      :long:
+        :standard: 'tempo: Davis'
+    :DumontDUrville:
+      :long:
+        :standard: 'tempo: Dumont d’Urville'
+    :East_Timor:
+      :long:
+        :standard: orient-timora tempo
+    :Easter:
+      :long:
+        :generic: paskinsula tempo
+        :standard: paskinsula norma tempo
+        :daylight: paskinsula somera tempo
+    :Ecuador:
+      :long:
+        :standard: ekvadora tempo
+    :Europe_Central:
+      :long:
+        :generic: centreŭropa tempo
+        :standard: centreŭropa norma tempo
+        :daylight: centreŭropa somera tempo
+    :Europe_Eastern:
+      :long:
+        :generic: orienteŭropa tempo
+        :standard: orienteŭropa norma tempo
+        :daylight: orienteŭropa somera tempo
+    :Europe_Further_Eastern:
+      :long:
+        :standard: ekstrem-orienteŭropa tempo
+    :Europe_Western:
+      :long:
+        :generic: okcidenteŭropa tempo
+        :standard: okcidenteŭropa norma tempo
+        :daylight: okcidenteŭropa somera tempo
+    :Falkland:
+      :long:
+        :generic: falklanda tempo
+        :standard: falklanda norma tempo
+        :daylight: falklanda somera tempo
+    :Fiji:
+      :long:
+        :generic: fiĝia tempo
+        :standard: fiĝia norma tempo
+        :daylight: fiĝia somera tempo
+    :French_Guiana:
+      :long:
+        :standard: 'tempo: Franca Gujano'
+    :French_Southern:
+      :long:
+        :standard: 'tempo: Francaj Sudaj Teritorioj'
+    :Galapagos:
+      :long:
+        :standard: galapaga tempo
+    :Gambier:
+      :long:
+        :standard: 'tempo: Gambier'
+    :Georgia:
+      :long:
+        :generic: kartvela tempo
+        :standard: kartvela norma tempo
+        :daylight: kartvela somera tempo
+    :Gilbert_Islands:
+      :long:
+        :standard: gilbertinsula tempo
+    :GMT:
+      :long:
+        :standard: universala tempo kunordigita
+    :Greenland_Eastern:
+      :long:
+        :generic: orienta gronlanda tempo
+        :standard: orienta gronlanda norma tempo
+        :daylight: orienta gronlanda somera tempo
+    :Greenland_Western:
+      :long:
+        :generic: okcidenta gronlanda tempo
+        :standard: okcidenta gronlanda norma tempo
+        :daylight: okcidenta gronlanda somera tempo
+    :Gulf:
+      :long:
+        :standard: arabgolfa norma tempo
+    :Guyana:
+      :long:
+        :standard: gujana tempo
+    :Hawaii:
+      :long:
+        :standard: Havajo-Aleutoj (norma tempo)
+    :Hawaii_Aleutian:
+      :long:
+        :generic: 'tempo: Havajo-Aleutoj'
+        :standard: Havajo-Aleutoj (norma tempo)
+        :daylight: Havajo-Aleutoj (somera tempo)
+    :Hong_Kong:
+      :long:
+        :generic: honkonga tempo
+        :standard: honkonga norma tempo
+        :daylight: honkonga somera tempo
+    :Hovd:
+      :long:
+        :generic: ĥovda tempo
+        :standard: ĥovda norma tempo
+        :daylight: ĥovda somera tempo
+    :India:
+      :long:
+        :standard: hinda norma tempo
+    :Indian_Ocean:
+      :long:
+        :standard: hindoceana tempo
+    :Indochina:
+      :long:
+        :standard: hindoĉina tempo
+    :Indonesia_Central:
+      :long:
+        :standard: centr-indonezia tempo
+    :Indonesia_Eastern:
+      :long:
+        :standard: orient-indonezia tempo
+    :Indonesia_Western:
+      :long:
+        :standard: okcident-indonezia tempo
+    :Iran:
+      :long:
+        :generic: irana tempo
+        :standard: irana norma tempo
+        :daylight: irana somera tempo
+    :Irkutsk:
+      :long:
+        :generic: irkutska tempo
+        :standard: irkutska norma tempo
+        :daylight: irkutska somera tempo
+    :Israel:
+      :long:
+        :generic: israela tempo
+        :standard: israela norma tempo
+        :daylight: israela somera tempo
+    :Japan:
+      :long:
+        :generic: japana tempo
+        :standard: japana norma tempo
+        :daylight: japana somera tempo
+    :Kazakhstan:
+      :long:
+        :standard: kazaĥa tempo
+    :Kazakhstan_Eastern:
+      :long:
+        :standard: orient-kazaĥa tempo
+    :Kazakhstan_Western:
+      :long:
+        :standard: okcident-kazaĥa tempo
+    :Korea:
+      :long:
+        :generic: korea tempo
+        :standard: korea norma tempo
+        :daylight: korea somera tempo
+    :Kosrae:
+      :long:
+        :standard: 'tempo: Kosrae'
+    :Krasnoyarsk:
+      :long:
+        :generic: krasnojarska tempo
+        :standard: krasnojarska norma tempo
+        :daylight: krasnojarska somera tempo
+    :Kyrgystan:
+      :long:
+        :standard: kirgiza tempo
+    :Line_Islands:
+      :long:
+        :standard: 'tempo: Liniaj Insuloj'
+    :Lord_Howe:
+      :long:
+        :generic: 'tempo: Lord Howe'
+        :standard: Lord Howe (norma tempo)
+        :daylight: Lord Howe (somera tempo)
+    :Magadan:
+      :long:
+        :generic: magadana tempo
+        :standard: magadana norma tempo
+        :daylight: magadana somera tempo
+    :Malaysia:
+      :long:
+        :standard: malajzia tempo
+    :Maldives:
+      :long:
+        :standard: maldiva tempo
+    :Marquesas:
+      :long:
+        :standard: markizinsula tempo
+    :Marshall_Islands:
+      :long:
+        :standard: marŝalinsula tempo
+    :Mauritius:
+      :long:
+        :generic: maŭricia tempo
+        :standard: maŭricia norma tempo
+        :daylight: maŭricia somera tempo
+    :Mawson:
+      :long:
+        :standard: 'tempo: Mawson'
+    :Mexico_Pacific:
+      :long:
+        :generic: pacifika meksika tempo
+        :standard: pacifika meksika norma tempo
+        :daylight: pacifika meksika somera tempo
+    :Mongolia:
+      :long:
+        :generic: ulanbatora tempo
+        :standard: ulanbatora norma tempo
+        :daylight: ulanbatora somera tempo
+    :Moscow:
+      :long:
+        :generic: moskva tempo
+        :standard: moskva norma tempo
+        :daylight: moskva somera tempo
+    :Myanmar:
+      :long:
+        :standard: birma tempo
+    :Nauru:
+      :long:
+        :standard: naura tempo
+    :Nepal:
+      :long:
+        :standard: nepala tempo
+    :New_Caledonia:
+      :long:
+        :generic: novkaledonia tempo
+        :standard: novkaledonia norma tempo
+        :daylight: novkaledonia somera tempo
+    :New_Zealand:
+      :long:
+        :generic: novzelanda tempo
+        :standard: novzelanda norma tempo
+        :daylight: novzelanda somera tempo
+    :Newfoundland:
+      :long:
+        :generic: 'tempo: Novlando'
+        :standard: Novlando (norma tempo)
+        :daylight: Novlando (somera tempo)
+    :Niue:
+      :long:
+        :standard: niua tempo
+    :Norfolk:
+      :long:
+        :generic: norfolkinsula tempo
+        :standard: norfolkinsula norma tempo
+        :daylight: norfolkinsula somera tempo
+    :Noronha:
+      :long:
+        :generic: 'tempo: Fernando de Noronha'
+        :standard: Fernando de Noronha (norma tempo)
+        :daylight: Fernando de Noronha (somera tempo)
+    :Novosibirsk:
+      :long:
+        :generic: novosibirska tempo
+        :standard: novosibirska norma tempo
+        :daylight: novosibirska somera tempo
+    :Omsk:
+      :long:
+        :generic: omska tempo
+        :standard: omska norma tempo
+        :daylight: omska somera tempo
+    :Pakistan:
+      :long:
+        :generic: pakistana tempo
+        :standard: pakistana norma tempo
+        :daylight: pakistana somera tempo
+    :Palau:
+      :long:
+        :standard: palaŭa tempo
+    :Papua_New_Guinea:
+      :long:
+        :standard: 'tempo: Papuo-Nov-Gvineo'
+    :Paraguay:
+      :long:
+        :generic: paragvaja tempo
+        :standard: paragvaja norma tempo
+        :daylight: paragvaja somera tempo
+    :Peru:
+      :long:
+        :generic: perua tempo
+        :standard: perua norma tempo
+        :daylight: perua somera tempo
+    :Philippines:
+      :long:
+        :generic: filipina tempo
+        :standard: filipina norma tempo
+        :daylight: filipina somera tempo
+    :Phoenix_Islands:
+      :long:
+        :standard: feniksinsula tempo
+    :Pierre_Miquelon:
+      :long:
+        :generic: 'tempo: Sankta Piero kaj Mikelono'
+        :standard: Sankta Piero kaj Mikelono (norma tempo)
+        :daylight: Sankta Piero kaj Mikelono (somera tempo)
+    :Pitcairn:
+      :long:
+        :standard: pitkarninsula tempo
+    :Ponape:
+      :long:
+        :standard: 'tempo: Ponape'
+    :Pyongyang:
+      :long:
+        :standard: nord-korea tempo
+    :Reunion:
+      :long:
+        :standard: 'tempo: Reunio'
+    :Rothera:
+      :long:
+        :standard: 'tempo: Rothera'
+    :Sakhalin:
+      :long:
+        :generic: saĥalena tempo
+        :standard: saĥalena norma tempo
+        :daylight: saĥalena somera tempo
+    :Samoa:
+      :long:
+        :generic: uson-samoa tempo
+        :standard: uson-samoa norma tempo
+        :daylight: uson-samoa somera tempo
+    :Seychelles:
+      :long:
+        :standard: sejŝela tempo
+    :Singapore:
+      :long:
+        :standard: singapura norma tempo
+    :Solomon:
+      :long:
+        :standard: 'tempo: Salomonoj'
+    :South_Georgia:
+      :long:
+        :standard: 'tempo: Sud-Georgio'
+    :Suriname:
+      :long:
+        :standard: surinama tempo
+    :Syowa:
+      :long:
+        :standard: 'tempo: Showa'
+    :Tahiti:
+      :long:
+        :standard: tahitia tempo
+    :Taipei:
+      :long:
+        :generic: tajvana tempo
+        :standard: tajvana norma tempo
+        :daylight: tajvana somera tempo
+    :Tajikistan:
+      :long:
+        :standard: taĝika tempo
+    :Tokelau:
+      :long:
+        :standard: tokelaa tempo
+    :Tonga:
+      :long:
+        :generic: tonga tempo
+        :standard: tonga norma tempo
+        :daylight: tonga somera tempo
+    :Truk:
+      :long:
+        :standard: 'tempo: Ĉuuk'
+    :Turkmenistan:
+      :long:
+        :generic: turkmena tempo
+        :standard: turkmena norma tempo
+        :daylight: turkmena somera tempo
+    :Tuvalu:
+      :long:
+        :standard: tuvala tempo
+    :Uruguay:
+      :long:
+        :generic: urugvaja tempo
+        :standard: urugvaja norma tempo
+        :daylight: urugvaja somera tempo
+    :Uzbekistan:
+      :long:
+        :generic: uzbeka tempo
+        :standard: uzbeka norma tempo
+        :daylight: uzbeka somera tempo
+    :Vanuatu:
+      :long:
+        :generic: vanuatua tempo
+        :standard: vanuatua norma tempo
+        :daylight: vanuatua somera tempo
+    :Venezuela:
+      :long:
+        :standard: venezuela tempo
+    :Vladivostok:
+      :long:
+        :generic: vladivostoka tempo
+        :standard: vladivostoka norma tempo
+        :daylight: vladivostoka somera tempo
+    :Volgograd:
+      :long:
+        :generic: volgograda tempo
+        :standard: volgograda norma tempo
+        :daylight: volgograda somera tempo
+    :Vostok:
+      :long:
+        :standard: 'tempo: Vostok'
+    :Wake:
+      :long:
+        :standard: vejkinsula tempo
+    :Wallis:
+      :long:
+        :standard: 'tempo: Valiso kaj Futuno'
+    :Yakutsk:
+      :long:
+        :generic: jakutska tempo
+        :standard: jakutska norma tempo
+        :daylight: jakutska somera tempo
+    :Yekaterinburg:
+      :long:
+        :generic: jekaterinburga tempo
+        :standard: jekaterinburga norma tempo
+        :daylight: jekaterinburga somera tempo
+    :Yukon:
+      :long:
+        :standard: jukonia tempo

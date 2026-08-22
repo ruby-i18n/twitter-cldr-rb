@@ -1,1513 +1,1513 @@
---- 
-:th: 
-  :formats: 
-    :fallback_formats: 
-      :generic: "{1} ({0})"
-    :gmt_formats: 
-      :generic: "GMT{0}"
-    :gmt_unknown_formats: 
-      :generic: GMT+?
-    :gmt_zero_formats: 
-      :generic: GMT
-    :hour_formats: 
+---
+:th:
+  :formats:
+    :hour_formats:
       :generic: "+HH:mm;-HH:mm"
-    :region_formats: 
-      :daylight: "เวลาออมแสง{0}"
-      :generic: "เวลา{0}"
-      :standard: "เวลามาตรฐาน{0}"
-  :metazones: 
-    :Acre: 
-      :long: 
-        :daylight: เวลาฤดูร้อนอาเกร
+    :gmt_formats:
+      :generic: GMT{0}
+    :gmt_zero_formats:
+      :generic: GMT
+    :gmt_unknown_formats:
+      :generic: GMT+?
+    :region_formats:
+      :generic: เวลา{0}
+      :daylight: เวลาออมแสง{0}
+      :standard: เวลามาตรฐาน{0}
+    :fallback_formats:
+      :generic: "{1} ({0})"
+  :timezones:
+    :Etc/UTC:
+      :short:
+        :standard: UTC
+      :long:
+        :standard: เวลาสากลเชิงพิกัด
+    :Europe/Tirane:
+      :city: ติรานา
+    :Antarctica/Syowa:
+      :city: ไซโยวา
+    :Antarctica/DumontDUrville:
+      :city: ดูมองต์ดูร์วิลล์
+    :America/Argentina/Rio_Gallegos:
+      :city: ริโอกาลเลกอส
+    :America/Argentina/Tucuman:
+      :city: ทูคูแมน
+    :America/Cordoba:
+      :city: คอร์โดบา
+    :America/St_Barthelemy:
+      :city: เซนต์บาร์เธเลมี
+    :America/Eirunepe:
+      :city: เอรูเนเป
+    :America/Cuiaba:
+      :city: กุยาบา
+    :America/Santarem:
+      :city: ซันตาเรม
+    :America/Belem:
+      :city: เบเลง
+    :America/Araguaina:
+      :city: อารากัวนา
+    :America/Sao_Paulo:
+      :city: เซาเปาลู
+    :America/Maceio:
+      :city: มาเซโอ
+    :America/Noronha:
+      :city: โนรอนฮา
+    :America/Coral_Harbour:
+      :city: คอรัลฮาร์เบอร์
+    :America/St_Johns:
+      :city: เซนต์จอนส์
+    :Asia/Urumqi:
+      :city: อุรุมชี
+    :America/Bogota:
+      :city: โบโกตา
+    :America/Curacao:
+      :city: คูราเซา
+    :Europe/Busingen:
+      :city: บุสซิงเง็น
+    :Pacific/Galapagos:
+      :city: กาลาปาโกส
+    :Africa/El_Aaiun:
+      :city: เอลไอย์อุง
+    :Africa/Asmera:
+      :city: แอสมารา
+    :Atlantic/Canary:
+      :city: คะเนรี
+    :Pacific/Truk:
+      :city: ทรัก
+    :Pacific/Ponape:
+      :city: โปนาเป
+    :Atlantic/Faeroe:
+      :city: แฟโร
+    :America/Godthab:
+      :city: กอดแธบ
+    :America/Scoresbysund:
+      :city: สกอเรสไบซันด์
+    :Asia/Calcutta:
+      :city: โกลกาตา
+    :Pacific/Enderbury:
+      :city: แคนทอน
+    :Indian/Comoro:
+      :city: โคโมโร
+    :America/St_Kitts:
+      :city: เซนต์คิตส์
+    :America/St_Lucia:
+      :city: เซนต์ลูเซีย
+    :Europe/Chisinau:
+      :city: คีชีเนา
+    :Asia/Rangoon:
+      :city: ย่างกุ้ง
+    :Asia/Hovd:
+      :city: ฮอฟด์
+    :Asia/Macau:
+      :city: มาเก๊า
+    :America/Ciudad_Juarez:
+      :city: ซิวดัดฮัวเรซ
+    :America/Mazatlan:
+      :city: มาซาทลาน
+    :America/Bahia_Banderas:
+      :city: บาเอียบันเดรัส
+    :America/Mexico_City:
+      :city: เม็กซิโกซิตี
+    :America/Merida:
+      :city: เมรีดา
+    :America/Cancun:
+      :city: แคนคุน
+    :Pacific/Noumea:
+      :city: นูเมอา
+    :Asia/Katmandu:
+      :city: กาตมันดุ
+    :America/Miquelon:
+      :city: มีเกอลง
+    :America/Asuncion:
+      :city: อะซุนซิออง
+    :Indian/Reunion:
+      :city: เรอูนียง
+    :Indian/Mahe:
+      :city: มาเอ
+    :Atlantic/St_Helena:
+      :city: เซนต์เฮเลนา
+    :Africa/Sao_Tome:
+      :city: เซาตูเม
+    :America/Lower_Princes:
+      :city: โลเวอร์พรินซ์ ควอเตอร์
+    :Africa/Ndjamena:
+      :city: เอ็นจาเมนา
+    :Africa/Lome:
+      :city: โลเม
+    :Europe/Kiev:
+      :city: เคียฟ
+    :America/North_Dakota/Beulah:
+      :city: โบลาห์, นอร์ทดาโคตา
+    :America/North_Dakota/New_Salem:
+      :city: นิวเซเลม, นอร์ทดาโคตา
+    :America/North_Dakota/Center:
+      :city: เซนเตอร์, นอร์ทดาโคตา
+    :America/Indiana/Vincennes:
+      :city: วินเซนเนส, อินดีแอนา
+    :America/Indiana/Petersburg:
+      :city: ปีเตอร์สเบิร์ก, อินดีแอนา
+    :America/Indiana/Tell_City:
+      :city: เทลล์ซิตี, อินดีแอนา
+    :America/Indiana/Knox:
+      :city: นอกซ์, อินดีแอนา
+    :America/Indiana/Winamac:
+      :city: วินาแมค, อินดีแอนา
+    :America/Indiana/Marengo:
+      :city: มาเรงโก, อินดีแอนา
+    :America/Indiana/Vevay:
+      :city: วีเวย์, อินดีแอนา
+    :America/Kentucky/Monticello:
+      :city: มอนติเซลโล, เคนตักกี
+    :America/St_Vincent:
+      :city: เซนต์วินเซนต์
+    :America/St_Thomas:
+      :city: เซนต์โธมัส
+    :Asia/Saigon:
+      :city: นครโฮจิมินห์
+    :Pacific/Wallis:
+      :city: วาลลิส
+    :Pacific/Honolulu:
+      :city: โฮโนลูลู
+    :Etc/Unknown:
+      :city: ไม่ทราบชื่อเมือง
+    :Europe/Andorra:
+      :city: อันดอร์รา
+    :Asia/Dubai:
+      :city: ดูไบ
+    :Asia/Kabul:
+      :city: คาบูล
+    :America/Antigua:
+      :city: แอนติกา
+    :America/Anguilla:
+      :city: แองกิลลา
+    :Asia/Yerevan:
+      :city: เยเรวาน
+    :Africa/Luanda:
+      :city: ลูอันดา
+    :Antarctica/Rothera:
+      :city: โรธีรา
+    :Antarctica/Palmer:
+      :city: พาล์เมอร์
+    :Antarctica/Troll:
+      :city: โทรล
+    :Antarctica/Mawson:
+      :city: มอว์สัน
+    :Antarctica/Davis:
+      :city: เดวิส
+    :Antarctica/Vostok:
+      :city: วอสตอค
+    :Antarctica/Casey:
+      :city: เคซีย์
+    :Antarctica/McMurdo:
+      :city: แมคมัวโด
+    :America/Mendoza:
+      :city: เมนดูซา
+    :America/Argentina/San_Juan:
+      :city: ซานฮวน
+    :America/Argentina/Ushuaia:
+      :city: อูชูเอีย
+    :America/Argentina/La_Rioja:
+      :city: ลาริโอจา
+    :America/Argentina/San_Luis:
+      :city: ซันลูอิส
+    :America/Catamarca:
+      :city: กาตามาร์กา
+    :America/Argentina/Salta:
+      :city: ซัลตา
+    :America/Jujuy:
+      :city: จูจิว
+    :America/Buenos_Aires:
+      :city: บัวโนสไอเรส
+    :Pacific/Pago_Pago:
+      :city: ปาโก ปาโก
+    :Europe/Vienna:
+      :city: เวียนนา
+    :Australia/Perth:
+      :city: เพิร์ท
+    :Australia/Eucla:
+      :city: ยูคลา
+    :Australia/Darwin:
+      :city: ดาร์วิน
+    :Australia/Adelaide:
+      :city: แอดิเลด
+    :Australia/Broken_Hill:
+      :city: โบรกเคนฮิลล์
+    :Australia/Melbourne:
+      :city: เมลเบิร์น
+    :Australia/Hobart:
+      :city: โฮบาร์ต
+    :Australia/Lindeman:
+      :city: ลินดีแมน
+    :Australia/Sydney:
+      :city: ซิดนีย์
+    :Australia/Brisbane:
+      :city: บริสเบน
+    :Antarctica/Macquarie:
+      :city: แมคควอรี
+    :Australia/Lord_Howe:
+      :city: ลอร์ดโฮว์
+    :America/Aruba:
+      :city: อารูบา
+    :Europe/Mariehamn:
+      :city: มารีฮามน์
+    :Asia/Baku:
+      :city: บากู
+    :Europe/Sarajevo:
+      :city: ซาราเยโว
+    :America/Barbados:
+      :city: บาร์เบโดส
+    :Asia/Dhaka:
+      :city: ดากา
+    :Europe/Brussels:
+      :city: บรัสเซลส์
+    :Africa/Ouagadougou:
+      :city: วากาดูกู
+    :Europe/Sofia:
+      :city: โซเฟีย
+    :Asia/Bahrain:
+      :city: บาห์เรน
+    :Africa/Bujumbura:
+      :city: บูจุมบูรา
+    :Africa/Porto-Novo:
+      :city: ปอร์โต-โนโว
+    :Atlantic/Bermuda:
+      :city: เบอร์มิวดา
+    :Asia/Brunei:
+      :city: บรูไน
+    :America/La_Paz:
+      :city: ลาปาซ
+    :America/Kralendijk:
+      :city: คราเลนดิจค์
+    :America/Rio_Branco:
+      :city: รีโอบรังโก
+    :America/Porto_Velho:
+      :city: ปอร์ตูเวลโย
+    :America/Boa_Vista:
+      :city: บัววีชตา
+    :America/Manaus:
+      :city: มาเนาส์
+    :America/Campo_Grande:
+      :city: กัมปูกรันดี
+    :America/Bahia:
+      :city: บาเยีย
+    :America/Fortaleza:
+      :city: ฟอร์ตาเลซา
+    :America/Recife:
+      :city: เรซีเฟ
+    :America/Nassau:
+      :city: แนสซอ
+    :Asia/Thimphu:
+      :city: ทิมพู
+    :Africa/Gaborone:
+      :city: กาโบโรเน
+    :Europe/Minsk:
+      :city: มินสก์
+    :America/Belize:
+      :city: เบลีซ
+    :America/Dawson:
+      :city: ดอว์สัน
+    :America/Whitehorse:
+      :city: ไวต์ฮอร์ส
+    :America/Inuvik:
+      :city: อินูวิก
+    :America/Vancouver:
+      :city: แวนคูเวอร์
+    :America/Fort_Nelson:
+      :city: ฟอร์ตเนลสัน
+    :America/Dawson_Creek:
+      :city: ดอว์สัน ครีก
+    :America/Creston:
+      :city: เครสตัน
+    :America/Edmonton:
+      :city: เอดมันตัน
+    :America/Swift_Current:
+      :city: สวิฟต์เคอร์เรนต์
+    :America/Cambridge_Bay:
+      :city: อ่าวแคมบริดจ์
+    :America/Regina:
+      :city: ริไจนา
+    :America/Winnipeg:
+      :city: วินนิเพก
+    :America/Resolute:
+      :city: เรโซลูท
+    :America/Rankin_Inlet:
+      :city: แรงกินอินเล็ต
+    :America/Toronto:
+      :city: โทรอนโต
+    :America/Iqaluit:
+      :city: อีกวาลิต
+    :America/Moncton:
+      :city: มองตัน
+    :America/Halifax:
+      :city: แฮลิแฟกซ์
+    :America/Goose_Bay:
+      :city: กูสเบย์
+    :America/Glace_Bay:
+      :city: เกลซเบย์
+    :America/Blanc-Sablon:
+      :city: บลังค์-ซาบลอน
+    :Indian/Cocos:
+      :city: โคโคส
+    :Africa/Kinshasa:
+      :city: กินชาซา
+    :Africa/Lubumbashi:
+      :city: ลูบัมบาชิ
+    :Africa/Bangui:
+      :city: บังกี
+    :Africa/Brazzaville:
+      :city: บราซซาวิล
+    :Europe/Zurich:
+      :city: ซูริค
+    :Africa/Abidjan:
+      :city: อาบีจาน
+    :Pacific/Rarotonga:
+      :city: ราโรตองกา
+    :Pacific/Easter:
+      :city: อีสเตอร์
+    :America/Coyhaique:
+      :city: โกไยเก
+    :America/Punta_Arenas:
+      :city: ปุนตาอาเรนัส
+    :America/Santiago:
+      :city: ซันติอาโก
+    :Africa/Douala:
+      :city: ดูอาลา
+    :Asia/Shanghai:
+      :city: เซี่ยงไฮ้
+    :America/Costa_Rica:
+      :city: คอสตาริกา
+    :America/Havana:
+      :city: ฮาวานา
+    :Atlantic/Cape_Verde:
+      :city: เคปเวิร์ด
+    :Indian/Christmas:
+      :city: คริสต์มาส
+    :Asia/Nicosia:
+      :city: นิโคเซีย
+    :Asia/Famagusta:
+      :city: แฟมากุสตา
+    :Europe/Prague:
+      :city: ปราก
+    :Europe/Berlin:
+      :city: เบอร์ลิน
+    :Africa/Djibouti:
+      :city: จิบูตี
+    :Europe/Copenhagen:
+      :city: โคเปนเฮเกน
+    :America/Dominica:
+      :city: โดมินิกา
+    :America/Santo_Domingo:
+      :city: ซานโต โดมิงโก
+    :Africa/Algiers:
+      :city: แอลเจียร์
+    :America/Guayaquil:
+      :city: กัวยากิล
+    :Europe/Tallinn:
+      :city: ทาลลินน์
+    :Africa/Cairo:
+      :city: ไคโร
+    :Africa/Ceuta:
+      :city: เซวตา
+    :Europe/Madrid:
+      :city: มาดริด
+    :Africa/Addis_Ababa:
+      :city: แอดดิสอาบาบา
+    :Europe/Helsinki:
+      :city: เฮลซิงกิ
+    :Pacific/Fiji:
+      :city: ฟิจิ
+    :Atlantic/Stanley:
+      :city: สแตนลีย์
+    :Pacific/Kosrae:
+      :city: คอสไร
+    :Europe/Paris:
+      :city: ปารีส
+    :Africa/Libreville:
+      :city: ลีเบรอวิล
+    :Europe/London:
+      :long:
+        :daylight: เวลาฤดูร้อนอังกฤษ
+      :city: ลอนดอน
+    :America/Grenada:
+      :city: เกรนาดา
+    :Asia/Tbilisi:
+      :city: ทบิลิซิ
+    :America/Cayenne:
+      :city: กาแยน
+    :Europe/Guernsey:
+      :city: เกิร์นซีย์
+    :Africa/Accra:
+      :city: อักกรา
+    :Europe/Gibraltar:
+      :city: ยิบรอลตาร์
+    :America/Thule:
+      :city: ทูเล
+    :America/Danmarkshavn:
+      :city: ดานมาร์กสฮาวน์
+    :Africa/Banjul:
+      :city: บันจูล
+    :Africa/Conakry:
+      :city: โกนากรี
+    :America/Guadeloupe:
+      :city: กวาเดอลูป
+    :Africa/Malabo:
+      :city: มาลาโบ
+    :Europe/Athens:
+      :city: เอเธนส์
+    :Atlantic/South_Georgia:
+      :city: เซาท์ จอร์เจีย
+    :America/Guatemala:
+      :city: กัวเตมาลา
+    :Pacific/Guam:
+      :city: กวม
+    :Africa/Bissau:
+      :city: บิสเซา
+    :America/Guyana:
+      :city: กายอานา
+    :Asia/Hong_Kong:
+      :city: ฮ่องกง
+    :America/Tegucigalpa:
+      :city: เตกูซิกัลปา
+    :Europe/Zagreb:
+      :city: ซาเกร็บ
+    :America/Port-au-Prince:
+      :city: ปอร์โตแปรงซ์
+    :Europe/Budapest:
+      :city: บูดาเปส
+    :Asia/Jakarta:
+      :city: จาการ์ตา
+    :Asia/Pontianak:
+      :city: พอนเทียนัก
+    :Asia/Makassar:
+      :city: มากัสซาร์
+    :Asia/Jayapura:
+      :city: จายาปุระ
+    :Europe/Dublin:
+      :long:
+        :daylight: เวลามาตรฐานไอร์แลนด์
+      :city: ดับบลิน
+    :Asia/Jerusalem:
+      :city: เยรูซาเลม
+    :Europe/Isle_of_Man:
+      :city: เกาะแมน
+    :Indian/Chagos:
+      :city: ชากัส
+    :Asia/Baghdad:
+      :city: แบกแดด
+    :Asia/Tehran:
+      :city: เตหะราน
+    :Atlantic/Reykjavik:
+      :city: เรคยาวิก
+    :Europe/Rome:
+      :city: โรม
+    :Europe/Jersey:
+      :city: เจอร์ซีย์
+    :America/Jamaica:
+      :city: จาเมกา
+    :Asia/Amman:
+      :city: อัมมาน
+    :Asia/Tokyo:
+      :city: โตเกียว
+    :Africa/Nairobi:
+      :city: ไนโรเบีย
+    :Asia/Bishkek:
+      :city: บิชเคก
+    :Asia/Phnom_Penh:
+      :city: พนมเปญ
+    :Pacific/Kiritimati:
+      :city: คิริทิมาตี
+    :Pacific/Tarawa:
+      :city: ตาระวา
+    :Asia/Pyongyang:
+      :city: เปียงยาง
+    :Asia/Seoul:
+      :city: โซล
+    :Asia/Kuwait:
+      :city: คูเวต
+    :America/Cayman:
+      :city: เคย์แมน
+    :Asia/Aqtau:
+      :city: อัคตาอู
+    :Asia/Oral:
+      :city: ออรัล
+    :Asia/Atyrau:
+      :city: อทีราว
+    :Asia/Aqtobe:
+      :city: อัคโทบี
+    :Asia/Qostanay:
+      :city: คอสตาเนย์
+    :Asia/Qyzylorda:
+      :city: ไคซีลอร์ดา
+    :Asia/Almaty:
+      :city: อัลมาตี
+    :Asia/Vientiane:
+      :city: เวียงจันทน์
+    :Asia/Beirut:
+      :city: เบรุต
+    :Europe/Vaduz:
+      :city: วาดุซ
+    :Asia/Colombo:
+      :city: โคลัมโบ
+    :Africa/Monrovia:
+      :city: มันโรเวีย
+    :Africa/Maseru:
+      :city: มาเซรู
+    :Europe/Vilnius:
+      :city: วิลนีอุส
+    :Europe/Luxembourg:
+      :city: ลักเซมเบิร์ก
+    :Europe/Riga:
+      :city: ริกา
+    :Africa/Tripoli:
+      :city: ตรีโปลี
+    :Africa/Casablanca:
+      :city: คาสซาบลางก้า
+    :Europe/Monaco:
+      :city: โมนาโก
+    :Europe/Podgorica:
+      :city: พอดกอรีตซา
+    :America/Marigot:
+      :city: มาริโกต์
+    :Indian/Antananarivo:
+      :city: อันตานานาริโว
+    :Pacific/Kwajalein:
+      :city: ควาจาเลน
+    :Pacific/Majuro:
+      :city: มาจูโร
+    :Europe/Skopje:
+      :city: สโกเปีย
+    :Africa/Bamako:
+      :city: บามาโก
+    :Asia/Ulaanbaatar:
+      :city: อูลานบาตอร์
+    :Pacific/Saipan:
+      :city: ไซปัน
+    :America/Martinique:
+      :city: มาร์ตินีก
+    :Africa/Nouakchott:
+      :city: นูแอกชอต
+    :America/Montserrat:
+      :city: มอนเซอร์รัต
+    :Europe/Malta:
+      :city: มอลตา
+    :Indian/Mauritius:
+      :city: มอริเชียส
+    :Indian/Maldives:
+      :city: มัลดีฟส์
+    :Africa/Blantyre:
+      :city: แบลนไทร์
+    :America/Tijuana:
+      :city: ทิฮัวนา
+    :America/Hermosillo:
+      :city: เอร์โมซีโย
+    :America/Chihuahua:
+      :city: ชีวาวา
+    :America/Ojinaga:
+      :city: โอจินากา
+    :America/Monterrey:
+      :city: มอนเตร์เรย์
+    :America/Matamoros:
+      :city: มาตาโมรอส
+    :Asia/Kuala_Lumpur:
+      :city: กัวลาลัมเปอร์
+    :Asia/Kuching:
+      :city: กูชิง
+    :Africa/Maputo:
+      :city: มาปูโต
+    :Africa/Windhoek:
+      :city: วินด์ฮุก
+    :Africa/Niamey:
+      :city: นีอาเมย์
+    :Pacific/Norfolk:
+      :city: นอร์ฟอล์ก
+    :Africa/Lagos:
+      :city: ลากอส
+    :America/Managua:
+      :city: มานากัว
+    :Europe/Amsterdam:
+      :city: อัมสเตอดัม
+    :Europe/Oslo:
+      :city: ออสโล
+    :Pacific/Nauru:
+      :city: นาอูรู
+    :Pacific/Niue:
+      :city: นีอูเอ
+    :Pacific/Chatham:
+      :city: แชทัม
+    :Pacific/Auckland:
+      :city: โอคแลนด์
+    :Asia/Muscat:
+      :city: มัสกัต
+    :America/Panama:
+      :city: ปานามา
+    :America/Lima:
+      :city: ลิมา
+    :Pacific/Tahiti:
+      :city: ตาฮีตี
+    :Pacific/Marquesas:
+      :city: มาร์เคซัส
+    :Pacific/Gambier:
+      :city: แกมเบียร์
+    :Pacific/Port_Moresby:
+      :city: พอร์ตมอร์สบี
+    :Pacific/Bougainville:
+      :city: บูเกนวิลล์
+    :Asia/Manila:
+      :city: มะนิลา
+    :Asia/Karachi:
+      :city: การาจี
+    :Europe/Warsaw:
+      :city: วอร์ซอ
+    :Pacific/Pitcairn:
+      :city: พิตแคร์น
+    :America/Puerto_Rico:
+      :city: เปอโตริโก
+    :Asia/Gaza:
+      :city: กาซา
+    :Asia/Hebron:
+      :city: เฮบรอน
+    :Atlantic/Azores:
+      :city: อะโซร์ส
+    :Atlantic/Madeira:
+      :city: มาเดรา
+    :Europe/Lisbon:
+      :city: ลิสบอน
+    :Pacific/Palau:
+      :city: ปาเลา
+    :Asia/Qatar:
+      :city: กาตาร์
+    :Europe/Bucharest:
+      :city: บูคาเรส
+    :Europe/Belgrade:
+      :city: เบลเกรด
+    :Europe/Kaliningrad:
+      :city: คาลินิงกราด
+    :Europe/Moscow:
+      :city: มอสโก
+    :Europe/Volgograd:
+      :city: วอลโกกราด
+    :Europe/Saratov:
+      :city: ซาราทอฟ
+    :Europe/Astrakhan:
+      :city: แอสตราคาน
+    :Europe/Ulyanovsk:
+      :city: อะลิยานอฟ
+    :Europe/Kirov:
+      :city: คิรอฟ
+    :Europe/Samara:
+      :city: ซามารา
+    :Asia/Yekaterinburg:
+      :city: ยีคาเตอรินเบิร์ก
+    :Asia/Omsk:
+      :city: โอมสก์
+    :Asia/Novosibirsk:
+      :city: โนโวซิบิร์สก์
+    :Asia/Barnaul:
+      :city: บาร์เนาว์
+    :Asia/Tomsk:
+      :city: ตอมสค์
+    :Asia/Novokuznetsk:
+      :city: โนโวคุซเนตสค์
+    :Asia/Krasnoyarsk:
+      :city: ครัสโนยาร์สก์
+    :Asia/Irkutsk:
+      :city: อีร์คุตสค์
+    :Asia/Chita:
+      :city: ชิตา
+    :Asia/Yakutsk:
+      :city: ยาคุตสค์
+    :Asia/Vladivostok:
+      :city: วลาดิโวสต็อก
+    :Asia/Khandyga:
+      :city: ฮันดืยกา
+    :Asia/Sakhalin:
+      :city: ซาคาลิน
+    :Asia/Ust-Nera:
+      :city: อุสต์เนรา
+    :Asia/Magadan:
+      :city: มากาดาน
+    :Asia/Srednekolymsk:
+      :city: ซเรดเนคโคลิมสก์
+    :Asia/Kamchatka:
+      :city: คามชัตกา
+    :Asia/Anadyr:
+      :city: อานาดีร์
+    :Africa/Kigali:
+      :city: คิกาลี
+    :Asia/Riyadh:
+      :city: ริยาร์ด
+    :Pacific/Guadalcanal:
+      :city: กัวดัลคานัล
+    :Africa/Khartoum:
+      :city: คาร์ทูม
+    :Europe/Stockholm:
+      :city: สตอกโฮล์ม
+    :Asia/Singapore:
+      :city: สิงคโปร์
+    :Europe/Ljubljana:
+      :city: ลูบลิยานา
+    :Arctic/Longyearbyen:
+      :city: ลองเยียร์เบียน
+    :Europe/Bratislava:
+      :city: บราติสลาวา
+    :Africa/Freetown:
+      :city: ฟรีทาวน์
+    :Europe/San_Marino:
+      :city: ซานมารีโน
+    :Africa/Dakar:
+      :city: ดาการ์
+    :Africa/Mogadishu:
+      :city: โมกาดิชู
+    :America/Paramaribo:
+      :city: ปารามาริโบ
+    :Africa/Juba:
+      :city: จูบา
+    :America/El_Salvador:
+      :city: เอลซัลวาดอร์
+    :Asia/Damascus:
+      :city: ดามัสกัส
+    :Africa/Mbabane:
+      :city: อัมบาบาเน
+    :America/Grand_Turk:
+      :city: แกรนด์เติร์ก
+    :Indian/Kerguelen:
+      :city: แกร์เกอลอง
+    :Asia/Bangkok:
+      :city: กรุงเทพ
+    :Asia/Dushanbe:
+      :city: ดูชานเบ
+    :Pacific/Fakaofo:
+      :city: ฟาเคาโฟ
+    :Asia/Dili:
+      :city: ดิลี
+    :Asia/Ashgabat:
+      :city: อาชกาบัต
+    :Africa/Tunis:
+      :city: ตูนิส
+    :Pacific/Tongatapu:
+      :city: ตองกาตาปู
+    :Europe/Istanbul:
+      :city: อิสตันบูล
+    :America/Port_of_Spain:
+      :city: พอร์ทออฟสเปน
+    :Pacific/Funafuti:
+      :city: ฟูนะฟูตี
+    :Asia/Taipei:
+      :city: ไทเป
+    :Africa/Dar_es_Salaam:
+      :city: ดาร์เอสซาลาม
+    :Europe/Simferopol:
+      :city: ซิมเฟอโรโปล
+    :Africa/Kampala:
+      :city: คัมพาลา
+    :Pacific/Midway:
+      :city: มิดเวย์
+    :Pacific/Wake:
+      :city: เวก
+    :America/Adak:
+      :city: เอดัก
+    :America/Nome:
+      :city: นอม
+    :America/Anchorage:
+      :city: แองเคอเรจ
+    :America/Yakutat:
+      :city: ยากูทัต
+    :America/Sitka:
+      :city: ซิตกา
+    :America/Juneau:
+      :city: จูโน
+    :America/Metlakatla:
+      :city: เมทลากาตละ
+    :America/Los_Angeles:
+      :city: ลอสแองเจลิส
+    :America/Boise:
+      :city: บอยซี
+    :America/Phoenix:
+      :city: ฟินิกซ์
+    :America/Denver:
+      :city: เดนเวอร์
+    :America/Chicago:
+      :city: ชิคาโก
+    :America/Menominee:
+      :city: เมโนมินี
+    :America/Indianapolis:
+      :city: อินเดียแนโพลิส
+    :America/Louisville:
+      :city: ลูส์วิลล์
+    :America/Detroit:
+      :city: ดีทรอยต์
+    :America/New_York:
+      :city: นิวยอร์ก
+    :America/Montevideo:
+      :city: มอนเตวิเดโอ
+    :Asia/Samarkand:
+      :city: ซามาร์กานด์
+    :Asia/Tashkent:
+      :city: ทาชเคนต์
+    :Europe/Vatican:
+      :city: วาติกัน
+    :America/Caracas:
+      :city: คาราคัส
+    :America/Tortola:
+      :city: ตอร์โตลา
+    :Pacific/Efate:
+      :city: เอฟาเต
+    :Pacific/Apia:
+      :city: อาปีอา
+    :Asia/Aden:
+      :city: เอเดน
+    :Indian/Mayotte:
+      :city: มาโยเต
+    :Africa/Johannesburg:
+      :city: โจฮันเนสเบอร์ก
+    :Africa/Lusaka:
+      :city: ลูซากา
+    :Africa/Harare:
+      :city: ฮาราเร
+  :metazones:
+    :Acre:
+      :long:
         :generic: เวลาอาเกร
         :standard: เวลามาตรฐานอาเกร
-    :Afghanistan: 
-      :long: 
+        :daylight: เวลาฤดูร้อนอาเกร
+    :Afghanistan:
+      :long:
         :standard: เวลาอัฟกานิสถาน
-    :Africa_Central: 
-      :long: 
+    :Africa_Central:
+      :long:
         :standard: เวลาแอฟริกากลาง
-    :Africa_Eastern: 
-      :long: 
+    :Africa_Eastern:
+      :long:
         :standard: เวลาแอฟริกาตะวันออก
-    :Africa_Southern: 
-      :long: 
+    :Africa_Southern:
+      :long:
         :standard: เวลาแอฟริกาใต้
-    :Africa_Western: 
-      :long: 
+    :Africa_Western:
+      :long:
         :standard: เวลาแอฟริกาตะวันตก
-    :Alaska: 
-      :long: 
-        :daylight: เวลาออมแสงของอะแลสกา
+    :Alaska:
+      :long:
         :generic: เวลาอะแลสกา
         :standard: เวลามาตรฐานอะแลสกา
-    :Almaty: 
-      :long: 
-        :daylight: เวลาฤดูร้อนอัลมาตี
+        :daylight: เวลาออมแสงของอะแลสกา
+    :Almaty:
+      :long:
         :generic: เวลาอัลมาตี
         :standard: เวลามาตรฐานอัลมาตี
-    :Amazon: 
-      :long: 
-        :daylight: เวลาฤดูร้อนแอมะซอน
+        :daylight: เวลาฤดูร้อนอัลมาตี
+    :Amazon:
+      :long:
         :generic: เวลาแอมะซอน
         :standard: เวลามาตรฐานแอมะซอน
-    :America_Central: 
-      :long: 
-        :daylight: เวลาออมแสงตอนกลางในอเมริกาเหนือ
+        :daylight: เวลาฤดูร้อนแอมะซอน
+    :America_Central:
+      :long:
         :generic: เวลาตอนกลางในอเมริกาเหนือ
         :standard: เวลามาตรฐานตอนกลางในอเมริกาเหนือ
-    :America_Eastern: 
-      :long: 
-        :daylight: เวลาออมแสงทางตะวันออกในอเมริกาเหนือ
+        :daylight: เวลาออมแสงตอนกลางในอเมริกาเหนือ
+    :America_Eastern:
+      :long:
         :generic: เวลาทางตะวันออกในอเมริกาเหนือ
         :standard: เวลามาตรฐานทางตะวันออกในอเมริกาเหนือ
-    :America_Mountain: 
-      :long: 
-        :daylight: เวลาออมแสงแถบภูเขาในอเมริกาเหนือ
+        :daylight: เวลาออมแสงทางตะวันออกในอเมริกาเหนือ
+    :America_Mountain:
+      :long:
         :generic: เวลาแถบภูเขาในอเมริกาเหนือ
         :standard: เวลามาตรฐานแถบภูเขาในอเมริกาเหนือ
-    :America_Pacific: 
-      :long: 
-        :daylight: เวลาออมแสงแปซิฟิกในอเมริกาเหนือ
+        :daylight: เวลาออมแสงแถบภูเขาในอเมริกาเหนือ
+    :America_Pacific:
+      :long:
         :generic: เวลาแปซิฟิกในอเมริกาเหนือ
         :standard: เวลามาตรฐานแปซิฟิกในอเมริกาเหนือ
-    :Anadyr: 
-      :long: 
-        :daylight: เวลาฤดูร้อนอะนาดีร์
+        :daylight: เวลาออมแสงแปซิฟิกในอเมริกาเหนือ
+    :Anadyr:
+      :long:
         :generic: เวลาอะนาดีร์
         :standard: เวลามาตรฐานอะนาดีร์
-    :Apia: 
-      :long: 
-        :daylight: เวลาออมแสงอาปีอา
+        :daylight: เวลาฤดูร้อนอะนาดีร์
+    :Apia:
+      :long:
         :generic: เวลาอาปีอา
         :standard: เวลามาตรฐานอาปีอา
-    :Aqtau: 
-      :long: 
-        :daylight: เวลาฤดูร้อนอัคตาอู
+        :daylight: เวลาออมแสงอาปีอา
+    :Aqtau:
+      :long:
         :generic: เวลาอัคตาอู
         :standard: เวลามาตรฐานอัคตาอู
-    :Aqtobe: 
-      :long: 
-        :daylight: เวลาฤดูร้อนอัคโทเบ
+        :daylight: เวลาฤดูร้อนอัคตาอู
+    :Aqtobe:
+      :long:
         :generic: เวลาอัคโทเบ
         :standard: เวลามาตรฐานอัคโทเบ
-    :Arabian: 
-      :long: 
-        :daylight: เวลาออมแสงอาหรับ
+        :daylight: เวลาฤดูร้อนอัคโทเบ
+    :Arabian:
+      :long:
         :generic: เวลาอาหรับ
         :standard: เวลามาตรฐานอาหรับ
-    :Argentina: 
-      :long: 
-        :daylight: เวลาฤดูร้อนอาร์เจนตินา
+        :daylight: เวลาออมแสงอาหรับ
+    :Argentina:
+      :long:
         :generic: เวลาอาร์เจนตินา
         :standard: เวลามาตรฐานอาร์เจนตินา
-    :Argentina_Western: 
-      :long: 
-        :daylight: เวลาฤดูร้อนทางตะวันตกของอาร์เจนตินา
+        :daylight: เวลาฤดูร้อนอาร์เจนตินา
+    :Argentina_Western:
+      :long:
         :generic: เวลาตะวันตกของอาร์เจนตินา
         :standard: เวลามาตรฐานทางตะวันตกของอาร์เจนตินา
-    :Armenia: 
-      :long: 
-        :daylight: เวลาฤดูร้อนอาร์เมเนีย
+        :daylight: เวลาฤดูร้อนทางตะวันตกของอาร์เจนตินา
+    :Armenia:
+      :long:
         :generic: เวลาอาร์เมเนีย
         :standard: เวลามาตรฐานอาร์เมเนีย
-    :Atlantic: 
-      :long: 
-        :daylight: เวลาออมแสงของแอตแลนติก
+        :daylight: เวลาฤดูร้อนอาร์เมเนีย
+    :Atlantic:
+      :long:
         :generic: เวลาแอตแลนติก
         :standard: เวลามาตรฐานแอตแลนติก
-    :Australia_Central: 
-      :long: 
-        :daylight: เวลาออมแสงทางตอนกลางของออสเตรเลีย
+        :daylight: เวลาออมแสงของแอตแลนติก
+    :Australia_Central:
+      :long:
         :generic: เวลาออสเตรเลียกลาง
         :standard: เวลามาตรฐานทางตอนกลางของออสเตรเลีย
-    :Australia_CentralWestern: 
-      :long: 
-        :daylight: เวลาออมแสงทางตะวันตกตอนกลางของออสเตรเลีย
+        :daylight: เวลาออมแสงทางตอนกลางของออสเตรเลีย
+    :Australia_CentralWestern:
+      :long:
         :generic: เวลาทางตะวันตกตอนกลางของออสเตรเลีย
         :standard: เวลามาตรฐานทางตะวันตกตอนกลางของออสเตรเลีย
-    :Australia_Eastern: 
-      :long: 
-        :daylight: เวลาออมแสงทางตะวันออกของออสเตรเลีย
+        :daylight: เวลาออมแสงทางตะวันตกตอนกลางของออสเตรเลีย
+    :Australia_Eastern:
+      :long:
         :generic: เวลาออสเตรเลียตะวันออก
         :standard: เวลามาตรฐานทางตะวันออกของออสเตรเลีย
-    :Australia_Western: 
-      :long: 
-        :daylight: เวลาออมแสงทางตะวันตกของออสเตรเลีย
+        :daylight: เวลาออมแสงทางตะวันออกของออสเตรเลีย
+    :Australia_Western:
+      :long:
         :generic: เวลาออสเตรเลียตะวันตก
         :standard: เวลามาตรฐานทางตะวันตกของออสเตรเลีย
-    :Azerbaijan: 
-      :long: 
-        :daylight: เวลาฤดูร้อนอาเซอร์ไบจาน
+        :daylight: เวลาออมแสงทางตะวันตกของออสเตรเลีย
+    :Azerbaijan:
+      :long:
         :generic: เวลาอาเซอร์ไบจาน
         :standard: เวลามาตรฐานอาเซอร์ไบจาน
-    :Azores: 
-      :long: 
-        :daylight: เวลาฤดูร้อนอะโซร์ส
+        :daylight: เวลาฤดูร้อนอาเซอร์ไบจาน
+    :Azores:
+      :long:
         :generic: เวลาอะโซร์ส
         :standard: เวลามาตรฐานอะโซร์ส
-    :Bangladesh: 
-      :long: 
-        :daylight: เวลาฤดูร้อนบังกลาเทศ
+        :daylight: เวลาฤดูร้อนอะโซร์ส
+    :Bangladesh:
+      :long:
         :generic: เวลาบังกลาเทศ
         :standard: เวลามาตรฐานบังกลาเทศ
-    :Bhutan: 
-      :long: 
+        :daylight: เวลาฤดูร้อนบังกลาเทศ
+    :Bhutan:
+      :long:
         :standard: เวลาภูฏาน
-    :Bolivia: 
-      :long: 
+    :Bolivia:
+      :long:
         :standard: เวลาโบลิเวีย
-    :Brasilia: 
-      :long: 
-        :daylight: เวลาฤดูร้อนบราซิเลีย
+    :Brasilia:
+      :long:
         :generic: เวลาบราซิเลีย
         :standard: เวลามาตรฐานบราซิเลีย
-    :Brunei: 
-      :long: 
+        :daylight: เวลาฤดูร้อนบราซิเลีย
+    :Brunei:
+      :long:
         :standard: เวลาบรูไนดารุสซาลาม
-    :Cape_Verde: 
-      :long: 
-        :daylight: เวลาฤดูร้อนเคปเวิร์ด
+    :Cape_Verde:
+      :long:
         :generic: เวลาเคปเวิร์ด
         :standard: เวลามาตรฐานเคปเวิร์ด
-    :Casey: 
-      :long: 
+        :daylight: เวลาฤดูร้อนเคปเวิร์ด
+    :Casey:
+      :long:
         :standard: เวลาเคซีย์
-    :Chamorro: 
-      :long: 
+    :Chamorro:
+      :long:
         :standard: เวลาชามอร์โร
-    :Chatham: 
-      :long: 
-        :daylight: เวลาออมแสงแชทัม
+    :Chatham:
+      :long:
         :generic: เวลาแชทัม
         :standard: เวลามาตรฐานแชทัม
-    :Chile: 
-      :long: 
-        :daylight: เวลาฤดูร้อนชิลี
+        :daylight: เวลาออมแสงแชทัม
+    :Chile:
+      :long:
         :generic: เวลาชิลี
         :standard: เวลามาตรฐานชิลี
-    :China: 
-      :long: 
-        :daylight: เวลาออมแสงจีน
+        :daylight: เวลาฤดูร้อนชิลี
+    :China:
+      :long:
         :generic: เวลาจีน
         :standard: เวลามาตรฐานจีน
-    :Christmas: 
-      :long: 
+        :daylight: เวลาออมแสงจีน
+    :Christmas:
+      :long:
         :standard: เวลาเกาะคริสต์มาส
-    :Cocos: 
-      :long: 
+    :Cocos:
+      :long:
         :standard: เวลาหมู่เกาะโคโคส
-    :Colombia: 
-      :long: 
-        :daylight: เวลาฤดูร้อนโคลอมเบีย
+    :Colombia:
+      :long:
         :generic: เวลาโคลอมเบีย
         :standard: เวลามาตรฐานโคลอมเบีย
-    :Cook: 
-      :long: 
-        :daylight: เวลาครึ่งฤดูร้อนหมู่เกาะคุก
+        :daylight: เวลาฤดูร้อนโคลอมเบีย
+    :Cook:
+      :long:
         :generic: เวลาหมู่เกาะคุก
         :standard: เวลามาตรฐานหมู่เกาะคุก
-    :Cuba: 
-      :long: 
-        :daylight: เวลาออมแสงของคิวบา
+        :daylight: เวลาครึ่งฤดูร้อนหมู่เกาะคุก
+    :Cuba:
+      :long:
         :generic: เวลาคิวบา
         :standard: เวลามาตรฐานคิวบา
-    :Davis: 
-      :long: 
+        :daylight: เวลาออมแสงของคิวบา
+    :Davis:
+      :long:
         :standard: เวลาเดวิส
-    :DumontDUrville: 
-      :long: 
+    :DumontDUrville:
+      :long:
         :standard: เวลาดูมองต์ดูร์วิลล์
-    :East_Timor: 
-      :long: 
+    :East_Timor:
+      :long:
         :standard: เวลาติมอร์ตะวันออก
-    :Easter: 
-      :long: 
-        :daylight: เวลาฤดูร้อนเกาะอีสเตอร์
+    :Easter:
+      :long:
         :generic: เวลาเกาะอีสเตอร์
         :standard: เวลามาตรฐานเกาะอีสเตอร์
-    :Ecuador: 
-      :long: 
+        :daylight: เวลาฤดูร้อนเกาะอีสเตอร์
+    :Ecuador:
+      :long:
         :standard: เวลาเอกวาดอร์
-    :Europe_Central: 
-      :long: 
-        :daylight: เวลาฤดูร้อนยุโรปกลาง
+    :Europe_Central:
+      :long:
         :generic: เวลายุโรปกลาง
         :standard: เวลามาตรฐานยุโรปกลาง
-    :Europe_Eastern: 
-      :long: 
-        :daylight: เวลาฤดูร้อนยุโรปตะวันออก
+        :daylight: เวลาฤดูร้อนยุโรปกลาง
+    :Europe_Eastern:
+      :long:
         :generic: เวลายุโรปตะวันออก
         :standard: เวลามาตรฐานยุโรปตะวันออก
-    :Europe_Further_Eastern: 
-      :long: 
+        :daylight: เวลาฤดูร้อนยุโรปตะวันออก
+    :Europe_Further_Eastern:
+      :long:
         :standard: เวลายุโรปตะวันออกไกล
-    :Europe_Western: 
-      :long: 
-        :daylight: เวลาฤดูร้อนยุโรปตะวันตก
+    :Europe_Western:
+      :long:
         :generic: เวลายุโรปตะวันตก
         :standard: เวลามาตรฐานยุโรปตะวันตก
-    :Falkland: 
-      :long: 
-        :daylight: เวลาฤดูร้อนหมู่เกาะฟอล์กแลนด์
+        :daylight: เวลาฤดูร้อนยุโรปตะวันตก
+    :Falkland:
+      :long:
         :generic: เวลาหมู่เกาะฟอล์กแลนด์
         :standard: เวลามาตรฐานหมู่เกาะฟอล์กแลนด์
-    :Fiji: 
-      :long: 
-        :daylight: เวลาฤดูร้อนฟิจิ
+        :daylight: เวลาฤดูร้อนหมู่เกาะฟอล์กแลนด์
+    :Fiji:
+      :long:
         :generic: เวลาฟิจิ
         :standard: เวลามาตรฐานฟิจิ
-    :French_Guiana: 
-      :long: 
+        :daylight: เวลาฤดูร้อนฟิจิ
+    :French_Guiana:
+      :long:
         :standard: เวลาเฟรนช์เกียนา
-    :French_Southern: 
-      :long: 
+    :French_Southern:
+      :long:
         :standard: เวลาเฟรนช์เซาเทิร์นและแอนตาร์กติก
-    :GMT: 
-      :long: 
-        :standard: เวลามาตรฐานกรีนิช
-    :Galapagos: 
-      :long: 
+    :Galapagos:
+      :long:
         :standard: เวลากาลาปาโกส
-    :Gambier: 
-      :long: 
+    :Gambier:
+      :long:
         :standard: เวลาแกมเบียร์
-    :Georgia: 
-      :long: 
-        :daylight: เวลาฤดูร้อนจอร์เจีย
+    :Georgia:
+      :long:
         :generic: เวลาจอร์เจีย
         :standard: เวลามาตรฐานจอร์เจีย
-    :Gilbert_Islands: 
-      :long: 
+        :daylight: เวลาฤดูร้อนจอร์เจีย
+    :Gilbert_Islands:
+      :long:
         :standard: เวลาหมู่เกาะกิลเบิร์ต
-    :Greenland_Eastern: 
-      :long: 
-        :daylight: เวลาฤดูร้อนกรีนแลนด์ตะวันออก
+    :GMT:
+      :long:
+        :standard: เวลามาตรฐานกรีนิช
+    :Greenland_Eastern:
+      :long:
         :generic: เวลากรีนแลนด์ตะวันออก
         :standard: เวลามาตรฐานกรีนแลนด์ตะวันออก
-    :Greenland_Western: 
-      :long: 
-        :daylight: เวลาฤดูร้อนกรีนแลนด์ตะวันตก
+        :daylight: เวลาฤดูร้อนกรีนแลนด์ตะวันออก
+    :Greenland_Western:
+      :long:
         :generic: เวลากรีนแลนด์ตะวันตก
         :standard: เวลามาตรฐานกรีนแลนด์ตะวันตก
-    :Guam: 
-      :long: 
+        :daylight: เวลาฤดูร้อนกรีนแลนด์ตะวันตก
+    :Guam:
+      :long:
         :standard: เวลากวม
-    :Gulf: 
-      :long: 
+    :Gulf:
+      :long:
         :standard: เวลากัลฟ์
-    :Guyana: 
-      :long: 
+    :Guyana:
+      :long:
         :standard: เวลากายอานา
-    :Hawaii: 
-      :long: 
+    :Hawaii:
+      :long:
         :standard: เวลามาตรฐานฮาวาย-อะลูเชียน
-    :Hawaii_Aleutian: 
-      :long: 
-        :daylight: เวลาออมแสงฮาวาย-อะลูเชียน
+    :Hawaii_Aleutian:
+      :long:
         :generic: เวลาฮาวาย-อะลูเชียน
         :standard: เวลามาตรฐานฮาวาย-อะลูเชียน
-    :Hong_Kong: 
-      :long: 
-        :daylight: เวลาฤดูร้อนฮ่องกง
+        :daylight: เวลาออมแสงฮาวาย-อะลูเชียน
+    :Hong_Kong:
+      :long:
         :generic: เวลาฮ่องกง
         :standard: เวลามาตรฐานฮ่องกง
-    :Hovd: 
-      :long: 
-        :daylight: เวลาฤดูร้อนฮอฟด์
+        :daylight: เวลาฤดูร้อนฮ่องกง
+    :Hovd:
+      :long:
         :generic: เวลาฮอฟด์
         :standard: เวลามาตรฐานฮอฟด์
-    :India: 
-      :long: 
+        :daylight: เวลาฤดูร้อนฮอฟด์
+    :India:
+      :long:
         :standard: เวลาอินเดีย
-    :Indian_Ocean: 
-      :long: 
+    :Indian_Ocean:
+      :long:
         :standard: เวลามหาสมุทรอินเดีย
-    :Indochina: 
-      :long: 
+    :Indochina:
+      :long:
         :standard: เวลาอินโดจีน
-    :Indonesia_Central: 
-      :long: 
+    :Indonesia_Central:
+      :long:
         :standard: เวลาอินโดนีเซียตอนกลาง
-    :Indonesia_Eastern: 
-      :long: 
+    :Indonesia_Eastern:
+      :long:
         :standard: เวลาอินโดนีเซียฝั่งตะวันออก
-    :Indonesia_Western: 
-      :long: 
+    :Indonesia_Western:
+      :long:
         :standard: เวลาอินโดนีเซียฝั่งตะวันตก
-    :Iran: 
-      :long: 
-        :daylight: เวลาออมแสงอิหร่าน
+    :Iran:
+      :long:
         :generic: เวลาอิหร่าน
         :standard: เวลามาตรฐานอิหร่าน
-    :Irkutsk: 
-      :long: 
-        :daylight: เวลาฤดูร้อนอีร์คุตสค์
+        :daylight: เวลาออมแสงอิหร่าน
+    :Irkutsk:
+      :long:
         :generic: เวลาอีร์คุตสค์
         :standard: เวลามาตรฐานอีร์คุตสค์
-    :Israel: 
-      :long: 
-        :daylight: เวลาออมแสงอิสราเอล
+        :daylight: เวลาฤดูร้อนอีร์คุตสค์
+    :Israel:
+      :long:
         :generic: เวลาอิสราเอล
         :standard: เวลามาตรฐานอิสราเอล
-    :Japan: 
-      :long: 
-        :daylight: เวลาออมแสงญี่ปุ่น
+        :daylight: เวลาออมแสงอิสราเอล
+    :Japan:
+      :long:
         :generic: เวลาญี่ปุ่น
         :standard: เวลามาตรฐานญี่ปุ่น
-    :Kamchatka: 
-      :long: 
-        :daylight: เวลาฤดูร้อนเปโตรปัฟลอฟสค์-คัมชัตสกี
+        :daylight: เวลาออมแสงญี่ปุ่น
+    :Kamchatka:
+      :long:
         :generic: เวลาคัมชัตคา
         :standard: เวลาเปโตรปัฟลอฟสค์-คัมชัตสกี
-    :Kazakhstan: 
-      :long: 
+        :daylight: เวลาฤดูร้อนเปโตรปัฟลอฟสค์-คัมชัตสกี
+    :Kazakhstan:
+      :long:
         :standard: เวลาคาซัคสถาน
-    :Kazakhstan_Eastern: 
-      :long: 
+    :Kazakhstan_Eastern:
+      :long:
         :standard: เวลาคาซัคสถานตะวันออก
-    :Kazakhstan_Western: 
-      :long: 
+    :Kazakhstan_Western:
+      :long:
         :standard: เวลาคาซัคสถานตะวันตก
-    :Korea: 
-      :long: 
-        :daylight: เวลาออมแสงเกาหลี
+    :Korea:
+      :long:
         :generic: เวลาเกาหลี
         :standard: เวลามาตรฐานเกาหลี
-    :Kosrae: 
-      :long: 
+        :daylight: เวลาออมแสงเกาหลี
+    :Kosrae:
+      :long:
         :standard: เวลาคอสไร
-    :Krasnoyarsk: 
-      :long: 
-        :daylight: เวลาฤดูร้อนครัสโนยาสค์
+    :Krasnoyarsk:
+      :long:
         :generic: เวลาครัสโนยาสค์
         :standard: เวลามาตรฐานครัสโนยาสค์
-    :Kyrgystan: 
-      :long: 
+        :daylight: เวลาฤดูร้อนครัสโนยาสค์
+    :Kyrgystan:
+      :long:
         :standard: เวลาคีร์กีซสถาน
-    :Lanka: 
-      :long: 
+    :Lanka:
+      :long:
         :standard: เวลาลังกา
-    :Line_Islands: 
-      :long: 
+    :Line_Islands:
+      :long:
         :standard: เวลาหมู่เกาะไลน์
-    :Lord_Howe: 
-      :long: 
-        :daylight: เวลาออมแสงลอร์ดโฮว์
+    :Lord_Howe:
+      :long:
         :generic: เวลาลอร์ดโฮว์
         :standard: เวลามาตรฐานลอร์ดโฮว์
-    :Macau: 
-      :long: 
-        :daylight: เวลาฤดูร้อนมาเก๊า
+        :daylight: เวลาออมแสงลอร์ดโฮว์
+    :Macau:
+      :long:
         :generic: เวลามาเก๊า
         :standard: เวลามาตรฐานมาเก๊า
-    :Magadan: 
-      :long: 
-        :daylight: เวลาฤดูร้อนมากาดาน
+        :daylight: เวลาฤดูร้อนมาเก๊า
+    :Magadan:
+      :long:
         :generic: เวลามากาดาน
         :standard: เวลามาตรฐานมากาดาน
-    :Malaysia: 
-      :long: 
+        :daylight: เวลาฤดูร้อนมากาดาน
+    :Malaysia:
+      :long:
         :standard: เวลามาเลเซีย
-    :Maldives: 
-      :long: 
+    :Maldives:
+      :long:
         :standard: เวลามัลดีฟส์
-    :Marquesas: 
-      :long: 
+    :Marquesas:
+      :long:
         :standard: เวลามาร์เคซัส
-    :Marshall_Islands: 
-      :long: 
+    :Marshall_Islands:
+      :long:
         :standard: เวลาหมู่เกาะมาร์แชลล์
-    :Mauritius: 
-      :long: 
-        :daylight: เวลาฤดูร้อนของมอริเชียส
+    :Mauritius:
+      :long:
         :generic: เวลามอริเชียส
         :standard: เวลามาตรฐานมอริเชียส
-    :Mawson: 
-      :long: 
+        :daylight: เวลาฤดูร้อนของมอริเชียส
+    :Mawson:
+      :long:
         :standard: เวลามอว์สัน
-    :Mexico_Pacific: 
-      :long: 
-        :daylight: เวลาออมแสงแปซิฟิกเม็กซิโก
+    :Mexico_Pacific:
+      :long:
         :generic: เวลาแปซิฟิกเม็กซิโก
         :standard: เวลามาตรฐานแปซิฟิกเม็กซิโก
-    :Mongolia: 
-      :long: 
-        :daylight: เวลาฤดูร้อนอูลานบาตอร์
+        :daylight: เวลาออมแสงแปซิฟิกเม็กซิโก
+    :Mongolia:
+      :long:
         :generic: เวลาอูลานบาตอร์
         :standard: เวลามาตรฐานอูลานบาตอร์
-    :Moscow: 
-      :long: 
-        :daylight: เวลาฤดูร้อนมอสโก
+        :daylight: เวลาฤดูร้อนอูลานบาตอร์
+    :Moscow:
+      :long:
         :generic: เวลามอสโก
         :standard: เวลามาตรฐานมอสโก
-    :Myanmar: 
-      :long: 
+        :daylight: เวลาฤดูร้อนมอสโก
+    :Myanmar:
+      :long:
         :standard: เวลาพม่า
-    :Nauru: 
-      :long: 
+    :Nauru:
+      :long:
         :standard: เวลานาอูรู
-    :Nepal: 
-      :long: 
+    :Nepal:
+      :long:
         :standard: เวลาเนปาล
-    :New_Caledonia: 
-      :long: 
-        :daylight: เวลาฤดูร้อนนิวแคลิโดเนีย
+    :New_Caledonia:
+      :long:
         :generic: เวลานิวแคลิโดเนีย
         :standard: เวลามาตรฐานนิวแคลิโดเนีย
-    :New_Zealand: 
-      :long: 
-        :daylight: เวลาออมแสงนิวซีแลนด์
+        :daylight: เวลาฤดูร้อนนิวแคลิโดเนีย
+    :New_Zealand:
+      :long:
         :generic: เวลานิวซีแลนด์
         :standard: เวลามาตรฐานนิวซีแลนด์
-    :Newfoundland: 
-      :long: 
-        :daylight: เวลาออมแสงนิวฟันด์แลนด์
+        :daylight: เวลาออมแสงนิวซีแลนด์
+    :Newfoundland:
+      :long:
         :generic: เวลานิวฟันด์แลนด์
         :standard: เวลามาตรฐานนิวฟันด์แลนด์
-    :Niue: 
-      :long: 
+        :daylight: เวลาออมแสงนิวฟันด์แลนด์
+    :Niue:
+      :long:
         :standard: เวลานีอูเอ
-    :Norfolk: 
-      :long: 
-        :daylight: เวลาออมแสงเกาะนอร์ฟอล์ก
+    :Norfolk:
+      :long:
         :generic: เวลาเกาะนอร์ฟอล์ก
         :standard: เวลามาตรฐานเกาะนอร์ฟอล์ก
-    :Noronha: 
-      :long: 
-        :daylight: เวลาฤดูร้อนของหมู่เกาะเฟอร์นันโด
+        :daylight: เวลาออมแสงเกาะนอร์ฟอล์ก
+    :Noronha:
+      :long:
         :generic: เวลาหมู่เกาะเฟอร์นันโด
         :standard: เวลามาตรฐานหมู่เกาะเฟอร์นันโด
-    :North_Mariana: 
-      :long: 
+        :daylight: เวลาฤดูร้อนของหมู่เกาะเฟอร์นันโด
+    :North_Mariana:
+      :long:
         :standard: เวลาหมู่เกาะมาเรียนาเหนือ
-    :Novosibirsk: 
-      :long: 
-        :daylight: เวลาฤดูร้อนโนโวซีบีสค์
+    :Novosibirsk:
+      :long:
         :generic: เวลาโนโวซีบีสค์
         :standard: เวลามาตรฐานโนโวซีบีสค์
-    :Omsk: 
-      :long: 
-        :daylight: เวลาฤดูร้อนออมสค์
+        :daylight: เวลาฤดูร้อนโนโวซีบีสค์
+    :Omsk:
+      :long:
         :generic: เวลาออมสค์
         :standard: เวลามาตรฐานออมสค์
-    :Pakistan: 
-      :long: 
-        :daylight: เวลาฤดูร้อนปากีสถาน
+        :daylight: เวลาฤดูร้อนออมสค์
+    :Pakistan:
+      :long:
         :generic: เวลาปากีสถาน
         :standard: เวลามาตรฐานปากีสถาน
-    :Palau: 
-      :long: 
+        :daylight: เวลาฤดูร้อนปากีสถาน
+    :Palau:
+      :long:
         :standard: เวลาปาเลา
-    :Papua_New_Guinea: 
-      :long: 
+    :Papua_New_Guinea:
+      :long:
         :standard: เวลาปาปัวนิวกินี
-    :Paraguay: 
-      :long: 
-        :daylight: เวลาฤดูร้อนปารากวัย
+    :Paraguay:
+      :long:
         :generic: เวลาปารากวัย
         :standard: เวลามาตรฐานปารากวัย
-    :Peru: 
-      :long: 
-        :daylight: เวลาฤดูร้อนเปรู
+        :daylight: เวลาฤดูร้อนปารากวัย
+    :Peru:
+      :long:
         :generic: เวลาเปรู
         :standard: เวลามาตรฐานเปรู
-    :Philippines: 
-      :long: 
-        :daylight: เวลาฤดูร้อนฟิลิปปินส์
+        :daylight: เวลาฤดูร้อนเปรู
+    :Philippines:
+      :long:
         :generic: เวลาฟิลิปปินส์
         :standard: เวลามาตรฐานฟิลิปปินส์
-    :Phoenix_Islands: 
-      :long: 
+        :daylight: เวลาฤดูร้อนฟิลิปปินส์
+    :Phoenix_Islands:
+      :long:
         :standard: เวลาหมู่เกาะฟินิกซ์
-    :Pierre_Miquelon: 
-      :long: 
-        :daylight: เวลาออมแสงของแซงปีแยร์และมีเกอลง
+    :Pierre_Miquelon:
+      :long:
         :generic: เวลาแซงปีแยร์และมีเกอลง
         :standard: เวลามาตรฐานแซงปีแยร์และมีเกอลง
-    :Pitcairn: 
-      :long: 
+        :daylight: เวลาออมแสงของแซงปีแยร์และมีเกอลง
+    :Pitcairn:
+      :long:
         :standard: เวลาพิตแคร์น
-    :Ponape: 
-      :long: 
+    :Ponape:
+      :long:
         :standard: เวลาโปนาเป
-    :Pyongyang: 
-      :long: 
+    :Pyongyang:
+      :long:
         :standard: เวลาเปียงยาง
-    :Qyzylorda: 
-      :long: 
-        :daylight: เวลาฤดูร้อนคืยซิลออร์ดา
+    :Qyzylorda:
+      :long:
         :generic: เวลาคืยซิลออร์ดา
         :standard: เวลามาตรฐานคืยซิลออร์ดา
-    :Reunion: 
-      :long: 
+        :daylight: เวลาฤดูร้อนคืยซิลออร์ดา
+    :Reunion:
+      :long:
         :standard: เวลาเรอูนียง
-    :Rothera: 
-      :long: 
+    :Rothera:
+      :long:
         :standard: เวลาโรธีรา
-    :Sakhalin: 
-      :long: 
-        :daylight: เวลาฤดูร้อนซาคาลิน
+    :Sakhalin:
+      :long:
         :generic: เวลาซาคาลิน
         :standard: เวลามาตรฐานซาคาลิน
-    :Samara: 
-      :long: 
-        :daylight: เวลาฤดูร้อนซามารา
+        :daylight: เวลาฤดูร้อนซาคาลิน
+    :Samara:
+      :long:
         :generic: เวลาซามารา
         :standard: เวลามาตรฐานซามารา
-    :Samoa: 
-      :long: 
-        :daylight: เวลาฤดูร้อนซามัว
+        :daylight: เวลาฤดูร้อนซามารา
+    :Samoa:
+      :long:
         :generic: เวลาซามัว
         :standard: เวลามาตรฐานซามัว
-    :Seychelles: 
-      :long: 
+        :daylight: เวลาฤดูร้อนซามัว
+    :Seychelles:
+      :long:
         :standard: เวลาเซเชลส์
-    :Singapore: 
-      :long: 
+    :Singapore:
+      :long:
         :standard: เวลาสิงคโปร์
-    :Solomon: 
-      :long: 
+    :Solomon:
+      :long:
         :standard: เวลาหมู่เกาะโซโลมอน
-    :South_Georgia: 
-      :long: 
+    :South_Georgia:
+      :long:
         :standard: เวลาเซาท์จอร์เจีย
-    :Suriname: 
-      :long: 
+    :Suriname:
+      :long:
         :standard: เวลาซูรินาเม
-    :Syowa: 
-      :long: 
+    :Syowa:
+      :long:
         :standard: เวลาไซโยวา
-    :Tahiti: 
-      :long: 
+    :Tahiti:
+      :long:
         :standard: เวลาตาฮีตี
-    :Taipei: 
-      :long: 
-        :daylight: เวลาออมแสงไทเป
+    :Taipei:
+      :long:
         :generic: เวลาไทเป
         :standard: เวลามาตรฐานไทเป
-    :Tajikistan: 
-      :long: 
+        :daylight: เวลาออมแสงไทเป
+    :Tajikistan:
+      :long:
         :standard: เวลาทาจิกิสถาน
-    :Tokelau: 
-      :long: 
+    :Tokelau:
+      :long:
         :standard: เวลาโตเกเลา
-    :Tonga: 
-      :long: 
-        :daylight: เวลาฤดูร้อนตองกา
+    :Tonga:
+      :long:
         :generic: เวลาตองกา
         :standard: เวลามาตรฐานตองกา
-    :Truk: 
-      :long: 
+        :daylight: เวลาฤดูร้อนตองกา
+    :Truk:
+      :long:
         :standard: เวลาชุก
-    :Turkey: 
-      :long: 
-        :daylight: เวลาฤดูร้อนตุรกี
+    :Turkey:
+      :long:
         :generic: เวลาตุรกี
         :standard: เวลามาตรฐานตุรกี
-    :Turkmenistan: 
-      :long: 
-        :daylight: เวลาฤดูร้อนเติร์กเมนิสถาน
+        :daylight: เวลาฤดูร้อนตุรกี
+    :Turkmenistan:
+      :long:
         :generic: เวลาเติร์กเมนิสถาน
         :standard: เวลามาตรฐานเติร์กเมนิสถาน
-    :Tuvalu: 
-      :long: 
+        :daylight: เวลาฤดูร้อนเติร์กเมนิสถาน
+    :Tuvalu:
+      :long:
         :standard: เวลาตูวาลู
-    :Uruguay: 
-      :long: 
-        :daylight: เวลาฤดูร้อนอุรุกวัย
+    :Uruguay:
+      :long:
         :generic: เวลาอุรุกวัย
         :standard: เวลามาตรฐานอุรุกวัย
-    :Uzbekistan: 
-      :long: 
-        :daylight: เวลาฤดูร้อนอุซเบกิสถาน
+        :daylight: เวลาฤดูร้อนอุรุกวัย
+    :Uzbekistan:
+      :long:
         :generic: เวลาอุซเบกิสถาน
         :standard: เวลามาตรฐานอุซเบกิสถาน
-    :Vanuatu: 
-      :long: 
-        :daylight: เวลาฤดูร้อนวานูอาตู
+        :daylight: เวลาฤดูร้อนอุซเบกิสถาน
+    :Vanuatu:
+      :long:
         :generic: เวลาวานูอาตู
         :standard: เวลามาตรฐานวานูอาตู
-    :Venezuela: 
-      :long: 
+        :daylight: เวลาฤดูร้อนวานูอาตู
+    :Venezuela:
+      :long:
         :standard: เวลาเวเนซุเอลา
-    :Vladivostok: 
-      :long: 
-        :daylight: เวลาฤดูร้อนวลาดีวอสตอค
+    :Vladivostok:
+      :long:
         :generic: เวลาวลาดีวอสตอค
         :standard: เวลามาตรฐานวลาดีวอสตอค
-    :Volgograd: 
-      :long: 
-        :daylight: เวลาฤดูร้อนวอลโกกราด
+        :daylight: เวลาฤดูร้อนวลาดีวอสตอค
+    :Volgograd:
+      :long:
         :generic: เวลาวอลโกกราด
         :standard: เวลามาตรฐานวอลโกกราด
-    :Vostok: 
-      :long: 
+        :daylight: เวลาฤดูร้อนวอลโกกราด
+    :Vostok:
+      :long:
         :standard: เวลาวอสตอค
-    :Wake: 
-      :long: 
+    :Wake:
+      :long:
         :standard: เวลาเกาะเวก
-    :Wallis: 
-      :long: 
+    :Wallis:
+      :long:
         :standard: เวลาวาลลิสและฟุตูนา
-    :Yakutsk: 
-      :long: 
-        :daylight: เวลาฤดูร้อนยาคุตสค์
+    :Yakutsk:
+      :long:
         :generic: เวลายาคุตสค์
         :standard: เวลามาตรฐานยาคุตสค์
-    :Yekaterinburg: 
-      :long: 
-        :daylight: เวลาฤดูร้อนเยคาเตรินบูร์ก
+        :daylight: เวลาฤดูร้อนยาคุตสค์
+    :Yekaterinburg:
+      :long:
         :generic: เวลาเยคาเตรินบูร์ก
         :standard: เวลามาตรฐานเยคาเตรินบูร์ก
-    :Yukon: 
-      :long: 
+        :daylight: เวลาฤดูร้อนเยคาเตรินบูร์ก
+    :Yukon:
+      :long:
         :standard: เวลายูคอน
-  :timezones: 
-    :Africa/Abidjan: 
-      :city: อาบีจาน
-    :Africa/Accra: 
-      :city: อักกรา
-    :Africa/Addis_Ababa: 
-      :city: แอดดิสอาบาบา
-    :Africa/Algiers: 
-      :city: แอลเจียร์
-    :Africa/Asmera: 
-      :city: แอสมารา
-    :Africa/Bamako: 
-      :city: บามาโก
-    :Africa/Bangui: 
-      :city: บังกี
-    :Africa/Banjul: 
-      :city: บันจูล
-    :Africa/Bissau: 
-      :city: บิสเซา
-    :Africa/Blantyre: 
-      :city: แบลนไทร์
-    :Africa/Brazzaville: 
-      :city: บราซซาวิล
-    :Africa/Bujumbura: 
-      :city: บูจุมบูรา
-    :Africa/Cairo: 
-      :city: ไคโร
-    :Africa/Casablanca: 
-      :city: คาสซาบลางก้า
-    :Africa/Ceuta: 
-      :city: เซวตา
-    :Africa/Conakry: 
-      :city: โกนากรี
-    :Africa/Dakar: 
-      :city: ดาการ์
-    :Africa/Dar_es_Salaam: 
-      :city: ดาร์เอสซาลาม
-    :Africa/Djibouti: 
-      :city: จิบูตี
-    :Africa/Douala: 
-      :city: ดูอาลา
-    :Africa/El_Aaiun: 
-      :city: เอลไอย์อุง
-    :Africa/Freetown: 
-      :city: ฟรีทาวน์
-    :Africa/Gaborone: 
-      :city: กาโบโรเน
-    :Africa/Harare: 
-      :city: ฮาราเร
-    :Africa/Johannesburg: 
-      :city: โจฮันเนสเบอร์ก
-    :Africa/Juba: 
-      :city: จูบา
-    :Africa/Kampala: 
-      :city: คัมพาลา
-    :Africa/Khartoum: 
-      :city: คาร์ทูม
-    :Africa/Kigali: 
-      :city: คิกาลี
-    :Africa/Kinshasa: 
-      :city: กินชาซา
-    :Africa/Lagos: 
-      :city: ลากอส
-    :Africa/Libreville: 
-      :city: ลีเบรอวิล
-    :Africa/Lome: 
-      :city: โลเม
-    :Africa/Luanda: 
-      :city: ลูอันดา
-    :Africa/Lubumbashi: 
-      :city: ลูบัมบาชิ
-    :Africa/Lusaka: 
-      :city: ลูซากา
-    :Africa/Malabo: 
-      :city: มาลาโบ
-    :Africa/Maputo: 
-      :city: มาปูโต
-    :Africa/Maseru: 
-      :city: มาเซรู
-    :Africa/Mbabane: 
-      :city: อัมบาบาเน
-    :Africa/Mogadishu: 
-      :city: โมกาดิชู
-    :Africa/Monrovia: 
-      :city: มันโรเวีย
-    :Africa/Nairobi: 
-      :city: ไนโรเบีย
-    :Africa/Ndjamena: 
-      :city: เอ็นจาเมนา
-    :Africa/Niamey: 
-      :city: นีอาเมย์
-    :Africa/Nouakchott: 
-      :city: นูแอกชอต
-    :Africa/Ouagadougou: 
-      :city: วากาดูกู
-    :Africa/Porto-Novo: 
-      :city: ปอร์โต-โนโว
-    :Africa/Sao_Tome: 
-      :city: เซาตูเม
-    :Africa/Tripoli: 
-      :city: ตรีโปลี
-    :Africa/Tunis: 
-      :city: ตูนิส
-    :Africa/Windhoek: 
-      :city: วินด์ฮุก
-    :America/Adak: 
-      :city: เอดัก
-    :America/Anchorage: 
-      :city: แองเคอเรจ
-    :America/Anguilla: 
-      :city: แองกิลลา
-    :America/Antigua: 
-      :city: แอนติกา
-    :America/Araguaina: 
-      :city: อารากัวนา
-    :America/Argentina/La_Rioja: 
-      :city: ลาริโอจา
-    :America/Argentina/Rio_Gallegos: 
-      :city: ริโอกาลเลกอส
-    :America/Argentina/Salta: 
-      :city: ซัลตา
-    :America/Argentina/San_Juan: 
-      :city: ซานฮวน
-    :America/Argentina/San_Luis: 
-      :city: ซันลูอิส
-    :America/Argentina/Tucuman: 
-      :city: ทูคูแมน
-    :America/Argentina/Ushuaia: 
-      :city: อูชูเอีย
-    :America/Aruba: 
-      :city: อารูบา
-    :America/Asuncion: 
-      :city: อะซุนซิออง
-    :America/Bahia: 
-      :city: บาเยีย
-    :America/Bahia_Banderas: 
-      :city: บาเอียบันเดรัส
-    :America/Barbados: 
-      :city: บาร์เบโดส
-    :America/Belem: 
-      :city: เบเลง
-    :America/Belize: 
-      :city: เบลีซ
-    :America/Blanc-Sablon: 
-      :city: บลังค์-ซาบลอน
-    :America/Boa_Vista: 
-      :city: บัววีชตา
-    :America/Bogota: 
-      :city: โบโกตา
-    :America/Boise: 
-      :city: บอยซี
-    :America/Buenos_Aires: 
-      :city: บัวโนสไอเรส
-    :America/Cambridge_Bay: 
-      :city: อ่าวแคมบริดจ์
-    :America/Campo_Grande: 
-      :city: กัมปูกรันดี
-    :America/Cancun: 
-      :city: แคนคุน
-    :America/Caracas: 
-      :city: คาราคัส
-    :America/Catamarca: 
-      :city: กาตามาร์กา
-    :America/Cayenne: 
-      :city: กาแยน
-    :America/Cayman: 
-      :city: เคย์แมน
-    :America/Chicago: 
-      :city: ชิคาโก
-    :America/Chihuahua: 
-      :city: ชีวาวา
-    :America/Ciudad_Juarez: 
-      :city: ซิวดัดฮัวเรซ
-    :America/Coral_Harbour: 
-      :city: คอรัลฮาร์เบอร์
-    :America/Cordoba: 
-      :city: คอร์โดบา
-    :America/Costa_Rica: 
-      :city: คอสตาริกา
-    :America/Coyhaique: 
-      :city: โกไยเก
-    :America/Creston: 
-      :city: เครสตัน
-    :America/Cuiaba: 
-      :city: กุยาบา
-    :America/Curacao: 
-      :city: คูราเซา
-    :America/Danmarkshavn: 
-      :city: ดานมาร์กสฮาวน์
-    :America/Dawson: 
-      :city: ดอว์สัน
-    :America/Dawson_Creek: 
-      :city: "ดอว์สัน ครีก"
-    :America/Denver: 
-      :city: เดนเวอร์
-    :America/Detroit: 
-      :city: ดีทรอยต์
-    :America/Dominica: 
-      :city: โดมินิกา
-    :America/Edmonton: 
-      :city: เอดมันตัน
-    :America/Eirunepe: 
-      :city: เอรูเนเป
-    :America/El_Salvador: 
-      :city: เอลซัลวาดอร์
-    :America/Fort_Nelson: 
-      :city: ฟอร์ตเนลสัน
-    :America/Fortaleza: 
-      :city: ฟอร์ตาเลซา
-    :America/Glace_Bay: 
-      :city: เกลซเบย์
-    :America/Godthab: 
-      :city: กอดแธบ
-    :America/Goose_Bay: 
-      :city: กูสเบย์
-    :America/Grand_Turk: 
-      :city: แกรนด์เติร์ก
-    :America/Grenada: 
-      :city: เกรนาดา
-    :America/Guadeloupe: 
-      :city: กวาเดอลูป
-    :America/Guatemala: 
-      :city: กัวเตมาลา
-    :America/Guayaquil: 
-      :city: กัวยากิล
-    :America/Guyana: 
-      :city: กายอานา
-    :America/Halifax: 
-      :city: แฮลิแฟกซ์
-    :America/Havana: 
-      :city: ฮาวานา
-    :America/Hermosillo: 
-      :city: เอร์โมซีโย
-    :America/Indiana/Knox: 
-      :city: "นอกซ์, อินดีแอนา"
-    :America/Indiana/Marengo: 
-      :city: "มาเรงโก, อินดีแอนา"
-    :America/Indiana/Petersburg: 
-      :city: "ปีเตอร์สเบิร์ก, อินดีแอนา"
-    :America/Indiana/Tell_City: 
-      :city: "เทลล์ซิตี, อินดีแอนา"
-    :America/Indiana/Vevay: 
-      :city: "วีเวย์, อินดีแอนา"
-    :America/Indiana/Vincennes: 
-      :city: "วินเซนเนส, อินดีแอนา"
-    :America/Indiana/Winamac: 
-      :city: "วินาแมค, อินดีแอนา"
-    :America/Indianapolis: 
-      :city: อินเดียแนโพลิส
-    :America/Inuvik: 
-      :city: อินูวิก
-    :America/Iqaluit: 
-      :city: อีกวาลิต
-    :America/Jamaica: 
-      :city: จาเมกา
-    :America/Jujuy: 
-      :city: จูจิว
-    :America/Juneau: 
-      :city: จูโน
-    :America/Kentucky/Monticello: 
-      :city: "มอนติเซลโล, เคนตักกี"
-    :America/Kralendijk: 
-      :city: คราเลนดิจค์
-    :America/La_Paz: 
-      :city: ลาปาซ
-    :America/Lima: 
-      :city: ลิมา
-    :America/Los_Angeles: 
-      :city: ลอสแองเจลิส
-    :America/Louisville: 
-      :city: ลูส์วิลล์
-    :America/Lower_Princes: 
-      :city: "โลเวอร์พรินซ์ ควอเตอร์"
-    :America/Maceio: 
-      :city: มาเซโอ
-    :America/Managua: 
-      :city: มานากัว
-    :America/Manaus: 
-      :city: มาเนาส์
-    :America/Marigot: 
-      :city: มาริโกต์
-    :America/Martinique: 
-      :city: มาร์ตินีก
-    :America/Matamoros: 
-      :city: มาตาโมรอส
-    :America/Mazatlan: 
-      :city: มาซาทลาน
-    :America/Mendoza: 
-      :city: เมนดูซา
-    :America/Menominee: 
-      :city: เมโนมินี
-    :America/Merida: 
-      :city: เมรีดา
-    :America/Metlakatla: 
-      :city: เมทลากาตละ
-    :America/Mexico_City: 
-      :city: เม็กซิโกซิตี
-    :America/Miquelon: 
-      :city: มีเกอลง
-    :America/Moncton: 
-      :city: มองตัน
-    :America/Monterrey: 
-      :city: มอนเตร์เรย์
-    :America/Montevideo: 
-      :city: มอนเตวิเดโอ
-    :America/Montserrat: 
-      :city: มอนเซอร์รัต
-    :America/Nassau: 
-      :city: แนสซอ
-    :America/New_York: 
-      :city: นิวยอร์ก
-    :America/Nome: 
-      :city: นอม
-    :America/Noronha: 
-      :city: โนรอนฮา
-    :America/North_Dakota/Beulah: 
-      :city: "โบลาห์, นอร์ทดาโคตา"
-    :America/North_Dakota/Center: 
-      :city: "เซนเตอร์, นอร์ทดาโคตา"
-    :America/North_Dakota/New_Salem: 
-      :city: "นิวเซเลม, นอร์ทดาโคตา"
-    :America/Ojinaga: 
-      :city: โอจินากา
-    :America/Panama: 
-      :city: ปานามา
-    :America/Paramaribo: 
-      :city: ปารามาริโบ
-    :America/Phoenix: 
-      :city: ฟินิกซ์
-    :America/Port-au-Prince: 
-      :city: ปอร์โตแปรงซ์
-    :America/Port_of_Spain: 
-      :city: พอร์ทออฟสเปน
-    :America/Porto_Velho: 
-      :city: ปอร์ตูเวลโย
-    :America/Puerto_Rico: 
-      :city: เปอโตริโก
-    :America/Punta_Arenas: 
-      :city: ปุนตาอาเรนัส
-    :America/Rankin_Inlet: 
-      :city: แรงกินอินเล็ต
-    :America/Recife: 
-      :city: เรซีเฟ
-    :America/Regina: 
-      :city: ริไจนา
-    :America/Resolute: 
-      :city: เรโซลูท
-    :America/Rio_Branco: 
-      :city: รีโอบรังโก
-    :America/Santarem: 
-      :city: ซันตาเรม
-    :America/Santiago: 
-      :city: ซันติอาโก
-    :America/Santo_Domingo: 
-      :city: "ซานโต โดมิงโก"
-    :America/Sao_Paulo: 
-      :city: เซาเปาลู
-    :America/Scoresbysund: 
-      :city: สกอเรสไบซันด์
-    :America/Sitka: 
-      :city: ซิตกา
-    :America/St_Barthelemy: 
-      :city: เซนต์บาร์เธเลมี
-    :America/St_Johns: 
-      :city: เซนต์จอนส์
-    :America/St_Kitts: 
-      :city: เซนต์คิตส์
-    :America/St_Lucia: 
-      :city: เซนต์ลูเซีย
-    :America/St_Thomas: 
-      :city: เซนต์โธมัส
-    :America/St_Vincent: 
-      :city: เซนต์วินเซนต์
-    :America/Swift_Current: 
-      :city: สวิฟต์เคอร์เรนต์
-    :America/Tegucigalpa: 
-      :city: เตกูซิกัลปา
-    :America/Thule: 
-      :city: ทูเล
-    :America/Tijuana: 
-      :city: ทิฮัวนา
-    :America/Toronto: 
-      :city: โทรอนโต
-    :America/Tortola: 
-      :city: ตอร์โตลา
-    :America/Vancouver: 
-      :city: แวนคูเวอร์
-    :America/Whitehorse: 
-      :city: ไวต์ฮอร์ส
-    :America/Winnipeg: 
-      :city: วินนิเพก
-    :America/Yakutat: 
-      :city: ยากูทัต
-    :Antarctica/Casey: 
-      :city: เคซีย์
-    :Antarctica/Davis: 
-      :city: เดวิส
-    :Antarctica/DumontDUrville: 
-      :city: ดูมองต์ดูร์วิลล์
-    :Antarctica/Macquarie: 
-      :city: แมคควอรี
-    :Antarctica/Mawson: 
-      :city: มอว์สัน
-    :Antarctica/McMurdo: 
-      :city: แมคมัวโด
-    :Antarctica/Palmer: 
-      :city: พาล์เมอร์
-    :Antarctica/Rothera: 
-      :city: โรธีรา
-    :Antarctica/Syowa: 
-      :city: ไซโยวา
-    :Antarctica/Troll: 
-      :city: โทรล
-    :Antarctica/Vostok: 
-      :city: วอสตอค
-    :Arctic/Longyearbyen: 
-      :city: ลองเยียร์เบียน
-    :Asia/Aden: 
-      :city: เอเดน
-    :Asia/Almaty: 
-      :city: อัลมาตี
-    :Asia/Amman: 
-      :city: อัมมาน
-    :Asia/Anadyr: 
-      :city: อานาดีร์
-    :Asia/Aqtau: 
-      :city: อัคตาอู
-    :Asia/Aqtobe: 
-      :city: อัคโทบี
-    :Asia/Ashgabat: 
-      :city: อาชกาบัต
-    :Asia/Atyrau: 
-      :city: อทีราว
-    :Asia/Baghdad: 
-      :city: แบกแดด
-    :Asia/Bahrain: 
-      :city: บาห์เรน
-    :Asia/Baku: 
-      :city: บากู
-    :Asia/Bangkok: 
-      :city: กรุงเทพ
-    :Asia/Barnaul: 
-      :city: บาร์เนาว์
-    :Asia/Beirut: 
-      :city: เบรุต
-    :Asia/Bishkek: 
-      :city: บิชเคก
-    :Asia/Brunei: 
-      :city: บรูไน
-    :Asia/Calcutta: 
-      :city: โกลกาตา
-    :Asia/Chita: 
-      :city: ชิตา
-    :Asia/Colombo: 
-      :city: โคลัมโบ
-    :Asia/Damascus: 
-      :city: ดามัสกัส
-    :Asia/Dhaka: 
-      :city: ดากา
-    :Asia/Dili: 
-      :city: ดิลี
-    :Asia/Dubai: 
-      :city: ดูไบ
-    :Asia/Dushanbe: 
-      :city: ดูชานเบ
-    :Asia/Famagusta: 
-      :city: แฟมากุสตา
-    :Asia/Gaza: 
-      :city: กาซา
-    :Asia/Hebron: 
-      :city: เฮบรอน
-    :Asia/Hong_Kong: 
-      :city: ฮ่องกง
-    :Asia/Hovd: 
-      :city: ฮอฟด์
-    :Asia/Irkutsk: 
-      :city: อีร์คุตสค์
-    :Asia/Jakarta: 
-      :city: จาการ์ตา
-    :Asia/Jayapura: 
-      :city: จายาปุระ
-    :Asia/Jerusalem: 
-      :city: เยรูซาเลม
-    :Asia/Kabul: 
-      :city: คาบูล
-    :Asia/Kamchatka: 
-      :city: คามชัตกา
-    :Asia/Karachi: 
-      :city: การาจี
-    :Asia/Katmandu: 
-      :city: กาตมันดุ
-    :Asia/Khandyga: 
-      :city: ฮันดืยกา
-    :Asia/Krasnoyarsk: 
-      :city: ครัสโนยาร์สก์
-    :Asia/Kuala_Lumpur: 
-      :city: กัวลาลัมเปอร์
-    :Asia/Kuching: 
-      :city: กูชิง
-    :Asia/Kuwait: 
-      :city: คูเวต
-    :Asia/Macau: 
-      :city: มาเก๊า
-    :Asia/Magadan: 
-      :city: มากาดาน
-    :Asia/Makassar: 
-      :city: มากัสซาร์
-    :Asia/Manila: 
-      :city: มะนิลา
-    :Asia/Muscat: 
-      :city: มัสกัต
-    :Asia/Nicosia: 
-      :city: นิโคเซีย
-    :Asia/Novokuznetsk: 
-      :city: โนโวคุซเนตสค์
-    :Asia/Novosibirsk: 
-      :city: โนโวซิบิร์สก์
-    :Asia/Omsk: 
-      :city: โอมสก์
-    :Asia/Oral: 
-      :city: ออรัล
-    :Asia/Phnom_Penh: 
-      :city: พนมเปญ
-    :Asia/Pontianak: 
-      :city: พอนเทียนัก
-    :Asia/Pyongyang: 
-      :city: เปียงยาง
-    :Asia/Qatar: 
-      :city: กาตาร์
-    :Asia/Qostanay: 
-      :city: คอสตาเนย์
-    :Asia/Qyzylorda: 
-      :city: ไคซีลอร์ดา
-    :Asia/Rangoon: 
-      :city: ย่างกุ้ง
-    :Asia/Riyadh: 
-      :city: ริยาร์ด
-    :Asia/Saigon: 
-      :city: นครโฮจิมินห์
-    :Asia/Sakhalin: 
-      :city: ซาคาลิน
-    :Asia/Samarkand: 
-      :city: ซามาร์กานด์
-    :Asia/Seoul: 
-      :city: โซล
-    :Asia/Shanghai: 
-      :city: เซี่ยงไฮ้
-    :Asia/Singapore: 
-      :city: สิงคโปร์
-    :Asia/Srednekolymsk: 
-      :city: ซเรดเนคโคลิมสก์
-    :Asia/Taipei: 
-      :city: ไทเป
-    :Asia/Tashkent: 
-      :city: ทาชเคนต์
-    :Asia/Tbilisi: 
-      :city: ทบิลิซิ
-    :Asia/Tehran: 
-      :city: เตหะราน
-    :Asia/Thimphu: 
-      :city: ทิมพู
-    :Asia/Tokyo: 
-      :city: โตเกียว
-    :Asia/Tomsk: 
-      :city: ตอมสค์
-    :Asia/Ulaanbaatar: 
-      :city: อูลานบาตอร์
-    :Asia/Urumqi: 
-      :city: อุรุมชี
-    :Asia/Ust-Nera: 
-      :city: อุสต์เนรา
-    :Asia/Vientiane: 
-      :city: เวียงจันทน์
-    :Asia/Vladivostok: 
-      :city: วลาดิโวสต็อก
-    :Asia/Yakutsk: 
-      :city: ยาคุตสค์
-    :Asia/Yekaterinburg: 
-      :city: ยีคาเตอรินเบิร์ก
-    :Asia/Yerevan: 
-      :city: เยเรวาน
-    :Atlantic/Azores: 
-      :city: อะโซร์ส
-    :Atlantic/Bermuda: 
-      :city: เบอร์มิวดา
-    :Atlantic/Canary: 
-      :city: คะเนรี
-    :Atlantic/Cape_Verde: 
-      :city: เคปเวิร์ด
-    :Atlantic/Faeroe: 
-      :city: แฟโร
-    :Atlantic/Madeira: 
-      :city: มาเดรา
-    :Atlantic/Reykjavik: 
-      :city: เรคยาวิก
-    :Atlantic/South_Georgia: 
-      :city: "เซาท์ จอร์เจีย"
-    :Atlantic/St_Helena: 
-      :city: เซนต์เฮเลนา
-    :Atlantic/Stanley: 
-      :city: สแตนลีย์
-    :Australia/Adelaide: 
-      :city: แอดิเลด
-    :Australia/Brisbane: 
-      :city: บริสเบน
-    :Australia/Broken_Hill: 
-      :city: โบรกเคนฮิลล์
-    :Australia/Darwin: 
-      :city: ดาร์วิน
-    :Australia/Eucla: 
-      :city: ยูคลา
-    :Australia/Hobart: 
-      :city: โฮบาร์ต
-    :Australia/Lindeman: 
-      :city: ลินดีแมน
-    :Australia/Lord_Howe: 
-      :city: ลอร์ดโฮว์
-    :Australia/Melbourne: 
-      :city: เมลเบิร์น
-    :Australia/Perth: 
-      :city: เพิร์ท
-    :Australia/Sydney: 
-      :city: ซิดนีย์
-    :Etc/UTC: 
-      :long: 
-        :standard: เวลาสากลเชิงพิกัด
-      :short: 
-        :standard: UTC
-    :Etc/Unknown: 
-      :city: ไม่ทราบชื่อเมือง
-    :Europe/Amsterdam: 
-      :city: อัมสเตอดัม
-    :Europe/Andorra: 
-      :city: อันดอร์รา
-    :Europe/Astrakhan: 
-      :city: แอสตราคาน
-    :Europe/Athens: 
-      :city: เอเธนส์
-    :Europe/Belgrade: 
-      :city: เบลเกรด
-    :Europe/Berlin: 
-      :city: เบอร์ลิน
-    :Europe/Bratislava: 
-      :city: บราติสลาวา
-    :Europe/Brussels: 
-      :city: บรัสเซลส์
-    :Europe/Bucharest: 
-      :city: บูคาเรส
-    :Europe/Budapest: 
-      :city: บูดาเปส
-    :Europe/Busingen: 
-      :city: บุสซิงเง็น
-    :Europe/Chisinau: 
-      :city: คีชีเนา
-    :Europe/Copenhagen: 
-      :city: โคเปนเฮเกน
-    :Europe/Dublin: 
-      :city: ดับบลิน
-      :long: 
-        :daylight: เวลามาตรฐานไอร์แลนด์
-    :Europe/Gibraltar: 
-      :city: ยิบรอลตาร์
-    :Europe/Guernsey: 
-      :city: เกิร์นซีย์
-    :Europe/Helsinki: 
-      :city: เฮลซิงกิ
-    :Europe/Isle_of_Man: 
-      :city: เกาะแมน
-    :Europe/Istanbul: 
-      :city: อิสตันบูล
-    :Europe/Jersey: 
-      :city: เจอร์ซีย์
-    :Europe/Kaliningrad: 
-      :city: คาลินิงกราด
-    :Europe/Kiev: 
-      :city: เคียฟ
-    :Europe/Kirov: 
-      :city: คิรอฟ
-    :Europe/Lisbon: 
-      :city: ลิสบอน
-    :Europe/Ljubljana: 
-      :city: ลูบลิยานา
-    :Europe/London: 
-      :city: ลอนดอน
-      :long: 
-        :daylight: เวลาฤดูร้อนอังกฤษ
-    :Europe/Luxembourg: 
-      :city: ลักเซมเบิร์ก
-    :Europe/Madrid: 
-      :city: มาดริด
-    :Europe/Malta: 
-      :city: มอลตา
-    :Europe/Mariehamn: 
-      :city: มารีฮามน์
-    :Europe/Minsk: 
-      :city: มินสก์
-    :Europe/Monaco: 
-      :city: โมนาโก
-    :Europe/Moscow: 
-      :city: มอสโก
-    :Europe/Oslo: 
-      :city: ออสโล
-    :Europe/Paris: 
-      :city: ปารีส
-    :Europe/Podgorica: 
-      :city: พอดกอรีตซา
-    :Europe/Prague: 
-      :city: ปราก
-    :Europe/Riga: 
-      :city: ริกา
-    :Europe/Rome: 
-      :city: โรม
-    :Europe/Samara: 
-      :city: ซามารา
-    :Europe/San_Marino: 
-      :city: ซานมารีโน
-    :Europe/Sarajevo: 
-      :city: ซาราเยโว
-    :Europe/Saratov: 
-      :city: ซาราทอฟ
-    :Europe/Simferopol: 
-      :city: ซิมเฟอโรโปล
-    :Europe/Skopje: 
-      :city: สโกเปีย
-    :Europe/Sofia: 
-      :city: โซเฟีย
-    :Europe/Stockholm: 
-      :city: สตอกโฮล์ม
-    :Europe/Tallinn: 
-      :city: ทาลลินน์
-    :Europe/Tirane: 
-      :city: ติรานา
-    :Europe/Ulyanovsk: 
-      :city: อะลิยานอฟ
-    :Europe/Vaduz: 
-      :city: วาดุซ
-    :Europe/Vatican: 
-      :city: วาติกัน
-    :Europe/Vienna: 
-      :city: เวียนนา
-    :Europe/Vilnius: 
-      :city: วิลนีอุส
-    :Europe/Volgograd: 
-      :city: วอลโกกราด
-    :Europe/Warsaw: 
-      :city: วอร์ซอ
-    :Europe/Zagreb: 
-      :city: ซาเกร็บ
-    :Europe/Zurich: 
-      :city: ซูริค
-    :Indian/Antananarivo: 
-      :city: อันตานานาริโว
-    :Indian/Chagos: 
-      :city: ชากัส
-    :Indian/Christmas: 
-      :city: คริสต์มาส
-    :Indian/Cocos: 
-      :city: โคโคส
-    :Indian/Comoro: 
-      :city: โคโมโร
-    :Indian/Kerguelen: 
-      :city: แกร์เกอลอง
-    :Indian/Mahe: 
-      :city: มาเอ
-    :Indian/Maldives: 
-      :city: มัลดีฟส์
-    :Indian/Mauritius: 
-      :city: มอริเชียส
-    :Indian/Mayotte: 
-      :city: มาโยเต
-    :Indian/Reunion: 
-      :city: เรอูนียง
-    :Pacific/Apia: 
-      :city: อาปีอา
-    :Pacific/Auckland: 
-      :city: โอคแลนด์
-    :Pacific/Bougainville: 
-      :city: บูเกนวิลล์
-    :Pacific/Chatham: 
-      :city: แชทัม
-    :Pacific/Easter: 
-      :city: อีสเตอร์
-    :Pacific/Efate: 
-      :city: เอฟาเต
-    :Pacific/Enderbury: 
-      :city: แคนทอน
-    :Pacific/Fakaofo: 
-      :city: ฟาเคาโฟ
-    :Pacific/Fiji: 
-      :city: ฟิจิ
-    :Pacific/Funafuti: 
-      :city: ฟูนะฟูตี
-    :Pacific/Galapagos: 
-      :city: กาลาปาโกส
-    :Pacific/Gambier: 
-      :city: แกมเบียร์
-    :Pacific/Guadalcanal: 
-      :city: กัวดัลคานัล
-    :Pacific/Guam: 
-      :city: กวม
-    :Pacific/Honolulu: 
-      :city: โฮโนลูลู
-    :Pacific/Kiritimati: 
-      :city: คิริทิมาตี
-    :Pacific/Kosrae: 
-      :city: คอสไร
-    :Pacific/Kwajalein: 
-      :city: ควาจาเลน
-    :Pacific/Majuro: 
-      :city: มาจูโร
-    :Pacific/Marquesas: 
-      :city: มาร์เคซัส
-    :Pacific/Midway: 
-      :city: มิดเวย์
-    :Pacific/Nauru: 
-      :city: นาอูรู
-    :Pacific/Niue: 
-      :city: นีอูเอ
-    :Pacific/Norfolk: 
-      :city: นอร์ฟอล์ก
-    :Pacific/Noumea: 
-      :city: นูเมอา
-    :Pacific/Pago_Pago: 
-      :city: "ปาโก ปาโก"
-    :Pacific/Palau: 
-      :city: ปาเลา
-    :Pacific/Pitcairn: 
-      :city: พิตแคร์น
-    :Pacific/Ponape: 
-      :city: โปนาเป
-    :Pacific/Port_Moresby: 
-      :city: พอร์ตมอร์สบี
-    :Pacific/Rarotonga: 
-      :city: ราโรตองกา
-    :Pacific/Saipan: 
-      :city: ไซปัน
-    :Pacific/Tahiti: 
-      :city: ตาฮีตี
-    :Pacific/Tarawa: 
-      :city: ตาระวา
-    :Pacific/Tongatapu: 
-      :city: ตองกาตาปู
-    :Pacific/Truk: 
-      :city: ทรัก
-    :Pacific/Wake: 
-      :city: เวก
-    :Pacific/Wallis: 
-      :city: วาลลิส

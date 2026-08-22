@@ -1,32 +1,32 @@
---- 
-:eo: 
-  :default: 
-    :am: 
-      :before: 
-        :hour: 12
-        :min: 0
-      :from: 
+---
+:eo:
+  :default:
+    :am:
+      :from:
         :hour: 0
         :min: 0
-    :pm: 
-      :before: 
+      :before:
+        :hour: 12
+        :min: 0
+    :pm:
+      :from:
+        :hour: 12
+        :min: 0
+      :before:
         :hour: 24
         :min: 0
-      :from: 
-        :hour: 12
-        :min: 0
-  :selection: 
-    :am: 
-      :before: 
-        :hour: 12
-        :min: 0
-      :from: 
+  :selection:
+    :am:
+      :from:
         :hour: 0
         :min: 0
-    :pm: 
-      :before: 
-        :hour: 24
-        :min: 0
-      :from: 
+      :before:
         :hour: 12
+        :min: 0
+    :pm:
+      :from:
+        :hour: 12
+        :min: 0
+      :before:
+        :hour: 24
         :min: 0

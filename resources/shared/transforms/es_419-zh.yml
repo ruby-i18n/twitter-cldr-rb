@@ -1,13 +1,12 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - zh-t-es-419
-    :direction: forward
-    :rules: 
-      - "::es-es_FONIPA ;"
-      - "::es_FONIPA-es_419_FONIPA ;"
-      - "::es_FONIPA-zh ;"
-    :source: es_419
-    :target: zh
-    :variant: ~
+---
+:transforms:
+- :source: es_419
+  :target: zh
+  :aliases:
+  - zh-t-es-419
+  :variant:
+  :direction: forward
+  :rules:
+  - "::es-es_FONIPA ;"
+  - "::es_FONIPA-es_419_FONIPA ;"
+  - "::es_FONIPA-zh ;"

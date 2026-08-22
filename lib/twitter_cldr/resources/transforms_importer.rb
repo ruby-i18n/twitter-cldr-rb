@@ -5,6 +5,7 @@
 
 require 'fileutils'
 require 'nokogiri'
+require 'yaml'
 
 module TwitterCldr
   module Resources
@@ -93,9 +94,8 @@ module TwitterCldr
       def write_transform_data(transform_data, path)
         File.open(path, 'w:utf-8') do |output|
           output.write(
-            TwitterCldr::Utils::YAML.dump(
-              TwitterCldr::Utils.deep_symbolize_keys(transforms: transform_data),
-              use_natural_symbols: true
+            ::YAML.dump(
+              TwitterCldr::Utils.deep_symbolize_keys(transforms: transform_data)
             )
           )
         end

@@ -5,6 +5,7 @@
 
 require 'nokogiri'
 require 'open-uri'
+require 'yaml'
 
 module TwitterCldr
   module Resources
@@ -27,9 +28,8 @@ module TwitterCldr
 
         File.open(path, 'w:utf-8') do |output|
           output.write(
-            TwitterCldr::Utils::YAML.dump(
-              TwitterCldr::Utils.deep_symbolize_keys(symbol_data),
-              use_natural_symbols: true
+            ::YAML.dump(
+              TwitterCldr::Utils.deep_symbolize_keys(symbol_data)
             )
           )
         end

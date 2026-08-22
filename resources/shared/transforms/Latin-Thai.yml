@@ -1,16 +1,15 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - Latin-Thai
-      - und-Thai-t-und-latn
-    :direction: forward
-    :rules: 
-      - "::[[:Latin:][:Mn:][:Me:] \\u0020\\u0026 ;0-9|~«»ʹʹ‡ˌ] ;"
-      - "::NFD ;"
-      - "::Latin-ThaiLogical ;"
-      - "::ThaiLogical-Thai ;"
-      - "::NFC ;"
-    :source: Latn
-    :target: Thai
-    :variant: ~
+---
+:transforms:
+- :source: Latn
+  :target: Thai
+  :aliases:
+  - Latin-Thai
+  - und-Thai-t-und-latn
+  :variant:
+  :direction: forward
+  :rules:
+  - "::[[:Latin:][:Mn:][:Me:] \\u0020\\u0026 ;0-9|~«»ʹʹ‡ˌ] ;"
+  - "::NFD ;"
+  - "::Latin-ThaiLogical ;"
+  - "::ThaiLogical-Thai ;"
+  - "::NFC ;"

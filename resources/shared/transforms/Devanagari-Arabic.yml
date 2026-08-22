@@ -1,16 +1,15 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - Devanagari-Arabic
-      - und-Arab-t-und-deva
-    :direction: forward
-    :rules: 
-      - "::[ँ-ःऄअ-ह़-्ॐ-॔क़-९ॽ] ;"
-      - "::NFD ;"
-      - "::Devanagari-InterIndic ;"
-      - "::InterIndic-Arabic ;"
-      - "::NFC ;"
-    :source: Deva
-    :target: Arab
-    :variant: ~
+---
+:transforms:
+- :source: Deva
+  :target: Arab
+  :aliases:
+  - Devanagari-Arabic
+  - und-Arab-t-und-deva
+  :variant:
+  :direction: forward
+  :rules:
+  - "::[ँ-ःऄअ-ह़-्ॐ-॔क़-९ॽ] ;"
+  - "::NFD ;"
+  - "::Devanagari-InterIndic ;"
+  - "::InterIndic-Arabic ;"
+  - "::NFC ;"

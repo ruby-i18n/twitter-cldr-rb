@@ -1,382 +1,381 @@
---- 
-:my: 
-  :calendars: 
-    :gregorian: 
-      :additional_formats: 
-        :Bh: "B h"
-        :Bhm: "B h:mm"
-        :Bhms: "B h:mm:ss"
-        :E: ccc
-        :EBh: "E B h"
-        :EBhm: "E B h:mm"
-        :EBhms: "E B h:mm:ss"
-        :EHm: "E HH:mm"
-        :EHms: "E HH:mm:ss"
-        :Ed: "d ရက် E"
-        :Eh: "E a h"
-        :Ehm: "E a h:mm"
-        :Ehms: "E a h:mm:ss"
-        :Gy: "G y"
-        :GyM: "G y-MM"
-        :GyMEd: "G y-MM-dd၊ E"
-        :GyMMM: "G y MMM"
-        :GyMMMEd: "G y MMM d၊ E"
-        :GyMMMd: "G y MMM d"
-        :GyMd: "G y/M/d"
-        :H: HH
-        :Hm: "HH:mm"
-        :Hms: "HH:mm:ss"
-        :Hmsv: "v HH:mm:ss"
-        :Hmv: "v HH:mm"
-        :Hv: "v HH"
-        :M: L
-        :MEd: "d/M E"
-        :MMM: LLL
-        :MMMEd: "MMM d E"
-        :MMMMEd: "MMMM d E"
-        :MMMMW: "MMMM လ W ပတ်မြောက်"
-        :MMMMd: "MMMM d"
-        :MMMd: "MMM d"
-        :Md: d/M
-        :d: d
-        :h: "a h"
-        :hm: "a h:mm"
-        :hms: "a h:mm:ss"
-        :hmsv: "v a h:mm:ss"
-        :hmv: "v a h:mm"
-        :hv: "v a h"
-        :ms: "mm:ss"
-        ? !ruby/symbol "y"
-        : "y"
-        :yM: y-MM
-        :yMEd: "d/M/y E"
-        :yMMM: "y MMM"
-        :yMMMEd: "y MMM d E"
-        :yMMMM: "y MMMM"
-        :yMMMd: "y MMM d"
-        :yMd: d/M/y
-        :yQQQ: "y QQQ"
-        :yQQQQ: "y QQQQ"
-        :yw: "Y ခု w ပတ်မြောက်"
-      :days: 
-        :format: 
-          :abbreviated: 
-            :fri: သောကြာ
-            :mon: တနင်္လာ
-            :sat: စနေ
+---
+:my:
+  :calendars:
+    :gregorian:
+      :days:
+        :format:
+          :abbreviated:
             :sun: တနင်္ဂနွေ
-            :thu: ကြာသပတေး
+            :mon: တနင်္လာ
             :tue: အင်္ဂါ
             :wed: ဗုဒ္ဓဟူး
-          :narrow: 
-            :fri: သ
-            :mon: တ
-            :sat: စ
+            :thu: ကြာသပတေး
+            :fri: သောကြာ
+            :sat: စနေ
+          :narrow:
             :sun: တ
-            :thu: က
+            :mon: တ
             :tue: အ
             :wed: ဗ
-          :short: 
-            :fri: ကြာ
-            :mon: လာ
-            :sat: နေ
+            :thu: က
+            :fri: သ
+            :sat: စ
+          :short:
             :sun: နွေ
-            :thu: တေး
+            :mon: လာ
             :tue: ဂါ
             :wed: ဟူး
-          :wide: 
-            :fri: သောကြာ
-            :mon: တနင်္လာ
-            :sat: စနေ
+            :thu: တေး
+            :fri: ကြာ
+            :sat: နေ
+          :wide:
             :sun: တနင်္ဂနွေ
-            :thu: ကြာသပတေး
+            :mon: တနင်္လာ
             :tue: အင်္ဂါ
             :wed: ဗုဒ္ဓဟူး
-        :stand-alone: 
-          :abbreviated: 
-            :fri: သောကြာ
-            :mon: တနင်္လာ
-            :sat: စနေ
-            :sun: တနင်္ဂနွေ
             :thu: ကြာသပတေး
+            :fri: သောကြာ
+            :sat: စနေ
+        :stand-alone:
+          :abbreviated:
+            :sun: တနင်္ဂနွေ
+            :mon: တနင်္လာ
             :tue: အင်္ဂါ
             :wed: ဗုဒ္ဓဟူး
-          :narrow: 
-            :fri: သ
-            :mon: တ
-            :sat: စ
+            :thu: ကြာသပတေး
+            :fri: သောကြာ
+            :sat: စနေ
+          :narrow:
             :sun: တ
-            :thu: က
+            :mon: တ
             :tue: အ
             :wed: ဗ
-          :short: 
-            :fri: ကြာ
-            :mon: လာ
-            :sat: နေ
+            :thu: က
+            :fri: သ
+            :sat: စ
+          :short:
             :sun: နွေ
-            :thu: တေး
+            :mon: လာ
             :tue: ဂါ
             :wed: ဟူး
-          :wide: 
-            :fri: သောကြာ
-            :mon: တနင်္လာ
-            :sat: စနေ
+            :thu: တေး
+            :fri: ကြာ
+            :sat: နေ
+          :wide:
             :sun: တနင်္ဂနွေ
-            :thu: ကြာသပတေး
+            :mon: တနင်္လာ
             :tue: အင်္ဂါ
             :wed: ဗုဒ္ဓဟူး
-      :eras: 
-        :abbr: 
+            :thu: ကြာသပတေး
+            :fri: သောကြာ
+            :sat: စနေ
+      :months:
+        :format:
+          :abbreviated:
+            1: ဇန်
+            2: ဖေ
+            3: မတ်
+            4: ဧ
+            5: မေ
+            6: ဇွန်
+            7: ဇူ
+            8: ဩ
+            9: စက်
+            10: အောက်
+            11: နို
+            12: ဒီ
+          :narrow:
+            1: ဇ
+            2: ဖ
+            3: မ
+            4: ဧ
+            5: မ
+            6: ဇ
+            7: ဇ
+            8: ဩ
+            9: စ
+            10: အ
+            11: န
+            12: ဒ
+          :wide:
+            1: ဇန်နဝါရီ
+            2: ဖေဖော်ဝါရီ
+            3: မတ်
+            4: ဧပြီ
+            5: မေ
+            6: ဇွန်
+            7: ဇူလိုင်
+            8: ဩဂုတ်
+            9: စက်တင်ဘာ
+            10: အောက်တိုဘာ
+            11: နိုဝင်ဘာ
+            12: ဒီဇင်ဘာ
+        :stand-alone:
+          :abbreviated:
+            1: ဇန်
+            2: ဖေ
+            3: မတ်
+            4: ဧ
+            5: မေ
+            6: ဇွန်
+            7: ဇူ
+            8: ဩ
+            9: စက်
+            10: အောက်
+            11: နို
+            12: ဒီ
+          :narrow:
+            1: ဇ
+            2: ဖ
+            3: မ
+            4: ဧ
+            5: မ
+            6: ဇ
+            7: ဇ
+            8: ဩ
+            9: စ
+            10: အ
+            11: န
+            12: ဒ
+          :wide:
+            1: ဇန်နဝါရီ
+            2: ဖေဖော်ဝါရီ
+            3: မတ်
+            4: ဧပြီ
+            5: မေ
+            6: ဇွန်
+            7: ဇူလိုင်
+            8: ဩဂုတ်
+            9: စက်တင်ဘာ
+            10: အောက်တိုဘာ
+            11: နိုဝင်ဘာ
+            12: ဒီဇင်ဘာ
+      :eras:
+        :name:
+          0: ဘုံခေတ် မတိုင်မီ
+          1: ဘုံခေတ်
+        :abbr:
           0: ဘီစီအီး
           1: စီအီး
-        :name: 
-          0: "ဘုံခေတ် မတိုင်မီ"
-          1: ဘုံခေတ်
-        :narrow: 
+        :narrow:
           0: BCE
           1: CE
-      :fields: 
-        :day: ရက်
-        :day-narrow: ရက်
-        :day-short: ရက်
-        :dayOfYear: "တစ်နှစ်အတွင်း ရက်ရေတွက်ပုံ"
-        :dayOfYear-narrow: "တစ်နှစ်အတွင်း ရက်ရေတွက်ပုံ"
-        :dayOfYear-short: "တစ်နှစ်အတွင်း ရက်ရေတွက်ပုံ"
-        :dayperiod: နံနက်/ညနေ
-        :dayperiod-narrow: နံနက်/ညနေ
-        :dayperiod-short: နံနက်/ညနေ
+      :quarters:
+        :format:
+          :abbreviated:
+            1: Q1
+            2: Q2
+            3: Q3
+            4: Q4
+          :narrow:
+            1: ပ
+            2: ဒု
+            3: တ
+            4: စ
+          :wide:
+            1: ပထမ သုံးလပတ်
+            2: ဒုတိယ သုံးလပတ်
+            3: တတိယ သုံးလပတ်
+            4: စတုတ္ထ သုံးလပတ်
+        :stand-alone:
+          :abbreviated:
+            1: Q1
+            2: Q2
+            3: Q3
+            4: Q4
+          :narrow:
+            1: ပ
+            2: ဒု
+            3: တ
+            4: စ
+          :wide:
+            1: ပထမ သုံးလပတ်
+            2: ဒုတိယ သုံးလပတ်
+            3: တတိယ သုံးလပတ်
+            4: စတုတ္ထ သုံးလပတ်
+      :periods:
+        :format:
+          :abbreviated:
+            :am: နံနက်
+            :pm: ညနေ
+            :midnight: သန်းခေါင်ယံ
+            :noon: မွန်းတည့်
+            :morning1: နံနက်
+            :afternoon1: နေ့လယ်
+            :evening1: ညနေ
+            :night1: ည
+          :narrow:
+            :am: နံနက်
+            :pm: ညနေ
+            :midnight: သန်းခေါင်ယံ
+            :noon: မွန်းတည့်
+            :morning1: နံနက်
+            :afternoon1: နေ့လယ်
+            :evening1: ညနေ
+            :night1: ည
+          :wide:
+            :am: နံနက်
+            :pm: ညနေ
+            :midnight: သန်းခေါင်ယံ
+            :noon: မွန်းတည့်
+            :morning1: နံနက်
+            :afternoon1: နေ့လယ်
+            :evening1: ညနေ
+            :night1: ည
+        :stand-alone:
+          :abbreviated:
+            :am: နံနက်
+            :pm: ညနေ
+            :midnight: သန်းခေါင်ယံ
+            :noon: မွန်းတည့်
+            :morning1: နံနက်
+            :afternoon1: နေ့လယ်
+            :evening1: ညနေ
+            :night1: ည
+          :narrow:
+            :am: နံနက်
+            :pm: ညနေ
+            :midnight: သန်းခေါင်ယံ
+            :noon: မွန်းတည့်
+            :morning1: နံနက်
+            :afternoon1: နေ့လယ်
+            :evening1: ညနေ
+            :night1: ည
+          :wide:
+            :am: နံနက်
+            :pm: ညနေ
+            :midnight: သန်းခေါင်ယံ
+            :noon: မွန်းတည့်
+            :morning1: နံနက်
+            :afternoon1: နေ့လယ်
+            :evening1: ညနေ
+            :night1: ည
+      :fields:
         :era: ခေတ်
-        :era-narrow: ခေတ်
         :era-short: ခေတ်
-        :hour: နာရီ
-        :hour-narrow: နာရီ
-        :hour-short: နာရီ
-        :minute: မိနစ်
-        :minute-narrow: မိနစ်
-        :minute-short: မိနစ်
-        :month: လ
-        :month-narrow: လ
-        :month-short: လ
-        :quarter: သုံးလပတ်
-        :quarter-narrow: Quarter
-        :quarter-short: Quarter
-        :second: စက္ကန့်
-        :second-narrow: စက္ကန့်
-        :second-short: စက္ကန့်
-        :week: ပတ်
-        :week-narrow: ပတ်
-        :week-short: ပတ်
-        :weekOfMonth: တစ်လအတွင်းရှိသီတင်းပတ်
-        :weekOfMonth-narrow: တစ်လအတွင်းရှိသီတင်းပတ်
-        :weekOfMonth-short: တစ်လအတွင်းရှိသီတင်းပတ်
-        :weekday: နေ့
-        :weekday-narrow: နေ့
-        :weekday-short: နေ့
-        :weekdayOfMonth: တစ်လအတွင်းရှိအလုပ်ရက်
-        :weekdayOfMonth-narrow: တစ်လအတွင်းရှိအလုပ်ရက်
-        :weekdayOfMonth-short: တစ်လအတွင်းရှိအလုပ်ရက်
+        :era-narrow: ခေတ်
         :year: နှစ်
-        :year-narrow: နှစ်
         :year-short: နှစ်
+        :year-narrow: နှစ်
+        :quarter: သုံးလပတ်
+        :quarter-short: Quarter
+        :quarter-narrow: Quarter
+        :month: လ
+        :month-short: လ
+        :month-narrow: လ
+        :week: ပတ်
+        :week-short: ပတ်
+        :week-narrow: ပတ်
+        :weekOfMonth: တစ်လအတွင်းရှိသီတင်းပတ်
+        :weekOfMonth-short: တစ်လအတွင်းရှိသီတင်းပတ်
+        :weekOfMonth-narrow: တစ်လအတွင်းရှိသီတင်းပတ်
+        :day: ရက်
+        :day-short: ရက်
+        :day-narrow: ရက်
+        :dayOfYear: တစ်နှစ်အတွင်း ရက်ရေတွက်ပုံ
+        :dayOfYear-short: တစ်နှစ်အတွင်း ရက်ရေတွက်ပုံ
+        :dayOfYear-narrow: တစ်နှစ်အတွင်း ရက်ရေတွက်ပုံ
+        :weekday: နေ့
+        :weekday-short: နေ့
+        :weekday-narrow: နေ့
+        :weekdayOfMonth: တစ်လအတွင်းရှိအလုပ်ရက်
+        :weekdayOfMonth-short: တစ်လအတွင်းရှိအလုပ်ရက်
+        :weekdayOfMonth-narrow: တစ်လအတွင်းရှိအလုပ်ရက်
+        :dayperiod: နံနက်/ညနေ
+        :dayperiod-short: နံနက်/ညနေ
+        :dayperiod-narrow: နံနက်/ညနေ
+        :hour: နာရီ
+        :hour-short: နာရီ
+        :hour-narrow: နာရီ
+        :minute: မိနစ်
+        :minute-short: မိနစ်
+        :minute-narrow: မိနစ်
+        :second: စက္ကန့်
+        :second-short: စက္ကန့်
+        :second-narrow: စက္ကန့်
         :zone: ဇုန်
-        :zone-narrow: ဇုန်
         :zone-short: ဇုန်
-      :formats: 
-        :date: 
-          :full: 
-            :pattern: "y MMMM d EEEE"
-          :long: 
-            :pattern: "y MMMM d"
-          :medium: 
-            :pattern: "y MMM d"
-          :short: 
+        :zone-narrow: ဇုန်
+      :formats:
+        :date:
+          :full:
+            :pattern: y MMMM d EEEE
+          :long:
+            :pattern: y MMMM d
+          :medium:
+            :pattern: y MMM d
+          :short:
             :pattern: d/M/yy
-        :datetime: 
-          :full: 
+        :time:
+          :full:
+            :pattern: zzzz HH:mm:ss
+          :long:
+            :pattern: z HH:mm:ss
+          :medium:
+            :pattern: H:mm:ss
+          :short:
+            :pattern: H:mm
+        :datetime:
+          :full:
             :pattern: "{{date}} {{time}}"
-          :long: 
+          :long:
             :pattern: "{{date}} {{time}}"
-          :medium: 
+          :medium:
             :pattern: "{{date}} {{time}}"
-          :short: 
+          :short:
             :pattern: "{{date}} {{time}}"
-        :time: 
-          :full: 
-            :pattern: "zzzz HH:mm:ss"
-          :long: 
-            :pattern: "z HH:mm:ss"
-          :medium: 
-            :pattern: "H:mm:ss"
-          :short: 
-            :pattern: "H:mm"
-      :months: 
-        :format: 
-          :abbreviated: 
-            1: ဇန်
-            10: အောက်
-            11: နို
-            12: ဒီ
-            2: ဖေ
-            3: မတ်
-            4: ဧ
-            5: မေ
-            6: ဇွန်
-            7: ဇူ
-            8: ဩ
-            9: စက်
-          :narrow: 
-            1: ဇ
-            10: အ
-            11: န
-            12: ဒ
-            2: ဖ
-            3: မ
-            4: ဧ
-            5: မ
-            6: ဇ
-            7: ဇ
-            8: ဩ
-            9: စ
-          :wide: 
-            1: ဇန်နဝါရီ
-            10: အောက်တိုဘာ
-            11: နိုဝင်ဘာ
-            12: ဒီဇင်ဘာ
-            2: ဖေဖော်ဝါရီ
-            3: မတ်
-            4: ဧပြီ
-            5: မေ
-            6: ဇွန်
-            7: ဇူလိုင်
-            8: ဩဂုတ်
-            9: စက်တင်ဘာ
-        :stand-alone: 
-          :abbreviated: 
-            1: ဇန်
-            10: အောက်
-            11: နို
-            12: ဒီ
-            2: ဖေ
-            3: မတ်
-            4: ဧ
-            5: မေ
-            6: ဇွန်
-            7: ဇူ
-            8: ဩ
-            9: စက်
-          :narrow: 
-            1: ဇ
-            10: အ
-            11: န
-            12: ဒ
-            2: ဖ
-            3: မ
-            4: ဧ
-            5: မ
-            6: ဇ
-            7: ဇ
-            8: ဩ
-            9: စ
-          :wide: 
-            1: ဇန်နဝါရီ
-            10: အောက်တိုဘာ
-            11: နိုဝင်ဘာ
-            12: ဒီဇင်ဘာ
-            2: ဖေဖော်ဝါရီ
-            3: မတ်
-            4: ဧပြီ
-            5: မေ
-            6: ဇွန်
-            7: ဇူလိုင်
-            8: ဩဂုတ်
-            9: စက်တင်ဘာ
-      :periods: 
-        :format: 
-          :abbreviated: 
-            :afternoon1: နေ့လယ်
-            :am: နံနက်
-            :evening1: ညနေ
-            :midnight: သန်းခေါင်ယံ
-            :morning1: နံနက်
-            :night1: ည
-            :noon: မွန်းတည့်
-            :pm: ညနေ
-          :narrow: 
-            :afternoon1: နေ့လယ်
-            :am: နံနက်
-            :evening1: ညနေ
-            :midnight: သန်းခေါင်ယံ
-            :morning1: နံနက်
-            :night1: ည
-            :noon: မွန်းတည့်
-            :pm: ညနေ
-          :wide: 
-            :afternoon1: နေ့လယ်
-            :am: နံနက်
-            :evening1: ညနေ
-            :midnight: သန်းခေါင်ယံ
-            :morning1: နံနက်
-            :night1: ည
-            :noon: မွန်းတည့်
-            :pm: ညနေ
-        :stand-alone: 
-          :abbreviated: 
-            :afternoon1: နေ့လယ်
-            :am: နံနက်
-            :evening1: ညနေ
-            :midnight: သန်းခေါင်ယံ
-            :morning1: နံနက်
-            :night1: ည
-            :noon: မွန်းတည့်
-            :pm: ညနေ
-          :narrow: 
-            :afternoon1: နေ့လယ်
-            :am: နံနက်
-            :evening1: ညနေ
-            :midnight: သန်းခေါင်ယံ
-            :morning1: နံနက်
-            :night1: ည
-            :noon: မွန်းတည့်
-            :pm: ညနေ
-          :wide: 
-            :afternoon1: နေ့လယ်
-            :am: နံနက်
-            :evening1: ညနေ
-            :midnight: သန်းခေါင်ယံ
-            :morning1: နံနက်
-            :night1: ည
-            :noon: မွန်းတည့်
-            :pm: ညနေ
-      :quarters: 
-        :format: 
-          :abbreviated: 
-            1: Q1
-            2: Q2
-            3: Q3
-            4: Q4
-          :narrow: 
-            1: ပ
-            2: ဒု
-            3: တ
-            4: စ
-          :wide: 
-            1: "ပထမ သုံးလပတ်"
-            2: "ဒုတိယ သုံးလပတ်"
-            3: "တတိယ သုံးလပတ်"
-            4: "စတုတ္ထ သုံးလပတ်"
-        :stand-alone: 
-          :abbreviated: 
-            1: Q1
-            2: Q2
-            3: Q3
-            4: Q4
-          :narrow: 
-            1: ပ
-            2: ဒု
-            3: တ
-            4: စ
-          :wide: 
-            1: "ပထမ သုံးလပတ်"
-            2: "ဒုတိယ သုံးလပတ်"
-            3: "တတိယ သုံးလပတ်"
-            4: "စတုတ္ထ သုံးလပတ်"
+      :additional_formats:
+        :Bh: B h
+        :Bhm: B h:mm
+        :Bhms: B h:mm:ss
+        :d: d
+        :E: ccc
+        :EBh: E B h
+        :EBhm: E B h:mm
+        :EBhms: E B h:mm:ss
+        :Ed: d ရက် E
+        :Eh: E a h
+        :Ehm: E a h:mm
+        :EHm: E HH:mm
+        :Ehms: E a h:mm:ss
+        :EHms: E HH:mm:ss
+        :Gy: G y
+        :GyM: G y-MM
+        :GyMd: G y/M/d
+        :GyMEd: G y-MM-dd၊ E
+        :GyMMM: G y MMM
+        :GyMMMd: G y MMM d
+        :GyMMMEd: G y MMM d၊ E
+        :h: a h
+        :H: HH
+        :hm: a h:mm
+        :Hm: HH:mm
+        :hms: a h:mm:ss
+        :Hms: HH:mm:ss
+        :hmsv: v a h:mm:ss
+        :Hmsv: v HH:mm:ss
+        :hmv: v a h:mm
+        :Hmv: v HH:mm
+        :hv: v a h
+        :Hv: v HH
+        :M: L
+        :Md: d/M
+        :MEd: d/M E
+        :MMM: LLL
+        :MMMd: MMM d
+        :MMMEd: MMM d E
+        :MMMMd: MMMM d
+        :MMMMW: MMMM လ W ပတ်မြောက်
+        :ms: mm:ss
+        :y: "y"
+        :yM: y-MM
+        :yMd: d/M/y
+        :yMEd: d/M/y E
+        :yMMM: y MMM
+        :yMMMd: y MMM d
+        :yMMMEd: y MMM d E
+        :yMMMM: y MMMM
+        :yQQQ: y QQQ
+        :yQQQQ: y QQQQ
+        :yw: Y ခု w ပတ်မြောက်
+        :MMMMEd: MMMM d E

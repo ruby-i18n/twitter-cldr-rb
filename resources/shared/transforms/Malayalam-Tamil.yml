@@ -1,16 +1,15 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - Malayalam-Tamil
-      - und-Taml-t-und-mlym
-    :direction: forward
-    :rules: 
-      - "::[ം-ഃഅ-ഌഎ-ഐഒ-നപ-ഹാ-ൃെ-ൈൊ-്ൗൠ-ൡ൦-൯] ;"
-      - "::NFD ;"
-      - "::Malayalam-InterIndic ;"
-      - "::InterIndic-Tamil ;"
-      - "::NFC ;"
-    :source: Mlym
-    :target: Taml
-    :variant: ~
+---
+:transforms:
+- :source: Mlym
+  :target: Taml
+  :aliases:
+  - Malayalam-Tamil
+  - und-Taml-t-und-mlym
+  :variant:
+  :direction: forward
+  :rules:
+  - "::[ം-ഃഅ-ഌഎ-ഐഒ-നപ-ഹാ-ൃെ-ൈൊ-്ൗൠ-ൡ൦-൯] ;"
+  - "::NFD ;"
+  - "::Malayalam-InterIndic ;"
+  - "::InterIndic-Tamil ;"
+  - "::NFC ;"

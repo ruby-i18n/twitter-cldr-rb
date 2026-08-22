@@ -14,6 +14,7 @@
 * Remove Twitter-specific locale mappings. All supported locales now use the official CLDR locale codes.
 * Remove `TwitterCldr.convert_locale` in favor of `TwitterCldr.normalize_locale`.
 * `TwitterCldr.normalize_locale`, `TwitterCldr.locale=`, and any methods that call these methods, now `raise` if passed an unsupported locale.
+* Remove `TwitterCldr::Utils::YAML`, which was a UTF-aware YAML dumper from the Ruby 1.8 era that is no longer necessary.
 
 ### 6.14.0 (Feb 21st, 2025)
 * Allow passing the `dst:` option to `LocalizedDateTime#to_*_s`. (@movermeyer, #280)

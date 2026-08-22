@@ -1,916 +1,916 @@
---- 
-:da: 
-  :formats: 
-    :fallback_formats: 
-      :generic: "{1} ({0})"
-    :gmt_formats: 
-      :generic: "GMT{0}"
-    :gmt_unknown_formats: 
-      :generic: GMT+?
-    :gmt_zero_formats: 
+---
+:da:
+  :formats:
+    :hour_formats:
+      :generic: "+HH.mm;-HH.mm"
+    :gmt_formats:
+      :generic: GMT{0}
+    :gmt_zero_formats:
       :generic: GMT
-    :hour_formats: 
-      :generic: +HH.mm;-HH.mm
-    :region_formats: 
-      :daylight: "{0}-sommertid"
+    :gmt_unknown_formats:
+      :generic: GMT+?
+    :region_formats:
       :generic: "{0}-tid"
+      :daylight: "{0}-sommertid"
       :standard: "{0}-normaltid"
-  :metazones: 
-    :Acre: 
-      :long: 
-        :daylight: Acre-sommertid
+    :fallback_formats:
+      :generic: "{1} ({0})"
+  :timezones:
+    :Etc/UTC:
+      :short:
+        :standard: UTC
+      :long:
+        :standard: Koordineret universaltid
+    :Europe/Tirane:
+      :city: Tirana
+    :Antarctica/Syowa:
+      :city: Showa
+    :Antarctica/DumontDUrville:
+      :city: Dumont-d’Urville
+    :America/Argentina/Rio_Gallegos:
+      :city: Río Gallegos
+    :America/Argentina/Tucuman:
+      :city: Tucumán
+    :America/Cordoba:
+      :city: Córdoba
+    :America/St_Barthelemy:
+      :city: Saint-Barthélemy
+    :America/Eirunepe:
+      :city: Eirunepé
+    :America/Cuiaba:
+      :city: Cuiabá
+    :America/Santarem:
+      :city: Santarém
+    :America/Belem:
+      :city: Belém
+    :America/Araguaina:
+      :city: Araguaína
+    :America/Sao_Paulo:
+      :city: São Paulo
+    :America/Maceio:
+      :city: Maceió
+    :America/Noronha:
+      :city: Fernando de Noronha
+    :America/Coral_Harbour:
+      :city: Atikokan
+    :America/St_Johns:
+      :city: St. John’s
+    :Asia/Urumqi:
+      :city: Ürümqi
+    :America/Bogota:
+      :city: Bogotá
+    :America/Curacao:
+      :city: Curaçao
+    :Europe/Busingen:
+      :city: Büsingen
+    :Pacific/Galapagos:
+      :city: Galápagos
+    :Africa/El_Aaiun:
+      :city: El Aaiún
+    :Africa/Asmera:
+      :city: Asmara
+    :Atlantic/Canary:
+      :city: De Kanariske Øer
+    :Pacific/Truk:
+      :city: Chuuk
+    :Pacific/Ponape:
+      :city: Pohnpei
+    :Atlantic/Faeroe:
+      :city: Færøerne
+    :America/Godthab:
+      :city: Nuuk
+    :America/Scoresbysund:
+      :city: Ittoqqortoormiit
+    :Asia/Calcutta:
+      :city: Kolkata
+    :Pacific/Enderbury:
+      :city: Canton Island
+    :Indian/Comoro:
+      :city: Comorerne
+    :America/St_Kitts:
+      :city: St. Kitts
+    :America/St_Lucia:
+      :city: St. Lucia
+    :Europe/Chisinau:
+      :city: Chișinău
+    :Asia/Rangoon:
+      :city: Rangoon
+    :Asia/Hovd:
+      :city: Khovd
+    :Asia/Macau:
+      :city: Macao
+    :America/Ciudad_Juarez:
+      :city: Ciudad Juárez
+    :America/Mazatlan:
+      :city: Mazatlán
+    :America/Bahia_Banderas:
+      :city: Bahia Banderas
+    :America/Mexico_City:
+      :city: Ciudad de México
+    :America/Merida:
+      :city: Merida
+    :America/Cancun:
+      :city: Cancun
+    :Pacific/Noumea:
+      :city: Nouméa
+    :Asia/Katmandu:
+      :city: Katmandu
+    :America/Miquelon:
+      :city: Saint-Pierre
+    :America/Asuncion:
+      :city: Asunción
+    :Indian/Reunion:
+      :city: Réunion
+    :Indian/Mahe:
+      :city: Mahé
+    :Atlantic/St_Helena:
+      :city: St. Helena
+    :Africa/Sao_Tome:
+      :city: São Tomé
+    :America/Lower_Princes:
+      :city: Lower Prince’s Quarter
+    :Africa/Ndjamena:
+      :city: N’Djamena
+    :Africa/Lome:
+      :city: Lomé
+    :Europe/Kiev:
+      :city: Kiev
+    :America/North_Dakota/Beulah:
+      :city: Beulah, North Dakota
+    :America/North_Dakota/New_Salem:
+      :city: New Salem, North Dakota
+    :America/North_Dakota/Center:
+      :city: Center, North Dakota
+    :America/Indiana/Vincennes:
+      :city: Vincennes, Indiana
+    :America/Indiana/Petersburg:
+      :city: Petersburg, Indiana
+    :America/Indiana/Tell_City:
+      :city: Tell City, Indiana
+    :America/Indiana/Knox:
+      :city: Knox, Indiana
+    :America/Indiana/Winamac:
+      :city: Winamac, Indiana
+    :America/Indiana/Marengo:
+      :city: Marengo, Indiana
+    :America/Indiana/Vevay:
+      :city: Vevay, Indiana
+    :America/Kentucky/Monticello:
+      :city: Monticello, Kentucky
+    :America/St_Vincent:
+      :city: St. Vincent
+    :America/St_Thomas:
+      :city: St. Thomas
+    :Asia/Saigon:
+      :city: Ho Chi Minh City
+    :Pacific/Wallis:
+      :city: Wallis & Futuna
+    :Pacific/Honolulu:
+      :city: Honolulu
+    :Etc/Unknown:
+      :city: Ukendt by
+    :Asia/Yerevan:
+      :city: Jerevan
+    :Europe/Vienna:
+      :city: Wien
+    :Europe/Brussels:
+      :city: Bruxelles
+    :Europe/Zurich:
+      :city: Zürich
+    :Pacific/Easter:
+      :city: Påskeøen
+    :Atlantic/Cape_Verde:
+      :city: Kap Verde
+    :Indian/Christmas:
+      :city: Juleøen
+    :Europe/Prague:
+      :city: Prag
+    :Europe/Copenhagen:
+      :city: København
+    :Africa/Algiers:
+      :city: Algier
+    :Africa/Addis_Ababa:
+      :city: Addis Abeba
+    :Europe/London:
+      :long:
+        :daylight: Britisk sommertid
+    :Europe/Athens:
+      :city: Athen
+    :Asia/Hong_Kong:
+      :city: Hongkong
+    :Europe/Dublin:
+      :long:
+        :daylight: Irsk normaltid
+    :Asia/Baghdad:
+      :city: Bagdad
+    :Asia/Tehran:
+      :city: Teheran
+    :Europe/Rome:
+      :city: Rom
+    :Asia/Bishkek:
+      :city: Bisjkek
+    :America/Cayman:
+      :city: Caymanøerne
+    :Asia/Aqtau:
+      :city: Aktau
+    :Asia/Aqtobe:
+      :city: Aktobe
+    :Asia/Qostanay:
+      :city: Kostanay
+    :Asia/Qyzylorda:
+      :city: Kyzylorda
+    :Asia/Ulaanbaatar:
+      :city: Ulan Bator
+    :Indian/Maldives:
+      :city: Maldiverne
+    :Europe/Warsaw:
+      :city: Warszawa
+    :Atlantic/Azores:
+      :city: Azorerne
+    :Europe/Lisbon:
+      :city: Lissabon
+    :Europe/Bucharest:
+      :city: Bukarest
+    :Europe/Belgrade:
+      :city: Beograd
+    :Europe/Moscow:
+      :city: Moskva
+    :Europe/Ulyanovsk:
+      :city: Uljanovsk
+    :Asia/Yekaterinburg:
+      :city: Jekaterinburg
+    :Asia/Novokuznetsk:
+      :city: Novokusnetsk
+    :Asia/Krasnoyarsk:
+      :city: Krasnojarsk
+    :Asia/Yakutsk:
+      :city: Jakutsk
+    :Asia/Kamchatka:
+      :city: Kamtjatka
+    :Asia/Damascus:
+      :city: Damaskus
+    :Asia/Dushanbe:
+      :city: Dusjanbe
+    :Asia/Ashgabat:
+      :city: Asjkhabad
+    :Asia/Tashkent:
+      :city: Tasjkent
+    :Europe/Vatican:
+      :city: Vatikanet
+  :metazones:
+    :Acre:
+      :long:
         :generic: Acre-tid
         :standard: Acre-normaltid
-    :Afghanistan: 
-      :long: 
-        :standard: "Afghansk tid"
-    :Africa_Central: 
-      :long: 
-        :standard: "Centralafrikansk tid"
-    :Africa_Eastern: 
-      :long: 
-        :standard: "Østafrikansk tid"
-    :Africa_Southern: 
-      :long: 
-        :standard: "Sydafrikansk tid"
-    :Africa_Western: 
-      :long: 
-        :standard: "Vestafrikansk tid"
-    :Alaska: 
-      :long: 
-        :daylight: Alaska-sommertid
+        :daylight: Acre-sommertid
+    :Afghanistan:
+      :long:
+        :standard: Afghansk tid
+    :Africa_Central:
+      :long:
+        :standard: Centralafrikansk tid
+    :Africa_Eastern:
+      :long:
+        :standard: Østafrikansk tid
+    :Africa_Southern:
+      :long:
+        :standard: Sydafrikansk tid
+    :Africa_Western:
+      :long:
+        :standard: Vestafrikansk tid
+    :Alaska:
+      :long:
         :generic: Alaska-tid
         :standard: Alaska-normaltid
-    :Almaty: 
-      :long: 
-        :daylight: Almaty-sommertid
+        :daylight: Alaska-sommertid
+    :Almaty:
+      :long:
         :generic: Almaty-tid
         :standard: Almaty-normaltid
-    :Amazon: 
-      :long: 
-        :daylight: Amazonas-sommertid
+        :daylight: Almaty-sommertid
+    :Amazon:
+      :long:
         :generic: Amazonas-tid
         :standard: Amazonas-normaltid
-    :America_Central: 
-      :long: 
-        :daylight: Central-sommertid
+        :daylight: Amazonas-sommertid
+    :America_Central:
+      :long:
         :generic: Central-tid
         :standard: Central-normaltid
-    :America_Eastern: 
-      :long: 
-        :daylight: Eastern-sommertid
+        :daylight: Central-sommertid
+    :America_Eastern:
+      :long:
         :generic: Eastern-tid
         :standard: Eastern-normaltid
-    :America_Mountain: 
-      :long: 
-        :daylight: Mountain-sommertid
+        :daylight: Eastern-sommertid
+    :America_Mountain:
+      :long:
         :generic: Mountain-tid
         :standard: Mountain-normaltid
-    :America_Pacific: 
-      :long: 
-        :daylight: Pacific-sommertid
+        :daylight: Mountain-sommertid
+    :America_Pacific:
+      :long:
         :generic: Pacific-tid
         :standard: Pacific-normaltid
-    :Anadyr: 
-      :long: 
-        :daylight: Anadyr-sommertid
+        :daylight: Pacific-sommertid
+    :Anadyr:
+      :long:
         :generic: Anadyr-tid
         :standard: Anadyr-normaltid
-    :Apia: 
-      :long: 
-        :daylight: Apia-sommertid
+        :daylight: Anadyr-sommertid
+    :Apia:
+      :long:
         :generic: Apia-tid
         :standard: Apia-normaltid
-    :Aqtau: 
-      :long: 
-        :daylight: Aqtau-sommertid
+        :daylight: Apia-sommertid
+    :Aqtau:
+      :long:
         :generic: Aqtau-tid
         :standard: Aqtau-normaltid
-    :Aqtobe: 
-      :long: 
-        :daylight: Aqtobe-sommertid
+        :daylight: Aqtau-sommertid
+    :Aqtobe:
+      :long:
         :generic: Aqtobe-tid
         :standard: Aqtobe-normaltid
-    :Arabian: 
-      :long: 
-        :daylight: "Arabisk sommertid"
-        :generic: "Arabisk tid"
-        :standard: "Arabisk normaltid"
-    :Argentina: 
-      :long: 
-        :daylight: "Argentinsk sommertid"
-        :generic: "Argentisk tid"
-        :standard: "Argentinsk normaltid"
-    :Argentina_Western: 
-      :long: 
-        :daylight: "Vestargentinsk sommertid"
-        :generic: "Vestargentinsk tid"
-        :standard: "Vestargentinsk normaltid"
-    :Armenia: 
-      :long: 
-        :daylight: "Armensk sommertid"
-        :generic: "Armensk tid"
-        :standard: "Armensk normaltid"
-    :Atlantic: 
-      :long: 
-        :daylight: Atlantic-sommertid
+        :daylight: Aqtobe-sommertid
+    :Arabian:
+      :long:
+        :generic: Arabisk tid
+        :standard: Arabisk normaltid
+        :daylight: Arabisk sommertid
+    :Argentina:
+      :long:
+        :generic: Argentisk tid
+        :standard: Argentinsk normaltid
+        :daylight: Argentinsk sommertid
+    :Argentina_Western:
+      :long:
+        :generic: Vestargentinsk tid
+        :standard: Vestargentinsk normaltid
+        :daylight: Vestargentinsk sommertid
+    :Armenia:
+      :long:
+        :generic: Armensk tid
+        :standard: Armensk normaltid
+        :daylight: Armensk sommertid
+    :Atlantic:
+      :long:
         :generic: Atlantic-tid
         :standard: Atlantic-normaltid
-    :Australia_Central: 
-      :long: 
-        :daylight: "Centralaustralsk sommertid"
-        :generic: "Centralaustralsk tid"
-        :standard: "Centralaustralsk normaltid"
-    :Australia_CentralWestern: 
-      :long: 
-        :daylight: "Vestlig centralaustralsk sommertid"
-        :generic: "Vestlig centralaustralsk tid"
-        :standard: "Vestlig centralaustralsk normaltid"
-    :Australia_Eastern: 
-      :long: 
-        :daylight: "Østaustralsk sommertid"
-        :generic: "Østaustralsk tid"
-        :standard: "Østaustralsk normaltid"
-    :Australia_Western: 
-      :long: 
-        :daylight: "Vestaustralsk sommertid"
-        :generic: "Vestaustralsk tid"
-        :standard: "Vestaustralsk normaltid"
-    :Azerbaijan: 
-      :long: 
-        :daylight: "Aserbajdsjansk sommertid"
-        :generic: "Aserbajdsjansk tid"
-        :standard: "Aserbajdsjansk normaltid"
-    :Azores: 
-      :long: 
-        :daylight: Azorerne-sommertid
+        :daylight: Atlantic-sommertid
+    :Australia_Central:
+      :long:
+        :generic: Centralaustralsk tid
+        :standard: Centralaustralsk normaltid
+        :daylight: Centralaustralsk sommertid
+    :Australia_CentralWestern:
+      :long:
+        :generic: Vestlig centralaustralsk tid
+        :standard: Vestlig centralaustralsk normaltid
+        :daylight: Vestlig centralaustralsk sommertid
+    :Australia_Eastern:
+      :long:
+        :generic: Østaustralsk tid
+        :standard: Østaustralsk normaltid
+        :daylight: Østaustralsk sommertid
+    :Australia_Western:
+      :long:
+        :generic: Vestaustralsk tid
+        :standard: Vestaustralsk normaltid
+        :daylight: Vestaustralsk sommertid
+    :Azerbaijan:
+      :long:
+        :generic: Aserbajdsjansk tid
+        :standard: Aserbajdsjansk normaltid
+        :daylight: Aserbajdsjansk sommertid
+    :Azores:
+      :long:
         :generic: Azorerne-tid
         :standard: Azorerne-normaltid
-    :Bangladesh: 
-      :long: 
-        :daylight: Bangladesh-sommertid
+        :daylight: Azorerne-sommertid
+    :Bangladesh:
+      :long:
         :generic: Bangladesh-tid
         :standard: Bangladesh-normaltid
-    :Bhutan: 
-      :long: 
+        :daylight: Bangladesh-sommertid
+    :Bhutan:
+      :long:
         :standard: Bhutan-tid
-    :Bolivia: 
-      :long: 
-        :standard: "Boliviansk tid"
-    :Brasilia: 
-      :long: 
-        :daylight: "Brasiliansk sommertid"
-        :generic: "Brasiliansk tid"
-        :standard: "Brasiliansk normaltid"
-    :Brunei: 
-      :long: 
-        :standard: "Brunei Darussalam-tid"
-    :Cape_Verde: 
-      :long: 
-        :daylight: "Kap Verde-sommertid"
-        :generic: "Kap Verde-tid"
-        :standard: "Kap Verde-normaltid"
-    :Chamorro: 
-      :long: 
+    :Bolivia:
+      :long:
+        :standard: Boliviansk tid
+    :Brasilia:
+      :long:
+        :generic: Brasiliansk tid
+        :standard: Brasiliansk normaltid
+        :daylight: Brasiliansk sommertid
+    :Brunei:
+      :long:
+        :standard: Brunei Darussalam-tid
+    :Cape_Verde:
+      :long:
+        :generic: Kap Verde-tid
+        :standard: Kap Verde-normaltid
+        :daylight: Kap Verde-sommertid
+    :Chamorro:
+      :long:
         :standard: Chamorro-tid
-    :Chatham: 
-      :long: 
-        :daylight: Chatham-sommertid
+    :Chatham:
+      :long:
         :generic: Chatham-tid
         :standard: Chatham-normaltid
-    :Chile: 
-      :long: 
-        :daylight: "Chilensk sommertid"
-        :generic: "Chilensk tid"
-        :standard: "Chilensk normaltid"
-    :China: 
-      :long: 
-        :daylight: "Kinesisk sommertid"
-        :generic: "Kinesisk tid"
-        :standard: "Kinesisk normaltid"
-    :Christmas: 
-      :long: 
+        :daylight: Chatham-sommertid
+    :Chile:
+      :long:
+        :generic: Chilensk tid
+        :standard: Chilensk normaltid
+        :daylight: Chilensk sommertid
+    :China:
+      :long:
+        :generic: Kinesisk tid
+        :standard: Kinesisk normaltid
+        :daylight: Kinesisk sommertid
+    :Christmas:
+      :long:
         :standard: Juleøen-normaltid
-    :Cocos: 
-      :long: 
+    :Cocos:
+      :long:
         :standard: Cocosøerne-normaltid
-    :Colombia: 
-      :long: 
-        :daylight: "Colombiansk sommertid"
-        :generic: "Colombiansk tid"
-        :standard: "Colombiansk normaltid"
-    :Cook: 
-      :long: 
-        :daylight: Cookøerne-sommertid
+    :Colombia:
+      :long:
+        :generic: Colombiansk tid
+        :standard: Colombiansk normaltid
+        :daylight: Colombiansk sommertid
+    :Cook:
+      :long:
         :generic: Cookøerne-tid
         :standard: Cookøerne-normaltid
-    :Cuba: 
-      :long: 
-        :daylight: "Cubansk sommertid"
-        :generic: "Cubansk tid"
-        :standard: "Cubansk normaltid"
-    :Davis: 
-      :long: 
+        :daylight: Cookøerne-sommertid
+    :Cuba:
+      :long:
+        :generic: Cubansk tid
+        :standard: Cubansk normaltid
+        :daylight: Cubansk sommertid
+    :Davis:
+      :long:
         :standard: Davis-tid
-    :DumontDUrville: 
-      :long: 
+    :DumontDUrville:
+      :long:
         :standard: Dumont-d’Urville-tid
-    :East_Timor: 
-      :long: 
+    :East_Timor:
+      :long:
         :standard: Østtimor-tid
-    :Easter: 
-      :long: 
-        :daylight: Påskeøen-sommertid
+    :Easter:
+      :long:
         :generic: Påskeøen-tid
         :standard: Påskeøen-normaltid
-    :Ecuador: 
-      :long: 
-        :standard: "Ecuadoriansk tid"
-    :Europe_Central: 
-      :long: 
-        :daylight: "Centraleuropæisk sommertid"
-        :generic: "Centraleuropæisk tid"
-        :standard: "Centraleuropæisk normaltid"
-      :short: 
-        :daylight: CEST
+        :daylight: Påskeøen-sommertid
+    :Ecuador:
+      :long:
+        :standard: Ecuadoriansk tid
+    :Europe_Central:
+      :long:
+        :generic: Centraleuropæisk tid
+        :standard: Centraleuropæisk normaltid
+        :daylight: Centraleuropæisk sommertid
+      :short:
         :generic: CET
         :standard: CET
-    :Europe_Eastern: 
-      :long: 
-        :daylight: "Østeuropæisk sommertid"
-        :generic: "Østeuropæisk tid"
-        :standard: "Østeuropæisk normaltid"
-      :short: 
-        :daylight: EEST
+        :daylight: CEST
+    :Europe_Eastern:
+      :long:
+        :generic: Østeuropæisk tid
+        :standard: Østeuropæisk normaltid
+        :daylight: Østeuropæisk sommertid
+      :short:
         :generic: EET
         :standard: EET
-    :Europe_Further_Eastern: 
-      :long: 
-        :standard: "Fjernøsteuropæisk tid"
-    :Europe_Western: 
-      :long: 
-        :daylight: "Vesteuropæisk sommertid"
-        :generic: "Vesteuropæisk tid"
-        :standard: "Vesteuropæisk normaltid"
-      :short: 
-        :daylight: WEST
+        :daylight: EEST
+    :Europe_Further_Eastern:
+      :long:
+        :standard: Fjernøsteuropæisk tid
+    :Europe_Western:
+      :long:
+        :generic: Vesteuropæisk tid
+        :standard: Vesteuropæisk normaltid
+        :daylight: Vesteuropæisk sommertid
+      :short:
         :generic: WET
         :standard: WET
-    :Falkland: 
-      :long: 
-        :daylight: Falklandsøerne-sommertid
+        :daylight: WEST
+    :Falkland:
+      :long:
         :generic: Falklandsøerne-tid
         :standard: Falklandsøerne-normaltid
-    :Fiji: 
-      :long: 
-        :daylight: "Fijiansk sommertid"
-        :generic: "Fijiansk tid"
-        :standard: "Fijiansk normaltid"
-    :French_Guiana: 
-      :long: 
-        :standard: "Fransk Guyana-tid"
-    :French_Southern: 
-      :long: 
-        :standard: "Franske Sydlige og Antarktiske Territorier-tid"
-    :GMT: 
-      :long: 
-        :standard: GMT
-    :Galapagos: 
-      :long: 
+        :daylight: Falklandsøerne-sommertid
+    :Fiji:
+      :long:
+        :generic: Fijiansk tid
+        :standard: Fijiansk normaltid
+        :daylight: Fijiansk sommertid
+    :French_Guiana:
+      :long:
+        :standard: Fransk Guyana-tid
+    :French_Southern:
+      :long:
+        :standard: Franske Sydlige og Antarktiske Territorier-tid
+    :Galapagos:
+      :long:
         :standard: Galapagos-tid
-    :Gambier: 
-      :long: 
+    :Gambier:
+      :long:
         :standard: Gambier-tid
-    :Georgia: 
-      :long: 
-        :daylight: "Georgisk sommertid"
-        :generic: "Georgisk tid"
-        :standard: "Georgisk normaltid"
-    :Gilbert_Islands: 
-      :long: 
+    :Georgia:
+      :long:
+        :generic: Georgisk tid
+        :standard: Georgisk normaltid
+        :daylight: Georgisk sommertid
+    :Gilbert_Islands:
+      :long:
         :standard: Gilbertøerne-tid
-    :Greenland_Eastern: 
-      :long: 
-        :daylight: "Østgrønlandsk sommertid"
-        :generic: "Østgrønlandsk tid"
-        :standard: "Østgrønlandsk normaltid"
-    :Greenland_Western: 
-      :long: 
-        :daylight: "Vestgrønlandsk sommertid"
-        :generic: "Vestgrønlandsk tid"
-        :standard: "Vestgrønlandsk normaltid"
-    :Guam: 
-      :long: 
+    :GMT:
+      :long:
+        :standard: GMT
+    :Greenland_Eastern:
+      :long:
+        :generic: Østgrønlandsk tid
+        :standard: Østgrønlandsk normaltid
+        :daylight: Østgrønlandsk sommertid
+    :Greenland_Western:
+      :long:
+        :generic: Vestgrønlandsk tid
+        :standard: Vestgrønlandsk normaltid
+        :daylight: Vestgrønlandsk sommertid
+    :Guam:
+      :long:
         :standard: Guam-normaltid
-    :Gulf: 
-      :long: 
+    :Gulf:
+      :long:
         :standard: Golflandene-normaltid
-    :Guyana: 
-      :long: 
+    :Guyana:
+      :long:
         :standard: Guyana-tid
-    :Hawaii: 
-      :long: 
+    :Hawaii:
+      :long:
         :standard: Hawaii-Aleutian-normaltid
-    :Hawaii_Aleutian: 
-      :long: 
-        :daylight: Hawaii-Aleutian-sommertid
+    :Hawaii_Aleutian:
+      :long:
         :generic: Hawaii-Aleutian-tid
         :standard: Hawaii-Aleutian-normaltid
-    :Hong_Kong: 
-      :long: 
-        :daylight: Hongkong-sommertid
+        :daylight: Hawaii-Aleutian-sommertid
+    :Hong_Kong:
+      :long:
         :generic: Hongkong-tid
         :standard: Hongkong-normaltid
-    :Hovd: 
-      :long: 
-        :daylight: Hovd-sommertid
+        :daylight: Hongkong-sommertid
+    :Hovd:
+      :long:
         :generic: Hovd-tid
         :standard: Hovd-normaltid
-    :India: 
-      :long: 
-        :standard: "Indisk normaltid"
-    :Indian_Ocean: 
-      :long: 
-        :standard: "Indiske Ocean-normaltid"
-    :Indochina: 
-      :long: 
+        :daylight: Hovd-sommertid
+    :India:
+      :long:
+        :standard: Indisk normaltid
+    :Indian_Ocean:
+      :long:
+        :standard: Indiske Ocean-normaltid
+    :Indochina:
+      :long:
         :standard: Indokina-tid
-    :Indonesia_Central: 
-      :long: 
-        :standard: "Centralindonesisk tid"
-    :Indonesia_Eastern: 
-      :long: 
-        :standard: "Østindonesisk tid"
-    :Indonesia_Western: 
-      :long: 
-        :standard: "Vestindonesisk tid"
-    :Iran: 
-      :long: 
-        :daylight: "Iransk sommertid"
-        :generic: "Iransk tid"
-        :standard: "Iransk normaltid"
-    :Irkutsk: 
-      :long: 
-        :daylight: Irkutsk-sommertid
+    :Indonesia_Central:
+      :long:
+        :standard: Centralindonesisk tid
+    :Indonesia_Eastern:
+      :long:
+        :standard: Østindonesisk tid
+    :Indonesia_Western:
+      :long:
+        :standard: Vestindonesisk tid
+    :Iran:
+      :long:
+        :generic: Iransk tid
+        :standard: Iransk normaltid
+        :daylight: Iransk sommertid
+    :Irkutsk:
+      :long:
         :generic: Irkutsk-tid
         :standard: Irkutsk-normaltid
-    :Israel: 
-      :long: 
-        :daylight: "Israelsk sommertid"
-        :generic: "Israelsk tid"
-        :standard: "Israelsk normaltid"
-    :Japan: 
-      :long: 
-        :daylight: "Japansk sommertid"
-        :generic: "Japansk tid"
-        :standard: "Japansk normaltid"
-    :Kamchatka: 
-      :long: 
-        :daylight: "Petropavlovsk-Kamchatski sommertid"
-        :generic: "Petropavlovsk-Kamchatski tid"
-        :standard: "Petropavlovsk-Kamchatski normaltid"
-    :Kazakhstan: 
-      :long: 
-        :standard: "Kasakhstansk tid"
-    :Kazakhstan_Eastern: 
-      :long: 
-        :standard: "Østkasakhstansk tid"
-    :Kazakhstan_Western: 
-      :long: 
-        :standard: "Vestkasakhstansk tid"
-    :Korea: 
-      :long: 
-        :daylight: "Koreansk sommertid"
-        :generic: "Koreansk tid"
-        :standard: "Koreansk normaltid"
-    :Kosrae: 
-      :long: 
+        :daylight: Irkutsk-sommertid
+    :Israel:
+      :long:
+        :generic: Israelsk tid
+        :standard: Israelsk normaltid
+        :daylight: Israelsk sommertid
+    :Japan:
+      :long:
+        :generic: Japansk tid
+        :standard: Japansk normaltid
+        :daylight: Japansk sommertid
+    :Kamchatka:
+      :long:
+        :generic: Petropavlovsk-Kamchatski tid
+        :standard: Petropavlovsk-Kamchatski normaltid
+        :daylight: Petropavlovsk-Kamchatski sommertid
+    :Kazakhstan:
+      :long:
+        :standard: Kasakhstansk tid
+    :Kazakhstan_Eastern:
+      :long:
+        :standard: Østkasakhstansk tid
+    :Kazakhstan_Western:
+      :long:
+        :standard: Vestkasakhstansk tid
+    :Korea:
+      :long:
+        :generic: Koreansk tid
+        :standard: Koreansk normaltid
+        :daylight: Koreansk sommertid
+    :Kosrae:
+      :long:
         :standard: Kosrae-tid
-    :Krasnoyarsk: 
-      :long: 
-        :daylight: Krasnojarsk-sommertid
+    :Krasnoyarsk:
+      :long:
         :generic: Krasnojarsk-tid
         :standard: Krasnojarsk-normaltid
-    :Kyrgystan: 
-      :long: 
-        :standard: "Kirgisisk tid"
-    :Lanka: 
-      :long: 
-        :standard: "Langa tid"
-    :Line_Islands: 
-      :long: 
+        :daylight: Krasnojarsk-sommertid
+    :Kyrgystan:
+      :long:
+        :standard: Kirgisisk tid
+    :Lanka:
+      :long:
+        :standard: Langa tid
+    :Line_Islands:
+      :long:
         :standard: Linjeøerne-tid
-    :Lord_Howe: 
-      :long: 
-        :daylight: "Lord Howe-sommertid"
-        :generic: "Lord Howe-tid"
-        :standard: "Lord Howe-normaltid"
-    :Macau: 
-      :long: 
-        :daylight: Macao-sommertid
+    :Lord_Howe:
+      :long:
+        :generic: Lord Howe-tid
+        :standard: Lord Howe-normaltid
+        :daylight: Lord Howe-sommertid
+    :Macau:
+      :long:
         :generic: Macao-tid
         :standard: Macao-normaltid
-    :Magadan: 
-      :long: 
-        :daylight: Magadan-sommertid
+        :daylight: Macao-sommertid
+    :Magadan:
+      :long:
         :generic: Magadan-tid
         :standard: Magadan-normaltid
-    :Malaysia: 
-      :long: 
+        :daylight: Magadan-sommertid
+    :Malaysia:
+      :long:
         :standard: Malaysia-tid
-    :Maldives: 
-      :long: 
+    :Maldives:
+      :long:
         :standard: Maldiverne-tid
-    :Marquesas: 
-      :long: 
+    :Marquesas:
+      :long:
         :standard: Marquesas-tid
-    :Marshall_Islands: 
-      :long: 
+    :Marshall_Islands:
+      :long:
         :standard: Marshalløerne-tid
-    :Mauritius: 
-      :long: 
-        :daylight: Mauritius-sommertid
+    :Mauritius:
+      :long:
         :generic: Mauritius-tid
         :standard: Mauritius-normaltid
-    :Mawson: 
-      :long: 
+        :daylight: Mauritius-sommertid
+    :Mawson:
+      :long:
         :standard: Mawson-tid
-    :Mexico_Pacific: 
-      :long: 
-        :daylight: "Mexicansk Pacific-sommertid"
-        :generic: "Mexicansk Pacific-tid"
-        :standard: "Mexicansk Pacific-normaltid"
-    :Mongolia: 
-      :long: 
-        :daylight: "Ulan Bator-sommertid"
-        :generic: "Ulan Bator-tid"
-        :standard: "Ulan Bator-normaltid"
-    :Moscow: 
-      :long: 
-        :daylight: Moskva-sommertid
+    :Mexico_Pacific:
+      :long:
+        :generic: Mexicansk Pacific-tid
+        :standard: Mexicansk Pacific-normaltid
+        :daylight: Mexicansk Pacific-sommertid
+    :Mongolia:
+      :long:
+        :generic: Ulan Bator-tid
+        :standard: Ulan Bator-normaltid
+        :daylight: Ulan Bator-sommertid
+    :Moscow:
+      :long:
         :generic: Moskva-tid
         :standard: Moskva-normaltid
-    :Myanmar: 
-      :long: 
+        :daylight: Moskva-sommertid
+    :Myanmar:
+      :long:
         :standard: Myanmar-tid
-    :Nauru: 
-      :long: 
+    :Nauru:
+      :long:
         :standard: Nauru-tid
-    :Nepal: 
-      :long: 
-        :standard: "Nepalesisk tid"
-    :New_Caledonia: 
-      :long: 
-        :daylight: "Ny Kaledonien-sommertid"
-        :generic: "Ny Kaledonien-tid"
-        :standard: "Ny Kaledonien-normaltid"
-    :New_Zealand: 
-      :long: 
-        :daylight: "Newzealandsk sommertid"
-        :generic: "Newzealandsk tid"
-        :standard: "Newzealandsk normaltid"
-    :Newfoundland: 
-      :long: 
-        :daylight: "Newfoundlandsk sommertid"
-        :generic: "Newfoundlandsk tid"
-        :standard: "Newfoundlandsk normaltid"
-    :Niue: 
-      :long: 
+    :Nepal:
+      :long:
+        :standard: Nepalesisk tid
+    :New_Caledonia:
+      :long:
+        :generic: Ny Kaledonien-tid
+        :standard: Ny Kaledonien-normaltid
+        :daylight: Ny Kaledonien-sommertid
+    :New_Zealand:
+      :long:
+        :generic: Newzealandsk tid
+        :standard: Newzealandsk normaltid
+        :daylight: Newzealandsk sommertid
+    :Newfoundland:
+      :long:
+        :generic: Newfoundlandsk tid
+        :standard: Newfoundlandsk normaltid
+        :daylight: Newfoundlandsk sommertid
+    :Niue:
+      :long:
         :standard: Niue-tid
-    :Norfolk: 
-      :long: 
-        :daylight: "Norfolk Island-sommertid"
-        :generic: "Norfolk Island-tid"
-        :standard: "Norfolk Island-normaltid"
-    :Noronha: 
-      :long: 
-        :daylight: "Fernando de Noronha-sommertid"
-        :generic: "Fernando de Noronha-tid"
-        :standard: "Fernando de Noronha-normaltid"
-    :North_Mariana: 
-      :long: 
+    :Norfolk:
+      :long:
+        :generic: Norfolk Island-tid
+        :standard: Norfolk Island-normaltid
+        :daylight: Norfolk Island-sommertid
+    :Noronha:
+      :long:
+        :generic: Fernando de Noronha-tid
+        :standard: Fernando de Noronha-normaltid
+        :daylight: Fernando de Noronha-sommertid
+    :North_Mariana:
+      :long:
         :standard: Nordmarianerne-tid
-    :Novosibirsk: 
-      :long: 
-        :daylight: Novosibirsk-sommertid
+    :Novosibirsk:
+      :long:
         :generic: Novosibirsk-tid
         :standard: Novosibirsk-normaltid
-    :Omsk: 
-      :long: 
-        :daylight: Omsk-sommertid
+        :daylight: Novosibirsk-sommertid
+    :Omsk:
+      :long:
         :generic: Omsk-tid
         :standard: Omsk-normaltid
-    :Pakistan: 
-      :long: 
-        :daylight: "Pakistansk sommertid"
-        :generic: "Pakistansk tid"
-        :standard: "Pakistansk normaltid"
-    :Palau: 
-      :long: 
+        :daylight: Omsk-sommertid
+    :Pakistan:
+      :long:
+        :generic: Pakistansk tid
+        :standard: Pakistansk normaltid
+        :daylight: Pakistansk sommertid
+    :Palau:
+      :long:
         :standard: Palau-tid
-    :Papua_New_Guinea: 
-      :long: 
-        :standard: "Papua Ny Guinea-tid"
-    :Paraguay: 
-      :long: 
-        :daylight: "Paraguayansk sommertid"
-        :generic: "Paraguayansk tid"
-        :standard: "Paraguayansk normaltid"
-    :Peru: 
-      :long: 
-        :daylight: "Peruviansk sommertid"
-        :generic: "Peruviansk tid"
-        :standard: "Peruviansk normaltid"
-    :Philippines: 
-      :long: 
-        :daylight: "Filippinsk sommertid"
-        :generic: "Filippinsk tid"
-        :standard: "Filippinsk normaltid"
-    :Phoenix_Islands: 
-      :long: 
+    :Papua_New_Guinea:
+      :long:
+        :standard: Papua Ny Guinea-tid
+    :Paraguay:
+      :long:
+        :generic: Paraguayansk tid
+        :standard: Paraguayansk normaltid
+        :daylight: Paraguayansk sommertid
+    :Peru:
+      :long:
+        :generic: Peruviansk tid
+        :standard: Peruviansk normaltid
+        :daylight: Peruviansk sommertid
+    :Philippines:
+      :long:
+        :generic: Filippinsk tid
+        :standard: Filippinsk normaltid
+        :daylight: Filippinsk sommertid
+    :Phoenix_Islands:
+      :long:
         :standard: Phoenixøen-tid
-    :Pierre_Miquelon: 
-      :long: 
-        :daylight: "Saint Pierre- og Miquelon-sommertid"
-        :generic: "Saint Pierre- og Miquelon-tid"
-        :standard: "Saint Pierre- og Miquelon-normaltid"
-    :Pitcairn: 
-      :long: 
+    :Pierre_Miquelon:
+      :long:
+        :generic: Saint Pierre- og Miquelon-tid
+        :standard: Saint Pierre- og Miquelon-normaltid
+        :daylight: Saint Pierre- og Miquelon-sommertid
+    :Pitcairn:
+      :long:
         :standard: Pitcairn-tid
-    :Ponape: 
-      :long: 
+    :Ponape:
+      :long:
         :standard: Ponape-tid
-    :Pyongyang: 
-      :long: 
+    :Pyongyang:
+      :long:
         :standard: Pyongyang-tid
-    :Qyzylorda: 
-      :long: 
-        :daylight: Qyzylorda-sommertid
+    :Qyzylorda:
+      :long:
         :generic: Qyzylorda-tid
         :standard: Qyzylorda-normaltid
-    :Reunion: 
-      :long: 
+        :daylight: Qyzylorda-sommertid
+    :Reunion:
+      :long:
         :standard: Reunion-tid
-    :Rothera: 
-      :long: 
+    :Rothera:
+      :long:
         :standard: Rothera-tid
-    :Sakhalin: 
-      :long: 
-        :daylight: Sakhalin-sommertid
+    :Sakhalin:
+      :long:
         :generic: Sakhalin-tid
         :standard: Sakhalin-normaltid
-    :Samara: 
-      :long: 
-        :daylight: Samara-sommertid
+        :daylight: Sakhalin-sommertid
+    :Samara:
+      :long:
         :generic: Samara-tid
         :standard: Samara-normaltid
-    :Samoa: 
-      :long: 
-        :daylight: "Samoansk sommertid"
-        :generic: "Samoansk tid"
-        :standard: "Samoansk normaltid"
-    :Seychelles: 
-      :long: 
-        :standard: "Seychellisk tid"
-    :Singapore: 
-      :long: 
+        :daylight: Samara-sommertid
+    :Samoa:
+      :long:
+        :generic: Samoansk tid
+        :standard: Samoansk normaltid
+        :daylight: Samoansk sommertid
+    :Seychelles:
+      :long:
+        :standard: Seychellisk tid
+    :Singapore:
+      :long:
         :standard: Singapore-tid
-    :Solomon: 
-      :long: 
+    :Solomon:
+      :long:
         :standard: Salomonøerne-tid
-    :South_Georgia: 
-      :long: 
-        :standard: "South Georgia-tid"
-    :Suriname: 
-      :long: 
+    :South_Georgia:
+      :long:
+        :standard: South Georgia-tid
+    :Suriname:
+      :long:
         :standard: Surinam-tid
-    :Syowa: 
-      :long: 
+    :Syowa:
+      :long:
         :standard: Syowa-tid
-    :Tahiti: 
-      :long: 
+    :Tahiti:
+      :long:
         :standard: Tahiti-tid
-    :Taipei: 
-      :long: 
-        :daylight: Taipei-sommertid
+    :Taipei:
+      :long:
         :generic: Taipei-tid
         :standard: Taipei-normaltid
-    :Tajikistan: 
-      :long: 
-        :standard: "Tadsjikisk tid"
-    :Tokelau: 
-      :long: 
+        :daylight: Taipei-sommertid
+    :Tajikistan:
+      :long:
+        :standard: Tadsjikisk tid
+    :Tokelau:
+      :long:
         :standard: Tokelau-tid
-    :Tonga: 
-      :long: 
-        :daylight: "Tongansk sommertid"
-        :generic: "Tongansk tid"
-        :standard: "Tongansk normaltid"
-    :Truk: 
-      :long: 
+    :Tonga:
+      :long:
+        :generic: Tongansk tid
+        :standard: Tongansk normaltid
+        :daylight: Tongansk sommertid
+    :Truk:
+      :long:
         :standard: Chuuk-tid
-    :Turkey: 
-      :long: 
-        :daylight: "Tyrkisk sommertid"
-        :generic: "Tyrkisk tid"
-        :standard: "Tyrkisk normaltid"
-    :Turkmenistan: 
-      :long: 
-        :daylight: "Turkmensk sommertid"
-        :generic: "Turkmensk tid"
-        :standard: "Turkmensk normaltid"
-    :Tuvalu: 
-      :long: 
+    :Turkey:
+      :long:
+        :generic: Tyrkisk tid
+        :standard: Tyrkisk normaltid
+        :daylight: Tyrkisk sommertid
+    :Turkmenistan:
+      :long:
+        :generic: Turkmensk tid
+        :standard: Turkmensk normaltid
+        :daylight: Turkmensk sommertid
+    :Tuvalu:
+      :long:
         :standard: Tuvalu-tid
-    :Uruguay: 
-      :long: 
-        :daylight: "Uruguayansk sommertid"
-        :generic: "Uruguayansk tid"
-        :standard: "Uruguayansk normaltid"
-    :Uzbekistan: 
-      :long: 
-        :daylight: "Usbekisk sommertid"
-        :generic: "Usbekisk tid"
-        :standard: "Usbekisk normaltid"
-    :Vanuatu: 
-      :long: 
-        :daylight: Vanuatu-sommertid
+    :Uruguay:
+      :long:
+        :generic: Uruguayansk tid
+        :standard: Uruguayansk normaltid
+        :daylight: Uruguayansk sommertid
+    :Uzbekistan:
+      :long:
+        :generic: Usbekisk tid
+        :standard: Usbekisk normaltid
+        :daylight: Usbekisk sommertid
+    :Vanuatu:
+      :long:
         :generic: Vanuatu-tid
         :standard: Vanuatu-normaltid
-    :Venezuela: 
-      :long: 
-        :standard: "Venezuelansk tid"
-    :Vladivostok: 
-      :long: 
-        :daylight: Vladivostok-sommertid
+        :daylight: Vanuatu-sommertid
+    :Venezuela:
+      :long:
+        :standard: Venezuelansk tid
+    :Vladivostok:
+      :long:
         :generic: Vladivostok-tid
         :standard: Vladivostok-normaltid
-    :Volgograd: 
-      :long: 
-        :daylight: Volgograd-sommertid
+        :daylight: Vladivostok-sommertid
+    :Volgograd:
+      :long:
         :generic: Volgograd-tid
         :standard: Volgograd-normaltid
-    :Vostok: 
-      :long: 
+        :daylight: Volgograd-sommertid
+    :Vostok:
+      :long:
         :standard: Vostok-tid
-    :Wake: 
-      :long: 
-        :standard: "Wake Island-tid"
-    :Wallis: 
-      :long: 
-        :standard: "Wallis og Futuna-tid"
-    :Yakutsk: 
-      :long: 
-        :daylight: Jakutsk-sommertid
+    :Wake:
+      :long:
+        :standard: Wake Island-tid
+    :Wallis:
+      :long:
+        :standard: Wallis og Futuna-tid
+    :Yakutsk:
+      :long:
         :generic: Jakutsk-tid
         :standard: Jakutsk-normaltid
-    :Yekaterinburg: 
-      :long: 
-        :daylight: Jekaterinburg-sommertid
+        :daylight: Jakutsk-sommertid
+    :Yekaterinburg:
+      :long:
         :generic: Jekaterinburg-tid
         :standard: Jekaterinburg-normaltid
-    :Yukon: 
-      :long: 
+        :daylight: Jekaterinburg-sommertid
+    :Yukon:
+      :long:
         :standard: Yukon-tid
-  :timezones: 
-    :Africa/Addis_Ababa: 
-      :city: "Addis Abeba"
-    :Africa/Algiers: 
-      :city: Algier
-    :Africa/Asmera: 
-      :city: Asmara
-    :Africa/El_Aaiun: 
-      :city: "El Aaiún"
-    :Africa/Lome: 
-      :city: Lomé
-    :Africa/Ndjamena: 
-      :city: N’Djamena
-    :Africa/Sao_Tome: 
-      :city: "São Tomé"
-    :America/Araguaina: 
-      :city: Araguaína
-    :America/Argentina/Rio_Gallegos: 
-      :city: "Río Gallegos"
-    :America/Argentina/Tucuman: 
-      :city: Tucumán
-    :America/Asuncion: 
-      :city: Asunción
-    :America/Bahia_Banderas: 
-      :city: "Bahia Banderas"
-    :America/Belem: 
-      :city: Belém
-    :America/Bogota: 
-      :city: Bogotá
-    :America/Cancun: 
-      :city: Cancun
-    :America/Cayman: 
-      :city: Caymanøerne
-    :America/Ciudad_Juarez: 
-      :city: "Ciudad Juárez"
-    :America/Coral_Harbour: 
-      :city: Atikokan
-    :America/Cordoba: 
-      :city: Córdoba
-    :America/Cuiaba: 
-      :city: Cuiabá
-    :America/Curacao: 
-      :city: Curaçao
-    :America/Eirunepe: 
-      :city: Eirunepé
-    :America/Godthab: 
-      :city: Nuuk
-    :America/Indiana/Knox: 
-      :city: "Knox, Indiana"
-    :America/Indiana/Marengo: 
-      :city: "Marengo, Indiana"
-    :America/Indiana/Petersburg: 
-      :city: "Petersburg, Indiana"
-    :America/Indiana/Tell_City: 
-      :city: "Tell City, Indiana"
-    :America/Indiana/Vevay: 
-      :city: "Vevay, Indiana"
-    :America/Indiana/Vincennes: 
-      :city: "Vincennes, Indiana"
-    :America/Indiana/Winamac: 
-      :city: "Winamac, Indiana"
-    :America/Kentucky/Monticello: 
-      :city: "Monticello, Kentucky"
-    :America/Lower_Princes: 
-      :city: "Lower Prince’s Quarter"
-    :America/Maceio: 
-      :city: Maceió
-    :America/Mazatlan: 
-      :city: Mazatlán
-    :America/Merida: 
-      :city: Merida
-    :America/Mexico_City: 
-      :city: "Ciudad de México"
-    :America/Miquelon: 
-      :city: Saint-Pierre
-    :America/Noronha: 
-      :city: "Fernando de Noronha"
-    :America/North_Dakota/Beulah: 
-      :city: "Beulah, North Dakota"
-    :America/North_Dakota/Center: 
-      :city: "Center, North Dakota"
-    :America/North_Dakota/New_Salem: 
-      :city: "New Salem, North Dakota"
-    :America/Santarem: 
-      :city: Santarém
-    :America/Sao_Paulo: 
-      :city: "São Paulo"
-    :America/Scoresbysund: 
-      :city: Ittoqqortoormiit
-    :America/St_Barthelemy: 
-      :city: Saint-Barthélemy
-    :America/St_Johns: 
-      :city: "St. John’s"
-    :America/St_Kitts: 
-      :city: "St. Kitts"
-    :America/St_Lucia: 
-      :city: "St. Lucia"
-    :America/St_Thomas: 
-      :city: "St. Thomas"
-    :America/St_Vincent: 
-      :city: "St. Vincent"
-    :Antarctica/DumontDUrville: 
-      :city: Dumont-d’Urville
-    :Antarctica/Syowa: 
-      :city: Showa
-    :Asia/Aqtau: 
-      :city: Aktau
-    :Asia/Aqtobe: 
-      :city: Aktobe
-    :Asia/Ashgabat: 
-      :city: Asjkhabad
-    :Asia/Baghdad: 
-      :city: Bagdad
-    :Asia/Bishkek: 
-      :city: Bisjkek
-    :Asia/Calcutta: 
-      :city: Kolkata
-    :Asia/Damascus: 
-      :city: Damaskus
-    :Asia/Dushanbe: 
-      :city: Dusjanbe
-    :Asia/Hong_Kong: 
-      :city: Hongkong
-    :Asia/Hovd: 
-      :city: Khovd
-    :Asia/Kamchatka: 
-      :city: Kamtjatka
-    :Asia/Katmandu: 
-      :city: Katmandu
-    :Asia/Krasnoyarsk: 
-      :city: Krasnojarsk
-    :Asia/Macau: 
-      :city: Macao
-    :Asia/Novokuznetsk: 
-      :city: Novokusnetsk
-    :Asia/Qostanay: 
-      :city: Kostanay
-    :Asia/Qyzylorda: 
-      :city: Kyzylorda
-    :Asia/Rangoon: 
-      :city: Rangoon
-    :Asia/Saigon: 
-      :city: "Ho Chi Minh City"
-    :Asia/Tashkent: 
-      :city: Tasjkent
-    :Asia/Tehran: 
-      :city: Teheran
-    :Asia/Ulaanbaatar: 
-      :city: "Ulan Bator"
-    :Asia/Urumqi: 
-      :city: Ürümqi
-    :Asia/Yakutsk: 
-      :city: Jakutsk
-    :Asia/Yekaterinburg: 
-      :city: Jekaterinburg
-    :Asia/Yerevan: 
-      :city: Jerevan
-    :Atlantic/Azores: 
-      :city: Azorerne
-    :Atlantic/Canary: 
-      :city: "De Kanariske Øer"
-    :Atlantic/Cape_Verde: 
-      :city: "Kap Verde"
-    :Atlantic/Faeroe: 
-      :city: Færøerne
-    :Atlantic/St_Helena: 
-      :city: "St. Helena"
-    :Etc/UTC: 
-      :long: 
-        :standard: "Koordineret universaltid"
-      :short: 
-        :standard: UTC
-    :Etc/Unknown: 
-      :city: "Ukendt by"
-    :Europe/Athens: 
-      :city: Athen
-    :Europe/Belgrade: 
-      :city: Beograd
-    :Europe/Brussels: 
-      :city: Bruxelles
-    :Europe/Bucharest: 
-      :city: Bukarest
-    :Europe/Busingen: 
-      :city: Büsingen
-    :Europe/Chisinau: 
-      :city: Chișinău
-    :Europe/Copenhagen: 
-      :city: København
-    :Europe/Dublin: 
-      :long: 
-        :daylight: "Irsk normaltid"
-    :Europe/Kiev: 
-      :city: Kiev
-    :Europe/Lisbon: 
-      :city: Lissabon
-    :Europe/London: 
-      :long: 
-        :daylight: "Britisk sommertid"
-    :Europe/Moscow: 
-      :city: Moskva
-    :Europe/Prague: 
-      :city: Prag
-    :Europe/Rome: 
-      :city: Rom
-    :Europe/Tirane: 
-      :city: Tirana
-    :Europe/Ulyanovsk: 
-      :city: Uljanovsk
-    :Europe/Vatican: 
-      :city: Vatikanet
-    :Europe/Vienna: 
-      :city: Wien
-    :Europe/Warsaw: 
-      :city: Warszawa
-    :Europe/Zurich: 
-      :city: Zürich
-    :Indian/Christmas: 
-      :city: Juleøen
-    :Indian/Comoro: 
-      :city: Comorerne
-    :Indian/Mahe: 
-      :city: Mahé
-    :Indian/Maldives: 
-      :city: Maldiverne
-    :Indian/Reunion: 
-      :city: Réunion
-    :Pacific/Easter: 
-      :city: Påskeøen
-    :Pacific/Enderbury: 
-      :city: "Canton Island"
-    :Pacific/Galapagos: 
-      :city: Galápagos
-    :Pacific/Honolulu: 
-      :city: Honolulu
-    :Pacific/Noumea: 
-      :city: Nouméa
-    :Pacific/Ponape: 
-      :city: Pohnpei
-    :Pacific/Truk: 
-      :city: Chuuk
-    :Pacific/Wallis: 
-      :city: "Wallis & Futuna"

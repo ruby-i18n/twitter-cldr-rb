@@ -1,16 +1,15 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - Telugu-Kannada
-      - und-Knda-t-und-telu
-    :direction: forward
-    :rules: 
-      - "::[ఁ-ఃఅ-ఌఎ-ఐఒ-నప-ళవ-హా-ౄె-ైొ-్ౕ-ౖౠ-ౡ౦-౯] ;"
-      - "::NFD ;"
-      - "::Telugu-InterIndic ;"
-      - "::InterIndic-Kannada ;"
-      - "::NFC ;"
-    :source: Telu
-    :target: Knda
-    :variant: ~
+---
+:transforms:
+- :source: Telu
+  :target: Knda
+  :aliases:
+  - Telugu-Kannada
+  - und-Knda-t-und-telu
+  :variant:
+  :direction: forward
+  :rules:
+  - "::[ఁ-ఃఅ-ఌఎ-ఐఒ-నప-ళవ-హా-ౄె-ైొ-్ౕ-ౖౠ-ౡ౦-౯] ;"
+  - "::NFD ;"
+  - "::Telugu-InterIndic ;"
+  - "::InterIndic-Kannada ;"
+  - "::NFC ;"

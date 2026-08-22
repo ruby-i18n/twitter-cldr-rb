@@ -1,18 +1,17 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - Thai-Latin
-      - und-Latn-t-und-thai
-    :direction: forward
-    :rules: 
-      - "::[[:Thai:] ก-ฺเ-๛] ;"
-      - "::NFD ;"
-      - "::Thai-ThaiSemi ;"
-      - "::Any-BreakInternal ;"
-      - "::Thai-ThaiLogical ;"
-      - "::ThaiLogical-Latin ;"
-      - "::NFC ;"
-    :source: Thai
-    :target: Latn
-    :variant: ~
+---
+:transforms:
+- :source: Thai
+  :target: Latn
+  :aliases:
+  - Thai-Latin
+  - und-Latn-t-und-thai
+  :variant:
+  :direction: forward
+  :rules:
+  - "::[[:Thai:] ก-ฺเ-๛] ;"
+  - "::NFD ;"
+  - "::Thai-ThaiSemi ;"
+  - "::Any-BreakInternal ;"
+  - "::Thai-ThaiLogical ;"
+  - "::ThaiLogical-Latin ;"
+  - "::NFC ;"

@@ -1,12 +1,11 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - fa-t-ky
-    :direction: forward
-    :rules: 
-      - "::ky-ky_FONIPA ;"
-      - "::und_FONIPA-fa ;"
-    :source: ky
-    :target: fa
-    :variant: ~
+---
+:transforms:
+- :source: ky
+  :target: fa
+  :aliases:
+  - fa-t-ky
+  :variant:
+  :direction: forward
+  :rules:
+  - "::ky-ky_FONIPA ;"
+  - "::und_FONIPA-fa ;"

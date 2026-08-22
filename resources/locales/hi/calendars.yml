@@ -1,375 +1,374 @@
---- 
-:hi: 
-  :calendars: 
-    :gregorian: 
-      :additional_formats: 
-        :Bh: "B h"
-        :Bhm: "B h:mm"
-        :Bhms: "B h:mm:ss"
-        :E: ccc
-        :EBh: "E h B"
-        :EBhm: "E B h:mm"
-        :EBhms: "E B h:mm:ss"
-        :EHm: "E HH:mm"
-        :EHms: "E HH:mm:ss"
-        :Ed: "E d"
-        :Eh: "E h a"
-        :Ehm: "E h:mm a"
-        :Ehms: "E h:mm:ss a"
-        :Gy: "y G"
-        :GyM: "G y-MM"
-        :GyMEd: "G y-MM-dd, E"
-        :GyMMM: "MMM G y"
-        :GyMMMEd: "E, d MMM y G"
-        :GyMMMd: "d MMM y G"
-        :GyMd: "GGGGG d/M/y"
-        :H: HH
-        :Hm: "HH:mm"
-        :Hms: "HH:mm:ss"
-        :Hmsv: "HH:mm:ss v"
-        :Hmv: "HH:mm v"
-        :Hv: "HH v"
-        :M: L
-        :MEd: "E, d/M"
-        :MMM: LLL
-        :MMMEd: "E, d MMM"
-        :MMMMEd: "E, d MMMM"
-        :MMMMW: "MMMM का सप्ताह W"
-        :MMMMd: "d MMMM"
-        :MMMd: "d MMM"
-        :MMdd: dd/MM
-        :Md: d/M
-        :d: d
-        :h: h a
-        :hm: "h:mm a"
-        :hms: "h:mm:ss a"
-        :hmsv: "h:mm:ss a v"
-        :hmv: "h:mm a v"
-        :hv: "h a v"
-        :ms: "mm:ss"
-        ? !ruby/symbol "y"
-        : "y"
-        :yM: M/y
-        :yMEd: "E, d/M/y"
-        :yMM: MM/y
-        :yMMM: "MMM y"
-        :yMMMEd: "E, d MMM y"
-        :yMMMM: "MMMM y"
-        :yMMMd: "d MMM y"
-        :yMMdd: dd/MM/y
-        :yMd: d/M/y
-        :yQQQ: "QQQ y"
-        :yQQQQ: "QQQQ y"
-        :yw: "Y का सप्ताह w"
-      :days: 
-        :format: 
-          :abbreviated: 
-            :fri: शुक्र
-            :mon: सोम
-            :sat: शनि
+---
+:hi:
+  :calendars:
+    :gregorian:
+      :days:
+        :format:
+          :abbreviated:
             :sun: रवि
-            :thu: गुरु
+            :mon: सोम
             :tue: मंगल
             :wed: बुध
-          :narrow: 
-            :fri: शु
-            :mon: सो
-            :sat: श
+            :thu: गुरु
+            :fri: शुक्र
+            :sat: शनि
+          :narrow:
             :sun: र
-            :thu: गु
+            :mon: सो
             :tue: मं
             :wed: बु
-          :short: 
-            :fri: शु
-            :mon: सो
-            :sat: श
-            :sun: र
             :thu: गु
+            :fri: शु
+            :sat: श
+          :short:
+            :sun: र
+            :mon: सो
             :tue: मं
             :wed: बु
-          :wide: 
-            :fri: शुक्रवार
-            :mon: सोमवार
-            :sat: शनिवार
+            :thu: गु
+            :fri: शु
+            :sat: श
+          :wide:
             :sun: रविवार
-            :thu: गुरुवार
+            :mon: सोमवार
             :tue: मंगलवार
             :wed: बुधवार
-        :stand-alone: 
-          :abbreviated: 
-            :fri: शुक्र
-            :mon: सोम
-            :sat: शनि
+            :thu: गुरुवार
+            :fri: शुक्रवार
+            :sat: शनिवार
+        :stand-alone:
+          :abbreviated:
             :sun: रवि
-            :thu: गुरु
+            :mon: सोम
             :tue: मंगल
             :wed: बुध
-          :narrow: 
-            :fri: शु
-            :mon: सो
-            :sat: श
+            :thu: गुरु
+            :fri: शुक्र
+            :sat: शनि
+          :narrow:
             :sun: र
-            :thu: गु
+            :mon: सो
             :tue: मं
             :wed: बु
-          :short: 
-            :fri: शु
-            :mon: सो
-            :sat: श
-            :sun: र
             :thu: गु
+            :fri: शु
+            :sat: श
+          :short:
+            :sun: र
+            :mon: सो
             :tue: मं
             :wed: बु
-          :wide: 
-            :fri: शुक्रवार
-            :mon: सोमवार
-            :sat: शनिवार
+            :thu: गु
+            :fri: शु
+            :sat: श
+          :wide:
             :sun: रविवार
-            :thu: गुरुवार
+            :mon: सोमवार
             :tue: मंगलवार
             :wed: बुधवार
-      :eras: 
-        :abbr: 
-          0: "ईसवी पूर्व"
-          1: ईसवी
-        :name: 
+            :thu: गुरुवार
+            :fri: शुक्रवार
+            :sat: शनिवार
+      :months:
+        :format:
+          :abbreviated:
+            1: जन॰
+            2: फ़र॰
+            3: मार्च
+            4: अप्रैल
+            5: मई
+            6: जून
+            7: जुल॰
+            8: अग॰
+            9: सित॰
+            10: अक्टू॰
+            11: नव॰
+            12: दिस॰
+          :narrow:
+            1: ज
+            2: फ़
+            3: मा
+            4: अ
+            5: म
+            6: जू
+            7: जु
+            8: अ
+            9: सि
+            10: अ
+            11: न
+            12: दि
+          :wide:
+            1: जनवरी
+            2: फ़रवरी
+            3: मार्च
+            4: अप्रैल
+            5: मई
+            6: जून
+            7: जुलाई
+            8: अगस्त
+            9: सितंबर
+            10: अक्टूबर
+            11: नवंबर
+            12: दिसंबर
+        :stand-alone:
+          :abbreviated:
+            1: जन॰
+            2: फ़र॰
+            3: मार्च
+            4: अप्रैल
+            5: मई
+            6: जून
+            7: जुल॰
+            8: अग॰
+            9: सित॰
+            10: अक्टू॰
+            11: नव॰
+            12: दिस॰
+          :narrow:
+            1: ज
+            2: फ़
+            3: मा
+            4: अ
+            5: म
+            6: जू
+            7: जु
+            8: अ
+            9: सि
+            10: अ
+            11: न
+            12: दि
+          :wide:
+            1: जनवरी
+            2: फ़रवरी
+            3: मार्च
+            4: अप्रैल
+            5: मई
+            6: जून
+            7: जुलाई
+            8: अगस्त
+            9: सितंबर
+            10: अक्टूबर
+            11: नवंबर
+            12: दिसंबर
+      :eras:
+        :name:
           0: BCE
-          1: "ईसवी सन"
-        :narrow: 
+          1: ईसवी सन
+        :abbr:
+          0: ईसवी पूर्व
+          1: ईसवी
+        :narrow:
           0: BCE
           1: CE
-      :fields: 
-        :day: दिन
-        :day-narrow: Day
-        :day-short: Day
-        :dayOfYear: "वर्ष का दिन"
-        :dayOfYear-narrow: "वर्ष का दिन"
-        :dayOfYear-short: "वर्ष का दिन"
-        :dayperiod: पूर्वाह्न/अपराह्न
-        :dayperiod-narrow: पू/अ
-        :dayperiod-short: पू/अ
-        :era: युग
-        :era-narrow: युग
-        :era-short: युग
-        :hour: घंटा
-        :hour-narrow: घं॰
-        :hour-short: घं॰
-        :minute: मिनट
-        :minute-narrow: मि॰
-        :minute-short: मि॰
-        :month: माह
-        :month-narrow: माह
-        :month-short: माह
-        :quarter: तिमाही
-        :quarter-narrow: Quarter
-        :quarter-short: Quarter
-        :second: सेकंड
-        :second-narrow: से॰
-        :second-short: से॰
-        :week: सप्ताह
-        :week-narrow: सप्ताह
-        :week-short: सप्ताह
-        :weekOfMonth: "माह का सप्ताह"
-        :weekOfMonth-narrow: "माह का सप्ताह"
-        :weekOfMonth-short: "माह का सप्ताह"
-        :weekday: "सप्ताह का दिन"
-        :weekday-narrow: "सप्ताह का दिन"
-        :weekday-short: "सप्ताह का दिन"
-        :weekdayOfMonth: "माह के कार्यदिवस"
-        :weekdayOfMonth-narrow: "माह के कार्यदिवस"
-        :weekdayOfMonth-short: "माह के कार्यदिवस"
-        :year: वर्ष
-        :year-narrow: Year
-        :year-short: वर्ष
-        :zone: "समय क्षेत्र"
-        :zone-narrow: क्षेत्र
-        :zone-short: क्षेत्र
-      :formats: 
-        :date: 
-          :full: 
-            :pattern: "EEEE, d MMMM y"
-          :long: 
-            :pattern: "d MMMM y"
-          :medium: 
-            :pattern: "d MMM y"
-          :short: 
-            :pattern: d/M/yy
-        :datetime: 
-          :full: 
-            :pattern: "{{date}} को {{time}} बजे"
-          :long: 
-            :pattern: "{{date}} को {{time}} बजे"
-          :medium: 
-            :pattern: "{{date}}, {{time}}"
-          :short: 
-            :pattern: "{{date}}, {{time}}"
-        :time: 
-          :full: 
-            :pattern: "h:mm:ss a zzzz"
-          :long: 
-            :pattern: "h:mm:ss a z"
-          :medium: 
-            :pattern: "h:mm:ss a"
-          :short: 
-            :pattern: "h:mm a"
-      :months: 
-        :format: 
-          :abbreviated: 
-            1: जन॰
-            10: अक्टू॰
-            11: नव॰
-            12: दिस॰
-            2: फ़र॰
-            3: मार्च
-            4: अप्रैल
-            5: मई
-            6: जून
-            7: जुल॰
-            8: अग॰
-            9: सित॰
-          :narrow: 
-            1: ज
-            10: अ
-            11: न
-            12: दि
-            2: फ़
-            3: मा
-            4: अ
-            5: म
-            6: जू
-            7: जु
-            8: अ
-            9: सि
-          :wide: 
-            1: जनवरी
-            10: अक्टूबर
-            11: नवंबर
-            12: दिसंबर
-            2: फ़रवरी
-            3: मार्च
-            4: अप्रैल
-            5: मई
-            6: जून
-            7: जुलाई
-            8: अगस्त
-            9: सितंबर
-        :stand-alone: 
-          :abbreviated: 
-            1: जन॰
-            10: अक्टू॰
-            11: नव॰
-            12: दिस॰
-            2: फ़र॰
-            3: मार्च
-            4: अप्रैल
-            5: मई
-            6: जून
-            7: जुल॰
-            8: अग॰
-            9: सित॰
-          :narrow: 
-            1: ज
-            10: अ
-            11: न
-            12: दि
-            2: फ़
-            3: मा
-            4: अ
-            5: म
-            6: जू
-            7: जु
-            8: अ
-            9: सि
-          :wide: 
-            1: जनवरी
-            10: अक्टूबर
-            11: नवंबर
-            12: दिसंबर
-            2: फ़रवरी
-            3: मार्च
-            4: अप्रैल
-            5: मई
-            6: जून
-            7: जुलाई
-            8: अगस्त
-            9: सितंबर
-      :periods: 
-        :format: 
-          :abbreviated: 
-            :afternoon1: दोपहर
+      :quarters:
+        :format:
+          :abbreviated:
+            1: ति1
+            2: ति2
+            3: ति3
+            4: ति4
+          :narrow:
+            1: '1'
+            2: '2'
+            3: '3'
+            4: '4'
+          :wide:
+            1: पहली तिमाही
+            2: दूसरी तिमाही
+            3: तीसरी तिमाही
+            4: चौथी तिमाही
+        :stand-alone:
+          :abbreviated:
+            1: ति1
+            2: ति2
+            3: ति3
+            4: ति4
+          :narrow:
+            1: '1'
+            2: '2'
+            3: '3'
+            4: '4'
+          :wide:
+            1: पहली तिमाही
+            2: दूसरी तिमाही
+            3: तीसरी तिमाही
+            4: चौथी तिमाही
+      :periods:
+        :format:
+          :abbreviated:
             :am: am
-            :evening1: शाम
+            :pm: pm
             :midnight: मध्यरात्रि
             :morning1: सुबह
-            :night1: रात
-            :pm: pm
-          :narrow: 
             :afternoon1: दोपहर
-            :am: am
             :evening1: शाम
+            :night1: रात
+          :narrow:
+            :am: am
+            :pm: pm
             :midnight: मध्यरात्रि
             :morning1: सुबह
-            :night1: रात
-            :pm: pm
-          :wide: 
             :afternoon1: दोपहर
-            :am: am
             :evening1: शाम
+            :night1: रात
+          :wide:
+            :am: am
+            :pm: pm
             :midnight: मध्यरात्रि
             :morning1: सुबह
-            :night1: रात
-            :pm: pm
-        :stand-alone: 
-          :abbreviated: 
             :afternoon1: दोपहर
-            :am: am
             :evening1: शाम
+            :night1: रात
+        :stand-alone:
+          :abbreviated:
+            :am: am
+            :pm: pm
             :midnight: मध्यरात्रि
             :morning1: सुबह
+            :afternoon1: दोपहर
+            :evening1: शाम
             :night1: रात
-            :pm: pm
-          :narrow: 
+          :narrow:
             :am: AM
-            :midnight: "आधी रात"
             :pm: PM
-          :wide: 
-            :afternoon1: दोपहर
+            :midnight: आधी रात
+          :wide:
             :am: am
-            :evening1: शाम
+            :pm: pm
             :midnight: मध्यरात्रि
             :morning1: सुबह
+            :afternoon1: दोपहर
+            :evening1: शाम
             :night1: रात
-            :pm: pm
-      :quarters: 
-        :format: 
-          :abbreviated: 
-            1: ति1
-            2: ति2
-            3: ति3
-            4: ति4
-          :narrow: 
-            1: "1"
-            2: "2"
-            3: "3"
-            4: "4"
-          :wide: 
-            1: "पहली तिमाही"
-            2: "दूसरी तिमाही"
-            3: "तीसरी तिमाही"
-            4: "चौथी तिमाही"
-        :stand-alone: 
-          :abbreviated: 
-            1: ति1
-            2: ति2
-            3: ति3
-            4: ति4
-          :narrow: 
-            1: "1"
-            2: "2"
-            3: "3"
-            4: "4"
-          :wide: 
-            1: "पहली तिमाही"
-            2: "दूसरी तिमाही"
-            3: "तीसरी तिमाही"
-            4: "चौथी तिमाही"
+      :fields:
+        :era: युग
+        :era-short: युग
+        :era-narrow: युग
+        :year: वर्ष
+        :year-short: वर्ष
+        :year-narrow: Year
+        :quarter: तिमाही
+        :quarter-short: Quarter
+        :quarter-narrow: Quarter
+        :month: माह
+        :month-short: माह
+        :month-narrow: माह
+        :week: सप्ताह
+        :week-short: सप्ताह
+        :week-narrow: सप्ताह
+        :weekOfMonth: माह का सप्ताह
+        :weekOfMonth-short: माह का सप्ताह
+        :weekOfMonth-narrow: माह का सप्ताह
+        :day: दिन
+        :day-short: Day
+        :day-narrow: Day
+        :dayOfYear: वर्ष का दिन
+        :dayOfYear-short: वर्ष का दिन
+        :dayOfYear-narrow: वर्ष का दिन
+        :weekday: सप्ताह का दिन
+        :weekday-short: सप्ताह का दिन
+        :weekday-narrow: सप्ताह का दिन
+        :weekdayOfMonth: माह के कार्यदिवस
+        :weekdayOfMonth-short: माह के कार्यदिवस
+        :weekdayOfMonth-narrow: माह के कार्यदिवस
+        :dayperiod: पूर्वाह्न/अपराह्न
+        :dayperiod-short: पू/अ
+        :dayperiod-narrow: पू/अ
+        :hour: घंटा
+        :hour-short: घं॰
+        :hour-narrow: घं॰
+        :minute: मिनट
+        :minute-short: मि॰
+        :minute-narrow: मि॰
+        :second: सेकंड
+        :second-short: से॰
+        :second-narrow: से॰
+        :zone: समय क्षेत्र
+        :zone-short: क्षेत्र
+        :zone-narrow: क्षेत्र
+      :formats:
+        :date:
+          :full:
+            :pattern: EEEE, d MMMM y
+          :long:
+            :pattern: d MMMM y
+          :medium:
+            :pattern: d MMM y
+          :short:
+            :pattern: d/M/yy
+        :time:
+          :full:
+            :pattern: h:mm:ss a zzzz
+          :long:
+            :pattern: h:mm:ss a z
+          :medium:
+            :pattern: h:mm:ss a
+          :short:
+            :pattern: h:mm a
+        :datetime:
+          :full:
+            :pattern: "{{date}} को {{time}} बजे"
+          :long:
+            :pattern: "{{date}} को {{time}} बजे"
+          :medium:
+            :pattern: "{{date}}, {{time}}"
+          :short:
+            :pattern: "{{date}}, {{time}}"
+      :additional_formats:
+        :Bh: B h
+        :Bhm: B h:mm
+        :Bhms: B h:mm:ss
+        :d: d
+        :E: ccc
+        :EBh: E h B
+        :EBhm: E B h:mm
+        :EBhms: E B h:mm:ss
+        :Ed: E d
+        :Eh: E h a
+        :Ehm: E h:mm a
+        :EHm: E HH:mm
+        :Ehms: E h:mm:ss a
+        :EHms: E HH:mm:ss
+        :Gy: y G
+        :GyM: G y-MM
+        :GyMd: GGGGG d/M/y
+        :GyMEd: G y-MM-dd, E
+        :GyMMM: MMM G y
+        :GyMMMd: d MMM y G
+        :GyMMMEd: E, d MMM y G
+        :h: h a
+        :H: HH
+        :hm: h:mm a
+        :Hm: HH:mm
+        :hms: h:mm:ss a
+        :Hms: HH:mm:ss
+        :hmsv: h:mm:ss a v
+        :Hmsv: HH:mm:ss v
+        :hmv: h:mm a v
+        :Hmv: HH:mm v
+        :hv: h a v
+        :Hv: HH v
+        :M: L
+        :Md: d/M
+        :MEd: E, d/M
+        :MMM: LLL
+        :MMMd: d MMM
+        :MMMEd: E, d MMM
+        :MMMMd: d MMMM
+        :MMMMW: MMMM का सप्ताह W
+        :ms: mm:ss
+        :y: "y"
+        :yM: M/y
+        :yMd: d/M/y
+        :yMEd: E, d/M/y
+        :yMMM: MMM y
+        :yMMMd: d MMM y
+        :yMMMEd: E, d MMM y
+        :yMMMM: MMMM y
+        :yQQQ: QQQ y
+        :yQQQQ: QQQQ y
+        :yw: Y का सप्ताह w
+        :MMdd: dd/MM
+        :MMMMEd: E, d MMMM
+        :yMM: MM/y
+        :yMMdd: dd/MM/y

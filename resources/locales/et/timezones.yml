@@ -1,980 +1,980 @@
---- 
-:et: 
-  :formats: 
-    :fallback_formats: 
-      :generic: "{1} ({0})"
-    :gmt_formats: 
-      :generic: "GMT {0}"
-    :gmt_unknown_formats: 
-      :generic: GMT+?
-    :gmt_zero_formats: 
-      :generic: GMT
-    :hour_formats: 
+---
+:et:
+  :formats:
+    :hour_formats:
       :generic: "+HH:mm;−HH:mm"
-    :region_formats: 
-      :daylight: "{0} (+1)"
+    :gmt_formats:
+      :generic: GMT {0}
+    :gmt_zero_formats:
+      :generic: GMT
+    :gmt_unknown_formats:
+      :generic: GMT+?
+    :region_formats:
       :generic: "({0})"
+      :daylight: "{0} (+1)"
       :standard: "{0} (+0)"
-  :metazones: 
-    :Acre: 
-      :long: 
-        :daylight: "Acre suveaeg"
-        :generic: "Acre aeg"
-        :standard: "Acre standardaeg"
-    :Afghanistan: 
-      :long: 
-        :standard: "Afganistani aeg"
-    :Africa_Central: 
-      :long: 
-        :standard: "Kesk-Aafrika aeg"
-    :Africa_Eastern: 
-      :long: 
-        :standard: "Ida-Aafrika aeg"
-    :Africa_Southern: 
-      :long: 
-        :standard: "Lõuna-Aafrika standardaeg"
-    :Africa_Western: 
-      :long: 
-        :standard: "Lääne-Aafrika aeg"
-    :Alaska: 
-      :long: 
-        :daylight: "Alaska suveaeg"
-        :generic: "Alaska aeg"
-        :standard: "Alaska standardaeg"
-    :Almaty: 
-      :long: 
-        :daylight: "Almatõ suveaeg"
-        :generic: "Almatõ aeg"
-        :standard: "Almatõ standardaeg"
-    :Amazon: 
-      :long: 
-        :daylight: "Amazonase suveaeg"
-        :generic: "Amazonase aeg"
-        :standard: "Amazonase standardaeg"
-    :America_Central: 
-      :long: 
-        :daylight: "Kesk-Ameerika suveaeg"
-        :generic: "Kesk-Ameerika aeg"
-        :standard: "Kesk-Ameerika standardaeg"
-    :America_Eastern: 
-      :long: 
-        :daylight: "Idaranniku suveaeg"
-        :generic: "Idaranniku aeg"
-        :standard: "Idaranniku standardaeg"
-    :America_Mountain: 
-      :long: 
-        :daylight: "Mäestikuvööndi suveaeg"
-        :generic: "Mäestikuvööndi aeg"
-        :standard: "Mäestikuvööndi standardaeg"
-    :America_Pacific: 
-      :long: 
-        :daylight: "Vaikse ookeani suveaeg"
-        :generic: "Vaikse ookeani aeg"
-        :standard: "Vaikse ookeani standardaeg"
-    :Anadyr: 
-      :long: 
-        :daylight: "Anadõri suveaeg"
-        :generic: "Anadõri aeg"
-        :standard: "Anadõri standardaeg"
-    :Apia: 
-      :long: 
-        :daylight: "Apia suveaeg"
-        :generic: "Apia aeg"
-        :standard: "Apia standardaeg"
-    :Aqtau: 
-      :long: 
-        :daylight: "Aktau suveaeg"
-        :generic: "Aktau aeg"
-        :standard: "Aktau standardaeg"
-    :Aqtobe: 
-      :long: 
-        :daylight: "Aktöbe suveaeg"
-        :generic: "Aktöbe aeg"
-        :standard: "Aktöbe standardaeg"
-    :Arabian: 
-      :long: 
-        :daylight: "Araabia suveaeg"
-        :generic: "Araabia aeg"
-        :standard: "Araabia standardaeg"
-    :Argentina: 
-      :long: 
-        :daylight: "Argentina suveaeg"
-        :generic: "Argentina aeg"
-        :standard: "Argentina standardaeg"
-    :Argentina_Western: 
-      :long: 
-        :daylight: "Lääne-Argentina suveaeg"
-        :generic: "Lääne-Argentina aeg"
-        :standard: "Lääne-Argentina standardaeg"
-    :Armenia: 
-      :long: 
-        :daylight: "Armeenia suveaeg"
-        :generic: "Armeenia aeg"
-        :standard: "Armeenia standardaeg"
-    :Atlantic: 
-      :long: 
-        :daylight: "Atlandi suveaeg"
-        :generic: "Atlandi aeg"
-        :standard: "Atlandi standardaeg"
-    :Australia_Central: 
-      :long: 
-        :daylight: "Kesk-Austraalia suveaeg"
-        :generic: "Kesk-Austraalia aeg"
-        :standard: "Kesk-Austraalia standardaeg"
-    :Australia_CentralWestern: 
-      :long: 
-        :daylight: "Austraalia Kesk-Lääne suveaeg"
-        :generic: "Austraalia Kesk-Lääne aeg"
-        :standard: "Austraalia Kesk-Lääne standardaeg"
-    :Australia_Eastern: 
-      :long: 
-        :daylight: "Ida-Austraalia suveaeg"
-        :generic: "Ida-Austraalia aeg"
-        :standard: "Ida-Austraalia standardaeg"
-    :Australia_Western: 
-      :long: 
-        :daylight: "Lääne-Austraalia suveaeg"
-        :generic: "Lääne-Austraalia aeg"
-        :standard: "Lääne-Austraalia standardaeg"
-    :Azerbaijan: 
-      :long: 
-        :daylight: "Aserbaidžaani suveaeg"
-        :generic: "Aserbaidžaani aeg"
-        :standard: "Aserbaidžaani standardaeg"
-    :Azores: 
-      :long: 
-        :daylight: "Assooride suveaeg"
-        :generic: "Assooride aeg"
-        :standard: "Assooride standardaeg"
-    :Bangladesh: 
-      :long: 
-        :daylight: "Bangladeshi suveaeg"
-        :generic: "Bangladeshi aeg"
-        :standard: "Bangladeshi standardaeg"
-    :Bhutan: 
-      :long: 
-        :standard: "Bhutani aeg"
-    :Bolivia: 
-      :long: 
-        :standard: "Boliivia aeg"
-    :Brasilia: 
-      :long: 
-        :daylight: "Brasiilia suveaeg"
-        :generic: "Brasiilia aeg"
-        :standard: "Brasiilia standardaeg"
-    :Brunei: 
-      :long: 
-        :standard: "Brunei aeg"
-    :Cape_Verde: 
-      :long: 
-        :daylight: "Roheneemesaarte suveaeg"
-        :generic: "Roheneemesaarte aeg"
-        :standard: "Roheneemesaarte standardaeg"
-    :Casey: 
-      :long: 
-        :standard: "Casey aeg"
-    :Chamorro: 
-      :long: 
-        :standard: "Tšamorro standardaeg"
-    :Chatham: 
-      :long: 
-        :daylight: "Chathami suveaeg"
-        :generic: "Chathami aeg"
-        :standard: "Chathami standardaeg"
-    :Chile: 
-      :long: 
-        :daylight: "Tšiili suveaeg"
-        :generic: "Tšiili aeg"
-        :standard: "Tšiili standardaeg"
-    :China: 
-      :long: 
-        :daylight: "Hiina suveaeg"
-        :generic: "Hiina aeg"
-        :standard: "Hiina standardaeg"
-    :Christmas: 
-      :long: 
-        :standard: "Jõulusaare aeg"
-    :Cocos: 
-      :long: 
-        :standard: "Kookossaarte aeg"
-    :Colombia: 
-      :long: 
-        :daylight: "Colombia suveaeg"
-        :generic: "Colombia aeg"
-        :standard: "Colombia standardaeg"
-    :Cook: 
-      :long: 
-        :daylight: "Cooki saarte osaline suveaeg"
-        :generic: "Cooki saarte aeg"
-        :standard: "Cooki saarte standardaeg"
-    :Cuba: 
-      :long: 
-        :daylight: "Kuuba suveaeg"
-        :generic: "Kuuba aeg"
-        :standard: "Kuuba standardaeg"
-    :Davis: 
-      :long: 
-        :standard: "Davise aeg"
-    :DumontDUrville: 
-      :long: 
-        :standard: "Dumont d’Urville’i aeg"
-    :East_Timor: 
-      :long: 
-        :standard: "Ida-Timori aeg"
-    :Easter: 
-      :long: 
-        :daylight: "Lihavõttesaare suveaeg"
-        :generic: "Lihavõttesaare aeg"
-        :standard: "Lihavõttesaare standardaeg"
-    :Ecuador: 
-      :long: 
-        :standard: "Ecuadori aeg"
-    :Europe_Central: 
-      :long: 
-        :daylight: "Kesk-Euroopa suveaeg"
-        :generic: "Kesk-Euroopa aeg"
-        :standard: "Kesk-Euroopa standardaeg"
-    :Europe_Eastern: 
-      :long: 
-        :daylight: "Ida-Euroopa suveaeg"
-        :generic: "Ida-Euroopa aeg"
-        :standard: "Ida-Euroopa standardaeg"
-    :Europe_Further_Eastern: 
-      :long: 
-        :standard: "Kaliningradi ja Valgevene aeg"
-    :Europe_Western: 
-      :long: 
-        :daylight: "Lääne-Euroopa suveaeg"
-        :generic: "Lääne-Euroopa aeg"
-        :standard: "Lääne-Euroopa standardaeg"
-    :Falkland: 
-      :long: 
-        :daylight: "Falklandi saarte suveaeg"
-        :generic: "Falklandi saarte aeg"
-        :standard: "Falklandi saarte standardaeg"
-    :Fiji: 
-      :long: 
-        :daylight: "Fidži suveaeg"
-        :generic: "Fidži aeg"
-        :standard: "Fidži standardaeg"
-    :French_Guiana: 
-      :long: 
-        :standard: "Prantsuse Guajaana aeg"
-    :French_Southern: 
-      :long: 
-        :standard: "Prantsuse Antarktiliste ja Lõunaalade aeg"
-    :GMT: 
-      :long: 
-        :standard: "Greenwichi aeg"
-    :Galapagos: 
-      :long: 
-        :standard: "Galapagose aeg"
-    :Gambier: 
-      :long: 
-        :standard: "Gambier’ aeg"
-    :Georgia: 
-      :long: 
-        :daylight: "Gruusia suveaeg"
-        :generic: "Gruusia aeg"
-        :standard: "Gruusia standardaeg"
-    :Gilbert_Islands: 
-      :long: 
-        :standard: "Gilberti saarte aeg"
-    :Greenland: 
-      :long: 
-        :daylight: "Gröönimaa suveaeg"
-        :generic: "Gröönimaa aeg"
-        :standard: "Gröönimaa standardaeg"
-    :Greenland_Eastern: 
-      :long: 
-        :daylight: "Ida-Gröönimaa suveaeg"
-        :generic: "Ida-Gröönimaa aeg"
-        :standard: "Ida-Gröönimaa standardaeg"
-    :Greenland_Western: 
-      :long: 
-        :daylight: "Lääne-Gröönimaa suveaeg"
-        :generic: "Lääne-Gröönimaa aeg"
-        :standard: "Lääne-Gröönimaa standardaeg"
-    :Guam: 
-      :long: 
-        :standard: "Guami standardaeg"
-    :Gulf: 
-      :long: 
-        :standard: "Pärsia lahe standardaeg"
-    :Guyana: 
-      :long: 
-        :standard: "Guyana aeg"
-    :Hawaii: 
-      :long: 
-        :standard: "Hawaii-Aleuudi standardaeg"
-    :Hawaii_Aleutian: 
-      :long: 
-        :daylight: "Hawaii-Aleuudi suveaeg"
-        :generic: "Hawaii-Aleuudi aeg"
-        :standard: "Hawaii-Aleuudi standardaeg"
-    :Hong_Kong: 
-      :long: 
-        :daylight: "Hongkongi suveaeg"
-        :generic: "Hongkongi aeg"
-        :standard: "Hongkongi standardaeg"
-    :Hovd: 
-      :long: 
-        :daylight: "Hovdi suveaeg"
-        :generic: "Hovdi aeg"
-        :standard: "Hovdi standardaeg"
-    :India: 
-      :long: 
-        :standard: "India aeg"
-    :Indian_Ocean: 
-      :long: 
-        :standard: "India ookeani aeg"
-    :Indochina: 
-      :long: 
-        :standard: "Indohiina aeg"
-    :Indonesia_Central: 
-      :long: 
-        :standard: "Kesk-Indoneesia aeg"
-    :Indonesia_Eastern: 
-      :long: 
-        :standard: "Ida-Indoneesia aeg"
-    :Indonesia_Western: 
-      :long: 
-        :standard: "Lääne-Indoneesia aeg"
-    :Iran: 
-      :long: 
-        :daylight: "Iraani suveaeg"
-        :generic: "Iraani aeg"
-        :standard: "Iraani standardaeg"
-    :Irkutsk: 
-      :long: 
-        :daylight: "Irkutski suveaeg"
-        :generic: "Irkutski aeg"
-        :standard: "Irkutski standardaeg"
-    :Israel: 
-      :long: 
-        :daylight: "Iisraeli suveaeg"
-        :generic: "Iisraeli aeg"
-        :standard: "Iisraeli standardaeg"
-    :Japan: 
-      :long: 
-        :daylight: "Jaapani suveaeg"
-        :generic: "Jaapani aeg"
-        :standard: "Jaapani standardaeg"
-    :Kamchatka: 
-      :long: 
-        :daylight: "Kamtšatka suveaeg"
-        :generic: "Petropavlovsk-Kamtšatski aeg"
-        :standard: "Kamtšatka standardaeg"
-    :Kazakhstan: 
-      :long: 
-        :standard: "Kasahstani aeg"
-    :Kazakhstan_Eastern: 
-      :long: 
-        :standard: "Ida-Kasahstani aeg"
-    :Kazakhstan_Western: 
-      :long: 
-        :standard: "Lääne-Kasahstani aeg"
-    :Korea: 
-      :long: 
-        :daylight: "Korea suveaeg"
-        :generic: "Korea aeg"
-        :standard: "Korea standardaeg"
-    :Kosrae: 
-      :long: 
-        :standard: "Kosrae aeg"
-    :Krasnoyarsk: 
-      :long: 
-        :daylight: "Krasnojarski suveaeg"
-        :generic: "Krasnojarski aeg"
-        :standard: "Krasnojarski standardaeg"
-    :Kyrgystan: 
-      :long: 
-        :standard: "Kõrgõzstani aeg"
-    :Lanka: 
-      :long: 
-        :standard: "Sri Lanka aeg"
-    :Line_Islands: 
-      :long: 
-        :standard: "Line’i saarte aeg"
-    :Lord_Howe: 
-      :long: 
-        :daylight: "Lord Howe’i suveaeg"
-        :generic: "Lord Howe’i aeg"
-        :standard: "Lord Howe’i standardaeg"
-    :Macau: 
-      :long: 
-        :daylight: "Macau suveaeg"
-        :generic: "Macau aeg"
-        :standard: "Macau standardaeg"
-    :Magadan: 
-      :long: 
-        :daylight: "Magadani suveaeg"
-        :generic: "Magadani aeg"
-        :standard: "Magadani standardaeg"
-    :Malaysia: 
-      :long: 
-        :standard: "Malaisia aeg"
-    :Maldives: 
-      :long: 
-        :standard: "Maldiivi aeg"
-    :Marquesas: 
-      :long: 
-        :standard: "Markiisaarte aeg"
-    :Marshall_Islands: 
-      :long: 
-        :standard: "Marshalli Saarte aeg"
-    :Mauritius: 
-      :long: 
-        :daylight: "Mauritiuse suveaeg"
-        :generic: "Mauritiuse aeg"
-        :standard: "Mauritiuse standardaeg"
-    :Mawson: 
-      :long: 
-        :standard: "Mawsoni aeg"
-    :Mexico_Pacific: 
-      :long: 
-        :daylight: "Mehhiko Vaikse ookeani suveaeg"
-        :generic: "Mehhiko Vaikse ookeani aeg"
-        :standard: "Mehhiko Vaikse ookeani standardaeg"
-    :Mongolia: 
-      :long: 
-        :daylight: "Ulaanbaatari suveaeg"
-        :generic: "Ulaanbaatari aeg"
-        :standard: "Ulaanbaatari standardaeg"
-    :Moscow: 
-      :long: 
-        :daylight: "Moskva suveaeg"
-        :generic: "Moskva aeg"
-        :standard: "Moskva standardaeg"
-    :Myanmar: 
-      :long: 
-        :standard: "Birma aeg"
-    :Nauru: 
-      :long: 
-        :standard: "Nauru aeg"
-    :Nepal: 
-      :long: 
-        :standard: "Nepali aeg"
-    :New_Caledonia: 
-      :long: 
-        :daylight: "Uus-Kaledoonia suveaeg"
-        :generic: "Uus-Kaledoonia aeg"
-        :standard: "Uus-Kaledoonia standardaeg"
-    :New_Zealand: 
-      :long: 
-        :daylight: "Uus-Meremaa suveaeg"
-        :generic: "Uus-Meremaa aeg"
-        :standard: "Uus-Meremaa standardaeg"
-    :Newfoundland: 
-      :long: 
-        :daylight: "Newfoundlandi suveaeg"
-        :generic: "Newfoundlandi aeg"
-        :standard: "Newfoundlandi standardaeg"
-    :Niue: 
-      :long: 
-        :standard: "Niue aeg"
-    :Norfolk: 
-      :long: 
-        :daylight: "Norfolki saare suveaeg"
-        :generic: "Norfolki saare aeg"
-        :standard: "Norfolki saare standardaeg"
-    :Noronha: 
-      :long: 
-        :daylight: "Fernando de Noronha suveaeg"
-        :generic: "Fernando de Noronha aeg"
-        :standard: "Fernando de Noronha standardaeg"
-    :North_Mariana: 
-      :long: 
-        :standard: "Põhja-Mariaani aeg"
-    :Novosibirsk: 
-      :long: 
-        :daylight: "Novosibirski suveaeg"
-        :generic: "Novosibirski aeg"
-        :standard: "Novosibirski standardaeg"
-    :Omsk: 
-      :long: 
-        :daylight: "Omski suveaeg"
-        :generic: "Omski aeg"
-        :standard: "Omski standardaeg"
-    :Pakistan: 
-      :long: 
-        :daylight: "Pakistani suveaeg"
-        :generic: "Pakistani aeg"
-        :standard: "Pakistani standardaeg"
-    :Palau: 
-      :long: 
-        :standard: "Belau aeg"
-    :Papua_New_Guinea: 
-      :long: 
-        :standard: "Paapua Uus-Guinea aeg"
-    :Paraguay: 
-      :long: 
-        :daylight: "Paraguay suveaeg"
-        :generic: "Paraguay aeg"
-        :standard: "Paraguay standardaeg"
-    :Peru: 
-      :long: 
-        :daylight: "Peruu suveaeg"
-        :generic: "Peruu aeg"
-        :standard: "Peruu standardaeg"
-    :Philippines: 
-      :long: 
-        :daylight: "Filipiini suveaeg"
-        :generic: "Filipiini aeg"
-        :standard: "Filipiini standardaeg"
-    :Phoenix_Islands: 
-      :long: 
-        :standard: "Fööniksisaarte aeg"
-    :Pierre_Miquelon: 
-      :long: 
-        :daylight: "Saint-Pierre’i ja Miqueloni suveaeg"
-        :generic: "Saint-Pierre’i ja Miqueloni aeg"
-        :standard: "Saint-Pierre’i ja Miqueloni standardaeg"
-    :Pitcairn: 
-      :long: 
-        :standard: "Pitcairni aeg"
-    :Ponape: 
-      :long: 
-        :standard: "Pohnpei aeg"
-    :Pyongyang: 
-      :long: 
-        :standard: "Pyongyangi aeg"
-    :Qyzylorda: 
-      :long: 
-        :daylight: "Kõzõlorda suveaeg"
-        :generic: "Kõzõlorda aeg"
-        :standard: "Kõzõlorda standardaeg"
-    :Reunion: 
-      :long: 
-        :standard: "Réunioni aeg"
-    :Rothera: 
-      :long: 
-        :standard: "Rothera aeg"
-    :Sakhalin: 
-      :long: 
-        :daylight: "Sahhalini suveaeg"
-        :generic: "Sahhalini aeg"
-        :standard: "Sahhalini standardaeg"
-    :Samara: 
-      :long: 
-        :daylight: "Samara suveaeg"
-        :generic: "Samara aeg"
-        :standard: "Samara standardaeg"
-    :Samoa: 
-      :long: 
-        :daylight: "Samoa suveaeg"
-        :generic: "Samoa aeg"
-        :standard: "Samoa standardaeg"
-    :Seychelles: 
-      :long: 
-        :standard: "Seišelli aeg"
-    :Singapore: 
-      :long: 
-        :standard: "Singapuri standardaeg"
-    :Solomon: 
-      :long: 
-        :standard: "Saalomoni Saarte aeg"
-    :South_Georgia: 
-      :long: 
-        :standard: "Lõuna-Georgia aeg"
-    :Suriname: 
-      :long: 
-        :standard: "Suriname aeg"
-    :Syowa: 
-      :long: 
-        :standard: "Syowa aeg"
-    :Tahiti: 
-      :long: 
-        :standard: "Tahiti aeg"
-    :Taipei: 
-      :long: 
-        :daylight: "Taipei suveaeg"
-        :generic: "Taipei aeg"
-        :standard: "Taipei standardaeg"
-    :Tajikistan: 
-      :long: 
-        :standard: "Tadžikistani aeg"
-    :Tokelau: 
-      :long: 
-        :standard: "Tokelau aeg"
-    :Tonga: 
-      :long: 
-        :daylight: "Tonga suveaeg"
-        :generic: "Tonga aeg"
-        :standard: "Tonga standardaeg"
-    :Truk: 
-      :long: 
-        :standard: "Chuuki aeg"
-    :Turkey: 
-      :long: 
-        :daylight: "Türgi suveaeg"
-        :generic: "Türgi aeg"
-        :standard: "Türgi standardaeg"
-    :Turkmenistan: 
-      :long: 
-        :daylight: "Türkmenistani suveaeg"
-        :generic: "Türkmenistani aeg"
-        :standard: "Türkmenistani standardaeg"
-    :Tuvalu: 
-      :long: 
-        :standard: "Tuvalu aeg"
-    :Uruguay: 
-      :long: 
-        :daylight: "Uruguay suveaeg"
-        :generic: "Uruguay aeg"
-        :standard: "Uruguay standardaeg"
-    :Uzbekistan: 
-      :long: 
-        :daylight: "Usbekistani suveaeg"
-        :generic: "Usbekistani aeg"
-        :standard: "Usbekistani standardaeg"
-    :Vanuatu: 
-      :long: 
-        :daylight: "Vanuatu suveaeg"
-        :generic: "Vanuatu aeg"
-        :standard: "Vanuatu standardaeg"
-    :Venezuela: 
-      :long: 
-        :standard: "Venezuela aeg"
-    :Vladivostok: 
-      :long: 
-        :daylight: "Vladivostoki suveaeg"
-        :generic: "Vladivostoki aeg"
-        :standard: "Vladivostoki standardaeg"
-    :Volgograd: 
-      :long: 
-        :daylight: "Volgogradi suveaeg"
-        :generic: "Volgogradi aeg"
-        :standard: "Volgogradi standardaeg"
-    :Vostok: 
-      :long: 
-        :standard: "Vostoki aeg"
-    :Wake: 
-      :long: 
-        :standard: "Wake’i aeg"
-    :Wallis: 
-      :long: 
-        :standard: "Wallise ja Futuna aeg"
-    :Yakutsk: 
-      :long: 
-        :daylight: "Jakutski suveaeg"
-        :generic: "Jakutski aeg"
-        :standard: "Jakutski standardaeg"
-    :Yekaterinburg: 
-      :long: 
-        :daylight: "Jekaterinburgi suveaeg"
-        :generic: "Jekaterinburgi aeg"
-        :standard: "Jekaterinburgi standardaeg"
-    :Yukon: 
-      :long: 
-        :standard: "Yukoni aeg"
-  :timezones: 
-    :Africa/Addis_Ababa: 
-      :city: "Addis Abeba"
-    :Africa/Algiers: 
-      :city: Alžiir
-    :Africa/Asmera: 
-      :city: Asmara
-    :Africa/Cairo: 
-      :city: Kairo
-    :Africa/El_Aaiun: 
-      :city: "El Aaiún"
-    :Africa/Khartoum: 
-      :city: Hartum
-    :Africa/Lome: 
-      :city: Lomé
-    :Africa/Mogadishu: 
-      :city: Muqdisho
-    :Africa/Ndjamena: 
-      :city: N’Djamena
-    :Africa/Sao_Tome: 
-      :city: "São Tomé"
-    :America/Araguaina: 
-      :city: Araguaína
-    :America/Argentina/Rio_Gallegos: 
-      :city: "Río Gallegos"
-    :America/Argentina/Tucuman: 
-      :city: Tucumán
-    :America/Asuncion: 
-      :city: Asunción
-    :America/Bahia_Banderas: 
-      :city: "Bahia Banderas"
-    :America/Belem: 
-      :city: Belém
-    :America/Bogota: 
-      :city: Bogotá
-    :America/Cancun: 
-      :city: Cancún
-    :America/Ciudad_Juarez: 
-      :city: "Ciudad Juárez"
-    :America/Coral_Harbour: 
-      :city: Atikokan
-    :America/Cordoba: 
-      :city: Córdoba
-    :America/Cuiaba: 
-      :city: Cuiabá
-    :America/Curacao: 
-      :city: Curaçao
-    :America/Eirunepe: 
-      :city: Eirunepé
-    :America/Godthab: 
-      :city: Nuuk
-    :America/Havana: 
-      :city: Havanna
-    :America/Indiana/Knox: 
-      :city: "Knox, Indiana"
-    :America/Indiana/Marengo: 
-      :city: "Marengo, Indiana"
-    :America/Indiana/Petersburg: 
-      :city: "Petersburg, Indiana"
-    :America/Indiana/Tell_City: 
-      :city: "Tell City, Indiana"
-    :America/Indiana/Vevay: 
-      :city: "Vevay, Indiana"
-    :America/Indiana/Vincennes: 
-      :city: "Vincennes, Indiana"
-    :America/Indiana/Winamac: 
-      :city: "Winamac, Indiana"
-    :America/Kentucky/Monticello: 
-      :city: "Monticello, Kentucky"
-    :America/Lower_Princes: 
-      :city: "Lower Prince’s Quarter"
-    :America/Maceio: 
-      :city: Maceió
-    :America/Mazatlan: 
-      :city: Mazatlán
-    :America/Merida: 
-      :city: Mérida
-    :America/Mexico_City: 
-      :city: México
-    :America/Miquelon: 
-      :city: Saint-Pierre
-    :America/Noronha: 
-      :city: "Fernando de Noronha"
-    :America/North_Dakota/Beulah: 
-      :city: "Beulah, Põhja-Dakota"
-    :America/North_Dakota/Center: 
-      :city: "Center, Põhja-Dakota"
-    :America/North_Dakota/New_Salem: 
-      :city: "New Salem, Põhja-Dakota"
-    :America/Santarem: 
-      :city: Santarém
-    :America/Sao_Paulo: 
-      :city: "São Paulo"
-    :America/Scoresbysund: 
-      :city: Ittoqqortoormiit
-    :America/St_Barthelemy: 
-      :city: Saint-Barthélemy
-    :America/St_Johns: 
-      :city: "Saint John’s"
-    :America/St_Kitts: 
-      :city: "Saint Kitts"
-    :America/St_Lucia: 
-      :city: "Saint Lucia"
-    :America/St_Thomas: 
-      :city: "Saint Thomas"
-    :America/St_Vincent: 
-      :city: "Saint Vincent"
-    :Antarctica/DumontDUrville: 
-      :city: Dumont-d’Urville
-    :Antarctica/Syowa: 
-      :city: Showa
-    :Asia/Almaty: 
-      :city: Almatõ
-    :Asia/Anadyr: 
-      :city: Anadõr
-    :Asia/Aqtau: 
-      :city: Aktau
-    :Asia/Aqtobe: 
-      :city: Aktöbe
-    :Asia/Ashgabat: 
-      :city: Aşgabat
-    :Asia/Atyrau: 
-      :city: Atõrau
-    :Asia/Baghdad: 
-      :city: Bagdad
-    :Asia/Bahrain: 
-      :city: Bahrein
-    :Asia/Baku: 
-      :city: Bakuu
-    :Asia/Bishkek: 
-      :city: Biškek
-    :Asia/Calcutta: 
-      :city: Kolkata
-    :Asia/Chita: 
-      :city: Tšita
-    :Asia/Damascus: 
-      :city: Damaskus
-    :Asia/Dushanbe: 
-      :city: Dušanbe
-    :Asia/Hong_Kong: 
-      :city: Hongkong
-    :Asia/Hovd: 
-      :city: Khovd
-    :Asia/Jerusalem: 
-      :city: Jeruusalemm
-    :Asia/Kamchatka: 
-      :city: Kamtšatka
-    :Asia/Katmandu: 
-      :city: Katmandu
-    :Asia/Khandyga: 
-      :city: Handõga
-    :Asia/Krasnoyarsk: 
-      :city: Krasnojarsk
-    :Asia/Kuwait: 
-      :city: Kuveit
-    :Asia/Macau: 
-      :city: Macau
-    :Asia/Muscat: 
-      :city: Masqaţ
-    :Asia/Nicosia: 
-      :city: Nikosia
-    :Asia/Qatar: 
-      :city: Katar
-    :Asia/Qostanay: 
-      :city: Kostanaj
-    :Asia/Qyzylorda: 
-      :city: Kõzõlorda
-    :Asia/Rangoon: 
-      :city: Yangon
-    :Asia/Riyadh: 
-      :city: Ar-Riyāḑ
-    :Asia/Saigon: 
-      :city: "Hô Chi Minh"
-    :Asia/Sakhalin: 
-      :city: Sahhalin
-    :Asia/Seoul: 
-      :city: Soul
-    :Asia/Singapore: 
-      :city: Singapur
-    :Asia/Srednekolymsk: 
-      :city: Srednekolõmsk
-    :Asia/Tashkent: 
-      :city: Taškent
-    :Asia/Tbilisi: 
-      :city: Thbilisi
-    :Asia/Tehran: 
-      :city: Teheran
-    :Asia/Tokyo: 
-      :city: Tōkyō
-    :Asia/Urumqi: 
-      :city: Ürümqi
-    :Asia/Yakutsk: 
-      :city: Jakutsk
-    :Asia/Yekaterinburg: 
-      :city: Jekaterinburg
-    :Asia/Yerevan: 
-      :city: Jerevan
-    :Atlantic/Azores: 
-      :city: Assoorid
-    :Atlantic/Canary: 
-      :city: "Kanaari saared"
-    :Atlantic/Cape_Verde: 
-      :city: Roheneemesaared
-    :Atlantic/Faeroe: 
-      :city: "Fääri saared"
-    :Atlantic/Reykjavik: 
-      :city: Reykjavík
-    :Atlantic/South_Georgia: 
-      :city: Lõuna-Georgia
-    :Atlantic/St_Helena: 
-      :city: "Saint Helena"
-    :Etc/UTC: 
-      :long: 
-        :standard: "Koordineeritud maailmaaeg"
-      :short: 
+    :fallback_formats:
+      :generic: "{1} ({0})"
+  :timezones:
+    :Etc/UTC:
+      :short:
         :standard: UTC
-    :Etc/Unknown: 
-      :city: "määramata linn"
-    :Europe/Astrakhan: 
-      :city: Astrahan
-    :Europe/Athens: 
-      :city: Ateena
-    :Europe/Belgrade: 
-      :city: Belgrad
-    :Europe/Berlin: 
-      :city: Berliin
-    :Europe/Brussels: 
-      :city: Brüssel
-    :Europe/Bucharest: 
-      :city: Bukarest
-    :Europe/Busingen: 
-      :city: Büsingen
-    :Europe/Chisinau: 
-      :city: Chișinău
-    :Europe/Copenhagen: 
-      :city: Kopenhaagen
-    :Europe/Dublin: 
-      :long: 
-        :daylight: "Iiri suveaeg"
-    :Europe/Helsinki: 
-      :city: Helsingi
-    :Europe/Isle_of_Man: 
-      :city: "Mani saar"
-    :Europe/Istanbul: 
-      :city: İstanbul
-    :Europe/Kiev: 
-      :city: Kiiev
-    :Europe/Lisbon: 
-      :city: Lissabon
-    :Europe/London: 
-      :long: 
-        :daylight: "Briti suveaeg"
-    :Europe/Mariehamn: 
-      :city: Maarianhamina
-    :Europe/Moscow: 
-      :city: Moskva
-    :Europe/Paris: 
-      :city: Pariis
-    :Europe/Prague: 
-      :city: Praha
-    :Europe/Riga: 
-      :city: Riia
-    :Europe/Rome: 
-      :city: Rooma
-    :Europe/Tirane: 
+      :long:
+        :standard: Koordineeritud maailmaaeg
+    :Europe/Tirane:
       :city: Tirana
-    :Europe/Ulyanovsk: 
-      :city: Uljanovsk
-    :Europe/Vatican: 
-      :city: Vatikan
-    :Europe/Vienna: 
-      :city: Viin
-    :Europe/Warsaw: 
-      :city: Varssavi
-    :Europe/Zurich: 
-      :city: Zürich
-    :Indian/Christmas: 
-      :city: Jõulusaar
-    :Indian/Cocos: 
-      :city: Kookossaared
-    :Indian/Comoro: 
-      :city: Comores
-    :Indian/Mahe: 
-      :city: Mahé
-    :Indian/Maldives: 
-      :city: Maldiivid
-    :Indian/Reunion: 
-      :city: Réunion
-    :Pacific/Easter: 
-      :city: Lihavõttesaar
-    :Pacific/Enderbury: 
-      :city: Abariringa
-    :Pacific/Fiji: 
-      :city: Fidži
-    :Pacific/Galapagos: 
+    :Antarctica/Syowa:
+      :city: Showa
+    :Antarctica/DumontDUrville:
+      :city: Dumont-d’Urville
+    :America/Argentina/Rio_Gallegos:
+      :city: Río Gallegos
+    :America/Argentina/Tucuman:
+      :city: Tucumán
+    :America/Cordoba:
+      :city: Córdoba
+    :America/St_Barthelemy:
+      :city: Saint-Barthélemy
+    :America/Eirunepe:
+      :city: Eirunepé
+    :America/Cuiaba:
+      :city: Cuiabá
+    :America/Santarem:
+      :city: Santarém
+    :America/Belem:
+      :city: Belém
+    :America/Araguaina:
+      :city: Araguaína
+    :America/Sao_Paulo:
+      :city: São Paulo
+    :America/Maceio:
+      :city: Maceió
+    :America/Noronha:
+      :city: Fernando de Noronha
+    :America/Coral_Harbour:
+      :city: Atikokan
+    :America/St_Johns:
+      :city: Saint John’s
+    :Asia/Urumqi:
+      :city: Ürümqi
+    :America/Bogota:
+      :city: Bogotá
+    :America/Curacao:
+      :city: Curaçao
+    :Europe/Busingen:
+      :city: Büsingen
+    :Pacific/Galapagos:
       :city: Galápagos
-    :Pacific/Honolulu: 
-      :city: Honolulu
-    :Pacific/Marquesas: 
-      :city: Markiisaared
-    :Pacific/Noumea: 
-      :city: Nouméa
-    :Pacific/Palau: 
-      :city: Belau
-    :Pacific/Ponape: 
-      :city: Pohnpei
-    :Pacific/Truk: 
+    :Africa/El_Aaiun:
+      :city: El Aaiún
+    :Africa/Asmera:
+      :city: Asmara
+    :Atlantic/Canary:
+      :city: Kanaari saared
+    :Pacific/Truk:
       :city: Chuuk
-    :Pacific/Wallis: 
-      :city: "Wallis & Futuna"
+    :Pacific/Ponape:
+      :city: Pohnpei
+    :Atlantic/Faeroe:
+      :city: Fääri saared
+    :America/Godthab:
+      :city: Nuuk
+    :America/Scoresbysund:
+      :city: Ittoqqortoormiit
+    :Asia/Calcutta:
+      :city: Kolkata
+    :Pacific/Enderbury:
+      :city: Abariringa
+    :Indian/Comoro:
+      :city: Comores
+    :America/St_Kitts:
+      :city: Saint Kitts
+    :America/St_Lucia:
+      :city: Saint Lucia
+    :Europe/Chisinau:
+      :city: Chișinău
+    :Asia/Rangoon:
+      :city: Yangon
+    :Asia/Hovd:
+      :city: Khovd
+    :Asia/Macau:
+      :city: Macau
+    :America/Ciudad_Juarez:
+      :city: Ciudad Juárez
+    :America/Mazatlan:
+      :city: Mazatlán
+    :America/Bahia_Banderas:
+      :city: Bahia Banderas
+    :America/Mexico_City:
+      :city: México
+    :America/Merida:
+      :city: Mérida
+    :America/Cancun:
+      :city: Cancún
+    :Pacific/Noumea:
+      :city: Nouméa
+    :Asia/Katmandu:
+      :city: Katmandu
+    :America/Miquelon:
+      :city: Saint-Pierre
+    :America/Asuncion:
+      :city: Asunción
+    :Indian/Reunion:
+      :city: Réunion
+    :Indian/Mahe:
+      :city: Mahé
+    :Atlantic/St_Helena:
+      :city: Saint Helena
+    :Africa/Sao_Tome:
+      :city: São Tomé
+    :America/Lower_Princes:
+      :city: Lower Prince’s Quarter
+    :Africa/Ndjamena:
+      :city: N’Djamena
+    :Africa/Lome:
+      :city: Lomé
+    :Europe/Kiev:
+      :city: Kiiev
+    :America/North_Dakota/Beulah:
+      :city: Beulah, Põhja-Dakota
+    :America/North_Dakota/New_Salem:
+      :city: New Salem, Põhja-Dakota
+    :America/North_Dakota/Center:
+      :city: Center, Põhja-Dakota
+    :America/Indiana/Vincennes:
+      :city: Vincennes, Indiana
+    :America/Indiana/Petersburg:
+      :city: Petersburg, Indiana
+    :America/Indiana/Tell_City:
+      :city: Tell City, Indiana
+    :America/Indiana/Knox:
+      :city: Knox, Indiana
+    :America/Indiana/Winamac:
+      :city: Winamac, Indiana
+    :America/Indiana/Marengo:
+      :city: Marengo, Indiana
+    :America/Indiana/Vevay:
+      :city: Vevay, Indiana
+    :America/Kentucky/Monticello:
+      :city: Monticello, Kentucky
+    :America/St_Vincent:
+      :city: Saint Vincent
+    :America/St_Thomas:
+      :city: Saint Thomas
+    :Asia/Saigon:
+      :city: Hô Chi Minh
+    :Pacific/Wallis:
+      :city: Wallis & Futuna
+    :Pacific/Honolulu:
+      :city: Honolulu
+    :Etc/Unknown:
+      :city: määramata linn
+    :Asia/Yerevan:
+      :city: Jerevan
+    :Europe/Vienna:
+      :city: Viin
+    :Europe/Mariehamn:
+      :city: Maarianhamina
+    :Asia/Baku:
+      :city: Bakuu
+    :Europe/Brussels:
+      :city: Brüssel
+    :Asia/Bahrain:
+      :city: Bahrein
+    :Indian/Cocos:
+      :city: Kookossaared
+    :Europe/Zurich:
+      :city: Zürich
+    :Pacific/Easter:
+      :city: Lihavõttesaar
+    :America/Havana:
+      :city: Havanna
+    :Atlantic/Cape_Verde:
+      :city: Roheneemesaared
+    :Indian/Christmas:
+      :city: Jõulusaar
+    :Asia/Nicosia:
+      :city: Nikosia
+    :Europe/Prague:
+      :city: Praha
+    :Europe/Berlin:
+      :city: Berliin
+    :Europe/Copenhagen:
+      :city: Kopenhaagen
+    :Africa/Algiers:
+      :city: Alžiir
+    :Africa/Cairo:
+      :city: Kairo
+    :Africa/Addis_Ababa:
+      :city: Addis Abeba
+    :Europe/Helsinki:
+      :city: Helsingi
+    :Pacific/Fiji:
+      :city: Fidži
+    :Europe/Paris:
+      :city: Pariis
+    :Europe/London:
+      :long:
+        :daylight: Briti suveaeg
+    :Asia/Tbilisi:
+      :city: Thbilisi
+    :Europe/Athens:
+      :city: Ateena
+    :Atlantic/South_Georgia:
+      :city: Lõuna-Georgia
+    :Asia/Hong_Kong:
+      :city: Hongkong
+    :Europe/Dublin:
+      :long:
+        :daylight: Iiri suveaeg
+    :Asia/Jerusalem:
+      :city: Jeruusalemm
+    :Europe/Isle_of_Man:
+      :city: Mani saar
+    :Asia/Baghdad:
+      :city: Bagdad
+    :Asia/Tehran:
+      :city: Teheran
+    :Atlantic/Reykjavik:
+      :city: Reykjavík
+    :Europe/Rome:
+      :city: Rooma
+    :Asia/Tokyo:
+      :city: Tōkyō
+    :Asia/Bishkek:
+      :city: Biškek
+    :Asia/Seoul:
+      :city: Soul
+    :Asia/Kuwait:
+      :city: Kuveit
+    :Asia/Aqtau:
+      :city: Aktau
+    :Asia/Atyrau:
+      :city: Atõrau
+    :Asia/Aqtobe:
+      :city: Aktöbe
+    :Asia/Qostanay:
+      :city: Kostanaj
+    :Asia/Qyzylorda:
+      :city: Kõzõlorda
+    :Asia/Almaty:
+      :city: Almatõ
+    :Europe/Riga:
+      :city: Riia
+    :Indian/Maldives:
+      :city: Maldiivid
+    :Asia/Muscat:
+      :city: Masqaţ
+    :Pacific/Marquesas:
+      :city: Markiisaared
+    :Europe/Warsaw:
+      :city: Varssavi
+    :Atlantic/Azores:
+      :city: Assoorid
+    :Europe/Lisbon:
+      :city: Lissabon
+    :Pacific/Palau:
+      :city: Belau
+    :Asia/Qatar:
+      :city: Katar
+    :Europe/Bucharest:
+      :city: Bukarest
+    :Europe/Belgrade:
+      :city: Belgrad
+    :Europe/Moscow:
+      :city: Moskva
+    :Europe/Astrakhan:
+      :city: Astrahan
+    :Europe/Ulyanovsk:
+      :city: Uljanovsk
+    :Asia/Yekaterinburg:
+      :city: Jekaterinburg
+    :Asia/Krasnoyarsk:
+      :city: Krasnojarsk
+    :Asia/Chita:
+      :city: Tšita
+    :Asia/Yakutsk:
+      :city: Jakutsk
+    :Asia/Khandyga:
+      :city: Handõga
+    :Asia/Sakhalin:
+      :city: Sahhalin
+    :Asia/Srednekolymsk:
+      :city: Srednekolõmsk
+    :Asia/Kamchatka:
+      :city: Kamtšatka
+    :Asia/Anadyr:
+      :city: Anadõr
+    :Asia/Riyadh:
+      :city: Ar-Riyāḑ
+    :Africa/Khartoum:
+      :city: Hartum
+    :Asia/Singapore:
+      :city: Singapur
+    :Africa/Mogadishu:
+      :city: Muqdisho
+    :Asia/Damascus:
+      :city: Damaskus
+    :Asia/Dushanbe:
+      :city: Dušanbe
+    :Asia/Ashgabat:
+      :city: Aşgabat
+    :Europe/Istanbul:
+      :city: İstanbul
+    :Asia/Tashkent:
+      :city: Taškent
+    :Europe/Vatican:
+      :city: Vatikan
+  :metazones:
+    :Acre:
+      :long:
+        :generic: Acre aeg
+        :standard: Acre standardaeg
+        :daylight: Acre suveaeg
+    :Afghanistan:
+      :long:
+        :standard: Afganistani aeg
+    :Africa_Central:
+      :long:
+        :standard: Kesk-Aafrika aeg
+    :Africa_Eastern:
+      :long:
+        :standard: Ida-Aafrika aeg
+    :Africa_Southern:
+      :long:
+        :standard: Lõuna-Aafrika standardaeg
+    :Africa_Western:
+      :long:
+        :standard: Lääne-Aafrika aeg
+    :Alaska:
+      :long:
+        :generic: Alaska aeg
+        :standard: Alaska standardaeg
+        :daylight: Alaska suveaeg
+    :Almaty:
+      :long:
+        :generic: Almatõ aeg
+        :standard: Almatõ standardaeg
+        :daylight: Almatõ suveaeg
+    :Amazon:
+      :long:
+        :generic: Amazonase aeg
+        :standard: Amazonase standardaeg
+        :daylight: Amazonase suveaeg
+    :America_Central:
+      :long:
+        :generic: Kesk-Ameerika aeg
+        :standard: Kesk-Ameerika standardaeg
+        :daylight: Kesk-Ameerika suveaeg
+    :America_Eastern:
+      :long:
+        :generic: Idaranniku aeg
+        :standard: Idaranniku standardaeg
+        :daylight: Idaranniku suveaeg
+    :America_Mountain:
+      :long:
+        :generic: Mäestikuvööndi aeg
+        :standard: Mäestikuvööndi standardaeg
+        :daylight: Mäestikuvööndi suveaeg
+    :America_Pacific:
+      :long:
+        :generic: Vaikse ookeani aeg
+        :standard: Vaikse ookeani standardaeg
+        :daylight: Vaikse ookeani suveaeg
+    :Anadyr:
+      :long:
+        :generic: Anadõri aeg
+        :standard: Anadõri standardaeg
+        :daylight: Anadõri suveaeg
+    :Apia:
+      :long:
+        :generic: Apia aeg
+        :standard: Apia standardaeg
+        :daylight: Apia suveaeg
+    :Aqtau:
+      :long:
+        :generic: Aktau aeg
+        :standard: Aktau standardaeg
+        :daylight: Aktau suveaeg
+    :Aqtobe:
+      :long:
+        :generic: Aktöbe aeg
+        :standard: Aktöbe standardaeg
+        :daylight: Aktöbe suveaeg
+    :Arabian:
+      :long:
+        :generic: Araabia aeg
+        :standard: Araabia standardaeg
+        :daylight: Araabia suveaeg
+    :Argentina:
+      :long:
+        :generic: Argentina aeg
+        :standard: Argentina standardaeg
+        :daylight: Argentina suveaeg
+    :Argentina_Western:
+      :long:
+        :generic: Lääne-Argentina aeg
+        :standard: Lääne-Argentina standardaeg
+        :daylight: Lääne-Argentina suveaeg
+    :Armenia:
+      :long:
+        :generic: Armeenia aeg
+        :standard: Armeenia standardaeg
+        :daylight: Armeenia suveaeg
+    :Atlantic:
+      :long:
+        :generic: Atlandi aeg
+        :standard: Atlandi standardaeg
+        :daylight: Atlandi suveaeg
+    :Australia_Central:
+      :long:
+        :generic: Kesk-Austraalia aeg
+        :standard: Kesk-Austraalia standardaeg
+        :daylight: Kesk-Austraalia suveaeg
+    :Australia_CentralWestern:
+      :long:
+        :generic: Austraalia Kesk-Lääne aeg
+        :standard: Austraalia Kesk-Lääne standardaeg
+        :daylight: Austraalia Kesk-Lääne suveaeg
+    :Australia_Eastern:
+      :long:
+        :generic: Ida-Austraalia aeg
+        :standard: Ida-Austraalia standardaeg
+        :daylight: Ida-Austraalia suveaeg
+    :Australia_Western:
+      :long:
+        :generic: Lääne-Austraalia aeg
+        :standard: Lääne-Austraalia standardaeg
+        :daylight: Lääne-Austraalia suveaeg
+    :Azerbaijan:
+      :long:
+        :generic: Aserbaidžaani aeg
+        :standard: Aserbaidžaani standardaeg
+        :daylight: Aserbaidžaani suveaeg
+    :Azores:
+      :long:
+        :generic: Assooride aeg
+        :standard: Assooride standardaeg
+        :daylight: Assooride suveaeg
+    :Bangladesh:
+      :long:
+        :generic: Bangladeshi aeg
+        :standard: Bangladeshi standardaeg
+        :daylight: Bangladeshi suveaeg
+    :Bhutan:
+      :long:
+        :standard: Bhutani aeg
+    :Bolivia:
+      :long:
+        :standard: Boliivia aeg
+    :Brasilia:
+      :long:
+        :generic: Brasiilia aeg
+        :standard: Brasiilia standardaeg
+        :daylight: Brasiilia suveaeg
+    :Brunei:
+      :long:
+        :standard: Brunei aeg
+    :Cape_Verde:
+      :long:
+        :generic: Roheneemesaarte aeg
+        :standard: Roheneemesaarte standardaeg
+        :daylight: Roheneemesaarte suveaeg
+    :Casey:
+      :long:
+        :standard: Casey aeg
+    :Chamorro:
+      :long:
+        :standard: Tšamorro standardaeg
+    :Chatham:
+      :long:
+        :generic: Chathami aeg
+        :standard: Chathami standardaeg
+        :daylight: Chathami suveaeg
+    :Chile:
+      :long:
+        :generic: Tšiili aeg
+        :standard: Tšiili standardaeg
+        :daylight: Tšiili suveaeg
+    :China:
+      :long:
+        :generic: Hiina aeg
+        :standard: Hiina standardaeg
+        :daylight: Hiina suveaeg
+    :Christmas:
+      :long:
+        :standard: Jõulusaare aeg
+    :Cocos:
+      :long:
+        :standard: Kookossaarte aeg
+    :Colombia:
+      :long:
+        :generic: Colombia aeg
+        :standard: Colombia standardaeg
+        :daylight: Colombia suveaeg
+    :Cook:
+      :long:
+        :generic: Cooki saarte aeg
+        :standard: Cooki saarte standardaeg
+        :daylight: Cooki saarte osaline suveaeg
+    :Cuba:
+      :long:
+        :generic: Kuuba aeg
+        :standard: Kuuba standardaeg
+        :daylight: Kuuba suveaeg
+    :Davis:
+      :long:
+        :standard: Davise aeg
+    :DumontDUrville:
+      :long:
+        :standard: Dumont d’Urville’i aeg
+    :East_Timor:
+      :long:
+        :standard: Ida-Timori aeg
+    :Easter:
+      :long:
+        :generic: Lihavõttesaare aeg
+        :standard: Lihavõttesaare standardaeg
+        :daylight: Lihavõttesaare suveaeg
+    :Ecuador:
+      :long:
+        :standard: Ecuadori aeg
+    :Europe_Central:
+      :long:
+        :generic: Kesk-Euroopa aeg
+        :standard: Kesk-Euroopa standardaeg
+        :daylight: Kesk-Euroopa suveaeg
+    :Europe_Eastern:
+      :long:
+        :generic: Ida-Euroopa aeg
+        :standard: Ida-Euroopa standardaeg
+        :daylight: Ida-Euroopa suveaeg
+    :Europe_Further_Eastern:
+      :long:
+        :standard: Kaliningradi ja Valgevene aeg
+    :Europe_Western:
+      :long:
+        :generic: Lääne-Euroopa aeg
+        :standard: Lääne-Euroopa standardaeg
+        :daylight: Lääne-Euroopa suveaeg
+    :Falkland:
+      :long:
+        :generic: Falklandi saarte aeg
+        :standard: Falklandi saarte standardaeg
+        :daylight: Falklandi saarte suveaeg
+    :Fiji:
+      :long:
+        :generic: Fidži aeg
+        :standard: Fidži standardaeg
+        :daylight: Fidži suveaeg
+    :French_Guiana:
+      :long:
+        :standard: Prantsuse Guajaana aeg
+    :French_Southern:
+      :long:
+        :standard: Prantsuse Antarktiliste ja Lõunaalade aeg
+    :Galapagos:
+      :long:
+        :standard: Galapagose aeg
+    :Gambier:
+      :long:
+        :standard: Gambier’ aeg
+    :Georgia:
+      :long:
+        :generic: Gruusia aeg
+        :standard: Gruusia standardaeg
+        :daylight: Gruusia suveaeg
+    :Gilbert_Islands:
+      :long:
+        :standard: Gilberti saarte aeg
+    :GMT:
+      :long:
+        :standard: Greenwichi aeg
+    :Greenland:
+      :long:
+        :generic: Gröönimaa aeg
+        :standard: Gröönimaa standardaeg
+        :daylight: Gröönimaa suveaeg
+    :Greenland_Eastern:
+      :long:
+        :generic: Ida-Gröönimaa aeg
+        :standard: Ida-Gröönimaa standardaeg
+        :daylight: Ida-Gröönimaa suveaeg
+    :Greenland_Western:
+      :long:
+        :generic: Lääne-Gröönimaa aeg
+        :standard: Lääne-Gröönimaa standardaeg
+        :daylight: Lääne-Gröönimaa suveaeg
+    :Guam:
+      :long:
+        :standard: Guami standardaeg
+    :Gulf:
+      :long:
+        :standard: Pärsia lahe standardaeg
+    :Guyana:
+      :long:
+        :standard: Guyana aeg
+    :Hawaii:
+      :long:
+        :standard: Hawaii-Aleuudi standardaeg
+    :Hawaii_Aleutian:
+      :long:
+        :generic: Hawaii-Aleuudi aeg
+        :standard: Hawaii-Aleuudi standardaeg
+        :daylight: Hawaii-Aleuudi suveaeg
+    :Hong_Kong:
+      :long:
+        :generic: Hongkongi aeg
+        :standard: Hongkongi standardaeg
+        :daylight: Hongkongi suveaeg
+    :Hovd:
+      :long:
+        :generic: Hovdi aeg
+        :standard: Hovdi standardaeg
+        :daylight: Hovdi suveaeg
+    :India:
+      :long:
+        :standard: India aeg
+    :Indian_Ocean:
+      :long:
+        :standard: India ookeani aeg
+    :Indochina:
+      :long:
+        :standard: Indohiina aeg
+    :Indonesia_Central:
+      :long:
+        :standard: Kesk-Indoneesia aeg
+    :Indonesia_Eastern:
+      :long:
+        :standard: Ida-Indoneesia aeg
+    :Indonesia_Western:
+      :long:
+        :standard: Lääne-Indoneesia aeg
+    :Iran:
+      :long:
+        :generic: Iraani aeg
+        :standard: Iraani standardaeg
+        :daylight: Iraani suveaeg
+    :Irkutsk:
+      :long:
+        :generic: Irkutski aeg
+        :standard: Irkutski standardaeg
+        :daylight: Irkutski suveaeg
+    :Israel:
+      :long:
+        :generic: Iisraeli aeg
+        :standard: Iisraeli standardaeg
+        :daylight: Iisraeli suveaeg
+    :Japan:
+      :long:
+        :generic: Jaapani aeg
+        :standard: Jaapani standardaeg
+        :daylight: Jaapani suveaeg
+    :Kamchatka:
+      :long:
+        :generic: Petropavlovsk-Kamtšatski aeg
+        :standard: Kamtšatka standardaeg
+        :daylight: Kamtšatka suveaeg
+    :Kazakhstan:
+      :long:
+        :standard: Kasahstani aeg
+    :Kazakhstan_Eastern:
+      :long:
+        :standard: Ida-Kasahstani aeg
+    :Kazakhstan_Western:
+      :long:
+        :standard: Lääne-Kasahstani aeg
+    :Korea:
+      :long:
+        :generic: Korea aeg
+        :standard: Korea standardaeg
+        :daylight: Korea suveaeg
+    :Kosrae:
+      :long:
+        :standard: Kosrae aeg
+    :Krasnoyarsk:
+      :long:
+        :generic: Krasnojarski aeg
+        :standard: Krasnojarski standardaeg
+        :daylight: Krasnojarski suveaeg
+    :Kyrgystan:
+      :long:
+        :standard: Kõrgõzstani aeg
+    :Lanka:
+      :long:
+        :standard: Sri Lanka aeg
+    :Line_Islands:
+      :long:
+        :standard: Line’i saarte aeg
+    :Lord_Howe:
+      :long:
+        :generic: Lord Howe’i aeg
+        :standard: Lord Howe’i standardaeg
+        :daylight: Lord Howe’i suveaeg
+    :Macau:
+      :long:
+        :generic: Macau aeg
+        :standard: Macau standardaeg
+        :daylight: Macau suveaeg
+    :Magadan:
+      :long:
+        :generic: Magadani aeg
+        :standard: Magadani standardaeg
+        :daylight: Magadani suveaeg
+    :Malaysia:
+      :long:
+        :standard: Malaisia aeg
+    :Maldives:
+      :long:
+        :standard: Maldiivi aeg
+    :Marquesas:
+      :long:
+        :standard: Markiisaarte aeg
+    :Marshall_Islands:
+      :long:
+        :standard: Marshalli Saarte aeg
+    :Mauritius:
+      :long:
+        :generic: Mauritiuse aeg
+        :standard: Mauritiuse standardaeg
+        :daylight: Mauritiuse suveaeg
+    :Mawson:
+      :long:
+        :standard: Mawsoni aeg
+    :Mexico_Pacific:
+      :long:
+        :generic: Mehhiko Vaikse ookeani aeg
+        :standard: Mehhiko Vaikse ookeani standardaeg
+        :daylight: Mehhiko Vaikse ookeani suveaeg
+    :Mongolia:
+      :long:
+        :generic: Ulaanbaatari aeg
+        :standard: Ulaanbaatari standardaeg
+        :daylight: Ulaanbaatari suveaeg
+    :Moscow:
+      :long:
+        :generic: Moskva aeg
+        :standard: Moskva standardaeg
+        :daylight: Moskva suveaeg
+    :Myanmar:
+      :long:
+        :standard: Birma aeg
+    :Nauru:
+      :long:
+        :standard: Nauru aeg
+    :Nepal:
+      :long:
+        :standard: Nepali aeg
+    :New_Caledonia:
+      :long:
+        :generic: Uus-Kaledoonia aeg
+        :standard: Uus-Kaledoonia standardaeg
+        :daylight: Uus-Kaledoonia suveaeg
+    :New_Zealand:
+      :long:
+        :generic: Uus-Meremaa aeg
+        :standard: Uus-Meremaa standardaeg
+        :daylight: Uus-Meremaa suveaeg
+    :Newfoundland:
+      :long:
+        :generic: Newfoundlandi aeg
+        :standard: Newfoundlandi standardaeg
+        :daylight: Newfoundlandi suveaeg
+    :Niue:
+      :long:
+        :standard: Niue aeg
+    :Norfolk:
+      :long:
+        :generic: Norfolki saare aeg
+        :standard: Norfolki saare standardaeg
+        :daylight: Norfolki saare suveaeg
+    :Noronha:
+      :long:
+        :generic: Fernando de Noronha aeg
+        :standard: Fernando de Noronha standardaeg
+        :daylight: Fernando de Noronha suveaeg
+    :North_Mariana:
+      :long:
+        :standard: Põhja-Mariaani aeg
+    :Novosibirsk:
+      :long:
+        :generic: Novosibirski aeg
+        :standard: Novosibirski standardaeg
+        :daylight: Novosibirski suveaeg
+    :Omsk:
+      :long:
+        :generic: Omski aeg
+        :standard: Omski standardaeg
+        :daylight: Omski suveaeg
+    :Pakistan:
+      :long:
+        :generic: Pakistani aeg
+        :standard: Pakistani standardaeg
+        :daylight: Pakistani suveaeg
+    :Palau:
+      :long:
+        :standard: Belau aeg
+    :Papua_New_Guinea:
+      :long:
+        :standard: Paapua Uus-Guinea aeg
+    :Paraguay:
+      :long:
+        :generic: Paraguay aeg
+        :standard: Paraguay standardaeg
+        :daylight: Paraguay suveaeg
+    :Peru:
+      :long:
+        :generic: Peruu aeg
+        :standard: Peruu standardaeg
+        :daylight: Peruu suveaeg
+    :Philippines:
+      :long:
+        :generic: Filipiini aeg
+        :standard: Filipiini standardaeg
+        :daylight: Filipiini suveaeg
+    :Phoenix_Islands:
+      :long:
+        :standard: Fööniksisaarte aeg
+    :Pierre_Miquelon:
+      :long:
+        :generic: Saint-Pierre’i ja Miqueloni aeg
+        :standard: Saint-Pierre’i ja Miqueloni standardaeg
+        :daylight: Saint-Pierre’i ja Miqueloni suveaeg
+    :Pitcairn:
+      :long:
+        :standard: Pitcairni aeg
+    :Ponape:
+      :long:
+        :standard: Pohnpei aeg
+    :Pyongyang:
+      :long:
+        :standard: Pyongyangi aeg
+    :Qyzylorda:
+      :long:
+        :generic: Kõzõlorda aeg
+        :standard: Kõzõlorda standardaeg
+        :daylight: Kõzõlorda suveaeg
+    :Reunion:
+      :long:
+        :standard: Réunioni aeg
+    :Rothera:
+      :long:
+        :standard: Rothera aeg
+    :Sakhalin:
+      :long:
+        :generic: Sahhalini aeg
+        :standard: Sahhalini standardaeg
+        :daylight: Sahhalini suveaeg
+    :Samara:
+      :long:
+        :generic: Samara aeg
+        :standard: Samara standardaeg
+        :daylight: Samara suveaeg
+    :Samoa:
+      :long:
+        :generic: Samoa aeg
+        :standard: Samoa standardaeg
+        :daylight: Samoa suveaeg
+    :Seychelles:
+      :long:
+        :standard: Seišelli aeg
+    :Singapore:
+      :long:
+        :standard: Singapuri standardaeg
+    :Solomon:
+      :long:
+        :standard: Saalomoni Saarte aeg
+    :South_Georgia:
+      :long:
+        :standard: Lõuna-Georgia aeg
+    :Suriname:
+      :long:
+        :standard: Suriname aeg
+    :Syowa:
+      :long:
+        :standard: Syowa aeg
+    :Tahiti:
+      :long:
+        :standard: Tahiti aeg
+    :Taipei:
+      :long:
+        :generic: Taipei aeg
+        :standard: Taipei standardaeg
+        :daylight: Taipei suveaeg
+    :Tajikistan:
+      :long:
+        :standard: Tadžikistani aeg
+    :Tokelau:
+      :long:
+        :standard: Tokelau aeg
+    :Tonga:
+      :long:
+        :generic: Tonga aeg
+        :standard: Tonga standardaeg
+        :daylight: Tonga suveaeg
+    :Truk:
+      :long:
+        :standard: Chuuki aeg
+    :Turkey:
+      :long:
+        :generic: Türgi aeg
+        :standard: Türgi standardaeg
+        :daylight: Türgi suveaeg
+    :Turkmenistan:
+      :long:
+        :generic: Türkmenistani aeg
+        :standard: Türkmenistani standardaeg
+        :daylight: Türkmenistani suveaeg
+    :Tuvalu:
+      :long:
+        :standard: Tuvalu aeg
+    :Uruguay:
+      :long:
+        :generic: Uruguay aeg
+        :standard: Uruguay standardaeg
+        :daylight: Uruguay suveaeg
+    :Uzbekistan:
+      :long:
+        :generic: Usbekistani aeg
+        :standard: Usbekistani standardaeg
+        :daylight: Usbekistani suveaeg
+    :Vanuatu:
+      :long:
+        :generic: Vanuatu aeg
+        :standard: Vanuatu standardaeg
+        :daylight: Vanuatu suveaeg
+    :Venezuela:
+      :long:
+        :standard: Venezuela aeg
+    :Vladivostok:
+      :long:
+        :generic: Vladivostoki aeg
+        :standard: Vladivostoki standardaeg
+        :daylight: Vladivostoki suveaeg
+    :Volgograd:
+      :long:
+        :generic: Volgogradi aeg
+        :standard: Volgogradi standardaeg
+        :daylight: Volgogradi suveaeg
+    :Vostok:
+      :long:
+        :standard: Vostoki aeg
+    :Wake:
+      :long:
+        :standard: Wake’i aeg
+    :Wallis:
+      :long:
+        :standard: Wallise ja Futuna aeg
+    :Yakutsk:
+      :long:
+        :generic: Jakutski aeg
+        :standard: Jakutski standardaeg
+        :daylight: Jakutski suveaeg
+    :Yekaterinburg:
+      :long:
+        :generic: Jekaterinburgi aeg
+        :standard: Jekaterinburgi standardaeg
+        :daylight: Jekaterinburgi suveaeg
+    :Yukon:
+      :long:
+        :standard: Yukoni aeg

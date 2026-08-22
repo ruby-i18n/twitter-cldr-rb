@@ -1,1258 +1,1258 @@
---- 
-:vi: 
-  :currencies: 
-    :ADP: 
-      :name: "Đồng Peseta của Andora"
-      :one: "Đồng Peseta của Andora"
-    :AED: 
-      :name: "Dirham UAE"
-      :one: "Dirham UAE"
-      :other: "dirham UAE"
-    :AFA: 
-      :name: "Đồng Afghani của Afghanistan (1927–2002)"
-      :one: "Đồng Afghani của Afghanistan (1927–2002)"
-    :AFN: 
-      :name: "Afghani Afghanistan"
-      :narrow_symbol: ؋
-      :one: "Afghani Afghanistan"
-      :symbol: ؋
-    :ALL: 
-      :name: "Lek Albania"
-      :one: "Lek Albania"
-      :other: "lek Albania"
-    :AMD: 
-      :name: "Dram Armenia"
-      :narrow_symbol: ֏
-      :one: "Dram Armenia"
-      :other: "dram Armenia"
-      :symbol: ֏
-    :ANG: 
-      :name: "Guilder Antille Hà Lan"
-      :one: "Guilder Antille Hà Lan"
-      :other: "guilder Antille Hà Lan"
-    :AOA: 
-      :name: "Kwanza Angola"
-      :narrow_symbol: Kz
-      :one: "Kwanza Angola"
-      :other: "kwanza Angola"
+---
+:vi:
+  :currencies:
+    :AFN:
+      :symbol: "؋"
+      :narrow_symbol: "؋"
+      :one: Afghani Afghanistan
+      :name: Afghani Afghanistan
+    :AMD:
+      :symbol: "֏"
+      :narrow_symbol: "֏"
+      :one: Dram Armenia
+      :name: Dram Armenia
+      :other: dram Armenia
+    :AOA:
       :symbol: Kz
-    :AOK: 
-      :name: "Đồng Kwanza của Angola (1977–1991)"
-      :one: "Đồng Kwanza của Angola (1977–1991)"
-    :AON: 
-      :name: "Đồng Kwanza Mới của Angola (1990–2000)"
-      :one: "Đồng Kwanza Mới của Angola (1990–2000)"
-    :AOR: 
-      :name: "Đồng Kwanza Điều chỉnh lại của Angola (1995–1999)"
-      :one: "Đồng Kwanza Điều chỉnh lại của Angola (1995–1999)"
-    :ARA: 
-      :name: "Đồng Austral của Argentina"
-      :one: "Đồng Austral của Argentina"
-    :ARL: 
-      :name: "Đồng Peso Ley của Argentina (1970–1983)"
-      :one: "Đồng Peso Ley của Argentina (1970–1983)"
-    :ARM: 
-      :name: "Đồng Peso Argentina (1881–1970)"
-      :one: "Đồng Peso Argentina (1881–1970)"
-    :ARP: 
-      :name: "Đồng Peso Argentina (1983–1985)"
-      :one: "Đồng Peso Argentina (1983–1985)"
-    :ARS: 
-      :name: "Peso Argentina"
-      :narrow_symbol: $
-      :one: "Peso Argentina"
-      :other: "peso Argentina"
-      :symbol: $
-    :ATS: 
-      :name: "Đồng Schiling Áo"
-      :one: "Đồng Schiling Áo"
-    :AUD: 
-      :name: "Đô la Australia"
-      :narrow_symbol: $
-      :one: "Đô la Australia"
+      :narrow_symbol: Kz
+      :one: Kwanza Angola
+      :name: Kwanza Angola
+      :other: kwanza Angola
+    :ARS:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: Peso Argentina
+      :name: Peso Argentina
+      :other: peso Argentina
+    :AUD:
       :symbol: AU$
-    :AWG: 
-      :name: "Florin Aruba"
-      :one: "Florin Aruba"
-    :AZM: 
-      :name: "Đồng Manat của Azerbaijan (1993–2006)"
-      :one: "Đồng Manat của Azerbaijan (1993–2006)"
-    :AZN: 
-      :name: "Manat Azerbaijan"
-      :narrow_symbol: ₼
-      :one: "Manat Azerbaijan"
-      :other: "manat Azerbaijan"
-      :symbol: ₼
-    :BAD: 
-      :name: "Đồng Dinar của Bosnia-Herzegovina (1992–1994)"
-      :one: "Đồng Dinar của Bosnia-Herzegovina (1992–1994)"
-    :BAM: 
-      :name: "Mark Bosnia-Herzegovina có thể chuyển đổi"
-      :narrow_symbol: KM
-      :one: "Mark Bosnia-Herzegovina có thể chuyển đổi"
-      :other: "mark Bosnia-Herzegovina có thể chuyển đổi"
+      :narrow_symbol: "$"
+      :one: Đô la Australia
+      :name: Đô la Australia
+    :AZN:
+      :symbol: "₼"
+      :narrow_symbol: "₼"
+      :one: Manat Azerbaijan
+      :name: Manat Azerbaijan
+      :other: manat Azerbaijan
+    :BAM:
       :symbol: KM
-    :BAN: 
-      :name: "Đồng Dinar Mới của Bosnia-Herzegovina (1994–1997)"
-      :one: "Đồng Dinar Mới của Bosnia-Herzegovina (1994–1997)"
-    :BBD: 
-      :name: "Đô la Barbados"
-      :narrow_symbol: $
-      :one: "Đô la Barbados"
-      :other: "đô la Barbados"
-      :symbol: $
-    :BDT: 
-      :name: "Taka Bangladesh"
-      :narrow_symbol: ৳
-      :one: "Taka Bangladesh"
-      :symbol: ৳
-    :BEC: 
-      :name: "Đồng Franc Bỉ (có thể chuyển đổi)"
-      :one: "Đồng Franc Bỉ (có thể chuyển đổi)"
-    :BEF: 
-      :name: "Đồng Franc Bỉ"
-      :one: "Đồng Franc Bỉ"
-    :BEL: 
-      :name: "Đồng Franc Bỉ (tài chính)"
-      :one: "Đồng Franc Bỉ (tài chính)"
-    :BGL: 
-      :name: "Đồng Lev Xu của Bun-ga-ri"
-      :one: "Đồng Lev Xu của Bun-ga-ri"
-    :BGM: 
-      :name: "Đồng Lev Xã hội chủ nghĩa của Bun-ga-ri"
-      :one: "Đồng Lev Xã hội chủ nghĩa của Bun-ga-ri"
-    :BGN: 
-      :name: "Lev Bulgaria"
-      :one: "Lev Bulgaria"
-      :other: "lev Bulgaria"
-    :BGO: 
-      :name: "Đồng Lev của Bun-ga-ri (1879–1952)"
-      :one: "Đồng Lev của Bun-ga-ri (1879–1952)"
-    :BHD: 
-      :name: "Dinar Bahrain"
-      :one: "Dinar Bahrain"
-      :other: "dinar Bahrain"
-    :BIF: 
-      :name: "Franc Burundi"
-      :one: "Franc Burundi"
-      :other: "franc Burundi"
-    :BMD: 
-      :name: "Đô la Bermuda"
-      :narrow_symbol: $
-      :one: "Đô la Bermuda"
-      :other: "đô la Bermuda"
-      :symbol: $
-    :BND: 
-      :name: "Đô la Brunei"
-      :narrow_symbol: $
-      :one: "Đô la Brunei"
-      :other: "đô la Brunei"
-      :symbol: $
-    :BOB: 
-      :name: "Boliviano Bolivia"
-      :narrow_symbol: Bs
-      :one: "Boliviano Bolivia"
-      :other: "boliviano Bolivia"
+      :narrow_symbol: KM
+      :one: Mark Bosnia-Herzegovina có thể chuyển đổi
+      :name: Mark Bosnia-Herzegovina có thể chuyển đổi
+      :other: mark Bosnia-Herzegovina có thể chuyển đổi
+    :BBD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: Đô la Barbados
+      :name: Đô la Barbados
+      :other: đô la Barbados
+    :BDT:
+      :symbol: "৳"
+      :narrow_symbol: "৳"
+      :one: Taka Bangladesh
+      :name: Taka Bangladesh
+    :BMD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: Đô la Bermuda
+      :name: Đô la Bermuda
+      :other: đô la Bermuda
+    :BND:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: Đô la Brunei
+      :name: Đô la Brunei
+      :other: đô la Brunei
+    :BOB:
       :symbol: Bs
-    :BOL: 
-      :name: "Đồng Boliviano của Bolivia (1863–1963)"
-      :one: "Đồng Boliviano của Bolivia (1863–1963)"
-    :BOP: 
-      :name: "Đồng Peso Bolivia"
-      :one: "Đồng Peso Bolivia"
-    :BOV: 
-      :name: "Đồng Mvdol Bolivia"
-      :one: "Đồng Mvdol Bolivia"
-    :BRB: 
-      :name: "Đồng Cruzerio Mới của Braxin (1967–1986)"
-      :one: "Đồng Cruzerio Mới của Braxin (1967–1986)"
-    :BRC: 
-      :name: "Đồng Cruzado của Braxin (1986–1989)"
-      :one: "Đồng Cruzado của Braxin (1986–1989)"
-    :BRE: 
-      :name: "Đồng Cruzerio của Braxin (1990–1993)"
-      :one: "Đồng Cruzerio của Braxin (1990–1993)"
-    :BRL: 
-      :name: "Real Braxin"
-      :narrow_symbol: R$
-      :one: "Real Braxin"
-      :other: "real Braxin"
+      :narrow_symbol: Bs
+      :one: Boliviano Bolivia
+      :name: Boliviano Bolivia
+      :other: boliviano Bolivia
+    :BRL:
       :symbol: R$
-    :BRN: 
-      :name: "Đồng Cruzado Mới của Braxin (1989–1990)"
-      :one: "Đồng Cruzado Mới của Braxin (1989–1990)"
-    :BRR: 
-      :name: "Đồng Cruzeiro của Braxin (1993–1994)"
-      :one: "Đồng Cruzeiro của Braxin (1993–1994)"
-    :BRZ: 
-      :name: "Đồng Cruzeiro của Braxin (1942–1967)"
-      :one: "Đồng Cruzeiro của Braxin (1942–1967)"
-    :BSD: 
-      :name: "Đô la Bahamas"
-      :narrow_symbol: $
-      :one: "Đô la Bahamas"
-      :other: "đô la Bahamas"
-      :symbol: $
-    :BTN: 
-      :name: "Ngultrum Bhutan"
-      :one: "Ngultrum Bhutan"
-    :BUK: 
-      :name: "Đồng Kyat Miến Điện"
-      :one: "Đồng Kyat Miến Điện"
-    :BWP: 
-      :name: "Pula Botswana"
-      :narrow_symbol: P
-      :one: "Pula Botswana"
-      :other: "pula Botswana"
+      :narrow_symbol: R$
+      :one: Real Braxin
+      :name: Real Braxin
+      :other: real Braxin
+    :BSD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: Đô la Bahamas
+      :name: Đô la Bahamas
+      :other: đô la Bahamas
+    :BWP:
       :symbol: P
-    :BYB: 
-      :name: "Đồng Rúp Mới của Belarus (1994–1999)"
-      :one: "Đồng Rúp Mới của Belarus (1994–1999)"
-    :BYN: 
-      :name: "Rúp Belarus"
-      :narrow_symbol: р.
-      :one: "Rúp Belarus"
-      :other: "rúp Belarus"
-      :symbol: р.
-    :BYR: 
-      :name: "Rúp Belarus (2000–2016)"
-      :one: "Rúp Belarus (2000–2016)"
-    :BZD: 
-      :name: "Đô la Belize"
-      :narrow_symbol: $
-      :one: "Đô la Belize"
-      :other: "đô la Belize"
-      :symbol: $
-    :CAD: 
-      :name: "Đô la Canada"
-      :narrow_symbol: $
-      :one: "Đô la Canada"
-      :other: "đô la Canada"
+      :narrow_symbol: P
+      :one: Pula Botswana
+      :name: Pula Botswana
+      :other: pula Botswana
+    :BZD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: Đô la Belize
+      :name: Đô la Belize
+      :other: đô la Belize
+    :CAD:
       :symbol: CA$
-    :CDF: 
-      :name: "Franc Congo"
-      :one: "Franc Congo"
-      :other: "franc Congo"
-    :CHE: 
-      :name: "Đồng Euro WIR"
-      :one: "Đồng Euro WIR"
-    :CHF: 
-      :name: "Franc Thụy sĩ"
-      :one: "Franc Thụy sĩ"
-      :other: "franc Thụy sĩ"
-    :CHW: 
-      :name: "Đồng France WIR"
-      :one: "Đồng France WIR"
-    :CLE: 
-      :name: "Đồng Escudo của Chile"
-      :one: "Đồng Escudo của Chile"
-    :CLF: 
-      :name: "Đơn vị Kế toán của Chile (UF)"
-      :one: "Đơn vị Kế toán của Chile (UF)"
-    :CLP: 
-      :name: "Peso Chile"
-      :narrow_symbol: $
-      :one: "Peso Chile"
-      :other: "peso Chile"
-      :symbol: $
-    :CNH: 
-      :name: "Nhân dân tệ (hải ngoại)"
-      :one: "Nhân dân tệ (hải ngoại)"
-      :other: "nhân dân tệ (hải ngoại)"
-    :CNY: 
-      :name: "Nhân dân tệ"
-      :narrow_symbol: ¥
-      :one: "Nhân dân tệ"
-      :other: "nhân dân tệ"
+      :narrow_symbol: "$"
+      :one: Đô la Canada
+      :name: Đô la Canada
+      :other: đô la Canada
+    :CLP:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: Peso Chile
+      :name: Peso Chile
+      :other: peso Chile
+    :CNY:
       :symbol: CN¥
-    :COP: 
-      :name: "Peso Colombia"
-      :narrow_symbol: $
-      :one: "Peso Colombia"
-      :other: "peso Colombia"
-      :symbol: $
-    :COU: 
-      :name: "Đơn vị Giá trị Thực của Colombia"
-      :one: "Đơn vị Giá trị Thực của Colombia"
-    :CRC: 
-      :name: "Colón Costa Rica"
-      :narrow_symbol: ₡
-      :one: "Colón Costa Rica"
-      :other: "colón Costa Rica"
-      :symbol: ₡
-    :CSD: 
-      :name: "Đồng Dinar của Serbia (2002–2006)"
-      :one: "Đồng Dinar của Serbia (2002–2006)"
-    :CSK: 
-      :name: "Đồng Koruna Xu của Czechoslovakia"
-      :one: "Đồng Koruna Xu của Czechoslovakia"
-    :CUC: 
-      :name: "Peso Cuba có thể chuyển đổi"
-      :narrow_symbol: $
-      :one: "Peso Cuba có thể chuyển đổi"
-      :other: "peso Cuba có thể chuyển đổi"
-      :symbol: $
-    :CUP: 
-      :name: "Peso Cuba"
-      :narrow_symbol: $
-      :one: "Peso Cuba"
-      :other: "peso Cuba"
-      :symbol: $
-    :CVE: 
-      :name: "Escudo Cape Verde"
-      :one: "Escudo Cape Verde"
-      :other: "escudo Cape Verde"
-    :CYP: 
-      :name: "Đồng Bảng Síp"
-      :one: "Đồng Bảng Síp"
-    :CZK: 
-      :name: "Koruna Cộng hòa Séc"
-      :narrow_symbol: Kč
-      :one: "Koruna Cộng hòa Séc"
-      :other: "koruna Cộng hòa Séc"
+      :narrow_symbol: "¥"
+      :one: Nhân dân tệ
+      :name: Nhân dân tệ
+      :other: nhân dân tệ
+    :COP:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: Peso Colombia
+      :name: Peso Colombia
+      :other: peso Colombia
+    :CRC:
+      :symbol: "₡"
+      :narrow_symbol: "₡"
+      :one: Colón Costa Rica
+      :name: Colón Costa Rica
+      :other: colón Costa Rica
+    :CUC:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: Peso Cuba có thể chuyển đổi
+      :name: Peso Cuba có thể chuyển đổi
+      :other: peso Cuba có thể chuyển đổi
+    :CUP:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: Peso Cuba
+      :name: Peso Cuba
+      :other: peso Cuba
+    :CZK:
       :symbol: Kč
-    :DDM: 
-      :name: "Đồng Mark Đông Đức"
-      :one: "Đồng Mark Đông Đức"
-    :DEM: 
-      :name: "Đồng Mark Đức"
-      :one: "Đồng Mark Đức"
-    :DJF: 
-      :name: "Franc Djibouti"
-      :one: "Franc Djibouti"
-      :other: "franc Djibouti"
-    :DKK: 
-      :name: "Krone Đan Mạch"
-      :narrow_symbol: kr
-      :one: "Krone Đan Mạch"
-      :other: "krone Đan Mạch"
+      :narrow_symbol: Kč
+      :one: Koruna Cộng hòa Séc
+      :name: Koruna Cộng hòa Séc
+      :other: koruna Cộng hòa Séc
+    :DKK:
       :symbol: kr
-    :DOP: 
-      :name: "Peso Dominica"
-      :narrow_symbol: $
-      :one: "Peso Dominica"
-      :other: "peso Dominica"
-      :symbol: $
-    :DZD: 
-      :name: "Dinar Algeria"
-      :one: "Dinar Algeria"
-      :other: "dinar Algeria"
-    :ECS: 
-      :name: "Đồng Scure Ecuador"
-      :one: "Đồng Scure Ecuador"
-    :ECV: 
-      :name: "Đơn vị Giá trị Không đổi của Ecuador"
-      :one: "Đơn vị Giá trị Không đổi của Ecuador"
-    :EEK: 
-      :name: "Crun Extônia"
-      :one: "Crun Extônia"
-    :EGP: 
-      :name: "Bảng Ai Cập"
-      :narrow_symbol: E£
-      :one: "Bảng Ai Cập"
-      :other: "bảng Ai Cập"
+      :narrow_symbol: kr
+      :one: Krone Đan Mạch
+      :name: Krone Đan Mạch
+      :other: krone Đan Mạch
+    :DOP:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: Peso Dominica
+      :name: Peso Dominica
+      :other: peso Dominica
+    :EGP:
       :symbol: E£
-    :ERN: 
-      :name: "Nakfa Eritrea"
-      :one: "Nakfa Eritrea"
-      :other: "nakfa Eritrea"
-    :ESA: 
-      :name: "Đồng Peseta Tây Ban Nha (Tài khoản)"
-      :one: "Đồng Peseta Tây Ban Nha (Tài khoản)"
-    :ESB: 
-      :name: "Đồng Peseta Tây Ban Nha (tài khoản có thể chuyển đổi)"
-      :one: "Đồng Peseta Tây Ban Nha (tài khoản có thể chuyển đổi)"
-    :ESP: 
-      :name: "Đồng Peseta Tây Ban Nha"
-      :narrow_symbol: ₧
-      :one: "Đồng Peseta Tây Ban Nha"
-      :symbol: ₧
-    :ETB: 
-      :name: "Birr Ethiopia"
-      :one: "Birr Ethiopia"
-      :other: "birr Ethiopia"
-    :EUR: 
-      :name: Euro
-      :narrow_symbol: €
+      :narrow_symbol: E£
+      :one: Bảng Ai Cập
+      :name: Bảng Ai Cập
+      :other: bảng Ai Cập
+    :ESP:
+      :symbol: "₧"
+      :narrow_symbol: "₧"
+      :one: Đồng Peseta Tây Ban Nha
+      :name: Đồng Peseta Tây Ban Nha
+    :EUR:
+      :symbol: "€"
+      :narrow_symbol: "€"
       :one: Euro
+      :name: Euro
       :other: euro
-      :symbol: €
-    :FIM: 
-      :name: "Đồng Markka Phần Lan"
-      :one: "Đồng Markka Phần Lan"
-    :FJD: 
-      :name: "Đô la Fiji"
-      :narrow_symbol: $
-      :one: "Đô la Fiji"
-      :other: "đô la Fiji"
-      :symbol: $
-    :FKP: 
-      :name: "Bảng Quần đảo Falkland"
-      :narrow_symbol: £
-      :one: "Bảng Quần đảo Falkland"
-      :other: "bảng Quần đảo Falkland"
-      :symbol: £
-    :FRF: 
-      :name: "Franc Pháp"
-      :one: "Franc Pháp"
-    :GBP: 
-      :name: "Bảng Anh"
-      :narrow_symbol: £
-      :one: "Bảng Anh"
-      :other: "bảng Anh"
-      :symbol: £
-    :GEK: 
-      :name: "Đồng Kupon Larit của Georgia"
-      :one: "Đồng Kupon Larit của Georgia"
-    :GEL: 
-      :name: "Lari Georgia"
-      :narrow_symbol: ₾
-      :one: "Lari Georgia"
-      :other: "lari Georgia"
-      :symbol: ₾
-    :GHC: 
-      :name: "Cedi Ghana (1979–2007)"
-      :one: "Cedi Ghana (1979–2007)"
-    :GHS: 
-      :name: "Cedi Ghana"
-      :narrow_symbol: GH₵
-      :one: "Cedi Ghana"
-      :other: "cedi Ghana"
+    :FJD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: Đô la Fiji
+      :name: Đô la Fiji
+      :other: đô la Fiji
+    :FKP:
+      :symbol: "£"
+      :narrow_symbol: "£"
+      :one: Bảng Quần đảo Falkland
+      :name: Bảng Quần đảo Falkland
+      :other: bảng Quần đảo Falkland
+    :GBP:
+      :symbol: "£"
+      :narrow_symbol: "£"
+      :one: Bảng Anh
+      :name: Bảng Anh
+      :other: bảng Anh
+    :GEL:
+      :symbol: "₾"
+      :narrow_symbol: "₾"
+      :one: Lari Georgia
+      :name: Lari Georgia
+      :other: lari Georgia
+    :GHS:
       :symbol: GH₵
-    :GIP: 
-      :name: "Bảng Gibraltar"
-      :narrow_symbol: £
-      :one: "Bảng Gibraltar"
-      :other: "bảng Gibraltar"
-      :symbol: £
-    :GMD: 
-      :name: "Dalasi Gambia"
-      :one: "Dalasi Gambia"
-      :other: "dalasi Gambia"
-    :GNF: 
-      :name: "Franc Guinea"
-      :narrow_symbol: FG
-      :one: "Franc Guinea"
-      :other: "franc Guinea"
+      :narrow_symbol: GH₵
+      :one: Cedi Ghana
+      :name: Cedi Ghana
+      :other: cedi Ghana
+    :GIP:
+      :symbol: "£"
+      :narrow_symbol: "£"
+      :one: Bảng Gibraltar
+      :name: Bảng Gibraltar
+      :other: bảng Gibraltar
+    :GNF:
       :symbol: FG
-    :GNS: 
-      :name: "Syli Guinea"
-      :one: "Syli Guinea"
-    :GQE: 
-      :name: "Đồng Ekwele của Guinea Xích Đạo"
-      :one: "Đồng Ekwele của Guinea Xích Đạo"
-    :GRD: 
-      :name: "Drachma Hy Lạp"
-      :one: "Drachma Hy Lạp"
-    :GTQ: 
-      :name: "Quetzal Guatemala"
-      :narrow_symbol: Q
-      :one: "Quetzal Guatemala"
-      :other: "quetzal Guatemala"
+      :narrow_symbol: FG
+      :one: Franc Guinea
+      :name: Franc Guinea
+      :other: franc Guinea
+    :GTQ:
       :symbol: Q
-    :GWE: 
-      :name: "Đồng Guinea Escudo Bồ Đào Nha"
-      :one: "Đồng Guinea Escudo Bồ Đào Nha"
-    :GWP: 
-      :name: "Peso Guinea-Bissau"
-      :one: "Peso Guinea-Bissau"
-    :GYD: 
-      :name: "Đô la Guyana"
-      :narrow_symbol: $
-      :one: "Đô la Guyana"
-      :other: "đô la Guyana"
-      :symbol: $
-    :HKD: 
-      :name: "Đô la Hồng Kông"
-      :narrow_symbol: $
-      :one: "Đô la Hồng Kông"
-      :other: "đô la Hồng Kông"
+      :narrow_symbol: Q
+      :one: Quetzal Guatemala
+      :name: Quetzal Guatemala
+      :other: quetzal Guatemala
+    :GYD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: Đô la Guyana
+      :name: Đô la Guyana
+      :other: đô la Guyana
+    :HKD:
       :symbol: HK$
-    :HNL: 
-      :name: "Lempira Honduras"
-      :narrow_symbol: L
-      :one: "Lempira Honduras"
-      :other: "lempira Honduras"
+      :narrow_symbol: "$"
+      :one: Đô la Hồng Kông
+      :name: Đô la Hồng Kông
+      :other: đô la Hồng Kông
+    :HNL:
       :symbol: L
-    :HRD: 
-      :name: "Đồng Dinar Croatia"
-      :one: "Đồng Dinar Croatia"
-    :HRK: 
-      :name: "Kuna Croatia"
-      :narrow_symbol: kn
-      :one: "Kuna Croatia"
-      :other: "kuna Croatia"
+      :narrow_symbol: L
+      :one: Lempira Honduras
+      :name: Lempira Honduras
+      :other: lempira Honduras
+    :HRK:
       :symbol: kn
-    :HTG: 
-      :name: "Gourde Haiti"
-      :one: "Gourde Haiti"
-      :other: "gourde Haiti"
-    :HUF: 
-      :name: "Forint Hungary"
-      :narrow_symbol: Ft
-      :one: "Forint Hungary"
-      :other: "forint Hungary"
+      :narrow_symbol: kn
+      :one: Kuna Croatia
+      :name: Kuna Croatia
+      :other: kuna Croatia
+    :HUF:
       :symbol: Ft
-    :IDR: 
-      :name: "Rupiah Indonesia"
-      :narrow_symbol: Rp
-      :one: "Rupiah Indonesia"
-      :other: "rupiah Indonesia"
+      :narrow_symbol: Ft
+      :one: Forint Hungary
+      :name: Forint Hungary
+      :other: forint Hungary
+    :IDR:
       :symbol: Rp
-    :IEP: 
-      :name: "Pao Ai-len"
-      :one: "Pao Ai-len"
-    :ILP: 
-      :name: "Pao Ixraen"
-      :one: "Pao Ixraen"
-    :ILS: 
-      :name: "Sheqel Israel mới"
-      :narrow_symbol: ₪
-      :one: "Sheqel Israel mới"
-      :other: "sheqel Israel mới"
-      :symbol: ₪
-    :INR: 
-      :name: "Rupee Ấn Độ"
-      :narrow_symbol: ₹
-      :one: "Rupee Ấn Độ"
-      :symbol: ₹
-    :IQD: 
-      :name: "Dinar Iraq"
-      :one: "Dinar Iraq"
-      :other: "dinar Iraq"
-    :IRR: 
-      :name: "Rial Iran"
-      :one: "Rial Iran"
-    :ISK: 
-      :name: "Króna Iceland"
-      :narrow_symbol: kr
-      :one: "Króna Iceland"
-      :other: "króna Iceland"
+      :narrow_symbol: Rp
+      :one: Rupiah Indonesia
+      :name: Rupiah Indonesia
+      :other: rupiah Indonesia
+    :ILS:
+      :symbol: "₪"
+      :narrow_symbol: "₪"
+      :one: Sheqel Israel mới
+      :name: Sheqel Israel mới
+      :other: sheqel Israel mới
+    :INR:
+      :symbol: "₹"
+      :narrow_symbol: "₹"
+      :one: Rupee Ấn Độ
+      :name: Rupee Ấn Độ
+    :ISK:
       :symbol: kr
-    :ITL: 
-      :name: "Lia Ý"
-      :one: "Lia Ý"
-    :JMD: 
-      :name: "Đô la Jamaica"
-      :narrow_symbol: $
-      :one: "Đô la Jamaica"
-      :other: "đô la Jamaica"
-      :symbol: $
-    :JOD: 
-      :name: "Dinar Jordan"
-      :one: "Dinar Jordan"
-      :other: "dinar Jordan"
-    :JPY: 
-      :name: "Yên Nhật"
-      :narrow_symbol: ¥
-      :one: "Yên Nhật"
-      :other: "yên Nhật"
-      :symbol: ¥
-    :KES: 
-      :name: "Shilling Kenya"
-      :one: "Shilling Kenya"
-      :other: "shilling Kenya"
-    :KGS: 
-      :name: "Som Kyrgyzstan"
-      :narrow_symbol: ⃀
-      :one: "Som Kyrgyzstan"
-      :other: "som Kyrgyzstan"
-      :symbol: ⃀
-    :KHR: 
-      :name: "Riel Campuchia"
-      :narrow_symbol: ៛
-      :one: "Riel Campuchia"
-      :other: "riel Campuchia"
-      :symbol: ៛
-    :KMF: 
-      :name: "Franc Comoros"
-      :narrow_symbol: CF
-      :one: "Franc Comoros"
-      :other: "franc Comoros"
+      :narrow_symbol: kr
+      :one: Króna Iceland
+      :name: Króna Iceland
+      :other: króna Iceland
+    :JMD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: Đô la Jamaica
+      :name: Đô la Jamaica
+      :other: đô la Jamaica
+    :JPY:
+      :symbol: "¥"
+      :narrow_symbol: "¥"
+      :one: Yên Nhật
+      :name: Yên Nhật
+      :other: yên Nhật
+    :KGS:
+      :symbol: "⃀"
+      :narrow_symbol: "⃀"
+      :one: Som Kyrgyzstan
+      :name: Som Kyrgyzstan
+      :other: som Kyrgyzstan
+    :KHR:
+      :symbol: "៛"
+      :narrow_symbol: "៛"
+      :one: Riel Campuchia
+      :name: Riel Campuchia
+      :other: riel Campuchia
+    :KMF:
       :symbol: CF
-    :KPW: 
-      :name: "Won Triều Tiên"
-      :narrow_symbol: ₩
-      :one: "Won Triều Tiên"
-      :other: "won Triều Tiên"
-      :symbol: ₩
-    :KRH: 
-      :name: "Đồng Hwan Hàn Quốc (1953–1962)"
-      :one: "Đồng Hwan Hàn Quốc (1953–1962)"
-    :KRO: 
-      :name: "Đồng Won Hàn Quốc (1945–1953)"
-      :one: "Đồng Won Hàn Quốc (1945–1953)"
-    :KRW: 
-      :name: "Won Hàn Quốc"
-      :narrow_symbol: ₩
-      :one: "Won Hàn Quốc"
-      :other: "won Hàn Quốc"
-      :symbol: ₩
-    :KWD: 
-      :name: "Dinar Kuwait"
-      :one: "Dinar Kuwait"
-      :other: "dinar Kuwait"
-    :KYD: 
-      :name: "Đô la Quần đảo Cayman"
-      :narrow_symbol: $
-      :one: "Đô la Quần đảo Cayman"
-      :other: "đô la Quần đảo Cayman"
-      :symbol: $
-    :KZT: 
-      :name: "Tenge Kazakhstan"
-      :narrow_symbol: ₸
-      :one: "Tenge Kazakhstan"
-      :other: "tenge Kazakhstan"
-      :symbol: ₸
-    :LAK: 
-      :name: "Kip Lào"
-      :narrow_symbol: ₭
-      :one: "Kip Lào"
-      :other: "kip Lào"
-      :symbol: ₭
-    :LBP: 
-      :name: "Bảng Li-băng"
-      :narrow_symbol: L£
-      :one: "Bảng Li-băng"
-      :other: "bảng Li-băng"
+      :narrow_symbol: CF
+      :one: Franc Comoros
+      :name: Franc Comoros
+      :other: franc Comoros
+    :KPW:
+      :symbol: "₩"
+      :narrow_symbol: "₩"
+      :one: Won Triều Tiên
+      :name: Won Triều Tiên
+      :other: won Triều Tiên
+    :KRW:
+      :symbol: "₩"
+      :narrow_symbol: "₩"
+      :one: Won Hàn Quốc
+      :name: Won Hàn Quốc
+      :other: won Hàn Quốc
+    :KYD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: Đô la Quần đảo Cayman
+      :name: Đô la Quần đảo Cayman
+      :other: đô la Quần đảo Cayman
+    :KZT:
+      :symbol: "₸"
+      :narrow_symbol: "₸"
+      :one: Tenge Kazakhstan
+      :name: Tenge Kazakhstan
+      :other: tenge Kazakhstan
+    :LAK:
+      :symbol: "₭"
+      :narrow_symbol: "₭"
+      :one: Kip Lào
+      :name: Kip Lào
+      :other: kip Lào
+    :LBP:
       :symbol: L£
-    :LKR: 
-      :name: "Rupee Sri Lanka"
-      :narrow_symbol: Rs
-      :one: "Rupee Sri Lanka"
+      :narrow_symbol: L£
+      :one: Bảng Li-băng
+      :name: Bảng Li-băng
+      :other: bảng Li-băng
+    :LKR:
       :symbol: Rs
-    :LRD: 
-      :name: "Đô la Liberia"
-      :narrow_symbol: $
-      :one: "Đô la Liberia"
-      :other: "đô la Liberia"
-      :symbol: $
-    :LSL: 
-      :name: "Loti Lesotho"
-      :one: "Loti Lesotho"
-    :LTL: 
-      :name: "Litas Lít-va"
-      :narrow_symbol: Lt
-      :one: "Litas Lít-va"
-      :other: "litas Lít-va"
+      :narrow_symbol: Rs
+      :one: Rupee Sri Lanka
+      :name: Rupee Sri Lanka
+    :LRD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: Đô la Liberia
+      :name: Đô la Liberia
+      :other: đô la Liberia
+    :LTL:
       :symbol: Lt
-    :LTT: 
-      :name: "Đồng Talonas Litva"
-      :one: "Đồng Talonas Litva"
-    :LUC: 
-      :name: "Đồng Franc Luxembourg có thể chuyển đổi"
-      :one: "Đồng Franc Luxembourg có thể chuyển đổi"
-    :LUF: 
-      :name: "Đồng Franc Luxembourg"
-      :one: "Đồng Franc Luxembourg"
-    :LUL: 
-      :name: "Đồng Franc Luxembourg tài chính"
-      :one: "Đồng Franc Luxembourg tài chính"
-    :LVL: 
-      :name: "Lats Latvia"
-      :narrow_symbol: Ls
-      :one: "Lats Latvia"
-      :other: "lats Lativia"
+      :narrow_symbol: Lt
+      :one: Litas Lít-va
+      :name: Litas Lít-va
+      :other: litas Lít-va
+    :LVL:
       :symbol: Ls
-    :LVR: 
-      :name: "Đồng Rúp Latvia"
-      :one: "Đồng Rúp Latvia"
-    :LYD: 
-      :name: "Dinar Libi"
-      :one: "Dinar Libi"
-      :other: "dinar Libi"
-    :MAD: 
-      :name: "Dirham Ma-rốc"
-      :one: "Dirham Ma-rốc"
-      :other: "dirham Ma-rốc"
-    :MAF: 
-      :name: "Đồng Franc Ma-rốc"
-      :one: "Đồng Franc Ma-rốc"
-    :MCF: 
-      :name: "Đồng Franc Monegasque"
-      :one: "Đồng Franc Monegasque"
-    :MDC: 
-      :name: "Đồng Cupon Moldova"
-      :one: "Đồng Cupon Moldova"
-    :MDL: 
-      :name: "Leu Moldova"
-      :one: "Leu Moldova"
-      :other: "leu Moldova"
-    :MGA: 
-      :name: "Ariary Madagascar"
-      :narrow_symbol: Ar
-      :one: "Ariary Madagascar"
-      :other: "ariary Madagascar"
+      :narrow_symbol: Ls
+      :one: Lats Latvia
+      :name: Lats Latvia
+      :other: lats Lativia
+    :MGA:
       :symbol: Ar
-    :MGF: 
-      :name: "Đồng Franc Magalasy"
-      :one: "Đồng Franc Magalasy"
-    :MKD: 
-      :name: "Denar Macedonia"
-      :one: "Denar Macedonia"
-      :other: "denar Macedonia"
-    :MKN: 
-      :name: "Đồng Denar Macedonia (1992–1993)"
-      :one: "Đồng Denar Macedonia (1992–1993)"
-    :MLF: 
-      :name: "Đồng Franc Mali"
-      :one: "Đồng Franc Mali"
-    :MMK: 
-      :name: "Kyat Myanma"
-      :narrow_symbol: K
-      :one: "Kyat Myanma"
-      :other: "kyat Myanma"
+      :narrow_symbol: Ar
+      :one: Ariary Madagascar
+      :name: Ariary Madagascar
+      :other: ariary Madagascar
+    :MMK:
       :symbol: K
-    :MNT: 
-      :name: "Tugrik Mông Cổ"
-      :narrow_symbol: ₮
-      :one: "Tugrik Mông Cổ"
-      :other: "tugrik Mông Cổ"
-      :symbol: ₮
-    :MOP: 
-      :name: "Pataca Ma Cao"
-      :one: "Pataca Ma Cao"
-      :other: "pataca Ma Cao"
-    :MRO: 
-      :name: "Ouguiya Mauritania (1973–2017)"
-      :one: "Ouguiya Mauritania (1973–2017)"
-    :MRU: 
-      :name: "Ouguiya Mauritania"
-      :one: "Ouguiya Mauritania"
-      :other: "ouguiya Mauritania"
-    :MTL: 
-      :name: "Lia xứ Man-tơ"
-      :one: "Lia xứ Man-tơ"
-    :MTP: 
-      :name: "Đồng Bảng Malta"
-      :one: "Đồng Bảng Malta"
-    :MUR: 
-      :name: "Rupee Mauritius"
-      :narrow_symbol: Rs
-      :one: "Rupee Mauritius"
-      :other: "rupee Mauritius"
+      :narrow_symbol: K
+      :one: Kyat Myanma
+      :name: Kyat Myanma
+      :other: kyat Myanma
+    :MNT:
+      :symbol: "₮"
+      :narrow_symbol: "₮"
+      :one: Tugrik Mông Cổ
+      :name: Tugrik Mông Cổ
+      :other: tugrik Mông Cổ
+    :MUR:
       :symbol: Rs
-    :MVP: 
-      :name: "Rupee Maldives (1947–1981)"
-      :one: "Rupee Maldives (1947–1981)"
-    :MVR: 
-      :name: "Rufiyaa Maldives"
-      :one: "Rufiyaa Maldives"
-    :MWK: 
-      :name: "Kwacha Malawi"
-      :one: "Kwacha Malawi"
-      :other: "kwacha Malawi"
-    :MXN: 
-      :name: "Peso Mexico"
-      :narrow_symbol: $
-      :one: "Peso Mexico"
-      :other: "peso Mexico"
+      :narrow_symbol: Rs
+      :one: Rupee Mauritius
+      :name: Rupee Mauritius
+      :other: rupee Mauritius
+    :MXN:
       :symbol: MX$
-    :MXP: 
-      :name: "Đồng Peso Bạc Mê-hi-cô (1861–1992)"
-      :one: "Đồng Peso Bạc Mê-hi-cô (1861–1992)"
-    :MXV: 
-      :name: "Đơn vị Đầu tư Mê-hi-cô"
-      :one: "Đơn vị Đầu tư Mê-hi-cô"
-    :MYR: 
-      :name: "Ringgit Malaysia"
-      :narrow_symbol: RM
-      :one: "Ringgit Malaysia"
-      :other: "ringgit Malaysia"
+      :narrow_symbol: "$"
+      :one: Peso Mexico
+      :name: Peso Mexico
+      :other: peso Mexico
+    :MYR:
       :symbol: RM
-    :MZE: 
-      :name: "Escudo Mozambique"
-      :one: "Escudo Mozambique"
-    :MZM: 
-      :name: "Đồng Metical Mozambique (1980–2006)"
-      :one: "Đồng Metical Mozambique (1980–2006)"
-    :MZN: 
-      :name: "Metical Mozambique"
-      :one: "Metical Mozambique"
-      :other: "metical Mozambique"
-    :NAD: 
-      :name: "Đô la Namibia"
-      :narrow_symbol: $
-      :one: "Đô la Namibia"
-      :other: "đô la Namibia"
-      :symbol: $
-    :NGN: 
-      :name: "Naira Nigeria"
-      :narrow_symbol: ₦
-      :one: "Naira Nigeria"
-      :other: "naira Nigeria"
-      :symbol: ₦
-    :NIC: 
-      :name: "Đồng Córdoba Nicaragua (1988–1991)"
-      :one: "Đồng Córdoba Nicaragua (1988–1991)"
-    :NIO: 
-      :name: "Córdoba Nicaragua"
-      :narrow_symbol: C$
-      :one: "Córdoba Nicaragua"
-      :other: "córdoba Nicaragua"
+      :narrow_symbol: RM
+      :one: Ringgit Malaysia
+      :name: Ringgit Malaysia
+      :other: ringgit Malaysia
+    :NAD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: Đô la Namibia
+      :name: Đô la Namibia
+      :other: đô la Namibia
+    :NGN:
+      :symbol: "₦"
+      :narrow_symbol: "₦"
+      :one: Naira Nigeria
+      :name: Naira Nigeria
+      :other: naira Nigeria
+    :NIO:
       :symbol: C$
-    :NLG: 
-      :name: "Đồng Guilder Hà Lan"
-      :one: "Đồng Guilder Hà Lan"
-    :NOK: 
-      :name: "Krone Na Uy"
-      :narrow_symbol: kr
-      :one: "Krone Na Uy"
-      :other: "krone Na Uy"
+      :narrow_symbol: C$
+      :one: Córdoba Nicaragua
+      :name: Córdoba Nicaragua
+      :other: córdoba Nicaragua
+    :NOK:
       :symbol: kr
-    :NPR: 
-      :name: "Rupee Nepal"
-      :narrow_symbol: Rs
-      :one: "Rupee Nepal"
+      :narrow_symbol: kr
+      :one: Krone Na Uy
+      :name: Krone Na Uy
+      :other: krone Na Uy
+    :NPR:
       :symbol: Rs
-    :NZD: 
-      :name: "Đô la New Zealand"
-      :narrow_symbol: $
-      :one: "Đô la New Zealand"
-      :other: "đô la New Zealand"
+      :narrow_symbol: Rs
+      :one: Rupee Nepal
+      :name: Rupee Nepal
+    :NZD:
       :symbol: NZ$
-    :OMR: 
-      :name: "Rial Oman"
-      :one: "Rial Oman"
-      :other: "rial Oman"
-    :PAB: 
-      :name: "Balboa Panama"
-      :one: "Balboa Panama"
-      :other: "balboa Panama"
-    :PEI: 
-      :name: "Đồng Inti Peru"
-      :one: "Đồng Inti Peru"
-    :PEN: 
-      :name: "Sol Peru"
-      :one: "Sol Peru"
-      :other: "sol Peru"
-    :PES: 
-      :name: "Đồng Sol Peru (1863–1965)"
-      :one: "Đồng Sol Peru (1863–1965)"
-    :PGK: 
-      :name: "Kina Papua New Guinea"
-      :one: "Kina Papua New Guinea"
-      :other: "kina Papua New Guinea"
-    :PHP: 
-      :name: "Peso Philipin"
-      :narrow_symbol: ₱
-      :one: "Peso Philipin"
-      :other: "peso Philipin"
+      :narrow_symbol: "$"
+      :one: Đô la New Zealand
+      :name: Đô la New Zealand
+      :other: đô la New Zealand
+    :PHP:
       :symbol: PHP
-    :PKR: 
-      :name: "Rupee Pakistan"
-      :narrow_symbol: Rs
-      :one: "Rupee Pakistan"
+      :narrow_symbol: "₱"
+      :one: Peso Philipin
+      :name: Peso Philipin
+      :other: peso Philipin
+    :PKR:
       :symbol: Rs
-    :PLN: 
-      :name: "Zloty Ba Lan"
-      :narrow_symbol: zł
-      :one: "Zloty Ba Lan"
-      :other: "zloty Ba Lan"
+      :narrow_symbol: Rs
+      :one: Rupee Pakistan
+      :name: Rupee Pakistan
+    :PLN:
       :symbol: zł
-    :PLZ: 
-      :name: "Đồng Zloty Ba Lan (1950–1995)"
-      :one: "Đồng Zloty Ba Lan (1950–1995)"
-    :PTE: 
-      :name: "Đồng Escudo Bồ Đào Nha"
-      :one: "Đồng Escudo Bồ Đào Nha"
-    :PYG: 
-      :name: "Guarani Paraguay"
-      :narrow_symbol: ₲
-      :one: "Guarani Paraguay"
-      :other: "guarani Paraguay"
-      :symbol: ₲
-    :QAR: 
-      :name: "Rial Qatar"
-      :one: "Rial Qatar"
-      :other: "rial Qatar"
-    :RHD: 
-      :name: "Đồng Đô la Rhode"
-      :one: "Đồng Đô la Rhode"
-    :ROL: 
-      :name: "Đồng Leu Rumani (1952–2006)"
-      :one: "Đồng Leu Rumani (1952–2006)"
-    :RON: 
-      :name: "Leu Romania"
-      :narrow_symbol: lei
-      :one: "Leu Romania"
-      :other: "leu Romania"
+      :narrow_symbol: zł
+      :one: Zloty Ba Lan
+      :name: Zloty Ba Lan
+      :other: zloty Ba Lan
+    :PYG:
+      :symbol: "₲"
+      :narrow_symbol: "₲"
+      :one: Guarani Paraguay
+      :name: Guarani Paraguay
+      :other: guarani Paraguay
+    :RON:
       :symbol: lei
-    :RSD: 
-      :name: "Dinar Serbia"
-      :one: "Dinar Serbia"
-      :other: "dinar Serbia"
-    :RUB: 
-      :name: "Rúp Nga"
-      :narrow_symbol: ₽
-      :one: "Rúp Nga"
-      :other: "rúp Nga"
-      :symbol: ₽
-    :RUR: 
-      :name: "Đồng Rúp Nga (1991–1998)"
-      :one: "Đồng Rúp Nga (1991–1998)"
-    :RWF: 
-      :name: "Franc Rwanda"
-      :narrow_symbol: RF
-      :one: "Franc Rwanda"
-      :other: "franc Rwanda"
+      :narrow_symbol: lei
+      :one: Leu Romania
+      :name: Leu Romania
+      :other: leu Romania
+    :RUB:
+      :symbol: "₽"
+      :narrow_symbol: "₽"
+      :one: Rúp Nga
+      :name: Rúp Nga
+      :other: rúp Nga
+    :RWF:
       :symbol: RF
-    :SAR: 
-      :name: "Riyal Ả Rập Xê-út"
-      :one: "Riyal Ả Rập Xê-út"
-      :other: "riyal Ả Rập Xê-út"
-      :symbol: ⃁
-    :SBD: 
-      :name: "Đô la quần đảo Solomon"
-      :narrow_symbol: $
-      :one: "Đô la quần đảo Solomon"
-      :other: "đô la Quần đảo Solomon"
-      :symbol: $
-    :SCR: 
-      :name: "Rupee Seychelles"
-      :one: "Rupee Seychelles"
-      :other: "rupee Seychelles"
-    :SDD: 
-      :name: "Đồng Dinar Sudan (1992–2007)"
-      :one: "Đồng Dinar Sudan (1992–2007)"
-    :SDG: 
-      :name: "Bảng Sudan"
-      :one: "Bảng Sudan"
-      :other: "bảng Sudan"
-    :SDP: 
-      :name: "Đồng Bảng Sudan (1957–1998)"
-      :one: "Đồng Bảng Sudan (1957–1998)"
-    :SEK: 
-      :name: "Krona Thụy Điển"
-      :narrow_symbol: kr
-      :one: "Krona Thụy Điển"
-      :other: "krona Thụy Điển"
+      :narrow_symbol: RF
+      :one: Franc Rwanda
+      :name: Franc Rwanda
+      :other: franc Rwanda
+    :SAR:
+      :symbol: "⃁"
+      :one: Riyal Ả Rập Xê-út
+      :name: Riyal Ả Rập Xê-út
+      :other: riyal Ả Rập Xê-út
+    :SBD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: Đô la quần đảo Solomon
+      :name: Đô la quần đảo Solomon
+      :other: đô la Quần đảo Solomon
+    :SEK:
       :symbol: kr
-    :SGD: 
-      :name: "Đô la Singapore"
-      :narrow_symbol: $
-      :one: "Đô la Singapore"
-      :other: "đô la Singapore"
-      :symbol: $
-    :SHP: 
-      :name: "Bảng St. Helena"
-      :narrow_symbol: £
-      :one: "Bảng St. Helena"
-      :other: "bảng St. Helena"
-      :symbol: £
-    :SIT: 
-      :name: "Tôla Xlôvênia"
-      :one: "Tôla Xlôvênia"
-    :SKK: 
-      :name: "Cuaron Xlôvác"
-      :one: "Cuaron Xlôvác"
-    :SLE: 
-      :name: "Leone Sierra Leone"
-      :one: "Leone Sierra Leone"
-    :SLL: 
-      :name: "Leone Sierra Leone (1964—2022)"
-      :one: "Leone Sierra Leone (1964—2022)"
-    :SOS: 
-      :name: "Shilling Somali"
-      :one: "Shilling Somali"
-      :other: "shilling Somali"
-    :SRD: 
-      :name: "Đô la Suriname"
-      :narrow_symbol: $
-      :one: "Đô la Suriname"
-      :other: "đô la Suriname"
-      :symbol: $
-    :SRG: 
-      :name: "Đồng Guilder Surinam"
-      :one: "Đồng Guilder Surinam"
-    :SSP: 
-      :name: "Bảng Nam Sudan"
-      :narrow_symbol: £
-      :one: "Bảng Nam Sudan"
-      :other: "bảng Nam Sudan"
-      :symbol: £
-    :STD: 
-      :name: "Dobra São Tomé và Príncipe (1977–2017)"
-      :one: "Dobra São Tomé và Príncipe (1977–2017)"
-    :STN: 
-      :name: "Dobra São Tomé và Príncipe"
-      :narrow_symbol: Db
-      :one: "Dobra São Tomé và Príncipe"
-      :other: "dobra São Tomé và Príncipe"
+      :narrow_symbol: kr
+      :one: Krona Thụy Điển
+      :name: Krona Thụy Điển
+      :other: krona Thụy Điển
+    :SGD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: Đô la Singapore
+      :name: Đô la Singapore
+      :other: đô la Singapore
+    :SHP:
+      :symbol: "£"
+      :narrow_symbol: "£"
+      :one: Bảng St. Helena
+      :name: Bảng St. Helena
+      :other: bảng St. Helena
+    :SRD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: Đô la Suriname
+      :name: Đô la Suriname
+      :other: đô la Suriname
+    :SSP:
+      :symbol: "£"
+      :narrow_symbol: "£"
+      :one: Bảng Nam Sudan
+      :name: Bảng Nam Sudan
+      :other: bảng Nam Sudan
+    :STN:
       :symbol: Db
-    :SUR: 
-      :name: "Đồng Rúp Sô viết"
-      :one: "Đồng Rúp Sô viết"
-    :SVC: 
-      :name: "Colón El Salvador"
-      :one: "Colón El Salvador"
-    :SYP: 
-      :name: "Bảng Syria"
-      :narrow_symbol: £
-      :one: "Bảng Syria"
-      :other: "bảng Syria"
-      :symbol: £
-    :SZL: 
-      :name: "Lilangeni Swaziland"
-      :one: "Lilangeni Swaziland"
-      :other: "lilangeni Swaziland"
-    :THB: 
-      :name: "Bạt Thái Lan"
-      :narrow_symbol: ฿
-      :one: "Bạt Thái Lan"
-      :other: "bạt Thái Lan"
-      :symbol: ฿
-    :TJR: 
-      :name: "Đồng Rúp Tajikistan"
-      :one: "Đồng Rúp Tajikistan"
-    :TJS: 
-      :name: "Somoni Tajikistan"
-      :one: "Somoni Tajikistan"
-      :other: "somoni Tajikistan"
-    :TMM: 
-      :name: "Đồng Manat Turkmenistan (1993–2009)"
-      :one: "Đồng Manat Turkmenistan (1993–2009)"
-    :TMT: 
-      :name: "Manat Turkmenistan"
-      :one: "Manat Turkmenistan"
-      :other: "manat Turkmenistan"
-    :TND: 
-      :name: "Dinar Tunisia"
-      :one: "Dinar Tunisia"
-      :other: "dinar Tunisia"
-    :TOP: 
-      :name: "Paʻanga Tonga"
-      :narrow_symbol: T$
-      :one: "Paʻanga Tonga"
-      :other: "paʻanga Tonga"
+      :narrow_symbol: Db
+      :one: Dobra São Tomé và Príncipe
+      :name: Dobra São Tomé và Príncipe
+      :other: dobra São Tomé và Príncipe
+    :SYP:
+      :symbol: "£"
+      :narrow_symbol: "£"
+      :one: Bảng Syria
+      :name: Bảng Syria
+      :other: bảng Syria
+    :THB:
+      :symbol: "฿"
+      :narrow_symbol: "฿"
+      :one: Bạt Thái Lan
+      :name: Bạt Thái Lan
+      :other: bạt Thái Lan
+    :TOP:
       :symbol: T$
-    :TPE: 
-      :name: "Đồng Escudo Timor"
-      :one: "Đồng Escudo Timor"
-    :TRL: 
-      :name: "Lia Thổ Nhĩ Kỳ (1922–2005)"
-      :one: "Lia Thổ Nhĩ Kỳ (1922–2005)"
-      :other: "lia Thổ Nhĩ Kỳ (1922–2005)"
-    :TRY: 
-      :name: "Lia Thổ Nhĩ Kỳ"
-      :narrow_symbol: ₺
-      :one: "Lia Thổ Nhĩ Kỳ"
-      :symbol: ₺
-    :TTD: 
-      :name: "Đô la Trinidad và Tobago"
-      :narrow_symbol: $
-      :one: "Đô la Trinidad và Tobago"
-      :other: "đô la Trinidad và Tobago"
-      :symbol: $
-    :TWD: 
-      :name: "Đô la Đài Loan mới"
-      :narrow_symbol: NT$
-      :one: "Đô la Đài Loan mới"
-      :other: "đô la Đài Loan mới"
+      :narrow_symbol: T$
+      :one: Paʻanga Tonga
+      :name: Paʻanga Tonga
+      :other: paʻanga Tonga
+    :TRY:
+      :symbol: "₺"
+      :narrow_symbol: "₺"
+      :one: Lia Thổ Nhĩ Kỳ
+      :name: Lia Thổ Nhĩ Kỳ
+    :TTD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: Đô la Trinidad và Tobago
+      :name: Đô la Trinidad và Tobago
+      :other: đô la Trinidad và Tobago
+    :TWD:
       :symbol: NT$
-    :TZS: 
-      :name: "Shilling Tanzania"
-      :one: "Shilling Tanzania"
-      :other: "shilling Tanzania"
-    :UAH: 
-      :name: "Hryvnia Ukraina"
-      :narrow_symbol: ₴
-      :one: "Hryvnia Ukraina"
-      :other: "hryvnia Ukraina"
-      :symbol: ₴
-    :UAK: 
-      :name: "Đồng Karbovanets Ucraina"
-      :one: "Đồng Karbovanets Ucraina"
-    :UGS: 
-      :name: "Đồng Shilling Uganda (1966–1987)"
-      :one: "Đồng Shilling Uganda (1966–1987)"
-    :UGX: 
-      :name: "Shilling Uganda"
-      :one: "Shilling Uganda"
-      :other: "shilling Uganda"
-    :USD: 
-      :name: "Đô la Mỹ"
-      :narrow_symbol: $
-      :one: "Đô la Mỹ"
-      :other: "đô la Mỹ"
+      :narrow_symbol: NT$
+      :one: Đô la Đài Loan mới
+      :name: Đô la Đài Loan mới
+      :other: đô la Đài Loan mới
+    :UAH:
+      :symbol: "₴"
+      :narrow_symbol: "₴"
+      :one: Hryvnia Ukraina
+      :name: Hryvnia Ukraina
+      :other: hryvnia Ukraina
+    :USD:
       :symbol: US$
-    :USN: 
-      :name: "Đô la Mỹ (Ngày tiếp theo)"
-      :one: "Đô la Mỹ (Ngày tiếp theo)"
-    :USS: 
-      :name: "Đô la Mỹ (Cùng ngày)"
-      :one: "Đô la Mỹ (Cùng ngày)"
-    :UYI: 
-      :name: "Đồng Peso Uruguay (Đơn vị Theo chỉ số)"
-      :one: "Đồng Peso Uruguay (Đơn vị Theo chỉ số)"
-    :UYP: 
-      :name: "Đồng Peso Uruguay (1975–1993)"
-      :one: "Đồng Peso Uruguay (1975–1993)"
-    :UYU: 
-      :name: "Peso Uruguay"
-      :narrow_symbol: $
-      :one: "Peso Uruguay"
-      :other: "peso Uruguay"
-      :symbol: $
-    :UZS: 
-      :name: "Som Uzbekistan"
-      :one: "Som Uzbekistan"
-      :other: "som Uzbekistan"
-    :VEB: 
-      :name: "Đồng bolívar của Venezuela (1871–2008)"
-      :one: "Đồng bolívar của Venezuela (1871–2008)"
-    :VEF: 
-      :name: "Bolívar Venezuela (2008–2018)"
-      :narrow_symbol: Bs
-      :one: "Bolívar Venezuela (2008–2018)"
+      :narrow_symbol: "$"
+      :one: Đô la Mỹ
+      :name: Đô la Mỹ
+      :other: đô la Mỹ
+    :UYU:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: Peso Uruguay
+      :name: Peso Uruguay
+      :other: peso Uruguay
+    :VEF:
       :symbol: Bs
-    :VES: 
-      :name: "Bolívar Venezuela"
-      :one: "Bolívar Venezuela"
-      :other: "bolívar Venezuela"
-    :VND: 
-      :name: "Đồng Việt Nam"
-      :narrow_symbol: ₫
-      :one: "Đồng Việt Nam"
-      :other: "đồng Việt Nam"
-      :symbol: ₫
-    :VNN: 
-      :name: "Đồng Việt Nam (1978–1985)"
-      :one: "Đồng Việt Nam (1978–1985)"
-    :VUV: 
-      :name: "Vatu Vanuatu"
-      :one: "Vatu Vanuatu"
-      :other: "vatu Vanuatu"
-    :WST: 
-      :name: "Tala Samoa"
-      :one: "Tala Samoa"
-      :other: "tala Samoa"
-    :XAF: 
-      :name: "Franc CFA Trung Phi"
-      :one: "Franc CFA Trung Phi"
-      :other: "franc CFA Trung Phi"
+      :narrow_symbol: Bs
+      :one: Bolívar Venezuela (2008–2018)
+      :name: Bolívar Venezuela (2008–2018)
+    :VND:
+      :symbol: "₫"
+      :narrow_symbol: "₫"
+      :one: Đồng Việt Nam
+      :name: Đồng Việt Nam
+      :other: đồng Việt Nam
+    :XAF:
       :symbol: FCFA
-    :XAG: 
-      :name: Bạc
-      :one: Bạc
-    :XAU: 
-      :name: Vàng
-      :one: Vàng
-    :XBA: 
-      :name: "Đơn vị Tổng hợp Châu Âu"
-      :one: "Đơn vị Tổng hợp Châu Âu"
-    :XBB: 
-      :name: "Đơn vị Tiền tệ Châu Âu"
-      :one: "Đơn vị Tiền tệ Châu Âu"
-    :XBC: 
-      :name: "Đơn vị Kế toán Châu Âu (XBC)"
-      :one: "Đơn vị Kế toán Châu Âu (XBC)"
-    :XBD: 
-      :name: "Đơn vị Kế toán Châu Âu (XBD)"
-      :one: "Đơn vị Kế toán Châu Âu (XBD)"
-    :XCD: 
-      :name: "Đô la Đông Caribê"
-      :narrow_symbol: $
-      :one: "Đô la Đông Caribê"
-      :other: "đô la Đông Caribê"
+      :one: Franc CFA Trung Phi
+      :name: Franc CFA Trung Phi
+      :other: franc CFA Trung Phi
+    :XCD:
       :symbol: EC$
-    :XCG: 
-      :name: "Guilder Caribe"
-      :one: "Guilder Caribe"
-      :other: "Guilder Caribe"
+      :narrow_symbol: "$"
+      :one: Đô la Đông Caribê
+      :name: Đô la Đông Caribê
+      :other: đô la Đông Caribê
+    :XCG:
       :symbol: Cg.
-    :XDR: 
-      :name: "Quyền Rút vốn Đặc biệt"
-      :one: "Quyền Rút vốn Đặc biệt"
-    :XEU: 
-      :name: "Đơn vị Tiền Châu Âu"
-      :one: "Đơn vị Tiền Châu Âu"
-    :XFO: 
-      :name: "Đồng France Pháp Vàng"
-      :one: "Đồng France Pháp Vàng"
-    :XFU: 
-      :name: "Đồng UIC-Franc Pháp"
-      :one: "Đồng UIC-Franc Pháp"
-    :XOF: 
-      :name: "Franc CFA Tây Phi"
-      :one: "Franc CFA Tây Phi"
-      :other: "franc CFA Tây Phi"
+      :one: Guilder Caribe
+      :name: Guilder Caribe
+      :other: Guilder Caribe
+    :XOF:
       :symbol: F CFA
-    :XPD: 
-      :name: Paladi
-      :one: Paladi
-    :XPF: 
-      :name: "Franc CFP"
-      :one: "Franc CFP"
-      :other: "franc CFP"
+      :one: Franc CFA Tây Phi
+      :name: Franc CFA Tây Phi
+      :other: franc CFA Tây Phi
+    :XPF:
       :symbol: CFPF
-    :XPT: 
-      :name: "Bạch kim"
-      :one: "Bạch kim"
-    :XRE: 
-      :name: "Quỹ RINET"
-      :one: "Quỹ RINET"
-    :XTS: 
-      :name: "Mã Tiền tệ Kiểm tra"
-      :one: "Mã Tiền tệ Kiểm tra"
-    :XXX: 
-      :name: "Tiền tệ chưa biết"
-      :one: "Tiền tệ chưa biết"
-      :other: "(tiền tệ chưa biết)"
+      :one: Franc CFP
+      :name: Franc CFP
+      :other: franc CFP
+    :XXX:
       :symbol: XXX
-    :YDD: 
-      :name: "Đồng Dinar Yemen"
-      :one: "Đồng Dinar Yemen"
-    :YER: 
-      :name: "Rial Yemen"
-      :one: "Rial Yemen"
-      :other: "rial Yemen"
-    :YUD: 
-      :name: "Đồng Dinar Nam Tư Xu (1966–1990)"
-      :one: "Đồng Dinar Nam Tư Xu (1966–1990)"
-    :YUM: 
-      :name: "Đồng Dinar Nam Tư Mới (1994–2002)"
-      :one: "Đồng Dinar Nam Tư Mới (1994–2002)"
-    :YUN: 
-      :name: "Đồng Dinar Nam Tư Có thể chuyển đổi (1990–1992)"
-      :one: "Đồng Dinar Nam Tư Có thể chuyển đổi (1990–1992)"
-    :YUR: 
-      :name: "Đồng Dinar Nam Tư Tái cơ cấu (1992–1993)"
-      :one: "Đồng Dinar Nam Tư Tái cơ cấu (1992–1993)"
-    :ZAL: 
-      :name: "Đồng Rand Nam Phi (tài chính)"
-      :one: "Đồng Rand Nam Phi (tài chính)"
-    :ZAR: 
-      :name: "Rand Nam Phi"
-      :narrow_symbol: R
-      :one: "Rand Nam Phi"
-      :other: "rand Nam Phi"
+      :one: Tiền tệ chưa biết
+      :name: Tiền tệ chưa biết
+      :other: "(tiền tệ chưa biết)"
+    :ZAR:
       :symbol: R
-    :ZMK: 
-      :name: "Đồng kwacha của Zambia (1968–2012)"
-      :one: "Đồng kwacha của Zambia (1968–2012)"
-    :ZMW: 
-      :name: "Kwacha Zambia"
-      :narrow_symbol: ZK
-      :one: "Kwacha Zambia"
-      :other: "kwacha Zambia"
+      :narrow_symbol: R
+      :one: Rand Nam Phi
+      :name: Rand Nam Phi
+      :other: rand Nam Phi
+    :ZMW:
       :symbol: ZK
-    :ZRN: 
-      :name: "Đồng Zaire Mới (1993–1998)"
-      :one: "Đồng Zaire Mới (1993–1998)"
-    :ZRZ: 
-      :name: "Đồng Zaire (1971–1993)"
-      :one: "Đồng Zaire (1971–1993)"
-    :ZWD: 
-      :name: "Đồng Đô la Zimbabwe (1980–2008)"
-      :one: "Đồng Đô la Zimbabwe (1980–2008)"
-    :ZWG: 
-      :name: "Zimbabwean Gold"
-      :one: "Zimbabwean Gold"
-      :other: "Zimbabwean Gold"
-    :ZWL: 
-      :name: "Đồng Đô la Zimbabwe (2009)"
-      :one: "Đồng Đô la Zimbabwe (2009)"
-    :ZWR: 
-      :name: "Đồng Đô la Zimbabwe (2008)"
-      :one: "Đồng Đô la Zimbabwe (2008)"
+      :narrow_symbol: ZK
+      :one: Kwacha Zambia
+      :name: Kwacha Zambia
+      :other: kwacha Zambia
+    :ADP:
+      :one: Đồng Peseta của Andora
+      :name: Đồng Peseta của Andora
+    :AED:
+      :one: Dirham UAE
+      :name: Dirham UAE
+      :other: dirham UAE
+    :AFA:
+      :one: Đồng Afghani của Afghanistan (1927–2002)
+      :name: Đồng Afghani của Afghanistan (1927–2002)
+    :ALL:
+      :one: Lek Albania
+      :name: Lek Albania
+      :other: lek Albania
+    :ANG:
+      :one: Guilder Antille Hà Lan
+      :name: Guilder Antille Hà Lan
+      :other: guilder Antille Hà Lan
+    :AOK:
+      :one: Đồng Kwanza của Angola (1977–1991)
+      :name: Đồng Kwanza của Angola (1977–1991)
+    :AON:
+      :one: Đồng Kwanza Mới của Angola (1990–2000)
+      :name: Đồng Kwanza Mới của Angola (1990–2000)
+    :AOR:
+      :one: Đồng Kwanza Điều chỉnh lại của Angola (1995–1999)
+      :name: Đồng Kwanza Điều chỉnh lại của Angola (1995–1999)
+    :ARA:
+      :one: Đồng Austral của Argentina
+      :name: Đồng Austral của Argentina
+    :ARL:
+      :one: Đồng Peso Ley của Argentina (1970–1983)
+      :name: Đồng Peso Ley của Argentina (1970–1983)
+    :ARM:
+      :one: Đồng Peso Argentina (1881–1970)
+      :name: Đồng Peso Argentina (1881–1970)
+    :ARP:
+      :one: Đồng Peso Argentina (1983–1985)
+      :name: Đồng Peso Argentina (1983–1985)
+    :ATS:
+      :one: Đồng Schiling Áo
+      :name: Đồng Schiling Áo
+    :AWG:
+      :one: Florin Aruba
+      :name: Florin Aruba
+    :AZM:
+      :one: Đồng Manat của Azerbaijan (1993–2006)
+      :name: Đồng Manat của Azerbaijan (1993–2006)
+    :BAD:
+      :one: Đồng Dinar của Bosnia-Herzegovina (1992–1994)
+      :name: Đồng Dinar của Bosnia-Herzegovina (1992–1994)
+    :BAN:
+      :one: Đồng Dinar Mới của Bosnia-Herzegovina (1994–1997)
+      :name: Đồng Dinar Mới của Bosnia-Herzegovina (1994–1997)
+    :BEC:
+      :one: Đồng Franc Bỉ (có thể chuyển đổi)
+      :name: Đồng Franc Bỉ (có thể chuyển đổi)
+    :BEF:
+      :one: Đồng Franc Bỉ
+      :name: Đồng Franc Bỉ
+    :BEL:
+      :one: Đồng Franc Bỉ (tài chính)
+      :name: Đồng Franc Bỉ (tài chính)
+    :BGL:
+      :one: Đồng Lev Xu của Bun-ga-ri
+      :name: Đồng Lev Xu của Bun-ga-ri
+    :BGM:
+      :one: Đồng Lev Xã hội chủ nghĩa của Bun-ga-ri
+      :name: Đồng Lev Xã hội chủ nghĩa của Bun-ga-ri
+    :BGN:
+      :one: Lev Bulgaria
+      :name: Lev Bulgaria
+      :other: lev Bulgaria
+    :BGO:
+      :one: Đồng Lev của Bun-ga-ri (1879–1952)
+      :name: Đồng Lev của Bun-ga-ri (1879–1952)
+    :BHD:
+      :one: Dinar Bahrain
+      :name: Dinar Bahrain
+      :other: dinar Bahrain
+    :BIF:
+      :one: Franc Burundi
+      :name: Franc Burundi
+      :other: franc Burundi
+    :BOL:
+      :one: Đồng Boliviano của Bolivia (1863–1963)
+      :name: Đồng Boliviano của Bolivia (1863–1963)
+    :BOP:
+      :one: Đồng Peso Bolivia
+      :name: Đồng Peso Bolivia
+    :BOV:
+      :one: Đồng Mvdol Bolivia
+      :name: Đồng Mvdol Bolivia
+    :BRB:
+      :one: Đồng Cruzerio Mới của Braxin (1967–1986)
+      :name: Đồng Cruzerio Mới của Braxin (1967–1986)
+    :BRC:
+      :one: Đồng Cruzado của Braxin (1986–1989)
+      :name: Đồng Cruzado của Braxin (1986–1989)
+    :BRE:
+      :one: Đồng Cruzerio của Braxin (1990–1993)
+      :name: Đồng Cruzerio của Braxin (1990–1993)
+    :BRN:
+      :one: Đồng Cruzado Mới của Braxin (1989–1990)
+      :name: Đồng Cruzado Mới của Braxin (1989–1990)
+    :BRR:
+      :one: Đồng Cruzeiro của Braxin (1993–1994)
+      :name: Đồng Cruzeiro của Braxin (1993–1994)
+    :BRZ:
+      :one: Đồng Cruzeiro của Braxin (1942–1967)
+      :name: Đồng Cruzeiro của Braxin (1942–1967)
+    :BTN:
+      :one: Ngultrum Bhutan
+      :name: Ngultrum Bhutan
+    :BUK:
+      :one: Đồng Kyat Miến Điện
+      :name: Đồng Kyat Miến Điện
+    :BYB:
+      :one: Đồng Rúp Mới của Belarus (1994–1999)
+      :name: Đồng Rúp Mới của Belarus (1994–1999)
+    :BYN:
+      :one: Rúp Belarus
+      :name: Rúp Belarus
+      :other: rúp Belarus
+      :symbol: р.
+      :narrow_symbol: р.
+    :BYR:
+      :one: Rúp Belarus (2000–2016)
+      :name: Rúp Belarus (2000–2016)
+    :CDF:
+      :one: Franc Congo
+      :name: Franc Congo
+      :other: franc Congo
+    :CHE:
+      :one: Đồng Euro WIR
+      :name: Đồng Euro WIR
+    :CHF:
+      :one: Franc Thụy sĩ
+      :name: Franc Thụy sĩ
+      :other: franc Thụy sĩ
+    :CHW:
+      :one: Đồng France WIR
+      :name: Đồng France WIR
+    :CLE:
+      :one: Đồng Escudo của Chile
+      :name: Đồng Escudo của Chile
+    :CLF:
+      :one: Đơn vị Kế toán của Chile (UF)
+      :name: Đơn vị Kế toán của Chile (UF)
+    :CNH:
+      :one: Nhân dân tệ (hải ngoại)
+      :name: Nhân dân tệ (hải ngoại)
+      :other: nhân dân tệ (hải ngoại)
+    :COU:
+      :one: Đơn vị Giá trị Thực của Colombia
+      :name: Đơn vị Giá trị Thực của Colombia
+    :CSD:
+      :one: Đồng Dinar của Serbia (2002–2006)
+      :name: Đồng Dinar của Serbia (2002–2006)
+    :CSK:
+      :one: Đồng Koruna Xu của Czechoslovakia
+      :name: Đồng Koruna Xu của Czechoslovakia
+    :CVE:
+      :one: Escudo Cape Verde
+      :name: Escudo Cape Verde
+      :other: escudo Cape Verde
+    :CYP:
+      :one: Đồng Bảng Síp
+      :name: Đồng Bảng Síp
+    :DDM:
+      :one: Đồng Mark Đông Đức
+      :name: Đồng Mark Đông Đức
+    :DEM:
+      :one: Đồng Mark Đức
+      :name: Đồng Mark Đức
+    :DJF:
+      :one: Franc Djibouti
+      :name: Franc Djibouti
+      :other: franc Djibouti
+    :DZD:
+      :one: Dinar Algeria
+      :name: Dinar Algeria
+      :other: dinar Algeria
+    :ECS:
+      :one: Đồng Scure Ecuador
+      :name: Đồng Scure Ecuador
+    :ECV:
+      :one: Đơn vị Giá trị Không đổi của Ecuador
+      :name: Đơn vị Giá trị Không đổi của Ecuador
+    :EEK:
+      :one: Crun Extônia
+      :name: Crun Extônia
+    :ERN:
+      :one: Nakfa Eritrea
+      :name: Nakfa Eritrea
+      :other: nakfa Eritrea
+    :ESA:
+      :one: Đồng Peseta Tây Ban Nha (Tài khoản)
+      :name: Đồng Peseta Tây Ban Nha (Tài khoản)
+    :ESB:
+      :one: Đồng Peseta Tây Ban Nha (tài khoản có thể chuyển đổi)
+      :name: Đồng Peseta Tây Ban Nha (tài khoản có thể chuyển đổi)
+    :ETB:
+      :one: Birr Ethiopia
+      :name: Birr Ethiopia
+      :other: birr Ethiopia
+    :FIM:
+      :one: Đồng Markka Phần Lan
+      :name: Đồng Markka Phần Lan
+    :FRF:
+      :one: Franc Pháp
+      :name: Franc Pháp
+    :GEK:
+      :one: Đồng Kupon Larit của Georgia
+      :name: Đồng Kupon Larit của Georgia
+    :GHC:
+      :one: Cedi Ghana (1979–2007)
+      :name: Cedi Ghana (1979–2007)
+    :GMD:
+      :one: Dalasi Gambia
+      :name: Dalasi Gambia
+      :other: dalasi Gambia
+    :GNS:
+      :one: Syli Guinea
+      :name: Syli Guinea
+    :GQE:
+      :one: Đồng Ekwele của Guinea Xích Đạo
+      :name: Đồng Ekwele của Guinea Xích Đạo
+    :GRD:
+      :one: Drachma Hy Lạp
+      :name: Drachma Hy Lạp
+    :GWE:
+      :one: Đồng Guinea Escudo Bồ Đào Nha
+      :name: Đồng Guinea Escudo Bồ Đào Nha
+    :GWP:
+      :one: Peso Guinea-Bissau
+      :name: Peso Guinea-Bissau
+    :HRD:
+      :one: Đồng Dinar Croatia
+      :name: Đồng Dinar Croatia
+    :HTG:
+      :one: Gourde Haiti
+      :name: Gourde Haiti
+      :other: gourde Haiti
+    :IEP:
+      :one: Pao Ai-len
+      :name: Pao Ai-len
+    :ILP:
+      :one: Pao Ixraen
+      :name: Pao Ixraen
+    :IQD:
+      :one: Dinar Iraq
+      :name: Dinar Iraq
+      :other: dinar Iraq
+    :IRR:
+      :one: Rial Iran
+      :name: Rial Iran
+    :ITL:
+      :one: Lia Ý
+      :name: Lia Ý
+    :JOD:
+      :one: Dinar Jordan
+      :name: Dinar Jordan
+      :other: dinar Jordan
+    :KES:
+      :one: Shilling Kenya
+      :name: Shilling Kenya
+      :other: shilling Kenya
+    :KRH:
+      :one: Đồng Hwan Hàn Quốc (1953–1962)
+      :name: Đồng Hwan Hàn Quốc (1953–1962)
+    :KRO:
+      :one: Đồng Won Hàn Quốc (1945–1953)
+      :name: Đồng Won Hàn Quốc (1945–1953)
+    :KWD:
+      :one: Dinar Kuwait
+      :name: Dinar Kuwait
+      :other: dinar Kuwait
+    :LSL:
+      :one: Loti Lesotho
+      :name: Loti Lesotho
+    :LTT:
+      :one: Đồng Talonas Litva
+      :name: Đồng Talonas Litva
+    :LUC:
+      :one: Đồng Franc Luxembourg có thể chuyển đổi
+      :name: Đồng Franc Luxembourg có thể chuyển đổi
+    :LUF:
+      :one: Đồng Franc Luxembourg
+      :name: Đồng Franc Luxembourg
+    :LUL:
+      :one: Đồng Franc Luxembourg tài chính
+      :name: Đồng Franc Luxembourg tài chính
+    :LVR:
+      :one: Đồng Rúp Latvia
+      :name: Đồng Rúp Latvia
+    :LYD:
+      :one: Dinar Libi
+      :name: Dinar Libi
+      :other: dinar Libi
+    :MAD:
+      :one: Dirham Ma-rốc
+      :name: Dirham Ma-rốc
+      :other: dirham Ma-rốc
+    :MAF:
+      :one: Đồng Franc Ma-rốc
+      :name: Đồng Franc Ma-rốc
+    :MCF:
+      :one: Đồng Franc Monegasque
+      :name: Đồng Franc Monegasque
+    :MDC:
+      :one: Đồng Cupon Moldova
+      :name: Đồng Cupon Moldova
+    :MDL:
+      :one: Leu Moldova
+      :name: Leu Moldova
+      :other: leu Moldova
+    :MGF:
+      :one: Đồng Franc Magalasy
+      :name: Đồng Franc Magalasy
+    :MKD:
+      :one: Denar Macedonia
+      :name: Denar Macedonia
+      :other: denar Macedonia
+    :MKN:
+      :one: Đồng Denar Macedonia (1992–1993)
+      :name: Đồng Denar Macedonia (1992–1993)
+    :MLF:
+      :one: Đồng Franc Mali
+      :name: Đồng Franc Mali
+    :MOP:
+      :one: Pataca Ma Cao
+      :name: Pataca Ma Cao
+      :other: pataca Ma Cao
+    :MRO:
+      :one: Ouguiya Mauritania (1973–2017)
+      :name: Ouguiya Mauritania (1973–2017)
+    :MRU:
+      :one: Ouguiya Mauritania
+      :name: Ouguiya Mauritania
+      :other: ouguiya Mauritania
+    :MTL:
+      :one: Lia xứ Man-tơ
+      :name: Lia xứ Man-tơ
+    :MTP:
+      :one: Đồng Bảng Malta
+      :name: Đồng Bảng Malta
+    :MVP:
+      :one: Rupee Maldives (1947–1981)
+      :name: Rupee Maldives (1947–1981)
+    :MVR:
+      :one: Rufiyaa Maldives
+      :name: Rufiyaa Maldives
+    :MWK:
+      :one: Kwacha Malawi
+      :name: Kwacha Malawi
+      :other: kwacha Malawi
+    :MXP:
+      :one: Đồng Peso Bạc Mê-hi-cô (1861–1992)
+      :name: Đồng Peso Bạc Mê-hi-cô (1861–1992)
+    :MXV:
+      :one: Đơn vị Đầu tư Mê-hi-cô
+      :name: Đơn vị Đầu tư Mê-hi-cô
+    :MZE:
+      :one: Escudo Mozambique
+      :name: Escudo Mozambique
+    :MZM:
+      :one: Đồng Metical Mozambique (1980–2006)
+      :name: Đồng Metical Mozambique (1980–2006)
+    :MZN:
+      :one: Metical Mozambique
+      :name: Metical Mozambique
+      :other: metical Mozambique
+    :NIC:
+      :one: Đồng Córdoba Nicaragua (1988–1991)
+      :name: Đồng Córdoba Nicaragua (1988–1991)
+    :NLG:
+      :one: Đồng Guilder Hà Lan
+      :name: Đồng Guilder Hà Lan
+    :OMR:
+      :one: Rial Oman
+      :name: Rial Oman
+      :other: rial Oman
+    :PAB:
+      :one: Balboa Panama
+      :name: Balboa Panama
+      :other: balboa Panama
+    :PEI:
+      :one: Đồng Inti Peru
+      :name: Đồng Inti Peru
+    :PEN:
+      :one: Sol Peru
+      :name: Sol Peru
+      :other: sol Peru
+    :PES:
+      :one: Đồng Sol Peru (1863–1965)
+      :name: Đồng Sol Peru (1863–1965)
+    :PGK:
+      :one: Kina Papua New Guinea
+      :name: Kina Papua New Guinea
+      :other: kina Papua New Guinea
+    :PLZ:
+      :one: Đồng Zloty Ba Lan (1950–1995)
+      :name: Đồng Zloty Ba Lan (1950–1995)
+    :PTE:
+      :one: Đồng Escudo Bồ Đào Nha
+      :name: Đồng Escudo Bồ Đào Nha
+    :QAR:
+      :one: Rial Qatar
+      :name: Rial Qatar
+      :other: rial Qatar
+    :RHD:
+      :one: Đồng Đô la Rhode
+      :name: Đồng Đô la Rhode
+    :ROL:
+      :one: Đồng Leu Rumani (1952–2006)
+      :name: Đồng Leu Rumani (1952–2006)
+    :RSD:
+      :one: Dinar Serbia
+      :name: Dinar Serbia
+      :other: dinar Serbia
+    :RUR:
+      :one: Đồng Rúp Nga (1991–1998)
+      :name: Đồng Rúp Nga (1991–1998)
+    :SCR:
+      :one: Rupee Seychelles
+      :name: Rupee Seychelles
+      :other: rupee Seychelles
+    :SDD:
+      :one: Đồng Dinar Sudan (1992–2007)
+      :name: Đồng Dinar Sudan (1992–2007)
+    :SDG:
+      :one: Bảng Sudan
+      :name: Bảng Sudan
+      :other: bảng Sudan
+    :SDP:
+      :one: Đồng Bảng Sudan (1957–1998)
+      :name: Đồng Bảng Sudan (1957–1998)
+    :SIT:
+      :one: Tôla Xlôvênia
+      :name: Tôla Xlôvênia
+    :SKK:
+      :one: Cuaron Xlôvác
+      :name: Cuaron Xlôvác
+    :SLE:
+      :one: Leone Sierra Leone
+      :name: Leone Sierra Leone
+    :SLL:
+      :one: Leone Sierra Leone (1964—2022)
+      :name: Leone Sierra Leone (1964—2022)
+    :SOS:
+      :one: Shilling Somali
+      :name: Shilling Somali
+      :other: shilling Somali
+    :SRG:
+      :one: Đồng Guilder Surinam
+      :name: Đồng Guilder Surinam
+    :STD:
+      :one: Dobra São Tomé và Príncipe (1977–2017)
+      :name: Dobra São Tomé và Príncipe (1977–2017)
+    :SUR:
+      :one: Đồng Rúp Sô viết
+      :name: Đồng Rúp Sô viết
+    :SVC:
+      :one: Colón El Salvador
+      :name: Colón El Salvador
+    :SZL:
+      :one: Lilangeni Swaziland
+      :name: Lilangeni Swaziland
+      :other: lilangeni Swaziland
+    :TJR:
+      :one: Đồng Rúp Tajikistan
+      :name: Đồng Rúp Tajikistan
+    :TJS:
+      :one: Somoni Tajikistan
+      :name: Somoni Tajikistan
+      :other: somoni Tajikistan
+    :TMM:
+      :one: Đồng Manat Turkmenistan (1993–2009)
+      :name: Đồng Manat Turkmenistan (1993–2009)
+    :TMT:
+      :one: Manat Turkmenistan
+      :name: Manat Turkmenistan
+      :other: manat Turkmenistan
+    :TND:
+      :one: Dinar Tunisia
+      :name: Dinar Tunisia
+      :other: dinar Tunisia
+    :TPE:
+      :one: Đồng Escudo Timor
+      :name: Đồng Escudo Timor
+    :TRL:
+      :one: Lia Thổ Nhĩ Kỳ (1922–2005)
+      :name: Lia Thổ Nhĩ Kỳ (1922–2005)
+      :other: lia Thổ Nhĩ Kỳ (1922–2005)
+    :TZS:
+      :one: Shilling Tanzania
+      :name: Shilling Tanzania
+      :other: shilling Tanzania
+    :UAK:
+      :one: Đồng Karbovanets Ucraina
+      :name: Đồng Karbovanets Ucraina
+    :UGS:
+      :one: Đồng Shilling Uganda (1966–1987)
+      :name: Đồng Shilling Uganda (1966–1987)
+    :UGX:
+      :one: Shilling Uganda
+      :name: Shilling Uganda
+      :other: shilling Uganda
+    :USN:
+      :one: Đô la Mỹ (Ngày tiếp theo)
+      :name: Đô la Mỹ (Ngày tiếp theo)
+    :USS:
+      :one: Đô la Mỹ (Cùng ngày)
+      :name: Đô la Mỹ (Cùng ngày)
+    :UYI:
+      :one: Đồng Peso Uruguay (Đơn vị Theo chỉ số)
+      :name: Đồng Peso Uruguay (Đơn vị Theo chỉ số)
+    :UYP:
+      :one: Đồng Peso Uruguay (1975–1993)
+      :name: Đồng Peso Uruguay (1975–1993)
+    :UZS:
+      :one: Som Uzbekistan
+      :name: Som Uzbekistan
+      :other: som Uzbekistan
+    :VEB:
+      :one: Đồng bolívar của Venezuela (1871–2008)
+      :name: Đồng bolívar của Venezuela (1871–2008)
+    :VES:
+      :one: Bolívar Venezuela
+      :name: Bolívar Venezuela
+      :other: bolívar Venezuela
+    :VNN:
+      :one: Đồng Việt Nam (1978–1985)
+      :name: Đồng Việt Nam (1978–1985)
+    :VUV:
+      :one: Vatu Vanuatu
+      :name: Vatu Vanuatu
+      :other: vatu Vanuatu
+    :WST:
+      :one: Tala Samoa
+      :name: Tala Samoa
+      :other: tala Samoa
+    :XAG:
+      :one: Bạc
+      :name: Bạc
+    :XAU:
+      :one: Vàng
+      :name: Vàng
+    :XBA:
+      :one: Đơn vị Tổng hợp Châu Âu
+      :name: Đơn vị Tổng hợp Châu Âu
+    :XBB:
+      :one: Đơn vị Tiền tệ Châu Âu
+      :name: Đơn vị Tiền tệ Châu Âu
+    :XBC:
+      :one: Đơn vị Kế toán Châu Âu (XBC)
+      :name: Đơn vị Kế toán Châu Âu (XBC)
+    :XBD:
+      :one: Đơn vị Kế toán Châu Âu (XBD)
+      :name: Đơn vị Kế toán Châu Âu (XBD)
+    :XDR:
+      :one: Quyền Rút vốn Đặc biệt
+      :name: Quyền Rút vốn Đặc biệt
+    :XEU:
+      :one: Đơn vị Tiền Châu Âu
+      :name: Đơn vị Tiền Châu Âu
+    :XFO:
+      :one: Đồng France Pháp Vàng
+      :name: Đồng France Pháp Vàng
+    :XFU:
+      :one: Đồng UIC-Franc Pháp
+      :name: Đồng UIC-Franc Pháp
+    :XPD:
+      :one: Paladi
+      :name: Paladi
+    :XPT:
+      :one: Bạch kim
+      :name: Bạch kim
+    :XRE:
+      :one: Quỹ RINET
+      :name: Quỹ RINET
+    :XTS:
+      :one: Mã Tiền tệ Kiểm tra
+      :name: Mã Tiền tệ Kiểm tra
+    :YDD:
+      :one: Đồng Dinar Yemen
+      :name: Đồng Dinar Yemen
+    :YER:
+      :one: Rial Yemen
+      :name: Rial Yemen
+      :other: rial Yemen
+    :YUD:
+      :one: Đồng Dinar Nam Tư Xu (1966–1990)
+      :name: Đồng Dinar Nam Tư Xu (1966–1990)
+    :YUM:
+      :one: Đồng Dinar Nam Tư Mới (1994–2002)
+      :name: Đồng Dinar Nam Tư Mới (1994–2002)
+    :YUN:
+      :one: Đồng Dinar Nam Tư Có thể chuyển đổi (1990–1992)
+      :name: Đồng Dinar Nam Tư Có thể chuyển đổi (1990–1992)
+    :YUR:
+      :one: Đồng Dinar Nam Tư Tái cơ cấu (1992–1993)
+      :name: Đồng Dinar Nam Tư Tái cơ cấu (1992–1993)
+    :ZAL:
+      :one: Đồng Rand Nam Phi (tài chính)
+      :name: Đồng Rand Nam Phi (tài chính)
+    :ZMK:
+      :one: Đồng kwacha của Zambia (1968–2012)
+      :name: Đồng kwacha của Zambia (1968–2012)
+    :ZRN:
+      :one: Đồng Zaire Mới (1993–1998)
+      :name: Đồng Zaire Mới (1993–1998)
+    :ZRZ:
+      :one: Đồng Zaire (1971–1993)
+      :name: Đồng Zaire (1971–1993)
+    :ZWD:
+      :one: Đồng Đô la Zimbabwe (1980–2008)
+      :name: Đồng Đô la Zimbabwe (1980–2008)
+    :ZWG:
+      :one: Zimbabwean Gold
+      :name: Zimbabwean Gold
+      :other: Zimbabwean Gold
+    :ZWL:
+      :one: Đồng Đô la Zimbabwe (2009)
+      :name: Đồng Đô la Zimbabwe (2009)
+    :ZWR:
+      :one: Đồng Đô la Zimbabwe (2008)
+      :name: Đồng Đô la Zimbabwe (2008)

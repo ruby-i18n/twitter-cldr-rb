@@ -5,6 +5,7 @@
 
 require 'nokogiri'
 require 'fileutils'
+require 'yaml'
 
 module TwitterCldr
   module Resources
@@ -20,9 +21,8 @@ module TwitterCldr
       def execute
         File.open(output_file, 'w:utf-8') do |output|
           output.write(
-            TwitterCldr::Utils::YAML.dump(
-              TwitterCldr::Utils.deep_symbolize_keys(metadata),
-              use_natural_symbols: true
+            ::YAML.dump(
+              TwitterCldr::Utils.deep_symbolize_keys(metadata)
             )
           )
         end

@@ -1,1499 +1,1499 @@
---- 
-:el: 
-  :formats: 
-    :fallback_formats: 
-      :generic: "[{1} ({0})]"
-    :gmt_formats: 
-      :generic: "GMT{0}"
-    :gmt_unknown_formats: 
-      :generic: GMT+?
-    :gmt_zero_formats: 
-      :generic: GMT
-    :hour_formats: 
+---
+:el:
+  :formats:
+    :hour_formats:
       :generic: "+HH:mm;-HH:mm"
-    :region_formats: 
-      :daylight: "Θερινή ώρα ({0})"
-      :generic: "Ώρα ({0})"
-      :standard: "Χειμερινή ώρα ({0})"
-  :metazones: 
-    :Acre: 
-      :long: 
-        :daylight: "Θερινή ώρα Άκρε"
-        :generic: "Ώρα Άκρε"
-        :standard: "Χειμερινή ώρα Άκρε"
-    :Afghanistan: 
-      :long: 
-        :standard: "Ώρα Αφγανιστάν"
-    :Africa_Central: 
-      :long: 
-        :standard: "Ώρα Κεντρικής Αφρικής"
-    :Africa_Eastern: 
-      :long: 
-        :standard: "Ώρα Ανατολικής Αφρικής"
-    :Africa_Southern: 
-      :long: 
-        :standard: "Χειμερινή ώρα Νότιας Αφρικής"
-    :Africa_Western: 
-      :long: 
-        :standard: "Ώρα Δυτικής Αφρικής"
-    :Alaska: 
-      :long: 
-        :daylight: "Θερινή ώρα Αλάσκας"
-        :generic: "Ώρα Αλάσκας"
-        :standard: "Χειμερινή ώρα Αλάσκας"
-    :Amazon: 
-      :long: 
-        :daylight: "Θερινή ώρα Αμαζονίου"
-        :generic: "Ώρα Αμαζονίου"
-        :standard: "Χειμερινή ώρα Αμαζονίου"
-    :America_Central: 
-      :long: 
-        :daylight: "Κεντρική θερινή ώρα Βόρειας Αμερικής"
-        :generic: "Κεντρική ώρα Βόρειας Αμερικής"
-        :standard: "Κεντρική χειμερινή ώρα Βόρειας Αμερικής"
-    :America_Eastern: 
-      :long: 
-        :daylight: "Ανατολική θερινή ώρα Βόρειας Αμερικής"
-        :generic: "Ανατολική ώρα Βόρειας Αμερικής"
-        :standard: "Ανατολική χειμερινή ώρα Βόρειας Αμερικής"
-    :America_Mountain: 
-      :long: 
-        :daylight: "Ορεινή θερινή ώρα Βόρειας Αμερικής"
-        :generic: "Ορεινή ώρα Βόρειας Αμερικής"
-        :standard: "Ορεινή χειμερινή ώρα Βόρειας Αμερικής"
-    :America_Pacific: 
-      :long: 
-        :daylight: "Θερινή ώρα Ειρηνικού"
-        :generic: "Ώρα Ειρηνικού"
-        :standard: "Χειμερινή ώρα Ειρηνικού"
-    :Anadyr: 
-      :long: 
-        :daylight: "Θερινή ώρα Αναντίρ"
-        :generic: "Ώρα Αναντίρ"
-        :standard: "Χειμερινή ώρα Αναντίρ"
-    :Apia: 
-      :long: 
-        :daylight: "Θερινή ώρα Απία"
-        :generic: "Ώρα Απία"
-        :standard: "Χειμερινή ώρα Απία"
-    :Arabian: 
-      :long: 
-        :daylight: "Αραβική θερινή ώρα"
-        :generic: "Αραβική ώρα"
-        :standard: "Αραβική χειμερινή ώρα"
-    :Argentina: 
-      :long: 
-        :daylight: "Θερινή ώρα Αργεντινής"
-        :generic: "Ώρα Αργεντινής"
-        :standard: "Χειμερινή ώρα Αργεντινής"
-    :Argentina_Western: 
-      :long: 
-        :daylight: "Θερινή ώρα Δυτικής Αργεντινής"
-        :generic: "Ώρα Δυτικής Αργεντινής"
-        :standard: "Χειμερινή ώρα Δυτικής Αργεντινής"
-    :Armenia: 
-      :long: 
-        :daylight: "Θερινή ώρα Αρμενίας"
-        :generic: "Ώρα Αρμενίας"
-        :standard: "Χειμερινή ώρα Αρμενίας"
-    :Atlantic: 
-      :long: 
-        :daylight: "Θερινή ώρα Ατλαντικού"
-        :generic: "Ώρα Ατλαντικού"
-        :standard: "Χειμερινή ώρα Ατλαντικού"
-    :Australia_Central: 
-      :long: 
-        :daylight: "Θερινή ώρα Κεντρικής Αυστραλίας"
-        :generic: "Ώρα Κεντρικής Αυστραλίας"
-        :standard: "Χειμερινή ώρα Κεντρικής Αυστραλίας"
-    :Australia_CentralWestern: 
-      :long: 
-        :daylight: "Θερινή ώρα Κεντροδυτικής Αυστραλίας"
-        :generic: "Ώρα Κεντροδυτικής Αυστραλίας"
-        :standard: "Χειμερινή ώρα Κεντροδυτικής Αυστραλίας"
-    :Australia_Eastern: 
-      :long: 
-        :daylight: "Θερινή ώρα Ανατολικής Αυστραλίας"
-        :generic: "Ώρα Ανατολικής Αυστραλίας"
-        :standard: "Χειμερινή ώρα Ανατολικής Αυστραλίας"
-    :Australia_Western: 
-      :long: 
-        :daylight: "Θερινή ώρα Δυτικής Αυστραλίας"
-        :generic: "Ώρα Δυτικής Αυστραλίας"
-        :standard: "Χειμερινή ώρα Δυτικής Αυστραλίας"
-    :Azerbaijan: 
-      :long: 
-        :daylight: "Θερινή ώρα Αζερμπαϊτζάν"
-        :generic: "Ώρα Αζερμπαϊτζάν"
-        :standard: "Χειμερινή ώρα Αζερμπαϊτζάν"
-    :Azores: 
-      :long: 
-        :daylight: "Θερινή ώρα Αζορών"
-        :generic: "Ώρα Αζορών"
-        :standard: "Χειμερινή ώρα Αζορών"
-    :Bangladesh: 
-      :long: 
-        :daylight: "Θερινή ώρα Μπανγκλαντές"
-        :generic: "Ώρα Μπανγκλαντές"
-        :standard: "Χειμερινή ώρα Μπανγκλαντές"
-    :Bhutan: 
-      :long: 
-        :standard: "Ώρα Μπουτάν"
-    :Bolivia: 
-      :long: 
-        :standard: "Ώρα Βολιβίας"
-    :Brasilia: 
-      :long: 
-        :daylight: "Θερινή ώρα Μπραζίλιας"
-        :generic: "Ώρα Μπραζίλιας"
-        :standard: "Χειμερινή ώρα Μπραζίλιας"
-    :Brunei: 
-      :long: 
-        :standard: "Ώρα Μπρουνέι Νταρουσαλάμ"
-    :Cape_Verde: 
-      :long: 
-        :daylight: "Θερινή ώρα Πράσινου Ακρωτηρίου"
-        :generic: "Ώρα Πράσινου Ακρωτηρίου"
-        :standard: "Χειμερινή ώρα Πράσινου Ακρωτηρίου"
-    :Chamorro: 
-      :long: 
-        :standard: "Ώρα Τσαμόρο"
-    :Chatham: 
-      :long: 
-        :daylight: "Θερινή ώρα Τσάταμ"
-        :generic: "Ώρα Τσάταμ"
-        :standard: "Χειμερινή ώρα Τσάταμ"
-    :Chile: 
-      :long: 
-        :daylight: "Θερινή ώρα Χιλής"
-        :generic: "Ώρα Χιλής"
-        :standard: "Χειμερινή ώρα Χιλής"
-    :China: 
-      :long: 
-        :daylight: "Θερινή ώρα Κίνας"
-        :generic: "Ώρα Κίνας"
-        :standard: "Χειμερινή ώρα Κίνας"
-    :Christmas: 
-      :long: 
-        :standard: "Ώρα Νήσου Χριστουγέννων"
-    :Cocos: 
-      :long: 
-        :standard: "Ώρα Νήσων Κόκος"
-    :Colombia: 
-      :long: 
-        :daylight: "Θερινή ώρα Κολομβίας"
-        :generic: "Ώρα Κολομβίας"
-        :standard: "Χειμερινή ώρα Κολομβίας"
-    :Cook: 
-      :long: 
-        :daylight: "Θερινή ώρα Νήσων Κουκ"
-        :generic: "Ώρα Νήσων Κουκ"
-        :standard: "Χειμερινή ώρα Νήσων Κουκ"
-    :Cuba: 
-      :long: 
-        :daylight: "Θερινή ώρα Κούβας"
-        :generic: "Ώρα Κούβας"
-        :standard: "Χειμερινή ώρα Κούβας"
-    :Davis: 
-      :long: 
-        :standard: "Ώρα Ντέιβις"
-    :DumontDUrville: 
-      :long: 
-        :standard: "Ώρα Ντιμόν ντ’ Ουρβίλ"
-    :East_Timor: 
-      :long: 
-        :standard: "Ώρα Ανατολικού Τιμόρ"
-    :Easter: 
-      :long: 
-        :daylight: "Θερινή ώρα Νήσου Πάσχα"
-        :generic: "Ώρα Νήσου Πάσχα"
-        :standard: "Χειμερινή ώρα Νήσου Πάσχα"
-    :Ecuador: 
-      :long: 
-        :standard: "Ώρα Ισημερινού"
-    :Europe_Central: 
-      :long: 
-        :daylight: "Θερινή ώρα Κεντρικής Ευρώπης"
-        :generic: "Ώρα Κεντρικής Ευρώπης"
-        :standard: "Χειμερινή ώρα Κεντρικής Ευρώπης"
-      :short: 
-        :daylight: CEST
+    :gmt_formats:
+      :generic: GMT{0}
+    :gmt_zero_formats:
+      :generic: GMT
+    :gmt_unknown_formats:
+      :generic: GMT+?
+    :region_formats:
+      :generic: Ώρα ({0})
+      :daylight: Θερινή ώρα ({0})
+      :standard: Χειμερινή ώρα ({0})
+    :fallback_formats:
+      :generic: "[{1} ({0})]"
+  :timezones:
+    :Etc/UTC:
+      :short:
+        :standard: UTC
+      :long:
+        :standard: Συντονισμένη Παγκόσμια Ώρα
+    :Europe/Tirane:
+      :city: Τίρανα
+    :Antarctica/Syowa:
+      :city: Σίοβα
+    :Antarctica/DumontDUrville:
+      :city: Ντιμόν ντ’ Ουρβίλ
+    :America/Argentina/Rio_Gallegos:
+      :city: Ρίο Γκαγιέγκος
+    :America/Argentina/Tucuman:
+      :city: Τουκουμάν
+    :America/Cordoba:
+      :city: Κόρδοβα
+    :America/St_Barthelemy:
+      :city: Άγιος Βαρθολομαίος
+    :America/Eirunepe:
+      :city: Εϊρουνεπέ
+    :America/Cuiaba:
+      :city: Κουιαμπά
+    :America/Santarem:
+      :city: Σανταρέμ
+    :America/Belem:
+      :city: Μπελέμ
+    :America/Araguaina:
+      :city: Αραγκουάινα
+    :America/Sao_Paulo:
+      :city: Σάο Πάολο
+    :America/Maceio:
+      :city: Μασεϊό
+    :America/Noronha:
+      :city: Νορόνια
+    :America/Coral_Harbour:
+      :city: Ατικόκαν
+    :America/St_Johns:
+      :city: Σεν Τζονς
+    :Asia/Urumqi:
+      :city: Ουρούμτσι
+    :America/Bogota:
+      :city: Μπογκοτά
+    :America/Curacao:
+      :city: Κουρασάο
+    :Europe/Busingen:
+      :city: Μπίσινγκεν
+    :Pacific/Galapagos:
+      :city: Γκαλάπαγκος
+    :Africa/El_Aaiun:
+      :city: Ελ Αγιούν
+    :Africa/Asmera:
+      :city: Ασμάρα
+    :Atlantic/Canary:
+      :city: Κανάρια
+    :Pacific/Truk:
+      :city: Τσουκ
+    :Pacific/Ponape:
+      :city: Πονάπε
+    :Atlantic/Faeroe:
+      :city: Φερόες
+    :America/Godthab:
+      :city: Νουούκ
+    :America/Scoresbysund:
+      :city: Σκορεσμπίσουντ
+    :Asia/Calcutta:
+      :city: Καλκούτα
+    :Pacific/Enderbury:
+      :city: Καντών
+    :Indian/Comoro:
+      :city: Κομόρο
+    :America/St_Kitts:
+      :city: Σεν Κιτς
+    :America/St_Lucia:
+      :city: Αγία Λουκία
+    :Europe/Chisinau:
+      :city: Κισινάου
+    :Asia/Rangoon:
+      :city: Ρανγκούν
+    :Asia/Hovd:
+      :city: Χοβντ
+    :Asia/Macau:
+      :city: Μακάο
+    :America/Ciudad_Juarez:
+      :city: Σιουδάδ Χουάρες
+    :America/Mazatlan:
+      :city: Μαζατλάν
+    :America/Bahia_Banderas:
+      :city: Μπαΐα ντε Μπαντέρας
+    :America/Mexico_City:
+      :city: Πόλη του Μεξικού
+    :America/Merida:
+      :city: Μέριδα
+    :America/Cancun:
+      :city: Κανκούν
+    :Pacific/Noumea:
+      :city: Νουμέα
+    :Asia/Katmandu:
+      :city: Κατμαντού
+    :America/Miquelon:
+      :city: Μικελόν
+    :America/Asuncion:
+      :city: Ασουνσιόν
+    :Indian/Reunion:
+      :city: Ρεϊνιόν
+    :Indian/Mahe:
+      :city: Μάχε
+    :Atlantic/St_Helena:
+      :city: Αγ. Ελένη
+    :Africa/Sao_Tome:
+      :city: Σάο Τομέ
+    :America/Lower_Princes:
+      :city: Lower Prince’s Quarter
+    :Africa/Ndjamena:
+      :city: Ντζαμένα
+    :Africa/Lome:
+      :city: Λομέ
+    :Europe/Kiev:
+      :city: Κίεβο
+    :America/North_Dakota/Beulah:
+      :city: Μπέουλα, Βόρεια Ντακότα
+    :America/North_Dakota/New_Salem:
+      :city: Νιου Σέιλεμ, Βόρεια Ντακότα
+    :America/North_Dakota/Center:
+      :city: Σέντερ, Βόρεια Ντακότα
+    :America/Indiana/Vincennes:
+      :city: Βανσέν, Ιντιάνα
+    :America/Indiana/Petersburg:
+      :city: Πίτερσμπεργκ, Ιντιάνα
+    :America/Indiana/Tell_City:
+      :city: Τελ Σίτι, Ιντιάνα
+    :America/Indiana/Knox:
+      :city: Νοξ, Ιντιάνα
+    :America/Indiana/Winamac:
+      :city: Γουίναμακ, Ιντιάνα
+    :America/Indiana/Marengo:
+      :city: Μαρένγκο, Ιντιάνα
+    :America/Indiana/Vevay:
+      :city: Βιβέι, Ιντιάνα
+    :America/Kentucky/Monticello:
+      :city: Μοντιτσέλο, Κεντάκι
+    :America/St_Vincent:
+      :city: Άγιος Βικέντιος
+    :America/St_Thomas:
+      :city: Άγιος Θωμάς
+    :Asia/Saigon:
+      :city: Πόλη Χο Τσι Μινχ
+    :Pacific/Wallis:
+      :city: Γουάλις
+    :Pacific/Honolulu:
+      :city: Χονολουλού
+    :Etc/Unknown:
+      :city: Άγνωστη πόλη
+    :Europe/Andorra:
+      :city: Ανδόρα
+    :Asia/Dubai:
+      :city: Ντουμπάι
+    :Asia/Kabul:
+      :city: Καμπούλ
+    :America/Antigua:
+      :city: Αντίγκουα
+    :America/Anguilla:
+      :city: Ανγκουίλα
+    :Asia/Yerevan:
+      :city: Ερεβάν
+    :Africa/Luanda:
+      :city: Λουάντα
+    :Antarctica/Rothera:
+      :city: Ρόθερα
+    :Antarctica/Palmer:
+      :city: Πάλμερ
+    :Antarctica/Troll:
+      :city: Τρολ
+    :Antarctica/Mawson:
+      :city: Μόσον
+    :Antarctica/Davis:
+      :city: Ντέιβις
+    :Antarctica/Vostok:
+      :city: Βόστοκ
+    :Antarctica/Casey:
+      :city: Κάσεϊ
+    :Antarctica/McMurdo:
+      :city: Μακμέρντο
+    :America/Mendoza:
+      :city: Μεντόζα
+    :America/Argentina/San_Juan:
+      :city: Σαν Χουάν
+    :America/Argentina/Ushuaia:
+      :city: Ουσουάια
+    :America/Argentina/La_Rioja:
+      :city: Λα Ριόχα
+    :America/Argentina/San_Luis:
+      :city: Σαν Λούις
+    :America/Catamarca:
+      :city: Καταμάρκα
+    :America/Argentina/Salta:
+      :city: Σάλτα
+    :America/Jujuy:
+      :city: Χουχούι
+    :America/Buenos_Aires:
+      :city: Μπουένος Άιρες
+    :Pacific/Pago_Pago:
+      :city: Πάγκο Πάγκο
+    :Europe/Vienna:
+      :city: Βιέννη
+    :Australia/Perth:
+      :city: Περθ
+    :Australia/Eucla:
+      :city: Γιούκλα
+    :Australia/Darwin:
+      :city: Ντάργουιν
+    :Australia/Adelaide:
+      :city: Αδελαΐδα
+    :Australia/Broken_Hill:
+      :city: Μπρόκεν Χιλ
+    :Australia/Melbourne:
+      :city: Μελβούρνη
+    :Australia/Hobart:
+      :city: Χόμπαρτ
+    :Australia/Lindeman:
+      :city: Λίντεμαν
+    :Australia/Sydney:
+      :city: Σίδνεϊ
+    :Australia/Brisbane:
+      :city: Μπρισμπέιν
+    :Antarctica/Macquarie:
+      :city: Μακουάρι
+    :Australia/Lord_Howe:
+      :city: Λορντ Χάου
+    :America/Aruba:
+      :city: Αρούμπα
+    :Europe/Mariehamn:
+      :city: Μάριεχαμν
+    :Asia/Baku:
+      :city: Μπακού
+    :Europe/Sarajevo:
+      :city: Σαράγεβο
+    :America/Barbados:
+      :city: Μπαρμπέιντος
+    :Asia/Dhaka:
+      :city: Ντάκα
+    :Europe/Brussels:
+      :city: Βρυξέλλες
+    :Africa/Ouagadougou:
+      :city: Ουαγκαντούγκου
+    :Europe/Sofia:
+      :city: Σόφια
+    :Asia/Bahrain:
+      :city: Μπαχρέιν
+    :Africa/Bujumbura:
+      :city: Μπουζουμπούρα
+    :Africa/Porto-Novo:
+      :city: Πόρτο-Νόβο
+    :Atlantic/Bermuda:
+      :city: Βερμούδες
+    :Asia/Brunei:
+      :city: Μπρουνέι
+    :America/La_Paz:
+      :city: Λα Παζ
+    :America/Kralendijk:
+      :city: Κράλεντικ
+    :America/Rio_Branco:
+      :city: Ρίο Μπράνκο
+    :America/Porto_Velho:
+      :city: Πόρτο Βέλιο
+    :America/Boa_Vista:
+      :city: Μπόα Βίστα
+    :America/Manaus:
+      :city: Μανάους
+    :America/Campo_Grande:
+      :city: Κάμπο Γκράντε
+    :America/Bahia:
+      :city: Μπαΐα
+    :America/Fortaleza:
+      :city: Φορταλέζα
+    :America/Recife:
+      :city: Ρεσίφε
+    :America/Nassau:
+      :city: Νασάου
+    :Asia/Thimphu:
+      :city: Θίμφου
+    :Africa/Gaborone:
+      :city: Γκαμπορόνε
+    :Europe/Minsk:
+      :city: Μινσκ
+    :America/Belize:
+      :city: Μπελίζ
+    :America/Dawson:
+      :city: Ντόσον
+    :America/Whitehorse:
+      :city: Γουάιτχορς
+    :America/Inuvik:
+      :city: Ινούβικ
+    :America/Vancouver:
+      :city: Βανκούβερ
+    :America/Fort_Nelson:
+      :city: Φορτ Νέλσον
+    :America/Dawson_Creek:
+      :city: Ντόσον Κρικ
+    :America/Creston:
+      :city: Κρέστον
+    :America/Edmonton:
+      :city: Έντμοντον
+    :America/Swift_Current:
+      :city: Σουίφτ Κάρεντ
+    :America/Cambridge_Bay:
+      :city: Κέμπριτζ Μπέι
+    :America/Regina:
+      :city: Ρετζάινα
+    :America/Winnipeg:
+      :city: Γουίνιπεγκ
+    :America/Resolute:
+      :city: Ρέζολουτ
+    :America/Rankin_Inlet:
+      :city: Ράνκιν Ίνλετ
+    :America/Toronto:
+      :city: Τορόντο
+    :America/Iqaluit:
+      :city: Ικαλούιτ
+    :America/Moncton:
+      :city: Μόνκτον
+    :America/Halifax:
+      :city: Χάλιφαξ
+    :America/Goose_Bay:
+      :city: Γκους Μπέι
+    :America/Glace_Bay:
+      :city: Γκλέις Μπέι
+    :America/Blanc-Sablon:
+      :city: Μπλαν Σαμπλόν
+    :Indian/Cocos:
+      :city: Κόκος
+    :Africa/Kinshasa:
+      :city: Κινσάσα
+    :Africa/Lubumbashi:
+      :city: Λουμπουμπάσι
+    :Africa/Bangui:
+      :city: Μπανγκί
+    :Africa/Brazzaville:
+      :city: Μπραζαβίλ
+    :Europe/Zurich:
+      :city: Ζυρίχη
+    :Africa/Abidjan:
+      :city: Αμπιτζάν
+    :Pacific/Rarotonga:
+      :city: Ραροτόνγκα
+    :Pacific/Easter:
+      :city: Νήσος Πάσχα
+    :America/Coyhaique:
+      :city: Κοϊάικε
+    :America/Punta_Arenas:
+      :city: Πούντα Αρένας
+    :America/Santiago:
+      :city: Σαντιάγκο
+    :Africa/Douala:
+      :city: Ντουάλα
+    :Asia/Shanghai:
+      :city: Σανγκάη
+    :America/Costa_Rica:
+      :city: Κόστα Ρίκα
+    :America/Havana:
+      :city: Αβάνα
+    :Atlantic/Cape_Verde:
+      :city: Πράσινο Ακρωτήριο
+    :Indian/Christmas:
+      :city: Νήσος Χριστουγέννων
+    :Asia/Nicosia:
+      :city: Λευκωσία
+    :Asia/Famagusta:
+      :city: Αμμόχωστος
+    :Europe/Prague:
+      :city: Πράγα
+    :Europe/Berlin:
+      :city: Βερολίνο
+    :Africa/Djibouti:
+      :city: Τζιμπουτί
+    :Europe/Copenhagen:
+      :city: Κοπεγχάγη
+    :America/Dominica:
+      :city: Ντομίνικα
+    :America/Santo_Domingo:
+      :city: Άγιος Δομίνικος
+    :Africa/Algiers:
+      :city: Αλγέρι
+    :America/Guayaquil:
+      :city: Γκουαγιακίλ
+    :Europe/Tallinn:
+      :city: Ταλίν
+    :Africa/Cairo:
+      :city: Κάιρο
+    :Africa/Ceuta:
+      :city: Θέουτα
+    :Europe/Madrid:
+      :city: Μαδρίτη
+    :Africa/Addis_Ababa:
+      :city: Αντίς Αμπέμπα
+    :Europe/Helsinki:
+      :city: Ελσίνκι
+    :Pacific/Fiji:
+      :city: Φίτζι
+    :Atlantic/Stanley:
+      :city: Στάνλεϊ
+    :Pacific/Kosrae:
+      :city: Κόσραϊ
+    :Europe/Paris:
+      :city: Παρίσι
+    :Africa/Libreville:
+      :city: Λιμπρεβίλ
+    :Europe/London:
+      :long:
+        :daylight: Θερινή ώρα Βρετανίας
+      :city: Λονδίνο
+    :America/Grenada:
+      :city: Γρενάδα
+    :Asia/Tbilisi:
+      :city: Τιφλίδα
+    :America/Cayenne:
+      :city: Καγιέν
+    :Europe/Guernsey:
+      :city: Γκέρνζι
+    :Africa/Accra:
+      :city: Άκρα
+    :Europe/Gibraltar:
+      :city: Γιβραλτάρ
+    :America/Thule:
+      :city: Θούλη
+    :America/Danmarkshavn:
+      :city: Ντανμαρκσάβν
+    :Africa/Banjul:
+      :city: Μπανζούλ
+    :Africa/Conakry:
+      :city: Κόνακρι
+    :America/Guadeloupe:
+      :city: Γουαδελούπη
+    :Africa/Malabo:
+      :city: Μαλάμπο
+    :Europe/Athens:
+      :city: Αθήνα
+    :Atlantic/South_Georgia:
+      :city: Νότια Γεωργία
+    :America/Guatemala:
+      :city: Γουατεμάλα
+    :Pacific/Guam:
+      :city: Γκουάμ
+    :Africa/Bissau:
+      :city: Μπισάου
+    :America/Guyana:
+      :city: Γουιάνα
+    :Asia/Hong_Kong:
+      :city: Χονγκ Κονγκ
+    :America/Tegucigalpa:
+      :city: Τεγκουσιγκάλπα
+    :Europe/Zagreb:
+      :city: Ζάγκρεμπ
+    :America/Port-au-Prince:
+      :city: Πορτ-ο-Πρενς
+    :Europe/Budapest:
+      :city: Βουδαπέστη
+    :Asia/Jakarta:
+      :city: Τζακάρτα
+    :Asia/Pontianak:
+      :city: Πόντιανακ
+    :Asia/Makassar:
+      :city: Μακασάρ
+    :Asia/Jayapura:
+      :city: Τζαγιαπούρα
+    :Europe/Dublin:
+      :long:
+        :daylight: Χειμερινή ώρα Ιρλανδίας
+      :city: Δουβλίνο
+    :Asia/Jerusalem:
+      :city: Ιερουσαλήμ
+    :Europe/Isle_of_Man:
+      :city: Νήσος του Μαν
+    :Indian/Chagos:
+      :city: Τσάγκος
+    :Asia/Baghdad:
+      :city: Βαγδάτη
+    :Asia/Tehran:
+      :city: Τεχεράνη
+    :Atlantic/Reykjavik:
+      :city: Ρέυκιαβικ
+    :Europe/Rome:
+      :city: Ρώμη
+    :Europe/Jersey:
+      :city: Τζέρσεϊ
+    :America/Jamaica:
+      :city: Τζαμάικα
+    :Asia/Amman:
+      :city: Αμμάν
+    :Asia/Tokyo:
+      :city: Τόκιο
+    :Africa/Nairobi:
+      :city: Ναϊρόμπι
+    :Asia/Bishkek:
+      :city: Μπισκέκ
+    :Asia/Phnom_Penh:
+      :city: Πνομ Πενχ
+    :Pacific/Kiritimati:
+      :city: Κιριτιμάτι
+    :Pacific/Tarawa:
+      :city: Ταράουα
+    :Asia/Pyongyang:
+      :city: Πιονγκγιάνγκ
+    :Asia/Seoul:
+      :city: Σεούλ
+    :Asia/Kuwait:
+      :city: Κουβέιτ
+    :America/Cayman:
+      :city: Κέιμαν
+    :Asia/Aqtau:
+      :city: Ακτάου
+    :Asia/Oral:
+      :city: Οράλ
+    :Asia/Atyrau:
+      :city: Ατιράου
+    :Asia/Aqtobe:
+      :city: Ακτόμπε
+    :Asia/Qostanay:
+      :city: Κοστανάι
+    :Asia/Qyzylorda:
+      :city: Κιζιλορντά
+    :Asia/Almaty:
+      :city: Αλμάτι
+    :Asia/Vientiane:
+      :city: Βιεντιάν
+    :Asia/Beirut:
+      :city: Βυρητός
+    :Europe/Vaduz:
+      :city: Βαντούζ
+    :Asia/Colombo:
+      :city: Κολόμπο
+    :Africa/Monrovia:
+      :city: Μονρόβια
+    :Africa/Maseru:
+      :city: Μασέρου
+    :Europe/Vilnius:
+      :city: Βίλνιους
+    :Europe/Luxembourg:
+      :city: Λουξεμβούργο
+    :Europe/Riga:
+      :city: Ρίγα
+    :Africa/Tripoli:
+      :city: Τρίπολη
+    :Africa/Casablanca:
+      :city: Καζαμπλάνκα
+    :Europe/Monaco:
+      :city: Μονακό
+    :Europe/Podgorica:
+      :city: Ποντγκόριτσα
+    :America/Marigot:
+      :city: Μαριγκό
+    :Indian/Antananarivo:
+      :city: Ανταναναρίβο
+    :Pacific/Kwajalein:
+      :city: Κουατζαλέιν
+    :Pacific/Majuro:
+      :city: Ματζούρο
+    :Europe/Skopje:
+      :city: Σκόπια
+    :Africa/Bamako:
+      :city: Μπαμάκο
+    :Asia/Ulaanbaatar:
+      :city: Ουλάν Μπατόρ
+    :Pacific/Saipan:
+      :city: Σαϊπάν
+    :America/Martinique:
+      :city: Μαρτινίκα
+    :Africa/Nouakchott:
+      :city: Νουακσότ
+    :America/Montserrat:
+      :city: Μονσεράτ
+    :Europe/Malta:
+      :city: Μάλτα
+    :Indian/Mauritius:
+      :city: Μαυρίκιος
+    :Indian/Maldives:
+      :city: Μαλδίβες
+    :Africa/Blantyre:
+      :city: Μπλαντάιρ
+    :America/Tijuana:
+      :city: Τιχουάνα
+    :America/Hermosillo:
+      :city: Ερμοσίγιο
+    :America/Chihuahua:
+      :city: Τσιουάουα
+    :America/Ojinaga:
+      :city: Οχινάγκα
+    :America/Monterrey:
+      :city: Μοντερέι
+    :America/Matamoros:
+      :city: Ματαμόρος
+    :Asia/Kuala_Lumpur:
+      :city: Κουάλα Λουμπούρ
+    :Asia/Kuching:
+      :city: Κουτσίνγκ
+    :Africa/Maputo:
+      :city: Μαπούτο
+    :Africa/Windhoek:
+      :city: Βίντχουκ
+    :Africa/Niamey:
+      :city: Νιαμέι
+    :Pacific/Norfolk:
+      :city: Νόρφολκ
+    :Africa/Lagos:
+      :city: Λάγκος
+    :America/Managua:
+      :city: Μανάγκουα
+    :Europe/Amsterdam:
+      :city: Άμστερνταμ
+    :Europe/Oslo:
+      :city: Όσλο
+    :Pacific/Nauru:
+      :city: Ναούρου
+    :Pacific/Niue:
+      :city: Νιούε
+    :Pacific/Chatham:
+      :city: Τσάταμ
+    :Pacific/Auckland:
+      :city: Όκλαντ
+    :Asia/Muscat:
+      :city: Μασκάτ
+    :America/Panama:
+      :city: Παναμάς
+    :America/Lima:
+      :city: Λίμα
+    :Pacific/Tahiti:
+      :city: Ταϊτή
+    :Pacific/Marquesas:
+      :city: Μαρκέζας
+    :Pacific/Gambier:
+      :city: Γκάμπιερ
+    :Pacific/Port_Moresby:
+      :city: Πορτ Μόρεσμπι
+    :Pacific/Bougainville:
+      :city: Μπουγκενβίλ
+    :Asia/Manila:
+      :city: Μανίλα
+    :Asia/Karachi:
+      :city: Καράτσι
+    :Europe/Warsaw:
+      :city: Βαρσοβία
+    :Pacific/Pitcairn:
+      :city: Πίτκερν
+    :America/Puerto_Rico:
+      :city: Πουέρτο Ρίκο
+    :Asia/Gaza:
+      :city: Γάζα
+    :Asia/Hebron:
+      :city: Χεβρώνα
+    :Atlantic/Azores:
+      :city: Αζόρες
+    :Atlantic/Madeira:
+      :city: Μαδέρα
+    :Europe/Lisbon:
+      :city: Λισαβόνα
+    :Pacific/Palau:
+      :city: Παλάου
+    :Asia/Qatar:
+      :city: Κατάρ
+    :Europe/Bucharest:
+      :city: Βουκουρέστι
+    :Europe/Belgrade:
+      :city: Βελιγράδι
+    :Europe/Kaliningrad:
+      :city: Καλίνινγκραντ
+    :Europe/Moscow:
+      :city: Μόσχα
+    :Europe/Volgograd:
+      :city: Βόλγκοκραντ
+    :Europe/Saratov:
+      :city: Σαράτοφ
+    :Europe/Astrakhan:
+      :city: Αστραχάν
+    :Europe/Ulyanovsk:
+      :city: Ουλιάνοφσκ
+    :Europe/Kirov:
+      :city: Κίροφ
+    :Europe/Samara:
+      :city: Σαμάρα
+    :Asia/Yekaterinburg:
+      :city: Αικατερινούπολη
+    :Asia/Omsk:
+      :city: Ομσκ
+    :Asia/Novosibirsk:
+      :city: Νοβοσιμπίρσκ
+    :Asia/Barnaul:
+      :city: Μπαρναούλ
+    :Asia/Tomsk:
+      :city: Τομσκ
+    :Asia/Novokuznetsk:
+      :city: Νοβοκουζνέτσκ
+    :Asia/Krasnoyarsk:
+      :city: Κρασνογιάρσκ
+    :Asia/Irkutsk:
+      :city: Ιρκούτσκ
+    :Asia/Chita:
+      :city: Τσιτά
+    :Asia/Yakutsk:
+      :city: Γιακούτσκ
+    :Asia/Vladivostok:
+      :city: Βλαδιβοστόκ
+    :Asia/Khandyga:
+      :city: Χαντίγκα
+    :Asia/Sakhalin:
+      :city: Σαχαλίνη
+    :Asia/Ust-Nera:
+      :city: Ουστ-Νερά
+    :Asia/Magadan:
+      :city: Μαγκαντάν
+    :Asia/Srednekolymsk:
+      :city: Σρεντνεκολίμσκ
+    :Asia/Kamchatka:
+      :city: Καμτσάτκα
+    :Asia/Anadyr:
+      :city: Αναντίρ
+    :Africa/Kigali:
+      :city: Κιγκάλι
+    :Asia/Riyadh:
+      :city: Ριάντ
+    :Pacific/Guadalcanal:
+      :city: Γκουανταλκανάλ
+    :Africa/Khartoum:
+      :city: Χαρτούμ
+    :Europe/Stockholm:
+      :city: Στοκχόλμη
+    :Asia/Singapore:
+      :city: Σιγκαπούρη
+    :Europe/Ljubljana:
+      :city: Λιουμπλιάνα
+    :Arctic/Longyearbyen:
+      :city: Λόνγκιεαρμπιεν
+    :Europe/Bratislava:
+      :city: Μπρατισλάβα
+    :Africa/Freetown:
+      :city: Φρίταουν
+    :Europe/San_Marino:
+      :city: Άγιος Μαρίνος
+    :Africa/Dakar:
+      :city: Ντακάρ
+    :Africa/Mogadishu:
+      :city: Μογκαντίσου
+    :America/Paramaribo:
+      :city: Παραμαρίμπο
+    :Africa/Juba:
+      :city: Τζούμπα
+    :America/El_Salvador:
+      :city: Ελ Σαλβαδόρ
+    :Asia/Damascus:
+      :city: Δαμασκός
+    :Africa/Mbabane:
+      :city: Μπαμπάνε
+    :America/Grand_Turk:
+      :city: Γκραντ Τουρκ
+    :Indian/Kerguelen:
+      :city: Κεργκελέν
+    :Asia/Bangkok:
+      :city: Μπανγκόκ
+    :Asia/Dushanbe:
+      :city: Ντουσάνμπε
+    :Pacific/Fakaofo:
+      :city: Φακαόφο
+    :Asia/Dili:
+      :city: Ντίλι
+    :Asia/Ashgabat:
+      :city: Ασχαμπάτ
+    :Africa/Tunis:
+      :city: Τύνιδα
+    :Pacific/Tongatapu:
+      :city: Τονγκατάπου
+    :Europe/Istanbul:
+      :city: Κωνσταντινούπολη
+    :America/Port_of_Spain:
+      :city: Πορτ οφ Σπέιν
+    :Pacific/Funafuti:
+      :city: Φουναφούτι
+    :Asia/Taipei:
+      :city: Ταϊπέι
+    :Africa/Dar_es_Salaam:
+      :city: Νταρ ες Σαλάμ
+    :Europe/Simferopol:
+      :city: Συμφερόπολη
+    :Africa/Kampala:
+      :city: Καμπάλα
+    :Pacific/Midway:
+      :city: Μίντγουεϊ
+    :Pacific/Wake:
+      :city: Γουέικ
+    :America/Adak:
+      :city: Άντακ
+    :America/Nome:
+      :city: Νόμε
+    :America/Anchorage:
+      :city: Άνκορατζ
+    :America/Yakutat:
+      :city: Γιάκουτατ
+    :America/Sitka:
+      :city: Σίτκα
+    :America/Juneau:
+      :city: Τζούνο
+    :America/Metlakatla:
+      :city: Μετλακάτλα
+    :America/Los_Angeles:
+      :city: Λος Άντζελες
+    :America/Boise:
+      :city: Μπόιζι
+    :America/Phoenix:
+      :city: Φοίνιξ
+    :America/Denver:
+      :city: Ντένβερ
+    :America/Chicago:
+      :city: Σικάγο
+    :America/Menominee:
+      :city: Μενομίνε
+    :America/Indianapolis:
+      :city: Ιντιανάπολις
+    :America/Louisville:
+      :city: Λούιβιλ
+    :America/Detroit:
+      :city: Ντιτρόιτ
+    :America/New_York:
+      :city: Νέα Υόρκη
+    :America/Montevideo:
+      :city: Μοντεβιδέο
+    :Asia/Samarkand:
+      :city: Σαμαρκάνδη
+    :Asia/Tashkent:
+      :city: Τασκένδη
+    :Europe/Vatican:
+      :city: Βατικανό
+    :America/Caracas:
+      :city: Καράκας
+    :America/Tortola:
+      :city: Τορτόλα
+    :Pacific/Efate:
+      :city: Εφάτε
+    :Pacific/Apia:
+      :city: Απία
+    :Asia/Aden:
+      :city: Άντεν
+    :Indian/Mayotte:
+      :city: Μαγιότ
+    :Africa/Johannesburg:
+      :city: Γιοχάνεσμπουργκ
+    :Africa/Lusaka:
+      :city: Λουζάκα
+    :Africa/Harare:
+      :city: Χαράρε
+  :metazones:
+    :Acre:
+      :long:
+        :generic: Ώρα Άκρε
+        :standard: Χειμερινή ώρα Άκρε
+        :daylight: Θερινή ώρα Άκρε
+    :Afghanistan:
+      :long:
+        :standard: Ώρα Αφγανιστάν
+    :Africa_Central:
+      :long:
+        :standard: Ώρα Κεντρικής Αφρικής
+    :Africa_Eastern:
+      :long:
+        :standard: Ώρα Ανατολικής Αφρικής
+    :Africa_Southern:
+      :long:
+        :standard: Χειμερινή ώρα Νότιας Αφρικής
+    :Africa_Western:
+      :long:
+        :standard: Ώρα Δυτικής Αφρικής
+    :Alaska:
+      :long:
+        :generic: Ώρα Αλάσκας
+        :standard: Χειμερινή ώρα Αλάσκας
+        :daylight: Θερινή ώρα Αλάσκας
+    :Amazon:
+      :long:
+        :generic: Ώρα Αμαζονίου
+        :standard: Χειμερινή ώρα Αμαζονίου
+        :daylight: Θερινή ώρα Αμαζονίου
+    :America_Central:
+      :long:
+        :generic: Κεντρική ώρα Βόρειας Αμερικής
+        :standard: Κεντρική χειμερινή ώρα Βόρειας Αμερικής
+        :daylight: Κεντρική θερινή ώρα Βόρειας Αμερικής
+    :America_Eastern:
+      :long:
+        :generic: Ανατολική ώρα Βόρειας Αμερικής
+        :standard: Ανατολική χειμερινή ώρα Βόρειας Αμερικής
+        :daylight: Ανατολική θερινή ώρα Βόρειας Αμερικής
+    :America_Mountain:
+      :long:
+        :generic: Ορεινή ώρα Βόρειας Αμερικής
+        :standard: Ορεινή χειμερινή ώρα Βόρειας Αμερικής
+        :daylight: Ορεινή θερινή ώρα Βόρειας Αμερικής
+    :America_Pacific:
+      :long:
+        :generic: Ώρα Ειρηνικού
+        :standard: Χειμερινή ώρα Ειρηνικού
+        :daylight: Θερινή ώρα Ειρηνικού
+    :Anadyr:
+      :long:
+        :generic: Ώρα Αναντίρ
+        :standard: Χειμερινή ώρα Αναντίρ
+        :daylight: Θερινή ώρα Αναντίρ
+    :Apia:
+      :long:
+        :generic: Ώρα Απία
+        :standard: Χειμερινή ώρα Απία
+        :daylight: Θερινή ώρα Απία
+    :Arabian:
+      :long:
+        :generic: Αραβική ώρα
+        :standard: Αραβική χειμερινή ώρα
+        :daylight: Αραβική θερινή ώρα
+    :Argentina:
+      :long:
+        :generic: Ώρα Αργεντινής
+        :standard: Χειμερινή ώρα Αργεντινής
+        :daylight: Θερινή ώρα Αργεντινής
+    :Argentina_Western:
+      :long:
+        :generic: Ώρα Δυτικής Αργεντινής
+        :standard: Χειμερινή ώρα Δυτικής Αργεντινής
+        :daylight: Θερινή ώρα Δυτικής Αργεντινής
+    :Armenia:
+      :long:
+        :generic: Ώρα Αρμενίας
+        :standard: Χειμερινή ώρα Αρμενίας
+        :daylight: Θερινή ώρα Αρμενίας
+    :Atlantic:
+      :long:
+        :generic: Ώρα Ατλαντικού
+        :standard: Χειμερινή ώρα Ατλαντικού
+        :daylight: Θερινή ώρα Ατλαντικού
+    :Australia_Central:
+      :long:
+        :generic: Ώρα Κεντρικής Αυστραλίας
+        :standard: Χειμερινή ώρα Κεντρικής Αυστραλίας
+        :daylight: Θερινή ώρα Κεντρικής Αυστραλίας
+    :Australia_CentralWestern:
+      :long:
+        :generic: Ώρα Κεντροδυτικής Αυστραλίας
+        :standard: Χειμερινή ώρα Κεντροδυτικής Αυστραλίας
+        :daylight: Θερινή ώρα Κεντροδυτικής Αυστραλίας
+    :Australia_Eastern:
+      :long:
+        :generic: Ώρα Ανατολικής Αυστραλίας
+        :standard: Χειμερινή ώρα Ανατολικής Αυστραλίας
+        :daylight: Θερινή ώρα Ανατολικής Αυστραλίας
+    :Australia_Western:
+      :long:
+        :generic: Ώρα Δυτικής Αυστραλίας
+        :standard: Χειμερινή ώρα Δυτικής Αυστραλίας
+        :daylight: Θερινή ώρα Δυτικής Αυστραλίας
+    :Azerbaijan:
+      :long:
+        :generic: Ώρα Αζερμπαϊτζάν
+        :standard: Χειμερινή ώρα Αζερμπαϊτζάν
+        :daylight: Θερινή ώρα Αζερμπαϊτζάν
+    :Azores:
+      :long:
+        :generic: Ώρα Αζορών
+        :standard: Χειμερινή ώρα Αζορών
+        :daylight: Θερινή ώρα Αζορών
+    :Bangladesh:
+      :long:
+        :generic: Ώρα Μπανγκλαντές
+        :standard: Χειμερινή ώρα Μπανγκλαντές
+        :daylight: Θερινή ώρα Μπανγκλαντές
+    :Bhutan:
+      :long:
+        :standard: Ώρα Μπουτάν
+    :Bolivia:
+      :long:
+        :standard: Ώρα Βολιβίας
+    :Brasilia:
+      :long:
+        :generic: Ώρα Μπραζίλιας
+        :standard: Χειμερινή ώρα Μπραζίλιας
+        :daylight: Θερινή ώρα Μπραζίλιας
+    :Brunei:
+      :long:
+        :standard: Ώρα Μπρουνέι Νταρουσαλάμ
+    :Cape_Verde:
+      :long:
+        :generic: Ώρα Πράσινου Ακρωτηρίου
+        :standard: Χειμερινή ώρα Πράσινου Ακρωτηρίου
+        :daylight: Θερινή ώρα Πράσινου Ακρωτηρίου
+    :Chamorro:
+      :long:
+        :standard: Ώρα Τσαμόρο
+    :Chatham:
+      :long:
+        :generic: Ώρα Τσάταμ
+        :standard: Χειμερινή ώρα Τσάταμ
+        :daylight: Θερινή ώρα Τσάταμ
+    :Chile:
+      :long:
+        :generic: Ώρα Χιλής
+        :standard: Χειμερινή ώρα Χιλής
+        :daylight: Θερινή ώρα Χιλής
+    :China:
+      :long:
+        :generic: Ώρα Κίνας
+        :standard: Χειμερινή ώρα Κίνας
+        :daylight: Θερινή ώρα Κίνας
+    :Christmas:
+      :long:
+        :standard: Ώρα Νήσου Χριστουγέννων
+    :Cocos:
+      :long:
+        :standard: Ώρα Νήσων Κόκος
+    :Colombia:
+      :long:
+        :generic: Ώρα Κολομβίας
+        :standard: Χειμερινή ώρα Κολομβίας
+        :daylight: Θερινή ώρα Κολομβίας
+    :Cook:
+      :long:
+        :generic: Ώρα Νήσων Κουκ
+        :standard: Χειμερινή ώρα Νήσων Κουκ
+        :daylight: Θερινή ώρα Νήσων Κουκ
+    :Cuba:
+      :long:
+        :generic: Ώρα Κούβας
+        :standard: Χειμερινή ώρα Κούβας
+        :daylight: Θερινή ώρα Κούβας
+    :Davis:
+      :long:
+        :standard: Ώρα Ντέιβις
+    :DumontDUrville:
+      :long:
+        :standard: Ώρα Ντιμόν ντ’ Ουρβίλ
+    :East_Timor:
+      :long:
+        :standard: Ώρα Ανατολικού Τιμόρ
+    :Easter:
+      :long:
+        :generic: Ώρα Νήσου Πάσχα
+        :standard: Χειμερινή ώρα Νήσου Πάσχα
+        :daylight: Θερινή ώρα Νήσου Πάσχα
+    :Ecuador:
+      :long:
+        :standard: Ώρα Ισημερινού
+    :Europe_Central:
+      :long:
+        :generic: Ώρα Κεντρικής Ευρώπης
+        :standard: Χειμερινή ώρα Κεντρικής Ευρώπης
+        :daylight: Θερινή ώρα Κεντρικής Ευρώπης
+      :short:
         :generic: CET
         :standard: CET
-    :Europe_Eastern: 
-      :long: 
-        :daylight: "Θερινή ώρα Ανατολικής Ευρώπης"
-        :generic: "Ώρα Ανατολικής Ευρώπης"
-        :standard: "Χειμερινή ώρα Ανατολικής Ευρώπης"
-      :short: 
-        :daylight: EEST
+        :daylight: CEST
+    :Europe_Eastern:
+      :long:
+        :generic: Ώρα Ανατολικής Ευρώπης
+        :standard: Χειμερινή ώρα Ανατολικής Ευρώπης
+        :daylight: Θερινή ώρα Ανατολικής Ευρώπης
+      :short:
         :generic: EET
         :standard: EET
-    :Europe_Further_Eastern: 
-      :long: 
-        :standard: "Ώρα περαιτέρω Ανατολικής Ευρώπης"
-    :Europe_Western: 
-      :long: 
-        :daylight: "Θερινή ώρα Δυτικής Ευρώπης"
-        :generic: "Ώρα Δυτικής Ευρώπης"
-        :standard: "Χειμερινή ώρα Δυτικής Ευρώπης"
-      :short: 
-        :daylight: WEST
+        :daylight: EEST
+    :Europe_Further_Eastern:
+      :long:
+        :standard: Ώρα περαιτέρω Ανατολικής Ευρώπης
+    :Europe_Western:
+      :long:
+        :generic: Ώρα Δυτικής Ευρώπης
+        :standard: Χειμερινή ώρα Δυτικής Ευρώπης
+        :daylight: Θερινή ώρα Δυτικής Ευρώπης
+      :short:
         :generic: WET
         :standard: WET
-    :Falkland: 
-      :long: 
-        :daylight: "Θερινή ώρα Νήσων Φόκλαντ"
-        :generic: "Ώρα Νήσων Φόκλαντ"
-        :standard: "Χειμερινή ώρα Νήσων Φόκλαντ"
-    :Fiji: 
-      :long: 
-        :daylight: "Θερινή ώρα Φίτζι"
-        :generic: "Ώρα Φίτζι"
-        :standard: "Χειμερινή ώρα Φίτζι"
-    :French_Guiana: 
-      :long: 
-        :standard: "Ώρα Γαλλικής Γουιάνας"
-    :French_Southern: 
-      :long: 
-        :standard: "Ώρα Γαλλικού Νότου και Ανταρκτικής"
-    :GMT: 
-      :long: 
-        :standard: "Μέση ώρα Γκρίνουιτς"
-    :Galapagos: 
-      :long: 
-        :standard: "Ώρα Γκαλάπαγκος"
-    :Gambier: 
-      :long: 
-        :standard: "Ώρα Γκάμπιερ"
-    :Georgia: 
-      :long: 
-        :daylight: "Θερινή ώρα Γεωργίας"
-        :generic: "Ώρα Γεωργίας"
-        :standard: "Χειμερινή ώρα Γεωργίας"
-    :Gilbert_Islands: 
-      :long: 
-        :standard: "Ώρα Νήσων Γκίλμπερτ"
-    :Greenland_Eastern: 
-      :long: 
-        :daylight: "Θερινή ώρα Ανατολικής Γροιλανδίας"
-        :generic: "Ώρα Ανατολικής Γροιλανδίας"
-        :standard: "Χειμερινή ώρα Ανατολικής Γροιλανδίας"
-    :Greenland_Western: 
-      :long: 
-        :daylight: "Θερινή ώρα Δυτικής Γροιλανδίας"
-        :generic: "Ώρα Δυτικής Γροιλανδίας"
-        :standard: "Χειμερινή ώρα Δυτικής Γροιλανδίας"
-    :Guam: 
-      :long: 
-        :standard: "Ώρα Γκουάμ"
-    :Gulf: 
-      :long: 
-        :standard: "Ώρα Κόλπου"
-    :Guyana: 
-      :long: 
-        :standard: "Ώρα Γουιάνας"
-    :Hawaii: 
-      :long: 
-        :standard: "Χειμερινή ώρα Χαβάης-Αλεούτιων Νήσων"
-    :Hawaii_Aleutian: 
-      :long: 
-        :daylight: "Θερινή ώρα Χαβάης-Αλεούτιων Νήσων"
-        :generic: "Ώρα Χαβάης-Αλεούτιων Νήσων"
-        :standard: "Χειμερινή ώρα Χαβάης-Αλεούτιων Νήσων"
-    :Hong_Kong: 
-      :long: 
-        :daylight: "Θερινή ώρα Χονγκ Κονγκ"
-        :generic: "Ώρα Χονγκ Κονγκ"
-        :standard: "Χειμερινή ώρα Χονγκ Κονγκ"
-    :Hovd: 
-      :long: 
-        :daylight: "Θερινή ώρα Χοβντ"
-        :generic: "Ώρα Χοβντ"
-        :standard: "Χειμερινή ώρα Χοβντ"
-    :India: 
-      :long: 
-        :standard: "Ώρα Ινδίας"
-    :Indian_Ocean: 
-      :long: 
-        :standard: "Ώρα Ινδικού Ωκεανού"
-    :Indochina: 
-      :long: 
-        :standard: "Ώρα Ινδοκίνας"
-    :Indonesia_Central: 
-      :long: 
-        :standard: "Ώρα Κεντρικής Ινδονησίας"
-    :Indonesia_Eastern: 
-      :long: 
-        :standard: "Ώρα Ανατολικής Ινδονησίας"
-    :Indonesia_Western: 
-      :long: 
-        :standard: "Ώρα Δυτικής Ινδονησίας"
-    :Iran: 
-      :long: 
-        :daylight: "Θερινή ώρα Ιράν"
-        :generic: "Ώρα Ιράν"
-        :standard: "Χειμερινή ώρα Ιράν"
-    :Irkutsk: 
-      :long: 
-        :daylight: "Θερινή ώρα Ιρκούτσκ"
-        :generic: "Ώρα Ιρκούτσκ"
-        :standard: "Χειμερινή ώρα Ιρκούτσκ"
-    :Israel: 
-      :long: 
-        :daylight: "Θερινή ώρα Ισραήλ"
-        :generic: "Ώρα Ισραήλ"
-        :standard: "Χειμερινή ώρα Ισραήλ"
-    :Japan: 
-      :long: 
-        :daylight: "Θερινή ώρα Ιαπωνίας"
-        :generic: "Ώρα Ιαπωνίας"
-        :standard: "Χειμερινή ώρα Ιαπωνίας"
-    :Kamchatka: 
-      :long: 
-        :daylight: "Θερινή ώρα Πετροπαβλόβσκ-Καμτσάτσκι"
-        :generic: "Ώρα Καμτσάτκα"
-        :standard: "Χειμερινή ώρα Πετροπαβλόβσκ-Καμτσάτσκι"
-    :Kazakhstan: 
-      :long: 
-        :standard: "Ώρα Καζακστάν"
-    :Kazakhstan_Eastern: 
-      :long: 
-        :standard: "Ώρα Ανατολικού Καζακστάν"
-    :Kazakhstan_Western: 
-      :long: 
-        :standard: "Ώρα Δυτικού Καζακστάν"
-    :Korea: 
-      :long: 
-        :daylight: "Θερινή ώρα Κορέας"
-        :generic: "Ώρα Κορέας"
-        :standard: "Χειμερινή ώρα Κορέας"
-    :Kosrae: 
-      :long: 
-        :standard: "Ώρα Κόσραϊ"
-    :Krasnoyarsk: 
-      :long: 
-        :daylight: "Θερινή ώρα Κρασνογιάρσκ"
-        :generic: "Ώρα Κρασνογιάρσκ"
-        :standard: "Χειμερινή ώρα Κρασνογιάρσκ"
-    :Kyrgystan: 
-      :long: 
-        :standard: "Ώρα Κιργιστάν"
-    :Line_Islands: 
-      :long: 
-        :standard: "Ώρα Νήσων Λάιν"
-    :Lord_Howe: 
-      :long: 
-        :daylight: "Θερινή ώρα Λορντ Χάου"
-        :generic: "Ώρα Λορντ Χάου"
-        :standard: "Χειμερινή ώρα Λορντ Χάου"
-    :Macau: 
-      :long: 
-        :daylight: "Θερινή ώρα Μακάο"
-        :generic: "Ώρα Μακάο"
-        :standard: "Χειμερινή ώρα Μακάο"
-    :Magadan: 
-      :long: 
-        :daylight: "Θερινή ώρα Μαγκαντάν"
-        :generic: "Ώρα Μαγκαντάν"
-        :standard: "Χειμερινή ώρα Μαγκαντάν"
-    :Malaysia: 
-      :long: 
-        :standard: "Ώρα Μαλαισίας"
-    :Maldives: 
-      :long: 
-        :standard: "Ώρα Μαλδίβων"
-    :Marquesas: 
-      :long: 
-        :standard: "Ώρα Μαρκέζας"
-    :Marshall_Islands: 
-      :long: 
-        :standard: "Ώρα Νήσων Μάρσαλ"
-    :Mauritius: 
-      :long: 
-        :daylight: "Θερινή ώρα Μαυρίκιου"
-        :generic: "Ώρα Μαυρίκιου"
-        :standard: "Χειμερινή ώρα Μαυρίκιου"
-    :Mawson: 
-      :long: 
-        :standard: "Ώρα Μόσον"
-    :Mexico_Pacific: 
-      :long: 
-        :daylight: "Θερινή ώρα Ειρηνικού Μεξικού"
-        :generic: "Ώρα Ειρηνικού Μεξικού"
-        :standard: "Χειμερινή ώρα Ειρηνικού Μεξικού"
-    :Mongolia: 
-      :long: 
-        :daylight: "Θερινή ώρα Ουλάν Μπατόρ"
-        :generic: "Ώρα Ουλάν Μπατόρ"
-        :standard: "Χειμερινή ώρα Ουλάν Μπατόρ"
-    :Moscow: 
-      :long: 
-        :daylight: "Θερινή ώρα Μόσχας"
-        :generic: "Ώρα Μόσχας"
-        :standard: "Χειμερινή ώρα Μόσχας"
-    :Myanmar: 
-      :long: 
-        :standard: "Ώρα Μιανμάρ"
-    :Nauru: 
-      :long: 
-        :standard: "Ώρα Ναούρου"
-    :Nepal: 
-      :long: 
-        :standard: "Ώρα Νεπάλ"
-    :New_Caledonia: 
-      :long: 
-        :daylight: "Θερινή ώρα Νέας Καληδονίας"
-        :generic: "Ώρα Νέας Καληδονίας"
-        :standard: "Χειμερινή ώρα Νέας Καληδονίας"
-    :New_Zealand: 
-      :long: 
-        :daylight: "Θερινή ώρα Νέας Ζηλανδίας"
-        :generic: "Ώρα Νέας Ζηλανδίας"
-        :standard: "Χειμερινή ώρα Νέας Ζηλανδίας"
-    :Newfoundland: 
-      :long: 
-        :daylight: "Θερινή ώρα Νέας Γης"
-        :generic: "Ώρα Νέας Γης"
-        :standard: "Χειμερινή ώρα Νέας Γης"
-    :Niue: 
-      :long: 
-        :standard: "Ώρα Νιούε"
-    :Norfolk: 
-      :long: 
-        :daylight: "Θερινή ώρα Νήσου Νόρφολκ"
-        :generic: "Ώρα Νήσου Νόρφολκ"
-        :standard: "Χειμερινή ώρα Νήσου Νόρφολκ"
-    :Noronha: 
-      :long: 
-        :daylight: "Θερινή ώρα Φερνάρντο ντε Νορόνια"
-        :generic: "Ώρα Φερνάρντο ντε Νορόνια"
-        :standard: "Χειμερινή ώρα Φερνάρντο ντε Νορόνια"
-    :North_Mariana: 
-      :long: 
-        :standard: "Ώρα Νησιών Βόρειες Μαριάνες"
-    :Novosibirsk: 
-      :long: 
-        :daylight: "Θερινή ώρα Νοβοσιμπίρσκ"
-        :generic: "Ώρα Νοβοσιμπίρσκ"
-        :standard: "Χειμερινή ώρα Νοβοσιμπίρσκ"
-    :Omsk: 
-      :long: 
-        :daylight: "Θερινή ώρα Ομσκ"
-        :generic: "Ώρα Ομσκ"
-        :standard: "Χειμερινή ώρα Ομσκ"
-    :Pakistan: 
-      :long: 
-        :daylight: "Θερινή ώρα Πακιστάν"
-        :generic: "Ώρα Πακιστάν"
-        :standard: "Χειμερινή ώρα Πακιστάν"
-    :Palau: 
-      :long: 
-        :standard: "Ώρα Παλάου"
-    :Papua_New_Guinea: 
-      :long: 
-        :standard: "Ώρα Παπούας Νέας Γουινέας"
-    :Paraguay: 
-      :long: 
-        :daylight: "Θερινή ώρα Παραγουάης"
-        :generic: "Ώρα Παραγουάης"
-        :standard: "Χειμερινή ώρα Παραγουάης"
-    :Peru: 
-      :long: 
-        :daylight: "Θερινή ώρα Περού"
-        :generic: "Ώρα Περού"
-        :standard: "Χειμερινή ώρα Περού"
-    :Philippines: 
-      :long: 
-        :daylight: "Θερινή ώρα Φιλιππινών"
-        :generic: "Ώρα Φιλιππινών"
-        :standard: "Χειμερινή ώρα Φιλιππινών"
-    :Phoenix_Islands: 
-      :long: 
-        :standard: "Ώρα Νήσων Φοίνιξ"
-    :Pierre_Miquelon: 
-      :long: 
-        :daylight: "Θερινή ώρα Σεν Πιερ και Μικελόν"
-        :generic: "Ώρα Σεν Πιερ και Μικελόν"
-        :standard: "Χειμερινή ώρα Σεν Πιερ και Μικελόν"
-    :Pitcairn: 
-      :long: 
-        :standard: "Ώρα Πίτκερν"
-    :Ponape: 
-      :long: 
-        :standard: "Ώρα Πονάπε"
-    :Pyongyang: 
-      :long: 
-        :standard: "Ώρα Πιονγιάνγκ"
-    :Reunion: 
-      :long: 
-        :standard: "Ώρα Ρεϊνιόν"
-    :Rothera: 
-      :long: 
-        :standard: "Ώρα Ρόθερα"
-    :Sakhalin: 
-      :long: 
-        :daylight: "Θερινή ώρα Σαχαλίνης"
-        :generic: "Ώρα Σαχαλίνης"
-        :standard: "Χειμερινή ώρα Σαχαλίνης"
-    :Samara: 
-      :long: 
-        :daylight: "Θερινή ώρα Σαμάρας"
-        :generic: "Ώρα Σάμαρας"
-        :standard: "Χειμερινή ώρα Σάμαρας"
-    :Samoa: 
-      :long: 
-        :daylight: "Θερινή ώρα Σαμόα"
-        :generic: "Ώρα Σαμόα"
-        :standard: "Χειμερινή ώρα Σαμόα"
-    :Seychelles: 
-      :long: 
-        :standard: "Ώρα Σεϋχελλών"
-    :Singapore: 
-      :long: 
-        :standard: "Ώρα Σιγκαπούρης"
-    :Solomon: 
-      :long: 
-        :standard: "Ώρα Νήσων Σολομώντος"
-    :South_Georgia: 
-      :long: 
-        :standard: "Ώρα Νότιας Γεωργίας"
-    :Suriname: 
-      :long: 
-        :standard: "Ώρα Σουρινάμ"
-    :Syowa: 
-      :long: 
-        :standard: "Ώρα Σίοβα"
-    :Tahiti: 
-      :long: 
-        :standard: "Ώρα Ταϊτής"
-    :Taipei: 
-      :long: 
-        :daylight: "Θερινή ώρα Ταϊπέι"
-        :generic: "Ώρα Ταϊπέι"
-        :standard: "Χειμερινή ώρα Ταϊπέι"
-    :Tajikistan: 
-      :long: 
-        :standard: "Ώρα Τατζικιστάν"
-    :Tokelau: 
-      :long: 
-        :standard: "Ώρα Τοκελάου"
-    :Tonga: 
-      :long: 
-        :daylight: "Θερινή ώρα Τόνγκα"
-        :generic: "Ώρα Τόνγκα"
-        :standard: "Χειμερινή ώρα Τόνγκα"
-    :Truk: 
-      :long: 
-        :standard: "Ώρα Τσουκ"
-    :Turkey: 
-      :long: 
-        :daylight: "Θερινή ώρα Τουρκίας"
-        :generic: "Ώρα Τουρκίας"
-        :standard: "Χειμερινή ώρα Τουρκίας"
-    :Turkmenistan: 
-      :long: 
-        :daylight: "Θερινή ώρα Τουρκμενιστάν"
-        :generic: "Ώρα Τουρκμενιστάν"
-        :standard: "Χειμερινή ώρα Τουρκμενιστάν"
-    :Tuvalu: 
-      :long: 
-        :standard: "Ώρα Τουβαλού"
-    :Uruguay: 
-      :long: 
-        :daylight: "Θερινή ώρα Ουρουγουάης"
-        :generic: "Ώρα Ουρουγουάης"
-        :standard: "Χειμερινή ώρα Ουρουγουάης"
-    :Uzbekistan: 
-      :long: 
-        :daylight: "Θερινή ώρα Ουζμπεκιστάν"
-        :generic: "Ώρα Ουζμπεκιστάν"
-        :standard: "Χειμερινή ώρα Ουζμπεκιστάν"
-    :Vanuatu: 
-      :long: 
-        :daylight: "Θερινή ώρα Βανουάτου"
-        :generic: "Ώρα Βανουάτου"
-        :standard: "Χειμερινή ώρα Βανουάτου"
-    :Venezuela: 
-      :long: 
-        :standard: "Ώρα Βενεζουέλας"
-    :Vladivostok: 
-      :long: 
-        :daylight: "Θερινή ώρα Βλαδιβοστόκ"
-        :generic: "Ώρα Βλαδιβοστόκ"
-        :standard: "Χειμερινή ώρα Βλαδιβοστόκ"
-    :Volgograd: 
-      :long: 
-        :daylight: "Θερινή ώρα Βόλγκογκραντ"
-        :generic: "Ώρα Βόλγκογκραντ"
-        :standard: "Χειμερινή ώρα Βόλγκογκραντ"
-    :Vostok: 
-      :long: 
-        :standard: "Ώρα Βόστοκ"
-    :Wake: 
-      :long: 
-        :standard: "Ώρα Νήσου Γουέικ"
-    :Wallis: 
-      :long: 
-        :standard: "Ώρα Ουάλις και Φουτούνα"
-    :Yakutsk: 
-      :long: 
-        :daylight: "Θερινή ώρα Γιακούτσκ"
-        :generic: "Ώρα Γιακούτσκ"
-        :standard: "Χειμερινή ώρα Γιακούτσκ"
-    :Yekaterinburg: 
-      :long: 
-        :daylight: "Θερινή ώρα Αικατερινούπολης"
-        :generic: "Ώρα Αικατερινούπολης"
-        :standard: "Χειμερινή ώρα Αικατερινούπολης"
-    :Yukon: 
-      :long: 
-        :standard: "Ώρα Γιούκον"
-  :timezones: 
-    :Africa/Abidjan: 
-      :city: Αμπιτζάν
-    :Africa/Accra: 
-      :city: Άκρα
-    :Africa/Addis_Ababa: 
-      :city: "Αντίς Αμπέμπα"
-    :Africa/Algiers: 
-      :city: Αλγέρι
-    :Africa/Asmera: 
-      :city: Ασμάρα
-    :Africa/Bamako: 
-      :city: Μπαμάκο
-    :Africa/Bangui: 
-      :city: Μπανγκί
-    :Africa/Banjul: 
-      :city: Μπανζούλ
-    :Africa/Bissau: 
-      :city: Μπισάου
-    :Africa/Blantyre: 
-      :city: Μπλαντάιρ
-    :Africa/Brazzaville: 
-      :city: Μπραζαβίλ
-    :Africa/Bujumbura: 
-      :city: Μπουζουμπούρα
-    :Africa/Cairo: 
-      :city: Κάιρο
-    :Africa/Casablanca: 
-      :city: Καζαμπλάνκα
-    :Africa/Ceuta: 
-      :city: Θέουτα
-    :Africa/Conakry: 
-      :city: Κόνακρι
-    :Africa/Dakar: 
-      :city: Ντακάρ
-    :Africa/Dar_es_Salaam: 
-      :city: "Νταρ ες Σαλάμ"
-    :Africa/Djibouti: 
-      :city: Τζιμπουτί
-    :Africa/Douala: 
-      :city: Ντουάλα
-    :Africa/El_Aaiun: 
-      :city: "Ελ Αγιούν"
-    :Africa/Freetown: 
-      :city: Φρίταουν
-    :Africa/Gaborone: 
-      :city: Γκαμπορόνε
-    :Africa/Harare: 
-      :city: Χαράρε
-    :Africa/Johannesburg: 
-      :city: Γιοχάνεσμπουργκ
-    :Africa/Juba: 
-      :city: Τζούμπα
-    :Africa/Kampala: 
-      :city: Καμπάλα
-    :Africa/Khartoum: 
-      :city: Χαρτούμ
-    :Africa/Kigali: 
-      :city: Κιγκάλι
-    :Africa/Kinshasa: 
-      :city: Κινσάσα
-    :Africa/Lagos: 
-      :city: Λάγκος
-    :Africa/Libreville: 
-      :city: Λιμπρεβίλ
-    :Africa/Lome: 
-      :city: Λομέ
-    :Africa/Luanda: 
-      :city: Λουάντα
-    :Africa/Lubumbashi: 
-      :city: Λουμπουμπάσι
-    :Africa/Lusaka: 
-      :city: Λουζάκα
-    :Africa/Malabo: 
-      :city: Μαλάμπο
-    :Africa/Maputo: 
-      :city: Μαπούτο
-    :Africa/Maseru: 
-      :city: Μασέρου
-    :Africa/Mbabane: 
-      :city: Μπαμπάνε
-    :Africa/Mogadishu: 
-      :city: Μογκαντίσου
-    :Africa/Monrovia: 
-      :city: Μονρόβια
-    :Africa/Nairobi: 
-      :city: Ναϊρόμπι
-    :Africa/Ndjamena: 
-      :city: Ντζαμένα
-    :Africa/Niamey: 
-      :city: Νιαμέι
-    :Africa/Nouakchott: 
-      :city: Νουακσότ
-    :Africa/Ouagadougou: 
-      :city: Ουαγκαντούγκου
-    :Africa/Porto-Novo: 
-      :city: Πόρτο-Νόβο
-    :Africa/Sao_Tome: 
-      :city: "Σάο Τομέ"
-    :Africa/Tripoli: 
-      :city: Τρίπολη
-    :Africa/Tunis: 
-      :city: Τύνιδα
-    :Africa/Windhoek: 
-      :city: Βίντχουκ
-    :America/Adak: 
-      :city: Άντακ
-    :America/Anchorage: 
-      :city: Άνκορατζ
-    :America/Anguilla: 
-      :city: Ανγκουίλα
-    :America/Antigua: 
-      :city: Αντίγκουα
-    :America/Araguaina: 
-      :city: Αραγκουάινα
-    :America/Argentina/La_Rioja: 
-      :city: "Λα Ριόχα"
-    :America/Argentina/Rio_Gallegos: 
-      :city: "Ρίο Γκαγιέγκος"
-    :America/Argentina/Salta: 
-      :city: Σάλτα
-    :America/Argentina/San_Juan: 
-      :city: "Σαν Χουάν"
-    :America/Argentina/San_Luis: 
-      :city: "Σαν Λούις"
-    :America/Argentina/Tucuman: 
-      :city: Τουκουμάν
-    :America/Argentina/Ushuaia: 
-      :city: Ουσουάια
-    :America/Aruba: 
-      :city: Αρούμπα
-    :America/Asuncion: 
-      :city: Ασουνσιόν
-    :America/Bahia: 
-      :city: Μπαΐα
-    :America/Bahia_Banderas: 
-      :city: "Μπαΐα ντε Μπαντέρας"
-    :America/Barbados: 
-      :city: Μπαρμπέιντος
-    :America/Belem: 
-      :city: Μπελέμ
-    :America/Belize: 
-      :city: Μπελίζ
-    :America/Blanc-Sablon: 
-      :city: "Μπλαν Σαμπλόν"
-    :America/Boa_Vista: 
-      :city: "Μπόα Βίστα"
-    :America/Bogota: 
-      :city: Μπογκοτά
-    :America/Boise: 
-      :city: Μπόιζι
-    :America/Buenos_Aires: 
-      :city: "Μπουένος Άιρες"
-    :America/Cambridge_Bay: 
-      :city: "Κέμπριτζ Μπέι"
-    :America/Campo_Grande: 
-      :city: "Κάμπο Γκράντε"
-    :America/Cancun: 
-      :city: Κανκούν
-    :America/Caracas: 
-      :city: Καράκας
-    :America/Catamarca: 
-      :city: Καταμάρκα
-    :America/Cayenne: 
-      :city: Καγιέν
-    :America/Cayman: 
-      :city: Κέιμαν
-    :America/Chicago: 
-      :city: Σικάγο
-    :America/Chihuahua: 
-      :city: Τσιουάουα
-    :America/Ciudad_Juarez: 
-      :city: "Σιουδάδ Χουάρες"
-    :America/Coral_Harbour: 
-      :city: Ατικόκαν
-    :America/Cordoba: 
-      :city: Κόρδοβα
-    :America/Costa_Rica: 
-      :city: "Κόστα Ρίκα"
-    :America/Coyhaique: 
-      :city: Κοϊάικε
-    :America/Creston: 
-      :city: Κρέστον
-    :America/Cuiaba: 
-      :city: Κουιαμπά
-    :America/Curacao: 
-      :city: Κουρασάο
-    :America/Danmarkshavn: 
-      :city: Ντανμαρκσάβν
-    :America/Dawson: 
-      :city: Ντόσον
-    :America/Dawson_Creek: 
-      :city: "Ντόσον Κρικ"
-    :America/Denver: 
-      :city: Ντένβερ
-    :America/Detroit: 
-      :city: Ντιτρόιτ
-    :America/Dominica: 
-      :city: Ντομίνικα
-    :America/Edmonton: 
-      :city: Έντμοντον
-    :America/Eirunepe: 
-      :city: Εϊρουνεπέ
-    :America/El_Salvador: 
-      :city: "Ελ Σαλβαδόρ"
-    :America/Fort_Nelson: 
-      :city: "Φορτ Νέλσον"
-    :America/Fortaleza: 
-      :city: Φορταλέζα
-    :America/Glace_Bay: 
-      :city: "Γκλέις Μπέι"
-    :America/Godthab: 
-      :city: Νουούκ
-    :America/Goose_Bay: 
-      :city: "Γκους Μπέι"
-    :America/Grand_Turk: 
-      :city: "Γκραντ Τουρκ"
-    :America/Grenada: 
-      :city: Γρενάδα
-    :America/Guadeloupe: 
-      :city: Γουαδελούπη
-    :America/Guatemala: 
-      :city: Γουατεμάλα
-    :America/Guayaquil: 
-      :city: Γκουαγιακίλ
-    :America/Guyana: 
-      :city: Γουιάνα
-    :America/Halifax: 
-      :city: Χάλιφαξ
-    :America/Havana: 
-      :city: Αβάνα
-    :America/Hermosillo: 
-      :city: Ερμοσίγιο
-    :America/Indiana/Knox: 
-      :city: "Νοξ, Ιντιάνα"
-    :America/Indiana/Marengo: 
-      :city: "Μαρένγκο, Ιντιάνα"
-    :America/Indiana/Petersburg: 
-      :city: "Πίτερσμπεργκ, Ιντιάνα"
-    :America/Indiana/Tell_City: 
-      :city: "Τελ Σίτι, Ιντιάνα"
-    :America/Indiana/Vevay: 
-      :city: "Βιβέι, Ιντιάνα"
-    :America/Indiana/Vincennes: 
-      :city: "Βανσέν, Ιντιάνα"
-    :America/Indiana/Winamac: 
-      :city: "Γουίναμακ, Ιντιάνα"
-    :America/Indianapolis: 
-      :city: Ιντιανάπολις
-    :America/Inuvik: 
-      :city: Ινούβικ
-    :America/Iqaluit: 
-      :city: Ικαλούιτ
-    :America/Jamaica: 
-      :city: Τζαμάικα
-    :America/Jujuy: 
-      :city: Χουχούι
-    :America/Juneau: 
-      :city: Τζούνο
-    :America/Kentucky/Monticello: 
-      :city: "Μοντιτσέλο, Κεντάκι"
-    :America/Kralendijk: 
-      :city: Κράλεντικ
-    :America/La_Paz: 
-      :city: "Λα Παζ"
-    :America/Lima: 
-      :city: Λίμα
-    :America/Los_Angeles: 
-      :city: "Λος Άντζελες"
-    :America/Louisville: 
-      :city: Λούιβιλ
-    :America/Lower_Princes: 
-      :city: "Lower Prince’s Quarter"
-    :America/Maceio: 
-      :city: Μασεϊό
-    :America/Managua: 
-      :city: Μανάγκουα
-    :America/Manaus: 
-      :city: Μανάους
-    :America/Marigot: 
-      :city: Μαριγκό
-    :America/Martinique: 
-      :city: Μαρτινίκα
-    :America/Matamoros: 
-      :city: Ματαμόρος
-    :America/Mazatlan: 
-      :city: Μαζατλάν
-    :America/Mendoza: 
-      :city: Μεντόζα
-    :America/Menominee: 
-      :city: Μενομίνε
-    :America/Merida: 
-      :city: Μέριδα
-    :America/Metlakatla: 
-      :city: Μετλακάτλα
-    :America/Mexico_City: 
-      :city: "Πόλη του Μεξικού"
-    :America/Miquelon: 
-      :city: Μικελόν
-    :America/Moncton: 
-      :city: Μόνκτον
-    :America/Monterrey: 
-      :city: Μοντερέι
-    :America/Montevideo: 
-      :city: Μοντεβιδέο
-    :America/Montserrat: 
-      :city: Μονσεράτ
-    :America/Nassau: 
-      :city: Νασάου
-    :America/New_York: 
-      :city: "Νέα Υόρκη"
-    :America/Nome: 
-      :city: Νόμε
-    :America/Noronha: 
-      :city: Νορόνια
-    :America/North_Dakota/Beulah: 
-      :city: "Μπέουλα, Βόρεια Ντακότα"
-    :America/North_Dakota/Center: 
-      :city: "Σέντερ, Βόρεια Ντακότα"
-    :America/North_Dakota/New_Salem: 
-      :city: "Νιου Σέιλεμ, Βόρεια Ντακότα"
-    :America/Ojinaga: 
-      :city: Οχινάγκα
-    :America/Panama: 
-      :city: Παναμάς
-    :America/Paramaribo: 
-      :city: Παραμαρίμπο
-    :America/Phoenix: 
-      :city: Φοίνιξ
-    :America/Port-au-Prince: 
-      :city: Πορτ-ο-Πρενς
-    :America/Port_of_Spain: 
-      :city: "Πορτ οφ Σπέιν"
-    :America/Porto_Velho: 
-      :city: "Πόρτο Βέλιο"
-    :America/Puerto_Rico: 
-      :city: "Πουέρτο Ρίκο"
-    :America/Punta_Arenas: 
-      :city: "Πούντα Αρένας"
-    :America/Rankin_Inlet: 
-      :city: "Ράνκιν Ίνλετ"
-    :America/Recife: 
-      :city: Ρεσίφε
-    :America/Regina: 
-      :city: Ρετζάινα
-    :America/Resolute: 
-      :city: Ρέζολουτ
-    :America/Rio_Branco: 
-      :city: "Ρίο Μπράνκο"
-    :America/Santarem: 
-      :city: Σανταρέμ
-    :America/Santiago: 
-      :city: Σαντιάγκο
-    :America/Santo_Domingo: 
-      :city: "Άγιος Δομίνικος"
-    :America/Sao_Paulo: 
-      :city: "Σάο Πάολο"
-    :America/Scoresbysund: 
-      :city: Σκορεσμπίσουντ
-    :America/Sitka: 
-      :city: Σίτκα
-    :America/St_Barthelemy: 
-      :city: "Άγιος Βαρθολομαίος"
-    :America/St_Johns: 
-      :city: "Σεν Τζονς"
-    :America/St_Kitts: 
-      :city: "Σεν Κιτς"
-    :America/St_Lucia: 
-      :city: "Αγία Λουκία"
-    :America/St_Thomas: 
-      :city: "Άγιος Θωμάς"
-    :America/St_Vincent: 
-      :city: "Άγιος Βικέντιος"
-    :America/Swift_Current: 
-      :city: "Σουίφτ Κάρεντ"
-    :America/Tegucigalpa: 
-      :city: Τεγκουσιγκάλπα
-    :America/Thule: 
-      :city: Θούλη
-    :America/Tijuana: 
-      :city: Τιχουάνα
-    :America/Toronto: 
-      :city: Τορόντο
-    :America/Tortola: 
-      :city: Τορτόλα
-    :America/Vancouver: 
-      :city: Βανκούβερ
-    :America/Whitehorse: 
-      :city: Γουάιτχορς
-    :America/Winnipeg: 
-      :city: Γουίνιπεγκ
-    :America/Yakutat: 
-      :city: Γιάκουτατ
-    :Antarctica/Casey: 
-      :city: Κάσεϊ
-    :Antarctica/Davis: 
-      :city: Ντέιβις
-    :Antarctica/DumontDUrville: 
-      :city: "Ντιμόν ντ’ Ουρβίλ"
-    :Antarctica/Macquarie: 
-      :city: Μακουάρι
-    :Antarctica/Mawson: 
-      :city: Μόσον
-    :Antarctica/McMurdo: 
-      :city: Μακμέρντο
-    :Antarctica/Palmer: 
-      :city: Πάλμερ
-    :Antarctica/Rothera: 
-      :city: Ρόθερα
-    :Antarctica/Syowa: 
-      :city: Σίοβα
-    :Antarctica/Troll: 
-      :city: Τρολ
-    :Antarctica/Vostok: 
-      :city: Βόστοκ
-    :Arctic/Longyearbyen: 
-      :city: Λόνγκιεαρμπιεν
-    :Asia/Aden: 
-      :city: Άντεν
-    :Asia/Almaty: 
-      :city: Αλμάτι
-    :Asia/Amman: 
-      :city: Αμμάν
-    :Asia/Anadyr: 
-      :city: Αναντίρ
-    :Asia/Aqtau: 
-      :city: Ακτάου
-    :Asia/Aqtobe: 
-      :city: Ακτόμπε
-    :Asia/Ashgabat: 
-      :city: Ασχαμπάτ
-    :Asia/Atyrau: 
-      :city: Ατιράου
-    :Asia/Baghdad: 
-      :city: Βαγδάτη
-    :Asia/Bahrain: 
-      :city: Μπαχρέιν
-    :Asia/Baku: 
-      :city: Μπακού
-    :Asia/Bangkok: 
-      :city: Μπανγκόκ
-    :Asia/Barnaul: 
-      :city: Μπαρναούλ
-    :Asia/Beirut: 
-      :city: Βυρητός
-    :Asia/Bishkek: 
-      :city: Μπισκέκ
-    :Asia/Brunei: 
-      :city: Μπρουνέι
-    :Asia/Calcutta: 
-      :city: Καλκούτα
-    :Asia/Chita: 
-      :city: Τσιτά
-    :Asia/Colombo: 
-      :city: Κολόμπο
-    :Asia/Damascus: 
-      :city: Δαμασκός
-    :Asia/Dhaka: 
-      :city: Ντάκα
-    :Asia/Dili: 
-      :city: Ντίλι
-    :Asia/Dubai: 
-      :city: Ντουμπάι
-    :Asia/Dushanbe: 
-      :city: Ντουσάνμπε
-    :Asia/Famagusta: 
-      :city: Αμμόχωστος
-    :Asia/Gaza: 
-      :city: Γάζα
-    :Asia/Hebron: 
-      :city: Χεβρώνα
-    :Asia/Hong_Kong: 
-      :city: "Χονγκ Κονγκ"
-    :Asia/Hovd: 
-      :city: Χοβντ
-    :Asia/Irkutsk: 
-      :city: Ιρκούτσκ
-    :Asia/Jakarta: 
-      :city: Τζακάρτα
-    :Asia/Jayapura: 
-      :city: Τζαγιαπούρα
-    :Asia/Jerusalem: 
-      :city: Ιερουσαλήμ
-    :Asia/Kabul: 
-      :city: Καμπούλ
-    :Asia/Kamchatka: 
-      :city: Καμτσάτκα
-    :Asia/Karachi: 
-      :city: Καράτσι
-    :Asia/Katmandu: 
-      :city: Κατμαντού
-    :Asia/Khandyga: 
-      :city: Χαντίγκα
-    :Asia/Krasnoyarsk: 
-      :city: Κρασνογιάρσκ
-    :Asia/Kuala_Lumpur: 
-      :city: "Κουάλα Λουμπούρ"
-    :Asia/Kuching: 
-      :city: Κουτσίνγκ
-    :Asia/Kuwait: 
-      :city: Κουβέιτ
-    :Asia/Macau: 
-      :city: Μακάο
-    :Asia/Magadan: 
-      :city: Μαγκαντάν
-    :Asia/Makassar: 
-      :city: Μακασάρ
-    :Asia/Manila: 
-      :city: Μανίλα
-    :Asia/Muscat: 
-      :city: Μασκάτ
-    :Asia/Nicosia: 
-      :city: Λευκωσία
-    :Asia/Novokuznetsk: 
-      :city: Νοβοκουζνέτσκ
-    :Asia/Novosibirsk: 
-      :city: Νοβοσιμπίρσκ
-    :Asia/Omsk: 
-      :city: Ομσκ
-    :Asia/Oral: 
-      :city: Οράλ
-    :Asia/Phnom_Penh: 
-      :city: "Πνομ Πενχ"
-    :Asia/Pontianak: 
-      :city: Πόντιανακ
-    :Asia/Pyongyang: 
-      :city: Πιονγκγιάνγκ
-    :Asia/Qatar: 
-      :city: Κατάρ
-    :Asia/Qostanay: 
-      :city: Κοστανάι
-    :Asia/Qyzylorda: 
-      :city: Κιζιλορντά
-    :Asia/Rangoon: 
-      :city: Ρανγκούν
-    :Asia/Riyadh: 
-      :city: Ριάντ
-    :Asia/Saigon: 
-      :city: "Πόλη Χο Τσι Μινχ"
-    :Asia/Sakhalin: 
-      :city: Σαχαλίνη
-    :Asia/Samarkand: 
-      :city: Σαμαρκάνδη
-    :Asia/Seoul: 
-      :city: Σεούλ
-    :Asia/Shanghai: 
-      :city: Σανγκάη
-    :Asia/Singapore: 
-      :city: Σιγκαπούρη
-    :Asia/Srednekolymsk: 
-      :city: Σρεντνεκολίμσκ
-    :Asia/Taipei: 
-      :city: Ταϊπέι
-    :Asia/Tashkent: 
-      :city: Τασκένδη
-    :Asia/Tbilisi: 
-      :city: Τιφλίδα
-    :Asia/Tehran: 
-      :city: Τεχεράνη
-    :Asia/Thimphu: 
-      :city: Θίμφου
-    :Asia/Tokyo: 
-      :city: Τόκιο
-    :Asia/Tomsk: 
-      :city: Τομσκ
-    :Asia/Ulaanbaatar: 
-      :city: "Ουλάν Μπατόρ"
-    :Asia/Urumqi: 
-      :city: Ουρούμτσι
-    :Asia/Ust-Nera: 
-      :city: Ουστ-Νερά
-    :Asia/Vientiane: 
-      :city: Βιεντιάν
-    :Asia/Vladivostok: 
-      :city: Βλαδιβοστόκ
-    :Asia/Yakutsk: 
-      :city: Γιακούτσκ
-    :Asia/Yekaterinburg: 
-      :city: Αικατερινούπολη
-    :Asia/Yerevan: 
-      :city: Ερεβάν
-    :Atlantic/Azores: 
-      :city: Αζόρες
-    :Atlantic/Bermuda: 
-      :city: Βερμούδες
-    :Atlantic/Canary: 
-      :city: Κανάρια
-    :Atlantic/Cape_Verde: 
-      :city: "Πράσινο Ακρωτήριο"
-    :Atlantic/Faeroe: 
-      :city: Φερόες
-    :Atlantic/Madeira: 
-      :city: Μαδέρα
-    :Atlantic/Reykjavik: 
-      :city: Ρέυκιαβικ
-    :Atlantic/South_Georgia: 
-      :city: "Νότια Γεωργία"
-    :Atlantic/St_Helena: 
-      :city: "Αγ. Ελένη"
-    :Atlantic/Stanley: 
-      :city: Στάνλεϊ
-    :Australia/Adelaide: 
-      :city: Αδελαΐδα
-    :Australia/Brisbane: 
-      :city: Μπρισμπέιν
-    :Australia/Broken_Hill: 
-      :city: "Μπρόκεν Χιλ"
-    :Australia/Darwin: 
-      :city: Ντάργουιν
-    :Australia/Eucla: 
-      :city: Γιούκλα
-    :Australia/Hobart: 
-      :city: Χόμπαρτ
-    :Australia/Lindeman: 
-      :city: Λίντεμαν
-    :Australia/Lord_Howe: 
-      :city: "Λορντ Χάου"
-    :Australia/Melbourne: 
-      :city: Μελβούρνη
-    :Australia/Perth: 
-      :city: Περθ
-    :Australia/Sydney: 
-      :city: Σίδνεϊ
-    :Etc/UTC: 
-      :long: 
-        :standard: "Συντονισμένη Παγκόσμια Ώρα"
-      :short: 
-        :standard: UTC
-    :Etc/Unknown: 
-      :city: "Άγνωστη πόλη"
-    :Europe/Amsterdam: 
-      :city: Άμστερνταμ
-    :Europe/Andorra: 
-      :city: Ανδόρα
-    :Europe/Astrakhan: 
-      :city: Αστραχάν
-    :Europe/Athens: 
-      :city: Αθήνα
-    :Europe/Belgrade: 
-      :city: Βελιγράδι
-    :Europe/Berlin: 
-      :city: Βερολίνο
-    :Europe/Bratislava: 
-      :city: Μπρατισλάβα
-    :Europe/Brussels: 
-      :city: Βρυξέλλες
-    :Europe/Bucharest: 
-      :city: Βουκουρέστι
-    :Europe/Budapest: 
-      :city: Βουδαπέστη
-    :Europe/Busingen: 
-      :city: Μπίσινγκεν
-    :Europe/Chisinau: 
-      :city: Κισινάου
-    :Europe/Copenhagen: 
-      :city: Κοπεγχάγη
-    :Europe/Dublin: 
-      :city: Δουβλίνο
-      :long: 
-        :daylight: "Χειμερινή ώρα Ιρλανδίας"
-    :Europe/Gibraltar: 
-      :city: Γιβραλτάρ
-    :Europe/Guernsey: 
-      :city: Γκέρνζι
-    :Europe/Helsinki: 
-      :city: Ελσίνκι
-    :Europe/Isle_of_Man: 
-      :city: "Νήσος του Μαν"
-    :Europe/Istanbul: 
-      :city: Κωνσταντινούπολη
-    :Europe/Jersey: 
-      :city: Τζέρσεϊ
-    :Europe/Kaliningrad: 
-      :city: Καλίνινγκραντ
-    :Europe/Kiev: 
-      :city: Κίεβο
-    :Europe/Kirov: 
-      :city: Κίροφ
-    :Europe/Lisbon: 
-      :city: Λισαβόνα
-    :Europe/Ljubljana: 
-      :city: Λιουμπλιάνα
-    :Europe/London: 
-      :city: Λονδίνο
-      :long: 
-        :daylight: "Θερινή ώρα Βρετανίας"
-    :Europe/Luxembourg: 
-      :city: Λουξεμβούργο
-    :Europe/Madrid: 
-      :city: Μαδρίτη
-    :Europe/Malta: 
-      :city: Μάλτα
-    :Europe/Mariehamn: 
-      :city: Μάριεχαμν
-    :Europe/Minsk: 
-      :city: Μινσκ
-    :Europe/Monaco: 
-      :city: Μονακό
-    :Europe/Moscow: 
-      :city: Μόσχα
-    :Europe/Oslo: 
-      :city: Όσλο
-    :Europe/Paris: 
-      :city: Παρίσι
-    :Europe/Podgorica: 
-      :city: Ποντγκόριτσα
-    :Europe/Prague: 
-      :city: Πράγα
-    :Europe/Riga: 
-      :city: Ρίγα
-    :Europe/Rome: 
-      :city: Ρώμη
-    :Europe/Samara: 
-      :city: Σαμάρα
-    :Europe/San_Marino: 
-      :city: "Άγιος Μαρίνος"
-    :Europe/Sarajevo: 
-      :city: Σαράγεβο
-    :Europe/Saratov: 
-      :city: Σαράτοφ
-    :Europe/Simferopol: 
-      :city: Συμφερόπολη
-    :Europe/Skopje: 
-      :city: Σκόπια
-    :Europe/Sofia: 
-      :city: Σόφια
-    :Europe/Stockholm: 
-      :city: Στοκχόλμη
-    :Europe/Tallinn: 
-      :city: Ταλίν
-    :Europe/Tirane: 
-      :city: Τίρανα
-    :Europe/Ulyanovsk: 
-      :city: Ουλιάνοφσκ
-    :Europe/Vaduz: 
-      :city: Βαντούζ
-    :Europe/Vatican: 
-      :city: Βατικανό
-    :Europe/Vienna: 
-      :city: Βιέννη
-    :Europe/Vilnius: 
-      :city: Βίλνιους
-    :Europe/Volgograd: 
-      :city: Βόλγκοκραντ
-    :Europe/Warsaw: 
-      :city: Βαρσοβία
-    :Europe/Zagreb: 
-      :city: Ζάγκρεμπ
-    :Europe/Zurich: 
-      :city: Ζυρίχη
-    :Indian/Antananarivo: 
-      :city: Ανταναναρίβο
-    :Indian/Chagos: 
-      :city: Τσάγκος
-    :Indian/Christmas: 
-      :city: "Νήσος Χριστουγέννων"
-    :Indian/Cocos: 
-      :city: Κόκος
-    :Indian/Comoro: 
-      :city: Κομόρο
-    :Indian/Kerguelen: 
-      :city: Κεργκελέν
-    :Indian/Mahe: 
-      :city: Μάχε
-    :Indian/Maldives: 
-      :city: Μαλδίβες
-    :Indian/Mauritius: 
-      :city: Μαυρίκιος
-    :Indian/Mayotte: 
-      :city: Μαγιότ
-    :Indian/Reunion: 
-      :city: Ρεϊνιόν
-    :Pacific/Apia: 
-      :city: Απία
-    :Pacific/Auckland: 
-      :city: Όκλαντ
-    :Pacific/Bougainville: 
-      :city: Μπουγκενβίλ
-    :Pacific/Chatham: 
-      :city: Τσάταμ
-    :Pacific/Easter: 
-      :city: "Νήσος Πάσχα"
-    :Pacific/Efate: 
-      :city: Εφάτε
-    :Pacific/Enderbury: 
-      :city: Καντών
-    :Pacific/Fakaofo: 
-      :city: Φακαόφο
-    :Pacific/Fiji: 
-      :city: Φίτζι
-    :Pacific/Funafuti: 
-      :city: Φουναφούτι
-    :Pacific/Galapagos: 
-      :city: Γκαλάπαγκος
-    :Pacific/Gambier: 
-      :city: Γκάμπιερ
-    :Pacific/Guadalcanal: 
-      :city: Γκουανταλκανάλ
-    :Pacific/Guam: 
-      :city: Γκουάμ
-    :Pacific/Honolulu: 
-      :city: Χονολουλού
-    :Pacific/Kiritimati: 
-      :city: Κιριτιμάτι
-    :Pacific/Kosrae: 
-      :city: Κόσραϊ
-    :Pacific/Kwajalein: 
-      :city: Κουατζαλέιν
-    :Pacific/Majuro: 
-      :city: Ματζούρο
-    :Pacific/Marquesas: 
-      :city: Μαρκέζας
-    :Pacific/Midway: 
-      :city: Μίντγουεϊ
-    :Pacific/Nauru: 
-      :city: Ναούρου
-    :Pacific/Niue: 
-      :city: Νιούε
-    :Pacific/Norfolk: 
-      :city: Νόρφολκ
-    :Pacific/Noumea: 
-      :city: Νουμέα
-    :Pacific/Pago_Pago: 
-      :city: "Πάγκο Πάγκο"
-    :Pacific/Palau: 
-      :city: Παλάου
-    :Pacific/Pitcairn: 
-      :city: Πίτκερν
-    :Pacific/Ponape: 
-      :city: Πονάπε
-    :Pacific/Port_Moresby: 
-      :city: "Πορτ Μόρεσμπι"
-    :Pacific/Rarotonga: 
-      :city: Ραροτόνγκα
-    :Pacific/Saipan: 
-      :city: Σαϊπάν
-    :Pacific/Tahiti: 
-      :city: Ταϊτή
-    :Pacific/Tarawa: 
-      :city: Ταράουα
-    :Pacific/Tongatapu: 
-      :city: Τονγκατάπου
-    :Pacific/Truk: 
-      :city: Τσουκ
-    :Pacific/Wake: 
-      :city: Γουέικ
-    :Pacific/Wallis: 
-      :city: Γουάλις
+        :daylight: WEST
+    :Falkland:
+      :long:
+        :generic: Ώρα Νήσων Φόκλαντ
+        :standard: Χειμερινή ώρα Νήσων Φόκλαντ
+        :daylight: Θερινή ώρα Νήσων Φόκλαντ
+    :Fiji:
+      :long:
+        :generic: Ώρα Φίτζι
+        :standard: Χειμερινή ώρα Φίτζι
+        :daylight: Θερινή ώρα Φίτζι
+    :French_Guiana:
+      :long:
+        :standard: Ώρα Γαλλικής Γουιάνας
+    :French_Southern:
+      :long:
+        :standard: Ώρα Γαλλικού Νότου και Ανταρκτικής
+    :Galapagos:
+      :long:
+        :standard: Ώρα Γκαλάπαγκος
+    :Gambier:
+      :long:
+        :standard: Ώρα Γκάμπιερ
+    :Georgia:
+      :long:
+        :generic: Ώρα Γεωργίας
+        :standard: Χειμερινή ώρα Γεωργίας
+        :daylight: Θερινή ώρα Γεωργίας
+    :Gilbert_Islands:
+      :long:
+        :standard: Ώρα Νήσων Γκίλμπερτ
+    :GMT:
+      :long:
+        :standard: Μέση ώρα Γκρίνουιτς
+    :Greenland_Eastern:
+      :long:
+        :generic: Ώρα Ανατολικής Γροιλανδίας
+        :standard: Χειμερινή ώρα Ανατολικής Γροιλανδίας
+        :daylight: Θερινή ώρα Ανατολικής Γροιλανδίας
+    :Greenland_Western:
+      :long:
+        :generic: Ώρα Δυτικής Γροιλανδίας
+        :standard: Χειμερινή ώρα Δυτικής Γροιλανδίας
+        :daylight: Θερινή ώρα Δυτικής Γροιλανδίας
+    :Guam:
+      :long:
+        :standard: Ώρα Γκουάμ
+    :Gulf:
+      :long:
+        :standard: Ώρα Κόλπου
+    :Guyana:
+      :long:
+        :standard: Ώρα Γουιάνας
+    :Hawaii:
+      :long:
+        :standard: Χειμερινή ώρα Χαβάης-Αλεούτιων Νήσων
+    :Hawaii_Aleutian:
+      :long:
+        :generic: Ώρα Χαβάης-Αλεούτιων Νήσων
+        :standard: Χειμερινή ώρα Χαβάης-Αλεούτιων Νήσων
+        :daylight: Θερινή ώρα Χαβάης-Αλεούτιων Νήσων
+    :Hong_Kong:
+      :long:
+        :generic: Ώρα Χονγκ Κονγκ
+        :standard: Χειμερινή ώρα Χονγκ Κονγκ
+        :daylight: Θερινή ώρα Χονγκ Κονγκ
+    :Hovd:
+      :long:
+        :generic: Ώρα Χοβντ
+        :standard: Χειμερινή ώρα Χοβντ
+        :daylight: Θερινή ώρα Χοβντ
+    :India:
+      :long:
+        :standard: Ώρα Ινδίας
+    :Indian_Ocean:
+      :long:
+        :standard: Ώρα Ινδικού Ωκεανού
+    :Indochina:
+      :long:
+        :standard: Ώρα Ινδοκίνας
+    :Indonesia_Central:
+      :long:
+        :standard: Ώρα Κεντρικής Ινδονησίας
+    :Indonesia_Eastern:
+      :long:
+        :standard: Ώρα Ανατολικής Ινδονησίας
+    :Indonesia_Western:
+      :long:
+        :standard: Ώρα Δυτικής Ινδονησίας
+    :Iran:
+      :long:
+        :generic: Ώρα Ιράν
+        :standard: Χειμερινή ώρα Ιράν
+        :daylight: Θερινή ώρα Ιράν
+    :Irkutsk:
+      :long:
+        :generic: Ώρα Ιρκούτσκ
+        :standard: Χειμερινή ώρα Ιρκούτσκ
+        :daylight: Θερινή ώρα Ιρκούτσκ
+    :Israel:
+      :long:
+        :generic: Ώρα Ισραήλ
+        :standard: Χειμερινή ώρα Ισραήλ
+        :daylight: Θερινή ώρα Ισραήλ
+    :Japan:
+      :long:
+        :generic: Ώρα Ιαπωνίας
+        :standard: Χειμερινή ώρα Ιαπωνίας
+        :daylight: Θερινή ώρα Ιαπωνίας
+    :Kamchatka:
+      :long:
+        :generic: Ώρα Καμτσάτκα
+        :standard: Χειμερινή ώρα Πετροπαβλόβσκ-Καμτσάτσκι
+        :daylight: Θερινή ώρα Πετροπαβλόβσκ-Καμτσάτσκι
+    :Kazakhstan:
+      :long:
+        :standard: Ώρα Καζακστάν
+    :Kazakhstan_Eastern:
+      :long:
+        :standard: Ώρα Ανατολικού Καζακστάν
+    :Kazakhstan_Western:
+      :long:
+        :standard: Ώρα Δυτικού Καζακστάν
+    :Korea:
+      :long:
+        :generic: Ώρα Κορέας
+        :standard: Χειμερινή ώρα Κορέας
+        :daylight: Θερινή ώρα Κορέας
+    :Kosrae:
+      :long:
+        :standard: Ώρα Κόσραϊ
+    :Krasnoyarsk:
+      :long:
+        :generic: Ώρα Κρασνογιάρσκ
+        :standard: Χειμερινή ώρα Κρασνογιάρσκ
+        :daylight: Θερινή ώρα Κρασνογιάρσκ
+    :Kyrgystan:
+      :long:
+        :standard: Ώρα Κιργιστάν
+    :Line_Islands:
+      :long:
+        :standard: Ώρα Νήσων Λάιν
+    :Lord_Howe:
+      :long:
+        :generic: Ώρα Λορντ Χάου
+        :standard: Χειμερινή ώρα Λορντ Χάου
+        :daylight: Θερινή ώρα Λορντ Χάου
+    :Macau:
+      :long:
+        :generic: Ώρα Μακάο
+        :standard: Χειμερινή ώρα Μακάο
+        :daylight: Θερινή ώρα Μακάο
+    :Magadan:
+      :long:
+        :generic: Ώρα Μαγκαντάν
+        :standard: Χειμερινή ώρα Μαγκαντάν
+        :daylight: Θερινή ώρα Μαγκαντάν
+    :Malaysia:
+      :long:
+        :standard: Ώρα Μαλαισίας
+    :Maldives:
+      :long:
+        :standard: Ώρα Μαλδίβων
+    :Marquesas:
+      :long:
+        :standard: Ώρα Μαρκέζας
+    :Marshall_Islands:
+      :long:
+        :standard: Ώρα Νήσων Μάρσαλ
+    :Mauritius:
+      :long:
+        :generic: Ώρα Μαυρίκιου
+        :standard: Χειμερινή ώρα Μαυρίκιου
+        :daylight: Θερινή ώρα Μαυρίκιου
+    :Mawson:
+      :long:
+        :standard: Ώρα Μόσον
+    :Mexico_Pacific:
+      :long:
+        :generic: Ώρα Ειρηνικού Μεξικού
+        :standard: Χειμερινή ώρα Ειρηνικού Μεξικού
+        :daylight: Θερινή ώρα Ειρηνικού Μεξικού
+    :Mongolia:
+      :long:
+        :generic: Ώρα Ουλάν Μπατόρ
+        :standard: Χειμερινή ώρα Ουλάν Μπατόρ
+        :daylight: Θερινή ώρα Ουλάν Μπατόρ
+    :Moscow:
+      :long:
+        :generic: Ώρα Μόσχας
+        :standard: Χειμερινή ώρα Μόσχας
+        :daylight: Θερινή ώρα Μόσχας
+    :Myanmar:
+      :long:
+        :standard: Ώρα Μιανμάρ
+    :Nauru:
+      :long:
+        :standard: Ώρα Ναούρου
+    :Nepal:
+      :long:
+        :standard: Ώρα Νεπάλ
+    :New_Caledonia:
+      :long:
+        :generic: Ώρα Νέας Καληδονίας
+        :standard: Χειμερινή ώρα Νέας Καληδονίας
+        :daylight: Θερινή ώρα Νέας Καληδονίας
+    :New_Zealand:
+      :long:
+        :generic: Ώρα Νέας Ζηλανδίας
+        :standard: Χειμερινή ώρα Νέας Ζηλανδίας
+        :daylight: Θερινή ώρα Νέας Ζηλανδίας
+    :Newfoundland:
+      :long:
+        :generic: Ώρα Νέας Γης
+        :standard: Χειμερινή ώρα Νέας Γης
+        :daylight: Θερινή ώρα Νέας Γης
+    :Niue:
+      :long:
+        :standard: Ώρα Νιούε
+    :Norfolk:
+      :long:
+        :generic: Ώρα Νήσου Νόρφολκ
+        :standard: Χειμερινή ώρα Νήσου Νόρφολκ
+        :daylight: Θερινή ώρα Νήσου Νόρφολκ
+    :Noronha:
+      :long:
+        :generic: Ώρα Φερνάρντο ντε Νορόνια
+        :standard: Χειμερινή ώρα Φερνάρντο ντε Νορόνια
+        :daylight: Θερινή ώρα Φερνάρντο ντε Νορόνια
+    :North_Mariana:
+      :long:
+        :standard: Ώρα Νησιών Βόρειες Μαριάνες
+    :Novosibirsk:
+      :long:
+        :generic: Ώρα Νοβοσιμπίρσκ
+        :standard: Χειμερινή ώρα Νοβοσιμπίρσκ
+        :daylight: Θερινή ώρα Νοβοσιμπίρσκ
+    :Omsk:
+      :long:
+        :generic: Ώρα Ομσκ
+        :standard: Χειμερινή ώρα Ομσκ
+        :daylight: Θερινή ώρα Ομσκ
+    :Pakistan:
+      :long:
+        :generic: Ώρα Πακιστάν
+        :standard: Χειμερινή ώρα Πακιστάν
+        :daylight: Θερινή ώρα Πακιστάν
+    :Palau:
+      :long:
+        :standard: Ώρα Παλάου
+    :Papua_New_Guinea:
+      :long:
+        :standard: Ώρα Παπούας Νέας Γουινέας
+    :Paraguay:
+      :long:
+        :generic: Ώρα Παραγουάης
+        :standard: Χειμερινή ώρα Παραγουάης
+        :daylight: Θερινή ώρα Παραγουάης
+    :Peru:
+      :long:
+        :generic: Ώρα Περού
+        :standard: Χειμερινή ώρα Περού
+        :daylight: Θερινή ώρα Περού
+    :Philippines:
+      :long:
+        :generic: Ώρα Φιλιππινών
+        :standard: Χειμερινή ώρα Φιλιππινών
+        :daylight: Θερινή ώρα Φιλιππινών
+    :Phoenix_Islands:
+      :long:
+        :standard: Ώρα Νήσων Φοίνιξ
+    :Pierre_Miquelon:
+      :long:
+        :generic: Ώρα Σεν Πιερ και Μικελόν
+        :standard: Χειμερινή ώρα Σεν Πιερ και Μικελόν
+        :daylight: Θερινή ώρα Σεν Πιερ και Μικελόν
+    :Pitcairn:
+      :long:
+        :standard: Ώρα Πίτκερν
+    :Ponape:
+      :long:
+        :standard: Ώρα Πονάπε
+    :Pyongyang:
+      :long:
+        :standard: Ώρα Πιονγιάνγκ
+    :Reunion:
+      :long:
+        :standard: Ώρα Ρεϊνιόν
+    :Rothera:
+      :long:
+        :standard: Ώρα Ρόθερα
+    :Sakhalin:
+      :long:
+        :generic: Ώρα Σαχαλίνης
+        :standard: Χειμερινή ώρα Σαχαλίνης
+        :daylight: Θερινή ώρα Σαχαλίνης
+    :Samara:
+      :long:
+        :generic: Ώρα Σάμαρας
+        :standard: Χειμερινή ώρα Σάμαρας
+        :daylight: Θερινή ώρα Σαμάρας
+    :Samoa:
+      :long:
+        :generic: Ώρα Σαμόα
+        :standard: Χειμερινή ώρα Σαμόα
+        :daylight: Θερινή ώρα Σαμόα
+    :Seychelles:
+      :long:
+        :standard: Ώρα Σεϋχελλών
+    :Singapore:
+      :long:
+        :standard: Ώρα Σιγκαπούρης
+    :Solomon:
+      :long:
+        :standard: Ώρα Νήσων Σολομώντος
+    :South_Georgia:
+      :long:
+        :standard: Ώρα Νότιας Γεωργίας
+    :Suriname:
+      :long:
+        :standard: Ώρα Σουρινάμ
+    :Syowa:
+      :long:
+        :standard: Ώρα Σίοβα
+    :Tahiti:
+      :long:
+        :standard: Ώρα Ταϊτής
+    :Taipei:
+      :long:
+        :generic: Ώρα Ταϊπέι
+        :standard: Χειμερινή ώρα Ταϊπέι
+        :daylight: Θερινή ώρα Ταϊπέι
+    :Tajikistan:
+      :long:
+        :standard: Ώρα Τατζικιστάν
+    :Tokelau:
+      :long:
+        :standard: Ώρα Τοκελάου
+    :Tonga:
+      :long:
+        :generic: Ώρα Τόνγκα
+        :standard: Χειμερινή ώρα Τόνγκα
+        :daylight: Θερινή ώρα Τόνγκα
+    :Truk:
+      :long:
+        :standard: Ώρα Τσουκ
+    :Turkey:
+      :long:
+        :generic: Ώρα Τουρκίας
+        :standard: Χειμερινή ώρα Τουρκίας
+        :daylight: Θερινή ώρα Τουρκίας
+    :Turkmenistan:
+      :long:
+        :generic: Ώρα Τουρκμενιστάν
+        :standard: Χειμερινή ώρα Τουρκμενιστάν
+        :daylight: Θερινή ώρα Τουρκμενιστάν
+    :Tuvalu:
+      :long:
+        :standard: Ώρα Τουβαλού
+    :Uruguay:
+      :long:
+        :generic: Ώρα Ουρουγουάης
+        :standard: Χειμερινή ώρα Ουρουγουάης
+        :daylight: Θερινή ώρα Ουρουγουάης
+    :Uzbekistan:
+      :long:
+        :generic: Ώρα Ουζμπεκιστάν
+        :standard: Χειμερινή ώρα Ουζμπεκιστάν
+        :daylight: Θερινή ώρα Ουζμπεκιστάν
+    :Vanuatu:
+      :long:
+        :generic: Ώρα Βανουάτου
+        :standard: Χειμερινή ώρα Βανουάτου
+        :daylight: Θερινή ώρα Βανουάτου
+    :Venezuela:
+      :long:
+        :standard: Ώρα Βενεζουέλας
+    :Vladivostok:
+      :long:
+        :generic: Ώρα Βλαδιβοστόκ
+        :standard: Χειμερινή ώρα Βλαδιβοστόκ
+        :daylight: Θερινή ώρα Βλαδιβοστόκ
+    :Volgograd:
+      :long:
+        :generic: Ώρα Βόλγκογκραντ
+        :standard: Χειμερινή ώρα Βόλγκογκραντ
+        :daylight: Θερινή ώρα Βόλγκογκραντ
+    :Vostok:
+      :long:
+        :standard: Ώρα Βόστοκ
+    :Wake:
+      :long:
+        :standard: Ώρα Νήσου Γουέικ
+    :Wallis:
+      :long:
+        :standard: Ώρα Ουάλις και Φουτούνα
+    :Yakutsk:
+      :long:
+        :generic: Ώρα Γιακούτσκ
+        :standard: Χειμερινή ώρα Γιακούτσκ
+        :daylight: Θερινή ώρα Γιακούτσκ
+    :Yekaterinburg:
+      :long:
+        :generic: Ώρα Αικατερινούπολης
+        :standard: Χειμερινή ώρα Αικατερινούπολης
+        :daylight: Θερινή ώρα Αικατερινούπολης
+    :Yukon:
+      :long:
+        :standard: Ώρα Γιούκον

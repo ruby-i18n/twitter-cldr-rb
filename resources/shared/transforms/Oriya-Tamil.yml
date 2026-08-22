@@ -1,16 +1,15 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - Oriya-Tamil
-      - und-Taml-t-und-orya
-    :direction: forward
-    :rules: 
-      - "::[ଁ-ଃଅ-ଌଏ-ଐଓ-ନପ-ରଲ-ଳଵ-ହ଼-ୃେ-ୈୋ-୍ୖ-ୗଡ଼-ଢ଼ୟ-ୡ୦-ୱ] ;"
-      - "::NFD ;"
-      - "::Oriya-InterIndic ;"
-      - "::InterIndic-Tamil ;"
-      - "::NFC ;"
-    :source: Orya
-    :target: Taml
-    :variant: ~
+---
+:transforms:
+- :source: Orya
+  :target: Taml
+  :aliases:
+  - Oriya-Tamil
+  - und-Taml-t-und-orya
+  :variant:
+  :direction: forward
+  :rules:
+  - "::[ଁ-ଃଅ-ଌଏ-ଐଓ-ନପ-ରଲ-ଳଵ-ହ଼-ୃେ-ୈୋ-୍ୖ-ୗଡ଼-ଢ଼ୟ-ୡ୦-ୱ] ;"
+  - "::NFD ;"
+  - "::Oriya-InterIndic ;"
+  - "::InterIndic-Tamil ;"
+  - "::NFC ;"

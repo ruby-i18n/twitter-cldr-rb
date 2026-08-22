@@ -1,12 +1,11 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - es-419-fonipa-t-es-fonipa
-    :direction: forward
-    :rules: 
-      - "ʎ > ʝ ;"
-      - "[sθ]+ > s ;"
-    :source: es_FONIPA
-    :target: es_419_FONIPA
-    :variant: ~
+---
+:transforms:
+- :source: es_FONIPA
+  :target: es_419_FONIPA
+  :aliases:
+  - es-419-fonipa-t-es-fonipa
+  :variant:
+  :direction: forward
+  :rules:
+  - ʎ > ʝ ;
+  - "[sθ]+ > s ;"

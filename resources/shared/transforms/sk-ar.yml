@@ -1,12 +1,11 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - ar-t-sk
-    :direction: forward
-    :rules: 
-      - "::sk-sk_FONIPA ;"
-      - "::und_FONIPA-ar ;"
-    :source: sk
-    :target: ar
-    :variant: ~
+---
+:transforms:
+- :source: sk
+  :target: ar
+  :aliases:
+  - ar-t-sk
+  :variant:
+  :direction: forward
+  :rules:
+  - "::sk-sk_FONIPA ;"
+  - "::und_FONIPA-ar ;"

@@ -1,1460 +1,1460 @@
---- 
-:zu: 
-  :formats: 
-    :fallback_formats: 
-      :generic: "{1} ({0})"
-    :gmt_formats: 
-      :generic: "GMT{0}"
-    :gmt_unknown_formats: 
-      :generic: GMT+?
-    :gmt_zero_formats: 
-      :generic: GMT
-    :hour_formats: 
+---
+:zu:
+  :formats:
+    :hour_formats:
       :generic: "+HH:mm;-HH:mm"
-    :region_formats: 
+    :gmt_formats:
+      :generic: GMT{0}
+    :gmt_zero_formats:
+      :generic: GMT
+    :gmt_unknown_formats:
+      :generic: GMT+?
+    :region_formats:
+      :generic: Isikhathi sase-{0}
       :daylight: "{0} Isikhathi sasemini"
-      :generic: "Isikhathi sase-{0}"
       :standard: "{0} isikhathi esivamile"
-  :metazones: 
-    :Afghanistan: 
-      :long: 
-        :standard: "Isikhathi sase-Afghanistan"
-    :Africa_Central: 
-      :long: 
-        :standard: "Isikhathi sase-Central Africa"
-    :Africa_Eastern: 
-      :long: 
-        :standard: "Isikhathi saseMpumalanga Afrika"
-    :Africa_Southern: 
-      :long: 
-        :standard: "Isikhathi esivamile saseNingizimu Afrika"
-    :Africa_Western: 
-      :long: 
-        :standard: "Isikhathi saseNtshonalanga Afrika"
-    :Alaska: 
-      :long: 
-        :daylight: "Isikhathi sase-Alaska sasemini"
-        :generic: "Isikhathi sase-Alaska"
-        :standard: "Isikhathi sase-Alaska esijwayelekile"
-    :Amazon: 
-      :long: 
-        :daylight: "Isikhathi sase-Amazon sasehlobo"
-        :generic: "Isikhathi sase-Amazon"
-        :standard: "Isikhathi sase-Amazon esijwayelekile"
-    :America_Central: 
-      :long: 
-        :daylight: "Isikhathi sase-North American Central sasemini"
-        :generic: "Isikhathi sase-North American Central"
-        :standard: "Isikhathi sase-North American Central esijwayelekile"
-    :America_Eastern: 
-      :long: 
-        :daylight: "Isikhathi sase-North American East sasemini"
-        :generic: "Isikhathi sase-North American East"
-        :standard: "Isikhathi sase-North American East esijwayelekile"
-    :America_Mountain: 
-      :long: 
-        :daylight: "Isikhathi sase-North American Mountain sasemini"
-        :generic: "Isikhathi sase-North American Mountain"
-        :standard: "Isikhathi sase-North American Mountain esijwayelekile"
-    :America_Pacific: 
-      :long: 
-        :daylight: "Isikhathi sase-North American Pacific sasemini"
-        :generic: "Isikhathi sase-North American Pacific"
-        :standard: "Isikhathi sase-North American Pacific esijwayelekile"
-    :Anadyr: 
-      :long: 
-        :daylight: "esase-Anadyr Summer Time"
-        :generic: "esase-Anadyr Time"
-        :standard: "esase-Anadyr Standard Time"
-    :Apia: 
-      :long: 
-        :daylight: "Isikhathi sase-Apia sasemini"
-        :generic: "Isikhathi sase-Apia"
-        :standard: "Isikhathi sase-Apia esivamile"
-    :Arabian: 
-      :long: 
-        :daylight: "Isikhathi semini sase-Arabian"
-        :generic: "Isikhathi sase-Arabian"
-        :standard: "Isikhathi esivamile sase-Arabian"
-    :Argentina: 
-      :long: 
-        :daylight: "Isikhathi sase-Argentina sasehlobo"
-        :generic: "Isikhathi sase-Argentina"
-        :standard: "Isikhathi sase-Argentina esijwayelekile"
-    :Argentina_Western: 
-      :long: 
-        :daylight: "Isikhathi saseNyakatho ne-Argentina sasehlobo"
-        :generic: "Isikhathi saseNyakatho ne-Argentina"
-        :standard: "Isikhathi saseNyakatho ne-Argentina esijwayelekile"
-    :Armenia: 
-      :long: 
-        :daylight: "Isikhathi sehlobo sase-Armenia"
-        :generic: "Isikhathi saseArmenia"
-        :standard: "Isikhathi esivamile sase-Armenia"
-    :Atlantic: 
-      :long: 
-        :daylight: "Isikhathi sase-Atlantic sasemini"
-        :generic: "Isikhathi sase-Atlantic"
-        :standard: "Isikhathi sase-Atlantic esijwayelekile"
-    :Australia_Central: 
-      :long: 
-        :daylight: "Isikhathi sase-Australian Central sasemini"
-        :generic: "Isikhathi sase-Central Australia"
-        :standard: "Isikhathi sase-Australian Central esivamile"
-    :Australia_CentralWestern: 
-      :long: 
-        :daylight: "Isikhathi sasemini sase-Australian Central West"
-        :generic: "Isikhathi sase-Australian Central West"
-        :standard: "Isikhathi sase-Australian Central West esivamile"
-    :Australia_Eastern: 
-      :long: 
-        :daylight: "Isikhathi sasemini sase-Australian East"
-        :generic: "Isikhathi sase-Eastern Australia"
-        :standard: "Isikhathi esivamile sase-Australian East"
-    :Australia_Western: 
-      :long: 
-        :daylight: "Isikhathi sase-Australian Western sasemini"
-        :generic: "Isikhathi sase-Western Australia"
-        :standard: "Isikhathi sase-Australian Western esivamile"
-    :Azerbaijan: 
-      :long: 
-        :daylight: "Isikhathi sehlobo sase-Azerbaijan"
-        :generic: "Isikhathi sase-Azerbaijan"
-        :standard: "Isikhathi esivamile sase-Azerbaijan"
-    :Azores: 
-      :long: 
-        :daylight: "Isikhathi sasehlobo sase-Azores"
-        :generic: "Isikhathi sase-Azores"
-        :standard: "Isikhathi esijwayelekile sase-Azores"
-    :Bangladesh: 
-      :long: 
-        :daylight: "Isikhathi sase-Bangladesh sasehlobo"
-        :generic: "Isikhathi sase-Bangladesh"
-        :standard: "Isikhathi sase-Bangladesh esivamile"
-    :Bhutan: 
-      :long: 
-        :standard: "Isikhathi sase-Bhutan"
-    :Bolivia: 
-      :long: 
-        :standard: "Isikhathi sase-Bolivia"
-    :Brasilia: 
-      :long: 
-        :daylight: "Isikhathi sase-Brasilia sasehlobo"
-        :generic: "Isikhathi sase-Brasilia"
-        :standard: "Isikhathi sase-Brasilia esijwayelekile"
-    :Brunei: 
-      :long: 
-        :standard: "Isikhathi sase-Brunei Darussalam"
-    :Cape_Verde: 
-      :long: 
-        :daylight: "Isikhathi sehlobo sase-Cape Verde"
-        :generic: "Isikhathi sase-Cape Verde"
-        :standard: "Isikhathi esezingeni sase-Cape Verde"
-    :Chamorro: 
-      :long: 
-        :standard: "Isikhathi esivamile sase-Chamorro"
-    :Chatham: 
-      :long: 
-        :daylight: "Isikhathi sasemini sase-Chatham"
-        :generic: "Isikhathi sase-Chatham"
-        :standard: "Isikhathi esivamile sase-Chatham"
-    :Chile: 
-      :long: 
-        :daylight: "Isikhathi sase-Chile sasehlobo"
-        :generic: "Isikhathi sase-Chile"
-        :standard: "Isikhathi sase-Chile esijwayelekile"
-    :China: 
-      :long: 
-        :daylight: "Isikhathi semini sase-China"
-        :generic: "Isikhathi sase-China"
-        :standard: "Isikhathi esivamile sase-China"
-    :Christmas: 
-      :long: 
-        :standard: "Isikhathi sase-Christmas Island"
-    :Cocos: 
-      :long: 
-        :standard: "Isikhathi sase-Cocos Islands"
-    :Colombia: 
-      :long: 
-        :daylight: "Isikhathi sase-Colombia sasehlobo"
-        :generic: "Isikhathi sase-Colombia"
-        :standard: "Isikhathi sase-Colombia esijwayelekile"
-    :Cook: 
-      :long: 
-        :daylight: "Isikhathi esiyingxenye yasehlobo sase-Cook Islands"
-        :generic: "Isikhathi sase-Cook Islands"
-        :standard: "Isikhathi esivamile sase-Cook Islands"
-    :Cuba: 
-      :long: 
-        :daylight: "Isikhathi sase-Cuba sasemini"
-        :generic: "Isikhathi sase-Cuba"
-        :standard: "Isikhathi sase-Cuba esijwayelekile"
-    :Davis: 
-      :long: 
-        :standard: "Isikhathi sase-Davis"
-    :DumontDUrville: 
-      :long: 
-        :standard: "Isikhathi sase-Dumont-d’Urville"
-    :East_Timor: 
-      :long: 
-        :standard: "Isikhathi sase-East Timor"
-    :Easter: 
-      :long: 
-        :daylight: "Isikhathi sase-Easter Island sasehlobo"
-        :generic: "Isikhathi sase-Easter Island"
-        :standard: "Isikhathi sase-Easter Island esijwayelekile"
-    :Ecuador: 
-      :long: 
-        :standard: "Isikhathi sase-Ecuador"
-    :Europe_Central: 
-      :long: 
-        :daylight: "Isikhathi sasehlobo sase-Central Europe"
-        :generic: "Isikhathi sase-Central Europe"
-        :standard: "Isikhathi esijwayelekile sase-Central Europe"
-    :Europe_Eastern: 
-      :long: 
-        :daylight: "Isikhathi sasehlobo sase-Eastern Europe"
-        :generic: "Isikhathi sase-Eastern Europe"
-        :standard: "Isikhathi esijwayelekile sase-Eastern Europe"
-    :Europe_Further_Eastern: 
-      :long: 
-        :standard: "Isikhathi sase-Further-eastern Europe"
-    :Europe_Western: 
-      :long: 
-        :daylight: "Isikhathi sasehlobo sase-Western Europe"
-        :generic: "Isikhathi sase-Western Europe"
-        :standard: "Isikhathi esijwayelekile sase-Western Europe"
-    :Falkland: 
-      :long: 
-        :daylight: "Isikhathi sase-Falkland Islands sasehlobo"
-        :generic: "Isikhathi sase-Falkland Islands"
-        :standard: "Isikhathi sase-Falkland Islands esijwayelekile"
-    :Fiji: 
-      :long: 
-        :daylight: "Isikhathi sehlobo sase-Fiji"
-        :generic: "Isikhathi sase-Fiji"
-        :standard: "Isikhathi esivamile sase-Fiji"
-    :French_Guiana: 
-      :long: 
-        :standard: "Isikhathi sase-French Guiana"
-    :French_Southern: 
-      :long: 
-        :standard: "Isikhathi sase-French Southern nase-Antarctic"
-    :GMT: 
-      :long: 
-        :standard: "Isikhathi sase-Greenwich Mean"
-    :Galapagos: 
-      :long: 
-        :standard: "Isikhathi sase-Galapagos"
-    :Gambier: 
-      :long: 
-        :standard: "Isikhathi sase-Gambier"
-    :Georgia: 
-      :long: 
-        :daylight: "Isikhathi sehlobo sase-Georgia"
-        :generic: "Isikhathi sase-Georgia"
-        :standard: "Isikhathi esivamile sase-Georgia"
-    :Gilbert_Islands: 
-      :long: 
-        :standard: "Isikhathi sase-Gilbert Islands"
-    :Greenland_Eastern: 
-      :long: 
-        :daylight: "Isikhathi sase-East Greenland sasemini"
-        :generic: "Isikhathi sase-East Greenland"
-        :standard: "Isikhathi sase-East Greenland esijwayelekile"
-    :Greenland_Western: 
-      :long: 
-        :daylight: "Isikhathi sase-West Greenland sasehlobo"
-        :generic: "Isikhathi sase-West Greenland"
-        :standard: "Isikhathi sase-West Greenland esijwayelekile"
-    :Gulf: 
-      :long: 
-        :standard: "Isikhathi esivamile sase-Gulf"
-    :Guyana: 
-      :long: 
-        :standard: "Isikhathi sase-Guyana"
-    :Hawaii: 
-      :long: 
-        :standard: "Isikhathi sase-Hawaii-Aleutia esijwayelekile"
-    :Hawaii_Aleutian: 
-      :long: 
-        :daylight: "Isikhathi sase-Hawaii-Aleutia sasemini"
-        :generic: "Isikhathi sase-Hawaii-Aleutia"
-        :standard: "Isikhathi sase-Hawaii-Aleutia esijwayelekile"
-    :Hong_Kong: 
-      :long: 
-        :daylight: "Isikhathi sehlobo sase-Hong Kong"
-        :generic: "Isikhathi sase-Hong Kong"
-        :standard: "Isikhathi esivamile sase-Hong Kong"
-    :Hovd: 
-      :long: 
-        :daylight: "Isikhathi sehlobo e-Hovd"
-        :generic: "Isikhathi sase-Hovd"
-        :standard: "Isikhathi Esimisiwe sase-Hovd"
-    :India: 
-      :long: 
-        :standard: "Isikhathi sase-India esivamile"
-    :Indian_Ocean: 
-      :long: 
-        :standard: "Isikhathi sase-Indian Ocean"
-    :Indochina: 
-      :long: 
-        :standard: "Isikhathi sase-Indochina"
-    :Indonesia_Central: 
-      :long: 
-        :standard: "Isikhathi sase-Central Indonesia"
-    :Indonesia_Eastern: 
-      :long: 
-        :standard: "Isikhathi sase-Eastern Indonesia"
-    :Indonesia_Western: 
-      :long: 
-        :standard: "Isikhathi sase-Western Indonesia"
-    :Iran: 
-      :long: 
-        :daylight: "Isikhathi sase-Iran sasemini"
-        :generic: "Isikhathi sase-Iran"
-        :standard: "Isikhathi sase-Iran esivamile"
-    :Irkutsk: 
-      :long: 
-        :daylight: "Isikhathi sasehlobo e-Irkutsk"
-        :generic: "Isikhathi sase-Irkutsk"
-        :standard: "Isikhathi Esivamile sase-Irkutsk"
-    :Israel: 
-      :long: 
-        :daylight: "Isikhathi sasemini sakwa-Israel"
-        :generic: "Isikhathi sase-Israel"
-        :standard: "Isikhathi esivamile sase-Israel"
-    :Japan: 
-      :long: 
-        :daylight: "Isikhathi semini sase-Japan"
-        :generic: "Isikhathi sase-Japan"
-        :standard: "Isikhathi esivamile sase-Japan"
-    :Kamchatka: 
-      :long: 
-        :daylight: "esase-Petropavlovsk-Kamchatski Summer Time"
-        :generic: "esase-Petropavlovsk-Kamchatski Time"
-        :standard: "esase-Petropavlovsk-Kamchatski Standard Time"
-    :Kazakhstan: 
-      :long: 
-        :standard: "Isikhathi saseKazakhstan"
-    :Kazakhstan_Eastern: 
-      :long: 
-        :standard: "Isikhathi sase-Mpumalanga ne-Kazakhstan"
-    :Kazakhstan_Western: 
-      :long: 
-        :standard: "Isikhathi saseNtshonalanga ne-Kazakhstan"
-    :Korea: 
-      :long: 
-        :daylight: "Isikhathi semini sase-Korea"
-        :generic: "Isikhathi sase-Korea"
-        :standard: "Isikhathi Esivamile sase-Korea"
-    :Kosrae: 
-      :long: 
-        :standard: "Isikhathi sase-Kosrae"
-    :Krasnoyarsk: 
-      :long: 
-        :daylight: "Isikhathi sasehlobo e-Krasnoyarsk"
-        :generic: "Isikhathi sase-Krasnoyarsk"
-        :standard: "Isikhathi Esivamile sase-Krasnoyarsk"
-    :Kyrgystan: 
-      :long: 
-        :standard: "Isikhathi sase-Kyrgystan"
-    :Line_Islands: 
-      :long: 
-        :standard: "Isikhathi sase-Line Islands"
-    :Lord_Howe: 
-      :long: 
-        :daylight: "Isikhathi sase-Lord Howe sasemini"
-        :generic: "Isikhathi sase-Lord Howe"
-        :standard: "Isikhathi sase-Lord Howe esivamile"
-    :Magadan: 
-      :long: 
-        :daylight: "Isikhathi sasehlobo e-Magadan"
-        :generic: "Isikhathi sase-Magadan"
-        :standard: "Isikhathi Esivamile sase-Magadan"
-    :Malaysia: 
-      :long: 
-        :standard: "Isikhathi sase-Malaysia"
-    :Maldives: 
-      :long: 
-        :standard: "Isikhathi sase-Maldives"
-    :Marquesas: 
-      :long: 
-        :standard: "Isikhathi sase-Marquesas"
-    :Marshall_Islands: 
-      :long: 
-        :standard: "Isikhathi sase-Marshall Islands"
-    :Mauritius: 
-      :long: 
-        :daylight: "Isikhathi sehlobo sase-Mauritius"
-        :generic: "Isikhathi sase-Mauritius"
-        :standard: "Isikhathi esivamile sase-Mauritius"
-    :Mawson: 
-      :long: 
-        :standard: "Isikhathi sase-Mawson"
-    :Mexico_Pacific: 
-      :long: 
-        :daylight: "Isikhathi sase-Mexican Pacific sasemini"
-        :generic: "Isikhathi sase-Mexican Pacific"
-        :standard: "Isikhathi sase-Mexican Pacific esijwayelekile"
-    :Mongolia: 
-      :long: 
-        :daylight: "Isikhathi sehlobo e-Ulan Bator"
-        :generic: "Isikhathi sase-Ulan Bator"
-        :standard: "Isikhathi Esimisiwe sase-Ulan Bator"
-    :Moscow: 
-      :long: 
-        :daylight: "Isikhathi sasehlobo e-Moscow"
-        :generic: "Isikhathi sase-Moscow"
-        :standard: "Isikhathi sase-Moscow esijwayelekile"
-    :Myanmar: 
-      :long: 
-        :standard: "Isikhathi sase-Myanmar"
-    :Nauru: 
-      :long: 
-        :standard: "Isikhathi sase-Nauru"
-    :Nepal: 
-      :long: 
-        :standard: "Isikhathi sase-Nepal"
-    :New_Caledonia: 
-      :long: 
-        :daylight: "Isikhathi sase-New Caledonia sasehlobo"
-        :generic: "Isikhathi sase-New Caledonia"
-        :standard: "Isikhathi sase-New Caledonia esivamile"
-    :New_Zealand: 
-      :long: 
-        :daylight: "Isikhathi sasemini sase-New Zealand"
-        :generic: "Isikhathi sase-New Zealand"
-        :standard: "Isikhathi esivamile sase-New Zealand"
-    :Newfoundland: 
-      :long: 
-        :daylight: "Isikhathi sase-Newfoundland sasemini"
-        :generic: "Isikhathi sase-Newfoundland"
-        :standard: "Isikhathi sase-Newfoundland esijwayelekile"
-    :Niue: 
-      :long: 
-        :standard: "Isikhathi sase-Niue"
-    :Norfolk: 
-      :long: 
-        :daylight: "Isikhathi sase-Norfolk Islands sasehlobo"
-        :generic: "Isikhathi sase-Norfolk Islands"
-        :standard: "Isikhathi sase-Norfolk Islands esivamile"
-    :Noronha: 
-      :long: 
-        :daylight: "Isikhathi sase-Fernando de Noronha sasehlobo"
-        :generic: "Isikhathi sase-Fernando de Noronha"
-        :standard: "Isikhathi sase-Fernando de Noronha esivamile"
-    :Novosibirsk: 
-      :long: 
-        :daylight: "Isikhathi sasehlobo sase-Novosibirsk"
-        :generic: "Isikhathi sase-Novosibirsk"
-        :standard: "Isikhathi Esivamile sase-Novosibirsk"
-    :Omsk: 
-      :long: 
-        :daylight: "Isikhathi sasehlobo sase-Omsk"
-        :generic: "Isikhathi sase-Omsk"
-        :standard: "Isikhathi Esivamile sase-Omsk"
-    :Pakistan: 
-      :long: 
-        :daylight: "Isikhathi sase-Pakistan sasehlobo"
-        :generic: "Isikhathi sase-Pakistan"
-        :standard: "Isikhathi sase-Pakistan esivamile"
-    :Palau: 
-      :long: 
-        :standard: "Isikhathi sase-Palau"
-    :Papua_New_Guinea: 
-      :long: 
-        :standard: "Isikhathi sase-Papua New Guinea"
-    :Paraguay: 
-      :long: 
-        :daylight: "Isikhathi sase-Paraguay sasehlobo"
-        :generic: "Isikhathi sase-Paraguay"
-        :standard: "Isikhathi sase-Paraguay esivamile"
-    :Peru: 
-      :long: 
-        :daylight: "Isikhathi sase-Peru sasehlobo"
-        :generic: "Isikhathi sase-Peru"
-        :standard: "Isikhathi sase-Peru esivamile"
-    :Philippines: 
-      :long: 
-        :daylight: "Isikhathi sehlobo sase-Philippine"
-        :generic: "Isikhathi sase-Philippine"
-        :standard: "Isikhathi esivamile sase-Philippine"
-    :Phoenix_Islands: 
-      :long: 
-        :standard: "Isikhathi sase-Phoenix Islands"
-    :Pierre_Miquelon: 
-      :long: 
-        :daylight: "Isikhathi sase-Saint Pierre nase-Miquelon sasemini"
-        :generic: "Isikhathi sase-Saint Pierre nase-Miquelon"
-        :standard: "Iikhathi sase-Saint Pierre nase-Miquelon esijwayelekile"
-    :Pitcairn: 
-      :long: 
-        :standard: "Isikhathi sase-Pitcairn"
-    :Ponape: 
-      :long: 
-        :standard: "Isikhathi sase-Ponape"
-    :Pyongyang: 
-      :long: 
-        :standard: "Isikhathi sase-Pyongyang"
-    :Reunion: 
-      :long: 
-        :standard: "Isikhathi sase-Reunion"
-    :Rothera: 
-      :long: 
-        :standard: "Isikhathi sase-Rothera"
-    :Sakhalin: 
-      :long: 
-        :daylight: "Isikhathi sasehlobo e-Sakhalin"
-        :generic: "Isikhathi sase-Sakhalin"
-        :standard: "Isikhathi Esivamile sase-Sakhalin"
-    :Samara: 
-      :long: 
-        :daylight: "esase-Samara Summer Time"
-        :generic: "esase-Samara Time"
-        :standard: "esase-Samara Standard Time"
-    :Samoa: 
-      :long: 
-        :daylight: "Isikhathi sase-Samoa sasemini"
-        :generic: "Isikhathi sase-Samoa"
-        :standard: "Isikhathi sase-Samoa esivamile"
-    :Seychelles: 
-      :long: 
-        :standard: "Isikhathi sase-Seychelles"
-    :Singapore: 
-      :long: 
-        :standard: "Isikhathi esivamile sase-Singapore"
-    :Solomon: 
-      :long: 
-        :standard: "Isikhathi sase-Solomon Islands"
-    :South_Georgia: 
-      :long: 
-        :standard: "Isikhathi sase-South Georgia"
-    :Suriname: 
-      :long: 
-        :standard: "Isikhathi sase-Suriname"
-    :Syowa: 
-      :long: 
-        :standard: "Isikhathi sase-Syowa"
-    :Tahiti: 
-      :long: 
-        :standard: "Isikhathi sase-Tahiti"
-    :Taipei: 
-      :long: 
-        :daylight: "Isikhathi semini sase-Taipei"
-        :generic: "Isikhathi sase-Taipei"
-        :standard: "Isikhathi esivamile sase-Taipei"
-    :Tajikistan: 
-      :long: 
-        :standard: "Isikhathi sase-Tajikistan"
-    :Tokelau: 
-      :long: 
-        :standard: "Isikhathi sase-Tokelau"
-    :Tonga: 
-      :long: 
-        :daylight: "Isikhathi sase-Tonga sasehlobo"
-        :generic: "Isikhathi sase-Tonga"
-        :standard: "Isikhathi sase-Tonga esivamile"
-    :Truk: 
-      :long: 
-        :standard: "Isikhathi sase-Chuuk"
-    :Turkmenistan: 
-      :long: 
-        :daylight: "Isikhathi sehlobo sase-Turkmenistan"
-        :generic: "Isikhathi sase-Turkmenistan"
-        :standard: "Isikhathi esivamile sase-Turkmenistan"
-    :Tuvalu: 
-      :long: 
-        :standard: "Isikhathi sase-Tuvalu"
-    :Uruguay: 
-      :long: 
-        :daylight: "Isikhathi sase-Uruguay sasehlobo"
-        :generic: "Isikhathi sase-Uruguay"
-        :standard: "Isikhathi sase-Uruguay esijwayelekile"
-    :Uzbekistan: 
-      :long: 
-        :daylight: "Isikhathi sehlobo sase-Uzbekistan"
-        :generic: "Isikhathi sase-Uzbekistan"
-        :standard: "Isikhathi esivamile sase-Uzbekistan"
-    :Vanuatu: 
-      :long: 
-        :daylight: "Isikhathi sase-Vanuatu sasehlobo"
-        :generic: "Isikhathi sase-Vanuatu"
-        :standard: "Isikhathi sase-Vanuatu esijwayelekile"
-    :Venezuela: 
-      :long: 
-        :standard: "Isikhathi sase-Venezuela"
-    :Vladivostok: 
-      :long: 
-        :daylight: "Isikhathi sasehlobo e-Vladivostok"
-        :generic: "Isikhathi sase-Vladivostok"
-        :standard: "Isikhathi Esivamile sase-Vladivostok"
-    :Volgograd: 
-      :long: 
-        :daylight: "Isikhathi sase-Volgograd sasehlobo"
-        :generic: "Isikhathi sase-Volgograd"
-        :standard: "Isikhathi Esivamile sase-Volgograd"
-    :Vostok: 
-      :long: 
-        :standard: "Isikhathi sase-Vostok"
-    :Wake: 
-      :long: 
-        :standard: "Isikhathi sase-Wake Island"
-    :Wallis: 
-      :long: 
-        :standard: "Isikhathi sase-Wallis nase-Futuna"
-    :Yakutsk: 
-      :long: 
-        :daylight: "Isikhathi sasehlobo e-Yakutsk"
-        :generic: "Isikhathi sase-Yakutsk"
-        :standard: "Isikhathi Esivamile sase-Yakutsk"
-    :Yekaterinburg: 
-      :long: 
-        :daylight: "Isikhathi sasehlobo e-Yekaterinburg"
-        :generic: "Isikhathi sase-Yekaterinburg"
-        :standard: "Isikhathi Esivamile sase-Yekaterinburg"
-    :Yukon: 
-      :long: 
-        :standard: "Yukon Time"
-  :timezones: 
-    :Africa/Abidjan: 
-      :city: i-Abidjan
-    :Africa/Accra: 
-      :city: i-Accra
-    :Africa/Addis_Ababa: 
-      :city: "i-Addis Ababa"
-    :Africa/Algiers: 
-      :city: i-Algiers
-    :Africa/Asmera: 
-      :city: i-Asmara
-    :Africa/Bamako: 
-      :city: i-Bamako
-    :Africa/Bangui: 
-      :city: i-Bangui
-    :Africa/Banjul: 
-      :city: i-Banjul
-    :Africa/Bissau: 
-      :city: i-Bissau
-    :Africa/Blantyre: 
-      :city: i-Blantyre
-    :Africa/Brazzaville: 
-      :city: i-Brazzaville
-    :Africa/Bujumbura: 
-      :city: i-Bujumbura
-    :Africa/Cairo: 
-      :city: i-Cairo
-    :Africa/Casablanca: 
-      :city: i-Casablanca
-    :Africa/Ceuta: 
-      :city: i-Ceuta
-    :Africa/Conakry: 
-      :city: i-Conakry
-    :Africa/Dakar: 
-      :city: i-Dakar
-    :Africa/Dar_es_Salaam: 
-      :city: "i-Dar es Salaam"
-    :Africa/Djibouti: 
-      :city: i-Djibouti
-    :Africa/Douala: 
-      :city: i-Douala
-    :Africa/El_Aaiun: 
-      :city: "i-El Aaiun"
-    :Africa/Freetown: 
-      :city: i-Freetown
-    :Africa/Gaborone: 
-      :city: i-Gaborone
-    :Africa/Harare: 
-      :city: i-Harare
-    :Africa/Johannesburg: 
-      :city: i-Johannesburg
-    :Africa/Juba: 
-      :city: iJuba
-    :Africa/Kampala: 
-      :city: i-Kampala
-    :Africa/Khartoum: 
-      :city: i-Khartoum
-    :Africa/Kigali: 
-      :city: i-Kigali
-    :Africa/Kinshasa: 
-      :city: i-Kinshasa
-    :Africa/Lagos: 
-      :city: i-Lagos
-    :Africa/Libreville: 
-      :city: i-Libreville
-    :Africa/Lome: 
-      :city: i-Lome
-    :Africa/Luanda: 
-      :city: i-Luanda
-    :Africa/Lubumbashi: 
-      :city: i-Lubumbashi
-    :Africa/Lusaka: 
-      :city: iLusaka
-    :Africa/Malabo: 
-      :city: iMalabo
-    :Africa/Maputo: 
-      :city: iMaputo
-    :Africa/Maseru: 
-      :city: iMaseru
-    :Africa/Mbabane: 
-      :city: iMbabane
-    :Africa/Mogadishu: 
-      :city: i-Mogadishu
-    :Africa/Monrovia: 
-      :city: i-Monrovia
-    :Africa/Nairobi: 
-      :city: i-Nairobi
-    :Africa/Ndjamena: 
-      :city: i-Ndjamena
-    :Africa/Niamey: 
-      :city: i-Niamey
-    :Africa/Nouakchott: 
-      :city: i-Nouakchott
-    :Africa/Ouagadougou: 
-      :city: i-Ouagadougou
-    :Africa/Porto-Novo: 
-      :city: i-Porto-Novo
-    :Africa/Sao_Tome: 
-      :city: "i-São Tomé"
-    :Africa/Tripoli: 
-      :city: i-Tripoli
-    :Africa/Tunis: 
-      :city: i-Tunis
-    :Africa/Windhoek: 
-      :city: i-Windhoek
-    :America/Adak: 
-      :city: i-Adak
-    :America/Anchorage: 
-      :city: i-Anchorage
-    :America/Anguilla: 
-      :city: i-Anguilla
-    :America/Antigua: 
-      :city: i-Antigua
-    :America/Araguaina: 
-      :city: i-Araguaina
-    :America/Argentina/La_Rioja: 
-      :city: "i-La Rioja"
-    :America/Argentina/Rio_Gallegos: 
-      :city: "i-Rio Gallegos"
-    :America/Argentina/Salta: 
-      :city: i-Salta
-    :America/Argentina/San_Juan: 
-      :city: "i-San Juan"
-    :America/Argentina/San_Luis: 
-      :city: "i-San Luis"
-    :America/Argentina/Tucuman: 
-      :city: i-Tucuman
-    :America/Argentina/Ushuaia: 
-      :city: i-Ushuaia
-    :America/Aruba: 
-      :city: i-Aruba
-    :America/Asuncion: 
-      :city: i-Asunción
-    :America/Bahia: 
-      :city: i-Bahia
-    :America/Bahia_Banderas: 
-      :city: "i-Bahia Banderas"
-    :America/Barbados: 
-      :city: i-Barbados
-    :America/Belem: 
-      :city: i-Belem
-    :America/Belize: 
-      :city: i-Belize
-    :America/Blanc-Sablon: 
-      :city: i-Blanc-Sablon
-    :America/Boa_Vista: 
-      :city: "i-Boa Vista"
-    :America/Bogota: 
-      :city: i-Bogota
-    :America/Boise: 
-      :city: i-Boise
-    :America/Buenos_Aires: 
-      :city: "i-Buenos Aires"
-    :America/Cambridge_Bay: 
-      :city: "i-Cambridge Bay"
-    :America/Campo_Grande: 
-      :city: "i-Campo Grande"
-    :America/Cancun: 
-      :city: i-Cancun
-    :America/Caracas: 
-      :city: i-Caracas
-    :America/Catamarca: 
-      :city: i-Catamarca
-    :America/Cayenne: 
-      :city: i-Cayenne
-    :America/Cayman: 
-      :city: i-Cayman
-    :America/Chicago: 
-      :city: i-Chicago
-    :America/Chihuahua: 
-      :city: i-Chihuahua
-    :America/Ciudad_Juarez: 
-      :city: "Ciudad Juárez"
-    :America/Coral_Harbour: 
-      :city: i-Atikokan
-    :America/Cordoba: 
-      :city: i-Cordoba
-    :America/Costa_Rica: 
-      :city: "i-Costa Rica"
-    :America/Creston: 
-      :city: i-Creston
-    :America/Cuiaba: 
-      :city: i-Cuiaba
-    :America/Curacao: 
-      :city: i-Curaçao
-    :America/Danmarkshavn: 
-      :city: i-Danmarkshavn
-    :America/Dawson: 
-      :city: i-Dawson
-    :America/Dawson_Creek: 
-      :city: "i-Dawson Creek"
-    :America/Denver: 
-      :city: i-Denver
-    :America/Detroit: 
-      :city: i-Detroit
-    :America/Dominica: 
-      :city: i-Dominica
-    :America/Edmonton: 
-      :city: i-Edmonton
-    :America/Eirunepe: 
-      :city: i-Eirunepe
-    :America/El_Salvador: 
-      :city: "i-El Salvador"
-    :America/Fort_Nelson: 
-      :city: "i-Fort Nelson"
-    :America/Fortaleza: 
-      :city: i-Fortaleza
-    :America/Glace_Bay: 
-      :city: "i-Glace Bay"
-    :America/Godthab: 
-      :city: i-Nuuk
-    :America/Goose_Bay: 
-      :city: "i-Goose Bay"
-    :America/Grand_Turk: 
-      :city: "i-Grand Turk"
-    :America/Grenada: 
-      :city: i-Grenada
-    :America/Guadeloupe: 
-      :city: i-Guadeloupe
-    :America/Guatemala: 
-      :city: i-Guatemala
-    :America/Guayaquil: 
-      :city: i-Guayaquil
-    :America/Guyana: 
-      :city: i-Guyana
-    :America/Halifax: 
-      :city: i-Halifax
-    :America/Havana: 
-      :city: i-Havana
-    :America/Hermosillo: 
-      :city: i-Hermosillo
-    :America/Indiana/Knox: 
-      :city: "i-Knox, Indiana"
-    :America/Indiana/Marengo: 
-      :city: "i-Marengo, Indiana"
-    :America/Indiana/Petersburg: 
-      :city: "i-Petersburg, Indiana"
-    :America/Indiana/Tell_City: 
-      :city: "i-Tell City, Indiana"
-    :America/Indiana/Vevay: 
-      :city: "i-Vevay, Indiana"
-    :America/Indiana/Vincennes: 
-      :city: "i-Vincennes, Indiana"
-    :America/Indiana/Winamac: 
-      :city: "i-Winamac, Indiana"
-    :America/Indianapolis: 
-      :city: i-Indianapolis
-    :America/Inuvik: 
-      :city: i-Inuvik
-    :America/Iqaluit: 
-      :city: i-Iqaluit
-    :America/Jamaica: 
-      :city: i-Jamaica
-    :America/Jujuy: 
-      :city: i-Jujuy
-    :America/Juneau: 
-      :city: i-Juneau
-    :America/Kentucky/Monticello: 
-      :city: "i-Monticello, Kentucky"
-    :America/Kralendijk: 
-      :city: i-Kralendijk
-    :America/La_Paz: 
-      :city: "i-La Paz"
-    :America/Lima: 
-      :city: i-Lima
-    :America/Los_Angeles: 
-      :city: "i-Los Angeles"
-    :America/Louisville: 
-      :city: i-Louisville
-    :America/Lower_Princes: 
-      :city: "i-Lower Prince’s Quarter"
-    :America/Maceio: 
-      :city: i-Maceio
-    :America/Managua: 
-      :city: i-Managua
-    :America/Manaus: 
-      :city: i-Manaus
-    :America/Marigot: 
-      :city: i-Marigot
-    :America/Martinique: 
-      :city: i-Martinique
-    :America/Matamoros: 
-      :city: i-Matamoros
-    :America/Mazatlan: 
-      :city: i-Mazatlan
-    :America/Mendoza: 
-      :city: i-Mendoza
-    :America/Menominee: 
-      :city: i-Menominee
-    :America/Merida: 
-      :city: i-Merida
-    :America/Metlakatla: 
-      :city: i-Metlakatla
-    :America/Mexico_City: 
-      :city: "i-Mexico City"
-    :America/Miquelon: 
-      :city: i-Miquelon
-    :America/Moncton: 
-      :city: i-Moncton
-    :America/Monterrey: 
-      :city: i-Monterrey
-    :America/Montevideo: 
-      :city: i-Montevideo
-    :America/Montserrat: 
-      :city: i-Montserrat
-    :America/Nassau: 
-      :city: i-Nassau
-    :America/New_York: 
-      :city: "i-New York"
-    :America/Nome: 
-      :city: i-Nome
-    :America/Noronha: 
-      :city: i-Noronha
-    :America/North_Dakota/Beulah: 
-      :city: "i-Beulah, North Dakota"
-    :America/North_Dakota/Center: 
-      :city: "i-Center, North Dakota"
-    :America/North_Dakota/New_Salem: 
-      :city: "i-New Salem, North Dakota"
-    :America/Ojinaga: 
-      :city: i-Ojinaga
-    :America/Panama: 
-      :city: i-Panama
-    :America/Paramaribo: 
-      :city: i-Paramaribo
-    :America/Phoenix: 
-      :city: i-Phoenix
-    :America/Port-au-Prince: 
-      :city: i-Port-au-Prince
-    :America/Port_of_Spain: 
-      :city: "i-Port of Spain"
-    :America/Porto_Velho: 
-      :city: "i-Porto Velho"
-    :America/Puerto_Rico: 
-      :city: "i-Puerto Rico"
-    :America/Punta_Arenas: 
-      :city: "i-Punta Arenas"
-    :America/Rankin_Inlet: 
-      :city: "i-Rankin Inlet"
-    :America/Recife: 
-      :city: i-Recife
-    :America/Regina: 
-      :city: i-Regina
-    :America/Resolute: 
-      :city: i-Resolute
-    :America/Rio_Branco: 
-      :city: "i-Rio Branco"
-    :America/Santarem: 
-      :city: i-Santarem
-    :America/Santiago: 
-      :city: i-Santiago
-    :America/Santo_Domingo: 
-      :city: "i-Santo Domingo"
-    :America/Sao_Paulo: 
-      :city: "i-Sao Paulo"
-    :America/Scoresbysund: 
-      :city: i-Ittoqqortoormiit
-    :America/Sitka: 
-      :city: i-Sitka
-    :America/St_Barthelemy: 
-      :city: "i-St. Barthélemy"
-    :America/St_Johns: 
-      :city: "i-St. John’s"
-    :America/St_Kitts: 
-      :city: "i-St. Kitts"
-    :America/St_Lucia: 
-      :city: "I-St. Lucia"
-    :America/St_Thomas: 
-      :city: "i-St. Thomas"
-    :America/St_Vincent: 
-      :city: "i-St. Vincent"
-    :America/Swift_Current: 
-      :city: "i-Swift Current"
-    :America/Tegucigalpa: 
-      :city: i-Tegucigalpa
-    :America/Thule: 
-      :city: i-Thule
-    :America/Tijuana: 
-      :city: i-Tijuana
-    :America/Toronto: 
-      :city: i-Toronto
-    :America/Tortola: 
-      :city: i-Tortola
-    :America/Vancouver: 
-      :city: i-Vancouver
-    :America/Whitehorse: 
-      :city: i-Whitehorse
-    :America/Winnipeg: 
-      :city: i-Winnipeg
-    :America/Yakutat: 
-      :city: i-Yakutat
-    :Antarctica/Casey: 
-      :city: i-Casey
-    :Antarctica/Davis: 
-      :city: i-Davis
-    :Antarctica/DumontDUrville: 
-      :city: "i-Dumont d’Urville"
-    :Antarctica/Macquarie: 
-      :city: i-Macquarie
-    :Antarctica/Mawson: 
-      :city: i-Mawson
-    :Antarctica/McMurdo: 
-      :city: i-McMurdo
-    :Antarctica/Palmer: 
-      :city: i-Palmer
-    :Antarctica/Rothera: 
-      :city: i-Rothera
-    :Antarctica/Syowa: 
-      :city: i-Syowa
-    :Antarctica/Troll: 
-      :city: i-Troll
-    :Antarctica/Vostok: 
-      :city: i-Vostok
-    :Arctic/Longyearbyen: 
-      :city: i-Longyearbyen
-    :Asia/Aden: 
-      :city: i-Aden
-    :Asia/Almaty: 
-      :city: i-Almaty
-    :Asia/Amman: 
-      :city: i-Amman
-    :Asia/Anadyr: 
-      :city: i-Anadyr
-    :Asia/Aqtau: 
-      :city: i-Aqtau
-    :Asia/Aqtobe: 
-      :city: i-Aqtobe
-    :Asia/Ashgabat: 
-      :city: i-Ashgabat
-    :Asia/Baghdad: 
-      :city: i-Baghdad
-    :Asia/Bahrain: 
-      :city: i-Bahrain
-    :Asia/Baku: 
-      :city: i-Baku
-    :Asia/Bangkok: 
-      :city: i-Bangkok
-    :Asia/Barnaul: 
-      :city: i-Barnaul
-    :Asia/Beirut: 
-      :city: i-Beirut
-    :Asia/Bishkek: 
-      :city: i-Bishkek
-    :Asia/Brunei: 
-      :city: i-Brunei
-    :Asia/Calcutta: 
-      :city: i-Kolkata
-    :Asia/Chita: 
-      :city: i-Chita
-    :Asia/Colombo: 
-      :city: i-Colombo
-    :Asia/Damascus: 
-      :city: i-Damascus
-    :Asia/Dhaka: 
-      :city: i-Dhaka
-    :Asia/Dili: 
-      :city: i-Dili
-    :Asia/Dubai: 
-      :city: i-Dubai
-    :Asia/Dushanbe: 
-      :city: i-Dushanbe
-    :Asia/Gaza: 
-      :city: iGaza
-    :Asia/Hebron: 
-      :city: i-Hebron
-    :Asia/Hong_Kong: 
-      :city: "i-Hong Kong"
-    :Asia/Hovd: 
-      :city: i-Hovd
-    :Asia/Irkutsk: 
-      :city: i-Irkutsk
-    :Asia/Jakarta: 
-      :city: i-Jakarta
-    :Asia/Jayapura: 
-      :city: i-Jayapura
-    :Asia/Jerusalem: 
-      :city: i-Jerusalem
-    :Asia/Kabul: 
-      :city: i-Kabul
-    :Asia/Kamchatka: 
-      :city: i-Kamchatka
-    :Asia/Karachi: 
-      :city: i-Karachi
-    :Asia/Katmandu: 
-      :city: i-Kathmandu
-    :Asia/Khandyga: 
-      :city: i-Khandyga
-    :Asia/Krasnoyarsk: 
-      :city: i-Krasnoyarsk
-    :Asia/Kuala_Lumpur: 
-      :city: "i-Kuala Lumpur"
-    :Asia/Kuching: 
-      :city: i-Kuching
-    :Asia/Kuwait: 
-      :city: i-Kuwait
-    :Asia/Macau: 
-      :city: i-Macau
-    :Asia/Magadan: 
-      :city: i-Magadan
-    :Asia/Makassar: 
-      :city: i-Makassar
-    :Asia/Manila: 
-      :city: i-Manila
-    :Asia/Muscat: 
-      :city: i-Muscat
-    :Asia/Nicosia: 
-      :city: i-Nicosia
-    :Asia/Novokuznetsk: 
-      :city: i-Novokuznetsk
-    :Asia/Novosibirsk: 
-      :city: i-Novosibirsk
-    :Asia/Omsk: 
-      :city: i-Omsk
-    :Asia/Oral: 
-      :city: i-Oral
-    :Asia/Phnom_Penh: 
-      :city: "i-Phnom Penh"
-    :Asia/Pontianak: 
-      :city: i-Pontianak
-    :Asia/Pyongyang: 
-      :city: i-Pyongyang
-    :Asia/Qatar: 
-      :city: i-Qatar
-    :Asia/Qostanay: 
-      :city: I-Kostanay
-    :Asia/Qyzylorda: 
-      :city: i-Qyzylorda
-    :Asia/Rangoon: 
-      :city: i-Rangoon
-    :Asia/Riyadh: 
-      :city: i-Riyadh
-    :Asia/Saigon: 
-      :city: "i-Ho Chi Minh City"
-    :Asia/Sakhalin: 
-      :city: i-Sakhalin
-    :Asia/Samarkand: 
-      :city: i-Samarkand
-    :Asia/Seoul: 
-      :city: i-Seoul
-    :Asia/Shanghai: 
-      :city: i-Shanghai
-    :Asia/Singapore: 
-      :city: i-Singapore
-    :Asia/Srednekolymsk: 
-      :city: i-Srednekolymsk
-    :Asia/Taipei: 
-      :city: i-Taipei
-    :Asia/Tashkent: 
-      :city: i-Tashkent
-    :Asia/Tbilisi: 
-      :city: i-Tbilisi
-    :Asia/Tehran: 
-      :city: i-Tehran
-    :Asia/Thimphu: 
-      :city: i-Thimphu
-    :Asia/Tokyo: 
-      :city: i-Tokyo
-    :Asia/Tomsk: 
-      :city: i-Tomsk
-    :Asia/Ulaanbaatar: 
-      :city: i-Ulaanbaatar
-    :Asia/Urumqi: 
-      :city: i-Urumqi
-    :Asia/Ust-Nera: 
-      :city: i-Ust-Nera
-    :Asia/Vientiane: 
-      :city: i-Vientiane
-    :Asia/Vladivostok: 
-      :city: i-Vladivostok
-    :Asia/Yakutsk: 
-      :city: i-Yakutsk
-    :Asia/Yekaterinburg: 
-      :city: i-Yekaterinburg
-    :Asia/Yerevan: 
-      :city: i-Yerevan
-    :Atlantic/Azores: 
-      :city: i-Azores
-    :Atlantic/Bermuda: 
-      :city: i-Bermuda
-    :Atlantic/Canary: 
-      :city: i-Canary
-    :Atlantic/Cape_Verde: 
-      :city: "i-Cape Verde"
-    :Atlantic/Faeroe: 
-      :city: i-Faroe
-    :Atlantic/Madeira: 
-      :city: i-Madeira
-    :Atlantic/Reykjavik: 
-      :city: i-Reykjavik
-    :Atlantic/South_Georgia: 
-      :city: "i-South Georgia"
-    :Atlantic/St_Helena: 
-      :city: "i-St. Helena"
-    :Atlantic/Stanley: 
-      :city: i-Stanley
-    :Australia/Adelaide: 
-      :city: i-Adelaide
-    :Australia/Brisbane: 
-      :city: i-Brisbane
-    :Australia/Broken_Hill: 
-      :city: "i-Broken Hill"
-    :Australia/Darwin: 
-      :city: i-Darwin
-    :Australia/Eucla: 
-      :city: i-Eucla
-    :Australia/Hobart: 
-      :city: i-Hobart
-    :Australia/Lindeman: 
-      :city: i-Lindeman
-    :Australia/Lord_Howe: 
-      :city: "i-Lord Howe"
-    :Australia/Melbourne: 
-      :city: i-Melbourne
-    :Australia/Perth: 
-      :city: i-Perth
-    :Australia/Sydney: 
-      :city: i-Sydney
-    :Etc/UTC: 
-      :long: 
-        :standard: "isikhathi somhlaba esididiyelwe"
-      :short: 
+    :fallback_formats:
+      :generic: "{1} ({0})"
+  :timezones:
+    :Etc/UTC:
+      :short:
         :standard: UTC
-    :Etc/Unknown: 
-      :city: "idolobha elingaziwa"
-    :Europe/Amsterdam: 
-      :city: i-Amsterdam
-    :Europe/Andorra: 
-      :city: i-Andorra
-    :Europe/Astrakhan: 
-      :city: i-Astrakhan
-    :Europe/Athens: 
-      :city: i-Athens
-    :Europe/Belgrade: 
-      :city: i-Belgrade
-    :Europe/Berlin: 
-      :city: i-Berlin
-    :Europe/Bratislava: 
-      :city: i-Bratislava
-    :Europe/Brussels: 
-      :city: i-Brussels
-    :Europe/Bucharest: 
-      :city: i-Bucharest
-    :Europe/Budapest: 
-      :city: i-Budapest
-    :Europe/Busingen: 
-      :city: i-Busingen
-    :Europe/Chisinau: 
-      :city: i-Chisinau
-    :Europe/Copenhagen: 
-      :city: i-Copenhagen
-    :Europe/Dublin: 
-      :city: i-Dublin
-      :long: 
-        :daylight: "isikhathi sase-Irish esivamile"
-    :Europe/Gibraltar: 
-      :city: i-Gibraltar
-    :Europe/Guernsey: 
-      :city: i-Guernsey
-    :Europe/Helsinki: 
-      :city: i-Helsinki
-    :Europe/Isle_of_Man: 
-      :city: "i-Isle of Man"
-    :Europe/Istanbul: 
-      :city: i-Istanbul
-    :Europe/Jersey: 
-      :city: i-Jersey
-    :Europe/Kaliningrad: 
-      :city: i-Kaliningrad
-    :Europe/Kiev: 
-      :city: i-Kiev
-    :Europe/Kirov: 
-      :city: i-Kirov
-    :Europe/Lisbon: 
-      :city: i-Lisbon
-    :Europe/Ljubljana: 
-      :city: i-Ljubljana
-    :Europe/London: 
-      :city: i-London
-      :long: 
-        :daylight: "isikhathi sase-British sasehlobo"
-    :Europe/Luxembourg: 
-      :city: i-Luxembourg
-    :Europe/Madrid: 
-      :city: i-Madrid
-    :Europe/Malta: 
-      :city: i-Malta
-    :Europe/Mariehamn: 
-      :city: i-Mariehamn
-    :Europe/Minsk: 
-      :city: i-Minsk
-    :Europe/Monaco: 
-      :city: i-Monaco
-    :Europe/Moscow: 
-      :city: i-Moscow
-    :Europe/Oslo: 
-      :city: i-Oslo
-    :Europe/Paris: 
-      :city: i-Paris
-    :Europe/Podgorica: 
-      :city: i-Podgorica
-    :Europe/Prague: 
-      :city: i-Prague
-    :Europe/Riga: 
-      :city: i-Riga
-    :Europe/Rome: 
-      :city: i-Rome
-    :Europe/Samara: 
-      :city: i-Samara
-    :Europe/San_Marino: 
-      :city: "i-San Marino"
-    :Europe/Sarajevo: 
-      :city: i-Sarajevo
-    :Europe/Saratov: 
-      :city: i-Saratov
-    :Europe/Simferopol: 
-      :city: i-Simferopol
-    :Europe/Skopje: 
-      :city: i-Skopje
-    :Europe/Sofia: 
-      :city: i-Sofia
-    :Europe/Stockholm: 
-      :city: i-Stockholm
-    :Europe/Tallinn: 
-      :city: i-Tallinn
-    :Europe/Tirane: 
+      :long:
+        :standard: isikhathi somhlaba esididiyelwe
+    :Europe/Tirane:
       :city: i-Tirane
-    :Europe/Ulyanovsk: 
-      :city: i-Ulyanovsk
-    :Europe/Vaduz: 
-      :city: i-Vaduz
-    :Europe/Vatican: 
-      :city: i-Vatican
-    :Europe/Vienna: 
-      :city: i-Vienna
-    :Europe/Vilnius: 
-      :city: i-Vilnius
-    :Europe/Volgograd: 
-      :city: i-Volgograd
-    :Europe/Warsaw: 
-      :city: i-Warsaw
-    :Europe/Zagreb: 
-      :city: i-Zagreb
-    :Europe/Zurich: 
-      :city: i-Zurich
-    :Indian/Antananarivo: 
-      :city: i-Antananarivo
-    :Indian/Chagos: 
-      :city: i-Chagos
-    :Indian/Christmas: 
-      :city: Ukhisimusi
-    :Indian/Cocos: 
-      :city: i-Cocos
-    :Indian/Comoro: 
-      :city: i-Comoro
-    :Indian/Kerguelen: 
-      :city: i-Kerguelen
-    :Indian/Mahe: 
-      :city: iMahe
-    :Indian/Maldives: 
-      :city: i-Maldives
-    :Indian/Mauritius: 
-      :city: i-Mauritius
-    :Indian/Mayotte: 
-      :city: i-Mayotte
-    :Indian/Reunion: 
-      :city: i-Réunion
-    :Pacific/Apia: 
-      :city: i-Apia
-    :Pacific/Auckland: 
-      :city: i-Auckland
-    :Pacific/Bougainville: 
-      :city: i-Bougainville
-    :Pacific/Chatham: 
-      :city: i-Chatham
-    :Pacific/Easter: 
-      :city: i-Easter
-    :Pacific/Efate: 
-      :city: i-Efate
-    :Pacific/Enderbury: 
-      :city: Canton
-    :Pacific/Fakaofo: 
-      :city: i-Fakaofo
-    :Pacific/Fiji: 
-      :city: i-Fiji
-    :Pacific/Funafuti: 
-      :city: i-Funafuti
-    :Pacific/Galapagos: 
+    :Antarctica/Syowa:
+      :city: i-Syowa
+    :Antarctica/DumontDUrville:
+      :city: i-Dumont d’Urville
+    :America/Argentina/Rio_Gallegos:
+      :city: i-Rio Gallegos
+    :America/Argentina/Tucuman:
+      :city: i-Tucuman
+    :America/Cordoba:
+      :city: i-Cordoba
+    :America/St_Barthelemy:
+      :city: i-St. Barthélemy
+    :America/Eirunepe:
+      :city: i-Eirunepe
+    :America/Cuiaba:
+      :city: i-Cuiaba
+    :America/Santarem:
+      :city: i-Santarem
+    :America/Belem:
+      :city: i-Belem
+    :America/Araguaina:
+      :city: i-Araguaina
+    :America/Sao_Paulo:
+      :city: i-Sao Paulo
+    :America/Maceio:
+      :city: i-Maceio
+    :America/Noronha:
+      :city: i-Noronha
+    :America/Coral_Harbour:
+      :city: i-Atikokan
+    :America/St_Johns:
+      :city: i-St. John’s
+    :Asia/Urumqi:
+      :city: i-Urumqi
+    :America/Bogota:
+      :city: i-Bogota
+    :America/Curacao:
+      :city: i-Curaçao
+    :Europe/Busingen:
+      :city: i-Busingen
+    :Pacific/Galapagos:
       :city: i-Galapagos
-    :Pacific/Gambier: 
-      :city: i-Gambier
-    :Pacific/Guadalcanal: 
-      :city: i-Guadalcanal
-    :Pacific/Guam: 
-      :city: i-Guam
-    :Pacific/Honolulu: 
-      :city: i-Honolulu
-    :Pacific/Kiritimati: 
-      :city: i-Kiritimati
-    :Pacific/Kosrae: 
-      :city: i-Kosrae
-    :Pacific/Kwajalein: 
-      :city: i-Kwajalein
-    :Pacific/Majuro: 
-      :city: i-Majuro
-    :Pacific/Marquesas: 
-      :city: i-Marquesas
-    :Pacific/Midway: 
-      :city: i-Midway
-    :Pacific/Nauru: 
-      :city: i-Nauru
-    :Pacific/Niue: 
-      :city: i-Niue
-    :Pacific/Norfolk: 
-      :city: i-Norfolk
-    :Pacific/Noumea: 
-      :city: i-Noumea
-    :Pacific/Pago_Pago: 
-      :city: "i-Pago Pago"
-    :Pacific/Palau: 
-      :city: i-Palau
-    :Pacific/Pitcairn: 
-      :city: i-Pitcairn
-    :Pacific/Ponape: 
-      :city: i-Pohnpei
-    :Pacific/Port_Moresby: 
-      :city: "i-Port Moresby"
-    :Pacific/Rarotonga: 
-      :city: i-Rarotonga
-    :Pacific/Saipan: 
-      :city: i-Saipan
-    :Pacific/Tahiti: 
-      :city: i-Tahiti
-    :Pacific/Tarawa: 
-      :city: i-Tarawa
-    :Pacific/Tongatapu: 
-      :city: i-Tongatapu
-    :Pacific/Truk: 
+    :Africa/El_Aaiun:
+      :city: i-El Aaiun
+    :Africa/Asmera:
+      :city: i-Asmara
+    :Atlantic/Canary:
+      :city: i-Canary
+    :Pacific/Truk:
       :city: i-Chuuk
-    :Pacific/Wake: 
-      :city: i-Wake
-    :Pacific/Wallis: 
+    :Pacific/Ponape:
+      :city: i-Pohnpei
+    :Atlantic/Faeroe:
+      :city: i-Faroe
+    :America/Godthab:
+      :city: i-Nuuk
+    :America/Scoresbysund:
+      :city: i-Ittoqqortoormiit
+    :Asia/Calcutta:
+      :city: i-Kolkata
+    :Pacific/Enderbury:
+      :city: Canton
+    :Indian/Comoro:
+      :city: i-Comoro
+    :America/St_Kitts:
+      :city: i-St. Kitts
+    :America/St_Lucia:
+      :city: I-St. Lucia
+    :Europe/Chisinau:
+      :city: i-Chisinau
+    :Asia/Rangoon:
+      :city: i-Rangoon
+    :Asia/Hovd:
+      :city: i-Hovd
+    :Asia/Macau:
+      :city: i-Macau
+    :America/Ciudad_Juarez:
+      :city: Ciudad Juárez
+    :America/Mazatlan:
+      :city: i-Mazatlan
+    :America/Bahia_Banderas:
+      :city: i-Bahia Banderas
+    :America/Mexico_City:
+      :city: i-Mexico City
+    :America/Merida:
+      :city: i-Merida
+    :America/Cancun:
+      :city: i-Cancun
+    :Pacific/Noumea:
+      :city: i-Noumea
+    :Asia/Katmandu:
+      :city: i-Kathmandu
+    :America/Miquelon:
+      :city: i-Miquelon
+    :America/Asuncion:
+      :city: i-Asunción
+    :Indian/Reunion:
+      :city: i-Réunion
+    :Indian/Mahe:
+      :city: iMahe
+    :Atlantic/St_Helena:
+      :city: i-St. Helena
+    :Africa/Sao_Tome:
+      :city: i-São Tomé
+    :America/Lower_Princes:
+      :city: i-Lower Prince’s Quarter
+    :Africa/Ndjamena:
+      :city: i-Ndjamena
+    :Africa/Lome:
+      :city: i-Lome
+    :Europe/Kiev:
+      :city: i-Kiev
+    :America/North_Dakota/Beulah:
+      :city: i-Beulah, North Dakota
+    :America/North_Dakota/New_Salem:
+      :city: i-New Salem, North Dakota
+    :America/North_Dakota/Center:
+      :city: i-Center, North Dakota
+    :America/Indiana/Vincennes:
+      :city: i-Vincennes, Indiana
+    :America/Indiana/Petersburg:
+      :city: i-Petersburg, Indiana
+    :America/Indiana/Tell_City:
+      :city: i-Tell City, Indiana
+    :America/Indiana/Knox:
+      :city: i-Knox, Indiana
+    :America/Indiana/Winamac:
+      :city: i-Winamac, Indiana
+    :America/Indiana/Marengo:
+      :city: i-Marengo, Indiana
+    :America/Indiana/Vevay:
+      :city: i-Vevay, Indiana
+    :America/Kentucky/Monticello:
+      :city: i-Monticello, Kentucky
+    :America/St_Vincent:
+      :city: i-St. Vincent
+    :America/St_Thomas:
+      :city: i-St. Thomas
+    :Asia/Saigon:
+      :city: i-Ho Chi Minh City
+    :Pacific/Wallis:
       :city: i-Wallis
+    :Pacific/Honolulu:
+      :city: i-Honolulu
+    :Etc/Unknown:
+      :city: idolobha elingaziwa
+    :Europe/Andorra:
+      :city: i-Andorra
+    :Asia/Dubai:
+      :city: i-Dubai
+    :Asia/Kabul:
+      :city: i-Kabul
+    :America/Antigua:
+      :city: i-Antigua
+    :America/Anguilla:
+      :city: i-Anguilla
+    :Asia/Yerevan:
+      :city: i-Yerevan
+    :Africa/Luanda:
+      :city: i-Luanda
+    :Antarctica/Rothera:
+      :city: i-Rothera
+    :Antarctica/Palmer:
+      :city: i-Palmer
+    :Antarctica/Troll:
+      :city: i-Troll
+    :Antarctica/Mawson:
+      :city: i-Mawson
+    :Antarctica/Davis:
+      :city: i-Davis
+    :Antarctica/Vostok:
+      :city: i-Vostok
+    :Antarctica/Casey:
+      :city: i-Casey
+    :Antarctica/McMurdo:
+      :city: i-McMurdo
+    :America/Mendoza:
+      :city: i-Mendoza
+    :America/Argentina/San_Juan:
+      :city: i-San Juan
+    :America/Argentina/Ushuaia:
+      :city: i-Ushuaia
+    :America/Argentina/La_Rioja:
+      :city: i-La Rioja
+    :America/Argentina/San_Luis:
+      :city: i-San Luis
+    :America/Catamarca:
+      :city: i-Catamarca
+    :America/Argentina/Salta:
+      :city: i-Salta
+    :America/Jujuy:
+      :city: i-Jujuy
+    :America/Buenos_Aires:
+      :city: i-Buenos Aires
+    :Pacific/Pago_Pago:
+      :city: i-Pago Pago
+    :Europe/Vienna:
+      :city: i-Vienna
+    :Australia/Perth:
+      :city: i-Perth
+    :Australia/Eucla:
+      :city: i-Eucla
+    :Australia/Darwin:
+      :city: i-Darwin
+    :Australia/Adelaide:
+      :city: i-Adelaide
+    :Australia/Broken_Hill:
+      :city: i-Broken Hill
+    :Australia/Melbourne:
+      :city: i-Melbourne
+    :Australia/Hobart:
+      :city: i-Hobart
+    :Australia/Lindeman:
+      :city: i-Lindeman
+    :Australia/Sydney:
+      :city: i-Sydney
+    :Australia/Brisbane:
+      :city: i-Brisbane
+    :Antarctica/Macquarie:
+      :city: i-Macquarie
+    :Australia/Lord_Howe:
+      :city: i-Lord Howe
+    :America/Aruba:
+      :city: i-Aruba
+    :Europe/Mariehamn:
+      :city: i-Mariehamn
+    :Asia/Baku:
+      :city: i-Baku
+    :Europe/Sarajevo:
+      :city: i-Sarajevo
+    :America/Barbados:
+      :city: i-Barbados
+    :Asia/Dhaka:
+      :city: i-Dhaka
+    :Europe/Brussels:
+      :city: i-Brussels
+    :Africa/Ouagadougou:
+      :city: i-Ouagadougou
+    :Europe/Sofia:
+      :city: i-Sofia
+    :Asia/Bahrain:
+      :city: i-Bahrain
+    :Africa/Bujumbura:
+      :city: i-Bujumbura
+    :Africa/Porto-Novo:
+      :city: i-Porto-Novo
+    :Atlantic/Bermuda:
+      :city: i-Bermuda
+    :Asia/Brunei:
+      :city: i-Brunei
+    :America/La_Paz:
+      :city: i-La Paz
+    :America/Kralendijk:
+      :city: i-Kralendijk
+    :America/Rio_Branco:
+      :city: i-Rio Branco
+    :America/Porto_Velho:
+      :city: i-Porto Velho
+    :America/Boa_Vista:
+      :city: i-Boa Vista
+    :America/Manaus:
+      :city: i-Manaus
+    :America/Campo_Grande:
+      :city: i-Campo Grande
+    :America/Bahia:
+      :city: i-Bahia
+    :America/Fortaleza:
+      :city: i-Fortaleza
+    :America/Recife:
+      :city: i-Recife
+    :America/Nassau:
+      :city: i-Nassau
+    :Asia/Thimphu:
+      :city: i-Thimphu
+    :Africa/Gaborone:
+      :city: i-Gaborone
+    :Europe/Minsk:
+      :city: i-Minsk
+    :America/Belize:
+      :city: i-Belize
+    :America/Dawson:
+      :city: i-Dawson
+    :America/Whitehorse:
+      :city: i-Whitehorse
+    :America/Inuvik:
+      :city: i-Inuvik
+    :America/Vancouver:
+      :city: i-Vancouver
+    :America/Fort_Nelson:
+      :city: i-Fort Nelson
+    :America/Dawson_Creek:
+      :city: i-Dawson Creek
+    :America/Creston:
+      :city: i-Creston
+    :America/Edmonton:
+      :city: i-Edmonton
+    :America/Swift_Current:
+      :city: i-Swift Current
+    :America/Cambridge_Bay:
+      :city: i-Cambridge Bay
+    :America/Regina:
+      :city: i-Regina
+    :America/Winnipeg:
+      :city: i-Winnipeg
+    :America/Resolute:
+      :city: i-Resolute
+    :America/Rankin_Inlet:
+      :city: i-Rankin Inlet
+    :America/Toronto:
+      :city: i-Toronto
+    :America/Iqaluit:
+      :city: i-Iqaluit
+    :America/Moncton:
+      :city: i-Moncton
+    :America/Halifax:
+      :city: i-Halifax
+    :America/Goose_Bay:
+      :city: i-Goose Bay
+    :America/Glace_Bay:
+      :city: i-Glace Bay
+    :America/Blanc-Sablon:
+      :city: i-Blanc-Sablon
+    :Indian/Cocos:
+      :city: i-Cocos
+    :Africa/Kinshasa:
+      :city: i-Kinshasa
+    :Africa/Lubumbashi:
+      :city: i-Lubumbashi
+    :Africa/Bangui:
+      :city: i-Bangui
+    :Africa/Brazzaville:
+      :city: i-Brazzaville
+    :Europe/Zurich:
+      :city: i-Zurich
+    :Africa/Abidjan:
+      :city: i-Abidjan
+    :Pacific/Rarotonga:
+      :city: i-Rarotonga
+    :Pacific/Easter:
+      :city: i-Easter
+    :America/Punta_Arenas:
+      :city: i-Punta Arenas
+    :America/Santiago:
+      :city: i-Santiago
+    :Africa/Douala:
+      :city: i-Douala
+    :Asia/Shanghai:
+      :city: i-Shanghai
+    :America/Costa_Rica:
+      :city: i-Costa Rica
+    :America/Havana:
+      :city: i-Havana
+    :Atlantic/Cape_Verde:
+      :city: i-Cape Verde
+    :Indian/Christmas:
+      :city: Ukhisimusi
+    :Asia/Nicosia:
+      :city: i-Nicosia
+    :Europe/Prague:
+      :city: i-Prague
+    :Europe/Berlin:
+      :city: i-Berlin
+    :Africa/Djibouti:
+      :city: i-Djibouti
+    :Europe/Copenhagen:
+      :city: i-Copenhagen
+    :America/Dominica:
+      :city: i-Dominica
+    :America/Santo_Domingo:
+      :city: i-Santo Domingo
+    :Africa/Algiers:
+      :city: i-Algiers
+    :America/Guayaquil:
+      :city: i-Guayaquil
+    :Europe/Tallinn:
+      :city: i-Tallinn
+    :Africa/Cairo:
+      :city: i-Cairo
+    :Africa/Ceuta:
+      :city: i-Ceuta
+    :Europe/Madrid:
+      :city: i-Madrid
+    :Africa/Addis_Ababa:
+      :city: i-Addis Ababa
+    :Europe/Helsinki:
+      :city: i-Helsinki
+    :Pacific/Fiji:
+      :city: i-Fiji
+    :Atlantic/Stanley:
+      :city: i-Stanley
+    :Pacific/Kosrae:
+      :city: i-Kosrae
+    :Europe/Paris:
+      :city: i-Paris
+    :Africa/Libreville:
+      :city: i-Libreville
+    :Europe/London:
+      :long:
+        :daylight: isikhathi sase-British sasehlobo
+      :city: i-London
+    :America/Grenada:
+      :city: i-Grenada
+    :Asia/Tbilisi:
+      :city: i-Tbilisi
+    :America/Cayenne:
+      :city: i-Cayenne
+    :Europe/Guernsey:
+      :city: i-Guernsey
+    :Africa/Accra:
+      :city: i-Accra
+    :Europe/Gibraltar:
+      :city: i-Gibraltar
+    :America/Thule:
+      :city: i-Thule
+    :America/Danmarkshavn:
+      :city: i-Danmarkshavn
+    :Africa/Banjul:
+      :city: i-Banjul
+    :Africa/Conakry:
+      :city: i-Conakry
+    :America/Guadeloupe:
+      :city: i-Guadeloupe
+    :Africa/Malabo:
+      :city: iMalabo
+    :Europe/Athens:
+      :city: i-Athens
+    :Atlantic/South_Georgia:
+      :city: i-South Georgia
+    :America/Guatemala:
+      :city: i-Guatemala
+    :Pacific/Guam:
+      :city: i-Guam
+    :Africa/Bissau:
+      :city: i-Bissau
+    :America/Guyana:
+      :city: i-Guyana
+    :Asia/Hong_Kong:
+      :city: i-Hong Kong
+    :America/Tegucigalpa:
+      :city: i-Tegucigalpa
+    :Europe/Zagreb:
+      :city: i-Zagreb
+    :America/Port-au-Prince:
+      :city: i-Port-au-Prince
+    :Europe/Budapest:
+      :city: i-Budapest
+    :Asia/Jakarta:
+      :city: i-Jakarta
+    :Asia/Pontianak:
+      :city: i-Pontianak
+    :Asia/Makassar:
+      :city: i-Makassar
+    :Asia/Jayapura:
+      :city: i-Jayapura
+    :Europe/Dublin:
+      :long:
+        :daylight: isikhathi sase-Irish esivamile
+      :city: i-Dublin
+    :Asia/Jerusalem:
+      :city: i-Jerusalem
+    :Europe/Isle_of_Man:
+      :city: i-Isle of Man
+    :Indian/Chagos:
+      :city: i-Chagos
+    :Asia/Baghdad:
+      :city: i-Baghdad
+    :Asia/Tehran:
+      :city: i-Tehran
+    :Atlantic/Reykjavik:
+      :city: i-Reykjavik
+    :Europe/Rome:
+      :city: i-Rome
+    :Europe/Jersey:
+      :city: i-Jersey
+    :America/Jamaica:
+      :city: i-Jamaica
+    :Asia/Amman:
+      :city: i-Amman
+    :Asia/Tokyo:
+      :city: i-Tokyo
+    :Africa/Nairobi:
+      :city: i-Nairobi
+    :Asia/Bishkek:
+      :city: i-Bishkek
+    :Asia/Phnom_Penh:
+      :city: i-Phnom Penh
+    :Pacific/Kiritimati:
+      :city: i-Kiritimati
+    :Pacific/Tarawa:
+      :city: i-Tarawa
+    :Asia/Pyongyang:
+      :city: i-Pyongyang
+    :Asia/Seoul:
+      :city: i-Seoul
+    :Asia/Kuwait:
+      :city: i-Kuwait
+    :America/Cayman:
+      :city: i-Cayman
+    :Asia/Aqtau:
+      :city: i-Aqtau
+    :Asia/Oral:
+      :city: i-Oral
+    :Asia/Aqtobe:
+      :city: i-Aqtobe
+    :Asia/Qostanay:
+      :city: I-Kostanay
+    :Asia/Qyzylorda:
+      :city: i-Qyzylorda
+    :Asia/Almaty:
+      :city: i-Almaty
+    :Asia/Vientiane:
+      :city: i-Vientiane
+    :Asia/Beirut:
+      :city: i-Beirut
+    :Europe/Vaduz:
+      :city: i-Vaduz
+    :Asia/Colombo:
+      :city: i-Colombo
+    :Africa/Monrovia:
+      :city: i-Monrovia
+    :Africa/Maseru:
+      :city: iMaseru
+    :Europe/Vilnius:
+      :city: i-Vilnius
+    :Europe/Luxembourg:
+      :city: i-Luxembourg
+    :Europe/Riga:
+      :city: i-Riga
+    :Africa/Tripoli:
+      :city: i-Tripoli
+    :Africa/Casablanca:
+      :city: i-Casablanca
+    :Europe/Monaco:
+      :city: i-Monaco
+    :Europe/Podgorica:
+      :city: i-Podgorica
+    :America/Marigot:
+      :city: i-Marigot
+    :Indian/Antananarivo:
+      :city: i-Antananarivo
+    :Pacific/Kwajalein:
+      :city: i-Kwajalein
+    :Pacific/Majuro:
+      :city: i-Majuro
+    :Europe/Skopje:
+      :city: i-Skopje
+    :Africa/Bamako:
+      :city: i-Bamako
+    :Asia/Ulaanbaatar:
+      :city: i-Ulaanbaatar
+    :Pacific/Saipan:
+      :city: i-Saipan
+    :America/Martinique:
+      :city: i-Martinique
+    :Africa/Nouakchott:
+      :city: i-Nouakchott
+    :America/Montserrat:
+      :city: i-Montserrat
+    :Europe/Malta:
+      :city: i-Malta
+    :Indian/Mauritius:
+      :city: i-Mauritius
+    :Indian/Maldives:
+      :city: i-Maldives
+    :Africa/Blantyre:
+      :city: i-Blantyre
+    :America/Tijuana:
+      :city: i-Tijuana
+    :America/Hermosillo:
+      :city: i-Hermosillo
+    :America/Chihuahua:
+      :city: i-Chihuahua
+    :America/Ojinaga:
+      :city: i-Ojinaga
+    :America/Monterrey:
+      :city: i-Monterrey
+    :America/Matamoros:
+      :city: i-Matamoros
+    :Asia/Kuala_Lumpur:
+      :city: i-Kuala Lumpur
+    :Asia/Kuching:
+      :city: i-Kuching
+    :Africa/Maputo:
+      :city: iMaputo
+    :Africa/Windhoek:
+      :city: i-Windhoek
+    :Africa/Niamey:
+      :city: i-Niamey
+    :Pacific/Norfolk:
+      :city: i-Norfolk
+    :Africa/Lagos:
+      :city: i-Lagos
+    :America/Managua:
+      :city: i-Managua
+    :Europe/Amsterdam:
+      :city: i-Amsterdam
+    :Europe/Oslo:
+      :city: i-Oslo
+    :Pacific/Nauru:
+      :city: i-Nauru
+    :Pacific/Niue:
+      :city: i-Niue
+    :Pacific/Chatham:
+      :city: i-Chatham
+    :Pacific/Auckland:
+      :city: i-Auckland
+    :Asia/Muscat:
+      :city: i-Muscat
+    :America/Panama:
+      :city: i-Panama
+    :America/Lima:
+      :city: i-Lima
+    :Pacific/Tahiti:
+      :city: i-Tahiti
+    :Pacific/Marquesas:
+      :city: i-Marquesas
+    :Pacific/Gambier:
+      :city: i-Gambier
+    :Pacific/Port_Moresby:
+      :city: i-Port Moresby
+    :Pacific/Bougainville:
+      :city: i-Bougainville
+    :Asia/Manila:
+      :city: i-Manila
+    :Asia/Karachi:
+      :city: i-Karachi
+    :Europe/Warsaw:
+      :city: i-Warsaw
+    :Pacific/Pitcairn:
+      :city: i-Pitcairn
+    :America/Puerto_Rico:
+      :city: i-Puerto Rico
+    :Asia/Gaza:
+      :city: iGaza
+    :Asia/Hebron:
+      :city: i-Hebron
+    :Atlantic/Azores:
+      :city: i-Azores
+    :Atlantic/Madeira:
+      :city: i-Madeira
+    :Europe/Lisbon:
+      :city: i-Lisbon
+    :Pacific/Palau:
+      :city: i-Palau
+    :Asia/Qatar:
+      :city: i-Qatar
+    :Europe/Bucharest:
+      :city: i-Bucharest
+    :Europe/Belgrade:
+      :city: i-Belgrade
+    :Europe/Kaliningrad:
+      :city: i-Kaliningrad
+    :Europe/Moscow:
+      :city: i-Moscow
+    :Europe/Volgograd:
+      :city: i-Volgograd
+    :Europe/Saratov:
+      :city: i-Saratov
+    :Europe/Astrakhan:
+      :city: i-Astrakhan
+    :Europe/Ulyanovsk:
+      :city: i-Ulyanovsk
+    :Europe/Kirov:
+      :city: i-Kirov
+    :Europe/Samara:
+      :city: i-Samara
+    :Asia/Yekaterinburg:
+      :city: i-Yekaterinburg
+    :Asia/Omsk:
+      :city: i-Omsk
+    :Asia/Novosibirsk:
+      :city: i-Novosibirsk
+    :Asia/Barnaul:
+      :city: i-Barnaul
+    :Asia/Tomsk:
+      :city: i-Tomsk
+    :Asia/Novokuznetsk:
+      :city: i-Novokuznetsk
+    :Asia/Krasnoyarsk:
+      :city: i-Krasnoyarsk
+    :Asia/Irkutsk:
+      :city: i-Irkutsk
+    :Asia/Chita:
+      :city: i-Chita
+    :Asia/Yakutsk:
+      :city: i-Yakutsk
+    :Asia/Vladivostok:
+      :city: i-Vladivostok
+    :Asia/Khandyga:
+      :city: i-Khandyga
+    :Asia/Sakhalin:
+      :city: i-Sakhalin
+    :Asia/Ust-Nera:
+      :city: i-Ust-Nera
+    :Asia/Magadan:
+      :city: i-Magadan
+    :Asia/Srednekolymsk:
+      :city: i-Srednekolymsk
+    :Asia/Kamchatka:
+      :city: i-Kamchatka
+    :Asia/Anadyr:
+      :city: i-Anadyr
+    :Africa/Kigali:
+      :city: i-Kigali
+    :Asia/Riyadh:
+      :city: i-Riyadh
+    :Pacific/Guadalcanal:
+      :city: i-Guadalcanal
+    :Africa/Khartoum:
+      :city: i-Khartoum
+    :Europe/Stockholm:
+      :city: i-Stockholm
+    :Asia/Singapore:
+      :city: i-Singapore
+    :Europe/Ljubljana:
+      :city: i-Ljubljana
+    :Arctic/Longyearbyen:
+      :city: i-Longyearbyen
+    :Europe/Bratislava:
+      :city: i-Bratislava
+    :Africa/Freetown:
+      :city: i-Freetown
+    :Europe/San_Marino:
+      :city: i-San Marino
+    :Africa/Dakar:
+      :city: i-Dakar
+    :Africa/Mogadishu:
+      :city: i-Mogadishu
+    :America/Paramaribo:
+      :city: i-Paramaribo
+    :Africa/Juba:
+      :city: iJuba
+    :America/El_Salvador:
+      :city: i-El Salvador
+    :Asia/Damascus:
+      :city: i-Damascus
+    :Africa/Mbabane:
+      :city: iMbabane
+    :America/Grand_Turk:
+      :city: i-Grand Turk
+    :Indian/Kerguelen:
+      :city: i-Kerguelen
+    :Asia/Bangkok:
+      :city: i-Bangkok
+    :Asia/Dushanbe:
+      :city: i-Dushanbe
+    :Pacific/Fakaofo:
+      :city: i-Fakaofo
+    :Asia/Dili:
+      :city: i-Dili
+    :Asia/Ashgabat:
+      :city: i-Ashgabat
+    :Africa/Tunis:
+      :city: i-Tunis
+    :Pacific/Tongatapu:
+      :city: i-Tongatapu
+    :Europe/Istanbul:
+      :city: i-Istanbul
+    :America/Port_of_Spain:
+      :city: i-Port of Spain
+    :Pacific/Funafuti:
+      :city: i-Funafuti
+    :Asia/Taipei:
+      :city: i-Taipei
+    :Africa/Dar_es_Salaam:
+      :city: i-Dar es Salaam
+    :Europe/Simferopol:
+      :city: i-Simferopol
+    :Africa/Kampala:
+      :city: i-Kampala
+    :Pacific/Midway:
+      :city: i-Midway
+    :Pacific/Wake:
+      :city: i-Wake
+    :America/Adak:
+      :city: i-Adak
+    :America/Nome:
+      :city: i-Nome
+    :America/Anchorage:
+      :city: i-Anchorage
+    :America/Yakutat:
+      :city: i-Yakutat
+    :America/Sitka:
+      :city: i-Sitka
+    :America/Juneau:
+      :city: i-Juneau
+    :America/Metlakatla:
+      :city: i-Metlakatla
+    :America/Los_Angeles:
+      :city: i-Los Angeles
+    :America/Boise:
+      :city: i-Boise
+    :America/Phoenix:
+      :city: i-Phoenix
+    :America/Denver:
+      :city: i-Denver
+    :America/Chicago:
+      :city: i-Chicago
+    :America/Menominee:
+      :city: i-Menominee
+    :America/Indianapolis:
+      :city: i-Indianapolis
+    :America/Louisville:
+      :city: i-Louisville
+    :America/Detroit:
+      :city: i-Detroit
+    :America/New_York:
+      :city: i-New York
+    :America/Montevideo:
+      :city: i-Montevideo
+    :Asia/Samarkand:
+      :city: i-Samarkand
+    :Asia/Tashkent:
+      :city: i-Tashkent
+    :Europe/Vatican:
+      :city: i-Vatican
+    :America/Caracas:
+      :city: i-Caracas
+    :America/Tortola:
+      :city: i-Tortola
+    :Pacific/Efate:
+      :city: i-Efate
+    :Pacific/Apia:
+      :city: i-Apia
+    :Asia/Aden:
+      :city: i-Aden
+    :Indian/Mayotte:
+      :city: i-Mayotte
+    :Africa/Johannesburg:
+      :city: i-Johannesburg
+    :Africa/Lusaka:
+      :city: iLusaka
+    :Africa/Harare:
+      :city: i-Harare
+  :metazones:
+    :Afghanistan:
+      :long:
+        :standard: Isikhathi sase-Afghanistan
+    :Africa_Central:
+      :long:
+        :standard: Isikhathi sase-Central Africa
+    :Africa_Eastern:
+      :long:
+        :standard: Isikhathi saseMpumalanga Afrika
+    :Africa_Southern:
+      :long:
+        :standard: Isikhathi esivamile saseNingizimu Afrika
+    :Africa_Western:
+      :long:
+        :standard: Isikhathi saseNtshonalanga Afrika
+    :Alaska:
+      :long:
+        :generic: Isikhathi sase-Alaska
+        :standard: Isikhathi sase-Alaska esijwayelekile
+        :daylight: Isikhathi sase-Alaska sasemini
+    :Amazon:
+      :long:
+        :generic: Isikhathi sase-Amazon
+        :standard: Isikhathi sase-Amazon esijwayelekile
+        :daylight: Isikhathi sase-Amazon sasehlobo
+    :America_Central:
+      :long:
+        :generic: Isikhathi sase-North American Central
+        :standard: Isikhathi sase-North American Central esijwayelekile
+        :daylight: Isikhathi sase-North American Central sasemini
+    :America_Eastern:
+      :long:
+        :generic: Isikhathi sase-North American East
+        :standard: Isikhathi sase-North American East esijwayelekile
+        :daylight: Isikhathi sase-North American East sasemini
+    :America_Mountain:
+      :long:
+        :generic: Isikhathi sase-North American Mountain
+        :standard: Isikhathi sase-North American Mountain esijwayelekile
+        :daylight: Isikhathi sase-North American Mountain sasemini
+    :America_Pacific:
+      :long:
+        :generic: Isikhathi sase-North American Pacific
+        :standard: Isikhathi sase-North American Pacific esijwayelekile
+        :daylight: Isikhathi sase-North American Pacific sasemini
+    :Anadyr:
+      :long:
+        :generic: esase-Anadyr Time
+        :standard: esase-Anadyr Standard Time
+        :daylight: esase-Anadyr Summer Time
+    :Apia:
+      :long:
+        :generic: Isikhathi sase-Apia
+        :standard: Isikhathi sase-Apia esivamile
+        :daylight: Isikhathi sase-Apia sasemini
+    :Arabian:
+      :long:
+        :generic: Isikhathi sase-Arabian
+        :standard: Isikhathi esivamile sase-Arabian
+        :daylight: Isikhathi semini sase-Arabian
+    :Argentina:
+      :long:
+        :generic: Isikhathi sase-Argentina
+        :standard: Isikhathi sase-Argentina esijwayelekile
+        :daylight: Isikhathi sase-Argentina sasehlobo
+    :Argentina_Western:
+      :long:
+        :generic: Isikhathi saseNyakatho ne-Argentina
+        :standard: Isikhathi saseNyakatho ne-Argentina esijwayelekile
+        :daylight: Isikhathi saseNyakatho ne-Argentina sasehlobo
+    :Armenia:
+      :long:
+        :generic: Isikhathi saseArmenia
+        :standard: Isikhathi esivamile sase-Armenia
+        :daylight: Isikhathi sehlobo sase-Armenia
+    :Atlantic:
+      :long:
+        :generic: Isikhathi sase-Atlantic
+        :standard: Isikhathi sase-Atlantic esijwayelekile
+        :daylight: Isikhathi sase-Atlantic sasemini
+    :Australia_Central:
+      :long:
+        :generic: Isikhathi sase-Central Australia
+        :standard: Isikhathi sase-Australian Central esivamile
+        :daylight: Isikhathi sase-Australian Central sasemini
+    :Australia_CentralWestern:
+      :long:
+        :generic: Isikhathi sase-Australian Central West
+        :standard: Isikhathi sase-Australian Central West esivamile
+        :daylight: Isikhathi sasemini sase-Australian Central West
+    :Australia_Eastern:
+      :long:
+        :generic: Isikhathi sase-Eastern Australia
+        :standard: Isikhathi esivamile sase-Australian East
+        :daylight: Isikhathi sasemini sase-Australian East
+    :Australia_Western:
+      :long:
+        :generic: Isikhathi sase-Western Australia
+        :standard: Isikhathi sase-Australian Western esivamile
+        :daylight: Isikhathi sase-Australian Western sasemini
+    :Azerbaijan:
+      :long:
+        :generic: Isikhathi sase-Azerbaijan
+        :standard: Isikhathi esivamile sase-Azerbaijan
+        :daylight: Isikhathi sehlobo sase-Azerbaijan
+    :Azores:
+      :long:
+        :generic: Isikhathi sase-Azores
+        :standard: Isikhathi esijwayelekile sase-Azores
+        :daylight: Isikhathi sasehlobo sase-Azores
+    :Bangladesh:
+      :long:
+        :generic: Isikhathi sase-Bangladesh
+        :standard: Isikhathi sase-Bangladesh esivamile
+        :daylight: Isikhathi sase-Bangladesh sasehlobo
+    :Bhutan:
+      :long:
+        :standard: Isikhathi sase-Bhutan
+    :Bolivia:
+      :long:
+        :standard: Isikhathi sase-Bolivia
+    :Brasilia:
+      :long:
+        :generic: Isikhathi sase-Brasilia
+        :standard: Isikhathi sase-Brasilia esijwayelekile
+        :daylight: Isikhathi sase-Brasilia sasehlobo
+    :Brunei:
+      :long:
+        :standard: Isikhathi sase-Brunei Darussalam
+    :Cape_Verde:
+      :long:
+        :generic: Isikhathi sase-Cape Verde
+        :standard: Isikhathi esezingeni sase-Cape Verde
+        :daylight: Isikhathi sehlobo sase-Cape Verde
+    :Chamorro:
+      :long:
+        :standard: Isikhathi esivamile sase-Chamorro
+    :Chatham:
+      :long:
+        :generic: Isikhathi sase-Chatham
+        :standard: Isikhathi esivamile sase-Chatham
+        :daylight: Isikhathi sasemini sase-Chatham
+    :Chile:
+      :long:
+        :generic: Isikhathi sase-Chile
+        :standard: Isikhathi sase-Chile esijwayelekile
+        :daylight: Isikhathi sase-Chile sasehlobo
+    :China:
+      :long:
+        :generic: Isikhathi sase-China
+        :standard: Isikhathi esivamile sase-China
+        :daylight: Isikhathi semini sase-China
+    :Christmas:
+      :long:
+        :standard: Isikhathi sase-Christmas Island
+    :Cocos:
+      :long:
+        :standard: Isikhathi sase-Cocos Islands
+    :Colombia:
+      :long:
+        :generic: Isikhathi sase-Colombia
+        :standard: Isikhathi sase-Colombia esijwayelekile
+        :daylight: Isikhathi sase-Colombia sasehlobo
+    :Cook:
+      :long:
+        :generic: Isikhathi sase-Cook Islands
+        :standard: Isikhathi esivamile sase-Cook Islands
+        :daylight: Isikhathi esiyingxenye yasehlobo sase-Cook Islands
+    :Cuba:
+      :long:
+        :generic: Isikhathi sase-Cuba
+        :standard: Isikhathi sase-Cuba esijwayelekile
+        :daylight: Isikhathi sase-Cuba sasemini
+    :Davis:
+      :long:
+        :standard: Isikhathi sase-Davis
+    :DumontDUrville:
+      :long:
+        :standard: Isikhathi sase-Dumont-d’Urville
+    :East_Timor:
+      :long:
+        :standard: Isikhathi sase-East Timor
+    :Easter:
+      :long:
+        :generic: Isikhathi sase-Easter Island
+        :standard: Isikhathi sase-Easter Island esijwayelekile
+        :daylight: Isikhathi sase-Easter Island sasehlobo
+    :Ecuador:
+      :long:
+        :standard: Isikhathi sase-Ecuador
+    :Europe_Central:
+      :long:
+        :generic: Isikhathi sase-Central Europe
+        :standard: Isikhathi esijwayelekile sase-Central Europe
+        :daylight: Isikhathi sasehlobo sase-Central Europe
+    :Europe_Eastern:
+      :long:
+        :generic: Isikhathi sase-Eastern Europe
+        :standard: Isikhathi esijwayelekile sase-Eastern Europe
+        :daylight: Isikhathi sasehlobo sase-Eastern Europe
+    :Europe_Further_Eastern:
+      :long:
+        :standard: Isikhathi sase-Further-eastern Europe
+    :Europe_Western:
+      :long:
+        :generic: Isikhathi sase-Western Europe
+        :standard: Isikhathi esijwayelekile sase-Western Europe
+        :daylight: Isikhathi sasehlobo sase-Western Europe
+    :Falkland:
+      :long:
+        :generic: Isikhathi sase-Falkland Islands
+        :standard: Isikhathi sase-Falkland Islands esijwayelekile
+        :daylight: Isikhathi sase-Falkland Islands sasehlobo
+    :Fiji:
+      :long:
+        :generic: Isikhathi sase-Fiji
+        :standard: Isikhathi esivamile sase-Fiji
+        :daylight: Isikhathi sehlobo sase-Fiji
+    :French_Guiana:
+      :long:
+        :standard: Isikhathi sase-French Guiana
+    :French_Southern:
+      :long:
+        :standard: Isikhathi sase-French Southern nase-Antarctic
+    :Galapagos:
+      :long:
+        :standard: Isikhathi sase-Galapagos
+    :Gambier:
+      :long:
+        :standard: Isikhathi sase-Gambier
+    :Georgia:
+      :long:
+        :generic: Isikhathi sase-Georgia
+        :standard: Isikhathi esivamile sase-Georgia
+        :daylight: Isikhathi sehlobo sase-Georgia
+    :Gilbert_Islands:
+      :long:
+        :standard: Isikhathi sase-Gilbert Islands
+    :GMT:
+      :long:
+        :standard: Isikhathi sase-Greenwich Mean
+    :Greenland_Eastern:
+      :long:
+        :generic: Isikhathi sase-East Greenland
+        :standard: Isikhathi sase-East Greenland esijwayelekile
+        :daylight: Isikhathi sase-East Greenland sasemini
+    :Greenland_Western:
+      :long:
+        :generic: Isikhathi sase-West Greenland
+        :standard: Isikhathi sase-West Greenland esijwayelekile
+        :daylight: Isikhathi sase-West Greenland sasehlobo
+    :Gulf:
+      :long:
+        :standard: Isikhathi esivamile sase-Gulf
+    :Guyana:
+      :long:
+        :standard: Isikhathi sase-Guyana
+    :Hawaii:
+      :long:
+        :standard: Isikhathi sase-Hawaii-Aleutia esijwayelekile
+    :Hawaii_Aleutian:
+      :long:
+        :generic: Isikhathi sase-Hawaii-Aleutia
+        :standard: Isikhathi sase-Hawaii-Aleutia esijwayelekile
+        :daylight: Isikhathi sase-Hawaii-Aleutia sasemini
+    :Hong_Kong:
+      :long:
+        :generic: Isikhathi sase-Hong Kong
+        :standard: Isikhathi esivamile sase-Hong Kong
+        :daylight: Isikhathi sehlobo sase-Hong Kong
+    :Hovd:
+      :long:
+        :generic: Isikhathi sase-Hovd
+        :standard: Isikhathi Esimisiwe sase-Hovd
+        :daylight: Isikhathi sehlobo e-Hovd
+    :India:
+      :long:
+        :standard: Isikhathi sase-India esivamile
+    :Indian_Ocean:
+      :long:
+        :standard: Isikhathi sase-Indian Ocean
+    :Indochina:
+      :long:
+        :standard: Isikhathi sase-Indochina
+    :Indonesia_Central:
+      :long:
+        :standard: Isikhathi sase-Central Indonesia
+    :Indonesia_Eastern:
+      :long:
+        :standard: Isikhathi sase-Eastern Indonesia
+    :Indonesia_Western:
+      :long:
+        :standard: Isikhathi sase-Western Indonesia
+    :Iran:
+      :long:
+        :generic: Isikhathi sase-Iran
+        :standard: Isikhathi sase-Iran esivamile
+        :daylight: Isikhathi sase-Iran sasemini
+    :Irkutsk:
+      :long:
+        :generic: Isikhathi sase-Irkutsk
+        :standard: Isikhathi Esivamile sase-Irkutsk
+        :daylight: Isikhathi sasehlobo e-Irkutsk
+    :Israel:
+      :long:
+        :generic: Isikhathi sase-Israel
+        :standard: Isikhathi esivamile sase-Israel
+        :daylight: Isikhathi sasemini sakwa-Israel
+    :Japan:
+      :long:
+        :generic: Isikhathi sase-Japan
+        :standard: Isikhathi esivamile sase-Japan
+        :daylight: Isikhathi semini sase-Japan
+    :Kamchatka:
+      :long:
+        :generic: esase-Petropavlovsk-Kamchatski Time
+        :standard: esase-Petropavlovsk-Kamchatski Standard Time
+        :daylight: esase-Petropavlovsk-Kamchatski Summer Time
+    :Kazakhstan:
+      :long:
+        :standard: Isikhathi saseKazakhstan
+    :Kazakhstan_Eastern:
+      :long:
+        :standard: Isikhathi sase-Mpumalanga ne-Kazakhstan
+    :Kazakhstan_Western:
+      :long:
+        :standard: Isikhathi saseNtshonalanga ne-Kazakhstan
+    :Korea:
+      :long:
+        :generic: Isikhathi sase-Korea
+        :standard: Isikhathi Esivamile sase-Korea
+        :daylight: Isikhathi semini sase-Korea
+    :Kosrae:
+      :long:
+        :standard: Isikhathi sase-Kosrae
+    :Krasnoyarsk:
+      :long:
+        :generic: Isikhathi sase-Krasnoyarsk
+        :standard: Isikhathi Esivamile sase-Krasnoyarsk
+        :daylight: Isikhathi sasehlobo e-Krasnoyarsk
+    :Kyrgystan:
+      :long:
+        :standard: Isikhathi sase-Kyrgystan
+    :Line_Islands:
+      :long:
+        :standard: Isikhathi sase-Line Islands
+    :Lord_Howe:
+      :long:
+        :generic: Isikhathi sase-Lord Howe
+        :standard: Isikhathi sase-Lord Howe esivamile
+        :daylight: Isikhathi sase-Lord Howe sasemini
+    :Magadan:
+      :long:
+        :generic: Isikhathi sase-Magadan
+        :standard: Isikhathi Esivamile sase-Magadan
+        :daylight: Isikhathi sasehlobo e-Magadan
+    :Malaysia:
+      :long:
+        :standard: Isikhathi sase-Malaysia
+    :Maldives:
+      :long:
+        :standard: Isikhathi sase-Maldives
+    :Marquesas:
+      :long:
+        :standard: Isikhathi sase-Marquesas
+    :Marshall_Islands:
+      :long:
+        :standard: Isikhathi sase-Marshall Islands
+    :Mauritius:
+      :long:
+        :generic: Isikhathi sase-Mauritius
+        :standard: Isikhathi esivamile sase-Mauritius
+        :daylight: Isikhathi sehlobo sase-Mauritius
+    :Mawson:
+      :long:
+        :standard: Isikhathi sase-Mawson
+    :Mexico_Pacific:
+      :long:
+        :generic: Isikhathi sase-Mexican Pacific
+        :standard: Isikhathi sase-Mexican Pacific esijwayelekile
+        :daylight: Isikhathi sase-Mexican Pacific sasemini
+    :Mongolia:
+      :long:
+        :generic: Isikhathi sase-Ulan Bator
+        :standard: Isikhathi Esimisiwe sase-Ulan Bator
+        :daylight: Isikhathi sehlobo e-Ulan Bator
+    :Moscow:
+      :long:
+        :generic: Isikhathi sase-Moscow
+        :standard: Isikhathi sase-Moscow esijwayelekile
+        :daylight: Isikhathi sasehlobo e-Moscow
+    :Myanmar:
+      :long:
+        :standard: Isikhathi sase-Myanmar
+    :Nauru:
+      :long:
+        :standard: Isikhathi sase-Nauru
+    :Nepal:
+      :long:
+        :standard: Isikhathi sase-Nepal
+    :New_Caledonia:
+      :long:
+        :generic: Isikhathi sase-New Caledonia
+        :standard: Isikhathi sase-New Caledonia esivamile
+        :daylight: Isikhathi sase-New Caledonia sasehlobo
+    :New_Zealand:
+      :long:
+        :generic: Isikhathi sase-New Zealand
+        :standard: Isikhathi esivamile sase-New Zealand
+        :daylight: Isikhathi sasemini sase-New Zealand
+    :Newfoundland:
+      :long:
+        :generic: Isikhathi sase-Newfoundland
+        :standard: Isikhathi sase-Newfoundland esijwayelekile
+        :daylight: Isikhathi sase-Newfoundland sasemini
+    :Niue:
+      :long:
+        :standard: Isikhathi sase-Niue
+    :Norfolk:
+      :long:
+        :generic: Isikhathi sase-Norfolk Islands
+        :standard: Isikhathi sase-Norfolk Islands esivamile
+        :daylight: Isikhathi sase-Norfolk Islands sasehlobo
+    :Noronha:
+      :long:
+        :generic: Isikhathi sase-Fernando de Noronha
+        :standard: Isikhathi sase-Fernando de Noronha esivamile
+        :daylight: Isikhathi sase-Fernando de Noronha sasehlobo
+    :Novosibirsk:
+      :long:
+        :generic: Isikhathi sase-Novosibirsk
+        :standard: Isikhathi Esivamile sase-Novosibirsk
+        :daylight: Isikhathi sasehlobo sase-Novosibirsk
+    :Omsk:
+      :long:
+        :generic: Isikhathi sase-Omsk
+        :standard: Isikhathi Esivamile sase-Omsk
+        :daylight: Isikhathi sasehlobo sase-Omsk
+    :Pakistan:
+      :long:
+        :generic: Isikhathi sase-Pakistan
+        :standard: Isikhathi sase-Pakistan esivamile
+        :daylight: Isikhathi sase-Pakistan sasehlobo
+    :Palau:
+      :long:
+        :standard: Isikhathi sase-Palau
+    :Papua_New_Guinea:
+      :long:
+        :standard: Isikhathi sase-Papua New Guinea
+    :Paraguay:
+      :long:
+        :generic: Isikhathi sase-Paraguay
+        :standard: Isikhathi sase-Paraguay esivamile
+        :daylight: Isikhathi sase-Paraguay sasehlobo
+    :Peru:
+      :long:
+        :generic: Isikhathi sase-Peru
+        :standard: Isikhathi sase-Peru esivamile
+        :daylight: Isikhathi sase-Peru sasehlobo
+    :Philippines:
+      :long:
+        :generic: Isikhathi sase-Philippine
+        :standard: Isikhathi esivamile sase-Philippine
+        :daylight: Isikhathi sehlobo sase-Philippine
+    :Phoenix_Islands:
+      :long:
+        :standard: Isikhathi sase-Phoenix Islands
+    :Pierre_Miquelon:
+      :long:
+        :generic: Isikhathi sase-Saint Pierre nase-Miquelon
+        :standard: Iikhathi sase-Saint Pierre nase-Miquelon esijwayelekile
+        :daylight: Isikhathi sase-Saint Pierre nase-Miquelon sasemini
+    :Pitcairn:
+      :long:
+        :standard: Isikhathi sase-Pitcairn
+    :Ponape:
+      :long:
+        :standard: Isikhathi sase-Ponape
+    :Pyongyang:
+      :long:
+        :standard: Isikhathi sase-Pyongyang
+    :Reunion:
+      :long:
+        :standard: Isikhathi sase-Reunion
+    :Rothera:
+      :long:
+        :standard: Isikhathi sase-Rothera
+    :Sakhalin:
+      :long:
+        :generic: Isikhathi sase-Sakhalin
+        :standard: Isikhathi Esivamile sase-Sakhalin
+        :daylight: Isikhathi sasehlobo e-Sakhalin
+    :Samara:
+      :long:
+        :generic: esase-Samara Time
+        :standard: esase-Samara Standard Time
+        :daylight: esase-Samara Summer Time
+    :Samoa:
+      :long:
+        :generic: Isikhathi sase-Samoa
+        :standard: Isikhathi sase-Samoa esivamile
+        :daylight: Isikhathi sase-Samoa sasemini
+    :Seychelles:
+      :long:
+        :standard: Isikhathi sase-Seychelles
+    :Singapore:
+      :long:
+        :standard: Isikhathi esivamile sase-Singapore
+    :Solomon:
+      :long:
+        :standard: Isikhathi sase-Solomon Islands
+    :South_Georgia:
+      :long:
+        :standard: Isikhathi sase-South Georgia
+    :Suriname:
+      :long:
+        :standard: Isikhathi sase-Suriname
+    :Syowa:
+      :long:
+        :standard: Isikhathi sase-Syowa
+    :Tahiti:
+      :long:
+        :standard: Isikhathi sase-Tahiti
+    :Taipei:
+      :long:
+        :generic: Isikhathi sase-Taipei
+        :standard: Isikhathi esivamile sase-Taipei
+        :daylight: Isikhathi semini sase-Taipei
+    :Tajikistan:
+      :long:
+        :standard: Isikhathi sase-Tajikistan
+    :Tokelau:
+      :long:
+        :standard: Isikhathi sase-Tokelau
+    :Tonga:
+      :long:
+        :generic: Isikhathi sase-Tonga
+        :standard: Isikhathi sase-Tonga esivamile
+        :daylight: Isikhathi sase-Tonga sasehlobo
+    :Truk:
+      :long:
+        :standard: Isikhathi sase-Chuuk
+    :Turkmenistan:
+      :long:
+        :generic: Isikhathi sase-Turkmenistan
+        :standard: Isikhathi esivamile sase-Turkmenistan
+        :daylight: Isikhathi sehlobo sase-Turkmenistan
+    :Tuvalu:
+      :long:
+        :standard: Isikhathi sase-Tuvalu
+    :Uruguay:
+      :long:
+        :generic: Isikhathi sase-Uruguay
+        :standard: Isikhathi sase-Uruguay esijwayelekile
+        :daylight: Isikhathi sase-Uruguay sasehlobo
+    :Uzbekistan:
+      :long:
+        :generic: Isikhathi sase-Uzbekistan
+        :standard: Isikhathi esivamile sase-Uzbekistan
+        :daylight: Isikhathi sehlobo sase-Uzbekistan
+    :Vanuatu:
+      :long:
+        :generic: Isikhathi sase-Vanuatu
+        :standard: Isikhathi sase-Vanuatu esijwayelekile
+        :daylight: Isikhathi sase-Vanuatu sasehlobo
+    :Venezuela:
+      :long:
+        :standard: Isikhathi sase-Venezuela
+    :Vladivostok:
+      :long:
+        :generic: Isikhathi sase-Vladivostok
+        :standard: Isikhathi Esivamile sase-Vladivostok
+        :daylight: Isikhathi sasehlobo e-Vladivostok
+    :Volgograd:
+      :long:
+        :generic: Isikhathi sase-Volgograd
+        :standard: Isikhathi Esivamile sase-Volgograd
+        :daylight: Isikhathi sase-Volgograd sasehlobo
+    :Vostok:
+      :long:
+        :standard: Isikhathi sase-Vostok
+    :Wake:
+      :long:
+        :standard: Isikhathi sase-Wake Island
+    :Wallis:
+      :long:
+        :standard: Isikhathi sase-Wallis nase-Futuna
+    :Yakutsk:
+      :long:
+        :generic: Isikhathi sase-Yakutsk
+        :standard: Isikhathi Esivamile sase-Yakutsk
+        :daylight: Isikhathi sasehlobo e-Yakutsk
+    :Yekaterinburg:
+      :long:
+        :generic: Isikhathi sase-Yekaterinburg
+        :standard: Isikhathi Esivamile sase-Yekaterinburg
+        :daylight: Isikhathi sasehlobo e-Yekaterinburg
+    :Yukon:
+      :long:
+        :standard: Yukon Time

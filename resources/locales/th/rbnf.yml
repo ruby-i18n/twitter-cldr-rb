@@ -1,119 +1,81 @@
---- 
-:th: 
-  :rbnf: 
-    :grouping: 
-      - 
-        :ruleset: 
-          - 
-            :rules: 
-              - 
-                :rule: =0.0=;
-                :value: x.x
-              - 
-                :rule: =%spellout-numbering=;
-                :value: 0
-            :type: spellout-numbering-year
-          - 
-            :rules: 
-              - 
-                :rule: =%spellout-cardinal=;
-                :value: 0
-            :type: spellout-numbering
-          - 
-            :rules: 
-              - 
-                :rule: ลบ​>>;
-                :value: "-x"
-              - 
-                :rule: <<​จุด​>>>;
-                :value: x.x
-              - 
-                :rule: ศูนย์;
-                :value: 0
-              - 
-                :rule: หนึ่ง;
-                :value: 1
-              - 
-                :rule: สอง;
-                :value: 2
-              - 
-                :rule: สาม;
-                :value: 3
-              - 
-                :rule: สี่;
-                :value: 4
-              - 
-                :rule: ห้า;
-                :value: 5
-              - 
-                :rule: หก;
-                :value: 6
-              - 
-                :rule: เจ็ด;
-                :value: 7
-              - 
-                :rule: แปด;
-                :value: 8
-              - 
-                :rule: เก้า;
-                :value: 9
-              - 
-                :rule: "สิบ[​>%%alt-ones>];"
-                :value: 10
-              - 
-                :rule: "ยี่​สิบ[​>%%alt-ones>];"
-                :value: 20
-              - 
-                :rule: "<<​สิบ[​>%%alt-ones>];"
-                :value: 30
-              - 
-                :rule: "<<​ร้อย[​>>];"
-                :value: 100
-              - 
-                :rule: "<<​พัน[​>>];"
-                :value: 1000
-              - 
-                :rule: "<<​หมื่น[​>>];"
-                :value: 10000
-              - 
-                :rule: "<<​แสน[​>>];"
-                :value: 100000
-              - 
-                :rule: "<<​ล้าน[​>>];"
-                :value: 1000000
-              - 
-                :rule: "=#,##0=;"
-                :value: 1000000000000000000
-            :type: spellout-cardinal
-          - 
-            :access: private
-            :rules: 
-              - 
-                :rule: เอ็ด;
-                :value: 1
-              - 
-                :rule: =%spellout-cardinal=;
-                :value: 2
-            :type: alt-ones
-          - 
-            :rules: 
-              - 
-                :rule: "=#,##0.#=;"
-                :value: x.x
-              - 
-                :rule: ที่​=%spellout-cardinal=;
-                :value: 0
-            :type: spellout-ordinal
-        :type: SpelloutRules
-      - 
-        :ruleset: 
-          - 
-            :rules: 
-              - 
-                :rule: "ที่ −>#,##0>;"
-                :value: "-x"
-              - 
-                :rule: "ที่ =#,##0=;"
-                :value: 0
-            :type: digits-ordinal
-        :type: OrdinalRules
+---
+:th:
+  :rbnf:
+    :grouping:
+    - :type: SpelloutRules
+      :ruleset:
+      - :type: spellout-numbering-year
+        :rules:
+        - :value: x.x
+          :rule: "=0.0=;"
+        - :value: 0
+          :rule: "=%spellout-numbering=;"
+      - :type: spellout-numbering
+        :rules:
+        - :value: 0
+          :rule: "=%spellout-cardinal=;"
+      - :type: spellout-cardinal
+        :rules:
+        - :value: "-x"
+          :rule: ลบ​>>;
+        - :value: x.x
+          :rule: "<<​จุด​>>>;"
+        - :value: 0
+          :rule: ศูนย์;
+        - :value: 1
+          :rule: หนึ่ง;
+        - :value: 2
+          :rule: สอง;
+        - :value: 3
+          :rule: สาม;
+        - :value: 4
+          :rule: สี่;
+        - :value: 5
+          :rule: ห้า;
+        - :value: 6
+          :rule: หก;
+        - :value: 7
+          :rule: เจ็ด;
+        - :value: 8
+          :rule: แปด;
+        - :value: 9
+          :rule: เก้า;
+        - :value: 10
+          :rule: สิบ[​>%%alt-ones>];
+        - :value: 20
+          :rule: ยี่​สิบ[​>%%alt-ones>];
+        - :value: 30
+          :rule: "<<​สิบ[​>%%alt-ones>];"
+        - :value: 100
+          :rule: "<<​ร้อย[​>>];"
+        - :value: 1000
+          :rule: "<<​พัน[​>>];"
+        - :value: 10000
+          :rule: "<<​หมื่น[​>>];"
+        - :value: 100000
+          :rule: "<<​แสน[​>>];"
+        - :value: 1000000
+          :rule: "<<​ล้าน[​>>];"
+        - :value: 1000000000000000000
+          :rule: "=#,##0=;"
+      - :type: alt-ones
+        :rules:
+        - :value: 1
+          :rule: เอ็ด;
+        - :value: 2
+          :rule: "=%spellout-cardinal=;"
+        :access: private
+      - :type: spellout-ordinal
+        :rules:
+        - :value: x.x
+          :rule: "=#,##0.#=;"
+        - :value: 0
+          :rule: ที่​=%spellout-cardinal=;
+    - :type: OrdinalRules
+      :ruleset:
+      - :type: digits-ordinal
+        :rules:
+        - :value: "-x"
+          :rule: ที่ −>#,##0>;
+        - :value: 0
+          :rule: ที่ =#,##0=;

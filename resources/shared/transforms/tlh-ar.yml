@@ -1,12 +1,11 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - ar-t-tlh
-    :direction: forward
-    :rules: 
-      - "::tlh-tlh_FONIPA ;"
-      - "::und_FONIPA-ar ;"
-    :source: tlh
-    :target: ar
-    :variant: ~
+---
+:transforms:
+- :source: tlh
+  :target: ar
+  :aliases:
+  - ar-t-tlh
+  :variant:
+  :direction: forward
+  :rules:
+  - "::tlh-tlh_FONIPA ;"
+  - "::und_FONIPA-ar ;"

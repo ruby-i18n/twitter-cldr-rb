@@ -1,1027 +1,1027 @@
---- 
-:eu: 
-  :formats: 
-    :fallback_formats: 
-      :generic: "{1} ({0})"
-    :gmt_formats: 
-      :generic: "GMT{0}"
-    :gmt_unknown_formats: 
-      :generic: GMT+?
-    :gmt_zero_formats: 
-      :generic: GMT
-    :hour_formats: 
+---
+:eu:
+  :formats:
+    :hour_formats:
       :generic: "+HH:mm;–HH:mm"
-    :region_formats: 
-      :daylight: "{0} (udako ordua)"
+    :gmt_formats:
+      :generic: GMT{0}
+    :gmt_zero_formats:
+      :generic: GMT
+    :gmt_unknown_formats:
+      :generic: GMT+?
+    :region_formats:
       :generic: "{0} aldeko ordua"
+      :daylight: "{0} (udako ordua)"
       :standard: "{0} aldeko ordu estandarra"
-  :metazones: 
-    :Acre: 
-      :long: 
-        :daylight: "Acreko udako ordua"
-        :generic: "Acreko ordua"
-        :standard: "Acreko ordu estandarra"
-    :Afghanistan: 
-      :long: 
-        :standard: "Afganistango ordua"
-    :Africa_Central: 
-      :long: 
-        :standard: "Afrikako erdialdeko ordua"
-    :Africa_Eastern: 
-      :long: 
-        :standard: "Afrikako ekialdeko ordua"
-    :Africa_Southern: 
-      :long: 
-        :standard: "Afrikako hegoaldeko ordua"
-    :Africa_Western: 
-      :long: 
-        :standard: "Afrikako mendebaldeko ordua"
-    :Alaska: 
-      :long: 
-        :daylight: "Alaskako udako ordua"
-        :generic: "Alaskako ordua"
-        :standard: "Alaskako ordu estandarra"
-      :short: 
-        :daylight: AKDT
+    :fallback_formats:
+      :generic: "{1} ({0})"
+  :timezones:
+    :Etc/UTC:
+      :short:
+        :standard: UTC
+      :long:
+        :standard: ordu unibertsal koordinatua
+    :Europe/Tirane:
+      :city: Tirana
+    :Antarctica/Syowa:
+      :city: Showa
+    :Antarctica/DumontDUrville:
+      :city: Dumont-d’Urville
+    :America/Argentina/Rio_Gallegos:
+      :city: Río Gallegos
+    :America/Argentina/Tucuman:
+      :city: Tucumán
+    :America/Cordoba:
+      :city: Córdoba
+    :America/St_Barthelemy:
+      :city: Saint-Barthélemy
+    :America/Eirunepe:
+      :city: Eirunepé
+    :America/Cuiaba:
+      :city: Cuiabá
+    :America/Santarem:
+      :city: Santarém
+    :America/Belem:
+      :city: Belém
+    :America/Araguaina:
+      :city: Araguaína
+    :America/Sao_Paulo:
+      :city: São Paulo
+    :America/Maceio:
+      :city: Maceió
+    :America/Noronha:
+      :city: Fernando de Noronha
+    :America/Coral_Harbour:
+      :city: Atikokan
+    :America/St_Johns:
+      :city: Saint John’s
+    :Asia/Urumqi:
+      :city: Ürümqi
+    :America/Bogota:
+      :city: Bogotá
+    :America/Curacao:
+      :city: Curaçao
+    :Europe/Busingen:
+      :city: Büsingen
+    :Pacific/Galapagos:
+      :city: Galapagoak
+    :Africa/El_Aaiun:
+      :city: Aaiun
+    :Africa/Asmera:
+      :city: Asmara
+    :Atlantic/Canary:
+      :city: Kanariak
+    :Pacific/Truk:
+      :city: Chuuk
+    :Pacific/Ponape:
+      :city: Pohnpei
+    :Atlantic/Faeroe:
+      :city: Faroe
+    :America/Godthab:
+      :city: Nuuk
+    :America/Scoresbysund:
+      :city: Ittoqqortoormiit
+    :Asia/Calcutta:
+      :city: Kalkuta
+    :Pacific/Enderbury:
+      :city: Canton
+    :Indian/Comoro:
+      :city: Comores
+    :America/St_Kitts:
+      :city: Saint Kitts
+    :America/St_Lucia:
+      :city: Santa Luzia
+    :Europe/Chisinau:
+      :city: Chișinău
+    :Asia/Rangoon:
+      :city: Yangon
+    :Asia/Hovd:
+      :city: Khovd
+    :Asia/Macau:
+      :city: Macau
+    :America/Ciudad_Juarez:
+      :city: Ciudad Juárez
+    :America/Mazatlan:
+      :city: Mazatlán
+    :America/Bahia_Banderas:
+      :city: Bahía de Banderas
+    :America/Mexico_City:
+      :city: Mexiko Hiria
+    :America/Merida:
+      :city: Mérida
+    :America/Cancun:
+      :city: Cancún
+    :Pacific/Noumea:
+      :city: Nouméa
+    :Asia/Katmandu:
+      :city: Katmandu
+    :America/Miquelon:
+      :city: Mikelune
+    :America/Asuncion:
+      :city: Asunción
+    :Indian/Reunion:
+      :city: Réunion
+    :Indian/Mahe:
+      :city: Mahé
+    :Atlantic/St_Helena:
+      :city: Santa Helena
+    :Africa/Sao_Tome:
+      :city: São Tomé
+    :America/Lower_Princes:
+      :city: Lower Prince’s Quarter
+    :Africa/Ndjamena:
+      :city: N’djamena
+    :Africa/Lome:
+      :city: Lomé
+    :Europe/Kiev:
+      :city: Kiev
+    :America/North_Dakota/Beulah:
+      :city: Beulah, Ipar Dakota
+    :America/North_Dakota/New_Salem:
+      :city: New Salem, Ipar Dakota
+    :America/North_Dakota/Center:
+      :city: Center, Ipar Dakota
+    :America/Indiana/Vincennes:
+      :city: Vincennes, Indiana
+    :America/Indiana/Petersburg:
+      :city: Petersburg, Indiana
+    :America/Indiana/Tell_City:
+      :city: Tell City, Indiana
+    :America/Indiana/Knox:
+      :city: Knox, Indiana
+    :America/Indiana/Winamac:
+      :city: Winamac, Indiana
+    :America/Indiana/Marengo:
+      :city: Marengo, Indiana
+    :America/Indiana/Vevay:
+      :city: Vevay, Indiana
+    :America/Kentucky/Monticello:
+      :city: Monticello, Kentucky
+    :America/St_Vincent:
+      :city: Saint Vincent
+    :America/St_Thomas:
+      :city: Saint-Thomas
+    :Asia/Saigon:
+      :city: Ho Chi Minh
+    :Pacific/Wallis:
+      :city: Wallis & Futuna
+    :Pacific/Honolulu:
+      :city: Honolulu
+    :Etc/Unknown:
+      :city: Hiri ezezaguna
+    :America/Anguilla:
+      :city: Aingira
+    :Asia/Yerevan:
+      :city: Erevan
+    :Europe/Vienna:
+      :city: Viena
+    :Europe/Brussels:
+      :city: Brusela
+    :Africa/Ouagadougou:
+      :city: Uagadugu
+    :Africa/Porto-Novo:
+      :city: Porto Novo
+    :Africa/Bangui:
+      :city: Bangi
+    :Europe/Zurich:
+      :city: Zürich
+    :Pacific/Easter:
+      :city: Pazko uhartea
+    :Africa/Douala:
+      :city: Duala
+    :America/Havana:
+      :city: Habana
+    :Atlantic/Cape_Verde:
+      :city: Cabo Verde
+    :Asia/Nicosia:
+      :city: Nikosia
+    :Europe/Prague:
+      :city: Praga
+    :Africa/Djibouti:
+      :city: Djibuti
+    :Europe/Copenhagen:
+      :city: Kopenhage
+    :America/Dominica:
+      :city: Dominika
+    :Africa/Algiers:
+      :city: Aljer
+    :Africa/Cairo:
+      :city: Kairo
+    :Europe/Madrid:
+      :city: Madril
+    :Africa/Addis_Ababa:
+      :city: Addis Abeba
+    :Europe/London:
+      :long:
+        :daylight: Londresko udako ordua
+      :city: Londres
+    :Europe/Guernsey:
+      :city: Guernesey
+    :Africa/Accra:
+      :city: Akkra
+    :America/Thule:
+      :city: Qaanaaq
+    :Africa/Conakry:
+      :city: Konakry
+    :America/Guadeloupe:
+      :city: Guadalupe
+    :Europe/Athens:
+      :city: Atenas
+    :Atlantic/South_Georgia:
+      :city: Hegoaldeko Georgiak
+    :Europe/Dublin:
+      :long:
+        :daylight: Irlandako ordu estandarra
+    :Europe/Isle_of_Man:
+      :city: Man uhartea
+    :Asia/Baghdad:
+      :city: Bagdad
+    :Asia/Tehran:
+      :city: Teheran
+    :Europe/Rome:
+      :city: Erroma
+    :America/Jamaica:
+      :city: Jamaika
+    :Asia/Tokyo:
+      :city: Tokio
+    :Asia/Bishkek:
+      :city: Bixkek
+    :Asia/Pyongyang:
+      :city: Piongiang
+    :Asia/Seoul:
+      :city: Seul
+    :America/Cayman:
+      :city: Kaiman
+    :Asia/Aqtau:
+      :city: Aktau
+    :Asia/Aqtobe:
+      :city: Aktobe
+    :Asia/Qostanay:
+      :city: Kostanay
+    :Asia/Qyzylorda:
+      :city: Kyzylorda
+    :Asia/Vientiane:
+      :city: Vientian
+    :Asia/Colombo:
+      :city: Kolombo
+    :Europe/Luxembourg:
+      :city: Luxenburgo
+    :Europe/Monaco:
+      :city: Monako
+    :Asia/Ulaanbaatar:
+      :city: Ulan Bator
+    :America/Martinique:
+      :city: Martinika
+    :Africa/Nouakchott:
+      :city: Nuakxot
+    :Indian/Mauritius:
+      :city: Maurizio
+    :Indian/Maldives:
+      :city: Maldivak
+    :Africa/Niamey:
+      :city: Niamei
+    :Asia/Muscat:
+      :city: Maskat
+    :Pacific/Marquesas:
+      :city: Markesak
+    :Asia/Karachi:
+      :city: Karatxi
+    :Europe/Warsaw:
+      :city: Varsovia
+    :Atlantic/Azores:
+      :city: Azoreak
+    :Europe/Lisbon:
+      :city: Lisboa
+    :Europe/Bucharest:
+      :city: Bukarest
+    :Europe/Belgrade:
+      :city: Belgrad
+    :Europe/Moscow:
+      :city: Mosku
+    :Europe/Ulyanovsk:
+      :city: Ulianovsk
+    :Asia/Yekaterinburg:
+      :city: Jekaterinburg
+    :Asia/Krasnoyarsk:
+      :city: Krasnoiarsk
+    :Asia/Chita:
+      :city: Txita
+    :Asia/Yakutsk:
+      :city: Jakutsk
+    :Asia/Khandyga:
+      :city: Khandiga
+    :Asia/Srednekolymsk:
+      :city: Srednekolimsk
+    :Asia/Kamchatka:
+      :city: Kamtxatka
+    :Asia/Riyadh:
+      :city: Riad
+    :Africa/Khartoum:
+      :city: Khartum
+    :Asia/Singapore:
+      :city: Singapur
+    :Africa/Mogadishu:
+      :city: Muqdisho
+    :Asia/Damascus:
+      :city: Damasko
+    :Asia/Dushanbe:
+      :city: Duxanbe
+    :Asia/Ashgabat:
+      :city: Asgabat
+    :America/Port_of_Spain:
+      :city: Port-of-Spain
+    :Asia/Samarkand:
+      :city: Samarkanda
+    :Asia/Tashkent:
+      :city: Taxkent
+    :Europe/Vatican:
+      :city: Vatikano Hiria
+    :Pacific/Efate:
+      :city: Éfaté
+  :metazones:
+    :Acre:
+      :long:
+        :generic: Acreko ordua
+        :standard: Acreko ordu estandarra
+        :daylight: Acreko udako ordua
+    :Afghanistan:
+      :long:
+        :standard: Afganistango ordua
+    :Africa_Central:
+      :long:
+        :standard: Afrikako erdialdeko ordua
+    :Africa_Eastern:
+      :long:
+        :standard: Afrikako ekialdeko ordua
+    :Africa_Southern:
+      :long:
+        :standard: Afrikako hegoaldeko ordua
+    :Africa_Western:
+      :long:
+        :standard: Afrikako mendebaldeko ordua
+    :Alaska:
+      :long:
+        :generic: Alaskako ordua
+        :standard: Alaskako ordu estandarra
+        :daylight: Alaskako udako ordua
+      :short:
         :generic: AKT
         :standard: AKST
-    :Almaty: 
-      :long: 
-        :daylight: "Almatyko udako ordua"
-        :generic: "Almatyko ordua"
-        :standard: "Almatyko ordu estandarra"
-    :Amazon: 
-      :long: 
-        :daylight: "Amazoniako udako ordua"
-        :generic: "Amazoniako ordua"
-        :standard: "Amazoniako ordu estandarra"
-    :America_Central: 
-      :long: 
-        :daylight: "Ipar Amerikako erdialdeko udako ordua"
-        :generic: "Ipar Amerikako erdialdeko ordua"
-        :standard: "Ipar Amerikako erdialdeko ordu estandarra"
-      :short: 
-        :daylight: CDT
+        :daylight: AKDT
+    :Almaty:
+      :long:
+        :generic: Almatyko ordua
+        :standard: Almatyko ordu estandarra
+        :daylight: Almatyko udako ordua
+    :Amazon:
+      :long:
+        :generic: Amazoniako ordua
+        :standard: Amazoniako ordu estandarra
+        :daylight: Amazoniako udako ordua
+    :America_Central:
+      :long:
+        :generic: Ipar Amerikako erdialdeko ordua
+        :standard: Ipar Amerikako erdialdeko ordu estandarra
+        :daylight: Ipar Amerikako erdialdeko udako ordua
+      :short:
         :generic: CT
         :standard: CST
-    :America_Eastern: 
-      :long: 
-        :daylight: "Ipar Amerikako ekialdeko udako ordua"
-        :generic: "Ipar Amerikako ekialdeko ordua"
-        :standard: "Ipar Amerikako ekialdeko ordu estandarra"
-      :short: 
-        :daylight: EDT
+        :daylight: CDT
+    :America_Eastern:
+      :long:
+        :generic: Ipar Amerikako ekialdeko ordua
+        :standard: Ipar Amerikako ekialdeko ordu estandarra
+        :daylight: Ipar Amerikako ekialdeko udako ordua
+      :short:
         :generic: ET
         :standard: EST
-    :America_Mountain: 
-      :long: 
-        :daylight: "Ipar Amerikako mendialdeko udako ordua"
-        :generic: "Ipar Amerikako mendialdeko ordua"
-        :standard: "Ipar Amerikako mendialdeko ordu estandarra"
-      :short: 
-        :daylight: MDT
+        :daylight: EDT
+    :America_Mountain:
+      :long:
+        :generic: Ipar Amerikako mendialdeko ordua
+        :standard: Ipar Amerikako mendialdeko ordu estandarra
+        :daylight: Ipar Amerikako mendialdeko udako ordua
+      :short:
         :generic: MT
         :standard: MST
-    :America_Pacific: 
-      :long: 
-        :daylight: "Ipar Amerikako Pazifikoko udako ordua"
-        :generic: "Ipar Amerikako Pazifikoko ordua"
-        :standard: "Ipar Amerikako Pazifikoko ordu estandarra"
-      :short: 
-        :daylight: PDT
+        :daylight: MDT
+    :America_Pacific:
+      :long:
+        :generic: Ipar Amerikako Pazifikoko ordua
+        :standard: Ipar Amerikako Pazifikoko ordu estandarra
+        :daylight: Ipar Amerikako Pazifikoko udako ordua
+      :short:
         :generic: PT
         :standard: PST
-    :Anadyr: 
-      :long: 
-        :daylight: "Anadyrreko udako ordua"
-        :generic: "Anadyrreko ordua"
-        :standard: "Anadyrreko ordu estandarra"
-    :Apia: 
-      :long: 
-        :daylight: "Apiako udako ordua"
-        :generic: "Apiako ordua"
-        :standard: "Apiako ordu estandarra"
-    :Aqtau: 
-      :long: 
-        :daylight: "Aktauko udako ordua"
-        :generic: "Aktauko ordua"
-        :standard: "Aktauko ordu estandarra"
-    :Aqtobe: 
-      :long: 
-        :daylight: "Aktobeko udako ordua"
-        :generic: "Aktobeko ordua"
-        :standard: "Aktobeko ordu estandarra"
-    :Arabian: 
-      :long: 
-        :daylight: "Arabiako udako ordua"
-        :generic: "Arabiako ordua"
-        :standard: "Arabiako ordu estandarra"
-    :Argentina: 
-      :long: 
-        :daylight: "Argentinako udako ordua"
-        :generic: "Argentinako ordua"
-        :standard: "Argentinako ordu estandarra"
-    :Argentina_Western: 
-      :long: 
-        :daylight: "Argentina mendebaldeko udako ordua"
-        :generic: "Argentina mendebaldeko ordua"
-        :standard: "Argentina mendebaldeko ordu estandarra"
-    :Armenia: 
-      :long: 
-        :daylight: "Armeniako udako ordua"
-        :generic: "Armeniako ordua"
-        :standard: "Armeniako ordu estandarra"
-    :Atlantic: 
-      :long: 
-        :daylight: "Ipar Amerikako Atlantikoko udako ordua"
-        :generic: "Ipar Amerikako Atlantikoko ordua"
-        :standard: "Ipar Amerikako Atlantikoko ordu estandarra"
-      :short: 
-        :daylight: ADT
+        :daylight: PDT
+    :Anadyr:
+      :long:
+        :generic: Anadyrreko ordua
+        :standard: Anadyrreko ordu estandarra
+        :daylight: Anadyrreko udako ordua
+    :Apia:
+      :long:
+        :generic: Apiako ordua
+        :standard: Apiako ordu estandarra
+        :daylight: Apiako udako ordua
+    :Aqtau:
+      :long:
+        :generic: Aktauko ordua
+        :standard: Aktauko ordu estandarra
+        :daylight: Aktauko udako ordua
+    :Aqtobe:
+      :long:
+        :generic: Aktobeko ordua
+        :standard: Aktobeko ordu estandarra
+        :daylight: Aktobeko udako ordua
+    :Arabian:
+      :long:
+        :generic: Arabiako ordua
+        :standard: Arabiako ordu estandarra
+        :daylight: Arabiako udako ordua
+    :Argentina:
+      :long:
+        :generic: Argentinako ordua
+        :standard: Argentinako ordu estandarra
+        :daylight: Argentinako udako ordua
+    :Argentina_Western:
+      :long:
+        :generic: Argentina mendebaldeko ordua
+        :standard: Argentina mendebaldeko ordu estandarra
+        :daylight: Argentina mendebaldeko udako ordua
+    :Armenia:
+      :long:
+        :generic: Armeniako ordua
+        :standard: Armeniako ordu estandarra
+        :daylight: Armeniako udako ordua
+    :Atlantic:
+      :long:
+        :generic: Ipar Amerikako Atlantikoko ordua
+        :standard: Ipar Amerikako Atlantikoko ordu estandarra
+        :daylight: Ipar Amerikako Atlantikoko udako ordua
+      :short:
         :generic: AT
         :standard: AST
-    :Australia_Central: 
-      :long: 
-        :daylight: "Australiako erdialdeko udako ordua"
-        :generic: "Australiako erdialdeko ordua"
-        :standard: "Australiako erdialdeko ordu estandarra"
-    :Australia_CentralWestern: 
-      :long: 
-        :daylight: "Australiako erdi-mendebaldeko udako ordua"
-        :generic: "Australiako erdi-mendebaldeko ordua"
-        :standard: "Australiako erdi-mendebaldeko ordu estandarra"
-    :Australia_Eastern: 
-      :long: 
-        :daylight: "Australiako ekialdeko udako ordua"
-        :generic: "Australiako ekialdeko ordua"
-        :standard: "Australiako ekialdeko ordu estandarra"
-    :Australia_Western: 
-      :long: 
-        :daylight: "Australiako mendebaldeko udako ordua"
-        :generic: "Australiako mendebaldeko ordua"
-        :standard: "Australiako mendebaldeko ordu estandarra"
-    :Azerbaijan: 
-      :long: 
-        :daylight: "Azerbaijango udako ordua"
-        :generic: "Azerbaijango ordua"
-        :standard: "Azerbaijango ordu estandarra"
-    :Azores: 
-      :long: 
-        :daylight: "Azoreetako udako ordua"
-        :generic: "Azoreetako ordua"
-        :standard: "Azoreetako ordu estandarra"
-    :Bangladesh: 
-      :long: 
-        :daylight: "Bangladesheko udako ordua"
-        :generic: "Bangladesheko ordua"
-        :standard: "Bangladesheko ordu estandarra"
-    :Bhutan: 
-      :long: 
-        :standard: "Bhutango ordua"
-    :Bolivia: 
-      :long: 
-        :standard: "Boliviako ordua"
-    :Brasilia: 
-      :long: 
-        :daylight: "Brasiliako udako ordua"
-        :generic: "Brasiliako ordua"
-        :standard: "Brasiliako ordu estandarra"
-    :Brunei: 
-      :long: 
-        :standard: "Brunei Darussalamgo ordua"
-    :Cape_Verde: 
-      :long: 
-        :daylight: "Cabo Verdeko udako ordua"
-        :generic: "Cabo Verdeko ordua"
-        :standard: "Cabo Verdeko ordu estandarra"
-    :Casey: 
-      :long: 
-        :standard: "Caseyko ordua"
-    :Chamorro: 
-      :long: 
-        :standard: "Chamorroko ordu estandarra"
-    :Chatham: 
-      :long: 
-        :daylight: "Chathamgo udako ordua"
-        :generic: "Chathamgo ordua"
-        :standard: "Chathamgo ordu estandarra"
-    :Chile: 
-      :long: 
-        :daylight: "Txileko udako ordua"
-        :generic: "Txileko ordua"
-        :standard: "Txileko ordu estandarra"
-    :China: 
-      :long: 
-        :daylight: "Txinako udako ordua"
-        :generic: "Txinako ordua"
-        :standard: "Txinako ordu estandarra"
-    :Christmas: 
-      :long: 
-        :standard: "Christmas uharteko ordua"
-    :Cocos: 
-      :long: 
-        :standard: "Cocos uharteetako ordua"
-    :Colombia: 
-      :long: 
-        :daylight: "Kolonbiako udako ordua"
-        :generic: "Kolonbiako ordua"
-        :standard: "Kolonbiako ordu estandarra"
-    :Cook: 
-      :long: 
-        :daylight: "Cook uharteetako uda erdialdeko ordua"
-        :generic: "Cook uharteetako ordua"
-        :standard: "Cook uharteetako ordu estandarra"
-    :Cuba: 
-      :long: 
-        :daylight: "Kubako udako ordua"
-        :generic: "Kubako ordua"
-        :standard: "Kubako ordu estandarra"
-    :Davis: 
-      :long: 
-        :standard: "Daviseko ordua"
-    :DumontDUrville: 
-      :long: 
-        :standard: "Dumont-d’Urvilleko ordua"
-    :East_Timor: 
-      :long: 
-        :standard: "Ekialdeko Timorreko ordua"
-    :Easter: 
-      :long: 
-        :daylight: "Pazko uharteko udako ordua"
-        :generic: "Pazko uharteko ordua"
-        :standard: "Pazko uharteko ordu estandarra"
-    :Ecuador: 
-      :long: 
-        :standard: "Ekuadorreko ordua"
-    :Europe_Central: 
-      :long: 
-        :daylight: "Europako erdialdeko udako ordua"
-        :generic: "Europako erdialdeko ordua"
-        :standard: "Europako erdialdeko ordu estandarra"
-      :short: 
-        :daylight: CEST
+        :daylight: ADT
+    :Australia_Central:
+      :long:
+        :generic: Australiako erdialdeko ordua
+        :standard: Australiako erdialdeko ordu estandarra
+        :daylight: Australiako erdialdeko udako ordua
+    :Australia_CentralWestern:
+      :long:
+        :generic: Australiako erdi-mendebaldeko ordua
+        :standard: Australiako erdi-mendebaldeko ordu estandarra
+        :daylight: Australiako erdi-mendebaldeko udako ordua
+    :Australia_Eastern:
+      :long:
+        :generic: Australiako ekialdeko ordua
+        :standard: Australiako ekialdeko ordu estandarra
+        :daylight: Australiako ekialdeko udako ordua
+    :Australia_Western:
+      :long:
+        :generic: Australiako mendebaldeko ordua
+        :standard: Australiako mendebaldeko ordu estandarra
+        :daylight: Australiako mendebaldeko udako ordua
+    :Azerbaijan:
+      :long:
+        :generic: Azerbaijango ordua
+        :standard: Azerbaijango ordu estandarra
+        :daylight: Azerbaijango udako ordua
+    :Azores:
+      :long:
+        :generic: Azoreetako ordua
+        :standard: Azoreetako ordu estandarra
+        :daylight: Azoreetako udako ordua
+    :Bangladesh:
+      :long:
+        :generic: Bangladesheko ordua
+        :standard: Bangladesheko ordu estandarra
+        :daylight: Bangladesheko udako ordua
+    :Bhutan:
+      :long:
+        :standard: Bhutango ordua
+    :Bolivia:
+      :long:
+        :standard: Boliviako ordua
+    :Brasilia:
+      :long:
+        :generic: Brasiliako ordua
+        :standard: Brasiliako ordu estandarra
+        :daylight: Brasiliako udako ordua
+    :Brunei:
+      :long:
+        :standard: Brunei Darussalamgo ordua
+    :Cape_Verde:
+      :long:
+        :generic: Cabo Verdeko ordua
+        :standard: Cabo Verdeko ordu estandarra
+        :daylight: Cabo Verdeko udako ordua
+    :Casey:
+      :long:
+        :standard: Caseyko ordua
+    :Chamorro:
+      :long:
+        :standard: Chamorroko ordu estandarra
+    :Chatham:
+      :long:
+        :generic: Chathamgo ordua
+        :standard: Chathamgo ordu estandarra
+        :daylight: Chathamgo udako ordua
+    :Chile:
+      :long:
+        :generic: Txileko ordua
+        :standard: Txileko ordu estandarra
+        :daylight: Txileko udako ordua
+    :China:
+      :long:
+        :generic: Txinako ordua
+        :standard: Txinako ordu estandarra
+        :daylight: Txinako udako ordua
+    :Christmas:
+      :long:
+        :standard: Christmas uharteko ordua
+    :Cocos:
+      :long:
+        :standard: Cocos uharteetako ordua
+    :Colombia:
+      :long:
+        :generic: Kolonbiako ordua
+        :standard: Kolonbiako ordu estandarra
+        :daylight: Kolonbiako udako ordua
+    :Cook:
+      :long:
+        :generic: Cook uharteetako ordua
+        :standard: Cook uharteetako ordu estandarra
+        :daylight: Cook uharteetako uda erdialdeko ordua
+    :Cuba:
+      :long:
+        :generic: Kubako ordua
+        :standard: Kubako ordu estandarra
+        :daylight: Kubako udako ordua
+    :Davis:
+      :long:
+        :standard: Daviseko ordua
+    :DumontDUrville:
+      :long:
+        :standard: Dumont-d’Urvilleko ordua
+    :East_Timor:
+      :long:
+        :standard: Ekialdeko Timorreko ordua
+    :Easter:
+      :long:
+        :generic: Pazko uharteko ordua
+        :standard: Pazko uharteko ordu estandarra
+        :daylight: Pazko uharteko udako ordua
+    :Ecuador:
+      :long:
+        :standard: Ekuadorreko ordua
+    :Europe_Central:
+      :long:
+        :generic: Europako erdialdeko ordua
+        :standard: Europako erdialdeko ordu estandarra
+        :daylight: Europako erdialdeko udako ordua
+      :short:
         :generic: CET
         :standard: CET
-    :Europe_Eastern: 
-      :long: 
-        :daylight: "Europako ekialdeko udako ordua"
-        :generic: "Europako ekialdeko ordua"
-        :standard: "Europako ekialdeko ordu estandarra"
-      :short: 
-        :daylight: EEST
+        :daylight: CEST
+    :Europe_Eastern:
+      :long:
+        :generic: Europako ekialdeko ordua
+        :standard: Europako ekialdeko ordu estandarra
+        :daylight: Europako ekialdeko udako ordua
+      :short:
         :generic: EET
         :standard: EET
-    :Europe_Further_Eastern: 
-      :long: 
-        :standard: "Europako ekialde urruneko ordua"
-    :Europe_Western: 
-      :long: 
-        :daylight: "Europako mendebaldeko udako ordua"
-        :generic: "Europako mendebaldeko ordua"
-        :standard: "Europako mendebaldeko ordu estandarra"
-      :short: 
-        :daylight: WEST
+        :daylight: EEST
+    :Europe_Further_Eastern:
+      :long:
+        :standard: Europako ekialde urruneko ordua
+    :Europe_Western:
+      :long:
+        :generic: Europako mendebaldeko ordua
+        :standard: Europako mendebaldeko ordu estandarra
+        :daylight: Europako mendebaldeko udako ordua
+      :short:
         :generic: WET
         :standard: WET
-    :Falkland: 
-      :long: 
-        :daylight: "Falkland uharteetako udako ordua"
-        :generic: "Falkland uharteetako ordua"
-        :standard: "Falkland uharteetako ordu estandarra"
-    :Fiji: 
-      :long: 
-        :daylight: "Fijiko udako ordua"
-        :generic: "Fijiko ordua"
-        :standard: "Fijiko ordu estandarra"
-    :French_Guiana: 
-      :long: 
-        :standard: "Guyana Frantseseko ordua"
-    :French_Southern: 
-      :long: 
-        :standard: "Frantziaren lurralde austral eta antartikoetako ordutegia"
-    :GMT: 
-      :long: 
-        :standard: "Greenwichko meridianoaren ordua"
-      :short: 
+        :daylight: WEST
+    :Falkland:
+      :long:
+        :generic: Falkland uharteetako ordua
+        :standard: Falkland uharteetako ordu estandarra
+        :daylight: Falkland uharteetako udako ordua
+    :Fiji:
+      :long:
+        :generic: Fijiko ordua
+        :standard: Fijiko ordu estandarra
+        :daylight: Fijiko udako ordua
+    :French_Guiana:
+      :long:
+        :standard: Guyana Frantseseko ordua
+    :French_Southern:
+      :long:
+        :standard: Frantziaren lurralde austral eta antartikoetako ordutegia
+    :Galapagos:
+      :long:
+        :standard: Galapagoetako ordua
+    :Gambier:
+      :long:
+        :standard: Gambierretako ordua
+    :Georgia:
+      :long:
+        :generic: Georgiako ordua
+        :standard: Georgiako ordu estandarra
+        :daylight: Georgiako udako ordua
+    :Gilbert_Islands:
+      :long:
+        :standard: Gilbert uharteetako ordua
+    :GMT:
+      :long:
+        :standard: Greenwichko meridianoaren ordua
+      :short:
         :standard: GMT
-    :Galapagos: 
-      :long: 
-        :standard: "Galapagoetako ordua"
-    :Gambier: 
-      :long: 
-        :standard: "Gambierretako ordua"
-    :Georgia: 
-      :long: 
-        :daylight: "Georgiako udako ordua"
-        :generic: "Georgiako ordua"
-        :standard: "Georgiako ordu estandarra"
-    :Gilbert_Islands: 
-      :long: 
-        :standard: "Gilbert uharteetako ordua"
-    :Greenland_Eastern: 
-      :long: 
-        :daylight: "Groenlandiako ekialdeko udako ordua"
-        :generic: "Groenlandiako ekialdeko ordua"
-        :standard: "Groenlandiako ekialdeko ordu estandarra"
-    :Greenland_Western: 
-      :long: 
-        :daylight: "Groenlandiako mendebaldeko udako ordua"
-        :generic: "Groenlandiako mendebaldeko ordua"
-        :standard: "Groenlandiako mendebaldeko ordu estandarra"
-    :Guam: 
-      :long: 
-        :standard: "Guameko ordu estandarra"
-    :Gulf: 
-      :long: 
-        :standard: "Golkoko ordu estandarra"
-    :Guyana: 
-      :long: 
-        :standard: "Guyanako ordua"
-    :Hawaii: 
-      :long: 
-        :standard: "Hawaii-Aleutiar uharteetako ordu estandarra"
-      :short: 
+    :Greenland_Eastern:
+      :long:
+        :generic: Groenlandiako ekialdeko ordua
+        :standard: Groenlandiako ekialdeko ordu estandarra
+        :daylight: Groenlandiako ekialdeko udako ordua
+    :Greenland_Western:
+      :long:
+        :generic: Groenlandiako mendebaldeko ordua
+        :standard: Groenlandiako mendebaldeko ordu estandarra
+        :daylight: Groenlandiako mendebaldeko udako ordua
+    :Guam:
+      :long:
+        :standard: Guameko ordu estandarra
+    :Gulf:
+      :long:
+        :standard: Golkoko ordu estandarra
+    :Guyana:
+      :long:
+        :standard: Guyanako ordua
+    :Hawaii:
+      :long:
+        :standard: Hawaii-Aleutiar uharteetako ordu estandarra
+      :short:
         :standard: HAST
-    :Hawaii_Aleutian: 
-      :long: 
-        :daylight: "Hawaii-Aleutiar uharteetako udako ordua"
-        :generic: "Hawaii-Aleutiar uharteetako ordua"
-        :standard: "Hawaii-Aleutiar uharteetako ordu estandarra"
-      :short: 
-        :daylight: HADT
+    :Hawaii_Aleutian:
+      :long:
+        :generic: Hawaii-Aleutiar uharteetako ordua
+        :standard: Hawaii-Aleutiar uharteetako ordu estandarra
+        :daylight: Hawaii-Aleutiar uharteetako udako ordua
+      :short:
         :generic: HAT
         :standard: HAST
-    :Hong_Kong: 
-      :long: 
-        :daylight: "Hong Kongo udako ordua"
-        :generic: "Hong Kongo ordua"
-        :standard: "Hong Kongo ordu estandarra"
-    :Hovd: 
-      :long: 
-        :daylight: "Khovdeko udako ordua"
-        :generic: "Khovdeko ordua"
-        :standard: "Khovdeko ordu estandarra"
-    :India: 
-      :long: 
-        :standard: "Indiako ordua"
-    :Indian_Ocean: 
-      :long: 
-        :standard: "Indiako ozeanoko ordua"
-    :Indochina: 
-      :long: 
-        :standard: "Indotxinako ordua"
-    :Indonesia_Central: 
-      :long: 
-        :standard: "Indonesiako erdialdeko ordua"
-    :Indonesia_Eastern: 
-      :long: 
-        :standard: "Indonesiako ekialdeko ordua"
-    :Indonesia_Western: 
-      :long: 
-        :standard: "Indonesiako mendebaldeko ordua"
-    :Iran: 
-      :long: 
-        :daylight: "Irango udako ordua"
-        :generic: "Irango ordua"
-        :standard: "Irango ordu estandarra"
-    :Irkutsk: 
-      :long: 
-        :daylight: "Irkutskeko udako ordua"
-        :generic: "Irkutskeko ordua"
-        :standard: "Irkutskeko ordu estandarra"
-    :Israel: 
-      :long: 
-        :daylight: "Israelgo udako ordua"
-        :generic: "Israelgo ordua"
-        :standard: "Israelgo ordu estandarra"
-    :Japan: 
-      :long: 
-        :daylight: "Japoniako udako ordua"
-        :generic: "Japoniako ordua"
-        :standard: "Japoniako ordu estandarra"
-    :Kamchatka: 
-      :long: 
-        :daylight: "Petropavlovsk-Kamchatskiko udako ordua"
-        :generic: "Petropavlovsk-Kamchatskiko ordua"
-        :standard: "Petropavlovsk-Kamchatskiko ordu estandarra"
-    :Kazakhstan: 
-      :long: 
-        :standard: "Kazakhstango ordua"
-    :Kazakhstan_Eastern: 
-      :long: 
-        :standard: "Kazakhstango ekialdeko ordua"
-    :Kazakhstan_Western: 
-      :long: 
-        :standard: "Kazakhstango mendebaldeko ordua"
-    :Korea: 
-      :long: 
-        :daylight: "Koreako udako ordua"
-        :generic: "Koreako ordua"
-        :standard: "Koreako ordu estandarra"
-    :Kosrae: 
-      :long: 
-        :standard: "Kosraeko ordua"
-    :Krasnoyarsk: 
-      :long: 
-        :daylight: "Krasnoiarskeko udako ordua"
-        :generic: "Krasnoiarskeko ordua"
-        :standard: "Krasnoiarskeko ordu estandarra"
-    :Kyrgystan: 
-      :long: 
-        :standard: "Kirgizistango ordua"
-    :Lanka: 
-      :long: 
-        :standard: "Lankako ordua"
-    :Line_Islands: 
-      :long: 
-        :standard: "Line uharteetako ordua"
-    :Lord_Howe: 
-      :long: 
-        :daylight: "Lord Howeko udako ordua"
-        :generic: "Lord Howeko ordua"
-        :standard: "Lord Howeko ordu estandarra"
-    :Macau: 
-      :long: 
-        :daylight: "Macaoko udako ordua"
-        :generic: "Macaoko ordua"
-        :standard: "Macaoko ordu estandarra"
-    :Magadan: 
-      :long: 
-        :daylight: "Magadango udako ordua"
-        :generic: "Magadango ordua"
-        :standard: "Magadango ordu estandarra"
-    :Malaysia: 
-      :long: 
-        :standard: "Malaysiako ordua"
-    :Maldives: 
-      :long: 
-        :standard: "Maldivetako ordua"
-    :Marquesas: 
-      :long: 
-        :standard: "Markesetako ordua"
-    :Marshall_Islands: 
-      :long: 
-        :standard: "Marshall Uharteetako ordua"
-    :Mauritius: 
-      :long: 
-        :daylight: "Maurizioko udako ordua"
-        :generic: "Maurizioko ordua"
-        :standard: "Maurizioko ordu estandarra"
-    :Mawson: 
-      :long: 
-        :standard: "Mawsoneko ordua"
-    :Mexico_Pacific: 
-      :long: 
-        :daylight: "Mexikoko Pazifikoko udako ordua"
-        :generic: "Mexikoko Pazifikoko ordua"
-        :standard: "Mexikoko Pazifikoko ordu estandarra"
-    :Mongolia: 
-      :long: 
-        :daylight: "Ulan Batorreko udako ordua"
-        :generic: "Ulan Batorreko ordua"
-        :standard: "Ulan Batorreko ordu estandarra"
-    :Moscow: 
-      :long: 
-        :daylight: "Moskuko udako ordua"
-        :generic: "Moskuko ordua"
-        :standard: "Moskuko ordu estandarra"
-    :Myanmar: 
-      :long: 
-        :standard: "Myanmarreko ordua"
-    :Nauru: 
-      :long: 
-        :standard: "Nauruko ordua"
-    :Nepal: 
-      :long: 
-        :standard: "Nepalgo ordua"
-    :New_Caledonia: 
-      :long: 
-        :daylight: "Kaledonia Berriko udako ordua"
-        :generic: "Kaledonia Berriko ordua"
-        :standard: "Kaledonia Berriko ordu estandarra"
-    :New_Zealand: 
-      :long: 
-        :daylight: "Zeelanda Berriko udako ordua"
-        :generic: "Zeelanda Berriko ordua"
-        :standard: "Zeelanda Berriko ordu estandarra"
-    :Newfoundland: 
-      :long: 
-        :daylight: "Ternuako udako ordua"
-        :generic: "Ternuako ordua"
-        :standard: "Ternuako ordu estandarra"
-    :Niue: 
-      :long: 
-        :standard: "Niueko ordua"
-    :Norfolk: 
-      :long: 
-        :daylight: "Norfolk uharteetako udako ordua"
-        :generic: "Norfolk uharteetako ordua"
-        :standard: "Norfolk uharteetako ordu estandarra"
-    :Noronha: 
-      :long: 
-        :daylight: "Fernando de Noronhako udako ordua"
-        :generic: "Fernando de Noronhako ordua"
-        :standard: "Fernando de Noronhako ordu estandarra"
-    :North_Mariana: 
-      :long: 
-        :standard: "Ipar Mariana uharteetako ordua"
-    :Novosibirsk: 
-      :long: 
-        :daylight: "Novosibirskeko udako ordua"
-        :generic: "Novosibirskeko ordua"
-        :standard: "Novosibirskeko ordu estandarra"
-    :Omsk: 
-      :long: 
-        :daylight: "Omskeko udako ordua"
-        :generic: "Omskeko ordua"
-        :standard: "Omskeko ordu estandarra"
-    :Pakistan: 
-      :long: 
-        :daylight: "Pakistango udako ordua"
-        :generic: "Pakistango ordua"
-        :standard: "Pakistango ordu estandarra"
-    :Palau: 
-      :long: 
-        :standard: "Palauko ordua"
-    :Papua_New_Guinea: 
-      :long: 
-        :standard: "Papua Ginea Berriko ordua"
-    :Paraguay: 
-      :long: 
-        :daylight: "Paraguaiko udako ordua"
-        :generic: "Paraguaiko ordua"
-        :standard: "Paraguaiko ordu estandarra"
-    :Peru: 
-      :long: 
-        :daylight: "Peruko udako ordua"
-        :generic: "Peruko ordua"
-        :standard: "Peruko ordu estandarra"
-    :Philippines: 
-      :long: 
-        :daylight: "Filipinetako udako ordua"
-        :generic: "Filipinetako ordua"
-        :standard: "Filipinetako ordu estandarra"
-    :Phoenix_Islands: 
-      :long: 
-        :standard: "Phoenix uharteetako ordua"
-    :Pierre_Miquelon: 
-      :long: 
-        :daylight: "Saint-Pierre eta Mikeluneko udako ordua"
-        :generic: "Saint-Pierre eta Mikeluneko ordua"
-        :standard: "Saint-Pierre eta Mikeluneko ordu estandarra"
-    :Pitcairn: 
-      :long: 
-        :standard: "Pitcairneko ordua"
-    :Ponape: 
-      :long: 
-        :standard: "Ponapeko ordua"
-    :Pyongyang: 
-      :long: 
-        :standard: "Piongiangeko ordua"
-    :Qyzylorda: 
-      :long: 
-        :daylight: "Kyzylordako udako ordua"
-        :generic: "Kyzylordako ordua"
-        :standard: "Kyzylordako ordu estandarra"
-    :Reunion: 
-      :long: 
-        :standard: "Reunioneko ordua"
-    :Rothera: 
-      :long: 
-        :standard: "Rotherako ordua"
-    :Sakhalin: 
-      :long: 
-        :daylight: "Sakhalingo udako ordua"
-        :generic: "Sakhalingo ordua"
-        :standard: "Sakhalingo ordu estandarra"
-    :Samara: 
-      :long: 
-        :daylight: "Samarako udako ordua"
-        :generic: "Samarako ordua"
-        :standard: "Samarako ordu estandarra"
-    :Samoa: 
-      :long: 
-        :daylight: "Samoako udako ordua"
-        :generic: "Samoako ordua"
-        :standard: "Samoako ordu estandarra"
-    :Seychelles: 
-      :long: 
-        :standard: "Seychelle uharteetako ordua"
-    :Singapore: 
-      :long: 
-        :standard: "Singapurreko ordu estandarra"
-    :Solomon: 
-      :long: 
-        :standard: "Salomon Uharteetako ordua"
-    :South_Georgia: 
-      :long: 
-        :standard: "Hegoaldeko Georgietako ordua"
-    :Suriname: 
-      :long: 
-        :standard: "Surinamgo ordua"
-    :Syowa: 
-      :long: 
-        :standard: "Syowako ordua"
-    :Tahiti: 
-      :long: 
-        :standard: "Tahitiko ordua"
-    :Taipei: 
-      :long: 
-        :daylight: "Taipeiko udako ordua"
-        :generic: "Taipeiko ordua"
-        :standard: "Taipeiko ordu estandarra"
-    :Tajikistan: 
-      :long: 
-        :standard: "Tadjikistango ordua"
-    :Tokelau: 
-      :long: 
-        :standard: "Tokelauko ordua"
-    :Tonga: 
-      :long: 
-        :daylight: "Tongako udako ordua"
-        :generic: "Tongako ordua"
-        :standard: "Tongako ordu estandarra"
-    :Truk: 
-      :long: 
-        :standard: "Chuukeko ordua"
-    :Turkmenistan: 
-      :long: 
-        :daylight: "Turkmenistango udako ordua"
-        :generic: "Turkmenistango ordua"
-        :standard: "Turkmenistango ordu estandarra"
-    :Tuvalu: 
-      :long: 
-        :standard: "Tuvaluko ordua"
-    :Uruguay: 
-      :long: 
-        :daylight: "Uruguaiko udako ordua"
-        :generic: "Uruguaiko ordua"
-        :standard: "Uruguaiko ordu estandarra"
-    :Uzbekistan: 
-      :long: 
-        :daylight: "Uzbekistango udako ordua"
-        :generic: "Uzbekistango ordua"
-        :standard: "Uzbekistango ordu estandarra"
-    :Vanuatu: 
-      :long: 
-        :daylight: "Vanuatuko udako ordua"
-        :generic: "Vanuatuko ordua"
-        :standard: "Vanuatuko ordu estandarra"
-    :Venezuela: 
-      :long: 
-        :standard: "Venezuelako ordua"
-    :Vladivostok: 
-      :long: 
-        :daylight: "Vladivostokeko udako ordua"
-        :generic: "Vladivostokeko ordua"
-        :standard: "Vladivostokeko ordu estandarra"
-    :Volgograd: 
-      :long: 
-        :daylight: "Volgogradeko udako ordua"
-        :generic: "Volgogradeko ordua"
-        :standard: "Volgogradeko ordu estandarra"
-    :Vostok: 
-      :long: 
-        :standard: "Vostokeko ordua"
-    :Wake: 
-      :long: 
-        :standard: "Wake uharteko ordua"
-    :Wallis: 
-      :long: 
-        :standard: "Wallis eta Futunako ordutegia"
-    :Yakutsk: 
-      :long: 
-        :daylight: "Jakutskeko udako ordua"
-        :generic: "Jakutskeko ordua"
-        :standard: "Jakutskeko ordu estandarra"
-    :Yekaterinburg: 
-      :long: 
-        :daylight: "Jekaterinburgeko udako ordua"
-        :generic: "Jekaterinburgeko ordua"
-        :standard: "Jekaterinburgeko ordu estandarra"
-    :Yukon: 
-      :long: 
-        :standard: "Yukongo ordua"
-  :timezones: 
-    :Africa/Accra: 
-      :city: Akkra
-    :Africa/Addis_Ababa: 
-      :city: "Addis Abeba"
-    :Africa/Algiers: 
-      :city: Aljer
-    :Africa/Asmera: 
-      :city: Asmara
-    :Africa/Bangui: 
-      :city: Bangi
-    :Africa/Cairo: 
-      :city: Kairo
-    :Africa/Conakry: 
-      :city: Konakry
-    :Africa/Djibouti: 
-      :city: Djibuti
-    :Africa/Douala: 
-      :city: Duala
-    :Africa/El_Aaiun: 
-      :city: Aaiun
-    :Africa/Khartoum: 
-      :city: Khartum
-    :Africa/Lome: 
-      :city: Lomé
-    :Africa/Mogadishu: 
-      :city: Muqdisho
-    :Africa/Ndjamena: 
-      :city: N’djamena
-    :Africa/Niamey: 
-      :city: Niamei
-    :Africa/Nouakchott: 
-      :city: Nuakxot
-    :Africa/Ouagadougou: 
-      :city: Uagadugu
-    :Africa/Porto-Novo: 
-      :city: "Porto Novo"
-    :Africa/Sao_Tome: 
-      :city: "São Tomé"
-    :America/Anguilla: 
-      :city: Aingira
-    :America/Araguaina: 
-      :city: Araguaína
-    :America/Argentina/Rio_Gallegos: 
-      :city: "Río Gallegos"
-    :America/Argentina/Tucuman: 
-      :city: Tucumán
-    :America/Asuncion: 
-      :city: Asunción
-    :America/Bahia_Banderas: 
-      :city: "Bahía de Banderas"
-    :America/Belem: 
-      :city: Belém
-    :America/Bogota: 
-      :city: Bogotá
-    :America/Cancun: 
-      :city: Cancún
-    :America/Cayman: 
-      :city: Kaiman
-    :America/Ciudad_Juarez: 
-      :city: "Ciudad Juárez"
-    :America/Coral_Harbour: 
-      :city: Atikokan
-    :America/Cordoba: 
-      :city: Córdoba
-    :America/Cuiaba: 
-      :city: Cuiabá
-    :America/Curacao: 
-      :city: Curaçao
-    :America/Dominica: 
-      :city: Dominika
-    :America/Eirunepe: 
-      :city: Eirunepé
-    :America/Godthab: 
-      :city: Nuuk
-    :America/Guadeloupe: 
-      :city: Guadalupe
-    :America/Havana: 
-      :city: Habana
-    :America/Indiana/Knox: 
-      :city: "Knox, Indiana"
-    :America/Indiana/Marengo: 
-      :city: "Marengo, Indiana"
-    :America/Indiana/Petersburg: 
-      :city: "Petersburg, Indiana"
-    :America/Indiana/Tell_City: 
-      :city: "Tell City, Indiana"
-    :America/Indiana/Vevay: 
-      :city: "Vevay, Indiana"
-    :America/Indiana/Vincennes: 
-      :city: "Vincennes, Indiana"
-    :America/Indiana/Winamac: 
-      :city: "Winamac, Indiana"
-    :America/Jamaica: 
-      :city: Jamaika
-    :America/Kentucky/Monticello: 
-      :city: "Monticello, Kentucky"
-    :America/Lower_Princes: 
-      :city: "Lower Prince’s Quarter"
-    :America/Maceio: 
-      :city: Maceió
-    :America/Martinique: 
-      :city: Martinika
-    :America/Mazatlan: 
-      :city: Mazatlán
-    :America/Merida: 
-      :city: Mérida
-    :America/Mexico_City: 
-      :city: "Mexiko Hiria"
-    :America/Miquelon: 
-      :city: Mikelune
-    :America/Noronha: 
-      :city: "Fernando de Noronha"
-    :America/North_Dakota/Beulah: 
-      :city: "Beulah, Ipar Dakota"
-    :America/North_Dakota/Center: 
-      :city: "Center, Ipar Dakota"
-    :America/North_Dakota/New_Salem: 
-      :city: "New Salem, Ipar Dakota"
-    :America/Port_of_Spain: 
-      :city: Port-of-Spain
-    :America/Santarem: 
-      :city: Santarém
-    :America/Sao_Paulo: 
-      :city: "São Paulo"
-    :America/Scoresbysund: 
-      :city: Ittoqqortoormiit
-    :America/St_Barthelemy: 
-      :city: Saint-Barthélemy
-    :America/St_Johns: 
-      :city: "Saint John’s"
-    :America/St_Kitts: 
-      :city: "Saint Kitts"
-    :America/St_Lucia: 
-      :city: "Santa Luzia"
-    :America/St_Thomas: 
-      :city: Saint-Thomas
-    :America/St_Vincent: 
-      :city: "Saint Vincent"
-    :America/Thule: 
-      :city: Qaanaaq
-    :Antarctica/DumontDUrville: 
-      :city: Dumont-d’Urville
-    :Antarctica/Syowa: 
-      :city: Showa
-    :Asia/Aqtau: 
-      :city: Aktau
-    :Asia/Aqtobe: 
-      :city: Aktobe
-    :Asia/Ashgabat: 
-      :city: Asgabat
-    :Asia/Baghdad: 
-      :city: Bagdad
-    :Asia/Bishkek: 
-      :city: Bixkek
-    :Asia/Calcutta: 
-      :city: Kalkuta
-    :Asia/Chita: 
-      :city: Txita
-    :Asia/Colombo: 
-      :city: Kolombo
-    :Asia/Damascus: 
-      :city: Damasko
-    :Asia/Dushanbe: 
-      :city: Duxanbe
-    :Asia/Hovd: 
-      :city: Khovd
-    :Asia/Kamchatka: 
-      :city: Kamtxatka
-    :Asia/Karachi: 
-      :city: Karatxi
-    :Asia/Katmandu: 
-      :city: Katmandu
-    :Asia/Khandyga: 
-      :city: Khandiga
-    :Asia/Krasnoyarsk: 
-      :city: Krasnoiarsk
-    :Asia/Macau: 
-      :city: Macau
-    :Asia/Muscat: 
-      :city: Maskat
-    :Asia/Nicosia: 
-      :city: Nikosia
-    :Asia/Pyongyang: 
-      :city: Piongiang
-    :Asia/Qostanay: 
-      :city: Kostanay
-    :Asia/Qyzylorda: 
-      :city: Kyzylorda
-    :Asia/Rangoon: 
-      :city: Yangon
-    :Asia/Riyadh: 
-      :city: Riad
-    :Asia/Saigon: 
-      :city: "Ho Chi Minh"
-    :Asia/Samarkand: 
-      :city: Samarkanda
-    :Asia/Seoul: 
-      :city: Seul
-    :Asia/Singapore: 
-      :city: Singapur
-    :Asia/Srednekolymsk: 
-      :city: Srednekolimsk
-    :Asia/Tashkent: 
-      :city: Taxkent
-    :Asia/Tehran: 
-      :city: Teheran
-    :Asia/Tokyo: 
-      :city: Tokio
-    :Asia/Ulaanbaatar: 
-      :city: "Ulan Bator"
-    :Asia/Urumqi: 
-      :city: Ürümqi
-    :Asia/Vientiane: 
-      :city: Vientian
-    :Asia/Yakutsk: 
-      :city: Jakutsk
-    :Asia/Yekaterinburg: 
-      :city: Jekaterinburg
-    :Asia/Yerevan: 
-      :city: Erevan
-    :Atlantic/Azores: 
-      :city: Azoreak
-    :Atlantic/Canary: 
-      :city: Kanariak
-    :Atlantic/Cape_Verde: 
-      :city: "Cabo Verde"
-    :Atlantic/Faeroe: 
-      :city: Faroe
-    :Atlantic/South_Georgia: 
-      :city: "Hegoaldeko Georgiak"
-    :Atlantic/St_Helena: 
-      :city: "Santa Helena"
-    :Etc/UTC: 
-      :long: 
-        :standard: "ordu unibertsal koordinatua"
-      :short: 
-        :standard: UTC
-    :Etc/Unknown: 
-      :city: "Hiri ezezaguna"
-    :Europe/Athens: 
-      :city: Atenas
-    :Europe/Belgrade: 
-      :city: Belgrad
-    :Europe/Brussels: 
-      :city: Brusela
-    :Europe/Bucharest: 
-      :city: Bukarest
-    :Europe/Busingen: 
-      :city: Büsingen
-    :Europe/Chisinau: 
-      :city: Chișinău
-    :Europe/Copenhagen: 
-      :city: Kopenhage
-    :Europe/Dublin: 
-      :long: 
-        :daylight: "Irlandako ordu estandarra"
-    :Europe/Guernsey: 
-      :city: Guernesey
-    :Europe/Isle_of_Man: 
-      :city: "Man uhartea"
-    :Europe/Kiev: 
-      :city: Kiev
-    :Europe/Lisbon: 
-      :city: Lisboa
-    :Europe/London: 
-      :city: Londres
-      :long: 
-        :daylight: "Londresko udako ordua"
-    :Europe/Luxembourg: 
-      :city: Luxenburgo
-    :Europe/Madrid: 
-      :city: Madril
-    :Europe/Monaco: 
-      :city: Monako
-    :Europe/Moscow: 
-      :city: Mosku
-    :Europe/Prague: 
-      :city: Praga
-    :Europe/Rome: 
-      :city: Erroma
-    :Europe/Tirane: 
-      :city: Tirana
-    :Europe/Ulyanovsk: 
-      :city: Ulianovsk
-    :Europe/Vatican: 
-      :city: "Vatikano Hiria"
-    :Europe/Vienna: 
-      :city: Viena
-    :Europe/Warsaw: 
-      :city: Varsovia
-    :Europe/Zurich: 
-      :city: Zürich
-    :Indian/Comoro: 
-      :city: Comores
-    :Indian/Mahe: 
-      :city: Mahé
-    :Indian/Maldives: 
-      :city: Maldivak
-    :Indian/Mauritius: 
-      :city: Maurizio
-    :Indian/Reunion: 
-      :city: Réunion
-    :Pacific/Easter: 
-      :city: "Pazko uhartea"
-    :Pacific/Efate: 
-      :city: Éfaté
-    :Pacific/Enderbury: 
-      :city: Canton
-    :Pacific/Galapagos: 
-      :city: Galapagoak
-    :Pacific/Honolulu: 
-      :city: Honolulu
-    :Pacific/Marquesas: 
-      :city: Markesak
-    :Pacific/Noumea: 
-      :city: Nouméa
-    :Pacific/Ponape: 
-      :city: Pohnpei
-    :Pacific/Truk: 
-      :city: Chuuk
-    :Pacific/Wallis: 
-      :city: "Wallis & Futuna"
+        :daylight: HADT
+    :Hong_Kong:
+      :long:
+        :generic: Hong Kongo ordua
+        :standard: Hong Kongo ordu estandarra
+        :daylight: Hong Kongo udako ordua
+    :Hovd:
+      :long:
+        :generic: Khovdeko ordua
+        :standard: Khovdeko ordu estandarra
+        :daylight: Khovdeko udako ordua
+    :India:
+      :long:
+        :standard: Indiako ordua
+    :Indian_Ocean:
+      :long:
+        :standard: Indiako ozeanoko ordua
+    :Indochina:
+      :long:
+        :standard: Indotxinako ordua
+    :Indonesia_Central:
+      :long:
+        :standard: Indonesiako erdialdeko ordua
+    :Indonesia_Eastern:
+      :long:
+        :standard: Indonesiako ekialdeko ordua
+    :Indonesia_Western:
+      :long:
+        :standard: Indonesiako mendebaldeko ordua
+    :Iran:
+      :long:
+        :generic: Irango ordua
+        :standard: Irango ordu estandarra
+        :daylight: Irango udako ordua
+    :Irkutsk:
+      :long:
+        :generic: Irkutskeko ordua
+        :standard: Irkutskeko ordu estandarra
+        :daylight: Irkutskeko udako ordua
+    :Israel:
+      :long:
+        :generic: Israelgo ordua
+        :standard: Israelgo ordu estandarra
+        :daylight: Israelgo udako ordua
+    :Japan:
+      :long:
+        :generic: Japoniako ordua
+        :standard: Japoniako ordu estandarra
+        :daylight: Japoniako udako ordua
+    :Kamchatka:
+      :long:
+        :generic: Petropavlovsk-Kamchatskiko ordua
+        :standard: Petropavlovsk-Kamchatskiko ordu estandarra
+        :daylight: Petropavlovsk-Kamchatskiko udako ordua
+    :Kazakhstan:
+      :long:
+        :standard: Kazakhstango ordua
+    :Kazakhstan_Eastern:
+      :long:
+        :standard: Kazakhstango ekialdeko ordua
+    :Kazakhstan_Western:
+      :long:
+        :standard: Kazakhstango mendebaldeko ordua
+    :Korea:
+      :long:
+        :generic: Koreako ordua
+        :standard: Koreako ordu estandarra
+        :daylight: Koreako udako ordua
+    :Kosrae:
+      :long:
+        :standard: Kosraeko ordua
+    :Krasnoyarsk:
+      :long:
+        :generic: Krasnoiarskeko ordua
+        :standard: Krasnoiarskeko ordu estandarra
+        :daylight: Krasnoiarskeko udako ordua
+    :Kyrgystan:
+      :long:
+        :standard: Kirgizistango ordua
+    :Lanka:
+      :long:
+        :standard: Lankako ordua
+    :Line_Islands:
+      :long:
+        :standard: Line uharteetako ordua
+    :Lord_Howe:
+      :long:
+        :generic: Lord Howeko ordua
+        :standard: Lord Howeko ordu estandarra
+        :daylight: Lord Howeko udako ordua
+    :Macau:
+      :long:
+        :generic: Macaoko ordua
+        :standard: Macaoko ordu estandarra
+        :daylight: Macaoko udako ordua
+    :Magadan:
+      :long:
+        :generic: Magadango ordua
+        :standard: Magadango ordu estandarra
+        :daylight: Magadango udako ordua
+    :Malaysia:
+      :long:
+        :standard: Malaysiako ordua
+    :Maldives:
+      :long:
+        :standard: Maldivetako ordua
+    :Marquesas:
+      :long:
+        :standard: Markesetako ordua
+    :Marshall_Islands:
+      :long:
+        :standard: Marshall Uharteetako ordua
+    :Mauritius:
+      :long:
+        :generic: Maurizioko ordua
+        :standard: Maurizioko ordu estandarra
+        :daylight: Maurizioko udako ordua
+    :Mawson:
+      :long:
+        :standard: Mawsoneko ordua
+    :Mexico_Pacific:
+      :long:
+        :generic: Mexikoko Pazifikoko ordua
+        :standard: Mexikoko Pazifikoko ordu estandarra
+        :daylight: Mexikoko Pazifikoko udako ordua
+    :Mongolia:
+      :long:
+        :generic: Ulan Batorreko ordua
+        :standard: Ulan Batorreko ordu estandarra
+        :daylight: Ulan Batorreko udako ordua
+    :Moscow:
+      :long:
+        :generic: Moskuko ordua
+        :standard: Moskuko ordu estandarra
+        :daylight: Moskuko udako ordua
+    :Myanmar:
+      :long:
+        :standard: Myanmarreko ordua
+    :Nauru:
+      :long:
+        :standard: Nauruko ordua
+    :Nepal:
+      :long:
+        :standard: Nepalgo ordua
+    :New_Caledonia:
+      :long:
+        :generic: Kaledonia Berriko ordua
+        :standard: Kaledonia Berriko ordu estandarra
+        :daylight: Kaledonia Berriko udako ordua
+    :New_Zealand:
+      :long:
+        :generic: Zeelanda Berriko ordua
+        :standard: Zeelanda Berriko ordu estandarra
+        :daylight: Zeelanda Berriko udako ordua
+    :Newfoundland:
+      :long:
+        :generic: Ternuako ordua
+        :standard: Ternuako ordu estandarra
+        :daylight: Ternuako udako ordua
+    :Niue:
+      :long:
+        :standard: Niueko ordua
+    :Norfolk:
+      :long:
+        :generic: Norfolk uharteetako ordua
+        :standard: Norfolk uharteetako ordu estandarra
+        :daylight: Norfolk uharteetako udako ordua
+    :Noronha:
+      :long:
+        :generic: Fernando de Noronhako ordua
+        :standard: Fernando de Noronhako ordu estandarra
+        :daylight: Fernando de Noronhako udako ordua
+    :North_Mariana:
+      :long:
+        :standard: Ipar Mariana uharteetako ordua
+    :Novosibirsk:
+      :long:
+        :generic: Novosibirskeko ordua
+        :standard: Novosibirskeko ordu estandarra
+        :daylight: Novosibirskeko udako ordua
+    :Omsk:
+      :long:
+        :generic: Omskeko ordua
+        :standard: Omskeko ordu estandarra
+        :daylight: Omskeko udako ordua
+    :Pakistan:
+      :long:
+        :generic: Pakistango ordua
+        :standard: Pakistango ordu estandarra
+        :daylight: Pakistango udako ordua
+    :Palau:
+      :long:
+        :standard: Palauko ordua
+    :Papua_New_Guinea:
+      :long:
+        :standard: Papua Ginea Berriko ordua
+    :Paraguay:
+      :long:
+        :generic: Paraguaiko ordua
+        :standard: Paraguaiko ordu estandarra
+        :daylight: Paraguaiko udako ordua
+    :Peru:
+      :long:
+        :generic: Peruko ordua
+        :standard: Peruko ordu estandarra
+        :daylight: Peruko udako ordua
+    :Philippines:
+      :long:
+        :generic: Filipinetako ordua
+        :standard: Filipinetako ordu estandarra
+        :daylight: Filipinetako udako ordua
+    :Phoenix_Islands:
+      :long:
+        :standard: Phoenix uharteetako ordua
+    :Pierre_Miquelon:
+      :long:
+        :generic: Saint-Pierre eta Mikeluneko ordua
+        :standard: Saint-Pierre eta Mikeluneko ordu estandarra
+        :daylight: Saint-Pierre eta Mikeluneko udako ordua
+    :Pitcairn:
+      :long:
+        :standard: Pitcairneko ordua
+    :Ponape:
+      :long:
+        :standard: Ponapeko ordua
+    :Pyongyang:
+      :long:
+        :standard: Piongiangeko ordua
+    :Qyzylorda:
+      :long:
+        :generic: Kyzylordako ordua
+        :standard: Kyzylordako ordu estandarra
+        :daylight: Kyzylordako udako ordua
+    :Reunion:
+      :long:
+        :standard: Reunioneko ordua
+    :Rothera:
+      :long:
+        :standard: Rotherako ordua
+    :Sakhalin:
+      :long:
+        :generic: Sakhalingo ordua
+        :standard: Sakhalingo ordu estandarra
+        :daylight: Sakhalingo udako ordua
+    :Samara:
+      :long:
+        :generic: Samarako ordua
+        :standard: Samarako ordu estandarra
+        :daylight: Samarako udako ordua
+    :Samoa:
+      :long:
+        :generic: Samoako ordua
+        :standard: Samoako ordu estandarra
+        :daylight: Samoako udako ordua
+    :Seychelles:
+      :long:
+        :standard: Seychelle uharteetako ordua
+    :Singapore:
+      :long:
+        :standard: Singapurreko ordu estandarra
+    :Solomon:
+      :long:
+        :standard: Salomon Uharteetako ordua
+    :South_Georgia:
+      :long:
+        :standard: Hegoaldeko Georgietako ordua
+    :Suriname:
+      :long:
+        :standard: Surinamgo ordua
+    :Syowa:
+      :long:
+        :standard: Syowako ordua
+    :Tahiti:
+      :long:
+        :standard: Tahitiko ordua
+    :Taipei:
+      :long:
+        :generic: Taipeiko ordua
+        :standard: Taipeiko ordu estandarra
+        :daylight: Taipeiko udako ordua
+    :Tajikistan:
+      :long:
+        :standard: Tadjikistango ordua
+    :Tokelau:
+      :long:
+        :standard: Tokelauko ordua
+    :Tonga:
+      :long:
+        :generic: Tongako ordua
+        :standard: Tongako ordu estandarra
+        :daylight: Tongako udako ordua
+    :Truk:
+      :long:
+        :standard: Chuukeko ordua
+    :Turkmenistan:
+      :long:
+        :generic: Turkmenistango ordua
+        :standard: Turkmenistango ordu estandarra
+        :daylight: Turkmenistango udako ordua
+    :Tuvalu:
+      :long:
+        :standard: Tuvaluko ordua
+    :Uruguay:
+      :long:
+        :generic: Uruguaiko ordua
+        :standard: Uruguaiko ordu estandarra
+        :daylight: Uruguaiko udako ordua
+    :Uzbekistan:
+      :long:
+        :generic: Uzbekistango ordua
+        :standard: Uzbekistango ordu estandarra
+        :daylight: Uzbekistango udako ordua
+    :Vanuatu:
+      :long:
+        :generic: Vanuatuko ordua
+        :standard: Vanuatuko ordu estandarra
+        :daylight: Vanuatuko udako ordua
+    :Venezuela:
+      :long:
+        :standard: Venezuelako ordua
+    :Vladivostok:
+      :long:
+        :generic: Vladivostokeko ordua
+        :standard: Vladivostokeko ordu estandarra
+        :daylight: Vladivostokeko udako ordua
+    :Volgograd:
+      :long:
+        :generic: Volgogradeko ordua
+        :standard: Volgogradeko ordu estandarra
+        :daylight: Volgogradeko udako ordua
+    :Vostok:
+      :long:
+        :standard: Vostokeko ordua
+    :Wake:
+      :long:
+        :standard: Wake uharteko ordua
+    :Wallis:
+      :long:
+        :standard: Wallis eta Futunako ordutegia
+    :Yakutsk:
+      :long:
+        :generic: Jakutskeko ordua
+        :standard: Jakutskeko ordu estandarra
+        :daylight: Jakutskeko udako ordua
+    :Yekaterinburg:
+      :long:
+        :generic: Jekaterinburgeko ordua
+        :standard: Jekaterinburgeko ordu estandarra
+        :daylight: Jekaterinburgeko udako ordua
+    :Yukon:
+      :long:
+        :standard: Yukongo ordua

@@ -1,933 +1,933 @@
---- 
-:fa: 
-  :currencies: 
-    :ADP: 
-      :name: "پزتای آندورا"
-      :one: "پزتای آندورا"
-    :AED: 
-      :name: "درهم امارات متحدهٔ عربی"
-      :one: "درهم امارات متحدهٔ عربی"
-    :AFA: 
-      :name: "افغانی افغانستان (۱۹۲۷ تا ۲۰۰۲)"
-      :one: "افغانی افغانستان (۱۹۲۷ تا ۲۰۰۲)"
-    :AFN: 
-      :name: "افغانی افغانستان"
-      :narrow_symbol: ؋
-      :one: "افغانی افغانستان"
-      :symbol: ؋
-    :ALK: 
-      :name: "لک آلبانی (۱۹۴۶ تا ۱۹۶۵)"
-      :one: "لک آلبانی (۱۹۴۶ تا ۱۹۶۵)"
-    :ALL: 
-      :name: "لک آلبانی"
-      :one: "لک آلبانی"
-    :AMD: 
-      :name: "درام ارمنستان"
-      :narrow_symbol: ֏
-      :one: "درام ارمنستان"
-      :symbol: ֏
-    :ANG: 
-      :name: "گیلدر آنتیل هلند"
-      :one: "گیلدر آنتیل هلند"
-    :AOA: 
-      :name: "کوانزای آنگولا"
-      :narrow_symbol: Kz
-      :one: "کوانزای آنگولا"
+---
+:fa:
+  :currencies:
+    :AFN:
+      :symbol: "؋"
+      :narrow_symbol: "؋"
+      :one: افغانی افغانستان
+      :name: افغانی افغانستان
+    :AMD:
+      :symbol: "֏"
+      :narrow_symbol: "֏"
+      :one: درام ارمنستان
+      :name: درام ارمنستان
+    :AOA:
       :symbol: Kz
-    :ARM: 
-      :name: "پزوی آرژانتین (۱۸۸۱ تا ۱۹۷۰)"
-      :one: "پزوی آرژانتین (۱۸۸۱ تا ۱۹۷۰)"
-    :ARP: 
-      :name: "پزوی آرژانتین (۱۹۸۳ تا ۱۹۸۵)‏"
-      :one: "پزوی آرژانتین (۱۹۸۳ تا ۱۹۸۵)"
-      :other: "پزوی آرژانتین (۱۹۸۳ تا ۱۹۸۵)"
-    :ARS: 
-      :name: "پزوی آرژانتین"
-      :narrow_symbol: $
-      :one: "پزوی آرژانتین"
-      :symbol: $
-    :ATS: 
-      :name: "شیلینگ اتریش"
-      :one: "شیلینگ اتریش"
-    :AUD: 
-      :name: "دلار استرالیا"
-      :narrow_symbol: $
-      :one: "دلار استرالیا"
+      :narrow_symbol: Kz
+      :one: کوانزای آنگولا
+      :name: کوانزای آنگولا
+    :ARS:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: پزوی آرژانتین
+      :name: پزوی آرژانتین
+    :AUD:
       :symbol: A$
-    :AWG: 
-      :name: "فلورین آروبا"
-      :one: "فلورین آروبا"
-    :AZM: 
-      :name: "منات جمهوری آذربایجان (۱۹۹۳ تا ۲۰۰۶)"
-      :one: "منات جمهوری آذربایجان (۱۹۹۳ تا ۲۰۰۶)"
-    :AZN: 
-      :name: "منات جمهوری آذربایجان"
-      :narrow_symbol: ₼
-      :one: "منات جمهوری آذربایجان"
-      :symbol: ₼
-    :BAD: 
-      :name: "دینار بوسنی و هرزگوین (۱۹۹۲ تا ۱۹۹۴)"
-      :one: "دینار بوسنی و هرزگوین (۱۹۹۲ تا ۱۹۹۴)"
-    :BAM: 
-      :name: "مارک تبدیل‌پذیر بوسنی و هرزگوین"
-      :narrow_symbol: KM
-      :one: "مارک تبدیل‌پذیر بوسنی و هرزگوین"
+      :narrow_symbol: "$"
+      :one: دلار استرالیا
+      :name: دلار استرالیا
+    :AZN:
+      :symbol: "₼"
+      :narrow_symbol: "₼"
+      :one: منات جمهوری آذربایجان
+      :name: منات جمهوری آذربایجان
+    :BAM:
       :symbol: KM
-    :BBD: 
-      :name: "دلار باربادوس"
-      :narrow_symbol: $
-      :one: "دلار باربادوس"
-      :symbol: $
-    :BDT: 
-      :name: "تاکای بنگلادش"
-      :narrow_symbol: ৳
-      :one: "تاکای بنگلادش"
-      :symbol: ৳
-    :BEF: 
-      :name: "فرانک بلژیک"
-      :one: "فرانک بلژیک"
-    :BEL: 
-      :name: "فرانک بلژیک (مالی)"
-      :one: "فرانک بلژیک (مالی)"
-    :BGN: 
-      :name: "لو بلغارستان"
-      :one: "لو بلغارستان"
-    :BHD: 
-      :name: "دینار بحرین"
-      :one: "دینار بحرین"
-    :BIF: 
-      :name: "فرانک بوروندی"
-      :one: "فرانک بوروندی"
-    :BMD: 
-      :name: "دلار برمودا"
-      :narrow_symbol: $
-      :one: "دلار برمودا"
-      :symbol: $
-    :BND: 
-      :name: "دلار برونئی"
-      :narrow_symbol: $
-      :one: "دلار برونئی"
-      :symbol: $
-    :BOB: 
-      :name: "بولیویانوی بولیوی"
-      :narrow_symbol: Bs
-      :one: "بولیویانوی بولیوی"
+      :narrow_symbol: KM
+      :one: مارک تبدیل‌پذیر بوسنی و هرزگوین
+      :name: مارک تبدیل‌پذیر بوسنی و هرزگوین
+    :BBD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: دلار باربادوس
+      :name: دلار باربادوس
+    :BDT:
+      :symbol: "৳"
+      :narrow_symbol: "৳"
+      :one: تاکای بنگلادش
+      :name: تاکای بنگلادش
+    :BMD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: دلار برمودا
+      :name: دلار برمودا
+    :BND:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: دلار برونئی
+      :name: دلار برونئی
+    :BOB:
       :symbol: Bs
-    :BOP: 
-      :name: "پزوی بولیوی"
-      :one: "پزوی بولیوی"
-    :BRL: 
-      :name: "رئال برزیل"
-      :narrow_symbol: R$
-      :one: "رئال برزیل"
+      :narrow_symbol: Bs
+      :one: بولیویانوی بولیوی
+      :name: بولیویانوی بولیوی
+    :BRL:
       :symbol: R$
-    :BSD: 
-      :name: "دلار باهاما"
-      :narrow_symbol: $
-      :one: "دلار باهاما"
-      :symbol: $
-    :BTN: 
-      :name: "انگولتروم بوتان"
-      :one: "انگولتروم بوتان"
-    :BWP: 
-      :name: "پولای بوتسوانا"
-      :narrow_symbol: P
-      :one: "پولای بوتسوانا"
+      :narrow_symbol: R$
+      :one: رئال برزیل
+      :name: رئال برزیل
+    :BSD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: دلار باهاما
+      :name: دلار باهاما
+    :BWP:
       :symbol: P
-    :BYB: 
-      :name: "روبل جدید بلاروس (۱۹۹۴ تا ۱۹۹۹)"
-      :one: "روبل جدید بلاروس (۱۹۹۴ تا ۱۹۹۹)"
-    :BYN: 
-      :name: "روبل بلاروس"
-      :narrow_symbol: Br
-      :one: "روبل بلاروس"
-      :symbol: Br
-    :BYR: 
-      :name: "روبل بلاروسی (۲۰۱۶–۲۰۰۰)"
-      :one: "روبل بلاروسی (۲۰۱۶–۲۰۰۰)"
-    :BZD: 
-      :name: "دلار بلیز"
-      :narrow_symbol: $
-      :one: "دلار بلیز"
-      :symbol: $
-    :CAD: 
-      :name: "دلار کانادا"
-      :narrow_symbol: $
-      :one: "دلار کانادا"
-      :symbol: $CA
-    :CDF: 
-      :name: "فرانک کنگو"
-      :one: "فرانک کنگو"
-    :CHF: 
-      :name: "فرانک سوئیس"
-      :one: "فرانک سوئیس"
-    :CLP: 
-      :name: "پزوی شیلی"
-      :narrow_symbol: $
-      :one: "پزوی شیلی"
-      :symbol: $
-    :CNH: 
-      :name: "یوآن چین (برون‌مرزی)"
-      :one: "یوآن چین (برون‌مرزی)"
-    :CNY: 
-      :name: "یوآن چین"
-      :narrow_symbol: ¥
-      :one: "یوآن چین"
-      :symbol: ¥CN
-    :COP: 
-      :name: "پزوی کلمبیا"
-      :narrow_symbol: $
-      :one: "پزوی کلمبیا"
-      :symbol: $
-    :CRC: 
-      :name: "کولون کاستاریکا"
-      :narrow_symbol: ₡
-      :one: "کولون کاستاریکا"
-      :symbol: ₡
-    :CSD: 
-      :name: "دینار صربستان (۲۰۰۲ تا ۲۰۰۶)"
-      :one: "دینار صربستان (۲۰۰۲ تا ۲۰۰۶)"
-    :CUC: 
-      :name: "پزوی تبدیل‌پذیر کوبا"
-      :narrow_symbol: $
-      :one: "پزوی تبدیل‌پذیر کوبا"
-      :symbol: $
-    :CUP: 
-      :name: "پزوی کوبا"
-      :narrow_symbol: $
-      :one: "پزوی کوبا"
-      :symbol: $
-    :CVE: 
-      :name: "اسکودوی کیپ‌ورد"
-      :one: "اسکودوی کیپ‌ورد"
-    :CYP: 
-      :name: "پوند قبرس"
-      :one: "پوند قبرس"
-    :CZK: 
-      :name: "کورونای جمهوری چک"
-      :narrow_symbol: Kč
-      :one: "کورونای جمهوری چک"
+      :narrow_symbol: P
+      :one: پولای بوتسوانا
+      :name: پولای بوتسوانا
+    :BZD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: دلار بلیز
+      :name: دلار بلیز
+    :CAD:
+      :symbol: "$CA"
+      :narrow_symbol: "$"
+      :one: دلار کانادا
+      :name: دلار کانادا
+    :CLP:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: پزوی شیلی
+      :name: پزوی شیلی
+    :CNY:
+      :symbol: "¥CN"
+      :narrow_symbol: "¥"
+      :one: یوآن چین
+      :name: یوآن چین
+    :COP:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: پزوی کلمبیا
+      :name: پزوی کلمبیا
+    :CRC:
+      :symbol: "₡"
+      :narrow_symbol: "₡"
+      :one: کولون کاستاریکا
+      :name: کولون کاستاریکا
+    :CUC:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: پزوی تبدیل‌پذیر کوبا
+      :name: پزوی تبدیل‌پذیر کوبا
+    :CUP:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: پزوی کوبا
+      :name: پزوی کوبا
+    :CZK:
       :symbol: Kč
-    :DDM: 
-      :name: "مارک آلمان شرقی"
-      :one: "مارک آلمان شرقی"
-    :DEM: 
-      :name: "مارک آلمان"
-      :one: "مارک آلمان"
-    :DJF: 
-      :name: "فرانک جیبوتی"
-      :one: "فرانک جیبوتی"
-    :DKK: 
-      :name: "کرون دانمارک"
-      :narrow_symbol: kr
-      :one: "کرون دانمارک"
+      :narrow_symbol: Kč
+      :one: کورونای جمهوری چک
+      :name: کورونای جمهوری چک
+    :DKK:
       :symbol: kr
-    :DOP: 
-      :name: "پزوی جمهوری دومینیکن"
-      :narrow_symbol: $
-      :one: "پزوی جمهوری دومینیکن"
-      :symbol: $
-    :DZD: 
-      :name: "دینار الجزایر"
-      :one: "دینار الجزایر"
-    :EEK: 
-      :name: "کرون استونی"
-      :one: "کرون استونی"
-    :EGP: 
-      :name: "پوند مصر"
-      :narrow_symbol: E£
-      :one: "پوند مصر"
+      :narrow_symbol: kr
+      :one: کرون دانمارک
+      :name: کرون دانمارک
+    :DOP:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: پزوی جمهوری دومینیکن
+      :name: پزوی جمهوری دومینیکن
+    :EGP:
       :symbol: E£
-    :ERN: 
-      :name: "ناکفای اریتره"
-      :one: "ناکفای اریتره"
-    :ESP: 
-      :name: "پزتای اسپانیا"
-      :narrow_symbol: ₧
-      :one: "پزتای اسپانیا"
-      :symbol: ₧
-    :ETB: 
-      :name: "بیر اتیوپی"
-      :one: "بیر اتیوپی"
-    :EUR: 
-      :name: یورو
-      :narrow_symbol: €
+      :narrow_symbol: E£
+      :one: پوند مصر
+      :name: پوند مصر
+    :ESP:
+      :symbol: "₧"
+      :narrow_symbol: "₧"
+      :one: پزتای اسپانیا
+      :name: پزتای اسپانیا
+    :EUR:
+      :symbol: "€"
+      :narrow_symbol: "€"
       :one: یورو
-      :symbol: €
-    :FJD: 
-      :name: "دلار فیجی"
-      :narrow_symbol: $
-      :one: "دلار فیجی"
-      :symbol: $
-    :FKP: 
-      :name: "پوند جزایر فالکلند"
-      :narrow_symbol: £
-      :one: "پوند جزایر فالکلند"
-      :symbol: £
-    :FRF: 
-      :name: "فرانک فرانسه"
-      :one: "فرانک فرانسه"
-    :GBP: 
-      :name: "پوند بریتانیا"
-      :narrow_symbol: £
-      :one: "پوند بریتانیا"
-      :symbol: £
-    :GEL: 
-      :name: "لاری گرجستان"
-      :narrow_symbol: ₾
-      :one: "لاری گرجستان"
-      :symbol: ₾
-    :GHS: 
-      :name: "سدی غنا"
-      :narrow_symbol: GH₵
-      :one: "سدی غنا"
+      :name: یورو
+    :FJD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: دلار فیجی
+      :name: دلار فیجی
+    :FKP:
+      :symbol: "£"
+      :narrow_symbol: "£"
+      :one: پوند جزایر فالکلند
+      :name: پوند جزایر فالکلند
+    :GBP:
+      :symbol: "£"
+      :narrow_symbol: "£"
+      :one: پوند بریتانیا
+      :name: پوند بریتانیا
+    :GEL:
+      :symbol: "₾"
+      :narrow_symbol: "₾"
+      :one: لاری گرجستان
+      :name: لاری گرجستان
+    :GHS:
       :symbol: GH₵
-    :GIP: 
-      :name: "پوند جبل‌الطارق"
-      :narrow_symbol: £
-      :one: "پوند جبل‌الطارق"
-      :symbol: £
-    :GMD: 
-      :name: "دالاسی گامبیا"
-      :one: "دالاسی گامبیا"
-    :GNF: 
-      :name: "فرانک گینه"
-      :narrow_symbol: FG
-      :one: "فرانک گینه"
+      :narrow_symbol: GH₵
+      :one: سدی غنا
+      :name: سدی غنا
+    :GIP:
+      :symbol: "£"
+      :narrow_symbol: "£"
+      :one: پوند جبل‌الطارق
+      :name: پوند جبل‌الطارق
+    :GNF:
       :symbol: FG
-    :GRD: 
-      :name: "دراخمای یونان"
-      :one: "دراخمای یونان"
-    :GTQ: 
-      :name: "کتزال گواتمالا"
-      :narrow_symbol: Q
-      :one: "کتزال گواتمالا"
+      :narrow_symbol: FG
+      :one: فرانک گینه
+      :name: فرانک گینه
+    :GTQ:
       :symbol: Q
-    :GWP: 
-      :name: "پزوی گینهٔ بیسائو"
-      :one: "پزوی گینهٔ بیسائو"
-    :GYD: 
-      :name: "دلار گویانا"
-      :narrow_symbol: $
-      :one: "دلار گویانا"
-      :symbol: $
-    :HKD: 
-      :name: "دلار هنگ‌کنگ"
-      :narrow_symbol: $
-      :one: "دلار هنگ‌کنگ"
-      :symbol: $HK
-    :HNL: 
-      :name: "لمپیرای هندوراس"
-      :narrow_symbol: L
-      :one: "لمپیرای هندوراس"
+      :narrow_symbol: Q
+      :one: کتزال گواتمالا
+      :name: کتزال گواتمالا
+    :GYD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: دلار گویانا
+      :name: دلار گویانا
+    :HKD:
+      :symbol: "$HK"
+      :narrow_symbol: "$"
+      :one: دلار هنگ‌کنگ
+      :name: دلار هنگ‌کنگ
+    :HNL:
       :symbol: L
-    :HRD: 
-      :name: "دینار کرواسی"
-      :one: "دینار کرواسی"
-    :HRK: 
-      :name: "کونای کرواسی"
-      :narrow_symbol: kn
-      :one: "کونای کرواسی"
+      :narrow_symbol: L
+      :one: لمپیرای هندوراس
+      :name: لمپیرای هندوراس
+    :HRK:
       :symbol: kn
-    :HTG: 
-      :name: "گورد هائیتی"
-      :one: "گورد هائیتی"
-    :HUF: 
-      :name: "فورینت مجارستان"
-      :narrow_symbol: Ft
-      :one: "فورینت مجارستان"
+      :narrow_symbol: kn
+      :one: کونای کرواسی
+      :name: کونای کرواسی
+    :HUF:
       :symbol: Ft
-    :IDR: 
-      :name: "روپیهٔ اندونزی"
-      :narrow_symbol: Rp
-      :one: "روپیهٔ اندونزی"
+      :narrow_symbol: Ft
+      :one: فورینت مجارستان
+      :name: فورینت مجارستان
+    :IDR:
       :symbol: Rp
-    :IEP: 
-      :name: "پوند ایرلند"
-      :one: "پوند ایرلند"
-    :ILP: 
-      :name: "پوند اسرائیل"
-      :one: "پوند اسرائیل"
-    :ILR: 
-      :name: "شقل اسرائیل (۱۹۸۰ تا ۱۹۸۵)"
-      :one: "شقل اسرائیل (۱۹۸۰ تا ۱۹۸۵)"
-    :ILS: 
-      :name: "شِکِل جدید اسرائیل"
-      :narrow_symbol: ₪
-      :one: "شِکِل جدید اسرائیل"
-      :symbol: ₪
-    :INR: 
-      :name: "روپیهٔ هند"
-      :narrow_symbol: ₹
-      :one: "روپیهٔ هند"
-      :symbol: ₹
-    :IQD: 
-      :name: "دینار عراق"
-      :one: "دینار عراق"
-    :IRR: 
-      :name: "ریال ایران"
-      :one: "ریال ایران"
-      :symbol: ریال
-    :ISJ: 
-      :name: "کرونای ایسلند (۱۹۱۸ تا ۱۹۸۱)"
-      :one: "کرونای ایسلند (۱۹۱۸ تا ۱۹۸۱)"
-    :ISK: 
-      :name: "کرونای ایسلند"
-      :narrow_symbol: kr
-      :one: "کرونای ایسلند"
+      :narrow_symbol: Rp
+      :one: روپیهٔ اندونزی
+      :name: روپیهٔ اندونزی
+    :ILS:
+      :symbol: "₪"
+      :narrow_symbol: "₪"
+      :one: شِکِل جدید اسرائیل
+      :name: شِکِل جدید اسرائیل
+    :INR:
+      :symbol: "₹"
+      :narrow_symbol: "₹"
+      :one: روپیهٔ هند
+      :name: روپیهٔ هند
+    :ISK:
       :symbol: kr
-    :ITL: 
-      :name: "لیرهٔ ایتالیا"
-      :one: "لیرهٔ ایتالیا"
-    :JMD: 
-      :name: "دلار جامائیکا"
-      :narrow_symbol: $
-      :one: "دلار جامائیکا"
-      :symbol: $
-    :JOD: 
-      :name: "دینار اردن"
-      :one: "دینار اردن"
-    :JPY: 
-      :name: "ین ژاپن"
-      :narrow_symbol: ¥
-      :one: "ین ژاپن"
-      :symbol: ¥
-    :KES: 
-      :name: "شیلینگ کنیا"
-      :one: "شیلینگ کنیا"
-    :KGS: 
-      :name: "سوم قرقیزستان"
-      :narrow_symbol: ⃀
-      :one: "سوم قرقیزستان"
-      :symbol: ⃀
-    :KHR: 
-      :name: "ری‌یل کامبوج"
-      :narrow_symbol: ៛
-      :one: "ری‌یل کامبوج"
-      :symbol: ៛
-    :KMF: 
-      :name: "فرانک کومورو"
-      :narrow_symbol: CF
-      :one: "فرانک کومورو"
+      :narrow_symbol: kr
+      :one: کرونای ایسلند
+      :name: کرونای ایسلند
+    :JMD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: دلار جامائیکا
+      :name: دلار جامائیکا
+    :JPY:
+      :symbol: "¥"
+      :narrow_symbol: "¥"
+      :one: ین ژاپن
+      :name: ین ژاپن
+    :KGS:
+      :symbol: "⃀"
+      :narrow_symbol: "⃀"
+      :one: سوم قرقیزستان
+      :name: سوم قرقیزستان
+    :KHR:
+      :symbol: "៛"
+      :narrow_symbol: "៛"
+      :one: ری‌یل کامبوج
+      :name: ری‌یل کامبوج
+    :KMF:
       :symbol: CF
-    :KPW: 
-      :name: "وون کرهٔ شمالی"
-      :narrow_symbol: ₩
-      :one: "وون کرهٔ شمالی"
-      :symbol: ₩
-    :KRO: 
-      :name: "وون کرهٔ جنوبی (۱۹۴۵ تا ۱۹۵۳)"
-      :one: "وون کرهٔ جنوبی (۱۹۴۵ تا ۱۹۵۳)"
-    :KRW: 
-      :name: "وون کرهٔ جنوبی"
-      :narrow_symbol: ₩
-      :one: "وون کرهٔ جنوبی"
-      :symbol: ₩
-    :KWD: 
-      :name: "دینار کویت"
-      :one: "دینار کویت"
-    :KYD: 
-      :name: "دلار جزایر کِیمن"
-      :narrow_symbol: $
-      :one: "دلار جزایر کِیمن"
-      :symbol: $
-    :KZT: 
-      :name: "تنگهٔ قزاقستان"
-      :narrow_symbol: ₸
-      :one: "تنگهٔ قزاقستان"
-      :symbol: ₸
-    :LAK: 
-      :name: "کیپ لائوس"
-      :narrow_symbol: ₭
-      :one: "کیپ لائوس"
-      :symbol: ₭
-    :LBP: 
-      :name: "لیرهٔ لبنان"
-      :narrow_symbol: L£
-      :one: "لیرهٔ لبنان"
+      :narrow_symbol: CF
+      :one: فرانک کومورو
+      :name: فرانک کومورو
+    :KPW:
+      :symbol: "₩"
+      :narrow_symbol: "₩"
+      :one: وون کرهٔ شمالی
+      :name: وون کرهٔ شمالی
+    :KRW:
+      :symbol: "₩"
+      :narrow_symbol: "₩"
+      :one: وون کرهٔ جنوبی
+      :name: وون کرهٔ جنوبی
+    :KYD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: دلار جزایر کِیمن
+      :name: دلار جزایر کِیمن
+    :KZT:
+      :symbol: "₸"
+      :narrow_symbol: "₸"
+      :one: تنگهٔ قزاقستان
+      :name: تنگهٔ قزاقستان
+    :LAK:
+      :symbol: "₭"
+      :narrow_symbol: "₭"
+      :one: کیپ لائوس
+      :name: کیپ لائوس
+    :LBP:
       :symbol: L£
-    :LKR: 
-      :name: "روپیهٔ سری‌لانکا"
-      :narrow_symbol: Rs
-      :one: "روپیهٔ سری‌لانکا"
+      :narrow_symbol: L£
+      :one: لیرهٔ لبنان
+      :name: لیرهٔ لبنان
+    :LKR:
       :symbol: Rs
-    :LRD: 
-      :name: "دلار لیبریا"
-      :narrow_symbol: $
-      :one: "دلار لیبریا"
-      :symbol: $
-    :LSL: 
-      :name: "لوتی لسوتو"
-      :one: "لوتی لسوتو"
-    :LTL: 
-      :name: "لیتاس لیتوانی"
-      :narrow_symbol: Lt
-      :one: "لیتاس لیتوانی"
+      :narrow_symbol: Rs
+      :one: روپیهٔ سری‌لانکا
+      :name: روپیهٔ سری‌لانکا
+    :LRD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: دلار لیبریا
+      :name: دلار لیبریا
+    :LTL:
       :symbol: Lt
-    :LTT: 
-      :name: "تالوناس لیتوانی"
-      :one: "تالوناس لیتوانی"
-    :LUF: 
-      :name: "فرانک لوکزامبورگ"
-      :one: "فرانک لوکزامبورگ"
-    :LUL: 
-      :name: "فرانک مالی لوگزامبورگ"
-      :one: "فرانک مالی لوگزامبورگ"
-    :LVL: 
-      :name: "لاتس لتونی"
-      :narrow_symbol: Ls
-      :one: "لاتس لتونی"
+      :narrow_symbol: Lt
+      :one: لیتاس لیتوانی
+      :name: لیتاس لیتوانی
+    :LVL:
       :symbol: Ls
-    :LVR: 
-      :name: "روبل لتونی"
-      :one: "روبل لتونی"
-    :LYD: 
-      :name: "دینار لیبی"
-      :one: "دینار لیبی"
-    :MAD: 
-      :name: "درهم مراکش"
-      :one: "درهم مراکش"
-    :MAF: 
-      :name: "فرانک مراکش"
-      :one: "فرانک مراکش"
-    :MCF: 
-      :name: "فرانک موناکو"
-      :one: "فرانک موناکو"
-    :MDL: 
-      :name: "لئوی مولداوی"
-      :one: "لئوی مولداوی"
-    :MGA: 
-      :name: "آریاری مالاگاسی"
-      :narrow_symbol: Ar
-      :one: "آریاری مالاگاسی"
+      :narrow_symbol: Ls
+      :one: لاتس لتونی
+      :name: لاتس لتونی
+    :MGA:
       :symbol: Ar
-    :MGF: 
-      :name: "فرانک ماداگاسکار"
-      :one: "فرانک ماداگاسکار"
-    :MKD: 
-      :name: "دینار مقدونیه"
-      :one: "دینار مقدونیه"
-    :MKN: 
-      :name: "دینار مقدونیه (۱۹۹۲ تا ۱۹۹۳)"
-      :one: "دینار مقدونیه (۱۹۹۲ تا ۱۹۹۳)"
-    :MLF: 
-      :name: "فرانک مالی"
-      :one: "فرانک مالی"
-    :MMK: 
-      :name: "کیات میانمار"
-      :narrow_symbol: K
-      :one: "کیات میانمار"
+      :narrow_symbol: Ar
+      :one: آریاری مالاگاسی
+      :name: آریاری مالاگاسی
+    :MMK:
       :symbol: K
-    :MNT: 
-      :name: "توگریک مغولستان"
-      :narrow_symbol: ₮
-      :one: "توگریک مغولستان"
-      :symbol: ₮
-    :MOP: 
-      :name: "پاتاکای ماکائو"
-      :one: "پاتاکای ماکائو"
-    :MRO: 
-      :name: "اوگوئیای موریتانی (۱۹۷۳ تا ۲۰۱۷)"
-      :one: "اوگوئیای موریتانی (۱۹۷۳ تا ۲۰۱۷)"
-    :MRU: 
-      :name: "اوگوئیای موریتانی"
-      :one: "اوگوئیای موریتانی"
-    :MTL: 
-      :name: "لیرهٔ مالت"
-      :one: "لیرهٔ مالت"
-    :MTP: 
-      :name: "پوند مالت"
-      :one: "پوند مالت"
-    :MUR: 
-      :name: "روپیهٔ موریس"
-      :narrow_symbol: Rs
-      :one: "روپیهٔ موریس"
+      :narrow_symbol: K
+      :one: کیات میانمار
+      :name: کیات میانمار
+    :MNT:
+      :symbol: "₮"
+      :narrow_symbol: "₮"
+      :one: توگریک مغولستان
+      :name: توگریک مغولستان
+    :MUR:
       :symbol: Rs
-    :MVP: 
-      :name: "روپیهٔ مالدیو (۱۹۴۷ تا ۱۹۸۱)"
-      :one: "روپیهٔ مالدیو (۱۹۴۷ تا ۱۹۸۱)"
-    :MVR: 
-      :name: "روپیهٔ مالدیو"
-      :one: "روپیهٔ مالدیو"
-    :MWK: 
-      :name: "کواچای مالاوی"
-      :one: "کواچای مالاوی"
-    :MXN: 
-      :name: "پزوی مکزیک"
-      :narrow_symbol: $
-      :one: "پزوی مکزیک"
-      :symbol: $MX
-    :MXP: 
-      :name: "پزوی نقرهٔ مکزیک (۱۸۶۱ تا ۱۹۹۲)"
-      :one: "پزوی نقرهٔ مکزیک (۱۸۶۱ تا ۱۹۹۲)"
-    :MYR: 
-      :name: "رینگیت مالزی"
-      :narrow_symbol: RM
-      :one: "رینگیت مالزی"
+      :narrow_symbol: Rs
+      :one: روپیهٔ موریس
+      :name: روپیهٔ موریس
+    :MXN:
+      :symbol: "$MX"
+      :narrow_symbol: "$"
+      :one: پزوی مکزیک
+      :name: پزوی مکزیک
+    :MYR:
       :symbol: RM
-    :MZE: 
-      :name: "اسکودوی موزامبیک"
-      :one: "اسکودوی موزامبیک"
-    :MZN: 
-      :name: "متیکال موزامبیک"
-      :one: "متیکال موزامبیک"
-    :NAD: 
-      :name: "دلار نامیبیا"
-      :narrow_symbol: $
-      :one: "دلار نامیبیا"
-      :symbol: $
-    :NGN: 
-      :name: "نایرای نیجریه"
-      :narrow_symbol: ₦
-      :one: "نایرای نیجریه"
-      :symbol: ₦
-    :NIO: 
-      :name: "کوردوبای نیکاراگوئه"
-      :narrow_symbol: C$
-      :one: "کوردوبای نیکاراگوئه"
+      :narrow_symbol: RM
+      :one: رینگیت مالزی
+      :name: رینگیت مالزی
+    :NAD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: دلار نامیبیا
+      :name: دلار نامیبیا
+    :NGN:
+      :symbol: "₦"
+      :narrow_symbol: "₦"
+      :one: نایرای نیجریه
+      :name: نایرای نیجریه
+    :NIO:
       :symbol: C$
-    :NLG: 
-      :name: "گیلدر هلند"
-      :one: "گیلدر هلند"
-    :NOK: 
-      :name: "کرون نروژ"
-      :narrow_symbol: kr
-      :one: "کرون نروژ"
+      :narrow_symbol: C$
+      :one: کوردوبای نیکاراگوئه
+      :name: کوردوبای نیکاراگوئه
+    :NOK:
       :symbol: kr
-    :NPR: 
-      :name: "روپیهٔ نپال"
-      :narrow_symbol: Rs
-      :one: "روپیهٔ نپال"
+      :narrow_symbol: kr
+      :one: کرون نروژ
+      :name: کرون نروژ
+    :NPR:
       :symbol: Rs
-    :NZD: 
-      :name: "دلار زلاند نو"
-      :narrow_symbol: $
-      :one: "دلار زلاند نو"
-      :symbol: $NZ
-    :OMR: 
-      :name: "ریال عمان"
-      :one: "ریال عمان"
-    :PAB: 
-      :name: "بالبوای پاناما"
-      :one: "بالبوای پاناما"
-    :PEI: 
-      :name: "اینتی پرو"
-      :one: "اینتی پرو"
-    :PEN: 
-      :name: "سول پرو"
-      :one: "سول پرو"
-    :PES: 
-      :name: "سول پرو (۱۸۶۳ تا ۱۹۶۵)"
-      :one: "سول پرو (۱۸۶۳ تا ۱۹۶۵)"
-    :PGK: 
-      :name: "کینای پاپوا گینهٔ نو"
-      :one: "کینای پاپوا گینهٔ نو"
-    :PHP: 
-      :name: "پزوی فیلیپین"
-      :narrow_symbol: ₱
-      :one: "پزوی فیلیپین"
+      :narrow_symbol: Rs
+      :one: روپیهٔ نپال
+      :name: روپیهٔ نپال
+    :NZD:
+      :symbol: "$NZ"
+      :narrow_symbol: "$"
+      :one: دلار زلاند نو
+      :name: دلار زلاند نو
+    :PHP:
       :symbol: PHP
-    :PKR: 
-      :name: "روپیهٔ پاکستان"
-      :narrow_symbol: Rs
-      :one: "روپیهٔ پاکستان"
+      :narrow_symbol: "₱"
+      :one: پزوی فیلیپین
+      :name: پزوی فیلیپین
+    :PKR:
       :symbol: Rs
-    :PLN: 
-      :name: "زلوتی لهستان"
-      :narrow_symbol: zł
-      :one: "زلوتی لهستان"
+      :narrow_symbol: Rs
+      :one: روپیهٔ پاکستان
+      :name: روپیهٔ پاکستان
+    :PLN:
       :symbol: zł
-    :PTE: 
-      :name: "اسکودوی پرتغال"
-      :one: "اسکودوی پرتغال"
-    :PYG: 
-      :name: "گوارانی پاراگوئه"
-      :narrow_symbol: ₲
-      :one: "گوارانی پاراگوئه"
-      :symbol: ₲
-    :QAR: 
-      :name: "ریال قطر"
-      :one: "ریال قطر"
-    :RHD: 
-      :name: "دلار رودزیا"
-      :one: "دلار رودزیا"
-    :RON: 
-      :name: "لئوی رومانی"
-      :narrow_symbol: lei
-      :one: "لئوی رومانی"
+      :narrow_symbol: zł
+      :one: زلوتی لهستان
+      :name: زلوتی لهستان
+    :PYG:
+      :symbol: "₲"
+      :narrow_symbol: "₲"
+      :one: گوارانی پاراگوئه
+      :name: گوارانی پاراگوئه
+    :RON:
       :symbol: lei
-    :RSD: 
-      :name: "دینار صربستان"
-      :one: "دینار صربستان"
-    :RUB: 
-      :name: "روبل روسیه"
-      :narrow_symbol: ₽
-      :one: "روبل روسیه"
-      :symbol: ₽
-    :RUR: 
-      :name: "روبل روسیه (۱۹۹۱ تا ۱۹۹۸)"
-      :one: "روبل روسیه (۱۹۹۱ تا ۱۹۹۸)"
-    :RWF: 
-      :name: "فرانک رواندا"
-      :narrow_symbol: RF
-      :one: "فرانک رواندا"
+      :narrow_symbol: lei
+      :one: لئوی رومانی
+      :name: لئوی رومانی
+    :RUB:
+      :symbol: "₽"
+      :narrow_symbol: "₽"
+      :one: روبل روسیه
+      :name: روبل روسیه
+    :RWF:
       :symbol: RF
-    :SAR: 
-      :name: "ریال سعودی"
-      :one: "ریال سعودی"
-      :symbol: ⃁
-    :SBD: 
-      :name: "دلار جزایر سلیمان"
-      :narrow_symbol: $
-      :one: "دلار جزایر سلیمان"
-      :symbol: $
-    :SCR: 
-      :name: "روپیهٔ سیشل"
-      :one: "روپیهٔ سیشل"
-    :SDD: 
-      :name: "دینار سودان (۱۹۹۲ تا ۲۰۰۷)"
-      :one: "دینار سودان (۱۹۹۲ تا ۲۰۰۷)"
-    :SDG: 
-      :name: "پوند سودان"
-      :one: "پوند سودان"
-    :SEK: 
-      :name: "کرون سوئد"
-      :narrow_symbol: kr
-      :one: "کرون سوئد"
+      :narrow_symbol: RF
+      :one: فرانک رواندا
+      :name: فرانک رواندا
+    :SAR:
+      :symbol: "⃁"
+      :one: ریال سعودی
+      :name: ریال سعودی
+    :SBD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: دلار جزایر سلیمان
+      :name: دلار جزایر سلیمان
+    :SEK:
       :symbol: kr
-    :SGD: 
-      :name: "دلار سنگاپور"
-      :narrow_symbol: $
-      :one: "دلار سنگاپور"
-      :symbol: $
-    :SHP: 
-      :name: "پوند سنت هلن"
-      :narrow_symbol: £
-      :one: "پوند سنت هلن"
-      :symbol: £
-    :SLE: 
-      :name: "لئون سیرالئون"
-      :one: "لئون سیرالئون"
-    :SLL: 
-      :name: "لئون سیرالئون - 1964-2022"
-      :one: "لئون سیرالئون - 1964-2022"
-    :SOS: 
-      :name: "شیلینگ سومالی"
-      :one: "شیلینگ سومالی"
-    :SRD: 
-      :name: "دلار سورینام"
-      :narrow_symbol: $
-      :one: "دلار سورینام"
-      :symbol: $
-    :SRG: 
-      :name: "گیلدر سورینام"
-      :one: "گیلدر سورینام"
-    :SSP: 
-      :name: "پوند سودان جنوبی"
-      :narrow_symbol: £
-      :one: "پوند سودان جنوبی"
-      :symbol: £
-    :STD: 
-      :name: "دوبرای سائوتومه و پرنسیپ (۱۹۷۷ تا ۲۰۱۷)"
-      :one: "دوبرای سائوتومه و پرنسیپ (۱۹۷۷ تا ۲۰۱۷)"
-    :STN: 
-      :name: "دوبرای سائوتومه و پرنسیپ"
-      :narrow_symbol: Db
-      :one: "دوبرای سائوتومه و پرنسیپ"
+      :narrow_symbol: kr
+      :one: کرون سوئد
+      :name: کرون سوئد
+    :SGD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: دلار سنگاپور
+      :name: دلار سنگاپور
+    :SHP:
+      :symbol: "£"
+      :narrow_symbol: "£"
+      :one: پوند سنت هلن
+      :name: پوند سنت هلن
+    :SRD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: دلار سورینام
+      :name: دلار سورینام
+    :SSP:
+      :symbol: "£"
+      :narrow_symbol: "£"
+      :one: پوند سودان جنوبی
+      :name: پوند سودان جنوبی
+    :STN:
       :symbol: Db
-    :SUR: 
-      :name: "روبل شوروی"
-      :one: "روبل شوروی"
-    :SYP: 
-      :name: "لیرهٔ سوریه"
-      :narrow_symbol: £
-      :one: "لیرهٔ سوریه"
-      :symbol: £
-    :SZL: 
-      :name: "لیلانگنی سوازیلند"
-      :one: "لیلانگنی سوازیلند"
-    :THB: 
-      :name: "بات تایلند"
-      :narrow_symbol: ฿
-      :one: "بات تایلند"
-      :symbol: ฿
-    :TJR: 
-      :name: "روبل تاجیکستان"
-      :one: "روبل تاجیکستان"
-    :TJS: 
-      :name: "سامانی تاجیکستان"
-      :one: "سامانی تاجیکستان"
-    :TMM: 
-      :name: "منات ترکمنستان (۱۹۹۳ تا ۲۰۰۹)"
-      :one: "منات ترکمنستان (۱۹۹۳ تا ۲۰۰۹)"
-    :TMT: 
-      :name: "منات ترکمنستان"
-      :one: "منات ترکمنستان"
-    :TND: 
-      :name: "دینار تونس"
-      :one: "دینار تونس"
-    :TOP: 
-      :name: "پاآنگای تونگا"
-      :narrow_symbol: T$
-      :one: "پاآنگای تونگا"
+      :narrow_symbol: Db
+      :one: دوبرای سائوتومه و پرنسیپ
+      :name: دوبرای سائوتومه و پرنسیپ
+    :SYP:
+      :symbol: "£"
+      :narrow_symbol: "£"
+      :one: لیرهٔ سوریه
+      :name: لیرهٔ سوریه
+    :THB:
+      :symbol: "฿"
+      :narrow_symbol: "฿"
+      :one: بات تایلند
+      :name: بات تایلند
+    :TOP:
       :symbol: T$
-    :TPE: 
-      :name: "اسکودوی تیمور"
-      :one: "اسکودوی تیمور"
-    :TRL: 
-      :name: "لیرهٔ ترکیه (۱۹۲۲ تا ۲۰۰۵)"
-      :one: "لیرهٔ ترکیه (۱۹۲۲ تا ۲۰۰۵)"
-    :TRY: 
-      :name: "لیرهٔ ترکیه"
-      :narrow_symbol: ₺
-      :one: "لیرهٔ ترکیه"
-      :symbol: ₺
-    :TTD: 
-      :name: "دلار ترینیداد و توباگو"
-      :narrow_symbol: $
-      :one: "دلار ترینیداد و توباگو"
-      :symbol: $
-    :TWD: 
-      :name: "دلار جدید تایوان"
-      :narrow_symbol: $
-      :one: "دلار جدید تایوان"
+      :narrow_symbol: T$
+      :one: پاآنگای تونگا
+      :name: پاآنگای تونگا
+    :TRY:
+      :symbol: "₺"
+      :narrow_symbol: "₺"
+      :one: لیرهٔ ترکیه
+      :name: لیرهٔ ترکیه
+    :TTD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: دلار ترینیداد و توباگو
+      :name: دلار ترینیداد و توباگو
+    :TWD:
       :symbol: NT$
-    :TZS: 
-      :name: "شیلینگ تانزانیا"
-      :one: "شیلینگ تانزانیا"
-    :UAH: 
-      :name: "هریونیای اوکراین"
-      :narrow_symbol: ₴
-      :one: "هریونیای اوکراین"
-      :symbol: ₴
-    :UGS: 
-      :name: "شیلینگ اوگاندا (۱۹۶۶ تا ۱۹۸۷)"
-      :one: "شیلینگ اوگاندا (۱۹۶۶ تا ۱۹۸۷)"
-    :UGX: 
-      :name: "شیلینگ اوگاندا"
-      :one: "شیلینگ اوگاندا"
-    :USD: 
-      :name: "دلار آمریکا"
-      :narrow_symbol: $
-      :one: "دلار آمریکا"
-      :symbol: $
-    :USN: 
-      :name: "دلار امریکا (روز بعد)"
-      :one: "دلار امریکا (روز بعد)"
-    :USS: 
-      :name: "دلار امریکا (همان روز)"
-      :one: "دلار امریکا (همان روز)"
-    :UYP: 
-      :name: "پزوی اوروگوئه (۱۹۷۵ تا ۱۹۹۳)"
-      :one: "پزوی اوروگوئه (۱۹۷۵ تا ۱۹۹۳)"
-    :UYU: 
-      :name: "پزوی اوروگوئه"
-      :narrow_symbol: $
-      :one: "پزوی اوروگوئه"
-      :symbol: $
-    :UZS: 
-      :name: "سوم ازبکستان"
-      :one: "سوم ازبکستان"
-    :VEB: 
-      :name: "بولیوار ونزوئلا (۱۸۷۱ تا ۲۰۰۸)"
-      :one: "بولیوار ونزوئلا (۱۸۷۱ تا ۲۰۰۸)"
-    :VEF: 
-      :name: "بولیوار ونزوئلا (۲۰۰۸ تا ۲۰۱۸)"
-      :narrow_symbol: Bs
-      :one: "بولیوار ونزوئلا (۲۰۰۸ تا ۲۰۱۸)"
+      :narrow_symbol: "$"
+      :one: دلار جدید تایوان
+      :name: دلار جدید تایوان
+    :UAH:
+      :symbol: "₴"
+      :narrow_symbol: "₴"
+      :one: هریونیای اوکراین
+      :name: هریونیای اوکراین
+    :USD:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: دلار آمریکا
+      :name: دلار آمریکا
+    :UYU:
+      :symbol: "$"
+      :narrow_symbol: "$"
+      :one: پزوی اوروگوئه
+      :name: پزوی اوروگوئه
+    :VEF:
       :symbol: Bs
-    :VES: 
-      :name: "بولیوار ونزوئلا"
-      :one: "بولیوار ونزوئلا"
-    :VND: 
-      :name: "دانگ ویتنام"
-      :narrow_symbol: ₫
-      :one: "دانگ ویتنام"
-      :symbol: ₫
-    :VUV: 
-      :name: "واتوی وانوواتو"
-      :one: "واتوی وانوواتو"
-    :WST: 
-      :name: "تالای ساموا"
-      :one: "تالای ساموا"
-    :XAF: 
-      :name: "فرانک CFA مرکز افریقا"
-      :one: "فرانک CFA مرکز افریقا"
+      :narrow_symbol: Bs
+      :one: بولیوار ونزوئلا (۲۰۰۸ تا ۲۰۱۸)
+      :name: بولیوار ونزوئلا (۲۰۰۸ تا ۲۰۱۸)
+    :VND:
+      :symbol: "₫"
+      :narrow_symbol: "₫"
+      :one: دانگ ویتنام
+      :name: دانگ ویتنام
+    :XAF:
       :symbol: FCFA
-    :XAG: 
-      :name: نقره
-      :one: "اونس تروا نقره"
-      :other: "اونس تروا نقره"
-    :XAU: 
-      :name: طلا
-      :one: "اونس تروا طلا"
-      :other: "اونس تروا طلا"
-    :XCD: 
-      :name: "دلار شرق کارائیب"
-      :narrow_symbol: $
-      :one: "دلار شرق کارائیب"
-      :symbol: $EC
-    :XCG: 
-      :name: "گیلدر کارائیب"
-      :one: "گیلدر کارائیب"
-      :other: "گیلدر کارائیب"
+      :one: فرانک CFA مرکز افریقا
+      :name: فرانک CFA مرکز افریقا
+    :XCD:
+      :symbol: "$EC"
+      :narrow_symbol: "$"
+      :one: دلار شرق کارائیب
+      :name: دلار شرق کارائیب
+    :XCG:
       :symbol: Cg.
-    :XFO: 
-      :name: "فرانک طلای فرانسه"
-      :one: "فرانک طلای فرانسه"
-    :XOF: 
-      :name: "فرانک CFA غرب افریقا"
-      :one: "فرانک CFA غرب افریقا"
+      :one: گیلدر کارائیب
+      :name: گیلدر کارائیب
+      :other: گیلدر کارائیب
+    :XOF:
       :symbol: فرانک CFA
-    :XPD: 
-      :name: پالادیم
-      :one: پالادیم
-    :XPF: 
-      :name: "فرانک اقیانوسیه"
-      :one: "فرانک اقیانوسیه"
+      :one: فرانک CFA غرب افریقا
+      :name: فرانک CFA غرب افریقا
+    :XPF:
       :symbol: CFPF
-    :XPT: 
-      :name: پلاتین
-      :one: "اونس تروا پلاتین"
-      :other: "اونس تروا پلاتین"
-    :XTS: 
-      :name: "ارز آزمایشی"
-      :one: "واحد ارز آزمایشی"
-      :other: "واحد ارز آزمایشی"
-    :XXX: 
-      :name: "ارز نامشخص"
+      :one: فرانک اقیانوسیه
+      :name: فرانک اقیانوسیه
+    :XXX:
+      :symbol: "¤"
       :one: "(ارز نامشخص)"
+      :name: ارز نامشخص
       :other: "(ارز نامشخص)"
-      :symbol: ¤
-    :YDD: 
-      :name: "دینار یمن"
-      :one: "دینار یمن"
-    :YER: 
-      :name: "ریال یمن"
-      :one: "ریال یمن"
-    :ZAR: 
-      :name: "راند افریقای جنوبی"
-      :narrow_symbol: R
-      :one: "راند افریقای جنوبی"
+    :ZAR:
       :symbol: R
-    :ZMK: 
-      :name: "کواچای زامبیا (۱۹۶۸ تا ۲۰۱۲)"
-      :one: "کواچای زامبیا (۱۹۶۸ تا ۲۰۱۲)"
-    :ZMW: 
-      :name: "کواچای زامبیا"
-      :narrow_symbol: ZK
-      :one: "کواچای زامبیا"
+      :narrow_symbol: R
+      :one: راند افریقای جنوبی
+      :name: راند افریقای جنوبی
+    :ZMW:
       :symbol: ZK
-    :ZWD: 
-      :name: "دلار زیمبابوه (۱۹۸۰ تا ۲۰۰۸)"
-      :one: "دلار زیمبابوه (۱۹۸۰ تا ۲۰۰۸)"
-    :ZWG: 
-      :name: "طلای زیمبابوه"
-      :one: "طلای زیمبابوه"
-      :other: "طلای زیمبابوه"
-    :ZWL: 
-      :name: "دلار زیمبابوه (۲۰۰۹)"
-      :one: "دلار زیمبابوه (۲۰۰۹)"
-    :ZWR: 
-      :name: "دلار زیمبابوه (۲۰۰۸)"
-      :one: "دلار زیمبابوه (۲۰۰۸)"
+      :narrow_symbol: ZK
+      :one: کواچای زامبیا
+      :name: کواچای زامبیا
+    :ADP:
+      :one: پزتای آندورا
+      :name: پزتای آندورا
+    :AED:
+      :one: درهم امارات متحدهٔ عربی
+      :name: درهم امارات متحدهٔ عربی
+    :AFA:
+      :one: افغانی افغانستان (۱۹۲۷ تا ۲۰۰۲)
+      :name: افغانی افغانستان (۱۹۲۷ تا ۲۰۰۲)
+    :ALK:
+      :one: لک آلبانی (۱۹۴۶ تا ۱۹۶۵)
+      :name: لک آلبانی (۱۹۴۶ تا ۱۹۶۵)
+    :ALL:
+      :one: لک آلبانی
+      :name: لک آلبانی
+    :ANG:
+      :one: گیلدر آنتیل هلند
+      :name: گیلدر آنتیل هلند
+    :ARM:
+      :one: پزوی آرژانتین (۱۸۸۱ تا ۱۹۷۰)
+      :name: پزوی آرژانتین (۱۸۸۱ تا ۱۹۷۰)
+    :ARP:
+      :one: پزوی آرژانتین (۱۹۸۳ تا ۱۹۸۵)
+      :name: پزوی آرژانتین (۱۹۸۳ تا ۱۹۸۵)‏
+      :other: پزوی آرژانتین (۱۹۸۳ تا ۱۹۸۵)
+    :ATS:
+      :one: شیلینگ اتریش
+      :name: شیلینگ اتریش
+    :AWG:
+      :one: فلورین آروبا
+      :name: فلورین آروبا
+    :AZM:
+      :one: منات جمهوری آذربایجان (۱۹۹۳ تا ۲۰۰۶)
+      :name: منات جمهوری آذربایجان (۱۹۹۳ تا ۲۰۰۶)
+    :BAD:
+      :one: دینار بوسنی و هرزگوین (۱۹۹۲ تا ۱۹۹۴)
+      :name: دینار بوسنی و هرزگوین (۱۹۹۲ تا ۱۹۹۴)
+    :BEF:
+      :one: فرانک بلژیک
+      :name: فرانک بلژیک
+    :BEL:
+      :one: فرانک بلژیک (مالی)
+      :name: فرانک بلژیک (مالی)
+    :BGN:
+      :one: لو بلغارستان
+      :name: لو بلغارستان
+    :BHD:
+      :one: دینار بحرین
+      :name: دینار بحرین
+    :BIF:
+      :one: فرانک بوروندی
+      :name: فرانک بوروندی
+    :BOP:
+      :one: پزوی بولیوی
+      :name: پزوی بولیوی
+    :BTN:
+      :one: انگولتروم بوتان
+      :name: انگولتروم بوتان
+    :BYB:
+      :one: روبل جدید بلاروس (۱۹۹۴ تا ۱۹۹۹)
+      :name: روبل جدید بلاروس (۱۹۹۴ تا ۱۹۹۹)
+    :BYN:
+      :one: روبل بلاروس
+      :name: روبل بلاروس
+      :symbol: Br
+      :narrow_symbol: Br
+    :BYR:
+      :one: روبل بلاروسی (۲۰۱۶–۲۰۰۰)
+      :name: روبل بلاروسی (۲۰۱۶–۲۰۰۰)
+    :CDF:
+      :one: فرانک کنگو
+      :name: فرانک کنگو
+    :CHF:
+      :one: فرانک سوئیس
+      :name: فرانک سوئیس
+    :CNH:
+      :one: یوآن چین (برون‌مرزی)
+      :name: یوآن چین (برون‌مرزی)
+    :CSD:
+      :one: دینار صربستان (۲۰۰۲ تا ۲۰۰۶)
+      :name: دینار صربستان (۲۰۰۲ تا ۲۰۰۶)
+    :CVE:
+      :one: اسکودوی کیپ‌ورد
+      :name: اسکودوی کیپ‌ورد
+    :CYP:
+      :one: پوند قبرس
+      :name: پوند قبرس
+    :DDM:
+      :one: مارک آلمان شرقی
+      :name: مارک آلمان شرقی
+    :DEM:
+      :one: مارک آلمان
+      :name: مارک آلمان
+    :DJF:
+      :one: فرانک جیبوتی
+      :name: فرانک جیبوتی
+    :DZD:
+      :one: دینار الجزایر
+      :name: دینار الجزایر
+    :EEK:
+      :one: کرون استونی
+      :name: کرون استونی
+    :ERN:
+      :one: ناکفای اریتره
+      :name: ناکفای اریتره
+    :ETB:
+      :one: بیر اتیوپی
+      :name: بیر اتیوپی
+    :FRF:
+      :one: فرانک فرانسه
+      :name: فرانک فرانسه
+    :GMD:
+      :one: دالاسی گامبیا
+      :name: دالاسی گامبیا
+    :GRD:
+      :one: دراخمای یونان
+      :name: دراخمای یونان
+    :GWP:
+      :one: پزوی گینهٔ بیسائو
+      :name: پزوی گینهٔ بیسائو
+    :HRD:
+      :one: دینار کرواسی
+      :name: دینار کرواسی
+    :HTG:
+      :one: گورد هائیتی
+      :name: گورد هائیتی
+    :IEP:
+      :one: پوند ایرلند
+      :name: پوند ایرلند
+    :ILP:
+      :one: پوند اسرائیل
+      :name: پوند اسرائیل
+    :ILR:
+      :one: شقل اسرائیل (۱۹۸۰ تا ۱۹۸۵)
+      :name: شقل اسرائیل (۱۹۸۰ تا ۱۹۸۵)
+    :IQD:
+      :one: دینار عراق
+      :name: دینار عراق
+    :IRR:
+      :one: ریال ایران
+      :name: ریال ایران
+      :symbol: ریال
+    :ISJ:
+      :one: کرونای ایسلند (۱۹۱۸ تا ۱۹۸۱)
+      :name: کرونای ایسلند (۱۹۱۸ تا ۱۹۸۱)
+    :ITL:
+      :one: لیرهٔ ایتالیا
+      :name: لیرهٔ ایتالیا
+    :JOD:
+      :one: دینار اردن
+      :name: دینار اردن
+    :KES:
+      :one: شیلینگ کنیا
+      :name: شیلینگ کنیا
+    :KRO:
+      :one: وون کرهٔ جنوبی (۱۹۴۵ تا ۱۹۵۳)
+      :name: وون کرهٔ جنوبی (۱۹۴۵ تا ۱۹۵۳)
+    :KWD:
+      :one: دینار کویت
+      :name: دینار کویت
+    :LSL:
+      :one: لوتی لسوتو
+      :name: لوتی لسوتو
+    :LTT:
+      :one: تالوناس لیتوانی
+      :name: تالوناس لیتوانی
+    :LUF:
+      :one: فرانک لوکزامبورگ
+      :name: فرانک لوکزامبورگ
+    :LUL:
+      :one: فرانک مالی لوگزامبورگ
+      :name: فرانک مالی لوگزامبورگ
+    :LVR:
+      :one: روبل لتونی
+      :name: روبل لتونی
+    :LYD:
+      :one: دینار لیبی
+      :name: دینار لیبی
+    :MAD:
+      :one: درهم مراکش
+      :name: درهم مراکش
+    :MAF:
+      :one: فرانک مراکش
+      :name: فرانک مراکش
+    :MCF:
+      :one: فرانک موناکو
+      :name: فرانک موناکو
+    :MDL:
+      :one: لئوی مولداوی
+      :name: لئوی مولداوی
+    :MGF:
+      :one: فرانک ماداگاسکار
+      :name: فرانک ماداگاسکار
+    :MKD:
+      :one: دینار مقدونیه
+      :name: دینار مقدونیه
+    :MKN:
+      :one: دینار مقدونیه (۱۹۹۲ تا ۱۹۹۳)
+      :name: دینار مقدونیه (۱۹۹۲ تا ۱۹۹۳)
+    :MLF:
+      :one: فرانک مالی
+      :name: فرانک مالی
+    :MOP:
+      :one: پاتاکای ماکائو
+      :name: پاتاکای ماکائو
+    :MRO:
+      :one: اوگوئیای موریتانی (۱۹۷۳ تا ۲۰۱۷)
+      :name: اوگوئیای موریتانی (۱۹۷۳ تا ۲۰۱۷)
+    :MRU:
+      :one: اوگوئیای موریتانی
+      :name: اوگوئیای موریتانی
+    :MTL:
+      :one: لیرهٔ مالت
+      :name: لیرهٔ مالت
+    :MTP:
+      :one: پوند مالت
+      :name: پوند مالت
+    :MVP:
+      :one: روپیهٔ مالدیو (۱۹۴۷ تا ۱۹۸۱)
+      :name: روپیهٔ مالدیو (۱۹۴۷ تا ۱۹۸۱)
+    :MVR:
+      :one: روپیهٔ مالدیو
+      :name: روپیهٔ مالدیو
+    :MWK:
+      :one: کواچای مالاوی
+      :name: کواچای مالاوی
+    :MXP:
+      :one: پزوی نقرهٔ مکزیک (۱۸۶۱ تا ۱۹۹۲)
+      :name: پزوی نقرهٔ مکزیک (۱۸۶۱ تا ۱۹۹۲)
+    :MZE:
+      :one: اسکودوی موزامبیک
+      :name: اسکودوی موزامبیک
+    :MZN:
+      :one: متیکال موزامبیک
+      :name: متیکال موزامبیک
+    :NLG:
+      :one: گیلدر هلند
+      :name: گیلدر هلند
+    :OMR:
+      :one: ریال عمان
+      :name: ریال عمان
+    :PAB:
+      :one: بالبوای پاناما
+      :name: بالبوای پاناما
+    :PEI:
+      :one: اینتی پرو
+      :name: اینتی پرو
+    :PEN:
+      :one: سول پرو
+      :name: سول پرو
+    :PES:
+      :one: سول پرو (۱۸۶۳ تا ۱۹۶۵)
+      :name: سول پرو (۱۸۶۳ تا ۱۹۶۵)
+    :PGK:
+      :one: کینای پاپوا گینهٔ نو
+      :name: کینای پاپوا گینهٔ نو
+    :PTE:
+      :one: اسکودوی پرتغال
+      :name: اسکودوی پرتغال
+    :QAR:
+      :one: ریال قطر
+      :name: ریال قطر
+    :RHD:
+      :one: دلار رودزیا
+      :name: دلار رودزیا
+    :RSD:
+      :one: دینار صربستان
+      :name: دینار صربستان
+    :RUR:
+      :one: روبل روسیه (۱۹۹۱ تا ۱۹۹۸)
+      :name: روبل روسیه (۱۹۹۱ تا ۱۹۹۸)
+    :SCR:
+      :one: روپیهٔ سیشل
+      :name: روپیهٔ سیشل
+    :SDD:
+      :one: دینار سودان (۱۹۹۲ تا ۲۰۰۷)
+      :name: دینار سودان (۱۹۹۲ تا ۲۰۰۷)
+    :SDG:
+      :one: پوند سودان
+      :name: پوند سودان
+    :SLE:
+      :one: لئون سیرالئون
+      :name: لئون سیرالئون
+    :SLL:
+      :one: لئون سیرالئون - 1964-2022
+      :name: لئون سیرالئون - 1964-2022
+    :SOS:
+      :one: شیلینگ سومالی
+      :name: شیلینگ سومالی
+    :SRG:
+      :one: گیلدر سورینام
+      :name: گیلدر سورینام
+    :STD:
+      :one: دوبرای سائوتومه و پرنسیپ (۱۹۷۷ تا ۲۰۱۷)
+      :name: دوبرای سائوتومه و پرنسیپ (۱۹۷۷ تا ۲۰۱۷)
+    :SUR:
+      :one: روبل شوروی
+      :name: روبل شوروی
+    :SZL:
+      :one: لیلانگنی سوازیلند
+      :name: لیلانگنی سوازیلند
+    :TJR:
+      :one: روبل تاجیکستان
+      :name: روبل تاجیکستان
+    :TJS:
+      :one: سامانی تاجیکستان
+      :name: سامانی تاجیکستان
+    :TMM:
+      :one: منات ترکمنستان (۱۹۹۳ تا ۲۰۰۹)
+      :name: منات ترکمنستان (۱۹۹۳ تا ۲۰۰۹)
+    :TMT:
+      :one: منات ترکمنستان
+      :name: منات ترکمنستان
+    :TND:
+      :one: دینار تونس
+      :name: دینار تونس
+    :TPE:
+      :one: اسکودوی تیمور
+      :name: اسکودوی تیمور
+    :TRL:
+      :one: لیرهٔ ترکیه (۱۹۲۲ تا ۲۰۰۵)
+      :name: لیرهٔ ترکیه (۱۹۲۲ تا ۲۰۰۵)
+    :TZS:
+      :one: شیلینگ تانزانیا
+      :name: شیلینگ تانزانیا
+    :UGS:
+      :one: شیلینگ اوگاندا (۱۹۶۶ تا ۱۹۸۷)
+      :name: شیلینگ اوگاندا (۱۹۶۶ تا ۱۹۸۷)
+    :UGX:
+      :one: شیلینگ اوگاندا
+      :name: شیلینگ اوگاندا
+    :USN:
+      :one: دلار امریکا (روز بعد)
+      :name: دلار امریکا (روز بعد)
+    :USS:
+      :one: دلار امریکا (همان روز)
+      :name: دلار امریکا (همان روز)
+    :UYP:
+      :one: پزوی اوروگوئه (۱۹۷۵ تا ۱۹۹۳)
+      :name: پزوی اوروگوئه (۱۹۷۵ تا ۱۹۹۳)
+    :UZS:
+      :one: سوم ازبکستان
+      :name: سوم ازبکستان
+    :VEB:
+      :one: بولیوار ونزوئلا (۱۸۷۱ تا ۲۰۰۸)
+      :name: بولیوار ونزوئلا (۱۸۷۱ تا ۲۰۰۸)
+    :VES:
+      :one: بولیوار ونزوئلا
+      :name: بولیوار ونزوئلا
+    :VUV:
+      :one: واتوی وانوواتو
+      :name: واتوی وانوواتو
+    :WST:
+      :one: تالای ساموا
+      :name: تالای ساموا
+    :XAG:
+      :one: اونس تروا نقره
+      :name: نقره
+      :other: اونس تروا نقره
+    :XAU:
+      :one: اونس تروا طلا
+      :name: طلا
+      :other: اونس تروا طلا
+    :XFO:
+      :one: فرانک طلای فرانسه
+      :name: فرانک طلای فرانسه
+    :XPD:
+      :one: پالادیم
+      :name: پالادیم
+    :XPT:
+      :one: اونس تروا پلاتین
+      :name: پلاتین
+      :other: اونس تروا پلاتین
+    :XTS:
+      :one: واحد ارز آزمایشی
+      :name: ارز آزمایشی
+      :other: واحد ارز آزمایشی
+    :YDD:
+      :one: دینار یمن
+      :name: دینار یمن
+    :YER:
+      :one: ریال یمن
+      :name: ریال یمن
+    :ZMK:
+      :one: کواچای زامبیا (۱۹۶۸ تا ۲۰۱۲)
+      :name: کواچای زامبیا (۱۹۶۸ تا ۲۰۱۲)
+    :ZWD:
+      :one: دلار زیمبابوه (۱۹۸۰ تا ۲۰۰۸)
+      :name: دلار زیمبابوه (۱۹۸۰ تا ۲۰۰۸)
+    :ZWG:
+      :one: طلای زیمبابوه
+      :name: طلای زیمبابوه
+      :other: طلای زیمبابوه
+    :ZWL:
+      :one: دلار زیمبابوه (۲۰۰۹)
+      :name: دلار زیمبابوه (۲۰۰۹)
+    :ZWR:
+      :one: دلار زیمبابوه (۲۰۰۸)
+      :name: دلار زیمبابوه (۲۰۰۸)

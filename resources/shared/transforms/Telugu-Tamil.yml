@@ -1,16 +1,15 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - Telugu-Tamil
-      - und-Taml-t-und-telu
-    :direction: forward
-    :rules: 
-      - "::[ఁ-ఃఅ-ఌఎ-ఐఒ-నప-ళవ-హా-ౄె-ైొ-్ౕ-ౖౠ-ౡ౦-౯] ;"
-      - "::NFD ;"
-      - "::Telugu-InterIndic ;"
-      - "::InterIndic-Tamil ;"
-      - "::NFC ;"
-    :source: Telu
-    :target: Taml
-    :variant: ~
+---
+:transforms:
+- :source: Telu
+  :target: Taml
+  :aliases:
+  - Telugu-Tamil
+  - und-Taml-t-und-telu
+  :variant:
+  :direction: forward
+  :rules:
+  - "::[ఁ-ఃఅ-ఌఎ-ఐఒ-నప-ళవ-హా-ౄె-ైొ-్ౕ-ౖౠ-ౡ౦-౯] ;"
+  - "::NFD ;"
+  - "::Telugu-InterIndic ;"
+  - "::InterIndic-Tamil ;"
+  - "::NFC ;"

@@ -1,35 +1,35 @@
---- 
-:transforms: 
-  - 
-    :aliases: ~
-    :direction: both
-    :rules: 
-      - ":: [[、。々《-』〜・㆒-㆟㈠-㉇㊀-㊰㋀-㋋ ㍘-㍰㍻-㍿㏠-㏾🈐-🈒🈔-🈺🉀-🉈🉐🉑][:Ideographic:][:sc=Han:]] nfkc ;"
-      - ":: fullwidth-halfwidth ;"
-      - "｡ > '.' ;"
-      - "。> '.' ;"
-      - "、> ',' ;"
-      - "､> ',' ;"
-      - "《> '«' ;"
-      - "》> '»' ;"
-      - "〈 > '‹' ;"
-      - "〉> '›' ;"
-      - "「> '‘' ;"
-      - "」> '’' ;"
-      - "｢> '‘' ;"
-      - "｣> '’' ;"
-      - "『> '“' ;"
-      - "』> '”' ;"
-      - "・> '‧' ;"
-      - "･ > '‧' ;"
-      - "々> '⓶' ;"
-      - "〜> '~' ;"
-      - "$terminalPunct = [\\.\\,\\:\\;\\?\\!．，：？！｡、；[:Pe:][:Pf:]] ;"
-      - "$initialPunct = [[:Ps:][:Pi:]] ;"
-      - "[[:Ideographic:] $terminalPunct] {} [:Letter:] > ' ' ;"
-      - "[:Letter:] [:Mark:]* {} [[:Ideographic:] $initialPunct] > ' ' ;"
-      - "< [:Ideographic:] { ' ' } [:Letter:] ;"
-      - "< [:Letter:] [:Mark:]* { ' ' } [:Ideographic:] ;"
-    :source: Han
-    :target: Spacedhan
-    :variant: ~
+---
+:transforms:
+- :source: Han
+  :target: Spacedhan
+  :aliases:
+  :variant:
+  :direction: both
+  :rules:
+  - ":: [[、。々《-』〜・㆒-㆟㈠-㉇㊀-㊰㋀-㋋ ㍘-㍰㍻-㍿㏠-㏾\U0001F210-\U0001F212\U0001F214-\U0001F23A\U0001F240-\U0001F248\U0001F250\U0001F251][:Ideographic:][:sc=Han:]]
+    nfkc ;"
+  - ":: fullwidth-halfwidth ;"
+  - "｡ > '.' ;"
+  - "。> '.' ;"
+  - "、> ',' ;"
+  - "､> ',' ;"
+  - "《> '«' ;"
+  - "》> '»' ;"
+  - "〈 > '‹' ;"
+  - "〉> '›' ;"
+  - "「> '‘' ;"
+  - "」> '’' ;"
+  - "｢> '‘' ;"
+  - "｣> '’' ;"
+  - "『> '“' ;"
+  - "』> '”' ;"
+  - "・> '‧' ;"
+  - "･ > '‧' ;"
+  - 々> '⓶' ;
+  - "〜> '~' ;"
+  - "$terminalPunct = [\\.\\,\\:\\;\\?\\!．，：？！｡、；[:Pe:][:Pf:]] ;"
+  - "$initialPunct = [[:Ps:][:Pi:]] ;"
+  - "[[:Ideographic:] $terminalPunct] {} [:Letter:] > ' ' ;"
+  - "[:Letter:] [:Mark:]* {} [[:Ideographic:] $initialPunct] > ' ' ;"
+  - "< [:Ideographic:] { ' ' } [:Letter:] ;"
+  - "< [:Letter:] [:Mark:]* { ' ' } [:Ideographic:] ;"

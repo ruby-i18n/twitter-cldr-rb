@@ -612,7 +612,7 @@ postal_code.regexp  # /(\d{5})(?:[ \-](\d{4}))?/
 Get a sample of valid postal codes with the `#sample` method:
 
 ```ruby
-postal_code.sample(5)  # ["43700", "78568-9698", "86083-3133", "41989-8002", "70252"]
+postal_code.sample(5)  # ["29056", "04428-0326", "72227", "13767-9638", "21214-7288"]
 ```
 
 ### Language Codes
@@ -1015,26 +1015,6 @@ bidi.to_s
 ```
 
 **Disclaimer**: Google Translate tells me the Arabic in the example above means "fancy", but my confidence is not very high, especially since all the letters are unattached. Apologies to any native speakers :)
-
-### Unicode YAML Support
-
-The Psych gem that is the default YAML engine in Ruby 1.9 doesn't handle Unicode characters perfectly.  To mitigate this problem, TwitterCLDR contains an adaptation of the [ya2yaml](https://github.com/afunai/ya2yaml) gem by Akira Funai.  Our changes specifically add better dumping of Ruby symbols.  If you can get Mr. Funai's attention, please gently remind him to merge @camertron's pull request so we can use his gem and not have to maintain a separate version :)  Fortunately, YAML parsing can still be done with the usual `YAML.load` or `YAML.load_file`.
-
-You can make use of TwitterCLDR's YAML dumper by calling `localize` and then `to_yaml` on an `Array`, `Hash`, or `String`:
-
-```ruby
-{ :hello => "world" }.localize.to_yaml 
-["hello", "world"].localize.to_yaml 
-"hello, world".localize.to_yaml 
-```
-
-Behind the scenes, these convenience methods are using the `TwitterCldr::Shared::YAML` class.  You can do the same thing if you're feeling adventurous:
-
-```ruby
-TwitterCldr::Shared::YAML.dump({ :hello => "world" }) 
-TwitterCldr::Shared::YAML.dump(["hello", "world"]) 
-TwitterCldr::Shared::YAML.dump("hello, world") 
-```
 
 ## Adding New Locales
 

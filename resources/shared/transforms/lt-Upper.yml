@@ -1,14 +1,13 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - lt-t-d0-upper
-    :direction: forward
-    :rules: 
-      - "::NFD() ;"
-      - "[:Soft_Dotted:] [^[:ccc=Not_Reordered:][:ccc=Above:]]* { \\u0307 > ;"
-      - "::Any-Upper() ;"
-      - "::NFC() ;"
-    :source: lt
-    :target: Upper
-    :variant: ~
+---
+:transforms:
+- :source: lt
+  :target: Upper
+  :aliases:
+  - lt-t-d0-upper
+  :variant:
+  :direction: forward
+  :rules:
+  - "::NFD() ;"
+  - "[:Soft_Dotted:] [^[:ccc=Not_Reordered:][:ccc=Above:]]* { \\u0307 > ;"
+  - "::Any-Upper() ;"
+  - "::NFC() ;"

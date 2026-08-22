@@ -1,12 +1,11 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - chr-t-sat
-    :direction: forward
-    :rules: 
-      - "::sat_Olck-sat_FONIPA ;"
-      - "::und_FONIPA-chr ;"
-    :source: sat
-    :target: chr
-    :variant: ~
+---
+:transforms:
+- :source: sat
+  :target: chr
+  :aliases:
+  - chr-t-sat
+  :variant:
+  :direction: forward
+  :rules:
+  - "::sat_Olck-sat_FONIPA ;"
+  - "::und_FONIPA-chr ;"

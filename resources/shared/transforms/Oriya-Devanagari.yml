@@ -1,16 +1,15 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - Oriya-Devanagari
-      - und-Deva-t-und-orya
-    :direction: forward
-    :rules: 
-      - "::[ଁ-ଃଅ-ଌଏ-ଐଓ-ନପ-ରଲ-ଳଵ-ହ଼-ୃେ-ୈୋ-୍ୖ-ୗଡ଼-ଢ଼ୟ-ୡ୦-ୱ] ;"
-      - "::NFD ;"
-      - "::Oriya-InterIndic ;"
-      - "::InterIndic-Devanagari ;"
-      - "::NFC ;"
-    :source: Orya
-    :target: Deva
-    :variant: ~
+---
+:transforms:
+- :source: Orya
+  :target: Deva
+  :aliases:
+  - Oriya-Devanagari
+  - und-Deva-t-und-orya
+  :variant:
+  :direction: forward
+  :rules:
+  - "::[ଁ-ଃଅ-ଌଏ-ଐଓ-ନପ-ରଲ-ଳଵ-ହ଼-ୃେ-ୈୋ-୍ୖ-ୗଡ଼-ଢ଼ୟ-ୡ୦-ୱ] ;"
+  - "::NFD ;"
+  - "::Oriya-InterIndic ;"
+  - "::InterIndic-Devanagari ;"
+  - "::NFC ;"

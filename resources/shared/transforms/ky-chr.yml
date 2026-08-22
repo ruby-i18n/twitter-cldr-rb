@@ -1,12 +1,11 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - chr-t-ky
-    :direction: forward
-    :rules: 
-      - "::ky-ky_FONIPA ;"
-      - "::und_FONIPA-chr ;"
-    :source: ky
-    :target: chr
-    :variant: ~
+---
+:transforms:
+- :source: ky
+  :target: chr
+  :aliases:
+  - chr-t-ky
+  :variant:
+  :direction: forward
+  :rules:
+  - "::ky-ky_FONIPA ;"
+  - "::und_FONIPA-chr ;"

@@ -1,390 +1,389 @@
---- 
-:zh: 
-  :calendars: 
-    :gregorian: 
-      :additional_formats: 
-        :Bh: Bh时
-        :Bhm: "Bh:mm"
-        :Bhms: "Bh:mm:ss"
-        :E: ccc
-        :EBh: EBh时
-        :EBhm: "EBh:mm"
-        :EBhms: "EBh:mm:ss"
-        :EHm: "EHH:mm"
-        :EHms: "EHH:mm:ss"
-        :Ed: d日E
-        :Eh: Eah时
-        :Ehm: "Eah:mm"
-        :Ehms: "Eah:mm:ss"
-        :Gy: Gy年
-        :GyM: Gy年M月
-        :GyMEd: Gy-MM-ddE
-        :GyMMM: Gy年M月
-        :GyMMMEd: Gy年M月d日E
-        :GyMMMd: Gy年M月d日
-        :GyMd: Gy-MM-dd
-        :H: H时
-        :Hm: "HH:mm"
-        :Hms: "HH:mm:ss"
-        :Hmsv: "vHH:mm:ss"
-        :Hmv: "v HH:mm"
-        :Hv: vH时
-        :M: M月
-        :MEd: M/dE
-        :MMM: LLL
-        :MMMEd: M月d日E
-        :MMMMW: MMMM第W周
-        :MMMMd: M月d日
-        :MMMd: M月d日
-        :MMdd: MM/dd
-        :Md: M/d
-        :d: d日
-        :h: ah时
-        :hm: "ah:mm"
-        :hms: "ah:mm:ss"
-        :hmsv: "vah:mm:ss"
-        :hmv: "vah:mm"
-        :hv: vah时
-        :ms: "mm:ss"
-        ? !ruby/symbol "y"
-        : y年
-        :yM: y/M
-        :yMEEEEd: y年M月d日EEEE
-        :yMEd: y/M/dE
-        :yMM: y年M月
-        :yMMM: y年M月
-        :yMMMEd: y年M月d日E
-        :yMMMM: y年M月
-        :yMMMd: y年M月d日
-        :yMd: y/M/d
-        :yQQQ: y年第Q季度
-        :yQQQQ: y年第Q季度
-        :yw: Y年第w周
-      :days: 
-        :format: 
-          :abbreviated: 
-            :fri: 周五
-            :mon: 周一
-            :sat: 周六
+---
+:zh:
+  :calendars:
+    :gregorian:
+      :days:
+        :format:
+          :abbreviated:
             :sun: 周日
-            :thu: 周四
+            :mon: 周一
             :tue: 周二
             :wed: 周三
-          :narrow: 
-            :fri: 五
-            :mon: 一
-            :sat: 六
+            :thu: 周四
+            :fri: 周五
+            :sat: 周六
+          :narrow:
             :sun: 日
-            :thu: 四
+            :mon: 一
             :tue: 二
             :wed: 三
-          :short: 
-            :fri: 周五
-            :mon: 周一
-            :sat: 周六
+            :thu: 四
+            :fri: 五
+            :sat: 六
+          :short:
             :sun: 周日
-            :thu: 周四
+            :mon: 周一
             :tue: 周二
             :wed: 周三
-          :wide: 
-            :fri: 星期五
-            :mon: 星期一
-            :sat: 星期六
+            :thu: 周四
+            :fri: 周五
+            :sat: 周六
+          :wide:
             :sun: 星期日
-            :thu: 星期四
+            :mon: 星期一
             :tue: 星期二
             :wed: 星期三
-        :stand-alone: 
-          :abbreviated: 
-            :fri: 周五
-            :mon: 周一
-            :sat: 周六
+            :thu: 星期四
+            :fri: 星期五
+            :sat: 星期六
+        :stand-alone:
+          :abbreviated:
             :sun: 周日
-            :thu: 周四
+            :mon: 周一
             :tue: 周二
             :wed: 周三
-          :narrow: 
-            :fri: 五
-            :mon: 一
-            :sat: 六
+            :thu: 周四
+            :fri: 周五
+            :sat: 周六
+          :narrow:
             :sun: 日
-            :thu: 四
+            :mon: 一
             :tue: 二
             :wed: 三
-          :short: 
-            :fri: 周五
-            :mon: 周一
-            :sat: 周六
+            :thu: 四
+            :fri: 五
+            :sat: 六
+          :short:
             :sun: 周日
-            :thu: 周四
+            :mon: 周一
             :tue: 周二
             :wed: 周三
-          :wide: 
-            :fri: 星期五
-            :mon: 星期一
-            :sat: 星期六
+            :thu: 周四
+            :fri: 周五
+            :sat: 周六
+          :wide:
             :sun: 星期日
-            :thu: 星期四
+            :mon: 星期一
             :tue: 星期二
             :wed: 星期三
-      :eras: 
-        :abbr: 
+            :thu: 星期四
+            :fri: 星期五
+            :sat: 星期六
+      :months:
+        :format:
+          :abbreviated:
+            1: 1月
+            2: 2月
+            3: 3月
+            4: 4月
+            5: 5月
+            6: 6月
+            7: 7月
+            8: 8月
+            9: 9月
+            10: 10月
+            11: 11月
+            12: 12月
+          :narrow:
+            1: '1'
+            2: '2'
+            3: '3'
+            4: '4'
+            5: '5'
+            6: '6'
+            7: '7'
+            8: '8'
+            9: '9'
+            10: '10'
+            11: '11'
+            12: '12'
+          :wide:
+            1: 一月
+            2: 二月
+            3: 三月
+            4: 四月
+            5: 五月
+            6: 六月
+            7: 七月
+            8: 八月
+            9: 九月
+            10: 十月
+            11: 十一月
+            12: 十二月
+        :stand-alone:
+          :abbreviated:
+            1: 1月
+            2: 2月
+            3: 3月
+            4: 4月
+            5: 5月
+            6: 6月
+            7: 7月
+            8: 8月
+            9: 9月
+            10: 10月
+            11: 11月
+            12: 12月
+          :narrow:
+            1: '1'
+            2: '2'
+            3: '3'
+            4: '4'
+            5: '5'
+            6: '6'
+            7: '7'
+            8: '8'
+            9: '9'
+            10: '10'
+            11: '11'
+            12: '12'
+          :wide:
+            1: 一月
+            2: 二月
+            3: 三月
+            4: 四月
+            5: 五月
+            6: 六月
+            7: 七月
+            8: 八月
+            9: 九月
+            10: 十月
+            11: 十一月
+            12: 十二月
+      :eras:
+        :name:
+          0: BCE
+          1: CE
+        :abbr:
           0: 公元前
           1: 公元
-        :name: 
+        :narrow:
           0: BCE
           1: CE
-        :narrow: 
-          0: BCE
-          1: CE
-      :fields: 
-        :day: 日
-        :day-narrow: 日
-        :day-short: 日
-        :dayOfYear: 年中日
-        :dayOfYear-narrow: 年中日
-        :dayOfYear-short: 年中日
-        :dayperiod: 上午/下午
-        :dayperiod-narrow: 上午/下午
-        :dayperiod-short: 上午/下午
-        :era: 纪元
-        :era-narrow: 纪元
-        :era-short: 纪元
-        :hour: 小时
-        :hour-narrow: 小时
-        :hour-short: 小时
-        :minute: 分钟
-        :minute-narrow: 分
-        :minute-short: 分
-        :month: 月
-        :month-narrow: 月
-        :month-short: 月
-        :quarter: 季度
-        :quarter-narrow: 季
-        :quarter-short: 季
-        :second: 秒
-        :second-narrow: Second
-        :second-short: Second
-        :week: 周
-        :week-narrow: 周
-        :week-short: 周
-        :weekOfMonth: 月中周
-        :weekOfMonth-narrow: 月中周
-        :weekOfMonth-short: 月中周
-        :weekday: 星期
-        :weekday-narrow: 星期
-        :weekday-short: 星期
-        :weekdayOfMonth: 月中日
-        :weekdayOfMonth-narrow: 月中日
-        :weekdayOfMonth-short: 月中日
-        :year: 年
-        :year-narrow: 年
-        :year-short: 年
-        :zone: 时区
-        :zone-narrow: 时区
-        :zone-short: 时区
-      :formats: 
-        :date: 
-          :full: 
-            :pattern: y年M月d日EEEE
-          :long: 
-            :pattern: y年M月d日
-          :medium: 
-            :pattern: y年M月d日
-          :short: 
-            :pattern: y/M/d
-        :datetime: 
-          :full: 
-            :pattern: "{{date}} {{time}}"
-          :long: 
-            :pattern: "{{date}} {{time}}"
-          :medium: 
-            :pattern: "{{date}} {{time}}"
-          :short: 
-            :pattern: "{{date}} {{time}}"
-        :time: 
-          :full: 
-            :pattern: "zzzz HH:mm:ss"
-          :long: 
-            :pattern: "z HH:mm:ss"
-          :medium: 
-            :pattern: "HH:mm:ss"
-          :short: 
-            :pattern: "HH:mm"
-      :months: 
-        :format: 
-          :abbreviated: 
-            1: 1月
-            10: 10月
-            11: 11月
-            12: 12月
-            2: 2月
-            3: 3月
-            4: 4月
-            5: 5月
-            6: 6月
-            7: 7月
-            8: 8月
-            9: 9月
-          :narrow: 
-            1: "1"
-            10: "10"
-            11: "11"
-            12: "12"
-            2: "2"
-            3: "3"
-            4: "4"
-            5: "5"
-            6: "6"
-            7: "7"
-            8: "8"
-            9: "9"
-          :wide: 
-            1: 一月
-            10: 十月
-            11: 十一月
-            12: 十二月
-            2: 二月
-            3: 三月
-            4: 四月
-            5: 五月
-            6: 六月
-            7: 七月
-            8: 八月
-            9: 九月
-        :stand-alone: 
-          :abbreviated: 
-            1: 1月
-            10: 10月
-            11: 11月
-            12: 12月
-            2: 2月
-            3: 3月
-            4: 4月
-            5: 5月
-            6: 6月
-            7: 7月
-            8: 8月
-            9: 9月
-          :narrow: 
-            1: "1"
-            10: "10"
-            11: "11"
-            12: "12"
-            2: "2"
-            3: "3"
-            4: "4"
-            5: "5"
-            6: "6"
-            7: "7"
-            8: "8"
-            9: "9"
-          :wide: 
-            1: 一月
-            10: 十月
-            11: 十一月
-            12: 十二月
-            2: 二月
-            3: 三月
-            4: 四月
-            5: 五月
-            6: 六月
-            7: 七月
-            8: 八月
-            9: 九月
-      :periods: 
-        :format: 
-          :abbreviated: 
-            :afternoon1: 中午
-            :afternoon2: 下午
+      :quarters:
+        :format:
+          :abbreviated:
+            1: 1季度
+            2: 2季度
+            3: 3季度
+            4: 4季度
+          :narrow:
+            1: '1'
+            2: '2'
+            3: '3'
+            4: '4'
+          :wide:
+            1: 第一季度
+            2: 第二季度
+            3: 第三季度
+            4: 第四季度
+        :stand-alone:
+          :abbreviated:
+            1: 1季度
+            2: 2季度
+            3: 3季度
+            4: 4季度
+          :narrow:
+            1: '1'
+            2: '2'
+            3: '3'
+            4: '4'
+          :wide:
+            1: 第一季度
+            2: 第二季度
+            3: 第三季度
+            4: 第四季度
+      :periods:
+        :format:
+          :abbreviated:
             :am: 上午
-            :evening1: 晚上
+            :pm: 下午
             :midnight: 午夜
             :morning1: 早上
             :morning2: 上午
-            :night1: 凌晨
-            :pm: 下午
-          :narrow: 
             :afternoon1: 中午
             :afternoon2: 下午
-            :am: 上午
             :evening1: 晚上
+            :night1: 凌晨
+          :narrow:
+            :am: 上午
+            :pm: 下午
             :midnight: 午夜
             :morning1: 早上
             :morning2: 上午
-            :night1: 凌晨
-            :pm: 下午
-          :wide: 
             :afternoon1: 中午
             :afternoon2: 下午
+            :evening1: 晚上
+            :night1: 凌晨
+          :wide:
             :am: AM
-            :evening1: 晚上
+            :pm: PM
             :midnight: 午夜
             :morning1: 清晨
             :morning2: 上午
-            :night1: 凌晨
-            :pm: PM
-        :stand-alone: 
-          :abbreviated: 
             :afternoon1: 中午
             :afternoon2: 下午
-            :am: 上午
             :evening1: 晚上
+            :night1: 凌晨
+        :stand-alone:
+          :abbreviated:
+            :am: 上午
+            :pm: 下午
             :midnight: 午夜
             :morning1: 早上
             :morning2: 上午
-            :night1: 凌晨
-            :pm: 下午
-          :narrow: 
             :afternoon1: 中午
             :afternoon2: 下午
-            :am: 上午
             :evening1: 晚上
+            :night1: 凌晨
+          :narrow:
+            :am: 上午
+            :pm: 下午
             :midnight: 午夜
             :morning1: 早上
             :morning2: 上午
-            :night1: 凌晨
-            :pm: 下午
-          :wide: 
             :afternoon1: 中午
             :afternoon2: 下午
-            :am: 上午
             :evening1: 晚上
+            :night1: 凌晨
+          :wide:
+            :am: 上午
+            :pm: 下午
             :midnight: 午夜
             :morning1: 早上
             :morning2: 上午
+            :afternoon1: 中午
+            :afternoon2: 下午
+            :evening1: 晚上
             :night1: 凌晨
-            :pm: 下午
-      :quarters: 
-        :format: 
-          :abbreviated: 
-            1: 1季度
-            2: 2季度
-            3: 3季度
-            4: 4季度
-          :narrow: 
-            1: "1"
-            2: "2"
-            3: "3"
-            4: "4"
-          :wide: 
-            1: 第一季度
-            2: 第二季度
-            3: 第三季度
-            4: 第四季度
-        :stand-alone: 
-          :abbreviated: 
-            1: 1季度
-            2: 2季度
-            3: 3季度
-            4: 4季度
-          :narrow: 
-            1: "1"
-            2: "2"
-            3: "3"
-            4: "4"
-          :wide: 
-            1: 第一季度
-            2: 第二季度
-            3: 第三季度
-            4: 第四季度
+      :fields:
+        :era: 纪元
+        :era-short: 纪元
+        :era-narrow: 纪元
+        :year: 年
+        :year-short: 年
+        :year-narrow: 年
+        :quarter: 季度
+        :quarter-short: 季
+        :quarter-narrow: 季
+        :month: 月
+        :month-short: 月
+        :month-narrow: 月
+        :week: 周
+        :week-short: 周
+        :week-narrow: 周
+        :weekOfMonth: 月中周
+        :weekOfMonth-short: 月中周
+        :weekOfMonth-narrow: 月中周
+        :day: 日
+        :day-short: 日
+        :day-narrow: 日
+        :dayOfYear: 年中日
+        :dayOfYear-short: 年中日
+        :dayOfYear-narrow: 年中日
+        :weekday: 星期
+        :weekday-short: 星期
+        :weekday-narrow: 星期
+        :weekdayOfMonth: 月中日
+        :weekdayOfMonth-short: 月中日
+        :weekdayOfMonth-narrow: 月中日
+        :dayperiod: 上午/下午
+        :dayperiod-short: 上午/下午
+        :dayperiod-narrow: 上午/下午
+        :hour: 小时
+        :hour-short: 小时
+        :hour-narrow: 小时
+        :minute: 分钟
+        :minute-short: 分
+        :minute-narrow: 分
+        :second: 秒
+        :second-short: Second
+        :second-narrow: Second
+        :zone: 时区
+        :zone-short: 时区
+        :zone-narrow: 时区
+      :formats:
+        :date:
+          :full:
+            :pattern: y年M月d日EEEE
+          :long:
+            :pattern: y年M月d日
+          :medium:
+            :pattern: y年M月d日
+          :short:
+            :pattern: y/M/d
+        :time:
+          :full:
+            :pattern: zzzz HH:mm:ss
+          :long:
+            :pattern: z HH:mm:ss
+          :medium:
+            :pattern: HH:mm:ss
+          :short:
+            :pattern: HH:mm
+        :datetime:
+          :full:
+            :pattern: "{{date}} {{time}}"
+          :long:
+            :pattern: "{{date}} {{time}}"
+          :medium:
+            :pattern: "{{date}} {{time}}"
+          :short:
+            :pattern: "{{date}} {{time}}"
+      :additional_formats:
+        :Bh: Bh时
+        :Bhm: Bh:mm
+        :Bhms: Bh:mm:ss
+        :d: d日
+        :E: ccc
+        :EBh: EBh时
+        :EBhm: EBh:mm
+        :EBhms: EBh:mm:ss
+        :Ed: d日E
+        :Eh: Eah时
+        :Ehm: Eah:mm
+        :EHm: EHH:mm
+        :Ehms: Eah:mm:ss
+        :EHms: EHH:mm:ss
+        :Gy: Gy年
+        :GyM: Gy年M月
+        :GyMd: Gy-MM-dd
+        :GyMEd: Gy-MM-ddE
+        :GyMMM: Gy年M月
+        :GyMMMd: Gy年M月d日
+        :GyMMMEd: Gy年M月d日E
+        :h: ah时
+        :H: H时
+        :hm: ah:mm
+        :Hm: HH:mm
+        :hms: ah:mm:ss
+        :Hms: HH:mm:ss
+        :hmsv: vah:mm:ss
+        :Hmsv: vHH:mm:ss
+        :hmv: vah:mm
+        :Hmv: v HH:mm
+        :hv: vah时
+        :Hv: vH时
+        :M: M月
+        :Md: M/d
+        :MEd: M/dE
+        :MMM: LLL
+        :MMMd: M月d日
+        :MMMEd: M月d日E
+        :MMMMd: M月d日
+        :MMMMW: MMMM第W周
+        :ms: mm:ss
+        :y: y年
+        :yM: y/M
+        :yMd: y/M/d
+        :yMEd: y/M/dE
+        :yMMM: y年M月
+        :yMMMd: y年M月d日
+        :yMMMEd: y年M月d日E
+        :yMMMM: y年M月
+        :yQQQ: y年第Q季度
+        :yQQQQ: y年第Q季度
+        :yw: Y年第w周
+        :MMdd: MM/dd
+        :yMEEEEd: y年M月d日EEEE
+        :yMM: y年M月

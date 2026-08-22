@@ -1,12 +1,11 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - ja-t-pl
-    :direction: forward
-    :rules: 
-      - "::pl-pl_FONIPA ;"
-      - "::pl_FONIPA-ja ;"
-    :source: pl
-    :target: ja
-    :variant: ~
+---
+:transforms:
+- :source: pl
+  :target: ja
+  :aliases:
+  - ja-t-pl
+  :variant:
+  :direction: forward
+  :rules:
+  - "::pl-pl_FONIPA ;"
+  - "::pl_FONIPA-ja ;"

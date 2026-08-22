@@ -1,11 +1,10 @@
---- 
-:transforms: 
-  - 
-    :aliases: ~
-    :direction: both
-    :rules: 
-      - "$thai = [[:Thai:] ก-ฺเ-๛] ;"
-      - "$thai { ' ' } $thai > '; ' ;"
-    :source: Thai
-    :target: ThaiSemi
-    :variant: ~
+---
+:transforms:
+- :source: Thai
+  :target: ThaiSemi
+  :aliases:
+  :variant:
+  :direction: both
+  :rules:
+  - "$thai = [[:Thai:] ก-ฺเ-๛] ;"
+  - "$thai { ' ' } $thai > '; ' ;"

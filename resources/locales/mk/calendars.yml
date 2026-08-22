@@ -1,385 +1,384 @@
---- 
-:mk: 
-  :calendars: 
-    :gregorian: 
-      :additional_formats: 
-        :Bh: "h B"
-        :Bhm: "h:mm B"
-        :Bhms: "h:mm:ss B"
-        :E: ccc
-        :EBh: "E h B"
-        :EBhm: "E h:mm B"
-        :EBhms: "E h:mm:ss B"
-        :EHm: "E HH:mm"
-        :EHms: "E HH:mm:ss"
-        :Ed: "E, d"
-        :Eh: "E h a"
-        :Ehm: "E h:mm a"
-        :Ehms: "E h:mm:ss a"
-        :Gy: "y 'г'. G"
-        :GyM: "M.y 'г'. G"
-        :GyMEd: "E, d.M.y 'г'. G"
-        :GyMMM: "MMM y 'г'. G"
-        :GyMMMEd: "E, d MMM y 'г'. G"
-        :GyMMMd: "d MMM y 'г'. G"
-        :GyMd: "d.M.y 'г'. G"
-        :H: H
-        :Hm: "HH:mm"
-        :Hms: "HH:mm:ss"
-        :Hmsv: "HH:mm:ss v"
-        :Hmv: "HH:mm v"
-        :Hv: "HH v"
-        :M: L
-        :MEd: "E, d.M"
-        :MMM: LLL
-        :MMMEd: "E, d MMM"
-        :MMMMEd: "E, d MMMM"
-        :MMMMW: "W. 'седмица' 'од' MMMM"
-        :MMMMd: "d MMMM"
-        :MMMd: "d MMM"
-        :Md: d.M
-        :Mdd: d.M
-        :d: d
-        :h: h a
-        :hm: "h:mm a"
-        :hms: "h:mm:ss a"
-        :hmsv: "h:mm:ss a v"
-        :hmv: "h:mm a v"
-        :hv: "h a v"
-        :ms: "mm:ss"
-        ? !ruby/symbol "y"
-        : y 'г'.
-        :yM: M.y 'г'.
-        :yMEd: "E, d.M.y 'г'."
-        :yMMM: "MMM y 'г'."
-        :yMMMEd: "E, d MMM y 'г'."
-        :yMMMM: "MMMM y 'г'."
-        :yMMMd: "d MMM y 'г'."
-        :yMd: d.M.y 'г'.
-        :yQQQ: "QQQ y 'г'."
-        :yQQQQ: "QQQQ y 'г'."
-        :yw: "w. 'седмица' 'од' Y"
-      :days: 
-        :format: 
-          :abbreviated: 
-            :fri: пет.
-            :mon: пон.
-            :sat: саб.
+---
+:mk:
+  :calendars:
+    :gregorian:
+      :days:
+        :format:
+          :abbreviated:
             :sun: нед.
-            :thu: чет.
+            :mon: пон.
             :tue: вто.
             :wed: сре.
-          :narrow: 
-            :fri: п
-            :mon: п
-            :sat: с
+            :thu: чет.
+            :fri: пет.
+            :sat: саб.
+          :narrow:
             :sun: н
-            :thu: ч
+            :mon: п
             :tue: в
             :wed: с
-          :short: 
-            :fri: пет.
-            :mon: пон.
-            :sat: саб.
+            :thu: ч
+            :fri: п
+            :sat: с
+          :short:
             :sun: нед.
-            :thu: чет.
+            :mon: пон.
             :tue: вто.
             :wed: сре.
-          :wide: 
-            :fri: петок
-            :mon: понеделник
-            :sat: сабота
+            :thu: чет.
+            :fri: пет.
+            :sat: саб.
+          :wide:
             :sun: недела
-            :thu: четврток
+            :mon: понеделник
             :tue: вторник
             :wed: среда
-        :stand-alone: 
-          :abbreviated: 
-            :fri: пет.
-            :mon: пон.
-            :sat: саб.
+            :thu: четврток
+            :fri: петок
+            :sat: сабота
+        :stand-alone:
+          :abbreviated:
             :sun: нед.
-            :thu: чет.
+            :mon: пон.
             :tue: вто.
             :wed: сре.
-          :narrow: 
-            :fri: п
-            :mon: п
-            :sat: с
+            :thu: чет.
+            :fri: пет.
+            :sat: саб.
+          :narrow:
             :sun: н
-            :thu: ч
+            :mon: п
             :tue: в
             :wed: с
-          :short: 
-            :fri: пет.
-            :mon: пон.
-            :sat: саб.
+            :thu: ч
+            :fri: п
+            :sat: с
+          :short:
             :sun: нед.
-            :thu: чет.
+            :mon: пон.
             :tue: вто.
             :wed: сре.
-          :wide: 
-            :fri: петок
-            :mon: понеделник
-            :sat: сабота
+            :thu: чет.
+            :fri: пет.
+            :sat: саб.
+          :wide:
             :sun: недела
-            :thu: четврток
+            :mon: понеделник
             :tue: вторник
             :wed: среда
-      :eras: 
-        :abbr: 
-          0: "пр. н. е."
-          1: "н. е."
-        :name: 
-          0: "пред нашата ера"
-          1: "нашата ера"
-        :narrow: 
+            :thu: четврток
+            :fri: петок
+            :sat: сабота
+      :months:
+        :format:
+          :abbreviated:
+            1: јан.
+            2: фев.
+            3: мар.
+            4: апр.
+            5: мај
+            6: јун.
+            7: јул.
+            8: авг.
+            9: сеп.
+            10: окт.
+            11: ное.
+            12: дек.
+          :narrow:
+            1: ј
+            2: ф
+            3: м
+            4: а
+            5: м
+            6: ј
+            7: ј
+            8: а
+            9: с
+            10: о
+            11: н
+            12: д
+          :wide:
+            1: јануари
+            2: февруари
+            3: март
+            4: април
+            5: мај
+            6: јуни
+            7: јули
+            8: август
+            9: септември
+            10: октомври
+            11: ноември
+            12: декември
+        :stand-alone:
+          :abbreviated:
+            1: јан.
+            2: фев.
+            3: мар.
+            4: апр.
+            5: мај
+            6: јун.
+            7: јул.
+            8: авг.
+            9: сеп.
+            10: окт.
+            11: ное.
+            12: дек.
+          :narrow:
+            1: ј
+            2: ф
+            3: м
+            4: а
+            5: м
+            6: ј
+            7: ј
+            8: а
+            9: с
+            10: о
+            11: н
+            12: д
+          :wide:
+            1: јануари
+            2: февруари
+            3: март
+            4: април
+            5: мај
+            6: јуни
+            7: јули
+            8: август
+            9: септември
+            10: октомври
+            11: ноември
+            12: декември
+      :eras:
+        :name:
+          0: пред нашата ера
+          1: нашата ера
+        :abbr:
+          0: пр. н. е.
+          1: н. е.
+        :narrow:
           0: BCE
           1: CE
-      :fields: 
-        :day: ден
-        :day-narrow: ден
-        :day-short: ден
-        :dayOfYear: "ден од годината"
-        :dayOfYear-narrow: "ден од год."
-        :dayOfYear-short: "ден од год."
-        :dayperiod: претпладне/попладне
-        :dayperiod-narrow: претпл./попл.
-        :dayperiod-short: претпл./попл.
-        :era: ера
-        :era-narrow: ера
-        :era-short: ера
-        :hour: час
-        :hour-narrow: ч.
-        :hour-short: ч.
-        :minute: минута
-        :minute-narrow: мин.
-        :minute-short: мин.
-        :month: месец
-        :month-narrow: мес.
-        :month-short: мес.
-        :quarter: тримесечје
-        :quarter-narrow: тримес.
-        :quarter-short: тримес.
-        :second: секунда
-        :second-narrow: сек.
-        :second-short: сек.
-        :week: седмица
-        :week-narrow: сед.
-        :week-short: сед.
-        :weekOfMonth: "седмица од месецот"
-        :weekOfMonth-narrow: "сед. од мес."
-        :weekOfMonth-short: "сед. од мес."
-        :weekday: "ден од неделата"
-        :weekday-narrow: "ден од нед."
-        :weekday-short: "ден од нед."
-        :weekdayOfMonth: "ден од месецот"
-        :weekdayOfMonth-narrow: "ден од мес."
-        :weekdayOfMonth-short: "ден од мес."
-        :year: година
-        :year-narrow: год.
-        :year-short: год.
-        :zone: "временска зона"
-        :zone-narrow: зона
-        :zone-short: зона
-      :formats: 
-        :date: 
-          :full: 
-            :pattern: "EEEE, d MMMM y 'г'."
-          :long: 
-            :pattern: "d MMMM y 'г'."
-          :medium: 
-            :pattern: "d MMM y 'г'."
-          :short: 
-            :pattern: d.M.y 'г'.
-        :datetime: 
-          :full: 
-            :pattern: "{{date}} 'во' {{time}}"
-          :long: 
-            :pattern: "{{date}} 'во' {{time}}"
-          :medium: 
-            :pattern: "{{date}}, 'во' {{time}}"
-          :short: 
-            :pattern: "{{date}}, {{time}}"
-        :time: 
-          :full: 
-            :pattern: "HH:mm:ss zzzz"
-          :long: 
-            :pattern: "HH:mm:ss z"
-          :medium: 
-            :pattern: "HH:mm:ss"
-          :short: 
-            :pattern: "HH:mm"
-      :months: 
-        :format: 
-          :abbreviated: 
-            1: јан.
-            10: окт.
-            11: ное.
-            12: дек.
-            2: фев.
-            3: мар.
-            4: апр.
-            5: мај
-            6: јун.
-            7: јул.
-            8: авг.
-            9: сеп.
-          :narrow: 
-            1: ј
-            10: о
-            11: н
-            12: д
-            2: ф
-            3: м
-            4: а
-            5: м
-            6: ј
-            7: ј
-            8: а
-            9: с
-          :wide: 
-            1: јануари
-            10: октомври
-            11: ноември
-            12: декември
-            2: февруари
-            3: март
-            4: април
-            5: мај
-            6: јуни
-            7: јули
-            8: август
-            9: септември
-        :stand-alone: 
-          :abbreviated: 
-            1: јан.
-            10: окт.
-            11: ное.
-            12: дек.
-            2: фев.
-            3: мар.
-            4: апр.
-            5: мај
-            6: јун.
-            7: јул.
-            8: авг.
-            9: сеп.
-          :narrow: 
-            1: ј
-            10: о
-            11: н
-            12: д
-            2: ф
-            3: м
-            4: а
-            5: м
-            6: ј
-            7: ј
-            8: а
-            9: с
-          :wide: 
-            1: јануари
-            10: октомври
-            11: ноември
-            12: декември
-            2: февруари
-            3: март
-            4: април
-            5: мај
-            6: јуни
-            7: јули
-            8: август
-            9: септември
-      :periods: 
-        :format: 
-          :abbreviated: 
-            :afternoon1: попладне
+      :quarters:
+        :format:
+          :abbreviated:
+            1: јан. – мар.
+            2: апр. – јун.
+            3: јул. – сеп.
+            4: окт. – дек.
+          :narrow:
+            1: '1'
+            2: '2'
+            3: '3'
+            4: '4'
+          :wide:
+            1: прво тримесечје
+            2: второ тримесечје
+            3: трето тримесечје
+            4: четврто тримесечје
+        :stand-alone:
+          :abbreviated:
+            1: јан. – мар.
+            2: апр. – јун.
+            3: јул. – сеп.
+            4: окт. – дек.
+          :narrow:
+            1: '1'
+            2: '2'
+            3: '3'
+            4: '4'
+          :wide:
+            1: прво тримесечје
+            2: второ тримесечје
+            3: трето тримесечје
+            4: четврто тримесечје
+      :periods:
+        :format:
+          :abbreviated:
             :am: претпл.
-            :evening1: навечер
+            :pm: попл.
             :midnight: полноќ
+            :noon: напладне
             :morning1: наутро
             :morning2: претпладне
-            :night1: ноќе
-            :noon: напладне
-            :pm: попл.
-          :narrow: 
-            :afternoon1: попл.
-            :am: AM
+            :afternoon1: попладне
             :evening1: навечер
+            :night1: ноќе
+          :narrow:
+            :am: AM
+            :pm: PM
             :midnight: полн.
-            :morning1: наутро
-            :morning2: претпл.
-            :night1: ноќе
             :noon: напл.
-            :pm: PM
-          :wide: 
-            :afternoon1: попладне
-            :am: претпл.
+            :morning1: наутро
+            :morning2: претпл.
+            :afternoon1: попл.
             :evening1: навечер
+            :night1: ноќе
+          :wide:
+            :am: претпл.
+            :pm: попл.
             :midnight: полноќ
+            :noon: напладне
             :morning1: наутро
             :morning2: претпладне
-            :night1: ноќе
-            :noon: напладне
-            :pm: попл.
-        :stand-alone: 
-          :abbreviated: 
-            :afternoon1: попл.
-            :am: AM
-            :evening1: вечер
-            :morning1: утро
-            :morning2: претпл.
-            :night1: ноќ
-            :noon: пладне
-            :pm: PM
-          :narrow: 
-            :afternoon1: попл.
-            :am: AM
-            :evening1: вечер
-            :morning1: утро
-            :morning2: претпл.
-            :night1: ноќ
-            :noon: пладне
-            :pm: PM
-          :wide: 
             :afternoon1: попладне
+            :evening1: навечер
+            :night1: ноќе
+        :stand-alone:
+          :abbreviated:
             :am: AM
+            :pm: PM
+            :noon: пладне
+            :morning1: утро
+            :morning2: претпл.
+            :afternoon1: попл.
             :evening1: вечер
+            :night1: ноќ
+          :narrow:
+            :am: AM
+            :pm: PM
+            :noon: пладне
+            :morning1: утро
+            :morning2: претпл.
+            :afternoon1: попл.
+            :evening1: вечер
+            :night1: ноќ
+          :wide:
+            :am: AM
+            :pm: PM
             :morning1: утро
             :morning2: претпладне
+            :afternoon1: попладне
+            :evening1: вечер
             :night1: ноќ
-            :pm: PM
-      :quarters: 
-        :format: 
-          :abbreviated: 
-            1: "јан. – мар."
-            2: "апр. – јун."
-            3: "јул. – сеп."
-            4: "окт. – дек."
-          :narrow: 
-            1: "1"
-            2: "2"
-            3: "3"
-            4: "4"
-          :wide: 
-            1: "прво тримесечје"
-            2: "второ тримесечје"
-            3: "трето тримесечје"
-            4: "четврто тримесечје"
-        :stand-alone: 
-          :abbreviated: 
-            1: "јан. – мар."
-            2: "апр. – јун."
-            3: "јул. – сеп."
-            4: "окт. – дек."
-          :narrow: 
-            1: "1"
-            2: "2"
-            3: "3"
-            4: "4"
-          :wide: 
-            1: "прво тримесечје"
-            2: "второ тримесечје"
-            3: "трето тримесечје"
-            4: "четврто тримесечје"
+      :fields:
+        :era: ера
+        :era-short: ера
+        :era-narrow: ера
+        :year: година
+        :year-short: год.
+        :year-narrow: год.
+        :quarter: тримесечје
+        :quarter-short: тримес.
+        :quarter-narrow: тримес.
+        :month: месец
+        :month-short: мес.
+        :month-narrow: мес.
+        :week: седмица
+        :week-short: сед.
+        :week-narrow: сед.
+        :weekOfMonth: седмица од месецот
+        :weekOfMonth-short: сед. од мес.
+        :weekOfMonth-narrow: сед. од мес.
+        :day: ден
+        :day-short: ден
+        :day-narrow: ден
+        :dayOfYear: ден од годината
+        :dayOfYear-short: ден од год.
+        :dayOfYear-narrow: ден од год.
+        :weekday: ден од неделата
+        :weekday-short: ден од нед.
+        :weekday-narrow: ден од нед.
+        :weekdayOfMonth: ден од месецот
+        :weekdayOfMonth-short: ден од мес.
+        :weekdayOfMonth-narrow: ден од мес.
+        :dayperiod: претпладне/попладне
+        :dayperiod-short: претпл./попл.
+        :dayperiod-narrow: претпл./попл.
+        :hour: час
+        :hour-short: ч.
+        :hour-narrow: ч.
+        :minute: минута
+        :minute-short: мин.
+        :minute-narrow: мин.
+        :second: секунда
+        :second-short: сек.
+        :second-narrow: сек.
+        :zone: временска зона
+        :zone-short: зона
+        :zone-narrow: зона
+      :formats:
+        :date:
+          :full:
+            :pattern: EEEE, d MMMM y 'г'.
+          :long:
+            :pattern: d MMMM y 'г'.
+          :medium:
+            :pattern: d MMM y 'г'.
+          :short:
+            :pattern: d.M.y 'г'.
+        :time:
+          :full:
+            :pattern: HH:mm:ss zzzz
+          :long:
+            :pattern: HH:mm:ss z
+          :medium:
+            :pattern: HH:mm:ss
+          :short:
+            :pattern: HH:mm
+        :datetime:
+          :full:
+            :pattern: "{{date}} 'во' {{time}}"
+          :long:
+            :pattern: "{{date}} 'во' {{time}}"
+          :medium:
+            :pattern: "{{date}}, 'во' {{time}}"
+          :short:
+            :pattern: "{{date}}, {{time}}"
+      :additional_formats:
+        :Bh: h B
+        :Bhm: h:mm B
+        :Bhms: h:mm:ss B
+        :d: d
+        :E: ccc
+        :EBh: E h B
+        :EBhm: E h:mm B
+        :EBhms: E h:mm:ss B
+        :Ed: E, d
+        :Eh: E h a
+        :Ehm: E h:mm a
+        :EHm: E HH:mm
+        :Ehms: E h:mm:ss a
+        :EHms: E HH:mm:ss
+        :Gy: y 'г'. G
+        :GyM: M.y 'г'. G
+        :GyMd: d.M.y 'г'. G
+        :GyMEd: E, d.M.y 'г'. G
+        :GyMMM: MMM y 'г'. G
+        :GyMMMd: d MMM y 'г'. G
+        :GyMMMEd: E, d MMM y 'г'. G
+        :h: h a
+        :H: H
+        :hm: h:mm a
+        :Hm: HH:mm
+        :hms: h:mm:ss a
+        :Hms: HH:mm:ss
+        :hmsv: h:mm:ss a v
+        :Hmsv: HH:mm:ss v
+        :hmv: h:mm a v
+        :Hmv: HH:mm v
+        :hv: h a v
+        :Hv: HH v
+        :M: L
+        :Md: d.M
+        :MEd: E, d.M
+        :MMM: LLL
+        :MMMd: d MMM
+        :MMMEd: E, d MMM
+        :MMMMd: d MMMM
+        :MMMMW: W. 'седмица' 'од' MMMM
+        :ms: mm:ss
+        :y: y 'г'.
+        :yM: M.y 'г'.
+        :yMd: d.M.y 'г'.
+        :yMEd: E, d.M.y 'г'.
+        :yMMM: MMM y 'г'.
+        :yMMMd: d MMM y 'г'.
+        :yMMMEd: E, d MMM y 'г'.
+        :yMMMM: MMMM y 'г'.
+        :yQQQ: QQQ y 'г'.
+        :yQQQQ: QQQQ y 'г'.
+        :yw: w. 'седмица' 'од' Y
+        :Mdd: d.M
+        :MMMMEd: E, d MMMM

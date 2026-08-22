@@ -1,16 +1,15 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - Devanagari-Telugu
-      - und-Telu-t-und-deva
-    :direction: forward
-    :rules: 
-      - "::[ँ-ःऄअ-ह़-्ॐ-॔क़-९ॽ] ;"
-      - "::NFD ;"
-      - "::Devanagari-InterIndic ;"
-      - "::InterIndic-Telugu ;"
-      - "::NFC ;"
-    :source: Deva
-    :target: Telu
-    :variant: ~
+---
+:transforms:
+- :source: Deva
+  :target: Telu
+  :aliases:
+  - Devanagari-Telugu
+  - und-Telu-t-und-deva
+  :variant:
+  :direction: forward
+  :rules:
+  - "::[ँ-ःऄअ-ह़-्ॐ-॔क़-९ॽ] ;"
+  - "::NFD ;"
+  - "::Devanagari-InterIndic ;"
+  - "::InterIndic-Telugu ;"
+  - "::NFC ;"

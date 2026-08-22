@@ -1,15 +1,14 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - ur-t-und-mlym
-    :direction: forward
-    :rules: 
-      - "::[ം-ഃഅ-ഌഎ-ഐഒ-നപ-ഹാ-ൃെ-ൈൊ-്ൗൠ-ൡ൦-൯] ;"
-      - "::NFD ;"
-      - "::Malayalam-InterIndic ;"
-      - "::InterIndic-ur ;"
-      - "::NFC ;"
-    :source: Mlym
-    :target: ur
-    :variant: ~
+---
+:transforms:
+- :source: Mlym
+  :target: ur
+  :aliases:
+  - ur-t-und-mlym
+  :variant:
+  :direction: forward
+  :rules:
+  - "::[ം-ഃഅ-ഌഎ-ഐഒ-നപ-ഹാ-ൃെ-ൈൊ-്ൗൠ-ൡ൦-൯] ;"
+  - "::NFD ;"
+  - "::Malayalam-InterIndic ;"
+  - "::InterIndic-ur ;"
+  - "::NFC ;"

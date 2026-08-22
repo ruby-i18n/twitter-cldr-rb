@@ -7,6 +7,7 @@ require 'nokogiri'
 require 'parallel'
 require 'etc'
 require 'set'
+require 'yaml'
 
 module TwitterCldr
   module Resources
@@ -57,9 +58,8 @@ module TwitterCldr
 
         File.open(output_file, 'w:utf-8') do |output|
           output.write(
-            TwitterCldr::Utils::YAML.dump(
-              TwitterCldr::Utils.deep_symbolize_keys(locale => data),
-              use_natural_symbols: true
+            ::YAML.dump(
+              TwitterCldr::Utils.deep_symbolize_keys(locale => data)
             )
           )
         end

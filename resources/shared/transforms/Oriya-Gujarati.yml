@@ -1,16 +1,15 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - Oriya-Gujarati
-      - und-Gujr-t-und-orya
-    :direction: forward
-    :rules: 
-      - "::[ଁ-ଃଅ-ଌଏ-ଐଓ-ନପ-ରଲ-ଳଵ-ହ଼-ୃେ-ୈୋ-୍ୖ-ୗଡ଼-ଢ଼ୟ-ୡ୦-ୱ] ;"
-      - "::NFD ;"
-      - "::Oriya-InterIndic ;"
-      - "::InterIndic-Gujarati ;"
-      - "::NFC ;"
-    :source: Orya
-    :target: Gujr
-    :variant: ~
+---
+:transforms:
+- :source: Orya
+  :target: Gujr
+  :aliases:
+  - Oriya-Gujarati
+  - und-Gujr-t-und-orya
+  :variant:
+  :direction: forward
+  :rules:
+  - "::[ଁ-ଃଅ-ଌଏ-ଐଓ-ନପ-ରଲ-ଳଵ-ହ଼-ୃେ-ୈୋ-୍ୖ-ୗଡ଼-ଢ଼ୟ-ୡ୦-ୱ] ;"
+  - "::NFD ;"
+  - "::Oriya-InterIndic ;"
+  - "::InterIndic-Gujarati ;"
+  - "::NFC ;"

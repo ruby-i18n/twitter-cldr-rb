@@ -1,16 +1,15 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - Gurmukhi-Malayalam
-      - und-Mlym-t-und-guru
-    :direction: forward
-    :rules: 
-      - "::[।-॥ਁਂਅ-ਊਏ-ਐਓ-ਨਪ-ਰਲ-ਲ਼ਵ-ਸ਼ਸ-ਹ਼ਾ-ੂੇ-ੈੋ-੍ਖ਼-ੜਫ਼੦-ੴ] ;"
-      - "::NFD ;"
-      - "::Gurmukhi-InterIndic ;"
-      - "::InterIndic-Malayalam ;"
-      - "::NFC ;"
-    :source: Guru
-    :target: Mlym
-    :variant: ~
+---
+:transforms:
+- :source: Guru
+  :target: Mlym
+  :aliases:
+  - Gurmukhi-Malayalam
+  - und-Mlym-t-und-guru
+  :variant:
+  :direction: forward
+  :rules:
+  - "::[।-॥ਁਂਅ-ਊਏ-ਐਓ-ਨਪ-ਰਲ-ਲ਼ਵ-ਸ਼ਸ-ਹ਼ਾ-ੂੇ-ੈੋ-੍ਖ਼-ੜਫ਼੦-ੴ] ;"
+  - "::NFD ;"
+  - "::Gurmukhi-InterIndic ;"
+  - "::InterIndic-Malayalam ;"
+  - "::NFC ;"

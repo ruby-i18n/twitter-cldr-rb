@@ -1,16 +1,15 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - Tamil-Devanagari
-      - und-Deva-t-und-taml
-    :direction: forward
-    :rules: 
-      - "::[\\u0BE6ஂ-ஃஅ-ஊஎ-ஐஒ-கங-சஜஞ-டண-தந-பம-வஷ-ஹா-ூெ-ைொ-்ௗ௧-௲ஶ] ;"
-      - "::NFD ;"
-      - "::Tamil-InterIndic ;"
-      - "::InterIndic-Devanagari ;"
-      - "::NFC ;"
-    :source: Taml
-    :target: Deva
-    :variant: ~
+---
+:transforms:
+- :source: Taml
+  :target: Deva
+  :aliases:
+  - Tamil-Devanagari
+  - und-Deva-t-und-taml
+  :variant:
+  :direction: forward
+  :rules:
+  - "::[\\u0BE6ஂ-ஃஅ-ஊஎ-ஐஒ-கங-சஜஞ-டண-தந-பம-வஷ-ஹா-ூெ-ைொ-்ௗ௧-௲ஶ] ;"
+  - "::NFD ;"
+  - "::Tamil-InterIndic ;"
+  - "::InterIndic-Devanagari ;"
+  - "::NFC ;"

@@ -1,12 +1,11 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - chr-t-xh
-    :direction: forward
-    :rules: 
-      - "::xh-xh_FONIPA ;"
-      - "::und_FONIPA-chr ;"
-    :source: xh
-    :target: chr
-    :variant: ~
+---
+:transforms:
+- :source: xh
+  :target: chr
+  :aliases:
+  - chr-t-xh
+  :variant:
+  :direction: forward
+  :rules:
+  - "::xh-xh_FONIPA ;"
+  - "::und_FONIPA-chr ;"

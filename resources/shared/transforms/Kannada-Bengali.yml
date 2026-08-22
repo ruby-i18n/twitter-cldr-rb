@@ -1,16 +1,15 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - Kannada-Bengali
-      - und-Beng-t-und-knda
-    :direction: forward
-    :rules: 
-      - "::[ಂ-ಃಅ-ಌಎ-ಐಒ-ನಪ-ಳವ-ಹ಼ಽಾ-ೄೆ-ೈೊ-್ೕ-ೖೞೠ-ೡ೦-೯] ;"
-      - "::NFD ;"
-      - "::Kannada-InterIndic ;"
-      - "::InterIndic-Bengali ;"
-      - "::NFC ;"
-    :source: Knda
-    :target: Beng
-    :variant: ~
+---
+:transforms:
+- :source: Knda
+  :target: Beng
+  :aliases:
+  - Kannada-Bengali
+  - und-Beng-t-und-knda
+  :variant:
+  :direction: forward
+  :rules:
+  - "::[ಂ-ಃಅ-ಌಎ-ಐಒ-ನಪ-ಳವ-ಹ಼ಽಾ-ೄೆ-ೈೊ-್ೕ-ೖೞೠ-ೡ೦-೯] ;"
+  - "::NFD ;"
+  - "::Kannada-InterIndic ;"
+  - "::InterIndic-Bengali ;"
+  - "::NFC ;"

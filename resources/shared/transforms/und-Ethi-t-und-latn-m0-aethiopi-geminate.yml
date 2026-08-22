@@ -1,13 +1,12 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - Ethiopic-Latin/Aethiopica_Geminate
-      - und-Latn-t-und-ethi-m0-aethiopi-geminate
-    :direction: forward
-    :rules: 
-      - ":: Amharic-Amharic/Geminate ;"
-      - ":: Ethiopic-Latin/Aethiopica ;"
-    :source: Ethi
-    :target: Latn
-    :variant: Aethiopi_Geminate
+---
+:transforms:
+- :source: Ethi
+  :target: Latn
+  :aliases:
+  - Ethiopic-Latin/Aethiopica_Geminate
+  - und-Latn-t-und-ethi-m0-aethiopi-geminate
+  :variant: Aethiopi_Geminate
+  :direction: forward
+  :rules:
+  - ":: Amharic-Amharic/Geminate ;"
+  - ":: Ethiopic-Latin/Aethiopica ;"

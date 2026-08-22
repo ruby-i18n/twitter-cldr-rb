@@ -1,1756 +1,1756 @@
---- 
-:ta: 
-  :units: 
-    :durationUnit: 
-      :hm: "h:mm"
-      :hms: "h:mm:ss"
-      :ms: "m:ss"
-    :unitLength: 
-      :long: 
-        :acceleration-g-force: 
+---
+:ta:
+  :units:
+    :unitLength:
+      :long:
+        :acceleration-g-force:
           :one: "{0} ஜி-ஃபோர்ஸுக்கு"
           :other: "{0} ஜி-ஃபோர்ஸுக்கு"
-        :acceleration-meter-per-square-second: 
+        :acceleration-meter-per-square-second:
           :one: "{0} மீட்டர்/சதுரவிநாடிக்கு"
           :other: "{0} மீட்டர்கள்/சதுரவிநாடிக்கு"
-        :angle-arc-minute: 
-          :one: "{0} ஆர்க் நிமிடத்திற்கு"
-          :other: "{0} ஆர்க் நிமிடங்களுக்கு"
-        :angle-arc-second: 
-          :one: "{0} ஆர்க் விநாடிக்கு"
-          :other: "{0} ஆர்க் விநாடிகளுக்கு"
-        :angle-degree: 
-          :one: "{0} டிகிரிக்கு"
-          :other: "{0} டிகிரீஸுக்கு"
-        :angle-radian: 
-          :one: "{0} ரேடியனுக்கு"
-          :other: "{0} ரேடியன்ஸுக்கு"
-        :angle-revolution: 
+        :angle-revolution:
           :one: "{0} சுழற்சிக்கு"
           :other: "{0} சுழற்சிகளுக்கு"
-        :angle-steradian: 
-          :one: "{0} ஸ்டெரேடியன்"
-          :other: "{0} ஸ்டெரேடியன்"
-        :area-acre: 
-          :one: "{0} ஏக்கர்"
-          :other: "{0} ஏக்கர்"
-        :area-dunam: 
-          :one: "{0} ட்யூனம்"
-          :other: "{0} ட்யூனம்ஸ்"
-        :area-hectare: 
-          :one: "{0} ஹெக்டேருக்கு"
-          :other: "{0} ஹெக்டேர்களுக்கு"
-        :area-square-centimeter: 
-          :one: "{0} சதுர சென்டிமீட்டருக்கு"
-          :other: "{0} சதுர சென்டிமீட்டர்களுக்கு"
-        :area-square-foot: 
-          :one: "{0} சதுர அடி"
-          :other: "{0} சதுர அடி"
-        :area-square-inch: 
-          :one: "{0} சதுர அங்குலம்"
-          :other: "{0} சதுர அங்குலங்கள்"
-        :area-square-kilometer: 
+        :angle-radian:
+          :one: "{0} ரேடியனுக்கு"
+          :other: "{0} ரேடியன்ஸுக்கு"
+        :angle-degree:
+          :one: "{0} டிகிரிக்கு"
+          :other: "{0} டிகிரீஸுக்கு"
+        :angle-arc-minute:
+          :one: "{0} ஆர்க் நிமிடத்திற்கு"
+          :other: "{0} ஆர்க் நிமிடங்களுக்கு"
+        :angle-arc-second:
+          :one: "{0} ஆர்க் விநாடிக்கு"
+          :other: "{0} ஆர்க் விநாடிகளுக்கு"
+        :area-square-kilometer:
           :one: "{0} சதுர கிலோமீட்டருக்கு"
           :other: "{0} சதுர கிலோமீட்டர்களுக்கு"
-        :area-square-meter: 
+        :area-hectare:
+          :one: "{0} ஹெக்டேருக்கு"
+          :other: "{0} ஹெக்டேர்களுக்கு"
+        :area-square-meter:
           :one: "{0} சதுர மீட்டருக்கு"
           :other: "{0} சதுர மீட்டர்களுக்கு"
-        :area-square-mile: 
+        :area-square-centimeter:
+          :one: "{0} சதுர சென்டிமீட்டருக்கு"
+          :other: "{0} சதுர சென்டிமீட்டர்களுக்கு"
+        :area-square-mile:
           :one: "{0} சதுர மைல்"
           :other: "{0} சதுர மைல்கள்"
-        :area-square-yard: 
+        :area-acre:
+          :one: "{0} ஏக்கர்"
+          :other: "{0} ஏக்கர்"
+        :area-square-yard:
           :one: "{0} சதுர யார்டு"
           :other: "{0} சதுர யார்டுகள்"
-        :concentr-item: 
-          :one: "{0} உருப்படிக்கு"
-          :other: "{0} உருப்படிகளுக்கு"
-        :concentr-karat: 
+        :area-square-foot:
+          :one: "{0} சதுர அடி"
+          :other: "{0} சதுர அடி"
+        :area-square-inch:
+          :one: "{0} சதுர அங்குலம்"
+          :other: "{0} சதுர அங்குலங்கள்"
+        :area-dunam:
+          :one: "{0} ட்யூனம்"
+          :other: "{0} ட்யூனம்ஸ்"
+        :concentr-karat:
           :one: "{0} காரட்டுக்கு"
           :other: "{0} காரட்களுக்கு"
-        :concentr-katal: 
-          :one: "{0} கட்டல்"
-          :other: "{0} கட்டல்கள்"
-        :concentr-milligram-ofglucose-per-deciliter: 
+        :concentr-milligram-ofglucose-per-deciliter:
           :one: "{0} மில்லிகிராம்/டெசிலிட்டருக்கு"
           :other: "{0} மில்லிகிராம்கள்/டெசிலிட்டருக்கு"
-        :concentr-millimole-per-liter: 
+        :concentr-millimole-per-liter:
           :one: "{0} மில்லிமோல்/லிட்டருக்கு"
           :other: "{0} மில்லிமோல்கள்/லிட்டருக்கு"
-        :concentr-mole: 
-          :one: "{0} மோல்-க்கு"
-          :other: "{0} மோல்ஸுக்கு"
-        :concentr-ofglucose: 
-          :one: "{0} குளுக்கோஸ்"
-          :other: "{0} குளுக்கோஸ்"
-        :concentr-part: 
+        :concentr-item:
+          :one: "{0} உருப்படிக்கு"
+          :other: "{0} உருப்படிகளுக்கு"
+        :concentr-part:
           :one: "{0} பகுதி"
           :other: "{0} பகுதிகள்"
-        :concentr-part-per-1e6: 
+        :concentr-part-per-1e6:
           :one: "{0} பகுதி/மில்லியனுக்கு"
           :other: "{0} பகுதிகள்/மில்லியனுக்கு"
-        :concentr-part-per-1e9: 
-          :one: "{0} பார்ட்ஸ்/பில்லியனுக்கு"
-          :other: "{0} பார்ட்ஸ்/பில்லியனுக்கு"
-        :concentr-percent: 
+        :concentr-percent:
           :one: "{0} சதவீதத்திற்கு"
           :other: "{0} சதவீதத்திற்கு"
-        :concentr-permille: 
-          :one: "மில்லி ஒன்றுக்கு {0} என்பதற்கு"
-          :other: "மில்லி ஒன்றுக்கு {0} என்பதற்கு"
-        :concentr-permyriad: 
+        :concentr-permille:
+          :one: மில்லி ஒன்றுக்கு {0} என்பதற்கு
+          :other: மில்லி ஒன்றுக்கு {0} என்பதற்கு
+        :concentr-permyriad:
           :one: "{0} பெர்மிரியட்டுக்கு"
           :other: "{0} பெர்மிரியட்டுக்கு"
-        :consumption-liter-per-100-kilometer: 
-          :one: "{0} லிட்டர்/100கிலோமீட்டருக்கு"
-          :other: "{0} லிட்டர்/100கிலோமீட்டருக்கு"
-        :consumption-liter-per-kilometer: 
+        :concentr-mole:
+          :one: "{0} மோல்-க்கு"
+          :other: "{0} மோல்ஸுக்கு"
+        :concentr-ofglucose:
+          :one: "{0} குளுக்கோஸ்"
+          :other: "{0} குளுக்கோஸ்"
+        :consumption-liter-per-kilometer:
           :one: "{0} லிட்டர்/கிலோமீட்டருக்கு"
           :other: "{0} லிட்டர்கள்/கிலோமீட்டருக்கு"
-        :consumption-mile-per-gallon: 
+        :consumption-liter-per-100-kilometer:
+          :one: "{0} லிட்டர்/100கிலோமீட்டருக்கு"
+          :other: "{0} லிட்டர்/100கிலோமீட்டருக்கு"
+        :consumption-mile-per-gallon:
           :one: "{0} மைல்/கேலன்"
           :other: "{0} மைல்கள்/கேலன்"
-        :consumption-mile-per-gallon-imperial: 
+        :consumption-mile-per-gallon-imperial:
           :one: "{0} மைல்/இம்பீ. கேலன்"
           :other: "{0} மைல்கள்/இம்பீ. கேலன்"
-        :digital-bit: 
-          :one: "{0} பிட்டுக்கு"
-          :other: "{0} பிட்களுக்கு"
-        :digital-byte: 
-          :one: "{0} பைட்டுக்கு"
-          :other: "{0} பைட்களுக்கு"
-        :digital-gigabit: 
-          :one: "{0} கிகாபிட்டுக்கு"
-          :other: "{0} கிகாபிட்களுக்கு"
-        :digital-gigabyte: 
-          :one: "{0} கிகாபைட்டுக்கு"
-          :other: "{0} கிகாபைட்களுக்கு"
-        :digital-kilobit: 
-          :one: "{0} கிலோபிட்டுக்கு"
-          :other: "{0} கிலோபிட்களுக்கு"
-        :digital-kilobyte: 
-          :one: "{0} கிலோபைட்டுக்கு"
-          :other: "{0} கிலோபைட்களுக்கு"
-        :digital-megabit: 
-          :one: "{0} மெகாபிட்டுக்கு"
-          :other: "{0} மெகாபிட்களுக்கு"
-        :digital-megabyte: 
-          :one: "{0} மெகாபைட்டுக்கு"
-          :other: "{0} மெகாபைட்களுக்கு"
-        :digital-petabyte: 
+        :digital-petabyte:
           :one: "{0} பெடாபைட்டுக்கு"
           :other: "{0} பெடாபைட்களுக்கு"
-        :digital-terabit: 
-          :one: "{0} டெராபிட்டுக்கு"
-          :other: "{0} டெராபிட்களுக்கு"
-        :digital-terabyte: 
+        :digital-terabyte:
           :one: "{0} டெராபைட்டுக்கு"
           :other: "{0} டெராபைட்களுக்கு"
-        :duration-century: 
+        :digital-terabit:
+          :one: "{0} டெராபிட்டுக்கு"
+          :other: "{0} டெராபிட்களுக்கு"
+        :digital-gigabyte:
+          :one: "{0} கிகாபைட்டுக்கு"
+          :other: "{0} கிகாபைட்களுக்கு"
+        :digital-gigabit:
+          :one: "{0} கிகாபிட்டுக்கு"
+          :other: "{0} கிகாபிட்களுக்கு"
+        :digital-megabyte:
+          :one: "{0} மெகாபைட்டுக்கு"
+          :other: "{0} மெகாபைட்களுக்கு"
+        :digital-megabit:
+          :one: "{0} மெகாபிட்டுக்கு"
+          :other: "{0} மெகாபிட்களுக்கு"
+        :digital-kilobyte:
+          :one: "{0} கிலோபைட்டுக்கு"
+          :other: "{0} கிலோபைட்களுக்கு"
+        :digital-kilobit:
+          :one: "{0} கிலோபிட்டுக்கு"
+          :other: "{0} கிலோபிட்களுக்கு"
+        :digital-byte:
+          :one: "{0} பைட்டுக்கு"
+          :other: "{0} பைட்களுக்கு"
+        :digital-bit:
+          :one: "{0} பிட்டுக்கு"
+          :other: "{0} பிட்களுக்கு"
+        :duration-century:
           :one: "{0} நூற்றாண்டுக்கு"
           :other: "{0} நூற்றாண்டுகளுக்கு"
-        :duration-day: 
-          :one: "{0} நாளுக்கு"
-          :other: "{0} நாட்களுக்கு"
-        :duration-day-person: 
-          :one: "{0} நாளுக்கு"
-          :other: "{0} நாட்களுக்கு"
-        :duration-decade: 
+        :duration-decade:
           :one: "{0} தசாப்தத்திற்கு"
           :other: "{0} தசாப்தங்களுக்கு"
-        :duration-hour: 
-          :one: "{0} மணிநேரத்திற்கு"
-          :other: "{0} மணிநேரத்திற்கு"
-        :duration-microsecond: 
-          :one: "{0} மைக்ரோவிநாடிக்கு"
-          :other: "{0} மைக்ரோவிநாடிகளுக்கு"
-        :duration-millisecond: 
-          :one: "{0} மில்லிவிநாடிக்கு"
-          :other: "{0} மில்லிவிநாடிகளுக்கு"
-        :duration-minute: 
-          :one: "{0} நிமிடத்திற்கு"
-          :other: "{0} நிமிடங்களுக்கு"
-        :duration-month: 
-          :one: "{0} மாதத்திற்கு"
-          :other: "{0} மாதங்களுக்கு"
-        :duration-nanosecond: 
-          :one: "{0} நானோசெகண்டுக்கு"
-          :other: "{0} நானோசெகண்டுகளுக்கு"
-        :duration-night: 
-          :one: "{0} இரவுக்கு"
-          :other: "{0} இரவுகளுக்கு"
-        :duration-quarter: 
-          :one: "{0} காலாண்டுக்கு"
-          :other: "{0} காலாண்டுகளுக்கு"
-        :duration-second: 
-          :one: "{0} விநாடிக்கு"
-          :other: "{0} விநாடிகளுக்கு"
-        :duration-week: 
-          :one: "{0} வாரத்திற்கு"
-          :other: "{0} வாரங்களுக்கு"
-        :duration-year: 
+        :duration-year:
           :one: "{0} ஆண்டுக்கு"
           :other: "{0} ஆண்டுகளுக்கு"
-        :electric-ampere: 
+        :duration-quarter:
+          :one: "{0} காலாண்டுக்கு"
+          :other: "{0} காலாண்டுகளுக்கு"
+        :duration-month:
+          :one: "{0} மாதத்திற்கு"
+          :other: "{0} மாதங்களுக்கு"
+        :duration-week:
+          :one: "{0} வாரத்திற்கு"
+          :other: "{0} வாரங்களுக்கு"
+        :duration-day:
+          :one: "{0} நாளுக்கு"
+          :other: "{0} நாட்களுக்கு"
+        :duration-day-person:
+          :one: "{0} நாளுக்கு"
+          :other: "{0} நாட்களுக்கு"
+        :duration-hour:
+          :one: "{0} மணிநேரத்திற்கு"
+          :other: "{0} மணிநேரத்திற்கு"
+        :duration-minute:
+          :one: "{0} நிமிடத்திற்கு"
+          :other: "{0} நிமிடங்களுக்கு"
+        :duration-second:
+          :one: "{0} விநாடிக்கு"
+          :other: "{0} விநாடிகளுக்கு"
+        :duration-millisecond:
+          :one: "{0} மில்லிவிநாடிக்கு"
+          :other: "{0} மில்லிவிநாடிகளுக்கு"
+        :duration-microsecond:
+          :one: "{0} மைக்ரோவிநாடிக்கு"
+          :other: "{0} மைக்ரோவிநாடிகளுக்கு"
+        :duration-nanosecond:
+          :one: "{0} நானோசெகண்டுக்கு"
+          :other: "{0} நானோசெகண்டுகளுக்கு"
+        :electric-ampere:
           :one: "{0} ஆம்பியருக்கு"
           :other: "{0} ஆம்பியர்களுக்கு"
-        :electric-coulomb: 
-          :one: "{0} கூலும்"
-          :other: "{0} கூலும்"
-        :electric-farad: 
-          :one: "{0} ஃபாரட்"
-          :other: "{0} ஃபாரட்"
-        :electric-henry: 
-          :one: "{0} ஹென்றி"
-          :other: "{0} ஹென்றி"
-        :electric-milliampere: 
+        :electric-milliampere:
           :one: "{0} மில்லி ஆம்பியருக்கு"
           :other: "{0} மில்லி ஆம்பியர்களுக்கு"
-        :electric-ohm: 
+        :electric-ohm:
           :one: "{0} ஓம்-க்கு"
           :other: "{0} ஓம்ஸுக்கு"
-        :electric-siemens: 
-          :one: "{0} சீமென்"
-          :other: "{0} சீமென்"
-        :electric-volt: 
+        :electric-volt:
           :one: "{0} வோல்ட்டுக்கு"
           :other: "{0} வோல்ட்களுக்கு"
-        :energy-becquerel: 
-          :one: "{0} பெக்கொரல்"
-          :other: "{0} பெக்கொரல்"
-        :energy-british-thermal-unit: 
-          :one: "{0} பிரிட்டிஷ் வெப்ப அலகு"
-          :other: "{0} பிரிட்டிஷ் வெப்ப அலகுகள்"
-        :energy-calorie: 
-          :one: "{0} கலோரிக்கு"
-          :other: "{0} கலோரிகளுக்கு"
-        :energy-calorie-it: 
-          :one: "{0} கலோரி [IT]"
-          :other: "{0} கலோரி-IT"
-        :energy-electronvolt: 
-          :one: "{0} எலக்ட்ரான்வோல்ட்"
-          :other: "{0} எலக்ட்ரான்வோல்ட்ஸ்"
-        :energy-foodcalorie: 
-          :one: "{0} கலோரி"
-          :other: "{0} கலோரிகள்"
-        :energy-gray: 
-          :one: "{0} கிரே"
-          :other: "{0} கிரே"
-        :energy-joule: 
-          :one: "{0} ஜூல்-க்கு"
-          :other: "{0} ஜூல்களுக்கு"
-        :energy-kilocalorie: 
+        :energy-kilocalorie:
           :one: "{0} கிலோகலோரிக்கு"
           :other: "{0} கிலோ கலோரிகளுக்கு"
-        :energy-kilojoule: 
+        :energy-calorie:
+          :one: "{0} கலோரிக்கு"
+          :other: "{0} கலோரிகளுக்கு"
+        :energy-foodcalorie:
+          :one: "{0} கலோரி"
+          :other: "{0} கலோரிகள்"
+        :energy-kilojoule:
           :one: "{0} கிலோஜூலுக்கு"
           :other: "{0} கிலோஜூல்களுக்கு"
-        :energy-kilowatt-hour: 
+        :energy-joule:
+          :one: "{0} ஜூல்-க்கு"
+          :other: "{0} ஜூல்களுக்கு"
+        :energy-kilowatt-hour:
           :one: "{0} கிலோவாட் மணிநேரத்திற்கு"
           :other: "{0} கிலோவாட் மணிநேரத்திற்கு"
-        :energy-sievert: 
-          :one: "{0} சீவர்ட்"
-          :other: "{0} சீவர்ட்"
-        :energy-therm-us: 
+        :energy-electronvolt:
+          :one: "{0} எலக்ட்ரான்வோல்ட்"
+          :other: "{0} எலக்ட்ரான்வோல்ட்ஸ்"
+        :energy-british-thermal-unit:
+          :one: "{0} பிரிட்டிஷ் வெப்ப அலகு"
+          :other: "{0} பிரிட்டிஷ் வெப்ப அலகுகள்"
+        :energy-therm-us:
           :one: "{0} அமெரிக்க வெப்ப அலகு"
           :other: "{0} அமெரிக்க வெப்ப அலகுகள்"
-        :force-kilogram-force: 
-          :one: "{0} கிலோகிராம் விசை"
-          :other: "{0} கிலோகிராம் விசை"
-        :force-kilowatt-hour-per-100-kilometer: 
-          :one: "{0} கிலோவாட்-மணிநேரம்/100 கிலோமீட்டருக்கு"
-          :other: "{0} கிலோவாட்-மணிநேரம்/100 கிலோமீட்டருக்கு"
-        :force-newton: 
-          :one: "{0} நியூட்டனுக்கு"
-          :other: "{0} நியூட்டன்ஸுக்கு"
-        :force-pound-force: 
+        :force-pound-force:
           :one: "{0} பவுண்ட் விசை"
           :other: "{0} பவுண்ட் விசை"
-        :frequency-gigahertz: 
+        :force-newton:
+          :one: "{0} நியூட்டனுக்கு"
+          :other: "{0} நியூட்டன்ஸுக்கு"
+        :force-kilowatt-hour-per-100-kilometer:
+          :one: "{0} கிலோவாட்-மணிநேரம்/100 கிலோமீட்டருக்கு"
+          :other: "{0} கிலோவாட்-மணிநேரம்/100 கிலோமீட்டருக்கு"
+        :frequency-gigahertz:
           :one: "{0} கிகாஹெர்ட்ஸுக்கு"
           :other: "{0} கிகாஹெர்ட்ஸுக்கு"
-        :frequency-hertz: 
-          :one: "{0} ஹெர்ட்ஸுக்கு"
-          :other: "{0} ஹெர்ட்ஸுக்கு"
-        :frequency-kilohertz: 
-          :one: "{0} கிலோஹெர்ட்ஸுக்கு"
-          :other: "{0} கிலோஹெர்ட்ஸுக்கு"
-        :frequency-megahertz: 
+        :frequency-megahertz:
           :one: "{0} மெகாஹெர்ட்ஸுக்கு"
           :other: "{0} மெகாஹெர்ட்ஸுக்கு"
-        :graphics-dot: 
-          :one: "{0}புள்ளி"
-          :other: "{0}புள்ளிகள்"
-        :graphics-dot-per-centimeter: 
-          :one: "{0} புள்ளி / சென்டிமீட்டர்"
-          :other: "{0} புள்ளிகள் / சென்டிமீட்டர்"
-        :graphics-dot-per-inch: 
-          :one: "{0} புள்ளி / அங்குலம்"
-          :other: "{0} புள்ளிகள் / அங்குலம்"
-        :graphics-em: 
+        :frequency-kilohertz:
+          :one: "{0} கிலோஹெர்ட்ஸுக்கு"
+          :other: "{0} கிலோஹெர்ட்ஸுக்கு"
+        :frequency-hertz:
+          :one: "{0} ஹெர்ட்ஸுக்கு"
+          :other: "{0} ஹெர்ட்ஸுக்கு"
+        :graphics-em:
           :one: "{0} எம்முக்கு"
           :other: "{0} எம்களுக்கு"
-        :graphics-megapixel: 
-          :one: "{0} மெகாபிக்சலுக்கு"
-          :other: "{0} மெகாபிக்சல்களுக்கு"
-        :graphics-pixel: 
+        :graphics-pixel:
           :one: "{0} பிக்சலுக்கு"
           :other: "{0} பிக்சல்களுக்கு"
-        :graphics-pixel-per-centimeter: 
+        :graphics-megapixel:
+          :one: "{0} மெகாபிக்சலுக்கு"
+          :other: "{0} மெகாபிக்சல்களுக்கு"
+        :graphics-pixel-per-centimeter:
           :one: "{0} பிக்சல்/ சென்டிமீட்டருக்கு"
           :other: "{0} பிக்சல்கள்/ சென்டிமீட்டருக்கு"
-        :graphics-pixel-per-inch: 
+        :graphics-pixel-per-inch:
           :one: "{0} பிக்சல்/ அங்குலம்"
           :other: "{0} பிக்சல்கள்/ அங்குலம்"
-        :length-astronomical-unit: 
-          :one: "{0} வானியல் அலகு"
-          :other: "{0} வானியல் அலகுகள்"
-        :length-centimeter: 
-          :one: "{0} சென்டிமீட்டருக்கு"
-          :other: "{0} சென்டிமீட்டர்களுக்கு"
-        :length-decimeter: 
-          :one: "{0} டெசிமீட்டருக்கு"
-          :other: "{0} டெசிமீட்டர்களுக்கு"
-        :length-earth-radius: 
+        :graphics-dot-per-centimeter:
+          :one: "{0} புள்ளி / சென்டிமீட்டர்"
+          :other: "{0} புள்ளிகள் / சென்டிமீட்டர்"
+        :graphics-dot-per-inch:
+          :one: "{0} புள்ளி / அங்குலம்"
+          :other: "{0} புள்ளிகள் / அங்குலம்"
+        :graphics-dot:
+          :one: "{0}புள்ளி"
+          :other: "{0}புள்ளிகள்"
+        :length-earth-radius:
           :one: "{0} புவி ஆரம்"
           :other: "{0} புவி ஆரம்"
-        :length-fathom: 
-          :one: "{0} ஃபேதம்"
-          :other: "{0} ஃபேதம்கள்"
-        :length-furlong: 
-          :one: "{0} பர்லாங்கு"
-          :other: "{0} பர்லாங்குகள்"
-        :length-inch: 
-          :one: "{0} அங்குலம்"
-          :other: "{0} அங்குலங்கள்"
-        :length-kilometer: 
+        :length-kilometer:
           :one: "{0} கிலோமீட்டருக்கு"
           :other: "{0} கிலோமீட்டர்களுக்கு"
-        :length-light-year: 
-          :one: "{0} ஒளி ஆண்டு"
-          :other: "{0} ஒளி ஆண்டுகள்"
-        :length-meter: 
+        :length-meter:
           :one: "{0} மீட்டருக்கு"
           :other: "{0} மீட்டர்களுக்கு"
-        :length-micrometer: 
-          :one: "{0} மைக்ரோமீட்டருக்கு"
-          :other: "{0} மைக்ரோமீட்டர்களுக்கு"
-        :length-mile: 
-          :one: "{0} மைல்"
-          :other: "{0} மைல்கள்"
-        :length-mile-scandinavian: 
-          :one: "{0} ஸ்கேண்டிநேவியன் மைலுக்கு"
-          :other: "{0} ஸ்கேண்டிநேவியன் மைல்களுக்கு"
-        :length-millimeter: 
+        :length-decimeter:
+          :one: "{0} டெசிமீட்டருக்கு"
+          :other: "{0} டெசிமீட்டர்களுக்கு"
+        :length-centimeter:
+          :one: "{0} சென்டிமீட்டருக்கு"
+          :other: "{0} சென்டிமீட்டர்களுக்கு"
+        :length-millimeter:
           :one: "{0} மில்லிமீட்டருக்கு"
           :other: "{0} மில்லிமீட்டர்களுக்கு"
-        :length-nanometer: 
+        :length-micrometer:
+          :one: "{0} மைக்ரோமீட்டருக்கு"
+          :other: "{0} மைக்ரோமீட்டர்களுக்கு"
+        :length-nanometer:
           :one: "{0} நானோமீட்டருக்கு"
           :other: "{0} நானோமீட்டர்களுக்கு"
-        :length-nautical-mile: 
-          :one: "{0} கடல் மைல்"
-          :other: "{0} கடல் மைல்கள்"
-        :length-parsec: 
-          :one: "{0} புடைநொடி"
-          :other: "{0} புடைநொடிகள்"
-        :length-picometer: 
+        :length-picometer:
           :one: "{0} பைக்கோமீட்டருக்கு"
           :other: "{0} பைக்கோமீட்டர்களுக்கு"
-        :length-point: 
-          :one: "{0} அச்சுப் புள்ளிக்கு"
-          :other: "{0} அச்சுப் புள்ளிகளுக்கு"
-        :length-solar-radius: 
-          :one: "{0} சூரிய ஆரம்"
-          :other: "{0} சூரிய ஆரம்"
-        :length-yard: 
+        :length-mile:
+          :one: "{0} மைல்"
+          :other: "{0} மைல்கள்"
+        :length-yard:
           :one: "{0} கெஜம்"
           :other: "{0} கெஜம்"
-        :light-candela: 
-          :one: "{0} கேண்டலாவுக்கு"
-          :other: "{0} கேண்டலாவுக்கு"
-        :light-lumen: 
-          :one: "{0} லூமனுக்கு"
-          :other: "{0} லூமனுக்கு"
-        :light-lux: 
+        :length-inch:
+          :one: "{0} அங்குலம்"
+          :other: "{0} அங்குலங்கள்"
+        :length-parsec:
+          :one: "{0} புடைநொடி"
+          :other: "{0} புடைநொடிகள்"
+        :length-light-year:
+          :one: "{0} ஒளி ஆண்டு"
+          :other: "{0} ஒளி ஆண்டுகள்"
+        :length-astronomical-unit:
+          :one: "{0} வானியல் அலகு"
+          :other: "{0} வானியல் அலகுகள்"
+        :length-furlong:
+          :one: "{0} பர்லாங்கு"
+          :other: "{0} பர்லாங்குகள்"
+        :length-fathom:
+          :one: "{0} ஃபேதம்"
+          :other: "{0} ஃபேதம்கள்"
+        :length-nautical-mile:
+          :one: "{0} கடல் மைல்"
+          :other: "{0} கடல் மைல்கள்"
+        :length-mile-scandinavian:
+          :one: "{0} ஸ்கேண்டிநேவியன் மைலுக்கு"
+          :other: "{0} ஸ்கேண்டிநேவியன் மைல்களுக்கு"
+        :length-point:
+          :one: "{0} அச்சுப் புள்ளிக்கு"
+          :other: "{0} அச்சுப் புள்ளிகளுக்கு"
+        :length-solar-radius:
+          :one: "{0} சூரிய ஆரம்"
+          :other: "{0} சூரிய ஆரம்"
+        :light-lux:
           :one: "{0} லக்ஸுக்கு"
           :other: "{0} லக்ஸுக்கு"
-        :light-solar-luminosity: 
+        :light-candela:
+          :one: "{0} கேண்டலாவுக்கு"
+          :other: "{0} கேண்டலாவுக்கு"
+        :light-lumen:
+          :one: "{0} லூமனுக்கு"
+          :other: "{0} லூமனுக்கு"
+        :light-solar-luminosity:
           :one: "{0} சூரிய ஒளிர்வுத்தன்மை"
           :other: "{0} சூரிய ஒளிர்வுத்தன்மை"
-        :magnetic-tesla: 
-          :one: "{0} டெஸ்லா"
-          :other: "{0} டெஸ்லா"
-        :magnetic-weber: 
-          :one: வெபர்
-          :other: "{0} வெபர்"
-        :mass-carat: 
-          :one: "{0} கேரட்டுக்கு"
-          :other: "{0} கேரட்களுக்கு"
-        :mass-dalton: 
-          :one: "{0} டால்ட்டன்"
-          :other: "{0} டால்ட்டன்ஸ்"
-        :mass-earth-mass: 
-          :one: "{0} புவித் திணிவு"
-          :other: "{0} புவித் திணிவுகள்"
-        :mass-grain: 
-          :one: "{0} கிரைன்"
-          :other: "{0} கிரைன்கள்"
-        :mass-gram: 
-          :one: "{0} கிராமுக்கு"
-          :other: "{0} கிராம்களுக்கு"
-        :mass-kilogram: 
-          :one: "{0} கிலோகிராமுக்கு"
-          :other: "{0} கிலோகிராம்களுக்கு"
-        :mass-microgram: 
-          :one: "{0} மைக்ரோ கிராமுக்கு"
-          :other: "{0} மைக்ரோ கிராம்களுக்கு"
-        :mass-milligram: 
-          :one: "{0} மில்லி கிராமுக்கு"
-          :other: "{0} மில்லி கிராம்களுக்கு"
-        :mass-ounce: 
-          :one: "{0} அவுன்ஸ்"
-          :other: "{0} அவுன்ஸ்கள்"
-        :mass-ounce-troy: 
-          :one: "{0} ட்ராய் அவுன்ஸ்"
-          :other: "{0} ட்ராய் அவுன்ஸ்கள்"
-        :mass-pound: 
-          :one: "{0} பவுண்டு"
-          :other: "{0} பவுண்டுகள்"
-        :mass-solar-mass: 
-          :one: "{0} சூரியத் திணிவு"
-          :other: "{0} சூரியத் திணிவுகள்"
-        :mass-stone: 
-          :one: "{0} ஸ்டோன்"
-          :other: "{0} ஸ்டோன்ஸ்"
-        :mass-ton: 
-          :one: "{0} டன்"
-          :other: "{0} டன்கள்"
-        :mass-tonne: 
+        :mass-tonne:
           :one: "{0} மெட்ரிக் டன்னுக்கு"
           :other: "{0} மெட்ரிக் டன்களுக்கு"
-        :power-gigawatt: 
+        :mass-kilogram:
+          :one: "{0} கிலோகிராமுக்கு"
+          :other: "{0} கிலோகிராம்களுக்கு"
+        :mass-gram:
+          :one: "{0} கிராமுக்கு"
+          :other: "{0} கிராம்களுக்கு"
+        :mass-milligram:
+          :one: "{0} மில்லி கிராமுக்கு"
+          :other: "{0} மில்லி கிராம்களுக்கு"
+        :mass-microgram:
+          :one: "{0} மைக்ரோ கிராமுக்கு"
+          :other: "{0} மைக்ரோ கிராம்களுக்கு"
+        :mass-ton:
+          :one: "{0} டன்"
+          :other: "{0} டன்கள்"
+        :mass-stone:
+          :one: "{0} ஸ்டோன்"
+          :other: "{0} ஸ்டோன்ஸ்"
+        :mass-pound:
+          :one: "{0} பவுண்டு"
+          :other: "{0} பவுண்டுகள்"
+        :mass-ounce:
+          :one: "{0} அவுன்ஸ்"
+          :other: "{0} அவுன்ஸ்கள்"
+        :mass-ounce-troy:
+          :one: "{0} ட்ராய் அவுன்ஸ்"
+          :other: "{0} ட்ராய் அவுன்ஸ்கள்"
+        :mass-carat:
+          :one: "{0} கேரட்டுக்கு"
+          :other: "{0} கேரட்களுக்கு"
+        :mass-dalton:
+          :one: "{0} டால்ட்டன்"
+          :other: "{0} டால்ட்டன்ஸ்"
+        :mass-earth-mass:
+          :one: "{0} புவித் திணிவு"
+          :other: "{0} புவித் திணிவுகள்"
+        :mass-solar-mass:
+          :one: "{0} சூரியத் திணிவு"
+          :other: "{0} சூரியத் திணிவுகள்"
+        :mass-grain:
+          :one: "{0} கிரைன்"
+          :other: "{0} கிரைன்கள்"
+        :power-gigawatt:
           :one: "{0} கிகாவாட்டுக்கு"
           :other: "{0} கிகாவாட்ஸுக்கு"
-        :power-horsepower: 
-          :one: "{0} குதிரைத்திறன்"
-          :other: "{0} குதிரைத்திறன்"
-        :power-kilowatt: 
-          :one: "{0} கிலோவாட்டுக்கு"
-          :other: "{0} கிலோவாட்களுக்கு"
-        :power-megawatt: 
+        :power-megawatt:
           :one: "{0} மெகாவாட்டுக்கு"
           :other: "{0} மெகாவாட்ஸுக்கு"
-        :power-milliwatt: 
-          :one: "{0} மில்லிவாட்டுக்கு"
-          :other: "{0} மில்லிவாட்ஸுக்கு"
-        :power-watt: 
+        :power-kilowatt:
+          :one: "{0} கிலோவாட்டுக்கு"
+          :other: "{0} கிலோவாட்களுக்கு"
+        :power-watt:
           :one: "{0} வாட்டுக்கு"
           :other: "{0} வாட்ஸுக்கு"
-        :pressure-atmosphere: 
-          :one: வளிமண்டலத்திற்கு
-          :other: "{0} வளிமண்டலங்களுக்கு"
-        :pressure-bar: 
-          :one: "{0} பார்-க்கு"
-          :other: "{0} பார்களுக்கு"
-        :pressure-hectopascal: 
-          :one: "{0} ஹெக்டோபாஸ்கலுக்கு"
-          :other: "{0} ஹெக்டோபாஸ்கலுக்கு"
-        :pressure-inch-ofhg: 
-          :one: "{0} பாதரச அங்குலம்"
-          :other: "{0} பாதரச அங்குலங்கள்"
-        :pressure-kilopascal: 
-          :one: "{0} கிலோபாஸ்கலுக்கு"
-          :other: "{0} கிலோபாஸ்கல்ஸுக்கு"
-        :pressure-megapascal: 
-          :one: "{0} மெகாபாஸ்கலுக்கு"
-          :other: "{0} மெகாபாஸ்கல்ஸுக்கு"
-        :pressure-millibar: 
-          :one: "{0} மில்லிபாருக்கு"
-          :other: "{0} மில்லிபார்களுக்கு"
-        :pressure-millimeter-ofhg: 
+        :power-milliwatt:
+          :one: "{0} மில்லிவாட்டுக்கு"
+          :other: "{0} மில்லிவாட்ஸுக்கு"
+        :power-horsepower:
+          :one: "{0} குதிரைத்திறன்"
+          :other: "{0} குதிரைத்திறன்"
+        :pressure-millimeter-ofhg:
           :one: "{0} மில்லிமீட்டர் பாதரசத்திற்கு"
           :other: "{0} மில்லிமீட்டர் பாதரசத்திற்கு"
-        :pressure-ofhg: 
+        :pressure-ofhg:
           :one: "{0} பாதரசம்"
           :other: "{0} பாதரசம்"
-        :pressure-pascal: 
-          :one: "{0} பாஸ்கலுக்கு"
-          :other: "{0} பாஸ்கல்களுக்கு"
-        :pressure-pound-force-per-square-inch: 
+        :pressure-pound-force-per-square-inch:
           :one: "{0} பவுண்டு/சதுர அங்குலம்"
           :other: "{0} பவுண்டுகள்/சதுர அங்குலம்"
-        :speed-beaufort: 
-          :one: "பியூஃபோர்ட் {0}"
-          :other: "பியூஃபோர்ட் {0}"
-        :speed-kilometer-per-hour: 
+        :pressure-inch-ofhg:
+          :one: "{0} பாதரச அங்குலம்"
+          :other: "{0} பாதரச அங்குலங்கள்"
+        :pressure-bar:
+          :one: "{0} பார்-க்கு"
+          :other: "{0} பார்களுக்கு"
+        :pressure-millibar:
+          :one: "{0} மில்லிபாருக்கு"
+          :other: "{0} மில்லிபார்களுக்கு"
+        :pressure-atmosphere:
+          :one: வளிமண்டலத்திற்கு
+          :other: "{0} வளிமண்டலங்களுக்கு"
+        :pressure-pascal:
+          :one: "{0} பாஸ்கலுக்கு"
+          :other: "{0} பாஸ்கல்களுக்கு"
+        :pressure-hectopascal:
+          :one: "{0} ஹெக்டோபாஸ்கலுக்கு"
+          :other: "{0} ஹெக்டோபாஸ்கலுக்கு"
+        :pressure-kilopascal:
+          :one: "{0} கிலோபாஸ்கலுக்கு"
+          :other: "{0} கிலோபாஸ்கல்ஸுக்கு"
+        :pressure-megapascal:
+          :one: "{0} மெகாபாஸ்கலுக்கு"
+          :other: "{0} மெகாபாஸ்கல்ஸுக்கு"
+        :speed-kilometer-per-hour:
           :one: "{0} கிலோமீட்டர்/மணிநேரத்திற்கு"
           :other: "{0} கிலோமீட்டர்கள்/மணிநேரத்திற்கு"
-        :speed-knot: 
-          :one: "{0} நாட்"
-          :other: "{0} நாட்"
-        :speed-light-speed: 
-          :one: "{0} ஒளிவேகத்திற்கு"
-          :other: "{0} ஒளிவேகத்திற்கு"
-        :speed-meter-per-second: 
+        :speed-meter-per-second:
           :one: "{0} மீட்டர்/விநாடிக்கு"
           :other: "{0} மீட்டர்கள்/விநாடிக்கு"
-        :speed-mile-per-hour: 
+        :speed-mile-per-hour:
           :one: "{0} மைல்/மணிநேரம்"
           :other: "{0} மைல்கள்/மணிநேரம்"
-        :temperature-celsius: 
-          :one: "{0} டிகிரி செல்சியஸ்ஸுக்கு"
-          :other: "{0} டிகிரி செல்சியஸ்ஸுக்கு"
-        :temperature-fahrenheit: 
-          :one: "{0} டிகிரி ஃபாரன்ஹீட்"
-          :other: "{0} டிகிரி ஃபாரன்ஹீட்"
-        :temperature-generic: 
+        :speed-knot:
+          :one: "{0} நாட்"
+          :other: "{0} நாட்"
+        :speed-beaufort:
+          :one: பியூஃபோர்ட் {0}
+          :other: பியூஃபோர்ட் {0}
+        :temperature-generic:
           :one: "{0} டிகிரிக்கு"
           :other: "{0} டிகிரிக்கு"
-        :temperature-kelvin: 
+        :temperature-celsius:
+          :one: "{0} டிகிரி செல்சியஸ்ஸுக்கு"
+          :other: "{0} டிகிரி செல்சியஸ்ஸுக்கு"
+        :temperature-fahrenheit:
+          :one: "{0} டிகிரி ஃபாரன்ஹீட்"
+          :other: "{0} டிகிரி ஃபாரன்ஹீட்"
+        :temperature-kelvin:
           :one: "{0} கெல்வினுக்கு"
           :other: "{0} கெல்வின்ஸுக்கு"
-        :torque-newton-meter: 
-          :one: "{0} நியூட்டன் மீட்டருக்கு"
-          :other: "{0} நியூட்டன் மீட்டர்களுக்கு"
-        :torque-pound-force-foot: 
+        :torque-pound-force-foot:
           :one: "{0} பவுண்ட்-விசை-அடி"
           :other: "{0} பவுண்ட்-விசை-அடி"
-        :volume-acre-foot: 
-          :one: "{0} ஏக்கர் அடி"
-          :other: "{0} ஏக்கர் அடி"
-        :volume-barrel: 
-          :one: "{0} பீப்பாய்"
-          :other: "{0} பீப்பாய்கள்"
-        :volume-bushel: 
-          :one: "{0} புசல்"
-          :other: "{0} புசல்கள்"
-        :volume-centiliter: 
-          :one: "{0} சென்டிலிட்டருக்கு"
-          :other: "{0} சென்டிலிட்டர்களுக்கு"
-        :volume-cubic-centimeter: 
-          :one: "{0} கன சென்டிமீட்டருக்கு"
-          :other: "{0} கன சென்டிமீட்டர்களுக்கு"
-        :volume-cubic-foot: 
-          :one: "{0} கன அடி"
-          :other: "{0} கன அடி"
-        :volume-cubic-inch: 
-          :one: "{0} கன அங்குலம்"
-          :other: "{0} கன அங்குலங்கள்"
-        :volume-cubic-kilometer: 
+        :torque-newton-meter:
+          :one: "{0} நியூட்டன் மீட்டருக்கு"
+          :other: "{0} நியூட்டன் மீட்டர்களுக்கு"
+        :volume-cubic-kilometer:
           :one: "{0} கன கிலோமீட்டருக்கு"
           :other: "{0} கன கிலோமீட்டர்களுக்கு"
-        :volume-cubic-meter: 
+        :volume-cubic-meter:
           :one: "{0} கன மீட்டருக்கு"
           :other: "{0} கன மீட்டர்களுக்கு"
-        :volume-cubic-mile: 
+        :volume-cubic-centimeter:
+          :one: "{0} கன சென்டிமீட்டருக்கு"
+          :other: "{0} கன சென்டிமீட்டர்களுக்கு"
+        :volume-cubic-mile:
           :one: "{0} கன மைல்"
           :other: "{0} கன மைல்கள்"
-        :volume-cubic-yard: 
+        :volume-cubic-yard:
           :one: "{0} கன யார்டு"
           :other: "{0} கன யார்டுகள்"
-        :volume-cup: 
-          :one: "{0} கோப்பை"
-          :other: "{0} கோப்பைகள்"
-        :volume-cup-metric: 
-          :one: "{0} மெட்ரிக் கோப்பைக்கு"
-          :other: "{0} மெட்ரிக் கோப்பைகளுக்கு"
-        :volume-deciliter: 
-          :one: "{0} டெசிலிட்டருக்கு"
-          :other: "{0} டெசிலிட்டர்களுக்கு"
-        :volume-dessert-spoon: 
-          :one: "{0} இனிப்புக் கரண்டி"
-          :other: "{0} இனிப்புக் கரண்டி"
-        :volume-dessert-spoon-imperial: 
-          :one: "{0} இம்பீரியல் இனிப்புக் கரண்டி"
-          :other: "{0} இம்பீரியல் இனிப்புக் கரண்டிகள்"
-        :volume-dram: 
-          :one: "{0} டிராம்"
-          :other: "{0} டிராம்கள்"
-        :volume-drop: 
-          :one: "{0} துளி"
-          :other: "{0} துளிகள்"
-        :volume-fluid-ounce: 
-          :one: "{0} திரவ அவுன்ஸ்"
-          :other: "{0} திரவ அவுன்ஸ்கள்"
-        :volume-fluid-ounce-imperial: 
-          :one: "{0} இம்பீரியல் திரவ அவுன்ஸ்"
-          :other: "{0} இம்பீரியல் திரவ அவுன்ஸ்கள்"
-        :volume-fluid-ounce-metric: 
-          :one: "{0} மெட்ரிக் திரவ அவுன்ஸ்"
-          :other: "{0} மெட்ரிக் திரவ அவுன்ஸ்"
-        :volume-gallon: 
-          :one: "{0} கேலன்"
-          :other: "{0} கேலன்கள்"
-        :volume-gallon-imperial: 
-          :one: "{0} இம்பீ. கேலன்"
-          :other: "{0} இம்பீ. கேலன்கள்"
-        :volume-hectoliter: 
-          :one: "{0} ஹெக்டோலிட்டருக்கு"
-          :other: "{0} ஹெக்டோலிட்டர்களுக்கு"
-        :volume-jigger: 
-          :one: "{0} ஜிகர்"
-          :other: "{0} ஜிகர்கள்"
-        :volume-liter: 
-          :one: "{0} லிட்டருக்கு"
-          :other: "{0} லிட்டர்களுக்கு"
-        :volume-megaliter: 
+        :volume-cubic-foot:
+          :one: "{0} கன அடி"
+          :other: "{0} கன அடி"
+        :volume-cubic-inch:
+          :one: "{0} கன அங்குலம்"
+          :other: "{0} கன அங்குலங்கள்"
+        :volume-megaliter:
           :one: "{0} மெகாலிட்டருக்கு"
           :other: "{0} மெகாலிட்டர்களுக்கு"
-        :volume-milliliter: 
+        :volume-hectoliter:
+          :one: "{0} ஹெக்டோலிட்டருக்கு"
+          :other: "{0} ஹெக்டோலிட்டர்களுக்கு"
+        :volume-liter:
+          :one: "{0} லிட்டருக்கு"
+          :other: "{0} லிட்டர்களுக்கு"
+        :volume-deciliter:
+          :one: "{0} டெசிலிட்டருக்கு"
+          :other: "{0} டெசிலிட்டர்களுக்கு"
+        :volume-centiliter:
+          :one: "{0} சென்டிலிட்டருக்கு"
+          :other: "{0} சென்டிலிட்டர்களுக்கு"
+        :volume-milliliter:
           :one: "{0} மில்லிலிட்டருக்கு"
           :other: "{0} மில்லிலிட்டர்களுக்கு"
-        :volume-pinch: 
-          :one: "{0} சிட்டிகை"
-          :other: "{0} சிட்டிகை"
-        :volume-pint: 
-          :one: "{0} பின்ட்"
-          :other: "{0} பின்ட்கள்"
-        :volume-pint-metric: 
+        :volume-pint-metric:
           :one: "{0} மெட்ரிக் பின்ட்டுக்கு"
           :other: "{0} மெட்ரிக் பின்ட்களுக்கு"
-        :volume-quart: 
+        :volume-cup-metric:
+          :one: "{0} மெட்ரிக் கோப்பைக்கு"
+          :other: "{0} மெட்ரிக் கோப்பைகளுக்கு"
+        :volume-fluid-ounce-metric:
+          :one: "{0} மெட்ரிக் திரவ அவுன்ஸ்"
+          :other: "{0} மெட்ரிக் திரவ அவுன்ஸ்"
+        :volume-acre-foot:
+          :one: "{0} ஏக்கர் அடி"
+          :other: "{0} ஏக்கர் அடி"
+        :volume-bushel:
+          :one: "{0} புசல்"
+          :other: "{0} புசல்கள்"
+        :volume-gallon:
+          :one: "{0} கேலன்"
+          :other: "{0} கேலன்கள்"
+        :volume-gallon-imperial:
+          :one: "{0} இம்பீ. கேலன்"
+          :other: "{0} இம்பீ. கேலன்கள்"
+        :volume-quart:
           :one: "{0} குவார்ட்"
           :other: "{0} குவார்ட்ஸ்"
-        :volume-quart-imperial: 
-          :one: "{0} இம்பீரியல் குவார்ட்"
-          :other: "{0} இம்பீரியல் குவார்ட்ஸ்"
-        :volume-tablespoon: 
+        :volume-pint:
+          :one: "{0} பின்ட்"
+          :other: "{0} பின்ட்கள்"
+        :volume-cup:
+          :one: "{0} கோப்பை"
+          :other: "{0} கோப்பைகள்"
+        :volume-fluid-ounce:
+          :one: "{0} திரவ அவுன்ஸ்"
+          :other: "{0} திரவ அவுன்ஸ்கள்"
+        :volume-fluid-ounce-imperial:
+          :one: "{0} இம்பீரியல் திரவ அவுன்ஸ்"
+          :other: "{0} இம்பீரியல் திரவ அவுன்ஸ்கள்"
+        :volume-tablespoon:
           :one: "{0} மேஜைக்கரண்டி"
           :other: "{0} மேஜைக்கரண்டிகள்"
-        :volume-teaspoon: 
+        :volume-teaspoon:
           :one: "{0} தேக்கரண்டி"
           :other: "{0} தேக்கரண்டிகள்"
-      :narrow: 
-        :acceleration-meter-per-square-second: 
-          :one: "{0}மீ/வி²"
-          :other: "{0}மீ/வி²"
-        :angle-arc-minute: 
-          :one: "{0}′"
-          :other: "{0}′"
-        :angle-arc-second: 
-          :one: "{0}″"
-          :other: "{0}″"
-        :angle-degree: 
-          :one: "{0}°"
-          :other: "{0}°"
-        :angle-radian: 
-          :one: "{0}ரேடி."
-          :other: "{0}ரேடி."
-        :angle-revolution: 
-          :one: "{0}சுழற்."
-          :other: "{0}சுழற்."
-        :area-dunam: 
-          :one: "{0}ட்யூனம்"
-          :other: "{0}ட்யூனம்"
-        :area-hectare: 
-          :one: "{0} ha"
-          :other: "{0} ha"
-        :area-square-centimeter: 
-          :one: "{0}செ.மீ.²"
-          :other: "{0}செ.மீ.²"
-        :area-square-foot: 
-          :one: "{0} ft²"
-          :other: "{0} ft²"
-        :area-square-inch: 
-          :one: "{0} in²"
-          :other: "{0} in²"
-        :area-square-kilometer: 
-          :one: "{0} km²"
-          :other: "{0} km²"
-        :area-square-meter: 
-          :one: "{0} m²"
-          :other: "{0} m²"
-        :area-square-mile: 
-          :one: "{0} mi²"
-          :other: "{0} mi²"
-        :area-square-yard: 
-          :one: "{0}யா²"
-          :other: "{0}யா²"
-        :concentr-item: 
-          :one: "{0}உருப்படி"
-          :other: "{0}உருப்படி"
-        :concentr-karat: 
-          :one: "{0}கார."
-          :other: "{0}கார."
-        :concentr-milligram-ofglucose-per-deciliter: 
-          :one: "{0}மிகி/டெ"
-          :other: "{0}மிகி/டெ"
-        :concentr-millimole-per-liter: 
-          :one: "{0}மிமோ/லி"
-          :other: "{0}மிமோ/லி"
-        :concentr-mole: 
-          :one: "{0}மோல்"
-          :other: "{0}மோல்"
-        :concentr-part: 
-          :one: "{0} பகுதி"
-          :other: "{0} பகுதி"
-        :concentr-part-per-1e6: 
-          :one: "{0}ப./மி."
-          :other: "{0}ப./மி."
-        :concentr-part-per-1e9: 
-          :one: "{0} பா/பி"
-          :other: "{0} பா/பி"
-        :consumption-liter-per-100-kilometer: 
-          :one: "{0}லி./100கி.மீ"
-          :other: "{0}லி./100கி.மீ"
-        :consumption-liter-per-kilometer: 
-          :one: "{0}லி./கி.மீ."
-          :other: "{0}லி./கி.மீ."
-        :consumption-mile-per-gallon: 
-          :one: "{0}மை./கே."
-          :other: "{0}மை./கே."
-        :consumption-mile-per-gallon-imperial: 
-          :one: "{0}m/gUK"
-          :other: "{0}m/gUK"
-        :digital-bit: 
-          :one: "{0}பிட்"
-          :other: "{0}பிட்"
-        :digital-byte: 
-          :one: "{0}பை."
-          :other: "{0}பை."
-        :digital-gigabit: 
-          :one: "{0}Gb"
-          :other: "{0}Gb"
-        :digital-gigabyte: 
-          :one: "{0}GB"
-          :other: "{0}GB"
-        :digital-kilobit: 
-          :one: "{0}kb"
-          :other: "{0}kb"
-        :digital-kilobyte: 
-          :one: "{0}kB"
-          :other: "{0}kB"
-        :digital-megabit: 
-          :one: "{0}Mb"
-          :other: "{0}Mb"
-        :digital-megabyte: 
-          :one: "{0}MB"
-          :other: "{0}MB"
-        :digital-petabyte: 
-          :one: "{0}PB"
-          :other: "{0}PB"
-        :digital-terabit: 
-          :one: "{0}Tb"
-          :other: "{0}Tb"
-        :digital-terabyte: 
-          :one: "{0}TB"
-          :other: "{0}TB"
-        :duration-century: 
-          :one: "{0}நூ."
-          :other: "{0}நூ."
-        :duration-day: 
-          :one: "{0} நா"
-          :other: "{0} நா"
-        :duration-decade: 
-          :one: "{0}தசா."
-          :other: "{0}தசா."
-        :duration-hour: 
-          :one: "{0} ம.நே."
-          :other: "{0} ம.நே."
-        :duration-microsecond: 
-          :one: "{0}μs"
-          :other: "{0}μs"
-        :duration-minute: 
-          :one: "{0} நிமி."
-          :other: "{0} நிமி."
-        :duration-month: 
-          :one: "{0} மா"
-          :other: "{0} மா"
-        :duration-nanosecond: 
-          :one: "{0}நா.செ."
-          :other: "{0}நா.செ."
-        :duration-night: 
-          :one: "{0} இ"
-          :other: "{0} இ"
-        :duration-quarter: 
-          :one: "{0} கா."
-          :other: "{0} கா."
-        :duration-second: 
-          :one: "{0} வி."
-          :other: "{0} வி."
-        :duration-week: 
-          :one: "{0} வா"
-          :other: "{0} வா"
-        :duration-year: 
-          :one: "{0} ஆ"
-          :other: "{0} ஆ"
-        :electric-ampere: 
-          :one: "{0}ஆம்."
-          :other: "{0}ஆம்."
-        :electric-milliampere: 
-          :one: "{0}மி.ஆ."
-          :other: "{0}மி.ஆ."
-        :electric-ohm: 
-          :one: "{0}Ω"
-          :other: "{0}Ω"
-        :electric-volt: 
-          :one: "{0}வோ."
-          :other: "{0}வோ."
-        :energy-british-thermal-unit: 
-          :one: "{0}பி.டி.யூ"
-          :other: "{0}பி.டி.யூ"
-        :energy-calorie: 
-          :one: "{0}கலோ."
-          :other: "{0}கலோ."
-        :energy-electronvolt: 
-          :one: "{0}eV"
-          :other: "{0}eV"
-        :energy-foodcalorie: 
-          :one: "{0}கலோ."
-          :other: "{0}கலோ."
-        :energy-joule: 
-          :one: "{0} J"
-          :other: "{0} J"
-        :energy-kilocalorie: 
-          :one: "{0} kcal"
-          :other: "{0} kcal"
-        :energy-kilojoule: 
-          :one: "{0} kJ"
-          :other: "{0} kJ"
-        :energy-kilowatt-hour: 
-          :one: "{0} kWh"
-          :other: "{0} kWh"
-        :energy-therm-us: 
-          :one: "{0}யூஎஸ் தெ."
-          :other: "{0}யூஎஸ் தெ."
-        :force-kilowatt-hour-per-100-kilometer: 
-          :one: "{0}கி.வா.ம./100கி.மி."
-          :other: "{0}கி.வா.ம./100கி.மி."
-        :force-newton: 
-          :one: "{0}N"
-          :other: "{0}N"
-        :force-pound-force: 
-          :one: "{0}ப.வி"
-          :other: "{0}ப.வி"
-        :frequency-gigahertz: 
-          :one: "{0} GHz"
-          :other: "{0} GHz"
-        :frequency-hertz: 
-          :one: "{0} Hz"
-          :other: "{0} Hz"
-        :frequency-kilohertz: 
-          :one: "{0} kHz"
-          :other: "{0} kHz"
-        :frequency-megahertz: 
-          :one: "{0} MHz"
-          :other: "{0} MHz"
-        :graphics-dot: 
-          :one: "{0}புள்ளி"
-          :other: "{0}புள்ளி"
-        :graphics-dot-per-centimeter: 
-          :one: "{0}பு/செ.மீ"
-          :other: "{0}பு/செ.மீ"
-        :graphics-dot-per-inch: 
-          :one: "{0} dpi"
-          :other: "{0} dpi"
-        :graphics-em: 
-          :one: "{0}எம்"
-          :other: "{0}எம்"
-        :graphics-megapixel: 
-          :one: "{0} MP"
-          :other: "{0} MP"
-        :graphics-pixel: 
-          :one: "{0}பிக்"
-          :other: "{0}பிக்"
-        :graphics-pixel-per-centimeter: 
-          :one: "{0} ppcm"
-          :other: "{0} ppcm"
-        :graphics-pixel-per-inch: 
-          :one: "{0} ppi"
-          :other: "{0} ppi"
-        :length-astronomical-unit: 
-          :one: "{0} au"
-          :other: "{0} au"
-        :length-centimeter: 
-          :one: "{0}செ.மீ."
-          :other: "{0}செ.மீ."
-        :length-earth-radius: 
-          :one: "{0}R⊕"
-          :other: "{0}R⊕"
-        :length-fathom: 
-          :one: "{0}ஃபே."
-          :other: "{0}ஃபே."
-        :length-furlong: 
-          :one: "{0}பர்"
-          :other: "{0}பர்"
-        :length-inch: 
-          :one: "{0}″"
-          :other: "{0}″"
-        :length-kilometer: 
-          :one: "{0}கி.மீ."
-          :other: "{0}கி.மீ."
-        :length-meter: 
-          :one: "{0}மீ."
-          :other: "{0}மீ."
-        :length-micrometer: 
-          :one: "{0} μm"
-          :other: "{0} μm"
-        :length-mile: 
-          :one: "{0} mi"
-          :other: "{0} mi"
-        :length-millimeter: 
-          :one: "{0}மி.மீ."
-          :other: "{0}மி.மீ."
-        :length-nanometer: 
-          :one: "{0}நா.மீ."
-          :other: "{0}நா.மீ."
-        :length-nautical-mile: 
-          :one: "{0} nmi"
-          :other: "{0} nmi"
-        :length-parsec: 
-          :one: "{0} pc"
-          :other: "{0} pc"
-        :length-point: 
-          :one: "{0}அ.பு."
-          :other: "{0}அ.பு."
-        :length-solar-radius: 
-          :one: "{0}R☉"
-          :other: "{0}R☉"
-        :light-lumen: 
-          :one: "{0} lm"
-          :other: "{0} lm"
-        :light-lux: 
-          :one: "{0}லக்."
-          :other: "{0}லக்."
-        :light-solar-luminosity: 
-          :one: "{0}L☉"
-          :other: "{0}L☉"
-        :mass-carat: 
-          :one: "{0}கேர."
-          :other: "{0}கேர."
-        :mass-dalton: 
-          :one: "{0}டா."
-          :other: "{0}டா."
-        :mass-earth-mass: 
-          :one: "{0}M⊕"
-          :other: "{0}M⊕"
-        :mass-grain: 
-          :one: "{0}கிரைன்"
-          :other: "{0}கிரைன்"
-        :mass-kilogram: 
-          :one: "{0}கி.கி."
-          :other: "{0}கி.கி."
-        :mass-microgram: 
-          :one: "{0} μg"
-          :other: "{0} μg"
-        :mass-milligram: 
-          :one: "{0} mg"
-          :other: "{0} mg"
-        :mass-ounce: 
-          :one: "{0} oz"
-          :other: "{0} oz"
-        :mass-ounce-troy: 
-          :one: "{0}அவு. டி."
-          :other: "{0}அவு. டி."
-        :mass-solar-mass: 
-          :one: "{0}M☉"
-          :other: "{0}M☉"
-        :mass-ton: 
-          :one: "{0}டன்"
-          :other: "{0}டன்"
-        :mass-tonne: 
-          :one: "{0}ட."
-          :other: "{0}ட."
-        :power-gigawatt: 
-          :one: "{0} GW"
-          :other: "{0} GW"
-        :power-horsepower: 
-          :one: "{0} hp"
-          :other: "{0} hp"
-        :power-kilowatt: 
-          :one: "{0} kW"
-          :other: "{0} kW"
-        :power-megawatt: 
-          :one: "{0} MW"
-          :other: "{0} MW"
-        :power-milliwatt: 
-          :one: "{0} mW"
-          :other: "{0} mW"
-        :power-watt: 
-          :one: "{0} W"
-          :other: "{0} W"
-        :pressure-atmosphere: 
-          :one: "{0}atm"
-          :other: "{0}atm"
-        :pressure-bar: 
-          :one: "{0}பார்"
-          :other: "{0}பார்"
-        :pressure-hectopascal: 
-          :one: "{0} hPa"
-          :other: "{0} hPa"
-        :pressure-inch-ofhg: 
-          :one: "{0}″ Hg"
-          :other: "{0}″ Hg"
-        :pressure-kilopascal: 
-          :one: "{0} kPa"
-          :other: "{0} kPa"
-        :pressure-megapascal: 
-          :one: "{0} MPa"
-          :other: "{0} MPa"
-        :pressure-millibar: 
-          :one: "{0} mb"
-          :other: "{0} mb"
-        :pressure-millimeter-ofhg: 
-          :one: "{0} mmHg"
-          :other: "{0} mmHg"
-        :pressure-pascal: 
-          :one: "{0} Pa"
-          :other: "{0} Pa"
-        :speed-beaufort: 
-          :one: "B {0}"
-          :other: "B {0}"
-        :speed-kilometer-per-hour: 
-          :one: "{0}கி.மீ./ம."
-          :other: "{0}கி.மீ./ம."
-        :speed-knot: 
-          :one: "{0}நா."
-          :other: "{0}நா."
-        :speed-light-speed: 
-          :one: "{0}ஒ.வே"
-          :other: "{0}ஒ.வே"
-        :temperature-celsius: 
-          :one: "{0}°C"
-          :other: "{0}°C"
-        :temperature-fahrenheit: 
-          :one: "{0}°"
-          :other: "{0}°"
-        :temperature-kelvin: 
-          :one: "{0} K"
-          :other: "{0} K"
-        :torque-newton-meter: 
-          :one: "{0}N⋅m"
-          :other: "{0}N⋅m"
-        :torque-pound-force-foot: 
-          :one: "{0}ப.அடி"
-          :other: "{0}ப.அடி"
-        :volume-acre-foot: 
-          :one: "{0}ஏக். அடி"
-          :other: "{0}ஏக். அடி"
-        :volume-barrel: 
-          :one: "{0}பீப்."
-          :other: "{0}பீப்."
-        :volume-bushel: 
-          :one: "{0}புச."
-          :other: "{0}புச."
-        :volume-centiliter: 
-          :one: "{0}செ.லி."
-          :other: "{0}செ.லி."
-        :volume-cubic-centimeter: 
-          :one: "{0}செ.மீ.³"
-          :other: "{0}செ.மீ.³"
-        :volume-cubic-foot: 
-          :one: "{0}அடி³"
-          :other: "{0}அடி³"
-        :volume-cubic-inch: 
-          :one: "{0}அங்.³"
-          :other: "{0}அங்.³"
-        :volume-cubic-kilometer: 
-          :one: "{0} க.கி.மீ."
-          :other: "{0} க.கி.மீ."
-        :volume-cubic-meter: 
-          :one: "{0}மீ³"
-          :other: "{0}மீ³"
-        :volume-cubic-mile: 
-          :one: "{0} mi³"
-          :other: "{0} mi³"
-        :volume-cubic-yard: 
-          :one: "{0}யா.³"
-          :other: "{0}யா.³"
-        :volume-cup: 
-          :one: "{0}கோ."
-          :other: "{0}கோ."
-        :volume-cup-metric: 
-          :one: "{0} mc"
-          :other: "{0} mc"
-        :volume-deciliter: 
-          :one: "{0}டெ.லி."
-          :other: "{0}டெ.லி."
-        :volume-dessert-spoon: 
-          :one: "{0}இ.க."
-          :other: "{0}இ.க."
-        :volume-dessert-spoon-imperial: 
-          :one: "{0}இ.க. இ."
-          :other: "{0}இ.க. இ."
-        :volume-dram: 
-          :one: "{0}தி.டிரா."
-          :other: "{0}தி.டிரா."
-        :volume-drop: 
-          :one: "{0}துளி"
-          :other: "{0}துளி"
-        :volume-fluid-ounce: 
-          :one: "{0}தி.அவு."
-          :other: "{0}தி.அவு."
-        :volume-fluid-ounce-imperial: 
-          :one: "{0}தி. அ. இ."
-          :other: "{0}தி. அ. இ."
-        :volume-gallon: 
-          :one: "{0}கேல."
-          :other: "{0}கேல."
-        :volume-gallon-imperial: 
-          :one: "{0}கே.இம்."
-          :other: "{0}கே.இம்."
-        :volume-hectoliter: 
-          :one: "{0}ஹெ.லி."
-          :other: "{0}ஹெ.லி."
-        :volume-jigger: 
-          :one: "{0}ஜிக."
-          :other: "{0}ஜிக."
-        :volume-liter: 
-          :one: "{0}லி."
-          :other: "{0}லி."
-        :volume-megaliter: 
-          :one: "{0}மெ.லி."
-          :other: "{0}மெ.லி."
-        :volume-milliliter: 
-          :one: "{0}மிலி"
-          :other: "{0}மிலி"
-        :volume-pinch: 
-          :one: "{0}சிட்டி"
-          :other: "{0}சிட்டி"
-        :volume-pint: 
-          :one: "{0}பின்."
-          :other: "{0}பின்."
-        :volume-pint-metric: 
-          :one: "{0}மெ.பி."
-          :other: "{0}மெ.பி."
-        :volume-quart: 
-          :one: "{0}குவா."
-          :other: "{0}குவா."
-        :volume-quart-imperial: 
-          :one: "{0}கு. இம்."
-          :other: "{0}கு. இம்."
-        :volume-tablespoon: 
-          :one: "{0}மே.க."
-          :other: "{0}மே.க."
-        :volume-teaspoon: 
-          :one: "{0}தே.க."
-          :other: "{0}தே.க."
-      :short: 
-        :acceleration-g-force: 
-          :one: "{0} ஜி.ஃபோ."
-          :other: "{0} ஜி.ஃபோ."
-        :acceleration-meter-per-square-second: 
-          :one: "{0} மீ/வி²"
-          :other: "{0} மீ/வி²"
-        :angle-arc-minute: 
-          :one: "{0} ஆர்க்நிமி."
-          :other: "{0} ஆர்க்நிமி."
-        :angle-arc-second: 
-          :one: "{0} ஆர்க்விநா."
-          :other: "{0} ஆர்க்விநா."
-        :angle-degree: 
-          :one: "{0} டிகி."
-          :other: "{0} டிகி."
-        :angle-radian: 
-          :one: "{0} ரேடி."
-          :other: "{0} ரேடி."
-        :angle-revolution: 
-          :one: "{0} சுழ."
-          :other: "{0} சுழ."
-        :angle-steradian: 
-          :other: "{0} sr"
-        :area-acre: 
-          :one: "{0} ஏக்."
-          :other: "{0} ஏக்."
-        :area-bu-jp: 
-          :other: "{0} bu [JP]"
-        :area-cho: 
-          :other: "{0} cho [JP]"
-        :area-dunam: 
-          :one: "{0} ட்யூனம்"
-          :other: "{0} ட்யூனம்"
-        :area-hectare: 
-          :one: "{0} ha"
-          :other: "{0} ha"
-        :area-se-jp: 
-          :other: "{0} se [JP]"
-        :area-square-centimeter: 
-          :one: "{0} செ.மீ.²"
-          :other: "{0} செ.மீ.²"
-        :area-square-foot: 
-          :one: "{0} ச.அ."
-          :other: "{0} ச.அ."
-        :area-square-inch: 
-          :one: "{0} அங்.²"
-          :other: "{0} அங்.²"
-        :area-square-kilometer: 
-          :one: "{0} km²"
-          :other: "{0} km²"
-        :area-square-meter: 
-          :one: "{0} m²"
-          :other: "{0} m²"
-        :area-square-mile: 
-          :one: "{0} ச. மை."
-          :other: "{0} ச. மை."
-        :area-square-yard: 
-          :one: "{0} யா²"
-          :other: "{0} யா.²"
-        :concentr-item: 
-          :one: "{0} உருப்படி"
-          :other: "{0} உருப்படி"
-        :concentr-karat: 
-          :one: "{0} கார."
-          :other: "{0} கார."
-        :concentr-katal: 
-          :one: "{0} kat"
-          :other: "{0} kat"
-        :concentr-milligram-ofglucose-per-deciliter: 
-          :one: "{0} மி.கி./டெ.லி."
-          :other: "{0} மி.கி./டெ.லி."
-        :concentr-millimole-per-liter: 
-          :one: "{0} மி.மோ./லி."
-          :other: "{0} மி.மோ./லி."
-        :concentr-mole: 
-          :one: "{0} மோல்"
-          :other: "{0} மோல்"
-        :concentr-ofglucose: 
-          :one: "{0} Glc"
-          :other: "{0} Glc"
-        :concentr-part: 
-          :one: "{0} பகுதி"
-          :other: "{0} பகுதி"
-        :concentr-part-per-1e6: 
-          :one: "{0} ப./மி."
-          :other: "{0} ப./மி."
-        :concentr-part-per-1e9: 
-          :one: "{0} பார்ட்ஸ்/பில்லியன்"
-          :other: "{0} ppb"
-        :concentr-percent: 
-          :other: "{0}%"
-        :concentr-permille: 
-          :other: "{0}‰"
-        :concentr-permyriad: 
-          :other: "{0}‱"
-        :consumption-liter-per-100-kilometer: 
-          :one: "{0} லி./100கி.மீ"
-          :other: "{0} லி./100கி.மீ"
-        :consumption-liter-per-kilometer: 
-          :one: "{0} லி./கி.மீ."
-          :other: "{0} லி./கி.மீ."
-        :consumption-mile-per-gallon: 
-          :one: "{0} மை./கே."
-          :other: "{0} மை./கே."
-        :consumption-mile-per-gallon-imperial: 
-          :one: "{0} மை./இம். கே."
-          :other: "{0} மை./இம். கே."
-        :digital-bit: 
-          :one: "{0} பிட்"
-          :other: "{0} பிட்"
-        :digital-byte: 
-          :one: "{0} பை."
-          :other: "{0} பை."
-        :digital-gigabit: 
-          :other: "{0} Gb"
-        :digital-gigabyte: 
-          :other: "{0} GB"
-        :digital-kilobit: 
-          :other: "{0} kb"
-        :digital-kilobyte: 
-          :other: "{0} kB"
-        :digital-megabit: 
-          :other: "{0} Mb"
-        :digital-megabyte: 
-          :other: "{0} MB"
-        :digital-petabyte: 
-          :other: "{0} PB"
-        :digital-terabit: 
-          :other: "{0} Tb"
-        :digital-terabyte: 
-          :other: "{0} TB"
-        :duration-century: 
-          :one: "{0} நூ."
-          :other: "{0} நூ."
-        :duration-day: 
-          :one: "{0} நாள்"
-          :other: "{0} நாட்கள்"
-        :duration-decade: 
-          :one: "{0} தசாப்தம்"
-          :other: "{0} தசாப்தம்"
-        :duration-fortnight: 
-          :other: "{0} fw"
-        :duration-hour: 
-          :one: "{0} ம."
-          :other: "{0} ம."
-        :duration-microsecond: 
-          :other: "{0} μs"
-        :duration-millisecond: 
-          :one: "{0} மி.வி."
-          :other: "{0} மி.வி."
-        :duration-minute: 
-          :one: "{0} நிமி."
-          :other: "{0} நிமி."
-        :duration-month: 
-          :one: "{0} மாதம்"
-          :other: "{0} மாத."
-        :duration-nanosecond: 
-          :one: "{0} நா.செ."
-          :other: "{0} நா.செ."
-        :duration-night: 
-          :one: "{0} இரவு"
-          :other: "{0} இரவுகள்"
-        :duration-quarter: 
-          :one: "{0} காலா."
-          :other: "{0} காலா."
-        :duration-second: 
-          :one: "{0} விநாடி"
-          :other: "{0} விநாடி"
-        :duration-week: 
-          :one: "{0} வாரம்"
-          :other: "{0} வார."
-        :duration-year: 
-          :one: "{0} ஆண்டு"
-          :other: "{0} ஆண்டு."
-        :electric-ampere: 
-          :one: "{0} ஆம்."
-          :other: "{0} ஆம்."
-        :electric-coulomb: 
-          :other: "{0} C"
-        :electric-farad: 
-          :other: "{0} F"
-        :electric-henry: 
-          :other: "{0} H"
-        :electric-milliampere: 
-          :one: "{0} மி.ஆ."
-          :other: "{0} மி.ஆ."
-        :electric-ohm: 
-          :other: "{0} Ω"
-        :electric-siemens: 
-          :other: "{0} S"
-        :electric-volt: 
-          :one: "{0} வோ."
-          :other: "{0} வோ."
-        :energy-becquerel: 
-          :other: "{0} Bq"
-        :energy-british-thermal-unit: 
-          :one: "{0} பி.டி.யூ"
-          :other: "{0} பி.டி.யூ"
-        :energy-british-thermal-unit-it: 
-          :other: "{0} BTU-IT"
-        :energy-calorie: 
-          :one: "{0} கலோ."
-          :other: "{0} கலோ."
-        :energy-calorie-it: 
+        :volume-barrel:
+          :one: "{0} பீப்பாய்"
+          :other: "{0} பீப்பாய்கள்"
+        :volume-dessert-spoon:
+          :one: "{0} இனிப்புக் கரண்டி"
+          :other: "{0} இனிப்புக் கரண்டி"
+        :volume-dessert-spoon-imperial:
+          :one: "{0} இம்பீரியல் இனிப்புக் கரண்டி"
+          :other: "{0} இம்பீரியல் இனிப்புக் கரண்டிகள்"
+        :volume-drop:
+          :one: "{0} துளி"
+          :other: "{0} துளிகள்"
+        :volume-dram:
+          :one: "{0} டிராம்"
+          :other: "{0} டிராம்கள்"
+        :volume-jigger:
+          :one: "{0} ஜிகர்"
+          :other: "{0} ஜிகர்கள்"
+        :volume-pinch:
+          :one: "{0} சிட்டிகை"
+          :other: "{0} சிட்டிகை"
+        :volume-quart-imperial:
+          :one: "{0} இம்பீரியல் குவார்ட்"
+          :other: "{0} இம்பீரியல் குவார்ட்ஸ்"
+        :angle-steradian:
+          :one: "{0} ஸ்டெரேடியன்"
+          :other: "{0} ஸ்டெரேடியன்"
+        :concentr-katal:
+          :one: "{0} கட்டல்"
+          :other: "{0} கட்டல்கள்"
+        :electric-coulomb:
+          :one: "{0} கூலும்"
+          :other: "{0} கூலும்"
+        :electric-farad:
+          :one: "{0} ஃபாரட்"
+          :other: "{0} ஃபாரட்"
+        :electric-henry:
+          :one: "{0} ஹென்றி"
+          :other: "{0} ஹென்றி"
+        :electric-siemens:
+          :one: "{0} சீமென்"
+          :other: "{0} சீமென்"
+        :energy-calorie-it:
           :one: "{0} கலோரி [IT]"
           :other: "{0} கலோரி-IT"
-        :energy-electronvolt: 
+        :energy-becquerel:
+          :one: "{0} பெக்கொரல்"
+          :other: "{0} பெக்கொரல்"
+        :energy-sievert:
+          :one: "{0} சீவர்ட்"
+          :other: "{0} சீவர்ட்"
+        :energy-gray:
+          :one: "{0} கிரே"
+          :other: "{0} கிரே"
+        :force-kilogram-force:
+          :one: "{0} கிலோகிராம் விசை"
+          :other: "{0} கிலோகிராம் விசை"
+        :magnetic-tesla:
+          :one: "{0} டெஸ்லா"
+          :other: "{0} டெஸ்லா"
+        :magnetic-weber:
+          :one: வெபர்
+          :other: "{0} வெபர்"
+        :speed-light-speed:
+          :one: "{0} ஒளிவேகத்திற்கு"
+          :other: "{0} ஒளிவேகத்திற்கு"
+        :concentr-part-per-1e9:
+          :one: "{0} பார்ட்ஸ்/பில்லியனுக்கு"
+          :other: "{0} பார்ட்ஸ்/பில்லியனுக்கு"
+        :duration-night:
+          :one: "{0} இரவுக்கு"
+          :other: "{0} இரவுகளுக்கு"
+      :short:
+        :acceleration-g-force:
+          :other: "{0} ஜி.ஃபோ."
+          :one: "{0} ஜி.ஃபோ."
+        :acceleration-meter-per-square-second:
+          :other: "{0} மீ/வி²"
+          :one: "{0} மீ/வி²"
+        :angle-revolution:
+          :other: "{0} சுழ."
+          :one: "{0} சுழ."
+        :angle-radian:
+          :other: "{0} ரேடி."
+          :one: "{0} ரேடி."
+        :angle-degree:
+          :other: "{0} டிகி."
+          :one: "{0} டிகி."
+        :angle-arc-minute:
+          :other: "{0} ஆர்க்நிமி."
+          :one: "{0} ஆர்க்நிமி."
+        :angle-arc-second:
+          :other: "{0} ஆர்க்விநா."
+          :one: "{0} ஆர்க்விநா."
+        :area-square-kilometer:
+          :other: "{0} km²"
+          :one: "{0} km²"
+        :area-hectare:
+          :other: "{0} ha"
+          :one: "{0} ha"
+        :area-square-meter:
+          :other: "{0} m²"
+          :one: "{0} m²"
+        :area-square-centimeter:
+          :other: "{0} செ.மீ.²"
+          :one: "{0} செ.மீ.²"
+        :area-square-mile:
+          :other: "{0} ச. மை."
+          :one: "{0} ச. மை."
+        :area-acre:
+          :other: "{0} ஏக்."
+          :one: "{0} ஏக்."
+        :area-square-yard:
+          :other: "{0} யா.²"
+          :one: "{0} யா²"
+        :area-square-foot:
+          :other: "{0} ச.அ."
+          :one: "{0} ச.அ."
+        :area-square-inch:
+          :other: "{0} அங்.²"
+          :one: "{0} அங்.²"
+        :area-dunam:
+          :other: "{0} ட்யூனம்"
+          :one: "{0} ட்யூனம்"
+        :concentr-karat:
+          :other: "{0} கார."
+          :one: "{0} கார."
+        :concentr-milligram-ofglucose-per-deciliter:
+          :other: "{0} மி.கி./டெ.லி."
+          :one: "{0} மி.கி./டெ.லி."
+        :concentr-millimole-per-liter:
+          :other: "{0} மி.மோ./லி."
+          :one: "{0} மி.மோ./லி."
+        :concentr-item:
+          :other: "{0} உருப்படி"
+          :one: "{0} உருப்படி"
+        :concentr-part:
+          :other: "{0} பகுதி"
+          :one: "{0} பகுதி"
+        :concentr-part-per-1e6:
+          :other: "{0} ப./மி."
+          :one: "{0} ப./மி."
+        :concentr-percent:
+          :other: "{0}%"
+        :concentr-permille:
+          :other: "{0}‰"
+        :concentr-permyriad:
+          :other: "{0}‱"
+        :concentr-mole:
+          :other: "{0} மோல்"
+          :one: "{0} மோல்"
+        :concentr-ofglucose:
+          :other: "{0} Glc"
+          :one: "{0} Glc"
+        :consumption-liter-per-kilometer:
+          :other: "{0} லி./கி.மீ."
+          :one: "{0} லி./கி.மீ."
+        :consumption-liter-per-100-kilometer:
+          :other: "{0} லி./100கி.மீ"
+          :one: "{0} லி./100கி.மீ"
+        :consumption-mile-per-gallon:
+          :other: "{0} மை./கே."
+          :one: "{0} மை./கே."
+        :consumption-mile-per-gallon-imperial:
+          :other: "{0} மை./இம். கே."
+          :one: "{0} மை./இம். கே."
+        :digital-petabyte:
+          :other: "{0} PB"
+        :digital-terabyte:
+          :other: "{0} TB"
+        :digital-terabit:
+          :other: "{0} Tb"
+        :digital-gigabyte:
+          :other: "{0} GB"
+        :digital-gigabit:
+          :other: "{0} Gb"
+        :digital-megabyte:
+          :other: "{0} MB"
+        :digital-megabit:
+          :other: "{0} Mb"
+        :digital-kilobyte:
+          :other: "{0} kB"
+        :digital-kilobit:
+          :other: "{0} kb"
+        :digital-byte:
+          :other: "{0} பை."
+          :one: "{0} பை."
+        :digital-bit:
+          :other: "{0} பிட்"
+          :one: "{0} பிட்"
+        :duration-century:
+          :other: "{0} நூ."
+          :one: "{0} நூ."
+        :duration-decade:
+          :other: "{0} தசாப்தம்"
+          :one: "{0} தசாப்தம்"
+        :duration-year:
+          :other: "{0} ஆண்டு."
+          :one: "{0} ஆண்டு"
+        :duration-quarter:
+          :other: "{0} காலா."
+          :one: "{0} காலா."
+        :duration-month:
+          :other: "{0} மாத."
+          :one: "{0} மாதம்"
+        :duration-week:
+          :other: "{0} வார."
+          :one: "{0} வாரம்"
+        :duration-day:
+          :other: "{0} நாட்கள்"
+          :one: "{0} நாள்"
+        :duration-hour:
+          :other: "{0} ம."
+          :one: "{0} ம."
+        :duration-minute:
+          :other: "{0} நிமி."
+          :one: "{0} நிமி."
+        :duration-second:
+          :other: "{0} விநாடி"
+          :one: "{0} விநாடி"
+        :duration-millisecond:
+          :other: "{0} மி.வி."
+          :one: "{0} மி.வி."
+        :duration-microsecond:
+          :other: "{0} μs"
+        :duration-nanosecond:
+          :other: "{0} நா.செ."
+          :one: "{0} நா.செ."
+        :electric-ampere:
+          :other: "{0} ஆம்."
+          :one: "{0} ஆம்."
+        :electric-milliampere:
+          :other: "{0} மி.ஆ."
+          :one: "{0} மி.ஆ."
+        :electric-ohm:
+          :other: "{0} Ω"
+        :electric-volt:
+          :other: "{0} வோ."
+          :one: "{0} வோ."
+        :energy-kilocalorie:
+          :other: "{0} kcal"
+          :one: "{0} kcal"
+        :energy-calorie:
+          :other: "{0} கலோ."
+          :one: "{0} கலோ."
+        :energy-kilojoule:
+          :other: "{0} kJ"
+          :one: "{0} kJ"
+        :energy-joule:
+          :other: "{0} J"
+          :one: "{0} J"
+        :energy-kilowatt-hour:
+          :other: "{0} kWh"
+          :one: "{0} kWh"
+        :energy-electronvolt:
           :other: "{0} eV"
-        :energy-foodcalorie: 
+        :energy-british-thermal-unit:
+          :other: "{0} பி.டி.யூ"
+          :one: "{0} பி.டி.யூ"
+        :energy-therm-us:
+          :other: "{0} யூஎஸ் தெர்ம்"
+          :one: "{0} யூஎஸ் தெர்ம்"
+        :force-pound-force:
+          :other: "{0} ப.வி"
+          :one: "{0} ப.வி"
+        :force-newton:
+          :other: "{0} N"
+          :one: "{0} N"
+        :force-kilowatt-hour-per-100-kilometer:
+          :other: "{0} கி.வா-ம.நே./100கி.மி."
+          :one: "{0} கி.வா-ம.நே./100கி.மி."
+        :frequency-gigahertz:
+          :other: "{0} GHz"
+          :one: "{0} GHz"
+        :frequency-megahertz:
+          :other: "{0} MHz"
+          :one: "{0} MHz"
+        :frequency-kilohertz:
+          :other: "{0} kHz"
+          :one: "{0} kHz"
+        :frequency-hertz:
+          :other: "{0} Hz"
+          :one: "{0} Hz"
+        :graphics-em:
+          :other: "{0} எம்"
+          :one: "{0} எம்"
+        :graphics-pixel:
+          :other: "{0} பிக்"
+          :one: "{0} பிக்"
+        :graphics-megapixel:
+          :other: "{0} MP"
+          :one: "{0} MP"
+        :graphics-pixel-per-centimeter:
+          :other: "{0} ppcm"
+          :one: "{0} ppcm"
+        :graphics-pixel-per-inch:
+          :other: "{0} ppi"
+          :one: "{0} ppi"
+        :length-earth-radius:
+          :other: "{0} R⊕"
+        :length-kilometer:
+          :other: "{0} கி.மீ."
+          :one: "{0} கி.மீ."
+        :length-meter:
+          :other: "{0} மீ."
+          :one: "{0} மீ."
+        :length-decimeter:
+          :other: "{0} டெ.மீ"
+          :one: "{0} டெ.மீ"
+        :length-centimeter:
+          :other: "{0} செ.மீ."
+          :one: "{0} செ.மீ."
+        :length-millimeter:
+          :other: "{0} மி.மீ."
+          :one: "{0} மி.மீ."
+        :length-micrometer:
+          :other: "{0} μm"
+          :one: "{0} μm"
+        :length-nanometer:
+          :other: "{0} நா.மீ."
+          :one: "{0} நா.மீ."
+        :length-picometer:
+          :other: "{0} பை.மீ."
+          :one: "{0} பை.மீ."
+        :length-mile:
+          :other: "{0} mi"
+          :one: "{0} mi"
+        :length-yard:
+          :other: "{0} கெஜ."
+          :one: "{0} கெஜ."
+        :length-foot:
+          :other: "{0} அடி"
+          :one: "{0} அடி"
+        :length-inch:
+          :other: "{0} in"
+        :length-parsec:
+          :other: "{0} pc"
+          :one: "{0} pc"
+        :length-light-year:
+          :other: "{0} ஒ.ஆ."
+          :one: "{0} ஒ.ஆ."
+        :length-astronomical-unit:
+          :other: "{0} au"
+          :one: "{0} au"
+        :length-furlong:
+          :other: "{0} பர்"
+          :one: "{0} பர்"
+        :length-fathom:
+          :other: "{0} ஃபே."
+          :one: "{0} ஃபே."
+        :length-nautical-mile:
+          :other: "{0} nmi"
+          :one: "{0} nmi"
+        :length-mile-scandinavian:
+          :other: "{0} ஸ்.மை."
+          :one: "{0} ஸ்.மை."
+        :length-point:
+          :other: "{0} அ.பு."
+          :one: "{0} அ.பு."
+        :length-solar-radius:
+          :other: "{0} R☉"
+        :light-lux:
+          :other: "{0} லக்."
+          :one: "{0} லக்."
+        :light-candela:
+          :other: "{0} கே."
+          :one: "{0} கே."
+        :light-lumen:
+          :other: "{0} lm"
+          :one: "{0} lm"
+        :light-solar-luminosity:
+          :other: "{0} L☉"
+        :mass-tonne:
+          :other: "{0} ட."
+          :one: "{0} ட."
+        :mass-kilogram:
+          :other: "{0} kg"
+          :one: "{0} kg"
+        :mass-gram:
+          :other: "{0} கி."
+          :one: "{0} கி."
+        :mass-milligram:
+          :other: "{0} mg"
+          :one: "{0} mg"
+        :mass-microgram:
+          :other: "{0} μg"
+          :one: "{0} μg"
+        :mass-ton:
+          :other: "{0} டன்"
+          :one: "{0} டன்"
+        :mass-stone:
+          :other: "{0} ஸ்டோ."
+          :one: "{0} ஸ்டோ."
+        :mass-pound:
+          :other: "{0} பவு."
+          :one: "{0} lb"
+        :mass-ounce:
+          :other: "{0} oz"
+          :one: "{0} oz"
+        :mass-ounce-troy:
+          :other: "{0} அவு. டி."
+          :one: "{0} அவு. டி."
+        :mass-carat:
+          :other: "{0} கேர."
+          :one: "{0} கேர."
+        :mass-dalton:
+          :other: "{0} டா."
+          :one: "{0} டா."
+        :mass-earth-mass:
+          :other: "{0} M⊕"
+        :mass-solar-mass:
+          :other: "{0} M☉"
+        :mass-grain:
+          :other: "{0} கிரைன்"
+          :one: "{0} கிரைன்"
+        :power-gigawatt:
+          :other: "{0} GW"
+          :one: "{0} GW"
+        :power-megawatt:
+          :other: "{0} MW"
+          :one: "{0} MW"
+        :power-kilowatt:
+          :other: "{0} kW"
+          :one: "{0} kW"
+        :power-watt:
+          :other: "{0} W"
+          :one: "{0} W"
+        :power-milliwatt:
+          :other: "{0} mW"
+          :one: "{0} mW"
+        :power-horsepower:
+          :other: "{0} hp"
+          :one: "{0} hp"
+        :pressure-millimeter-ofhg:
+          :other: "{0} mmHg"
+          :one: "{0} mmHg"
+        :pressure-ofhg:
+          :other: "{0} Hg"
+        :pressure-pound-force-per-square-inch:
+          :other: "{0} psi"
+        :pressure-inch-ofhg:
+          :other: "{0} inHg"
+          :one: "{0} inHg"
+        :pressure-bar:
+          :other: "{0} பார்"
+          :one: "{0} பார்"
+        :pressure-millibar:
+          :other: "{0} mbar"
+          :one: "{0} mbar"
+        :pressure-atmosphere:
+          :other: "{0} atm"
+        :pressure-pascal:
+          :other: "{0} Pa"
+          :one: "{0} Pa"
+        :pressure-hectopascal:
+          :other: "{0} hPa"
+          :one: "{0} hPa"
+        :pressure-kilopascal:
+          :other: "{0} kPa"
+          :one: "{0} kPa"
+        :pressure-megapascal:
+          :other: "{0} MPa"
+          :one: "{0} MPa"
+        :speed-kilometer-per-hour:
+          :other: "{0} கி.மீ./ம.நே."
+          :one: "{0} கி.மீ./ம.நே."
+        :speed-meter-per-second:
+          :other: "{0} மீ/வி"
+          :one: "{0} மீ/வி"
+        :speed-mile-per-hour:
+          :other: "{0} மை/ம.நே."
+          :one: "{0} மை/ம.நே."
+        :speed-knot:
+          :other: "{0} நா."
+          :one: "{0} நா."
+        :speed-beaufort:
+          :other: B {0}
+          :one: B {0}
+        :temperature-generic:
+          :other: "{0}°"
+        :temperature-celsius:
+          :other: "{0}°C"
+          :one: "{0}°C"
+        :temperature-fahrenheit:
+          :other: "{0}°F"
+          :one: "{0}°F"
+        :temperature-kelvin:
+          :other: "{0} K"
+          :one: "{0} K"
+        :torque-pound-force-foot:
+          :other: "{0} ப.அடி"
+          :one: "{0} ப.அடி"
+        :torque-newton-meter:
+          :other: "{0} N⋅m"
+          :one: "{0} N⋅m"
+        :volume-cubic-kilometer:
+          :other: "{0} கிமீ³"
+          :one: "{0} கிமீ³"
+        :volume-cubic-meter:
+          :other: "{0} மீ³"
+          :one: "{0} மீ³"
+        :volume-cubic-centimeter:
+          :other: "{0} செ.மீ.³"
+          :one: "{0} செ.மீ.³"
+        :volume-cubic-mile:
+          :other: "{0} mi³"
+          :one: "{0} mi³"
+        :volume-cubic-yard:
+          :other: "{0} யா.³"
+          :one: "{0} யா.³"
+        :volume-cubic-foot:
+          :other: "{0} அடி³"
+          :one: "{0} அடி³"
+        :volume-cubic-inch:
+          :other: "{0} அங்.³"
+          :one: "{0} அங்.³"
+        :volume-megaliter:
+          :other: "{0} மெ.லி."
+          :one: "{0} மெ.லி."
+        :volume-hectoliter:
+          :other: "{0} ஹெ.லி."
+          :one: "{0} ஹெ.லி."
+        :volume-liter:
+          :other: "{0} லி."
+          :one: "{0} லி."
+        :volume-deciliter:
+          :other: "{0} டெ.லி."
+          :one: "{0} டெ.லி."
+        :volume-centiliter:
+          :other: "{0} செ.லி."
+          :one: "{0} செ.லி."
+        :volume-milliliter:
+          :other: "{0} மிலி"
+          :one: "{0} மிலி"
+        :volume-pint-metric:
+          :other: "{0} மெ.பி."
+          :one: "{0} மெ.பி."
+        :volume-cup-metric:
+          :other: "{0} mc"
+          :one: "{0} mc"
+        :volume-fluid-ounce-metric:
+          :other: "{0} fl oz m."
+        :volume-acre-foot:
+          :other: "{0} ஏக். அடி"
+          :one: "{0} ஏக். அடி"
+        :volume-bushel:
+          :other: "{0} புச."
+          :one: "{0} புச."
+        :volume-gallon:
+          :other: "{0} கேல."
+          :one: "{0} கேல."
+        :volume-gallon-imperial:
+          :other: "{0} கேல. இம்."
+          :one: "{0} கேல. இம்."
+        :volume-quart:
+          :other: "{0} குவாட்."
+          :one: "{0} குவாட்."
+        :volume-pint:
+          :other: "{0} பின்."
+          :one: "{0} பின்."
+        :volume-pint-imperial:
+          :other: "{0} pt Imp."
+        :volume-cup:
+          :other: "{0} கோ."
+          :one: "{0} கோ."
+        :volume-cup-imperial:
+          :other: "{0} cup Imp."
+        :volume-fluid-ounce:
+          :other: "{0} தி. அவு."
+          :one: "{0} தி. அவு."
+        :volume-fluid-ounce-imperial:
+          :other: "{0} தி. அவு. இம்பீ."
+          :one: "{0} தி. அவு. இம்பீ."
+        :volume-tablespoon:
+          :other: "{0} மே.க."
+          :one: "{0} மே.க."
+        :volume-teaspoon:
+          :other: "{0} தே.க."
+          :one: "{0} தே.க."
+        :volume-barrel:
+          :other: "{0} பீப்."
+          :one: "{0} பீப்."
+        :volume-dessert-spoon:
+          :other: "{0} இ.க."
+          :one: "{0} இ.க."
+        :volume-dessert-spoon-imperial:
+          :other: "{0} இ.க. இம்பீ."
+          :one: "{0} இ.க. இம்பீ."
+        :volume-drop:
+          :other: "{0} துளி"
+          :one: "{0} துளி"
+        :volume-dram:
+          :other: "{0} டிரா.தி."
+          :one: "{0} டிரா.தி."
+        :volume-jigger:
+          :other: "{0} ஜிக."
+          :one: "{0} ஜிக."
+        :volume-pinch:
+          :other: "{0} சிட்டி"
+          :one: "{0} சிட்டி"
+        :volume-quart-imperial:
+          :other: "{0} குவாட். இம்பீ."
+          :one: "{0} குவாட். இம்பீ."
+        :angle-steradian:
+          :other: "{0} sr"
+        :concentr-katal:
+          :other: "{0} kat"
+          :one: "{0} kat"
+        :electric-coulomb:
+          :other: "{0} C"
+        :electric-farad:
+          :other: "{0} F"
+        :electric-henry:
+          :other: "{0} H"
+        :electric-siemens:
+          :other: "{0} S"
+        :energy-calorie-it:
+          :other: "{0} கலோரி-IT"
+          :one: "{0} கலோரி [IT]"
+        :energy-british-thermal-unit-it:
+          :other: "{0} BTU-IT"
+        :energy-becquerel:
+          :other: "{0} Bq"
+        :energy-sievert:
+          :other: "{0} Sv"
+        :energy-gray:
+          :other: "{0} Gy"
+        :force-kilogram-force:
+          :other: "{0} kgf"
+        :length-rod:
+          :other: "{0} rod"
+        :length-chain:
+          :other: "{0} chain"
+        :magnetic-tesla:
+          :other: "{0} T"
+        :magnetic-weber:
+          :other: "{0} Wb"
+        :temperature-rankine:
+          :other: "{0} °R"
+        :duration-fortnight:
+          :other: "{0} fw"
+        :mass-slug:
+          :other: "{0} slug"
+        :pressure-gasoline-energy-density:
+          :other: "{0} gas E"
+        :length-rin:
+          :other: "{0} rin [JP]"
+        :length-sun:
+          :other: "{0} sun [JP]"
+        :length-shaku-length:
+          :other: "{0} shaku [JP]"
+        :length-shaku-cloth:
+          :other: "{0} shaku [cloth, JP]"
+        :length-ken:
+          :other: "{0} ken [JP]"
+        :length-jo-jp:
+          :other: "{0} jo [JP]"
+        :length-ri-jp:
+          :other: "{0} ri [JP]"
+        :area-bu-jp:
+          :other: "{0} bu [JP]"
+        :area-se-jp:
+          :other: "{0} se [JP]"
+        :area-cho:
+          :other: "{0} cho [JP]"
+        :volume-kosaji:
+          :other: "{0} kosaji [JP]"
+        :volume-osaji:
+          :other: "{0} osaji [JP]"
+        :volume-cup-jp:
+          :other: "{0} cup [JP]"
+        :volume-shaku:
+          :other: "{0} shaku [vol, JP]"
+        :volume-sai:
+          :other: "{0} sai [JP]"
+        :volume-to-jp:
+          :other: "{0} to [JP]"
+        :volume-koku:
+          :other: "{0} koku [JP]"
+        :speed-light-speed:
+          :other: "{0} ஒளிவேகம்"
+          :one: "{0} ஒளிவேகம்"
+        :mass-fun:
+          :other: "{0} fun [JP]"
+        :concentr-part-per-1e9:
+          :other: "{0} ppb"
+          :one: "{0} பார்ட்ஸ்/பில்லியன்"
+        :duration-night:
+          :other: "{0} இரவுகள்"
+          :one: "{0} இரவு"
+        :energy-foodcalorie:
           :one: "{0} கலோ."
           :other: "{0} கலோ."
-        :energy-gray: 
-          :other: "{0} Gy"
-        :energy-joule: 
-          :one: "{0} J"
-          :other: "{0} J"
-        :energy-kilocalorie: 
-          :one: "{0} kcal"
-          :other: "{0} kcal"
-        :energy-kilojoule: 
-          :one: "{0} kJ"
-          :other: "{0} kJ"
-        :energy-kilowatt-hour: 
-          :one: "{0} kWh"
-          :other: "{0} kWh"
-        :energy-sievert: 
-          :other: "{0} Sv"
-        :energy-therm-us: 
-          :one: "{0} யூஎஸ் தெர்ம்"
-          :other: "{0} யூஎஸ் தெர்ம்"
-        :force-kilogram-force: 
-          :other: "{0} kgf"
-        :force-kilowatt-hour-per-100-kilometer: 
-          :one: "{0} கி.வா-ம.நே./100கி.மி."
-          :other: "{0} கி.வா-ம.நே./100கி.மி."
-        :force-newton: 
-          :one: "{0} N"
-          :other: "{0} N"
-        :force-pound-force: 
-          :one: "{0} ப.வி"
-          :other: "{0} ப.வி"
-        :frequency-gigahertz: 
-          :one: "{0} GHz"
-          :other: "{0} GHz"
-        :frequency-hertz: 
-          :one: "{0} Hz"
-          :other: "{0} Hz"
-        :frequency-kilohertz: 
-          :one: "{0} kHz"
-          :other: "{0} kHz"
-        :frequency-megahertz: 
-          :one: "{0} MHz"
-          :other: "{0} MHz"
-        :graphics-dot: 
-          :one: "{0} புள்ளி"
-          :other: "{0} புள்ளி"
-        :graphics-dot-per-centimeter: 
+        :graphics-dot-per-centimeter:
           :one: "{0} பு / செ.மீ"
           :other: "{0} பு / செ.மீ"
-        :graphics-dot-per-inch: 
+        :graphics-dot-per-inch:
           :one: "{0} dpi"
           :other: "{0} dpi"
-        :graphics-em: 
-          :one: "{0} எம்"
-          :other: "{0} எம்"
-        :graphics-megapixel: 
+        :graphics-dot:
+          :one: "{0} புள்ளி"
+          :other: "{0} புள்ளி"
+      :narrow:
+        :acceleration-meter-per-square-second:
+          :one: "{0}மீ/வி²"
+          :other: "{0}மீ/வி²"
+        :angle-revolution:
+          :one: "{0}சுழற்."
+          :other: "{0}சுழற்."
+        :angle-radian:
+          :one: "{0}ரேடி."
+          :other: "{0}ரேடி."
+        :angle-degree:
+          :one: "{0}°"
+          :other: "{0}°"
+        :angle-arc-minute:
+          :one: "{0}′"
+          :other: "{0}′"
+        :angle-arc-second:
+          :one: "{0}″"
+          :other: "{0}″"
+        :area-square-kilometer:
+          :one: "{0} km²"
+          :other: "{0} km²"
+        :area-hectare:
+          :one: "{0} ha"
+          :other: "{0} ha"
+        :area-square-meter:
+          :one: "{0} m²"
+          :other: "{0} m²"
+        :area-square-centimeter:
+          :one: "{0}செ.மீ.²"
+          :other: "{0}செ.மீ.²"
+        :area-square-mile:
+          :one: "{0} mi²"
+          :other: "{0} mi²"
+        :area-square-yard:
+          :one: "{0}யா²"
+          :other: "{0}யா²"
+        :area-square-foot:
+          :one: "{0} ft²"
+          :other: "{0} ft²"
+        :area-square-inch:
+          :one: "{0} in²"
+          :other: "{0} in²"
+        :area-dunam:
+          :one: "{0}ட்யூனம்"
+          :other: "{0}ட்யூனம்"
+        :concentr-karat:
+          :one: "{0}கார."
+          :other: "{0}கார."
+        :concentr-milligram-ofglucose-per-deciliter:
+          :one: "{0}மிகி/டெ"
+          :other: "{0}மிகி/டெ"
+        :concentr-millimole-per-liter:
+          :one: "{0}மிமோ/லி"
+          :other: "{0}மிமோ/லி"
+        :concentr-item:
+          :one: "{0}உருப்படி"
+          :other: "{0}உருப்படி"
+        :concentr-part:
+          :one: "{0} பகுதி"
+          :other: "{0} பகுதி"
+        :concentr-part-per-1e6:
+          :one: "{0}ப./மி."
+          :other: "{0}ப./மி."
+        :concentr-mole:
+          :one: "{0}மோல்"
+          :other: "{0}மோல்"
+        :consumption-liter-per-kilometer:
+          :one: "{0}லி./கி.மீ."
+          :other: "{0}லி./கி.மீ."
+        :consumption-liter-per-100-kilometer:
+          :one: "{0}லி./100கி.மீ"
+          :other: "{0}லி./100கி.மீ"
+        :consumption-mile-per-gallon:
+          :one: "{0}மை./கே."
+          :other: "{0}மை./கே."
+        :consumption-mile-per-gallon-imperial:
+          :one: "{0}m/gUK"
+          :other: "{0}m/gUK"
+        :digital-petabyte:
+          :one: "{0}PB"
+          :other: "{0}PB"
+        :digital-terabyte:
+          :one: "{0}TB"
+          :other: "{0}TB"
+        :digital-terabit:
+          :one: "{0}Tb"
+          :other: "{0}Tb"
+        :digital-gigabyte:
+          :one: "{0}GB"
+          :other: "{0}GB"
+        :digital-gigabit:
+          :one: "{0}Gb"
+          :other: "{0}Gb"
+        :digital-megabyte:
+          :one: "{0}MB"
+          :other: "{0}MB"
+        :digital-megabit:
+          :one: "{0}Mb"
+          :other: "{0}Mb"
+        :digital-kilobyte:
+          :one: "{0}kB"
+          :other: "{0}kB"
+        :digital-kilobit:
+          :one: "{0}kb"
+          :other: "{0}kb"
+        :digital-byte:
+          :one: "{0}பை."
+          :other: "{0}பை."
+        :digital-bit:
+          :one: "{0}பிட்"
+          :other: "{0}பிட்"
+        :duration-century:
+          :one: "{0}நூ."
+          :other: "{0}நூ."
+        :duration-decade:
+          :one: "{0}தசா."
+          :other: "{0}தசா."
+        :duration-year:
+          :one: "{0} ஆ"
+          :other: "{0} ஆ"
+        :duration-quarter:
+          :one: "{0} கா."
+          :other: "{0} கா."
+        :duration-month:
+          :one: "{0} மா"
+          :other: "{0} மா"
+        :duration-week:
+          :one: "{0} வா"
+          :other: "{0} வா"
+        :duration-day:
+          :one: "{0} நா"
+          :other: "{0} நா"
+        :duration-hour:
+          :one: "{0} ம.நே."
+          :other: "{0} ம.நே."
+        :duration-minute:
+          :one: "{0} நிமி."
+          :other: "{0} நிமி."
+        :duration-second:
+          :one: "{0} வி."
+          :other: "{0} வி."
+        :duration-microsecond:
+          :one: "{0}μs"
+          :other: "{0}μs"
+        :duration-nanosecond:
+          :one: "{0}நா.செ."
+          :other: "{0}நா.செ."
+        :electric-ampere:
+          :one: "{0}ஆம்."
+          :other: "{0}ஆம்."
+        :electric-milliampere:
+          :one: "{0}மி.ஆ."
+          :other: "{0}மி.ஆ."
+        :electric-ohm:
+          :one: "{0}Ω"
+          :other: "{0}Ω"
+        :electric-volt:
+          :one: "{0}வோ."
+          :other: "{0}வோ."
+        :energy-kilocalorie:
+          :one: "{0} kcal"
+          :other: "{0} kcal"
+        :energy-calorie:
+          :one: "{0}கலோ."
+          :other: "{0}கலோ."
+        :energy-foodcalorie:
+          :one: "{0}கலோ."
+          :other: "{0}கலோ."
+        :energy-kilojoule:
+          :one: "{0} kJ"
+          :other: "{0} kJ"
+        :energy-joule:
+          :one: "{0} J"
+          :other: "{0} J"
+        :energy-kilowatt-hour:
+          :one: "{0} kWh"
+          :other: "{0} kWh"
+        :energy-electronvolt:
+          :one: "{0}eV"
+          :other: "{0}eV"
+        :energy-british-thermal-unit:
+          :one: "{0}பி.டி.யூ"
+          :other: "{0}பி.டி.யூ"
+        :energy-therm-us:
+          :one: "{0}யூஎஸ் தெ."
+          :other: "{0}யூஎஸ் தெ."
+        :force-pound-force:
+          :one: "{0}ப.வி"
+          :other: "{0}ப.வி"
+        :force-newton:
+          :one: "{0}N"
+          :other: "{0}N"
+        :force-kilowatt-hour-per-100-kilometer:
+          :one: "{0}கி.வா.ம./100கி.மி."
+          :other: "{0}கி.வா.ம./100கி.மி."
+        :frequency-gigahertz:
+          :one: "{0} GHz"
+          :other: "{0} GHz"
+        :frequency-megahertz:
+          :one: "{0} MHz"
+          :other: "{0} MHz"
+        :frequency-kilohertz:
+          :one: "{0} kHz"
+          :other: "{0} kHz"
+        :frequency-hertz:
+          :one: "{0} Hz"
+          :other: "{0} Hz"
+        :graphics-em:
+          :one: "{0}எம்"
+          :other: "{0}எம்"
+        :graphics-pixel:
+          :one: "{0}பிக்"
+          :other: "{0}பிக்"
+        :graphics-megapixel:
           :one: "{0} MP"
           :other: "{0} MP"
-        :graphics-pixel: 
-          :one: "{0} பிக்"
-          :other: "{0} பிக்"
-        :graphics-pixel-per-centimeter: 
+        :graphics-pixel-per-centimeter:
           :one: "{0} ppcm"
           :other: "{0} ppcm"
-        :graphics-pixel-per-inch: 
+        :graphics-pixel-per-inch:
           :one: "{0} ppi"
           :other: "{0} ppi"
-        :length-astronomical-unit: 
-          :one: "{0} au"
-          :other: "{0} au"
-        :length-centimeter: 
-          :one: "{0} செ.மீ."
-          :other: "{0} செ.மீ."
-        :length-chain: 
-          :other: "{0} chain"
-        :length-decimeter: 
-          :one: "{0} டெ.மீ"
-          :other: "{0} டெ.மீ"
-        :length-earth-radius: 
-          :other: "{0} R⊕"
-        :length-fathom: 
-          :one: "{0} ஃபே."
-          :other: "{0} ஃபே."
-        :length-foot: 
-          :one: "{0} அடி"
-          :other: "{0} அடி"
-        :length-furlong: 
-          :one: "{0} பர்"
-          :other: "{0} பர்"
-        :length-inch: 
-          :other: "{0} in"
-        :length-jo-jp: 
-          :other: "{0} jo [JP]"
-        :length-ken: 
-          :other: "{0} ken [JP]"
-        :length-kilometer: 
-          :one: "{0} கி.மீ."
-          :other: "{0} கி.மீ."
-        :length-light-year: 
-          :one: "{0} ஒ.ஆ."
-          :other: "{0} ஒ.ஆ."
-        :length-meter: 
-          :one: "{0} மீ."
-          :other: "{0} மீ."
-        :length-micrometer: 
+        :graphics-dot-per-centimeter:
+          :one: "{0}பு/செ.மீ"
+          :other: "{0}பு/செ.மீ"
+        :graphics-dot-per-inch:
+          :one: "{0} dpi"
+          :other: "{0} dpi"
+        :graphics-dot:
+          :one: "{0}புள்ளி"
+          :other: "{0}புள்ளி"
+        :length-earth-radius:
+          :one: "{0}R⊕"
+          :other: "{0}R⊕"
+        :length-kilometer:
+          :one: "{0}கி.மீ."
+          :other: "{0}கி.மீ."
+        :length-meter:
+          :one: "{0}மீ."
+          :other: "{0}மீ."
+        :length-centimeter:
+          :one: "{0}செ.மீ."
+          :other: "{0}செ.மீ."
+        :length-millimeter:
+          :one: "{0}மி.மீ."
+          :other: "{0}மி.மீ."
+        :length-micrometer:
           :one: "{0} μm"
           :other: "{0} μm"
-        :length-mile: 
+        :length-nanometer:
+          :one: "{0}நா.மீ."
+          :other: "{0}நா.மீ."
+        :length-mile:
           :one: "{0} mi"
           :other: "{0} mi"
-        :length-mile-scandinavian: 
-          :one: "{0} ஸ்.மை."
-          :other: "{0} ஸ்.மை."
-        :length-millimeter: 
-          :one: "{0} மி.மீ."
-          :other: "{0} மி.மீ."
-        :length-nanometer: 
-          :one: "{0} நா.மீ."
-          :other: "{0} நா.மீ."
-        :length-nautical-mile: 
-          :one: "{0} nmi"
-          :other: "{0} nmi"
-        :length-parsec: 
+        :length-inch:
+          :one: "{0}″"
+          :other: "{0}″"
+        :length-parsec:
           :one: "{0} pc"
           :other: "{0} pc"
-        :length-picometer: 
-          :one: "{0} பை.மீ."
-          :other: "{0} பை.மீ."
-        :length-point: 
-          :one: "{0} அ.பு."
-          :other: "{0} அ.பு."
-        :length-ri-jp: 
-          :other: "{0} ri [JP]"
-        :length-rin: 
-          :other: "{0} rin [JP]"
-        :length-rod: 
-          :other: "{0} rod"
-        :length-shaku-cloth: 
-          :other: "{0} shaku [cloth, JP]"
-        :length-shaku-length: 
-          :other: "{0} shaku [JP]"
-        :length-solar-radius: 
-          :other: "{0} R☉"
-        :length-sun: 
-          :other: "{0} sun [JP]"
-        :length-yard: 
-          :one: "{0} கெஜ."
-          :other: "{0} கெஜ."
-        :light-candela: 
-          :one: "{0} கே."
-          :other: "{0} கே."
-        :light-lumen: 
+        :length-astronomical-unit:
+          :one: "{0} au"
+          :other: "{0} au"
+        :length-furlong:
+          :one: "{0}பர்"
+          :other: "{0}பர்"
+        :length-fathom:
+          :one: "{0}ஃபே."
+          :other: "{0}ஃபே."
+        :length-nautical-mile:
+          :one: "{0} nmi"
+          :other: "{0} nmi"
+        :length-point:
+          :one: "{0}அ.பு."
+          :other: "{0}அ.பு."
+        :length-solar-radius:
+          :one: "{0}R☉"
+          :other: "{0}R☉"
+        :light-lux:
+          :one: "{0}லக்."
+          :other: "{0}லக்."
+        :light-lumen:
           :one: "{0} lm"
           :other: "{0} lm"
-        :light-lux: 
-          :one: "{0} லக்."
-          :other: "{0} லக்."
-        :light-solar-luminosity: 
-          :other: "{0} L☉"
-        :magnetic-tesla: 
-          :other: "{0} T"
-        :magnetic-weber: 
-          :other: "{0} Wb"
-        :mass-carat: 
-          :one: "{0} கேர."
-          :other: "{0} கேர."
-        :mass-dalton: 
-          :one: "{0} டா."
-          :other: "{0} டா."
-        :mass-earth-mass: 
-          :other: "{0} M⊕"
-        :mass-fun: 
-          :other: "{0} fun [JP]"
-        :mass-grain: 
-          :one: "{0} கிரைன்"
-          :other: "{0} கிரைன்"
-        :mass-gram: 
-          :one: "{0} கி."
-          :other: "{0} கி."
-        :mass-kilogram: 
-          :one: "{0} kg"
-          :other: "{0} kg"
-        :mass-microgram: 
-          :one: "{0} μg"
-          :other: "{0} μg"
-        :mass-milligram: 
+        :light-solar-luminosity:
+          :one: "{0}L☉"
+          :other: "{0}L☉"
+        :mass-tonne:
+          :one: "{0}ட."
+          :other: "{0}ட."
+        :mass-kilogram:
+          :one: "{0}கி.கி."
+          :other: "{0}கி.கி."
+        :mass-milligram:
           :one: "{0} mg"
           :other: "{0} mg"
-        :mass-ounce: 
+        :mass-microgram:
+          :one: "{0} μg"
+          :other: "{0} μg"
+        :mass-ton:
+          :one: "{0}டன்"
+          :other: "{0}டன்"
+        :mass-ounce:
           :one: "{0} oz"
           :other: "{0} oz"
-        :mass-ounce-troy: 
-          :one: "{0} அவு. டி."
-          :other: "{0} அவு. டி."
-        :mass-pound: 
-          :one: "{0} lb"
-          :other: "{0} பவு."
-        :mass-slug: 
-          :other: "{0} slug"
-        :mass-solar-mass: 
-          :other: "{0} M☉"
-        :mass-stone: 
-          :one: "{0} ஸ்டோ."
-          :other: "{0} ஸ்டோ."
-        :mass-ton: 
-          :one: "{0} டன்"
-          :other: "{0} டன்"
-        :mass-tonne: 
-          :one: "{0} ட."
-          :other: "{0} ட."
-        :power-gigawatt: 
+        :mass-ounce-troy:
+          :one: "{0}அவு. டி."
+          :other: "{0}அவு. டி."
+        :mass-carat:
+          :one: "{0}கேர."
+          :other: "{0}கேர."
+        :mass-dalton:
+          :one: "{0}டா."
+          :other: "{0}டா."
+        :mass-earth-mass:
+          :one: "{0}M⊕"
+          :other: "{0}M⊕"
+        :mass-solar-mass:
+          :one: "{0}M☉"
+          :other: "{0}M☉"
+        :mass-grain:
+          :one: "{0}கிரைன்"
+          :other: "{0}கிரைன்"
+        :power-gigawatt:
           :one: "{0} GW"
           :other: "{0} GW"
-        :power-horsepower: 
-          :one: "{0} hp"
-          :other: "{0} hp"
-        :power-kilowatt: 
-          :one: "{0} kW"
-          :other: "{0} kW"
-        :power-megawatt: 
+        :power-megawatt:
           :one: "{0} MW"
           :other: "{0} MW"
-        :power-milliwatt: 
-          :one: "{0} mW"
-          :other: "{0} mW"
-        :power-watt: 
+        :power-kilowatt:
+          :one: "{0} kW"
+          :other: "{0} kW"
+        :power-watt:
           :one: "{0} W"
           :other: "{0} W"
-        :pressure-atmosphere: 
-          :other: "{0} atm"
-        :pressure-bar: 
-          :one: "{0} பார்"
-          :other: "{0} பார்"
-        :pressure-gasoline-energy-density: 
-          :other: "{0} gas E"
-        :pressure-hectopascal: 
-          :one: "{0} hPa"
-          :other: "{0} hPa"
-        :pressure-inch-ofhg: 
-          :one: "{0} inHg"
-          :other: "{0} inHg"
-        :pressure-kilopascal: 
-          :one: "{0} kPa"
-          :other: "{0} kPa"
-        :pressure-megapascal: 
-          :one: "{0} MPa"
-          :other: "{0} MPa"
-        :pressure-millibar: 
-          :one: "{0} mbar"
-          :other: "{0} mbar"
-        :pressure-millimeter-ofhg: 
+        :power-milliwatt:
+          :one: "{0} mW"
+          :other: "{0} mW"
+        :power-horsepower:
+          :one: "{0} hp"
+          :other: "{0} hp"
+        :pressure-millimeter-ofhg:
           :one: "{0} mmHg"
           :other: "{0} mmHg"
-        :pressure-ofhg: 
-          :other: "{0} Hg"
-        :pressure-pascal: 
+        :pressure-inch-ofhg:
+          :one: "{0}″ Hg"
+          :other: "{0}″ Hg"
+        :pressure-bar:
+          :one: "{0}பார்"
+          :other: "{0}பார்"
+        :pressure-millibar:
+          :one: "{0} mb"
+          :other: "{0} mb"
+        :pressure-atmosphere:
+          :one: "{0}atm"
+          :other: "{0}atm"
+        :pressure-pascal:
           :one: "{0} Pa"
           :other: "{0} Pa"
-        :pressure-pound-force-per-square-inch: 
-          :other: "{0} psi"
-        :speed-beaufort: 
-          :one: "B {0}"
-          :other: "B {0}"
-        :speed-kilometer-per-hour: 
-          :one: "{0} கி.மீ./ம.நே."
-          :other: "{0} கி.மீ./ம.நே."
-        :speed-knot: 
-          :one: "{0} நா."
-          :other: "{0} நா."
-        :speed-light-speed: 
-          :one: "{0} ஒளிவேகம்"
-          :other: "{0} ஒளிவேகம்"
-        :speed-meter-per-second: 
-          :one: "{0} மீ/வி"
-          :other: "{0} மீ/வி"
-        :speed-mile-per-hour: 
-          :one: "{0} மை/ம.நே."
-          :other: "{0} மை/ம.நே."
-        :temperature-celsius: 
+        :pressure-hectopascal:
+          :one: "{0} hPa"
+          :other: "{0} hPa"
+        :pressure-kilopascal:
+          :one: "{0} kPa"
+          :other: "{0} kPa"
+        :pressure-megapascal:
+          :one: "{0} MPa"
+          :other: "{0} MPa"
+        :speed-kilometer-per-hour:
+          :one: "{0}கி.மீ./ம."
+          :other: "{0}கி.மீ./ம."
+        :speed-knot:
+          :one: "{0}நா."
+          :other: "{0}நா."
+        :speed-beaufort:
+          :one: B {0}
+          :other: B {0}
+        :temperature-celsius:
           :one: "{0}°C"
           :other: "{0}°C"
-        :temperature-fahrenheit: 
-          :one: "{0}°F"
-          :other: "{0}°F"
-        :temperature-generic: 
+        :temperature-fahrenheit:
+          :one: "{0}°"
           :other: "{0}°"
-        :temperature-kelvin: 
+        :temperature-kelvin:
           :one: "{0} K"
           :other: "{0} K"
-        :temperature-rankine: 
-          :other: "{0} °R"
-        :torque-newton-meter: 
-          :one: "{0} N⋅m"
-          :other: "{0} N⋅m"
-        :torque-pound-force-foot: 
-          :one: "{0} ப.அடி"
-          :other: "{0} ப.அடி"
-        :volume-acre-foot: 
-          :one: "{0} ஏக். அடி"
-          :other: "{0} ஏக். அடி"
-        :volume-barrel: 
-          :one: "{0} பீப்."
-          :other: "{0} பீப்."
-        :volume-bushel: 
-          :one: "{0} புச."
-          :other: "{0} புச."
-        :volume-centiliter: 
-          :one: "{0} செ.லி."
-          :other: "{0} செ.லி."
-        :volume-cubic-centimeter: 
-          :one: "{0} செ.மீ.³"
-          :other: "{0} செ.மீ.³"
-        :volume-cubic-foot: 
-          :one: "{0} அடி³"
-          :other: "{0} அடி³"
-        :volume-cubic-inch: 
-          :one: "{0} அங்.³"
-          :other: "{0} அங்.³"
-        :volume-cubic-kilometer: 
-          :one: "{0} கிமீ³"
-          :other: "{0} கிமீ³"
-        :volume-cubic-meter: 
-          :one: "{0} மீ³"
-          :other: "{0} மீ³"
-        :volume-cubic-mile: 
+        :torque-pound-force-foot:
+          :one: "{0}ப.அடி"
+          :other: "{0}ப.அடி"
+        :torque-newton-meter:
+          :one: "{0}N⋅m"
+          :other: "{0}N⋅m"
+        :volume-cubic-kilometer:
+          :one: "{0} க.கி.மீ."
+          :other: "{0} க.கி.மீ."
+        :volume-cubic-meter:
+          :one: "{0}மீ³"
+          :other: "{0}மீ³"
+        :volume-cubic-centimeter:
+          :one: "{0}செ.மீ.³"
+          :other: "{0}செ.மீ.³"
+        :volume-cubic-mile:
           :one: "{0} mi³"
           :other: "{0} mi³"
-        :volume-cubic-yard: 
-          :one: "{0} யா.³"
-          :other: "{0} யா.³"
-        :volume-cup: 
-          :one: "{0} கோ."
-          :other: "{0} கோ."
-        :volume-cup-imperial: 
-          :other: "{0} cup Imp."
-        :volume-cup-jp: 
-          :other: "{0} cup [JP]"
-        :volume-cup-metric: 
+        :volume-cubic-yard:
+          :one: "{0}யா.³"
+          :other: "{0}யா.³"
+        :volume-cubic-foot:
+          :one: "{0}அடி³"
+          :other: "{0}அடி³"
+        :volume-cubic-inch:
+          :one: "{0}அங்.³"
+          :other: "{0}அங்.³"
+        :volume-megaliter:
+          :one: "{0}மெ.லி."
+          :other: "{0}மெ.லி."
+        :volume-hectoliter:
+          :one: "{0}ஹெ.லி."
+          :other: "{0}ஹெ.லி."
+        :volume-liter:
+          :one: "{0}லி."
+          :other: "{0}லி."
+        :volume-deciliter:
+          :one: "{0}டெ.லி."
+          :other: "{0}டெ.லி."
+        :volume-centiliter:
+          :one: "{0}செ.லி."
+          :other: "{0}செ.லி."
+        :volume-milliliter:
+          :one: "{0}மிலி"
+          :other: "{0}மிலி"
+        :volume-pint-metric:
+          :one: "{0}மெ.பி."
+          :other: "{0}மெ.பி."
+        :volume-cup-metric:
           :one: "{0} mc"
           :other: "{0} mc"
-        :volume-deciliter: 
-          :one: "{0} டெ.லி."
-          :other: "{0} டெ.லி."
-        :volume-dessert-spoon: 
-          :one: "{0} இ.க."
-          :other: "{0} இ.க."
-        :volume-dessert-spoon-imperial: 
-          :one: "{0} இ.க. இம்பீ."
-          :other: "{0} இ.க. இம்பீ."
-        :volume-dram: 
-          :one: "{0} டிரா.தி."
-          :other: "{0} டிரா.தி."
-        :volume-drop: 
-          :one: "{0} துளி"
-          :other: "{0} துளி"
-        :volume-fluid-ounce: 
-          :one: "{0} தி. அவு."
-          :other: "{0} தி. அவு."
-        :volume-fluid-ounce-imperial: 
-          :one: "{0} தி. அவு. இம்பீ."
-          :other: "{0} தி. அவு. இம்பீ."
-        :volume-fluid-ounce-metric: 
-          :other: "{0} fl oz m."
-        :volume-gallon: 
-          :one: "{0} கேல."
-          :other: "{0} கேல."
-        :volume-gallon-imperial: 
-          :one: "{0} கேல. இம்."
-          :other: "{0} கேல. இம்."
-        :volume-hectoliter: 
-          :one: "{0} ஹெ.லி."
-          :other: "{0} ஹெ.லி."
-        :volume-jigger: 
-          :one: "{0} ஜிக."
-          :other: "{0} ஜிக."
-        :volume-koku: 
-          :other: "{0} koku [JP]"
-        :volume-kosaji: 
-          :other: "{0} kosaji [JP]"
-        :volume-liter: 
-          :one: "{0} லி."
-          :other: "{0} லி."
-        :volume-megaliter: 
-          :one: "{0} மெ.லி."
-          :other: "{0} மெ.லி."
-        :volume-milliliter: 
-          :one: "{0} மிலி"
-          :other: "{0} மிலி"
-        :volume-osaji: 
-          :other: "{0} osaji [JP]"
-        :volume-pinch: 
-          :one: "{0} சிட்டி"
-          :other: "{0} சிட்டி"
-        :volume-pint: 
-          :one: "{0} பின்."
-          :other: "{0} பின்."
-        :volume-pint-imperial: 
-          :other: "{0} pt Imp."
-        :volume-pint-metric: 
-          :one: "{0} மெ.பி."
-          :other: "{0} மெ.பி."
-        :volume-quart: 
-          :one: "{0} குவாட்."
-          :other: "{0} குவாட்."
-        :volume-quart-imperial: 
-          :one: "{0} குவாட். இம்பீ."
-          :other: "{0} குவாட். இம்பீ."
-        :volume-sai: 
-          :other: "{0} sai [JP]"
-        :volume-shaku: 
-          :other: "{0} shaku [vol, JP]"
-        :volume-tablespoon: 
-          :one: "{0} மே.க."
-          :other: "{0} மே.க."
-        :volume-teaspoon: 
-          :one: "{0} தே.க."
-          :other: "{0} தே.க."
-        :volume-to-jp: 
-          :other: "{0} to [JP]"
+        :volume-acre-foot:
+          :one: "{0}ஏக். அடி"
+          :other: "{0}ஏக். அடி"
+        :volume-bushel:
+          :one: "{0}புச."
+          :other: "{0}புச."
+        :volume-gallon:
+          :one: "{0}கேல."
+          :other: "{0}கேல."
+        :volume-gallon-imperial:
+          :one: "{0}கே.இம்."
+          :other: "{0}கே.இம்."
+        :volume-quart:
+          :one: "{0}குவா."
+          :other: "{0}குவா."
+        :volume-pint:
+          :one: "{0}பின்."
+          :other: "{0}பின்."
+        :volume-cup:
+          :one: "{0}கோ."
+          :other: "{0}கோ."
+        :volume-fluid-ounce:
+          :one: "{0}தி.அவு."
+          :other: "{0}தி.அவு."
+        :volume-fluid-ounce-imperial:
+          :one: "{0}தி. அ. இ."
+          :other: "{0}தி. அ. இ."
+        :volume-tablespoon:
+          :one: "{0}மே.க."
+          :other: "{0}மே.க."
+        :volume-teaspoon:
+          :one: "{0}தே.க."
+          :other: "{0}தே.க."
+        :volume-barrel:
+          :one: "{0}பீப்."
+          :other: "{0}பீப்."
+        :volume-dessert-spoon:
+          :one: "{0}இ.க."
+          :other: "{0}இ.க."
+        :volume-dessert-spoon-imperial:
+          :one: "{0}இ.க. இ."
+          :other: "{0}இ.க. இ."
+        :volume-drop:
+          :one: "{0}துளி"
+          :other: "{0}துளி"
+        :volume-dram:
+          :one: "{0}தி.டிரா."
+          :other: "{0}தி.டிரா."
+        :volume-jigger:
+          :one: "{0}ஜிக."
+          :other: "{0}ஜிக."
+        :volume-pinch:
+          :one: "{0}சிட்டி"
+          :other: "{0}சிட்டி"
+        :volume-quart-imperial:
+          :one: "{0}கு. இம்."
+          :other: "{0}கு. இம்."
+        :speed-light-speed:
+          :one: "{0}ஒ.வே"
+          :other: "{0}ஒ.வே"
+        :concentr-part-per-1e9:
+          :one: "{0} பா/பி"
+          :other: "{0} பா/பி"
+        :duration-night:
+          :one: "{0} இ"
+          :other: "{0} இ"
+    :durationUnit:
+      :hm: h:mm
+      :hms: h:mm:ss
+      :ms: m:ss

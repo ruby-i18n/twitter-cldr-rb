@@ -1,12 +1,11 @@
---- 
-:transforms: 
-  - 
-    :aliases: 
-      - am-t-hy-arevmda
-    :direction: forward
-    :rules: 
-      - "::hy_AREVMDA-hy_AREVMDA_FONIPA ;"
-      - "::am_FONIPA-am ;"
-    :source: hy_AREVMDA
-    :target: am
-    :variant: ~
+---
+:transforms:
+- :source: hy_AREVMDA
+  :target: am
+  :aliases:
+  - am-t-hy-arevmda
+  :variant:
+  :direction: forward
+  :rules:
+  - "::hy_AREVMDA-hy_AREVMDA_FONIPA ;"
+  - "::am_FONIPA-am ;"

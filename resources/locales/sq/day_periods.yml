@@ -1,110 +1,110 @@
---- 
-:sq: 
-  :default: 
-    :afternoon1: 
-      :before: 
-        :hour: 18
-        :min: 0
-      :from: 
-        :hour: 12
-        :min: 0
-    :am: 
-      :before: 
-        :hour: 12
-        :min: 0
-      :from: 
+---
+:sq:
+  :default:
+    :midnight:
+      :at:
         :hour: 0
         :min: 0
-    :evening1: 
-      :before: 
-        :hour: 24
+    :noon:
+      :at:
+        :hour: 12
         :min: 0
-      :from: 
-        :hour: 18
-        :min: 0
-    :midnight: 
-      :at: 
-        :hour: 0
-        :min: 0
-    :morning1: 
-      :before: 
-        :hour: 9
-        :min: 0
-      :from: 
+    :morning1:
+      :from:
         :hour: 4
         :min: 0
-    :morning2: 
-      :before: 
-        :hour: 12
-        :min: 0
-      :from: 
+      :before:
         :hour: 9
         :min: 0
-    :night1: 
-      :before: 
-        :hour: 4
+    :morning2:
+      :from:
+        :hour: 9
         :min: 0
-      :from: 
-        :hour: 0
-        :min: 0
-    :noon: 
-      :at: 
+      :before:
         :hour: 12
         :min: 0
-    :pm: 
-      :before: 
-        :hour: 24
-        :min: 0
-      :from: 
+    :afternoon1:
+      :from:
         :hour: 12
         :min: 0
-  :selection: 
-    :afternoon1: 
-      :before: 
+      :before:
         :hour: 18
         :min: 0
-      :from: 
-        :hour: 12
-        :min: 0
-    :am: 
-      :before: 
-        :hour: 12
-        :min: 0
-      :from: 
-        :hour: 0
-        :min: 0
-    :evening1: 
-      :before: 
-        :hour: 24
-        :min: 0
-      :from: 
+    :evening1:
+      :from:
         :hour: 18
         :min: 0
-    :morning1: 
-      :before: 
-        :hour: 9
-        :min: 0
-      :from: 
-        :hour: 4
-        :min: 0
-    :morning2: 
-      :before: 
-        :hour: 12
-        :min: 0
-      :from: 
-        :hour: 9
-        :min: 0
-    :night1: 
-      :before: 
-        :hour: 4
-        :min: 0
-      :from: 
-        :hour: 0
-        :min: 0
-    :pm: 
-      :before: 
+      :before:
         :hour: 24
         :min: 0
-      :from: 
+    :night1:
+      :from:
+        :hour: 0
+        :min: 0
+      :before:
+        :hour: 4
+        :min: 0
+    :am:
+      :from:
+        :hour: 0
+        :min: 0
+      :before:
         :hour: 12
+        :min: 0
+    :pm:
+      :from:
+        :hour: 12
+        :min: 0
+      :before:
+        :hour: 24
+        :min: 0
+  :selection:
+    :morning1:
+      :from:
+        :hour: 4
+        :min: 0
+      :before:
+        :hour: 9
+        :min: 0
+    :morning2:
+      :from:
+        :hour: 9
+        :min: 0
+      :before:
+        :hour: 12
+        :min: 0
+    :afternoon1:
+      :from:
+        :hour: 12
+        :min: 0
+      :before:
+        :hour: 18
+        :min: 0
+    :evening1:
+      :from:
+        :hour: 18
+        :min: 0
+      :before:
+        :hour: 24
+        :min: 0
+    :night1:
+      :from:
+        :hour: 0
+        :min: 0
+      :before:
+        :hour: 4
+        :min: 0
+    :am:
+      :from:
+        :hour: 0
+        :min: 0
+      :before:
+        :hour: 12
+        :min: 0
+    :pm:
+      :from:
+        :hour: 12
+        :min: 0
+      :before:
+        :hour: 24
         :min: 0
