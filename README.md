@@ -231,53 +231,53 @@ It's important to know that, even though any given format may not be available a
 | Bh         | 12 in the afternoon    |
 | Bhm        | 12:20 in the afternoon |
 | Bhms       | 12:20:05 in the afternoon |
+| d          | 14                     |
 | E          | Fri                    |
 | EBh        | Fri 12 in the afternoon |
 | EBhm       | Fri 12:20 in the afternoon |
 | EBhms      | Fri 12:20:05 in the afternoon |
-| EHm        | Fri 12:20              |
-| EHms       | Fri 12:20:05           |
 | Ed         | 14 Fri                 |
 | Eh         | Fri 12 PM              |
 | Ehm        | Fri 12:20 PM           |
+| EHm        | Fri 12:20              |
 | Ehms       | Fri 12:20:05 PM        |
+| EHms       | Fri 12:20:05           |
 | Gy         | 2014 CE                |
 | GyM        | 2/2014 CE              |
+| GyMd       | 2/14/2014 CE           |
 | GyMEd      | Fri, 2/14/2014 CE      |
 | GyMMM      | Feb 2014 CE            |
-| GyMMMEd    | Fri, Feb 14, 2014 CE   |
 | GyMMMd     | Feb 14, 2014 CE        |
-| GyMd       | 2/14/2014 CE           |
+| GyMMMEd    | Fri, Feb 14, 2014 CE   |
+| h          | 12 PM                  |
 | H          | 12                     |
+| hm         | 12:20 PM               |
 | Hm         | 12:20                  |
+| hms        | 12:20:05 PM            |
 | Hms        | 12:20:05               |
+| hmsv       | 12:20:05 PM GMT+0      |
 | Hmsv       | 12:20:05 GMT+0         |
+| hmv        | 12:20 PM GMT+0         |
 | Hmv        | 12:20 GMT+0            |
+| hv         | 12 PM GMT+0            |
 | Hv         | 12 GMT+0               |
 | M          | 2                      |
+| Md         | 2/14                   |
 | MEd        | Fri, 2/14              |
 | MMM        | Feb                    |
-| MMMEd      | Fri, Feb 14            |
-| MMMMW      | week 3 of February     |
-| MMMMd      | February 14            |
 | MMMd       | Feb 14                 |
-| Md         | 2/14                   |
-| d          | 14                     |
-| h          | 12 PM                  |
-| hm         | 12:20 PM               |
-| hms        | 12:20:05 PM            |
-| hmsv       | 12:20:05 PM GMT+0      |
-| hmv        | 12:20 PM GMT+0         |
-| hv         | 12 PM GMT+0            |
+| MMMEd      | Fri, Feb 14            |
+| MMMMd      | February 14            |
+| MMMMW      | week 3 of February     |
 | ms         | 20:05                  |
 | y          | 2014                   |
 | yM         | 2/2014                 |
+| yMd        | 2/14/2014              |
 | yMEd       | Fri, 2/14/2014         |
 | yMMM       | Feb 2014               |
+| yMMMd      | Feb 14, 2014           |
 | yMMMEd     | Fri, Feb 14, 2014      |
 | yMMMM      | February 2014          |
-| yMMMd      | Feb 14, 2014           |
-| yMd        | 2/14/2014              |
 | yQQQ       | Q1 2014                |
 | yQQQQ      | 1st quarter 2014       |
 | yw         | week 7 of 2014         |
@@ -463,16 +463,6 @@ str = 'there %<{ "horse_count": { "one": "is one horse", "other": "are %{horse_c
 str.localize % { :horse_count => 3 }
 ```
 
-NOTE: If you're using TwitterCLDR with Rails 3, you may see an error if you try to use the `%` function on a localized string in your views.  Strings in views in Rails 3 are instances of `SafeBuffer`, which patches the `gsub` method that the TwitterCLDR plural formatter relies on.  To fix this issue, simply call `to_str` on any `SafeBuffer` before calling `localize`.  More info [here](https://github.com/rails/rails/issues/1555).  An example:
-
-```ruby
-# throws an error in Rails 3 views:
-'%<{"count": {"one": "only one", "other": "tons more!"}}'.localize % { :count => 2 }
-
-# works just fine:
-'%<{"count": {"one": "only one", "other": "tons more!"}}'.to_str.localize % { :count => 2 }
-```
-
 The `LocalizedString` class supports all forms of interpolation:
 
 ```ruby
@@ -612,7 +602,7 @@ postal_code.regexp  # /(\d{5})(?:[ \-](\d{4}))?/
 Get a sample of valid postal codes with the `#sample` method:
 
 ```ruby
-postal_code.sample(5)  # ["29056", "04428-0326", "72227", "13767-9638", "21214-7288"]
+postal_code.sample(5)  # ["86304-2516", "87969-8818", "53905", "57201", "34344-3152"]
 ```
 
 ### Language Codes
@@ -679,7 +669,7 @@ Provides an API for determining territories containment as described [here](http
 TwitterCldr::Shared::TerritoriesContainment.children('151') # ["BG", "BY", "CZ", "HU", "MD", "PL", "RO", "RU", "SK", "SU", "UA", ... ]
 TwitterCldr::Shared::TerritoriesContainment.children('RU')  # []
 
-TwitterCldr::Shared::TerritoriesContainment.parents('013') # ["003", "019", "419"]
+TwitterCldr::Shared::TerritoriesContainment.parents('013') # ["019", "003", "419"]
 TwitterCldr::Shared::TerritoriesContainment.parents('001') # []
 
 TwitterCldr::Shared::TerritoriesContainment.contains?('151', 'RU') # true
@@ -690,7 +680,7 @@ TwitterCldr::Shared::TerritoriesContainment.contains?('419', 'FR') # false
 You can also use `Territory` class and `to_territory` method in `LocalizedString` class to access these features:
 
 ```ruby
-TwitterCldr::Shared::Territory.new("013").parents # ["003", "019", "419"]
+TwitterCldr::Shared::Territory.new("013").parents # ["019", "003", "419"]
 '419'.localize.to_territory.contains?('BZ') # true
 ```
 
