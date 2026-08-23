@@ -38,8 +38,8 @@ module TwitterCldr
         def valid?(locale_text)
           # make sure all subtags have at least one identity, i.e. they exist
           # in one of the language/script/region/variant lists
-          identify_subtags(locale_text.strip).all? do |subtag|
-            !subtag.last.empty?
+          identify_subtags(locale_text.strip).all? do |subtag, identities|
+            !identities.empty? || subtag.downcase == "und"
           end
         end
 

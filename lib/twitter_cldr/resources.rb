@@ -22,6 +22,7 @@ module TwitterCldr
     autoload :Importer,                       'twitter_cldr/resources/importer'
     autoload :ImportResolver,                 'twitter_cldr/resources/import_resolver'
     autoload :LanguageCodesImporter,          'twitter_cldr/resources/language_codes_importer'
+    autoload :LikelySubtagsTestsImporter,     'twitter_cldr/resources/likely_subtags_tests_importer'
     autoload :ListFormatsImporter,            'twitter_cldr/resources/list_formats_importer'
     autoload :Loader,                         'twitter_cldr/resources/loader'
     autoload :LocalesResourcesImporter,       'twitter_cldr/resources/locales_resources_importer'
@@ -69,6 +70,7 @@ module TwitterCldr
           DayPeriodRulesImporter,
           HyphenationImporter,
           LanguageCodesImporter,
+          LikelySubtagsTestsImporter,
           ListFormatsImporter,
           LocalesResourcesImporter,
           NumberFormatsImporter,

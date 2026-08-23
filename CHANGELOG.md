@@ -5,6 +5,7 @@
 * Add BigDecimal as a dependency. (@noraj, #4)
 * Fix frozen string warning under Ruby 3.4. (@william-stacken, #2)
 * Upgrade to CLDR v48.2, ICU 78.3, and Unicode v17.0.0. (@camertron)
+* Add comprehensive likely subtags tests from CLDR conformance suite.
 
 #### Breaking
 

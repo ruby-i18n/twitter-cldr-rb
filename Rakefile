@@ -253,4 +253,9 @@ namespace :update do
       puts "There were errors encountered while updating the README. Please run specs for details"
     end
   end
+
+  desc 'Import likely subtags tests'
+  task :likely_subtags_tests do
+    TwitterCldr::Resources::LikelySubtagsTestsImporter.new.import
+  end
 end

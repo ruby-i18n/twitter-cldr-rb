@@ -65,5 +65,22 @@ describe TwitterCldr::Shared::LikelySubtags do
         raise_error(TwitterCldr::Shared::UnrecognizedSubtagsError)
       )
     end
+
+    describe "conformance", slow: true do
+      test_cases = YAML.load_file(File.join(__dir__, "likely_subtags_tests.yml"))
+
+      test_cases.each do |test_case|
+        it "maximizes #{test_case[:source]} correctly" do
+          if TwitterCldr::Shared::Locale.valid?(test_case[:source])
+            locale = TwitterCldr::Shared::Locale.parse(test_case[:source])
+            got = locale.maximize.dasherized
+          else
+            got = "FAIL"
+          end
+
+          expect(got).to eq(test_case[:add_likely])
+        end
+      end
+    end
   end
 end
