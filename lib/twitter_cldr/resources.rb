@@ -25,6 +25,7 @@ module TwitterCldr
     autoload :LikelySubtagsTestsImporter,     'twitter_cldr/resources/likely_subtags_tests_importer'
     autoload :ListFormatsImporter,            'twitter_cldr/resources/list_formats_importer'
     autoload :Loader,                         'twitter_cldr/resources/loader'
+    autoload :LocaleDisplayPatternImporter,   'twitter_cldr/resources/locale_display_pattern_importer'
     autoload :LocalesResourcesImporter,       'twitter_cldr/resources/locales_resources_importer'
     autoload :NumberFormatsImporter,          'twitter_cldr/resources/number_formats_importer'
     autoload :ParentLocalesImporter,          'twitter_cldr/resources/parent_locales_importer'
@@ -72,6 +73,7 @@ module TwitterCldr
           LanguageCodesImporter,
           LikelySubtagsTestsImporter,
           ListFormatsImporter,
+          LocaleDisplayPatternImporter,
           LocalesResourcesImporter,
           NumberFormatsImporter,
           ParentLocalesImporter,
