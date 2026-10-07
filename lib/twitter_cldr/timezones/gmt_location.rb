@@ -31,7 +31,7 @@ module TwitterCldr
       end
 
       def format_tokens(tokens, format, hour, min, sec)
-        ''.tap do |result|
+        (+'').tap do |result|
           tokens.each do |token|
             case token.type
               when :plaintext
