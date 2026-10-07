@@ -25,6 +25,7 @@ module TwitterCldr
       DEFAULT_TYPE = :decimal
       DEFAULT_FORMAT = :default
       DEFAULT_SIGN = :positive
+      NON_COMPACT_PATTERN = "0"
 
       FORMATTERS = {
         decimal: TwitterCldr::Formatters::DecimalFormatter,
@@ -53,6 +54,16 @@ module TwitterCldr
       def format_number(number, options = {})
         precision = options[:precision] || 0
         pattern_for_number = pattern(number, precision == 0)
+
+        # CLDR spec: if pattern is "0", use the corresponding non-compact number formatting
+        # Check pattern before applying sign
+        base_pattern = pattern_for_number.gsub(/^[+-]/, '')
+        if base_pattern == NON_COMPACT_PATTERN
+          # Delegate to a default format reader to avoid state mutation
+          default_reader = self.class.new(locale, type: type, format: :default, number_system: number_system)
+          return default_reader.format_number(number, options)
+        end
+
         options[:locale] = self.locale
         tokens = tokenizer.tokenize(pattern_for_number)
         formatter.format(tokens, number, options)
