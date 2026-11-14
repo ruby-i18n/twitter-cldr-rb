@@ -281,19 +281,31 @@
       :formats:
         :date:
           :full:
-            :standard:
-              :pattern: EEEE d MMMM y
+            :pattern: EEEE d MMMM y
+          :long:
+            :pattern: d MMMM y
+          :medium:
+            :pattern: d MMM y
+          :short:
+            :pattern: y/M/d
         :time:
           :full:
-            :standard:
-              :pattern: H:mm:ss (zzzz)
+            :pattern: H:mm:ss (zzzz)
+          :long:
+            :pattern: H:mm:ss (z)
+          :medium:
+            :pattern: H:mm:ss
+          :short:
+            :pattern: H:mm
         :datetime:
           :full:
-            :standard:
-              :pattern: "{1} ساعت {0}"
-            :atTime:
-              :pattern: "{1} ساعت {0}"
-            :relative: {}
+            :pattern: "{{date}} ساعت {{time}}"
+          :long:
+            :pattern: "{{date}} ساعت {{time}}"
+          :medium:
+            :pattern: "{{date}}، {{time}}"
+          :short:
+            :pattern: "{{date}}, {{time}}"
       :additional_formats:
         :Bh: h B
         :Bhm: h:mm B

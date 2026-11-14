@@ -302,18 +302,31 @@
       :formats:
         :date:
           :full:
-            :standard:
-              :pattern: y('e')'ko' MMMM'ren' d('a'), EEEE
+            :pattern: y('e')'ko' MMMM'ren' d('a'), EEEE
+          :long:
+            :pattern: y('e')'ko' MMMM'ren' d('a')
+          :medium:
+            :pattern: y('e')'ko' MMM d('a')
+          :short:
+            :pattern: yy/M/d
         :time:
           :full:
-            :standard:
-              :pattern: HH:mm:ss (zzzz)
+            :pattern: HH:mm:ss (zzzz)
+          :long:
+            :pattern: HH:mm:ss (z)
+          :medium:
+            :pattern: HH:mm:ss
+          :short:
+            :pattern: HH:mm
         :datetime:
           :full:
-            :standard:
-              :pattern: "{1} ({0})"
-            :atTime: {}
-            :relative: {}
+            :pattern: "{{date}} ({{time}})"
+          :long:
+            :pattern: "{{date}} ({{time}})"
+          :medium:
+            :pattern: "{{date}} ({{time}})"
+          :short:
+            :pattern: "{{date}} ({{time}})"
       :additional_formats:
         :Bh: B h
         :Bhm: B h:mm

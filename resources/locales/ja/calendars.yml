@@ -305,19 +305,31 @@
       :formats:
         :date:
           :full:
-            :standard:
-              :pattern: y年M月d日EEEE
+            :pattern: y年M月d日EEEE
+          :long:
+            :pattern: y年M月d日
+          :medium:
+            :pattern: y/MM/dd
+          :short:
+            :pattern: y/MM/dd
         :time:
           :full:
-            :standard:
-              :pattern: H時mm分ss秒 zzzz
+            :pattern: H時mm分ss秒 zzzz
+          :long:
+            :pattern: H:mm:ss z
+          :medium:
+            :pattern: H:mm:ss
+          :short:
+            :pattern: H:mm
         :datetime:
           :full:
-            :standard:
-              :pattern: "{1}の {0}"
-            :atTime: {}
-            :relative:
-              :pattern: "{1}の {0}"
+            :pattern: "{{date}}の {{time}}"
+          :long:
+            :pattern: "{{date}}の {{time}}"
+          :medium:
+            :pattern: "{{date}} {{time}}"
+          :short:
+            :pattern: "{{date}} {{time}}"
       :additional_formats:
         :Bh: BK時
         :Bhm: BK:mm

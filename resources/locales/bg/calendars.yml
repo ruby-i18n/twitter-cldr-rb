@@ -293,20 +293,31 @@
       :formats:
         :date:
           :full:
-            :standard:
-              :pattern: EEEE, d MMMM y 'г'.
+            :pattern: EEEE, d MMMM y 'г'.
+          :long:
+            :pattern: d MMMM y 'г'.
+          :medium:
+            :pattern: d.MM.y 'г'.
+          :short:
+            :pattern: d.MM.yy 'г'.
         :time:
           :full:
-            :standard:
-              :pattern: H:mm:ss 'ч'. zzzz
+            :pattern: H:mm:ss 'ч'. zzzz
+          :long:
+            :pattern: H:mm:ss 'ч'. z
+          :medium:
+            :pattern: H:mm:ss
+          :short:
+            :pattern: H:mm
         :datetime:
           :full:
-            :standard:
-              :pattern: "{1} 'в' {0} 'ч'"
-            :atTime:
-              :pattern: "{1} 'в' {0}"
-            :relative:
-              :pattern: "{1} 'в' {0} 'ч'"
+            :pattern: "{{date}} 'в' {{time}} 'ч'"
+          :long:
+            :pattern: "{{date}} 'в' {{time}} 'ч'"
+          :medium:
+            :pattern: "{{date}}, {{time}} 'ч'"
+          :short:
+            :pattern: "{{date}}, {{time}}"
       :additional_formats:
         :Bh: h 'ч'. B
         :Bhm: h:mm 'ч'. B

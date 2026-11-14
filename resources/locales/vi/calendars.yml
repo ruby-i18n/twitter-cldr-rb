@@ -289,20 +289,31 @@
       :formats:
         :date:
           :full:
-            :standard:
-              :pattern: EEEE, d MMMM, y
+            :pattern: EEEE, d MMMM, y
+          :long:
+            :pattern: d MMMM, y
+          :medium:
+            :pattern: d MMM, y
+          :short:
+            :pattern: d/M/yy
         :time:
           :full:
-            :standard:
-              :pattern: HH:mm:ss zzzz
+            :pattern: HH:mm:ss zzzz
+          :long:
+            :pattern: HH:mm:ss z
+          :medium:
+            :pattern: HH:mm:ss
+          :short:
+            :pattern: HH:mm
         :datetime:
           :full:
-            :standard:
-              :pattern: "'lúc' {0} {1}"
-            :atTime:
-              :pattern: "'lúc' {0} {1}"
-            :relative:
-              :pattern: "'lúc' {0} {1}"
+            :pattern: "'lúc' {{time}} {{date}}"
+          :long:
+            :pattern: "'lúc' {{time}} {{date}}"
+          :medium:
+            :pattern: "{{time}} {{date}}"
+          :short:
+            :pattern: "{{time}} {{date}}"
       :additional_formats:
         :Bh: h 'giờ' B
         :Bhm: h:mm B

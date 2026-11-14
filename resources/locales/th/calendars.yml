@@ -297,20 +297,31 @@
       :formats:
         :date:
           :full:
-            :standard:
-              :pattern: EEEEที่ d MMMM G y
+            :pattern: EEEEที่ d MMMM G y
+          :long:
+            :pattern: d MMMM G y
+          :medium:
+            :pattern: d MMM y
+          :short:
+            :pattern: d/M/yy
         :time:
           :full:
-            :standard:
-              :pattern: H นาฬิกา mm นาที ss วินาที zzzz
+            :pattern: H นาฬิกา mm นาที ss วินาที zzzz
+          :long:
+            :pattern: H นาฬิกา mm นาที ss วินาที z
+          :medium:
+            :pattern: HH:mm:ss
+          :short:
+            :pattern: HH:mm
         :datetime:
           :full:
-            :standard:
-              :pattern: "{1} เวลา {0}"
-            :atTime:
-              :pattern: "{1} เวลา {0}"
-            :relative:
-              :pattern: "{1} เวลา {0}"
+            :pattern: "{{date}} เวลา {{time}}"
+          :long:
+            :pattern: "{{date}} เวลา {{time}}"
+          :medium:
+            :pattern: "{{date}} {{time}}"
+          :short:
+            :pattern: "{{date}} {{time}}"
       :additional_formats:
         :Bh: h B
         :Bhm: h:mm B

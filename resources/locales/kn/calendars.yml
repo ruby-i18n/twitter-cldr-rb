@@ -281,20 +281,31 @@
       :formats:
         :date:
           :full:
-            :standard:
-              :pattern: EEEE, MMMM d, y
+            :pattern: EEEE, MMMM d, y
+          :long:
+            :pattern: MMMM d, y
+          :medium:
+            :pattern: MMM d, y
+          :short:
+            :pattern: d/M/yy
         :time:
           :full:
-            :standard:
-              :pattern: hh:mm:ss a zzzz
+            :pattern: hh:mm:ss a zzzz
+          :long:
+            :pattern: hh:mm:ss a z
+          :medium:
+            :pattern: hh:mm:ss a
+          :short:
+            :pattern: hh:mm a
         :datetime:
           :full:
-            :standard:
-              :pattern: "{1} {0} ಸಮಯಕ್ಕೆ"
-            :atTime:
-              :pattern: "{1} ರಂದು {0} ಸಮಯಕ್ಕೆ"
-            :relative:
-              :pattern: "{1} {0} ಸಮಯಕ್ಕೆ"
+            :pattern: "{{date}} {{time}} ಸಮಯಕ್ಕೆ"
+          :long:
+            :pattern: "{{date}} {{time}} ಸಮಯಕ್ಕೆ"
+          :medium:
+            :pattern: "{{date}}, {{time}}"
+          :short:
+            :pattern: "{{date}}, {{time}} ಗೆ"
       :additional_formats:
         :Bh: h B
         :Bhm: h:mm B

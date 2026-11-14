@@ -289,19 +289,31 @@
       :formats:
         :date:
           :full:
-            :standard:
-              :pattern: EEEE, d MMMM y
+            :pattern: EEEE, d MMMM y
+          :long:
+            :pattern: d MMMM y
+          :medium:
+            :pattern: d MMM y
+          :short:
+            :pattern: d/M/yy
         :time:
           :full:
-            :standard:
-              :pattern: h:mm:ss a zzzz
+            :pattern: h:mm:ss a zzzz
+          :long:
+            :pattern: h:mm:ss a z
+          :medium:
+            :pattern: h:mm:ss a
+          :short:
+            :pattern: h:mm a
         :datetime:
           :full:
-            :standard:
-              :pattern: "{1} को {0} बजे"
-            :atTime:
-              :pattern: "{1} को {0} बजे"
-            :relative: {}
+            :pattern: "{{date}} को {{time}} बजे"
+          :long:
+            :pattern: "{{date}} को {{time}} बजे"
+          :medium:
+            :pattern: "{{date}}, {{time}}"
+          :short:
+            :pattern: "{{date}}, {{time}}"
       :additional_formats:
         :Bh: B h
         :Bhm: B h:mm
