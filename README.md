@@ -1,11 +1,9 @@
 ## twitter-cldr-rb ![Unit Tests](https://github.com/ruby-i18n/twitter-cldr-rb/actions/workflows/unit_tests.yml/badge.svg?branch=master)
 
 TwitterCldr uses Unicode's Common Locale Data Repository (CLDR) to format certain types of text into their
-localized equivalents.  Currently supported types of text include dates, times, currencies, decimals, percentages, and symbols.
+localized equivalents. Currently supported types of text include dates, times, currencies, decimals, percentages, and symbols.
 
-## History
-
-This project was initially written for Twitter, Inc back in 2012, before Twitter became X. This was back when Twitter was still primarily a Rails app, and the company used a lot of Ruby. The original author, @camertron, left Twitter in 2014 but has continued to maintain the library in his spare time. For a long time the project was hosted under the "twitter" GitHub organization, and that worked fine. Unfortunately in 2026, @camertron was removed as a maintainer of the project without any warning or explanation. After attempting to contact Twitter/X several times, @camertron and the community decided to hard fork the project and host a maintained version here.
+This is the canonical and up-to-date source code repository for the `twitter_cldr` Ruby gem.
 
 ## Installation
 
@@ -602,7 +600,7 @@ postal_code.regexp  # /(\d{5})(?:[ \-](\d{4}))?/
 Get a sample of valid postal codes with the `#sample` method:
 
 ```ruby
-postal_code.sample(5)  # ["44756-9769", "71333", "16625-1652", "03580-9035", "13366"]
+postal_code.sample(5)  # ["05852", "85577-6418", "89989-6804", "14444", "74297"]
 ```
 
 ### Language Codes
@@ -940,8 +938,6 @@ end
 collator.get_sort_key("Älg")             # [43, 65, 55, 1, 69, 150, 6, 1, 220, 7]
 ```
 
-**Note**: The TwitterCLDR collator does not currently pass all the collation tests provided by Unicode, but for some strange reasons.  See the [summary](https://gist.github.com/f4ee3bd280a2257c5641) of these discrepancies if you're curious.
-
 ### Transliteration
 
 Transliteration is the process of converting the text in one language or script into another with the goal of preserving the source language's pronunciation as much as possible. It can be useful in making text pronounceable in the target language. For example, most native English speakers would not be able to read or pronounce Japanese characters like these: "くろねこさま". Transliterating these characters into Latin script yields "kuronekosama", which should be pronounceable by most English speakers (in fact, probably speakers of many languages that use Latin characters). Remember, transliteration isn't translation; the actual meaning of the words is not taken into consideration, only the sound patterns.
@@ -1056,8 +1052,14 @@ You can run the development test coverage suite (using simplecov) with `bundle e
 * fast_gettext gem: [https://github.com/grosser/fast_gettext](https://github.com/grosser/fast_gettext)
 * CLDR homepage: [http://cldr.unicode.org/](http://cldr.unicode.org/)
 
+## History
+
+This project was initially written for Twitter, Inc back in 2012, before Twitter became X. This was back when Twitter was still primarily a Rails app, and the company used a lot of Ruby.
+The original author, @camertron, left Twitter in 2014 but has continued to maintain the library in his spare time. For a long time the project was hosted under the "twitter" GitHub organization, and that worked fine.
+Unfortunately in 2026, @camertron was removed as a maintainer of the project without any warning or explanation. After attempting to contact Twitter several times, @camertron and the community decided to hard fork the project and host a maintained version here.
+
 ## License
 
-Copyright 2026 Twitter, Inc.
+Copyright 2026 Cameron C. Dutro.
 
 Licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0
