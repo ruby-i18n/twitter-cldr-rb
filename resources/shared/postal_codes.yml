@@ -861,12 +861,18 @@
     cjo6VXRpbHM6OlJlZ2V4cEFzdDo6UXVhbnRpZmllcgc6CUBtYXhpCToJQG1p
     bmkJOwow
 :kz:
-  :regex: !ruby/regexp /\d{6}/
+  :regex: !ruby/regexp /[A-Z]\d{2}[A-Z0-9]{4}|\d{6}/
   :ast: |
     BAhvOihUd2l0dGVyQ2xkcjo6VXRpbHM6OlJlZ2V4cEFzdDo6Um9vdAc6EUBl
-    eHByZXNzaW9uc1sGbzopVHdpdHRlckNsZHI6OlV0aWxzOjpSZWdleHBBc3Q6
-    OkRpZ2l0BzsGWwA6EEBxdWFudGlmaWVybzouVHdpdHRlckNsZHI6OlV0aWxz
-    OjpSZWdleHBBc3Q6OlF1YW50aWZpZXIHOglAbWF4aQs6CUBtaW5pCzsIMA==
+    eHByZXNzaW9uc1sGbzovVHdpdHRlckNsZHI6OlV0aWxzOjpSZWdleHBBc3Q6
+    OkFsdGVybmF0aW9uBzsGWwdvOi9Ud2l0dGVyQ2xkcjo6VXRpbHM6OlJlZ2V4
+    cEFzdDo6QWx0ZXJuYXRpdmUHOwZbCG86MFR3aXR0ZXJDbGRyOjpVdGlsczo6
+    UmVnZXhwQXN0OjpDaGFyYWN0ZXJTZXQJOg1AbWVtYmVyc1sGIghBLVo6DUBu
+    ZWdhdGVkRjsGWwA6EEBxdWFudGlmaWVyMG86KVR3aXR0ZXJDbGRyOjpVdGls
+    czo6UmVnZXhwQXN0OjpEaWdpdAc7BlsAOwxvOi5Ud2l0dGVyQ2xkcjo6VXRp
+    bHM6OlJlZ2V4cEFzdDo6UXVhbnRpZmllcgc6CUBtYXhpBzoJQG1pbmkHbzsJ
+    CTsKWwciCEEtWiIIMC05OwtGOwZbADsMbzsOBzsPaQk7EGkJOwwwbzsIBzsG
+    WwZvOw0HOwZbADsMbzsOBzsPaQs7EGkLOwwwOwwwOwww
 :la:
   :regex: !ruby/regexp /\d{5}/
   :ast: |
@@ -1135,12 +1141,30 @@
     OkxpdGVyYWwIOgpAdGV4dEkiCTI4OTkGOgZFVDsGWwA6EEBxdWFudGlmaWVy
     MDsKMA==
 :ng:
-  :regex: !ruby/regexp /\d{6}/
+  :regex: !ruby/regexp /[A-Z]{2}[ -]?(?:0[1-9]|[1-9]\d)[ -]?[A-Z\d]{3}[ -]?[A-Z]{2}[
+    -]?(?:0[1-9]|[1-9]\d)|\d{6}/
   :ast: |
     BAhvOihUd2l0dGVyQ2xkcjo6VXRpbHM6OlJlZ2V4cEFzdDo6Um9vdAc6EUBl
-    eHByZXNzaW9uc1sGbzopVHdpdHRlckNsZHI6OlV0aWxzOjpSZWdleHBBc3Q6
-    OkRpZ2l0BzsGWwA6EEBxdWFudGlmaWVybzouVHdpdHRlckNsZHI6OlV0aWxz
-    OjpSZWdleHBBc3Q6OlF1YW50aWZpZXIHOglAbWF4aQs6CUBtaW5pCzsIMA==
+    eHByZXNzaW9uc1sGbzovVHdpdHRlckNsZHI6OlV0aWxzOjpSZWdleHBBc3Q6
+    OkFsdGVybmF0aW9uBzsGWwdvOi9Ud2l0dGVyQ2xkcjo6VXRpbHM6OlJlZ2V4
+    cEFzdDo6QWx0ZXJuYXRpdmUHOwZbDm86MFR3aXR0ZXJDbGRyOjpVdGlsczo6
+    UmVnZXhwQXN0OjpDaGFyYWN0ZXJTZXQJOg1AbWVtYmVyc1sGIghBLVo6DUBu
+    ZWdhdGVkRjsGWwA6EEBxdWFudGlmaWVybzouVHdpdHRlckNsZHI6OlV0aWxz
+    OjpSZWdleHBBc3Q6OlF1YW50aWZpZXIHOglAbWF4aQc6CUBtaW5pB287CQk7
+    ClsGIgYtOwtGOwZbADsMbzsNBzsOaQY7D2kAbzorVHdpdHRlckNsZHI6OlV0
+    aWxzOjpSZWdleHBBc3Q6OlBhc3NpdmUHOwZbBm87Bwc7BlsHbzsIBzsGWwdv
+    OitUd2l0dGVyQ2xkcjo6VXRpbHM6OlJlZ2V4cEFzdDo6TGl0ZXJhbAg6CkB0
+    ZXh0SSIGMAY6BkVUOwZbADsMMG87CQk7ClsGIggxLTk7C0Y7BlsAOwwwOwww
+    bzsIBzsGWwdvOwkJOwpbBiIIMS05OwtGOwZbADsMMG86KVR3aXR0ZXJDbGRy
+    OjpVdGlsczo6UmVnZXhwQXN0OjpEaWdpdAc7BlsAOwwwOwwwOwwwOwwwbzsJ
+    CTsKWwYiBi07C0Y7BlsAOwxvOw0HOw5pBjsPaQBvOwkJOwpbByIIQS1aSSII
+    MC05BjsTVDsLRjsGWwA7DG87DQc7DmkIOw9pCG87CQk7ClsGIgYtOwtGOwZb
+    ADsMbzsNBzsOaQY7D2kAbzsJCTsKWwYiCEEtWjsLRjsGWwA7DG87DQc7DmkH
+    Ow9pB287CQk7ClsGIgYtOwtGOwZbADsMbzsNBzsOaQY7D2kAbzsQBzsGWwZv
+    OwcHOwZbB287CAc7BlsHbzsRCDsSSSIGMAY7E1Q7BlsAOwwwbzsJCTsKWwYi
+    CDEtOTsLRjsGWwA7DDA7DDBvOwgHOwZbB287CQk7ClsGIggxLTk7C0Y7BlsA
+    OwwwbzsUBzsGWwA7DDA7DDA7DDA7DDA7DDBvOwgHOwZbBm87FAc7BlsAOwxv
+    Ow0HOw5pCzsPaQs7DDA7DDA7DDA=
 :ni:
   :regex: !ruby/regexp /\d{5}/
   :ast: |
