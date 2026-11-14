@@ -7,6 +7,7 @@
 * Upgrade to CLDR v48.2, ICU 78.3, and Unicode v17.0.0. (@camertron)
 * Add comprehensive likely subtags tests from CLDR conformance suite.
 * Re-implement and modernize collation support to UCA v16.0.0.
+* Add support for es-ES.
 
 #### Breaking
 

@@ -1,0 +1,560 @@
+---
+:es-ES:
+  :numbers:
+    :symbols:
+      :adlm: &1
+        :decimal: ","
+        :group: "."
+        :list: ";"
+        :percent_sign: "%"
+        :plus_sign: "+"
+        :minus_sign: "-"
+        :approximately_sign: "~"
+        :exponential: E
+        :superscripting_exponent: "×"
+        :per_mille: "‰"
+        :infinity: "∞"
+        :nan: NaN
+        :time_separator: ":"
+      :ahom: *1
+      :arab:
+        :decimal: "٫"
+        :group: "٬"
+        :list: "؛"
+        :percent_sign: "٪؜"
+        :plus_sign: "؜+"
+        :minus_sign: "؜-"
+        :approximately_sign: "~"
+        :exponential: اس
+        :superscripting_exponent: "×"
+        :per_mille: "؉"
+        :infinity: "∞"
+        :nan: NaN
+        :time_separator: ":"
+      :arabext:
+        :decimal: "٫"
+        :group: "٬"
+        :list: "؛"
+        :percent_sign: "٪"
+        :plus_sign: "‎+‎"
+        :minus_sign: "‎-‎"
+        :approximately_sign: "~"
+        :exponential: "×۱۰^"
+        :superscripting_exponent: "×"
+        :per_mille: "؉"
+        :infinity: "∞"
+        :nan: NaN
+        :time_separator: "٫"
+      :bali: *1
+      :beng: *1
+      :bhks: *1
+      :brah: *1
+      :cakm: *1
+      :cham: *1
+      :deva: *1
+      :diak: *1
+      :fullwide: *1
+      :gara: *1
+      :gong: *1
+      :gonm: *1
+      :gujr: *1
+      :gukh: *1
+      :guru: *1
+      :hanidec: *1
+      :hmng: *1
+      :hmnp: *1
+      :java: *1
+      :kali: *1
+      :kawi: *1
+      :khmr: *1
+      :knda: *1
+      :krai: *1
+      :lana: *1
+      :lanatham: *1
+      :laoo: *1
+      :latn: *1
+      :lepc: *1
+      :limb: *1
+      :mathbold: *1
+      :mathdbl: *1
+      :mathmono: *1
+      :mathsanb: *1
+      :mathsans: *1
+      :mlym: *1
+      :modi: *1
+      :mong: *1
+      :mroo: *1
+      :mtei: *1
+      :mymr: *1
+      :mymrepka: *1
+      :mymrpao: *1
+      :mymrshan: *1
+      :mymrtlng: *1
+      :nagm: *1
+      :newa: *1
+      :nkoo: *1
+      :olck: *1
+      :onao: *1
+      :orya: *1
+      :osma: *1
+      :outlined: *1
+      :rohg: *1
+      :saur: *1
+      :segment: *1
+      :shrd: *1
+      :sind: *1
+      :sinh: *1
+      :sora: *1
+      :sund: *1
+      :sunu: *1
+      :takr: *1
+      :talu: *1
+      :tamldec: *1
+      :telu: *1
+      :thai: *1
+      :tibt: *1
+      :tirh: *1
+      :tnsa: *1
+      :tols: *1
+      :vaii: *1
+      :wara: *1
+      :wcho: *1
+    :default_number_systems:
+      :alternatives: {}
+      :default: latn
+    :formats:
+      :decimal:
+        :adlm: &2
+          :default: "#,##0.###"
+          :long:
+            :1000:
+              :other: 0 mil
+              :one: 0 mil
+            :10000:
+              :other: 00 mil
+              :one: 00 mil
+            :100000:
+              :other: 000 mil
+              :one: 000 mil
+            :1000000:
+              :other: 0 millones
+              :one: 0 millón
+            :10000000:
+              :other: 00 millones
+              :one: 00 millones
+            :100000000:
+              :other: 000 millones
+              :one: 000 millones
+            :1000000000:
+              :other: 0 mil millones
+              :one: 0 mil millones
+            :10000000000:
+              :other: 00 mil millones
+              :one: 00 mil millones
+            :100000000000:
+              :other: 000 mil millones
+              :one: 000 mil millones
+            :1000000000000:
+              :other: 0 billones
+              :one: 0 billón
+            :10000000000000:
+              :other: 00 billones
+              :one: 00 billones
+            :100000000000000:
+              :other: 000 billones
+              :one: 000 billones
+          :short:
+            :1000:
+              :other: 0 mil
+              :one: 0 mil
+            :10000:
+              :other: 00 mil
+              :one: 00 mil
+            :100000:
+              :other: 000 mil
+              :one: 000 mil
+            :1000000:
+              :other: 0 M
+              :one: 0 M
+            :10000000:
+              :other: 00 M
+              :one: 00 M
+            :100000000:
+              :other: 000 M
+              :one: 000 M
+            :1000000000:
+              :other: 0000 M
+              :one: 0000 M
+            :10000000000:
+              :other: 00 mil M
+              :one: 00 mil M
+            :100000000000:
+              :other: 000 mil M
+              :one: 000 mil M
+            :1000000000000:
+              :other: 0 B
+              :one: 0 B
+            :10000000000000:
+              :other: 00 B
+              :one: 00 B
+            :100000000000000:
+              :other: 000 B
+              :one: 000 B
+        :ahom: *2
+        :arab: *2
+        :arabext: *2
+        :bali: *2
+        :beng: *2
+        :bhks: *2
+        :brah: *2
+        :cakm: *2
+        :cham: *2
+        :deva: *2
+        :diak: *2
+        :fullwide: *2
+        :gara: *2
+        :gong: *2
+        :gonm: *2
+        :gujr: *2
+        :gukh: *2
+        :guru: *2
+        :hanidec: *2
+        :hmng: *2
+        :hmnp: *2
+        :java: *2
+        :kali: *2
+        :kawi: *2
+        :khmr: *2
+        :knda: *2
+        :krai: *2
+        :lana: *2
+        :lanatham: *2
+        :laoo: *2
+        :latn: *2
+        :lepc: *2
+        :limb: *2
+        :mathbold: *2
+        :mathdbl: *2
+        :mathmono: *2
+        :mathsanb: *2
+        :mathsans: *2
+        :mlym: *2
+        :modi: *2
+        :mong: *2
+        :mroo: *2
+        :mtei: *2
+        :mymr: *2
+        :mymrepka: *2
+        :mymrpao: *2
+        :mymrshan: *2
+        :mymrtlng: *2
+        :nagm: *2
+        :newa: *2
+        :nkoo: *2
+        :olck: *2
+        :onao: *2
+        :orya: *2
+        :osma: *2
+        :outlined: *2
+        :rohg: *2
+        :saur: *2
+        :segment: *2
+        :shrd: *2
+        :sind: *2
+        :sinh: *2
+        :sora: *2
+        :sund: *2
+        :sunu: *2
+        :takr: *2
+        :talu: *2
+        :tamldec: *2
+        :telu: *2
+        :thai: *2
+        :tibt: *2
+        :tirh: *2
+        :tnsa: *2
+        :tols: *2
+        :vaii: *2
+        :wara: *2
+        :wcho: *2
+      :scientific:
+        :adlm: &3
+          :default: "#E0"
+        :ahom: *3
+        :arab: *3
+        :arabext: *3
+        :bali: *3
+        :beng: *3
+        :bhks: *3
+        :brah: *3
+        :cakm: *3
+        :cham: *3
+        :deva: *3
+        :diak: *3
+        :fullwide: *3
+        :gara: *3
+        :gong: *3
+        :gonm: *3
+        :gujr: *3
+        :gukh: *3
+        :guru: *3
+        :hanidec: *3
+        :hmng: *3
+        :hmnp: *3
+        :java: *3
+        :kali: *3
+        :kawi: *3
+        :khmr: *3
+        :knda: *3
+        :krai: *3
+        :lana: *3
+        :lanatham: *3
+        :laoo: *3
+        :latn: *3
+        :lepc: *3
+        :limb: *3
+        :mathbold: *3
+        :mathdbl: *3
+        :mathmono: *3
+        :mathsanb: *3
+        :mathsans: *3
+        :mlym: *3
+        :modi: *3
+        :mong: *3
+        :mroo: *3
+        :mtei: *3
+        :mymr: *3
+        :mymrepka: *3
+        :mymrpao: *3
+        :mymrshan: *3
+        :mymrtlng: *3
+        :nagm: *3
+        :newa: *3
+        :nkoo: *3
+        :olck: *3
+        :onao: *3
+        :orya: *3
+        :osma: *3
+        :outlined: *3
+        :rohg: *3
+        :saur: *3
+        :segment: *3
+        :shrd: *3
+        :sind: *3
+        :sinh: *3
+        :sora: *3
+        :sund: *3
+        :sunu: *3
+        :takr: *3
+        :talu: *3
+        :tamldec: *3
+        :telu: *3
+        :thai: *3
+        :tibt: *3
+        :tirh: *3
+        :tnsa: *3
+        :tols: *3
+        :vaii: *3
+        :wara: *3
+        :wcho: *3
+      :percent:
+        :adlm: &4
+          :default: "#,##0 %"
+        :ahom: *4
+        :arab:
+          :default: "#,##0%"
+        :arabext: *4
+        :bali: *4
+        :beng: *4
+        :bhks: *4
+        :brah: *4
+        :cakm: *4
+        :cham: *4
+        :deva: *4
+        :diak: *4
+        :fullwide: *4
+        :gara: *4
+        :gong: *4
+        :gonm: *4
+        :gujr: *4
+        :gukh: *4
+        :guru: *4
+        :hanidec: *4
+        :hmng: *4
+        :hmnp: *4
+        :java: *4
+        :kali: *4
+        :kawi: *4
+        :khmr: *4
+        :knda: *4
+        :krai: *4
+        :lana: *4
+        :lanatham: *4
+        :laoo: *4
+        :latn: *4
+        :lepc: *4
+        :limb: *4
+        :mathbold: *4
+        :mathdbl: *4
+        :mathmono: *4
+        :mathsanb: *4
+        :mathsans: *4
+        :mlym: *4
+        :modi: *4
+        :mong: *4
+        :mroo: *4
+        :mtei: *4
+        :mymr: *4
+        :mymrepka: *4
+        :mymrpao: *4
+        :mymrshan: *4
+        :mymrtlng: *4
+        :nagm: *4
+        :newa: *4
+        :nkoo: *4
+        :olck: *4
+        :onao: *4
+        :orya: *4
+        :osma: *4
+        :outlined: *4
+        :rohg: *4
+        :saur: *4
+        :segment: *4
+        :shrd: *4
+        :sind: *4
+        :sinh: *4
+        :sora: *4
+        :sund: *4
+        :sunu: *4
+        :takr: *4
+        :talu: *4
+        :tamldec: *4
+        :telu: *4
+        :thai: *4
+        :tibt: *4
+        :tirh: *4
+        :tnsa: *4
+        :tols: *4
+        :vaii: *4
+        :wara: *4
+        :wcho: *4
+      :currency:
+        :adlm: &5
+          :default: "#,##0.00 ¤"
+          :short:
+            :1000:
+              :other: 0 mil ¤
+              :one: 0 mil ¤
+            :10000:
+              :other: 00 mil ¤
+              :one: 00 mil ¤
+            :100000:
+              :other: 000 mil ¤
+              :one: 000 mil ¤
+            :1000000:
+              :other: 0 M ¤
+              :one: 0 M ¤
+            :10000000:
+              :other: 00 M ¤
+              :one: 00 M ¤
+            :100000000:
+              :other: 000 M ¤
+              :one: 000 M ¤
+            :1000000000:
+              :other: 0000 M ¤
+              :one: 0000 M ¤
+            :10000000000:
+              :other: 00 mil M ¤
+              :one: 00 mil M ¤
+            :100000000000:
+              :other: 000 mil M ¤
+              :one: 000 mil M ¤
+            :1000000000000:
+              :other: 0 B ¤
+              :one: 0 B ¤
+            :10000000000000:
+              :other: 00 B ¤
+              :one: 00 B ¤
+            :100000000000000:
+              :other: 000 B ¤
+              :one: 000 B ¤
+          :unit:
+            :other: "{0} {1}"
+        :ahom: *5
+        :arab:
+          :default: "#,##0.00 ¤"
+        :arabext: *5
+        :bali: *5
+        :beng: *5
+        :bhks: *5
+        :brah: *5
+        :cakm: *5
+        :cham: *5
+        :deva: *5
+        :diak: *5
+        :fullwide: *5
+        :gara: *5
+        :gong: *5
+        :gonm: *5
+        :gujr: *5
+        :gukh: *5
+        :guru: *5
+        :hanidec: *5
+        :hmng: *5
+        :hmnp: *5
+        :java: *5
+        :kali: *5
+        :kawi: *5
+        :khmr: *5
+        :knda: *5
+        :krai: *5
+        :lana: *5
+        :lanatham: *5
+        :laoo: *5
+        :latn: *5
+        :lepc: *5
+        :limb: *5
+        :mathbold: *5
+        :mathdbl: *5
+        :mathmono: *5
+        :mathsanb: *5
+        :mathsans: *5
+        :mlym: *5
+        :modi: *5
+        :mong: *5
+        :mroo: *5
+        :mtei: *5
+        :mymr: *5
+        :mymrepka: *5
+        :mymrpao: *5
+        :mymrshan: *5
+        :mymrtlng: *5
+        :nagm: *5
+        :newa: *5
+        :nkoo: *5
+        :olck: *5
+        :onao: *5
+        :orya: *5
+        :osma: *5
+        :outlined: *5
+        :rohg: *5
+        :saur: *5
+        :segment: *5
+        :shrd: *5
+        :sind: *5
+        :sinh: *5
+        :sora: *5
+        :sund: *5
+        :sunu: *5
+        :takr: *5
+        :talu: *5
+        :tamldec: *5
+        :telu: *5
+        :thai: *5
+        :tibt: *5
+        :tirh: *5
+        :tnsa: *5
+        :tols: *5
+        :vaii: *5
+        :wara: *5
+        :wcho: *5
