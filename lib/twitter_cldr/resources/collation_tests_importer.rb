@@ -3,42 +3,48 @@
 # Copyright 2012 Twitter, Inc
 # http://www.apache.org/licenses/LICENSE-2.0
 
-require 'fileutils'
-require 'zip'
+require 'yaml'
 
 module TwitterCldr
   module Resources
+
     class CollationTestsImporter < Importer
 
-      ZIP_FILE = 'CollationAuxiliary.zip'.freeze
-
-      TEST_FILES = %w[
-        CollationTest_CLDR_NON_IGNORABLE.txt
-        CollationTest_CLDR_NON_IGNORABLE_SHORT.txt
-      ].freeze
-
-      requirement :uca, '6.1.0', [ZIP_FILE]
-      output_path 'collation/spec'
-      ruby_engine :mri
-
-      private
+      requirement :icu, Versions.icu_version
+      locales TwitterCldr.supported_locales
+      ruby_engine :jruby
+      output_path File.join('collation', 'tests')
 
       def execute
-        FileUtils.mkdir_p(output_path)
-        zip_path = requirements[:uca].source_path_for(ZIP_FILE)
+        params[:locales].each do |target|
+          collator = collator_class.getInstance(ulocale_class.new(target.to_s))
 
-        Zip::File.open(zip_path) do |zip|
-          TEST_FILES.each do |test_file|
-            File.open(File.join(output_path, test_file), 'w') do |file|
-              file.write(zip.read("CollationAuxiliary/#{test_file}"))
-            end
+          translations = params[:locales].filter_map do |source|
+            TwitterCldr::Shared::Languages.from_code_for_locale(source.to_s, target.to_s)
           end
+
+          next if translations.empty?
+
+          translations.sort! do |first, second|
+            collator.compare(first, second)
+          end
+
+          output_file = File.join(params[:output_path], "#{target}.yml")
+          FileUtils.mkdir_p(params[:output_path])
+          File.write(output_file, YAML.dump(translations))
         end
       end
 
-      def output_path
-        params[:output_path]
+      private
+
+      def collator_class
+        @collator_class ||= requirements[:icu].get_class("com.ibm.icu.text.Collator")
       end
+
+      def ulocale_class
+        @ulocale_class ||= requirements[:icu].get_class("com.ibm.icu.util.ULocale")
+      end
+
     end
   end
 end

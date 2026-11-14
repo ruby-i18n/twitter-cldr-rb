@@ -5,11 +5,17 @@
 
 module TwitterCldr
   module Collation
-    autoload :Collator,                  'twitter_cldr/collation/collator'
-    autoload :ImplicitCollationElements, 'twitter_cldr/collation/implicit_collation_elements'
-    autoload :SortKeyBuilder,            'twitter_cldr/collation/sort_key_builder'
-    autoload :TrieBuilder,               'twitter_cldr/collation/trie_builder'
-    autoload :TrieLoader,                'twitter_cldr/collation/trie_loader'
-    autoload :TrieWithFallback,          'twitter_cldr/collation/trie_with_fallback'
+    autoload :ChunkedCollationData,       'twitter_cldr/collation/chunked_collation_data'
+    autoload :CollationComparator,        'twitter_cldr/collation/collation_comparator'
+    autoload :CollationData,              'twitter_cldr/collation/collation_data'
+    autoload :CollationElementEnumerator, 'twitter_cldr/collation/collation_element_enumerator'
+    autoload :CollationElementIterator,   'twitter_cldr/collation/collation_element_iterator'
+    autoload :CollationSettings,          'twitter_cldr/collation/collation_settings'
+    autoload :Collator,                   'twitter_cldr/collation/collator'
+    autoload :Context,                    'twitter_cldr/collation/context'
+    autoload :Cursor,                     'twitter_cldr/collation/cursor'
+    autoload :SkippedState,               'twitter_cldr/collation/skipped_state'
+    autoload :SortKeyWriter,              'twitter_cldr/collation/sort_key_writer'
+    autoload :TailoredCollationData,      'twitter_cldr/collation/tailored_collation_data'
   end
 end

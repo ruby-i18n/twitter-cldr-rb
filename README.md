@@ -602,7 +602,7 @@ postal_code.regexp  # /(\d{5})(?:[ \-](\d{4}))?/
 Get a sample of valid postal codes with the `#sample` method:
 
 ```ruby
-postal_code.sample(5)  # ["86304-2516", "87969-8818", "53905", "57201", "34344-3152"]
+postal_code.sample(5)  # ["44756-9769", "71333", "16625-1652", "03580-9035", "13366"]
 ```
 
 ### Language Codes
@@ -916,7 +916,7 @@ Behind the scenes, these convenience methods are creating instances of `Localize
 
 ```ruby
 
-collator = TwitterCldr::Collation::Collator.new(:de)
+collator = TwitterCldr::Collation::Collator.for(:de)
 collator.sort(["Art", "Wasa", "Älg", "Ved"])      # ["Älg", "Art", "Ved", "Wasa"]
 collator.sort!(["Art", "Wasa", "Älg", "Ved"])     # ["Älg", "Art", "Ved", "Wasa"]
 ```
@@ -925,14 +925,19 @@ The `TwitterCldr::Collation::Collator` class also provides methods to compare tw
 
 ```ruby
 
-collator = TwitterCldr::Collation::Collator.new(:de)
+collator = TwitterCldr::Collation::Collator.for(:de)
 collator.compare("Art", "Älg")           # 1
 collator.compare("Älg", "Art")           # -1
 collator.compare("Art", "Art")           # 0
 
-collator.get_collation_elements("Älg")   # [[39, 5, 143], [0, 157, 5], [61, 5, 5], [51, 5, 5]]
+collator.get_collation_elements("Älg")   # [3098476543714827264, 2516583680, 4683743612549203200, 3963167672169923840, 4311744768]
 
-collator.get_sort_key("Älg")             # [39, 61, 51, 1, 134, 157, 6, 1, 143, 7]
+# enumerator version
+collator.each_collation_element do |element|
+  ...
+end
+
+collator.get_sort_key("Älg")             # [43, 65, 55, 1, 69, 150, 6, 1, 220, 7]
 ```
 
 **Note**: The TwitterCLDR collator does not currently pass all the collation tests provided by Unicode, but for some strange reasons.  See the [summary](https://gist.github.com/f4ee3bd280a2257c5641) of these discrepancies if you're curious.

@@ -24,6 +24,8 @@ module TwitterCldr
         end
 
         def prepare
+          require 'java'
+
           pom.add_dependency('com.ibm.icu', 'icu4j', version)
           pom.add_dependency('org.xeustechnologies', 'jcl-core', '2.7')
 
@@ -35,7 +37,30 @@ module TwitterCldr
         end
 
         def get_class(name)
-          class_loader.load_class(name).ruby_class
+          get_java_class(name).ruby_class
+        end
+
+        def get_java_class(name)
+          class_loader.load_class(name)
+        end
+
+        def load_class_from_file(path, class_name)
+          java_import "java.io.ByteArrayInputStream"
+          java_import "java.io.ByteArrayOutputStream"
+          java_import "java.util.jar.JarEntry"
+          java_import "java.util.jar.JarOutputStream"
+
+          bytes = File.binread(path)
+          buffer = ByteArrayOutputStream.new
+          jar = JarOutputStream.new(buffer)
+
+          jar.putNextEntry(JarEntry.new("#{class_name}.class"))
+          jar.write(bytes.to_java_bytes)
+          jar.closeEntry
+          jar.close
+
+          class_loader.add(ByteArrayInputStream.new(buffer.toByteArray))
+          class_loader.load_class(class_name).ruby_class
         end
 
         private

@@ -169,12 +169,17 @@ namespace :update do
     TwitterCldr::Resources::LanguageCodesImporter.new.import
   end
 
-  desc 'Update default and tailoring tries dumps (should be executed using JRuby 1.7 in 1.9 mode)'
-  task :collation_tries do
-    TwitterCldr::Resources::CollationTriesImporter.new.import
+  desc 'Update collation data'
+  task :collation_data do
+    TwitterCldr::Resources::CollationDataImporter.new.import
   end
 
-  desc 'Import collation tests'
+  desc 'Import collation conformance tests'
+  task :collation_conformance_tests do
+    TwitterCldr::Resources::CollationConformanceTestsImporter.new.import
+  end
+
+  desc 'Generate collation tests'
   task :collation_tests do
     TwitterCldr::Resources::CollationTestsImporter.new.import
   end

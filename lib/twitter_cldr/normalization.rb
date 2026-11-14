@@ -5,6 +5,8 @@
 
 require 'eprun'
 
+Eprun.current_version = TwitterCldr::Versions::UNICODE_VERSION
+
 module TwitterCldr
   module Normalization
 

@@ -20,7 +20,7 @@ describe TwitterCldr::Localized::LocalizedArray do
 
     before(:each) do
       expect(TwitterCldr::Collation::Collator).to(
-        receive(:new).with(locale).and_return(FakeCollator.new)
+        receive(:for).with(locale).and_return(FakeCollator.new)
       )
     end
 

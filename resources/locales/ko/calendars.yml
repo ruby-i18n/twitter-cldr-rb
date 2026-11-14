@@ -270,31 +270,18 @@
       :formats:
         :date:
           :full:
-            :pattern: y년 MMMM d일 EEEE
-          :long:
-            :pattern: y년 MMMM d일
-          :medium:
-            :pattern: y. M. d.
-          :short:
-            :pattern: yy. M. d.
+            :standard:
+              :pattern: y년 MMMM d일 EEEE
         :time:
           :full:
-            :pattern: a h시 m분 s초 zzzz
-          :long:
-            :pattern: a h시 m분 s초 z
-          :medium:
-            :pattern: a h:mm:ss
-          :short:
-            :pattern: a h:mm
+            :standard:
+              :pattern: a h시 m분 s초 zzzz
         :datetime:
           :full:
-            :pattern: "{{date}} {{time}}"
-          :long:
-            :pattern: "{{date}} {{time}}"
-          :medium:
-            :pattern: "{{date}} {{time}}"
-          :short:
-            :pattern: "{{date}} {{time}}"
+            :standard:
+              :pattern: "{1} {0}"
+            :atTime: {}
+            :relative: {}
       :additional_formats:
         :Bh: B h시
         :Bhm: B h:mm

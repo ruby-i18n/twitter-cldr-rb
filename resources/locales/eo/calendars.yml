@@ -263,31 +263,20 @@
       :formats:
         :date:
           :full:
-            :pattern: EEEE, 'la' d-'a' 'de' MMMM y
-          :long:
-            :pattern: y-MMMM-dd
-          :medium:
-            :pattern: y-MMM-dd
-          :short:
-            :pattern: yy-MM-dd
+            :standard:
+              :pattern: EEEE, 'la' d-'a' 'de' MMMM y
         :time:
           :full:
-            :pattern: HH:mm:ss zzzz
-          :long:
-            :pattern: HH:mm:ss z
-          :medium:
-            :pattern: HH:mm:ss
-          :short:
-            :pattern: HH:mm
+            :standard:
+              :pattern: HH:mm:ss zzzz
         :datetime:
           :full:
-            :pattern: "{{date}} 'je' {{time}}"
-          :long:
-            :pattern: "{{date}} 'je' {{time}}"
-          :medium:
-            :pattern: "{{date}}, {{time}}"
-          :short:
-            :pattern: "{{date}} {{time}}"
+            :standard:
+              :pattern: "{1} 'je' {0}"
+            :atTime:
+              :pattern: "{1} 'je' {0}"
+            :relative:
+              :pattern: "{1} 'je' {0}"
       :additional_formats:
         :Bh: h B
         :Bhm: h:mm B

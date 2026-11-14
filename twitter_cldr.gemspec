@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'base64'
   s.add_dependency 'bigdecimal'
-  s.add_dependency 'camertron-eprun'
+  s.add_dependency 'camertron-eprun', '> 2.0', '< 3.0'
   s.add_dependency 'cldr-plurals-runtime-rb', '~> 1.1'
   # json gem since v2.0 requires Ruby ~> 2.0
   s.add_dependency 'json', '~> 1.0' if RUBY_VERSION < '2'

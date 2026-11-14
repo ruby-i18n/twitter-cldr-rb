@@ -26,8 +26,10 @@ module TwitterCldr
         #
         # 5. Get the components of the cleaned-up tag (language¹, script¹, and
         #    region¹), plus any variants if they exist (including keywords).
-        def parse(locale_text)
-          locale_text = locale_text.to_s.strip
+        def parse(locale_or_text)
+          return locale_or_text if locale_or_text.is_a?(self)
+
+          locale_text = locale_or_text.to_s.strip
 
           normalize(locale_text).tap do |locale|
             replace_aliased_subtags(locale)

@@ -15,6 +15,10 @@ module TwitterCldr
           lookup(locale)
         end
 
+        def for_locale(locale)
+          lookup(locale)
+        end
+
         private
 
         # http://unicode.org/reports/tr35/#Likely_Subtags

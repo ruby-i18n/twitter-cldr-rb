@@ -8,6 +8,7 @@ module TwitterCldr
     CLDR_VERSION    = '48.2'
     ICU_VERSION     = '78.3'
     UNICODE_VERSION = '17.0.0'
+    UCA_VERSION     = '16.0.0'
 
     class << self
       def cldr_version
@@ -20,6 +21,10 @@ module TwitterCldr
 
       def unicode_version
         UNICODE_VERSION
+      end
+
+      def uca_version
+        UCA_VERSION
       end
     end
   end

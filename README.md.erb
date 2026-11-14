@@ -860,8 +860,8 @@ TwitterCLDR contains an implementation of the [Unicode Collation Algorithm (UCA)
 Behind the scenes, these convenience methods are creating instances of `LocalizedArray`, then using the `TwitterCldr::Collation::Collator` class to sort the elements:
 
 ```ruby
-<% collator = TwitterCldr::Collation::Collator.new(:de) %>
-collator = TwitterCldr::Collation::Collator.new(:de)
+<% collator = TwitterCldr::Collation::Collator.for(:de) %>
+collator = TwitterCldr::Collation::Collator.for(:de)
 collator.sort(["Art", "Wasa", "Älg", "Ved"])      # <%= assert(collator.sort(["Art", "Wasa", "Älg", "Ved"]), ["Älg", "Art", "Ved", "Wasa"]).inspect %>
 collator.sort!(["Art", "Wasa", "Älg", "Ved"])     # <%= assert(collator.sort!(["Art", "Wasa", "Älg", "Ved"]), ["Älg", "Art", "Ved", "Wasa"]).inspect %>
 ```
@@ -869,15 +869,20 @@ collator.sort!(["Art", "Wasa", "Älg", "Ved"])     # <%= assert(collator.sort!([
 The `TwitterCldr::Collation::Collator` class also provides methods to compare two strings, get sort keys, and calculate collation elements for individual strings:
 
 ```ruby
-<% collator = TwitterCldr::Collation::Collator.new(:de) %>
-collator = TwitterCldr::Collation::Collator.new(:de)
+<% collator = TwitterCldr::Collation::Collator.for(:de) %>
+collator = TwitterCldr::Collation::Collator.for(:de)
 collator.compare("Art", "Älg")           # <%= assert(collator.compare("Art", "Älg"), 1).inspect %>
 collator.compare("Älg", "Art")           # <%= assert(collator.compare("Älg", "Art"), -1).inspect %>
 collator.compare("Art", "Art")           # <%= assert(collator.compare("Art", "Art"), 0).inspect %>
 
-collator.get_collation_elements("Älg")   # <%= assert(collator.get_collation_elements("Älg"), [[39, 5, 143], [0, 157, 5], [61, 5, 5], [51, 5, 5]]).inspect %>
+collator.get_collation_elements("Älg")   # <%= assert(collator.get_collation_elements("Älg"), [3098476543714827264, 2516583680, 4683743612549203200, 3963167672169923840, 4311744768]).inspect %>
 
-collator.get_sort_key("Älg")             # <%= assert(collator.get_sort_key("Älg"), [39, 61, 51, 1, 134, 157, 6, 1, 143, 7]).inspect %>
+# enumerator version
+collator.each_collation_element do |element|
+  ...
+end
+
+collator.get_sort_key("Älg")             # <%= assert(collator.get_sort_key("Älg"), [43, 65, 55, 1, 69, 150, 6, 1, 220, 7]).inspect %>
 ```
 
 **Note**: The TwitterCLDR collator does not currently pass all the collation tests provided by Unicode, but for some strange reasons.  See the [summary](https://gist.github.com/f4ee3bd280a2257c5641) of these discrepancies if you're curious.

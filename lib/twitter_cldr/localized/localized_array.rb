@@ -16,11 +16,11 @@ module TwitterCldr
       end
 
       def sort
-        TwitterCldr::Collation::Collator.new(locale).sort(base_obj).localize
+        TwitterCldr::Collation::Collator.for(locale).sort(base_obj).localize
       end
 
       def sort!
-        TwitterCldr::Collation::Collator.new(locale).sort!(base_obj)
+        TwitterCldr::Collation::Collator.for(locale).sort!(base_obj)
         self
       end
 
