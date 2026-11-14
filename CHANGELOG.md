@@ -18,6 +18,12 @@
 * Remove `TwitterCldr.convert_locale` in favor of `TwitterCldr.normalize_locale`.
 * `TwitterCldr.normalize_locale`, `TwitterCldr.locale=`, and any methods that call these methods, now `raise` if passed an unsupported locale.
 * Remove `TwitterCldr::Utils::YAML`, which was a UTF-aware YAML dumper from the Ruby 1.8 era that is no longer necessary.
+* `TwitterCldr::Collation::Collator#compare(left, right)` now compares its arguments in the opposite order:
+  If left > right, returns 1
+  If left < right, returns -1
+  If left == right, returns 0
+* `TwitterCldr::Collation::Collator#get_sort_key` has been replaced by `TwitterCldr::Collation::Collator#sort_key_for` and no longer accepts an array of codepoints (it only accepts strings).
+* `TwitterCldr::Collation::Collator#get_collation_elements` has been replaced by `TwitterCldr::Collation::Collator#each_collation_element`, no longer accepts an array of codepoints (it only accepts strings), and returns an enumerator rather than an array. Call `.to_a` on the enumerator to replicate the old behavior.
 
 ### 6.14.0 (Feb 21st, 2025)
 * Allow passing the `dst:` option to `LocalizedDateTime#to_*_s`. (@movermeyer, #280)
