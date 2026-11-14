@@ -209,6 +209,11 @@ namespace :update do
     TwitterCldr::Resources::RbnfTestImporter.new.import
   end
 
+  desc 'Import supplemental time data'
+  task :time_data do
+    TwitterCldr::Resources::TimeDataImporter.new.import
+  end
+
   desc 'Import timezone data'
   task :timezones do
     TwitterCldr::Resources::TimezonesImporter.new.import

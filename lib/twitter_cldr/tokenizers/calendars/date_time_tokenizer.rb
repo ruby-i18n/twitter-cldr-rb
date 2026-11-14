@@ -5,78 +5,26 @@
 
 module TwitterCldr
   module Tokenizers
-    class DateTimeTokenizer
+    module DateTimeTokenizer
 
       class << self
+        def tokenize(pattern)
+          tokenizer.tokenize(pattern)
+        end
+
         def tokenizer
           @tokenizer ||= Tokenizer.new([
-            TokenRecognizer.new(:date, /\{\{date\}\}/),
-            TokenRecognizer.new(:time, /\{\{time\}\}/),
+            TokenRecognizer.new(:date_placeholder, /\{\{date\}\}/),
+            TokenRecognizer.new(:time_placeholder, /\{\{time\}\}/),
+            TokenRecognizer.new(:pos_placeholder0, /\{0\}/),
+            TokenRecognizer.new(:pos_placeholder1, /\{1\}/),
+            TokenRecognizer.new(:pos_placeholder2, /\{2\}/),
+            TokenRecognizer.new(:date_pattern, /^(G{1,5}|y+|Y+|Q{1,4}|q{1,5}|M{1,5}|L{1,5}|d{1,2}|F{1}|E{1,5}|e{1,5}|c{1,5}|w{1,2}|W{1})/),
+            TokenRecognizer.new(:time_pattern, /^(a{1}|b{1,5}|B{1,5}|h{1,2}|H{1,2}|K{1,2}|k{1,2}|m{1,2}|s{1,2}|S+|z{1,4}|Z{1,4}V{1,4}|v{1,4}|z{1,4}|Z{1,5}|O|O{4}|V{1,4}|X{1,5}|x{1,5}|j{1,6}|J{1,2})/),
             TokenRecognizer.new(:plaintext, /'.*'/),
             TokenRecognizer.new(:plaintext, //)
-          ])
+          ], /(\{\{?[^\}]+\}?\}|\s*\'[\w\s-]+\'\s*|G{1,5}|y+|Y+|Q{1,4}|q{1,5}|M{1,5}|L{1,5}|d{1,2}|F{1}|E{1,5}|e{1,5}|c{1,5}|w{1,2}|W{1}|a{1}|B{1,5}|h{1,2}|H{1,2}|K{1,2}|k{1,2}|m{1,2}|s{1,2}|S+|z{1,4}|Z{1,4}V{1,4}|v{1,4}|z{1,4}|Z{1,5}|O|O{4}|V{1,4}|X{1,5}|x{1,5}|j{1,6})/)
         end
-      end
-
-      attr_reader :data_reader
-
-      def initialize(data_reader)
-        @data_reader = data_reader
-      end
-
-      def tokenize(pattern)
-        expand_tokens(
-          PatternTokenizer.new(data_reader, tokenizer).tokenize(pattern)
-        )
-      end
-
-      # Tokenizes mixed date and time pattern strings,
-      # used to tokenize the additional date format patterns.
-      def full_tokenize(pattern)
-        PatternTokenizer.new(data_reader, full_tokenizer).tokenize(pattern)
-      end
-
-      protected
-
-      def expand_tokens(tokens)
-        tokens.inject([]) do |ret, token|
-          ret + case token.type
-            when :date
-              expand_date(token)
-            when :time
-              expand_time(token)
-            else
-              [token]
-          end
-        end
-      end
-
-      def expand_date(token)
-        date_reader = data_reader.date_reader
-        date_reader.tokenizer.tokenize(date_reader.pattern)
-      end
-
-      def expand_time(token)
-        time_reader = data_reader.time_reader
-        time_reader.tokenizer.tokenize(time_reader.pattern)
-      end
-
-      def full_tokenizer
-        @@full_tokenizer ||= begin
-          new_tok = Tokenizer.union(
-            data_reader.date_reader.tokenizer.tokenizer,
-            data_reader.time_reader.tokenizer.tokenizer
-          ) do |recognizer|
-            recognizer.token_type != :plaintext
-          end
-
-          new_tok.recognizers << TokenRecognizer.new(:plaintext, //)
-          new_tok
-        end
-      end
-
-      def tokenizer
-        self.class.tokenizer
       end
 
     end

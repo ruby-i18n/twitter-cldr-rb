@@ -299,31 +299,20 @@
       :formats:
         :date:
           :full:
-            :pattern: EEEE، d MMMM، y
-          :long:
-            :pattern: d MMMM، y
-          :medium:
-            :pattern: d MMM، y
-          :short:
-            :pattern: d/M/yy
+            :standard:
+              :pattern: EEEE، d MMMM، y
         :time:
           :full:
-            :pattern: h:mm:ss a zzzz
-          :long:
-            :pattern: h:mm:ss a z
-          :medium:
-            :pattern: h:mm:ss a
-          :short:
-            :pattern: h:mm a
+            :standard:
+              :pattern: h:mm:ss a zzzz
         :datetime:
           :full:
-            :pattern: "{{date}} {{time}} پر"
-          :long:
-            :pattern: "{{date}} کو {{time}}"
-          :medium:
-            :pattern: "{{date}}، {{time}}"
-          :short:
-            :pattern: "{{date}}، {{time}}"
+            :standard:
+              :pattern: "{1} {0} پر"
+            :atTime:
+              :pattern: "{1} کو {0}"
+            :relative:
+              :pattern: "{1} {0} پر"
       :additional_formats:
         :Bh: h B
         :Bhm: h:mm B

@@ -85,6 +85,7 @@ module TwitterCldr
                 time:     formats('time'),
                 datetime: formats('dateTime')
               },
+              append_items: append_items,
               additional_formats: additional_formats
             }
           }
@@ -149,8 +150,7 @@ module TwitterCldr
           path = "eras/#{era_tag}"
 
           result[key] = dtd.find_attr('era', 'type').values.each_with_object({}) do |type, ret|
-            node = calendar.xpath("#{path}/era[@type='#{type}' and @alt='variant']").first ||
-              calendar.xpath("#{path}/era[@type='#{type}']").first
+            node = calendar.xpath("#{path}/era[@type='#{type}']").first
             ret[type] = node.content if node
             ret
           end
@@ -161,8 +161,20 @@ module TwitterCldr
         return {} unless calendar
 
         formats = dtd.find_attr("#{type}FormatLength", 'type').values.each_with_object({}) do |format_length, result|
-          node = calendar.xpath("#{type}Formats/#{type}FormatLength[@type='#{format_length}']").first
-          result[format_length] = pattern(node, type) if node
+          length_node = calendar.xpath("#{type}Formats/#{type}FormatLength[@type='#{format_length}']").first
+          next unless length_node
+
+          length_node.xpath("#{type}Format/pattern").each do |pattern_node, memo|
+            format_type = pattern_node.element.parent.attribute('type')&.value&.to_sym || :standard
+            pattern = pattern_node.content
+            pattern = pattern.gsub('{0}', '{{time}}').gsub('{1}', '{{date}}') if type == 'dateTime'
+
+            result[format_length] ||= {}
+            result[format_length][format_type.to_sym] = { pattern: pattern }
+
+            skeleton_node = pattern_node.element.parent.xpath("datetimeSkeleton").first
+            result[format_length][format_type.to_sym][:skeleton] = skeleton_node.content if skeleton_node
+          end
         end
 
         if default = default_format(type)
@@ -187,8 +199,15 @@ module TwitterCldr
         end
       end
 
+      def append_items
+        calendar.xpath("dateTimeFormats/appendItems/appendItem").each_with_object({}) do |append_item, result|
+          request = append_item.attribute("request").value.downcase.gsub("-", "_").to_sym
+          result[request] = append_item.content
+        end
+      end
+
       def pattern(node, type)
-        node.xpath("#{type}Format/pattern").each_with_object({}) do |node, result|
+        node.xpath("pattern").each_with_object({}) do |node, result|
           pattern = node.content
           pattern = pattern.gsub('{0}', '{{time}}').gsub('{1}', '{{date}}') if type == 'dateTime'
           result[:pattern] = pattern

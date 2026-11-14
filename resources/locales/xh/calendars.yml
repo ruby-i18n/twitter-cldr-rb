@@ -263,31 +263,19 @@
       :formats:
         :date:
           :full:
-            :pattern: EEEE, MMMM d, y
-          :long:
-            :pattern: MMMM d, y
-          :medium:
-            :pattern: MMM d, y
-          :short:
-            :pattern: M/d/yy
+            :standard:
+              :pattern: EEEE, MMMM d, y
         :time:
           :full:
-            :pattern: HH:mm:ss zzzz
-          :long:
-            :pattern: HH:mm:ss z
-          :medium:
-            :pattern: HH:mm:ss
-          :short:
-            :pattern: HH:mm
+            :standard:
+              :pattern: HH:mm:ss zzzz
         :datetime:
           :full:
-            :pattern: "{{date}} 'ngo' {{time}}"
-          :long:
-            :pattern: "{{date}} 'ngo' {{time}}"
-          :medium:
-            :pattern: "{{date}}, {{time}}"
-          :short:
-            :pattern: "{{date}}, {{time}}"
+            :standard:
+              :pattern: "{1} 'ngo' {0}"
+            :atTime:
+              :pattern: "{1} 'ngo' {0}"
+            :relative: {}
       :additional_formats:
         :Bh: h B
         :Bhm: h:mm B

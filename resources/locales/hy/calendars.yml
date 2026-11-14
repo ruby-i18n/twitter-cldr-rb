@@ -293,31 +293,18 @@
       :formats:
         :date:
           :full:
-            :pattern: y թ. MMMM d, EEEE
-          :long:
-            :pattern: dd MMMM, y թ.
-          :medium:
-            :pattern: dd MMM, y թ.
-          :short:
-            :pattern: dd.MM.yy
+            :standard:
+              :pattern: y թ. MMMM d, EEEE
         :time:
           :full:
-            :pattern: HH:mm:ss zzzz
-          :long:
-            :pattern: HH:mm:ss z
-          :medium:
-            :pattern: HH:mm:ss
-          :short:
-            :pattern: HH:mm
+            :standard:
+              :pattern: HH:mm:ss zzzz
         :datetime:
           :full:
-            :pattern: "{{date}}, {{time}}"
-          :long:
-            :pattern: "{{date}}, {{time}}"
-          :medium:
-            :pattern: "{{date}}, {{time}}"
-          :short:
-            :pattern: "{{date}}, {{time}}"
+            :standard:
+              :pattern: "{1}, {0}"
+            :atTime: {}
+            :relative: {}
       :additional_formats:
         :Bh: B h-ին
         :Bhm: B h:mm-ին

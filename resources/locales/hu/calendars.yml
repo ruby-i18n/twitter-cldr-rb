@@ -307,31 +307,18 @@
       :formats:
         :date:
           :full:
-            :pattern: y. MMMM d., EEEE
-          :long:
-            :pattern: y. MMMM d.
-          :medium:
-            :pattern: y. MMM d.
-          :short:
-            :pattern: y. MM. dd.
+            :standard:
+              :pattern: y. MMMM d., EEEE
         :time:
           :full:
-            :pattern: H:mm:ss zzzz
-          :long:
-            :pattern: H:mm:ss z
-          :medium:
-            :pattern: H:mm:ss
-          :short:
-            :pattern: H:mm
+            :standard:
+              :pattern: H:mm:ss zzzz
         :datetime:
           :full:
-            :pattern: "{{date}} {{time}}"
-          :long:
-            :pattern: "{{date}} {{time}}"
-          :medium:
-            :pattern: "{{date}} {{time}}"
-          :short:
-            :pattern: "{{date}} {{time}}"
+            :standard:
+              :pattern: "{1} {0}"
+            :atTime: {}
+            :relative: {}
       :additional_formats:
         :Bh: B h
         :Bhm: B h:mm

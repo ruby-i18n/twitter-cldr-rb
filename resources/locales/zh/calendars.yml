@@ -305,31 +305,18 @@
       :formats:
         :date:
           :full:
-            :pattern: y年M月d日EEEE
-          :long:
-            :pattern: y年M月d日
-          :medium:
-            :pattern: y年M月d日
-          :short:
-            :pattern: y/M/d
+            :standard:
+              :pattern: y年M月d日EEEE
         :time:
           :full:
-            :pattern: zzzz HH:mm:ss
-          :long:
-            :pattern: z HH:mm:ss
-          :medium:
-            :pattern: HH:mm:ss
-          :short:
-            :pattern: HH:mm
+            :standard:
+              :pattern: zzzz HH:mm:ss
         :datetime:
           :full:
-            :pattern: "{{date}} {{time}}"
-          :long:
-            :pattern: "{{date}} {{time}}"
-          :medium:
-            :pattern: "{{date}} {{time}}"
-          :short:
-            :pattern: "{{date}} {{time}}"
+            :standard:
+              :pattern: "{1} {0}"
+            :atTime: {}
+            :relative: {}
       :additional_formats:
         :Bh: Bh时
         :Bhm: Bh:mm

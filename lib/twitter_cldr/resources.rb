@@ -82,6 +82,7 @@ module TwitterCldr
           SegmentRulesImporter,
           SegmentTestsImporter,
           TerritoriesImporter,
+          TimeDataImporter,
           TimezonesImporter,
           TimezoneRegionsImporter,
           TimezoneTestsImporter,

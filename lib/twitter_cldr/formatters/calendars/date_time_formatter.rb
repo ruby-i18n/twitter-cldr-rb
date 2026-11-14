@@ -10,11 +10,11 @@ require 'tzinfo'
 
 module TwitterCldr
   module Formatters
-    class DateTimeFormatter < Formatter
+    class DateTimeFormatter
 
       WEEKDAY_KEYS = [:sun, :mon, :tue, :wed, :thu, :fri, :sat].freeze
 
-      METHODS = { # ignoring u, l, g, j, A
+      PATTERN_MAP = { # ignoring u, l, g, j, A
         'G' => :era,
         'y' => :year,
         'Y' => :year_of_week_of_year,
@@ -31,6 +31,7 @@ module TwitterCldr
         'e' => :weekday_local,
         'c' => :weekday_local_stand_alone,
         'a' => :period,
+        'b' => :period,
         'B' => :period,
         'h' => :hour,
         'H' => :hour,
@@ -48,7 +49,7 @@ module TwitterCldr
         'X' => :timezone
       }.freeze
 
-      TZ_PATTERNS = {
+      TZ_PATTERN_MAP = {
         'z'     => :specific_short,
         'zz'    => :specific_short,
         'zzz'   => :specific_short,
@@ -78,59 +79,77 @@ module TwitterCldr
         'xxxxx' => :iso_extended_local_full
       }.freeze
 
-      protected
+      attr_reader :pattern
 
-      def format_pattern(token, index, obj, options)
-        send(METHODS[token.value[0].chr], obj, token.value, token.value.size, options)
+      def initialize(pattern)
+        @pattern = pattern
+      end
+
+      def format(obj, **options)
+        parts = pattern.tokens.map do |token|
+          method_sym = :"format_#{token.type}"
+          send(method_sym, token, obj, **options)
+        end
+
+        parts.join
+      end
+
+      private
+
+      def format_date_pattern(token, obj, **options)
+        send(PATTERN_MAP[token.value[0].chr], obj, token.value, token.value.size, **options)
+      end
+
+      alias_method :format_time_pattern, :format_date_pattern
+
+      def format_plaintext(token, obj, **options)
+        token.value.gsub(/'([^']+)'/, '\1') # remove single-quote escaping for "real" characters
       end
 
       def calendar
-        data_reader.calendar
+        @calendar ||= TwitterCldr::Shared::Calendar.new(pattern.locale, pattern.calendar_type)
       end
 
-      # There is incomplete era data in CLDR for certain locales like Hindi.
-      # Fall back if that happens.
-      def era(date, pattern, length, options = {})
+      def era(date, pattern_str, length, **options)
         choices = case length
-          when 0
-            ["", ""]
           when 1..3
             calendar.eras(:abbr)
           else
             calendar.eras(:name)
         end
 
-        if result = choices[date.year < 0 ? 0 : 1]
-          result
+        choices[date.year < 0 ? 0 : 1]
+      end
+
+      def year(date, pattern_str, length, **options)
+        year = date.year.to_s
+
+        if length == 1
+          year
+        elsif length == 2
+          year[-2, 2].rjust(2, '0')
         else
-          era(date, pattern[0..-2], length - 1)
+          year.rjust(length, '0')
         end
       end
 
-      def year(date, pattern, length, options = {})
-        year = date.year.to_s
-        year = year.length == 1 ? year : year[-2, 2] if length == 2
-        year = year.rjust(length, '0') if length > 1
-        year
-      end
-
-      def year_of_week_of_year(date, pattern, length, options = {})
+      def year_of_week_of_year(date, pattern_str, length, **options)
         week_fields_for(date)[:year_woy].to_s
       end
 
-      def day_of_week_in_month(date, pattern, length, options = {}) # e.g. 2nd Wed in July
+      def day_of_week_in_month(date, pattern_str, length, options = {}) # e.g. 2nd Wed in July
         week_fields_for(date)[:day_of_week_in_month].to_s
       end
 
-      def week_of_month(date, pattern, length, options = {})
+      def week_of_month(date, pattern_str, length, **options)
         week_fields_for(date)[:week_of_month].to_s
       end
 
-      def week_of_year(date, pattern, length, options = {})
+      def week_of_year(date, pattern_str, length, **options)
         week_fields_for(date)[:week_of_year].to_s
       end
 
-      def quarter(date, pattern, length, options = {})
+      def quarter(date, pattern_str, length, **options)
         quarter = (date.month.to_i - 1) / 3 + 1
         case length
           when 1
@@ -144,7 +163,7 @@ module TwitterCldr
         end
       end
 
-      def quarter_stand_alone(date, pattern, length, options = {})
+      def quarter_stand_alone(date, pattern_str, length, **options)
         quarter = (date.month.to_i - 1) / 3 + 1
         case length
           when 1
@@ -162,7 +181,7 @@ module TwitterCldr
         end
       end
 
-      def month(date, pattern, length, options = {})
+      def month(date, pattern_str, length, **options)
         case length
           when 1
             date.month.to_s
@@ -180,7 +199,7 @@ module TwitterCldr
         end
       end
 
-      def month_stand_alone(date, pattern, length, options = {})
+      def month_stand_alone(date, pattern_str, length, **options)
         case length
           when 1
             date.month.to_s
@@ -197,7 +216,7 @@ module TwitterCldr
         end
       end
 
-      def day(date, pattern, length, options = {})
+      def day(date, pattern_str, length, **options)
         case length
           when 1
             date.day.to_s
@@ -206,7 +225,7 @@ module TwitterCldr
         end
       end
 
-      def weekday(date, pattern, length, options = {})
+      def weekday(date, pattern_str, length, **options)
         key = WEEKDAY_KEYS[date.wday]
         case length
           when 1..3
@@ -218,34 +237,34 @@ module TwitterCldr
         end
       end
 
-      def weekday_local(date, pattern, length, options = {})
+      def weekday_local(date, pattern_str, length, **options)
         # "Like E except adds a numeric value depending on the local starting day of the week"
         # CLDR does not contain data as to which day is the first day of the week, so we will assume Monday (Ruby default)
         case length
           when 1..2
             date.cwday.to_s
           else
-            weekday(date, pattern, length)
+            weekday(date, pattern_str, length)
         end
       end
 
-      def weekday_local_stand_alone(date, pattern, length, options = {})
+      def weekday_local_stand_alone(date, pattern_str, length, **options)
         case length
           when 1
-            weekday_local(date, pattern, length)
+            weekday_local(date, pattern_str, length)
           else
-            weekday(date, pattern, length)
+            weekday(date, pattern_str, length)
         end
       end
 
-      def period(time, pattern, length, options = {})
-        if pattern[0] == 'a'
-          return calendar.periods(:wide, :format)[time.strftime('%p').downcase.to_sym]
+      def period(time, pattern_str, length, **options)
+        period_type = if pattern_str[0] == 'a'
+          time.strftime('%p').downcase.to_sym
+        else
+          TwitterCldr::Shared::DayPeriods
+            .instance(pattern.locale)
+            .period_type_for(time)
         end
-
-        period_type = TwitterCldr::Shared::DayPeriods
-          .instance(data_reader.locale)
-          .period_type_for(time)
 
         if length <= 3
           calendar.periods(:abbreviated, :format)[period_type]
@@ -257,9 +276,9 @@ module TwitterCldr
         end
       end
 
-      def hour(time, pattern, length, options = {})
+      def hour(time, pattern_str, length, **options)
         hour = time.hour
-        hour = case pattern[0, 1]
+        hour = case pattern_str[0, 1]
           when 'h' # [1-12]
             hour > 12 ? (hour - 12) : (hour == 0 ? 12 : hour)
           when 'H' # [0-23]
@@ -272,26 +291,27 @@ module TwitterCldr
         length == 1 ? hour.to_s : hour.to_s.rjust(length, '0')
       end
 
-      def minute(time, pattern, length, options = {})
+      def minute(time, pattern_str, length, **options)
         length == 1 ? time.min.to_s : time.min.to_s.rjust(length, '0')
       end
 
-      def second(time, pattern, length, options = {})
+      def second(time, pattern_str, length, **options)
         length == 1 ? time.sec.to_s : time.sec.to_s.rjust(length, '0')
       end
 
-      def second_fraction(time, pattern, length, options = {})
+      def second_fraction(time, pattern_str, length, **options)
         raise ArgumentError.new('can not use the S format with more than 6 digits') if length > 6
         (time.usec.to_f / 10 ** (6 - length)).round.to_s.rjust(length, '0')
       end
 
-      def timezone(time, pattern, length, options = {})
+      def timezone(time, pattern_str, length, **options)
         tz = TwitterCldr::Timezones::Timezone.instance(
-          options[:timezone] || 'UTC', data_reader.locale
+          options[:timezone] || 'UTC', pattern.locale
         )
-        fmt = TZ_PATTERNS[pattern]
 
+        fmt = TZ_PATTERN_MAP[pattern_str]
         args = [time, fmt, options[:dst]].compact
+
         tz.display_name_for(*args)
       end
 
