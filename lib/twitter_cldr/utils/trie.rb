@@ -128,7 +128,7 @@ module TwitterCldr
 
       class Node
 
-        attr_accessor :value
+        attr_accessor :value, :children
 
         def initialize(value = nil, children = {})
           @value    = value

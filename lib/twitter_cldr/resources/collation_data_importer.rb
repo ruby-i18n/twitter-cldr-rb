@@ -5,6 +5,7 @@
 
 require 'yaml'
 require 'zlib'
+require 'parallel'
 
 module TwitterCldr
   module Resources
@@ -212,19 +213,15 @@ module TwitterCldr
       end
 
       def execute
-        # @TODO: parallelize root dumping
         dump_root
-
-        params[:locales].each do |locale_sym|
-          dump_locale(locale_sym)
-          puts "Dumped #{locale_sym}"
-        end
+        dump_locales
       end
 
       private
 
       def dump_root
         dump_by_block("root", data_for_root)
+        puts "Dumped root data"
 
         blocks = TwitterCldr::Shared::CodePoint.properties.property_values_for("Block")
         all_ranges = blocks.map do |block|
@@ -239,10 +236,33 @@ module TwitterCldr
           TwitterCldr::Utils::RangeSet.new(all_ranges)
         )
 
-        missing.ranges.each_with_index do |range, idx|
-          dump_range(range, "root", data_for_root)
-          puts "Dumped #{idx + 1} of #{missing.ranges.size} missing ranges"
+        count = 0
+
+        finish = -> (*) do
+          count += 1
+          STDOUT.write("\rDumped #{count} of #{missing.ranges.size} missing ranges for root")
         end
+
+        Parallel.each(missing.ranges, in_threads: [Etc.nprocessors / 2, 1].max, finish: finish) do |range|
+          dump_range(range, "root", data_for_root)
+        end
+
+        puts
+      end
+
+      def dump_locales
+        count = 0
+
+        finish = -> (locale, *) do
+          count += 1
+          STDOUT.write "\rImported tailoring for #{locale}, #{count} of #{params[:locales].size} total"
+        end
+
+        Parallel.each(params[:locales], in_threads: [Etc.nprocessors / 2, 1].max, finish: finish) do |locale_sym|
+          dump_locale(locale_sym)
+        end
+
+        puts
       end
 
       def dump_locale(locale)
@@ -467,7 +487,7 @@ module TwitterCldr
       end
 
       def resolve_ce32(cp, ce32, collation_data)
-        ces = if !Collation.isSpecialCE32(ce32)
+        if !Collation.isSpecialCE32(ce32)
           [Collation.ceFromSimpleCE32(ce32)]
         else
           case Collation.tagFromCE32(ce32)
