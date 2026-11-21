@@ -74,9 +74,7 @@ module TwitterCldr
         end
 
         def join_tokens(tokens)
-          tokens.inject('') do |ret, token|
-            ret << token.value
-          end
+          tokens.map(&:value).join
         end
 
         def consume_while

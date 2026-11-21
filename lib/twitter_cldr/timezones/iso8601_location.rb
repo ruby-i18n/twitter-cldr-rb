@@ -89,7 +89,7 @@ module TwitterCldr
           last_idx -= 1
         end
 
-        buf = ''
+        buf = +''
         sign = '+'
 
         if offset < 0

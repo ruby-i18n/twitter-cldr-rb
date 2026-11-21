@@ -23,7 +23,8 @@ module TwitterCldr
         @timezone = options[:timezone] || "UTC"
       end
 
-      types.each do |type|
+      # to_additional_s takes a format name and is defined below.
+      (types - [:additional]).each do |type|
         define_method "to_#{type}_s" do |options = {}|
           # @ TODO: these need to be cheap to create
           data_reader = data_reader_for(type)

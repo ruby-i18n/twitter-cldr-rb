@@ -7,7 +7,7 @@ module TwitterCldr
   module Formatters
     module Numbers
       class Fraction < Base
-        attr_reader :format, :decimal, :precision
+        attr_reader :decimal, :precision
 
         def initialize(token, symbols = {})
           @format  = token ? token.value.split('.').pop : ''

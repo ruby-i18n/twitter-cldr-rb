@@ -106,7 +106,7 @@ module TwitterCldr
       end
 
       def variant_for(form, unit_type)
-        variant = resource[:unitLength]
+        resource[:unitLength]
           .fetch(form, {})
           .fetch(unit_type, {})
           .fetch(plural_rule.to_sym, nil)

@@ -4,7 +4,6 @@
 # http://www.apache.org/licenses/LICENSE-2.0
 
 require 'singleton'
-require 'forwardable'
 
 module TwitterCldr
   module Segmentation
@@ -13,9 +12,6 @@ module TwitterCldr
     class ThaiBreakEngine
 
       include Singleton
-      extend Forwardable
-
-      def_delegators :engine, :each_boundary
 
       def self.word_set
         @word_set ||= begin
