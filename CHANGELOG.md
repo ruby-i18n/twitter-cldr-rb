@@ -11,6 +11,7 @@
 * Refactor date and time formatting (@camertron)
   - Remove data reader pattern, which honestly was always pretty awkward.
   - Include CLDR conformance test suite.
+* Run unit tests on pull requests, and on pushes to master only. (@dblock, #20)
 
 #### Breaking
 
