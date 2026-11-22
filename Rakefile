@@ -97,6 +97,11 @@ namespace :update do
     TwitterCldr::Resources::CurrencySymbolsImporter.new.import
   end
 
+  desc 'Import date/time conformance tests'
+  task :datetime_conformance_tests do
+    TwitterCldr::Resources::DatetimeConformanceTestsImporter.new.import
+  end
+
   desc 'Import day period rules'
   task :day_period_rules do
     TwitterCldr::Resources::DayPeriodRulesImporter.new.import
@@ -207,6 +212,11 @@ namespace :update do
   desc 'Import (generate) rule-based number format tests (should be executed using JRuby 1.7 in 1.9 mode)'
   task :rbnf_tests do
     TwitterCldr::Resources::RbnfTestImporter.new.import
+  end
+
+  desc 'Import supplemental time data'
+  task :time_data do
+    TwitterCldr::Resources::TimeDataImporter.new.import
   end
 
   desc 'Import timezone data'

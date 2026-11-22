@@ -81,7 +81,6 @@ describe TwitterCldr::Localized::LocalizedDate do
 
   describe "stringify" do
     it "should stringify with a default calendar" do
-      #date.localize(:th, :calendar_type => :buddhist).to_full_s # It doesn't support era
       date_time.localize(:th).to_date.to_long_s
       date_time.localize(:th).to_date.to_medium_s
       date_time.localize(:th).to_date.to_short_s
@@ -115,20 +114,20 @@ describe TwitterCldr::Localized::LocalizedDate do
     end
   end
 
-  describe "#to_additional_s" do
+  describe "#format" do
     let(:date_time) { DateTime.new(2010, 7, 6, 12, 12, 30) }
 
-    it "should format using additional patterns" do
+    it "should format using skeleton patterns" do
       date = date_time.localize(:en).to_date
-      expect(date.to_additional_s("yMMMd")).to eq("Jul 6, 2010")
+      expect(date.format("yMMMd")).to eq("Jul 6, 2010")
     end
   end
 
   describe "formatters" do
-    it "don't raise errors for any locale" do
+    it "doesn't raise errors for any locale" do
       TwitterCldr.supported_locales.each do |locale|
-        (described_class.types - [:additional]).each do |type|
-          expect { DateTime.now.localize(locale).to_date.send(:"to_#{type}_s") }.not_to raise_error
+        described_class::LENGTHS.each do |length|
+          expect { date_time.localize(locale).to_date.send(:"to_#{length}_s") }.not_to raise_error
         end
       end
     end

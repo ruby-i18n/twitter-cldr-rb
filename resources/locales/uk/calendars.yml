@@ -152,8 +152,8 @@
             12: грудень
       :eras:
         :name:
-          0: до нової ери
-          1: нової ери
+          0: до нашої ери
+          1: нашої ери
         :abbr:
           0: до н. е.
           1: н. е.
@@ -299,31 +299,71 @@
       :formats:
         :date:
           :full:
-            :pattern: EEEE, d MMMM y 'р'.
+            :standard:
+              :pattern: EEEE, d MMMM y 'р'.
+              :skeleton: yMMMMEEEEd
           :long:
-            :pattern: d MMMM y 'р'.
+            :standard:
+              :pattern: d MMMM y 'р'.
+              :skeleton: yMMMMd
           :medium:
-            :pattern: d MMM y 'р'.
+            :standard:
+              :pattern: d MMM y 'р'.
+              :skeleton: yMMMd
           :short:
-            :pattern: dd.MM.yy
+            :standard:
+              :pattern: dd.MM.yy
+              :skeleton: yyMMdd
         :time:
           :full:
-            :pattern: HH:mm:ss zzzz
+            :standard:
+              :pattern: HH:mm:ss zzzz
+              :skeleton: HHmmsszzzz
           :long:
-            :pattern: HH:mm:ss z
+            :standard:
+              :pattern: HH:mm:ss z
+              :skeleton: HHmmssz
           :medium:
-            :pattern: HH:mm:ss
+            :standard:
+              :pattern: HH:mm:ss
+              :skeleton: HHmmss
           :short:
-            :pattern: HH:mm
+            :standard:
+              :pattern: HH:mm
+              :skeleton: HHmm
         :datetime:
           :full:
-            :pattern: "{{date}} 'о' {{time}}"
+            :standard:
+              :pattern: "{{date}}, {{time}}"
+            :atTime:
+              :pattern: "{{date}} 'о' {{time}}"
+            :relative:
+              :pattern: "{{date}} 'о' {{time}}"
           :long:
-            :pattern: "{{date}} 'о' {{time}}"
+            :standard:
+              :pattern: "{{date}}, {{time}}"
+            :atTime:
+              :pattern: "{{date}} 'о' {{time}}"
+            :relative:
+              :pattern: "{{date}} 'о' {{time}}"
           :medium:
-            :pattern: "{{date}}, {{time}}"
+            :standard:
+              :pattern: "{{date}}, {{time}}"
           :short:
-            :pattern: "{{date}}, {{time}}"
+            :standard:
+              :pattern: "{{date}}, {{time}}"
+      :append_items:
+        :day: "{0} ({2}: {1})"
+        :day_of_week: "{0} {1}"
+        :era: "{1} {0}"
+        :hour: "{0} ({2}: {1})"
+        :minute: "{0} ({2}: {1})"
+        :month: "{0} ({2}: {1})"
+        :quarter: "{0} ({2}: {1})"
+        :second: "{0} ({2}: {1})"
+        :timezone: "{0} {1}"
+        :week: "{0} ({2}: {1})"
+        :year: "{1} {0}"
       :additional_formats:
         :Bh: h B
         :Bhm: h:mm B

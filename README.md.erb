@@ -178,7 +178,7 @@ For English (and other languages), you can also specify an ordinal spellout:
 
 ```ruby
 DateTime.now.localize(:es).to_full_s               # <%= assert(datetime.localize(:es).to_full_s, "viernes, 14 de febrero de 2014, 12:20:05 (tiempo universal coordinado)").inspect %>
-DateTime.now.localize(:es).to_long_s               # <%= assert(datetime.localize(:es).to_long_s, "14 de febrero de 2014 a las 12:20:05 UTC").inspect %>
+DateTime.now.localize(:es).to_long_s               # <%= assert(datetime.localize(:es).to_long_s, "14 de febrero de 2014, 12:20:05 UTC").inspect %>
 DateTime.now.localize(:es).to_medium_s             # <%= assert(datetime.localize(:es).to_medium_s, "14 feb 2014, 12:20:05").inspect %>
 DateTime.now.localize(:es).to_short_s              # <%= assert(datetime.localize(:es).to_short_s, "14/2/14, 12:20").inspect %>
 
@@ -213,20 +213,20 @@ Besides the default date formats, CLDR supports a number of additional ones.  Th
 DateTime.now.localize(:ja).additional_formats
 ```
 
-You can use any of the returned formats as the argument to the `to_additional_s` method:
+You can use any of the returned formats as the argument to the `format` method:
 
 ```ruby
-# <%= assert(datetime.localize(:ja).to_additional_s("EEEEd"), "14日金曜日").inspect %>
-DateTime.now.localize(:ja).to_additional_s("EEEEd")
+# <%= assert(datetime.localize(:ja).format("EEEEd"), "14日金曜日").inspect %>
+DateTime.now.localize(:ja).format("EEEEd")
 ```
 
-It's important to know that, even though any given format may not be available across locales, TwitterCLDR will do it's best to approximate if no exact match can be found.
+The `format` method can accept arbitrary format patterns and will do its best to return a string in the correct format for the locale. For a complete list of available field symbols, see [Unicode Technical Report #35, Date Field Symbol Table](https://www.unicode.org/reports/tr35/tr35-dates.html#Date_Field_Symbol_Table).
 
-##### List of additional date format examples for English:
+##### Additional date format examples for English:
 
 | Format     | Output                 |
 |:-----------|------------------------|
-<% datetime.localize(:en).additional_formats.each do |pattern| %>| <%= pattern.ljust(10, " ") %> | <%= datetime.localize(:en).to_additional_s(pattern).ljust(22, " ") %> |<%= "\n" %><% end %>
+<% datetime.localize(:en).additional_formats.each do |pattern| %>| <%= pattern.ljust(10, " ") %> | <%= datetime.localize(:en).format(pattern).ljust(22, " ") %> |<%= "\n" %><% end %>
 
 
 #### Relative Dates and Times
@@ -871,18 +871,12 @@ The `TwitterCldr::Collation::Collator` class also provides methods to compare tw
 ```ruby
 <% collator = TwitterCldr::Collation::Collator.for(:de) %>
 collator = TwitterCldr::Collation::Collator.for(:de)
-collator.compare("Art", "Älg")           # <%= assert(collator.compare("Art", "Älg"), 1).inspect %>
-collator.compare("Älg", "Art")           # <%= assert(collator.compare("Älg", "Art"), -1).inspect %>
-collator.compare("Art", "Art")           # <%= assert(collator.compare("Art", "Art"), 0).inspect %>
+collator.compare("Art", "Älg")                # <%= assert(collator.compare("Art", "Älg"), 1).inspect %>
+collator.compare("Älg", "Art")                # <%= assert(collator.compare("Älg", "Art"), -1).inspect %>
+collator.compare("Art", "Art")                # <%= assert(collator.compare("Art", "Art"), 0).inspect %>
 
-collator.get_collation_elements("Älg")   # <%= assert(collator.get_collation_elements("Älg"), [3098476543714827264, 2516583680, 4683743612549203200, 3963167672169923840, 4311744768]).inspect %>
-
-# enumerator version
-collator.each_collation_element do |element|
-  ...
-end
-
-collator.get_sort_key("Älg")             # <%= assert(collator.get_sort_key("Älg"), [43, 65, 55, 1, 69, 150, 6, 1, 220, 7]).inspect %>
+collator.each_collation_element("Älg").to_a   # <%= assert(collator.each_collation_element("Älg").to_a, [3098476543714827264, 2516583680, 4683743612549203200, 3963167672169923840, 4311744768]).inspect %>
+collator.sort_key_for("Älg")                  # <%= assert(collator.sort_key_for("Älg"), [43, 65, 55, 1, 69, 150, 6, 1, 220, 7]).inspect %>
 ```
 
 ### Transliteration

@@ -152,11 +152,11 @@
             12: դեկտեմբեր
       :eras:
         :name:
-          0: մեր թվարկությունից առաջ
-          1: մեր թվարկության
+          0: Քրիստոսից առաջ
+          1: Քրիստոսից հետո
         :abbr:
-          0: մ․թ․ա․
-          1: մ․թ․
+          0: մ.թ.ա.
+          1: մ.թ.
         :narrow:
           0: BCE
           1: CE
@@ -293,31 +293,63 @@
       :formats:
         :date:
           :full:
-            :pattern: y թ. MMMM d, EEEE
+            :standard:
+              :pattern: y թ. MMMM d, EEEE
+              :skeleton: yMMMMEEEEd
           :long:
-            :pattern: dd MMMM, y թ.
+            :standard:
+              :pattern: dd MMMM, y թ.
+              :skeleton: yMMMMdd
           :medium:
-            :pattern: dd MMM, y թ.
+            :standard:
+              :pattern: dd MMM, y թ.
+              :skeleton: yMMMdd
           :short:
-            :pattern: dd.MM.yy
+            :standard:
+              :pattern: dd.MM.yy
+              :skeleton: yyMMdd
         :time:
           :full:
-            :pattern: HH:mm:ss zzzz
+            :standard:
+              :pattern: HH:mm:ss zzzz
+              :skeleton: HHmmsszzzz
           :long:
-            :pattern: HH:mm:ss z
+            :standard:
+              :pattern: HH:mm:ss z
+              :skeleton: HHmmssz
           :medium:
-            :pattern: HH:mm:ss
+            :standard:
+              :pattern: HH:mm:ss
+              :skeleton: HHmmss
           :short:
-            :pattern: HH:mm
+            :standard:
+              :pattern: HH:mm
+              :skeleton: HHmm
         :datetime:
           :full:
-            :pattern: "{{date}}, {{time}}"
+            :standard:
+              :pattern: "{{date}}, {{time}}"
           :long:
-            :pattern: "{{date}}, {{time}}"
+            :standard:
+              :pattern: "{{date}}, {{time}}"
           :medium:
-            :pattern: "{{date}}, {{time}}"
+            :standard:
+              :pattern: "{{date}}, {{time}}"
           :short:
-            :pattern: "{{date}}, {{time}}"
+            :standard:
+              :pattern: "{{date}}, {{time}}"
+      :append_items:
+        :day: "{0} ({2}: {1})"
+        :day_of_week: "{0} {1}"
+        :era: "{1} {0}"
+        :hour: "{0} ({2}: {1})"
+        :minute: "{0} ({2}: {1})"
+        :month: "{0} ({2}: {1})"
+        :quarter: "{0} ({2}: {1})"
+        :second: "{0} ({2}: {1})"
+        :timezone: "{0} {1}"
+        :week: "{0} ({2}: {1})"
+        :year: "{1} {0}"
       :additional_formats:
         :Bh: B h-ին
         :Bhm: B h:mm-ին
