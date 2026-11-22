@@ -55,7 +55,6 @@ module TwitterCldr
 
   class << self
 
-    attr_reader :locale
     attr_accessor :disable_custom_locale_resources
 
     def resources

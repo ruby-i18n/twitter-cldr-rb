@@ -68,7 +68,6 @@ module TwitterCldr
       end
 
       def assert_no_error(proc)
-        error = nil
         begin
           proc.call
         rescue => e

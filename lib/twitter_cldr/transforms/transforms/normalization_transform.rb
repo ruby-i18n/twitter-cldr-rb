@@ -28,8 +28,6 @@ module TwitterCldr
 
         def apply_to(cursor)
           if forward_transform
-            puts forward_transform if $debug
-
             cursor.set_text(
               TwitterCldr::Normalization.normalize(
                 cursor.text, using: forward_transform

@@ -20,7 +20,7 @@ module TwitterCldr
         @tokenizer ||= begin
           recognizers = [
             # The variable name can contain letters and digits, but must start with a letter.
-            TokenRecognizer.new(:variable, /\$\w[\w\d]*/),
+            TokenRecognizer.new(:variable, /\$\w+/),
             TokenRecognizer.new(:character_set, /\[:[\w\s=]+:\]|\\p\{[\w\s=]+\}/),  # [:Lu:] or \p{Lu} or \p{Sentence_Break=CF}
             TokenRecognizer.new(:negated_character_set, /\[:\^[\w\s=]+:\]|\\P\{[\w\s=]+\}/),  #[:^Lu:] or \P{Lu}
             TokenRecognizer.new(:unicode_char, /\\u\{?[a-fA-F0-9]{1,6}\}?/),

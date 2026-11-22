@@ -22,10 +22,6 @@ module TwitterCldr
 
         public
 
-        def apply_to(cursor)
-          puts 'BLANK' if $debug
-        end
-
         def null?
           false
         end

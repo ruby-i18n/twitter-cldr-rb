@@ -21,7 +21,6 @@ module TwitterCldr
         end
 
         def apply_to(cursor)
-          puts 'NULL' if $debug
           cursor.reset_position
         end
 

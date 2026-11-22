@@ -12,6 +12,7 @@
   - Remove data reader pattern, which honestly was always pretty awkward.
   - Include CLDR conformance test suite.
 * Run unit tests on pull requests, and on pushes to master only. (@dblock, #20)
+* Fix warnings under `ruby -w`, and remove a leftover `binding.irb` and `$debug` output. (@dblock, #18)
 
 #### Breaking
 

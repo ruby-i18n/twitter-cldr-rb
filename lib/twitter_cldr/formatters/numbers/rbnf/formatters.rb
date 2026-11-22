@@ -176,7 +176,6 @@ module TwitterCldr
 
           # doesn't seem to matter if the descriptor is two or three arrows, although three seems to indicate
           # we should or should not be inserting spaces somewhere (not sure where)
-          is_fractional = true
           number.to_s.split(".")[1].each_char.map do |digit|
             RuleFormatter.format(digit.to_i, rule_set, rule_group, locale)
           end.join(" ")
