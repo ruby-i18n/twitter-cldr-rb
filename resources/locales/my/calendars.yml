@@ -152,11 +152,11 @@
             12: ဒီဇင်ဘာ
       :eras:
         :name:
-          0: ဘုံခေတ် မတိုင်မီ
-          1: ဘုံခေတ်
+          0: ခရစ်တော် မပေါ်မီနှစ်
+          1: ခရစ်နှစ်
         :abbr:
-          0: ဘီစီအီး
-          1: စီအီး
+          0: ဘီစီ
+          1: အဒေီ
         :narrow:
           0: BCE
           1: CE
@@ -301,16 +301,61 @@
           :full:
             :standard:
               :pattern: y MMMM d EEEE
+              :skeleton: yMMMMEEEEd
+          :long:
+            :standard:
+              :pattern: y MMMM d
+              :skeleton: yMMMMd
+          :medium:
+            :standard:
+              :pattern: y MMM d
+              :skeleton: yMMMd
+          :short:
+            :standard:
+              :pattern: d/M/yy
+              :skeleton: yyMMdd
         :time:
           :full:
             :standard:
               :pattern: zzzz HH:mm:ss
+              :skeleton: HHmmsszzzz
+          :long:
+            :standard:
+              :pattern: z HH:mm:ss
+              :skeleton: HHmmssz
+          :medium:
+            :standard:
+              :pattern: H:mm:ss
+              :skeleton: HHmmss
+          :short:
+            :standard:
+              :pattern: H:mm
+              :skeleton: Hmm
         :datetime:
           :full:
             :standard:
-              :pattern: "{1} {0}"
-            :atTime: {}
-            :relative: {}
+              :pattern: "{{date}} {{time}}"
+          :long:
+            :standard:
+              :pattern: "{{date}} {{time}}"
+          :medium:
+            :standard:
+              :pattern: "{{date}} {{time}}"
+          :short:
+            :standard:
+              :pattern: "{{date}} {{time}}"
+      :append_items:
+        :day: "{0} ({2}: {1})"
+        :day_of_week: "{0} {1}"
+        :era: "{1} {0}"
+        :hour: "{0} ({2}: {1})"
+        :minute: "{0} ({2}: {1})"
+        :month: "{0} ({2}: {1})"
+        :quarter: "{0} ({2}: {1})"
+        :second: "{0} ({2}: {1})"
+        :timezone: "{1} {0}"
+        :week: "{0} ({2}: {1})"
+        :year: "{1} {0}"
       :additional_formats:
         :Bh: B h
         :Bhm: B h:mm

@@ -20,8 +20,6 @@ module TwitterCldr
 
             # filters are always just a unicode set
             new(re.elements.first.to_set.to_set, direction)
-          rescue => e
-            binding.irb
           end
 
           def accepts?(rule_text)

@@ -155,8 +155,8 @@
           0: BCE
           1: CE
         :abbr:
-          0: 公元前
-          1: 公元
+          0: 西元前
+          1: 西元
         :narrow:
           0: BCE
           1: CE
@@ -307,18 +307,75 @@
           :full:
             :standard:
               :pattern: y年M月d日 EEEE
+              :skeleton: yMMMEEEEd
+          :long:
+            :standard:
+              :pattern: y年M月d日
+              :skeleton: yMMMd
+          :medium:
+            :standard:
+              :pattern: y年M月d日
+              :skeleton: yMMMd
+          :short:
+            :standard:
+              :pattern: y/M/d
+              :skeleton: yMd
         :time:
           :full:
             :standard:
               :pattern: Bh:mm:ss [zzzz]
+              :skeleton: Bhmmsszzzz
+          :long:
+            :standard:
+              :pattern: Bh:mm:ss [z]
+              :skeleton: Bhmmssz
+          :medium:
+            :standard:
+              :pattern: Bh:mm:ss
+              :skeleton: Bhmmss
+          :short:
+            :standard:
+              :pattern: Bh:mm
+              :skeleton: Bhmm
         :datetime:
           :full:
             :standard:
-              :pattern: "{1}{0}"
+              :pattern: "{{date}} {{time}}"
             :atTime:
-              :pattern: "{1} {0}"
+              :pattern: "{{date}} {{time}}"
             :relative:
-              :pattern: "{1}{0}"
+              :pattern: "{{date}}{{time}}"
+          :long:
+            :standard:
+              :pattern: "{{date}} {{time}}"
+            :atTime:
+              :pattern: "{{date}} {{time}}"
+            :relative:
+              :pattern: "{{date}}{{time}}"
+          :medium:
+            :standard:
+              :pattern: "{{date}} {{time}}"
+            :atTime:
+              :pattern: "{{date}} {{time}}"
+            :relative:
+              :pattern: "{{date}}{{time}}"
+          :short:
+            :standard:
+              :pattern: "{{date}} {{time}}"
+            :relative:
+              :pattern: "{{date}}{{time}}"
+      :append_items:
+        :day: "{0} ({2}: {1})"
+        :day_of_week: "{0} {1}"
+        :era: "{1} {0}"
+        :hour: "{0} ({2}: {1})"
+        :minute: "{0} ({2}: {1})"
+        :month: "{0} ({2}: {1})"
+        :quarter: "{0} ({2}: {1})"
+        :second: "{0} ({2}: {1})"
+        :timezone: "{0} {1}"
+        :week: "{0} ({2}: {1})"
+        :year: "{1} {0}"
       :additional_formats:
         :Bh: Bh時
         :Bhm: Bh:mm

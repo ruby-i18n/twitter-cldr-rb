@@ -152,7 +152,7 @@
             12: Tháng 12
       :eras:
         :name:
-          0: Trước Công Nguyên
+          0: Trước Chúa Giáng Sinh
           1: Sau Công Nguyên
         :abbr:
           0: TCN
@@ -291,18 +291,69 @@
           :full:
             :standard:
               :pattern: EEEE, d MMMM, y
+              :skeleton: yMMMMEEEEd
+          :long:
+            :standard:
+              :pattern: d MMMM, y
+              :skeleton: yMMMMd
+          :medium:
+            :standard:
+              :pattern: d MMM, y
+              :skeleton: yMMMd
+          :short:
+            :standard:
+              :pattern: d/M/yy
+              :skeleton: yMMdd
         :time:
           :full:
             :standard:
               :pattern: HH:mm:ss zzzz
+              :skeleton: HHmmsszzzz
+          :long:
+            :standard:
+              :pattern: HH:mm:ss z
+              :skeleton: HHmmssz
+          :medium:
+            :standard:
+              :pattern: HH:mm:ss
+              :skeleton: HHmmss
+          :short:
+            :standard:
+              :pattern: HH:mm
+              :skeleton: HHmm
         :datetime:
           :full:
             :standard:
-              :pattern: "'lúc' {0} {1}"
+              :pattern: "{{time}} {{date}}"
             :atTime:
-              :pattern: "'lúc' {0} {1}"
+              :pattern: "'lúc' {{time}} {{date}}"
             :relative:
-              :pattern: "'lúc' {0} {1}"
+              :pattern: "'lúc' {{time}} {{date}}"
+          :long:
+            :standard:
+              :pattern: "{{time}} {{date}}"
+            :atTime:
+              :pattern: "'lúc' {{time}} {{date}}"
+            :relative:
+              :pattern: "'lúc' {{time}} {{date}}"
+          :medium:
+            :standard:
+              :pattern: "{{time}} {{date}}"
+          :short:
+            :standard:
+              :pattern: "{{time}} {{date}}"
+      :append_items:
+        :day: "{0} ({2}: {1})"
+        :day_of_week: "{0} {1}"
+        :era: "{1} {0}"
+        :hour: "{0} ({2}: {1})"
+        :minute: "{0} ({2}: {1})"
+        :month: "{0} ({2}: {1})"
+        :quarter: "{0} ({2}: {1})"
+        :second: "{0} ({2}: {1})"
+        :timezone: "{0} {1}"
+        :week: "{0} ({2}: {1})"
+        :year: "{1} {0}"
       :additional_formats:
         :Bh: h 'giờ' B
         :Bhm: h:mm B

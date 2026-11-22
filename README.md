@@ -178,7 +178,7 @@ For English (and other languages), you can also specify an ordinal spellout:
 
 ```ruby
 DateTime.now.localize(:es).to_full_s               # "viernes, 14 de febrero de 2014, 12:20:05 (tiempo universal coordinado)"
-DateTime.now.localize(:es).to_long_s               # "14 de febrero de 2014 a las 12:20:05 UTC"
+DateTime.now.localize(:es).to_long_s               # "14 de febrero de 2014, 12:20:05 UTC"
 DateTime.now.localize(:es).to_medium_s             # "14 feb 2014, 12:20:05"
 DateTime.now.localize(:es).to_short_s              # "14/2/14, 12:20"
 
@@ -213,16 +213,16 @@ Besides the default date formats, CLDR supports a number of additional ones.  Th
 DateTime.now.localize(:ja).additional_formats
 ```
 
-You can use any of the returned formats as the argument to the `to_additional_s` method:
+You can use any of the returned formats as the argument to the `format` method:
 
 ```ruby
 # "14日金曜日"
-DateTime.now.localize(:ja).to_additional_s("EEEEd")
+DateTime.now.localize(:ja).format("EEEEd")
 ```
 
-It's important to know that, even though any given format may not be available across locales, TwitterCLDR will do it's best to approximate if no exact match can be found.
+The `format` method can accept arbitrary format patterns and will do its best to return a string in the correct format for the locale. For a complete list of available field symbols, see [Unicode Technical Report #35, Date Field Symbol Table](https://www.unicode.org/reports/tr35/tr35-dates.html#Date_Field_Symbol_Table).
 
-##### List of additional date format examples for English:
+##### Additional date format examples for English:
 
 | Format     | Output                 |
 |:-----------|------------------------|
@@ -240,14 +240,14 @@ It's important to know that, even though any given format may not be available a
 | EHm        | Fri 12:20              |
 | Ehms       | Fri 12:20:05 PM        |
 | EHms       | Fri 12:20:05           |
-| Gy         | 2014 CE                |
-| GyM        | 2/2014 CE              |
-| GyMd       | 2/14/2014 CE           |
-| GyMEd      | Fri, 2/14/2014 CE      |
-| GyMMM      | Feb 2014 CE            |
-| GyMMMd     | Feb 14, 2014 CE        |
-| GyMMMEd    | Fri, Feb 14, 2014 CE   |
-| h          | 12 PM                  |
+| Gy         | 2014 AD                |
+| GyM        | 2/2014 AD              |
+| GyMd       | 2/14/2014 AD           |
+| GyMEd      | Fri, 2/14/2014 AD      |
+| GyMMM      | Feb 2014 AD            |
+| GyMMMd     | Feb 14, 2014 AD        |
+| GyMMMEd    | Fri, Feb 14, 2014 AD   |
+| h          | 12                     |
 | H          | 12                     |
 | hm         | 12:20 PM               |
 | Hm         | 12:20                  |
@@ -279,6 +279,13 @@ It's important to know that, even though any given format may not be available a
 | yQQQ       | Q1 2014                |
 | yQQQQ      | 1st quarter 2014       |
 | yw         | week 7 of 2014         |
+| yMMMMEEEEd | Friday, February 14, 2014 |
+| yMMMMd     | February 14, 2014      |
+| yyMd       | 2/14/14                |
+| ahmmsszzzz | 12:20:05 PM Coordinated Universal Time |
+| ahmmssz    | 12:20:05 PM UTC        |
+| ahmmss     | 12:20:05 PM            |
+| ahmm       | 12:20 PM               |
 
 
 
@@ -600,7 +607,7 @@ postal_code.regexp  # /(\d{5})(?:[ \-](\d{4}))?/
 Get a sample of valid postal codes with the `#sample` method:
 
 ```ruby
-postal_code.sample(5)  # ["05852", "85577-6418", "89989-6804", "14444", "74297"]
+postal_code.sample(5)  # ["49455", "54791", "09329-1278", "58462-7787", "06996"]
 ```
 
 ### Language Codes
@@ -924,18 +931,12 @@ The `TwitterCldr::Collation::Collator` class also provides methods to compare tw
 ```ruby
 
 collator = TwitterCldr::Collation::Collator.for(:de)
-collator.compare("Art", "Älg")           # 1
-collator.compare("Älg", "Art")           # -1
-collator.compare("Art", "Art")           # 0
+collator.compare("Art", "Älg")                # 1
+collator.compare("Älg", "Art")                # -1
+collator.compare("Art", "Art")                # 0
 
-collator.get_collation_elements("Älg")   # [3098476543714827264, 2516583680, 4683743612549203200, 3963167672169923840, 4311744768]
-
-# enumerator version
-collator.each_collation_element do |element|
-  ...
-end
-
-collator.get_sort_key("Älg")             # [43, 65, 55, 1, 69, 150, 6, 1, 220, 7]
+collator.each_collation_element("Älg").to_a   # [3098476543714827264, 2516583680, 4683743612549203200, 3963167672169923840, 4311744768]
+collator.sort_key_for("Älg")                  # [43, 65, 55, 1, 69, 150, 6, 1, 220, 7]
 ```
 
 ### Transliteration

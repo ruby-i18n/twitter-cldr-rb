@@ -155,8 +155,8 @@
           0: 기원전
           1: 서기
         :abbr:
-          0: BCE
-          1: CE
+          0: BC
+          1: AD
         :narrow:
           0: BCE
           1: CE
@@ -272,16 +272,61 @@
           :full:
             :standard:
               :pattern: y년 MMMM d일 EEEE
+              :skeleton: yMMMMEEEEd
+          :long:
+            :standard:
+              :pattern: y년 MMMM d일
+              :skeleton: yMMMMd
+          :medium:
+            :standard:
+              :pattern: y. M. d.
+              :skeleton: yMd
+          :short:
+            :standard:
+              :pattern: yy. M. d.
+              :skeleton: yyMd
         :time:
           :full:
             :standard:
               :pattern: a h시 m분 s초 zzzz
+              :skeleton: ahmszzzz
+          :long:
+            :standard:
+              :pattern: a h시 m분 s초 z
+              :skeleton: ahmsz
+          :medium:
+            :standard:
+              :pattern: a h:mm:ss
+              :skeleton: ahmmss
+          :short:
+            :standard:
+              :pattern: a h:mm
+              :skeleton: ahmm
         :datetime:
           :full:
             :standard:
-              :pattern: "{1} {0}"
-            :atTime: {}
-            :relative: {}
+              :pattern: "{{date}} {{time}}"
+          :long:
+            :standard:
+              :pattern: "{{date}} {{time}}"
+          :medium:
+            :standard:
+              :pattern: "{{date}} {{time}}"
+          :short:
+            :standard:
+              :pattern: "{{date}} {{time}}"
+      :append_items:
+        :day: "{0} ({2}: {1})"
+        :day_of_week: "{0} {1}"
+        :era: "{1} {0}"
+        :hour: "{0} ({2}: {1})"
+        :minute: "{0} ({2}: {1})"
+        :month: "{0} ({2}: {1})"
+        :quarter: "{0} ({2}: {1})"
+        :second: "{0} ({2}: {1})"
+        :timezone: "{0} {1}"
+        :week: "{0} ({2}: {1})"
+        :year: "{1} {0}"
       :additional_formats:
         :Bh: B h시
         :Bhm: B h:mm

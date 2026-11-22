@@ -29,12 +29,12 @@ describe TwitterCldr::Localized::LocalizedDateTime do
 
     it "should remove quotes around plaintext tokens" do
       # notice there are no single quotes around the "at"
-      expect(date_time.localize(:en).to_long_s).to eq("September 20, 1987 at 10:05:00 PM UTC")
+      expect(date_time.localize(:en).to_long_s).to eq("September 20, 1987, 10:05:00 PM UTC")
     end
 
     it 'should stringify with proper time zone' do
       expect(date_time.localize(:en).with_timezone('Asia/Tokyo').to_full_s).to(
-        eq('Monday, September 21, 1987 at 7:05:00 AM Japan Standard Time')
+        eq('Monday, September 21, 1987, 7:05:00 AM Japan Standard Time')
       )
     end
   end
@@ -66,35 +66,35 @@ describe TwitterCldr::Localized::LocalizedDateTime do
   end
 
   describe 'formatters' do
-    it "don't raise errors for any locale" do
+    it "doesn't raise errors for any locale" do
       TwitterCldr.supported_locales.each do |locale|
-        (TwitterCldr::DataReaders::CalendarDataReader.types - [:additional]).each do |type|
-          expect { date_time.localize(locale).send(:"to_#{type}_s") }.not_to raise_error
+        described_class::LENGTHS.each do |length|
+          expect { date_time.localize(locale).send(:"to_#{length}_s") }.not_to raise_error
         end
       end
     end
 
-    it "don't raise errors for additional date formats" do
+    it "doesn't raise errors for additional date formats" do
       TwitterCldr.supported_locales.each do |locale|
-        data_reader = TwitterCldr::DataReaders::CalendarDataReader.new(locale)
-        data_reader.additional_format_selector.patterns.each do |pattern|
-          expect { date_time.localize(locale).to_additional_s(pattern.to_s) }.to_not raise_error
+        patterns = TwitterCldr::Patterns::DateTimePatterns.for(locale)
+        patterns.additional_format_skeletons.each do |skeleton|
+          expect { date_time.localize(locale).format(skeleton) }.to_not raise_error
         end
       end
     end
   end
 
-  describe "#to_additional_s" do
-    it "should format using additional patterns" do
-      expect(date_time.localize(:en).to_additional_s("EHms")).to eq("Sun 22:05:00")
+  describe "#format" do
+    it "should format using skeleton patterns" do
+      expect(date_time.localize(:en).format("EHms")).to eq("Sun 22:05:00")
     end
 
     it "should properly handle single quotes escaping" do
-      expect(date_time.localize(:ru).to_additional_s("GyMMMd")).to match_normalized("20 сент. 1987 г. н. э.")
+      expect(date_time.localize(:ru).format("GyMMMd")).to match_normalized("20 сент. 1987 г. н. э.")
     end
 
     it "should unescape multiple groups" do
-      expect(date_time.localize(:es).to_additional_s("yMMMd")).to eq("20 sept 1987")
+      expect(date_time.localize(:es).format("yMMMd")).to eq("20 sept 1987")
     end
   end
 

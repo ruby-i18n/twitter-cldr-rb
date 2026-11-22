@@ -152,14 +152,14 @@
             12: abendua
       :eras:
         :name:
-          0: oraingo aroaren aurretik
-          1: oraingo aroa
+          0: Kristo aurretik
+          1: Kristo ondoren
         :abbr:
-          0: o.a.a.
-          1: o.a.
+          0: K.a.
+          1: K.o.
         :narrow:
-          0: G.a.a.
-          1: G.a.
+          0: a
+          1: o
       :quarters:
         :format:
           :abbreviated:
@@ -304,16 +304,61 @@
           :full:
             :standard:
               :pattern: y('e')'ko' MMMM'ren' d('a'), EEEE
+              :skeleton: yMMMMEEEEd
+          :long:
+            :standard:
+              :pattern: y('e')'ko' MMMM'ren' d('a')
+              :skeleton: yMMMMd
+          :medium:
+            :standard:
+              :pattern: y('e')'ko' MMM d('a')
+              :skeleton: yMMMd
+          :short:
+            :standard:
+              :pattern: yy/M/d
+              :skeleton: yyMd
         :time:
           :full:
             :standard:
               :pattern: HH:mm:ss (zzzz)
+              :skeleton: HHmmsszzzz
+          :long:
+            :standard:
+              :pattern: HH:mm:ss (z)
+              :skeleton: HHmmssz
+          :medium:
+            :standard:
+              :pattern: HH:mm:ss
+              :skeleton: HHmmss
+          :short:
+            :standard:
+              :pattern: HH:mm
+              :skeleton: HHmm
         :datetime:
           :full:
             :standard:
-              :pattern: "{1} ({0})"
-            :atTime: {}
-            :relative: {}
+              :pattern: "{{date}} ({{time}})"
+          :long:
+            :standard:
+              :pattern: "{{date}} ({{time}})"
+          :medium:
+            :standard:
+              :pattern: "{{date}} ({{time}})"
+          :short:
+            :standard:
+              :pattern: "{{date}} ({{time}})"
+      :append_items:
+        :day: "{0} ({2}: {1})"
+        :day_of_week: "{0} {1}"
+        :era: "{1} {0}"
+        :hour: "{0} ({2}: {1})"
+        :minute: "{0} ({2}: {1})"
+        :month: "{0} ({2}: {1})"
+        :quarter: "{0} ({2}: {1})"
+        :second: "{0} ({2}: {1})"
+        :timezone: "{0} ({1})"
+        :week: "{0} ({2}: {1})"
+        :year: "{1} {0}"
       :additional_formats:
         :Bh: B h
         :Bhm: B h:mm

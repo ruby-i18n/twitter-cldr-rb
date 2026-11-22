@@ -152,11 +152,11 @@
             12: ธันวาคม
       :eras:
         :name:
-          0: ก่อนสามัญศักราช
-          1: สามัญศักราช
+          0: ปีก่อนคริสตกาล
+          1: คริสต์ศักราช
         :abbr:
-          0: ก่อน ส.ศ.
-          1: ส.ศ.
+          0: ก่อน ค.ศ.
+          1: ค.ศ.
         :narrow:
           0: ก.ส.ศ.
           1: CE
@@ -299,18 +299,69 @@
           :full:
             :standard:
               :pattern: EEEEที่ d MMMM G y
+              :skeleton: GyMMMMEEEEd
+          :long:
+            :standard:
+              :pattern: d MMMM G y
+              :skeleton: GyMMMMd
+          :medium:
+            :standard:
+              :pattern: d MMM y
+              :skeleton: yMMMd
+          :short:
+            :standard:
+              :pattern: d/M/yy
+              :skeleton: yyMd
         :time:
           :full:
             :standard:
               :pattern: H นาฬิกา mm นาที ss วินาที zzzz
+              :skeleton: Hmmsszzzz
+          :long:
+            :standard:
+              :pattern: H นาฬิกา mm นาที ss วินาที z
+              :skeleton: Hmmssz
+          :medium:
+            :standard:
+              :pattern: HH:mm:ss
+              :skeleton: HHmmss
+          :short:
+            :standard:
+              :pattern: HH:mm
+              :skeleton: HHmm
         :datetime:
           :full:
             :standard:
-              :pattern: "{1} เวลา {0}"
+              :pattern: "{{date}} {{time}}"
             :atTime:
-              :pattern: "{1} เวลา {0}"
+              :pattern: "{{date}} เวลา {{time}}"
             :relative:
-              :pattern: "{1} เวลา {0}"
+              :pattern: "{{date}} เวลา {{time}}"
+          :long:
+            :standard:
+              :pattern: "{{date}} {{time}}"
+            :atTime:
+              :pattern: "{{date}} เวลา {{time}}"
+            :relative:
+              :pattern: "{{date}} เวลา {{time}}"
+          :medium:
+            :standard:
+              :pattern: "{{date}} {{time}}"
+          :short:
+            :standard:
+              :pattern: "{{date}} {{time}}"
+      :append_items:
+        :day: "{0} ({2}: {1})"
+        :day_of_week: "{0} {1}"
+        :era: "{1} {0}"
+        :hour: "{0} ({2}: {1})"
+        :minute: "{0} ({2}: {1})"
+        :month: "{0} ({2}: {1})"
+        :quarter: "{0} ({2}: {1})"
+        :second: "{0} ({2}: {1})"
+        :timezone: "{0} {1}"
+        :week: "{0} ({2}: {1})"
+        :year: "{1} {0}"
       :additional_formats:
         :Bh: h B
         :Bhm: h:mm B

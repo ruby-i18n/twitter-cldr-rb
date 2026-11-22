@@ -307,16 +307,61 @@
           :full:
             :standard:
               :pattern: y年M月d日EEEE
+              :skeleton: yMMMEEEEd
+          :long:
+            :standard:
+              :pattern: y年M月d日
+              :skeleton: yMMMd
+          :medium:
+            :standard:
+              :pattern: y年M月d日
+              :skeleton: yMMMd
+          :short:
+            :standard:
+              :pattern: y/M/d
+              :skeleton: yMd
         :time:
           :full:
             :standard:
               :pattern: zzzz HH:mm:ss
+              :skeleton: HHmmsszzzz
+          :long:
+            :standard:
+              :pattern: z HH:mm:ss
+              :skeleton: HHmmssz
+          :medium:
+            :standard:
+              :pattern: HH:mm:ss
+              :skeleton: HHmmss
+          :short:
+            :standard:
+              :pattern: HH:mm
+              :skeleton: HHmm
         :datetime:
           :full:
             :standard:
-              :pattern: "{1} {0}"
-            :atTime: {}
-            :relative: {}
+              :pattern: "{{date}} {{time}}"
+          :long:
+            :standard:
+              :pattern: "{{date}} {{time}}"
+          :medium:
+            :standard:
+              :pattern: "{{date}} {{time}}"
+          :short:
+            :standard:
+              :pattern: "{{date}} {{time}}"
+      :append_items:
+        :day: "{0} ({2}: {1})"
+        :day_of_week: "{0} {1}"
+        :era: "{1} {0}"
+        :hour: "{0} ({2}: {1})"
+        :minute: "{0} ({2}: {1})"
+        :month: "{0} ({2}: {1})"
+        :quarter: "{0} ({2}: {1})"
+        :second: "{0} ({2}: {1})"
+        :timezone: "{1}{0}"
+        :week: "{0} ({2}: {1})"
+        :year: "{1} {0}"
       :additional_formats:
         :Bh: Bh时
         :Bhm: Bh:mm

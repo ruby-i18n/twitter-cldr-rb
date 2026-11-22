@@ -152,8 +152,8 @@
             12: Желтоқсан
       :eras:
         :name:
-          0: біздің заманымызға дейін
-          1: Біздің заманымыз
+          0: Біздің заманымызға дейін
+          1: біздің заманымыз
         :abbr:
           0: б.з.д.
           1: б.з.
@@ -298,16 +298,61 @@
           :full:
             :standard:
               :pattern: y 'ж'. d MMMM, EEEE
+              :skeleton: yMMMMEEEEd
+          :long:
+            :standard:
+              :pattern: y 'ж'. d MMMM
+              :skeleton: yMMMMd
+          :medium:
+            :standard:
+              :pattern: y 'ж'. dd MMM
+              :skeleton: yMMMdd
+          :short:
+            :standard:
+              :pattern: dd.MM.yy
+              :skeleton: yyMMdd
         :time:
           :full:
             :standard:
               :pattern: HH:mm:ss zzzz
+              :skeleton: HHmmsszzzz
+          :long:
+            :standard:
+              :pattern: HH:mm:ss z
+              :skeleton: HHmmssz
+          :medium:
+            :standard:
+              :pattern: HH:mm:ss
+              :skeleton: HHmmss
+          :short:
+            :standard:
+              :pattern: HH:mm
+              :skeleton: HHmm
         :datetime:
           :full:
             :standard:
-              :pattern: "{1}, {0}"
-            :atTime: {}
-            :relative: {}
+              :pattern: "{{date}}, {{time}}"
+          :long:
+            :standard:
+              :pattern: "{{date}}, {{time}}"
+          :medium:
+            :standard:
+              :pattern: "{{date}}, {{time}}"
+          :short:
+            :standard:
+              :pattern: "{{date}}, {{time}}"
+      :append_items:
+        :day: "{0} ({2}: {1})"
+        :day_of_week: "{0} {1}"
+        :era: "{1} {0}"
+        :hour: "{0} ({2}: {1})"
+        :minute: "{0} ({2}: {1})"
+        :month: "{0} ({2}: {1})"
+        :quarter: "{0} ({2}: {1})"
+        :second: "{0} ({2}: {1})"
+        :timezone: "{0} {1}"
+        :week: "{0} ({2}: {1})"
+        :year: "{1} {0}"
       :additional_formats:
         :Bh: B h
         :Bhm: B h:mm

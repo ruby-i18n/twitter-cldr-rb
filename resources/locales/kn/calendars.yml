@@ -155,8 +155,8 @@
           0: ಕ್ರಿಸ್ತ ಪೂರ್ವ
           1: ಕ್ರಿಸ್ತ ಶಕ
         :abbr:
-          0: ಕ್ರಿ.ಪೂ.ಕಾಲ
-          1: ಪ್ರಸಕ್ತ ಶಕ
+          0: ಕ್ರಿ.ಪೂ
+          1: ಕ್ರಿ.ಶ
         :narrow:
           0: BCE
           1: CE
@@ -283,18 +283,75 @@
           :full:
             :standard:
               :pattern: EEEE, MMMM d, y
+              :skeleton: yMMMMEEEEd
+          :long:
+            :standard:
+              :pattern: MMMM d, y
+              :skeleton: yMMMMd
+          :medium:
+            :standard:
+              :pattern: MMM d, y
+              :skeleton: yMMMd
+          :short:
+            :standard:
+              :pattern: d/M/yy
+              :skeleton: yyMd
         :time:
           :full:
             :standard:
               :pattern: hh:mm:ss a zzzz
+              :skeleton: ahhmmsszzzz
+          :long:
+            :standard:
+              :pattern: hh:mm:ss a z
+              :skeleton: ahhmmssz
+          :medium:
+            :standard:
+              :pattern: hh:mm:ss a
+              :skeleton: ahhmmss
+          :short:
+            :standard:
+              :pattern: hh:mm a
+              :skeleton: ahhmm
         :datetime:
           :full:
             :standard:
-              :pattern: "{1} {0} ಸಮಯಕ್ಕೆ"
+              :pattern: "{{date}} {{time}}"
             :atTime:
-              :pattern: "{1} ರಂದು {0} ಸಮಯಕ್ಕೆ"
+              :pattern: "{{date}} ರಂದು {{time}} ಸಮಯಕ್ಕೆ"
             :relative:
-              :pattern: "{1} {0} ಸಮಯಕ್ಕೆ"
+              :pattern: "{{date}} {{time}} ಸಮಯಕ್ಕೆ"
+          :long:
+            :standard:
+              :pattern: "{{date}} {{time}}"
+            :atTime:
+              :pattern: "{{date}} ರಂದು {{time}} ಸಮಯಕ್ಕೆ"
+            :relative:
+              :pattern: "{{date}} {{time}} ಸಮಯಕ್ಕೆ"
+          :medium:
+            :standard:
+              :pattern: "{{date}} {{time}}"
+            :atTime:
+              :pattern: "{{date}}, {{time}}"
+          :short:
+            :standard:
+              :pattern: "{{date}} {{time}}"
+            :atTime:
+              :pattern: "{{date}}, {{time}}"
+            :relative:
+              :pattern: "{{date}}, {{time}} ಗೆ"
+      :append_items:
+        :day: "{0} ({2}: {1})"
+        :day_of_week: "{0} {1}"
+        :era: "{1} {0}"
+        :hour: "{0} ({2}: {1})"
+        :minute: "{0} ({2}: {1})"
+        :month: "{0} ({2}: {1})"
+        :quarter: "{0} ({2}: {1})"
+        :second: "{0} ({2}: {1})"
+        :timezone: "{0} {1}"
+        :week: "{0} ({2}: {1})"
+        :year: "{1} {0}"
       :additional_formats:
         :Bh: h B
         :Bhm: h:mm B

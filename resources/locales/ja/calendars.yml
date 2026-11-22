@@ -155,8 +155,8 @@
           0: BCE
           1: CE
         :abbr:
-          0: 西暦紀元前
-          1: 西暦紀元
+          0: 紀元前
+          1: 西暦
         :narrow:
           0: BC
           1: AD
@@ -307,17 +307,65 @@
           :full:
             :standard:
               :pattern: y年M月d日EEEE
+              :skeleton: yMMMEEEEd
+          :long:
+            :standard:
+              :pattern: y年M月d日
+              :skeleton: yMMMd
+          :medium:
+            :standard:
+              :pattern: y/MM/dd
+              :skeleton: yMMdd
+          :short:
+            :standard:
+              :pattern: y/MM/dd
+              :skeleton: yMMdd
         :time:
           :full:
             :standard:
               :pattern: H時mm分ss秒 zzzz
+              :skeleton: Hmmsszzzz
+          :long:
+            :standard:
+              :pattern: H:mm:ss z
+              :skeleton: Hmmssz
+          :medium:
+            :standard:
+              :pattern: H:mm:ss
+              :skeleton: Hmmss
+          :short:
+            :standard:
+              :pattern: H:mm
+              :skeleton: Hmm
         :datetime:
           :full:
             :standard:
-              :pattern: "{1}の {0}"
-            :atTime: {}
+              :pattern: "{{date}} {{time}}"
             :relative:
-              :pattern: "{1}の {0}"
+              :pattern: "{{date}}の {{time}}"
+          :long:
+            :standard:
+              :pattern: "{{date}} {{time}}"
+            :relative:
+              :pattern: "{{date}}の {{time}}"
+          :medium:
+            :standard:
+              :pattern: "{{date}} {{time}}"
+          :short:
+            :standard:
+              :pattern: "{{date}} {{time}}"
+      :append_items:
+        :day: "{0} ({2}: {1})"
+        :day_of_week: "{0} {1}"
+        :era: "{1} {0}"
+        :hour: "{0} ({2}: {1})"
+        :minute: "{0} ({2}: {1})"
+        :month: "{0} ({2}: {1})"
+        :quarter: "{0} ({2}: {1})"
+        :second: "{0} ({2}: {1})"
+        :timezone: "{0} {1}"
+        :week: "{0} ({2}: {1})"
+        :year: "{1} {0}"
       :additional_formats:
         :Bh: BK時
         :Bhm: BK:mm

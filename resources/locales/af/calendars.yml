@@ -152,11 +152,11 @@
             12: Desember
       :eras:
         :name:
-          0: voor die gewone jaartelling
-          1: gewone jaartelling
+          0: voor Christus
+          1: ná Christus
         :abbr:
-          0: v.g.j.
-          1: g.j.
+          0: v.C.
+          1: n.C.
         :narrow:
           0: vgj
           1: gj
@@ -292,18 +292,69 @@
           :full:
             :standard:
               :pattern: EEEE dd MMMM y
+              :skeleton: yMMMMEEEEdd
+          :long:
+            :standard:
+              :pattern: dd MMMM y
+              :skeleton: yMMMMdd
+          :medium:
+            :standard:
+              :pattern: dd MMM y
+              :skeleton: yMMMdd
+          :short:
+            :standard:
+              :pattern: y-MM-dd
+              :skeleton: yMMdd
         :time:
           :full:
             :standard:
               :pattern: HH:mm:ss zzzz
+              :skeleton: HHmmsszzzz
+          :long:
+            :standard:
+              :pattern: HH:mm:ss z
+              :skeleton: HHmmssz
+          :medium:
+            :standard:
+              :pattern: HH:mm:ss
+              :skeleton: HHmmss
+          :short:
+            :standard:
+              :pattern: HH:mm
+              :skeleton: HHmm
         :datetime:
           :full:
             :standard:
-              :pattern: "{1} 'om' {0}"
+              :pattern: "{{date}} {{time}}"
             :atTime:
-              :pattern: "{1} 'om' {0}"
+              :pattern: "{{date}} 'om' {{time}}"
             :relative:
-              :pattern: "{1} 'om' {0}"
+              :pattern: "{{date}} 'om' {{time}}"
+          :long:
+            :standard:
+              :pattern: "{{date}} {{time}}"
+            :atTime:
+              :pattern: "{{date}} 'om' {{time}}"
+            :relative:
+              :pattern: "{{date}} 'om' {{time}}"
+          :medium:
+            :standard:
+              :pattern: "{{date}} {{time}}"
+          :short:
+            :standard:
+              :pattern: "{{date}} {{time}}"
+      :append_items:
+        :day: "{0} ({2}: {1})"
+        :day_of_week: "{0} {1}"
+        :era: "{1} {0}"
+        :hour: "{0} ({2}: {1})"
+        :minute: "{0} ({2}: {1})"
+        :month: "{0} ({2}: {1})"
+        :quarter: "{0} ({2}: {1})"
+        :second: "{0} ({2}: {1})"
+        :timezone: "{0} {1}"
+        :week: "{0} ({2}: {1})"
+        :year: "{1} {0}"
       :additional_formats:
         :Bh: h B
         :Bhm: hh:mm B

@@ -79,6 +79,20 @@ module TwitterCldr
         'xxxxx' => :iso_extended_local_full
       }.freeze
 
+      class << self
+        def for(pattern)
+          cache.fetch(pattern.hash) do
+            cache[pattern.hash] = new(pattern)
+          end
+        end
+
+        private
+
+        def cache
+          @cache ||= {}
+        end
+      end
+
       attr_reader :pattern
 
       def initialize(pattern)
@@ -127,7 +141,13 @@ module TwitterCldr
         if length == 1
           year
         elsif length == 2
-          year[-2, 2].rjust(2, '0')
+          last_two = if year.size >= 2
+            year[-2, 2]
+          else
+            year
+          end
+
+          last_two.rjust(2, '0')
         else
           year.rjust(length, '0')
         end
