@@ -97,6 +97,11 @@ namespace :update do
     TwitterCldr::Resources::CurrencySymbolsImporter.new.import
   end
 
+  desc 'Import date/time conformance tests'
+  task :datetime_conformance_tests do
+    TwitterCldr::Resources::DatetimeConformanceTestsImporter.new.import
+  end
+
   desc 'Import day period rules'
   task :day_period_rules do
     TwitterCldr::Resources::DayPeriodRulesImporter.new.import

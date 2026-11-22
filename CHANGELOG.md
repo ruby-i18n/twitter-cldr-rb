@@ -2,12 +2,15 @@
 
 ### UNRELEASED
 
-* Add BigDecimal as a dependency. (@noraj, #4)
-* Fix frozen string warning under Ruby 3.4. (@william-stacken, #2)
-* Upgrade to CLDR v48.2, ICU 78.3, and Unicode v17.0.0. (@camertron)
-* Add comprehensive likely subtags tests from CLDR conformance suite (@camertron).
-* Re-implement and modernize collation support to UCA v16.0.0 (@camertron).
-* Add support for es-ES (@camertron).
+* Add BigDecimal as a dependency (@noraj, #4)
+* Fix frozen string warning under Ruby 3.4 (@william-stacken, #2)
+* Upgrade to CLDR v48.2, ICU 78.3, and Unicode v17.0.0 (@camertron)
+* Add comprehensive likely subtags tests from CLDR conformance suite (@camertron)
+* Re-implement and modernize collation support to UCA v16.0.0 (@camertron)
+* Add support for es-ES (@camertron)
+* Refactor date and time formatting (@camertron)
+  - Remove data reader pattern, which honestly was always pretty awkward.
+  - Include CLDR conformance test suite.
 
 #### Breaking
 
@@ -24,6 +27,9 @@
   If left == right, returns 0
 * `TwitterCldr::Collation::Collator#get_sort_key` has been replaced by `TwitterCldr::Collation::Collator#sort_key_for` and no longer accepts an array of codepoints (it only accepts strings).
 * `TwitterCldr::Collation::Collator#get_collation_elements` has been replaced by `TwitterCldr::Collation::Collator#each_collation_element`, no longer accepts an array of codepoints (it only accepts strings), and returns an enumerator rather than an array. Call `.to_a` on the enumerator to replicate the old behavior.
+* `TwitterCldr::Localized::LocalizedDate#to_additional_s` has been replaced by `TwitterCldr::Localized::LocalizedDate#format`.
+* `TwitterCldr::Localized::LocalizedTime#to_additional_s` has been replaced by `TwitterCldr::Localized::LocalizedTime#format`.
+* `TwitterCldr::Localized::LocalizedDateTime#to_additional_s` has been replaced by `TwitterCldr::Localized::LocalizedDateTime#format`.
 
 ### 6.14.0 (Feb 21st, 2025)
 * Allow passing the `dst:` option to `LocalizedDateTime#to_*_s`. (@movermeyer, #280)

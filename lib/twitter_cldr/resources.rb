@@ -18,6 +18,7 @@ module TwitterCldr
     autoload :CollationTestsImporter,            'twitter_cldr/resources/collation_tests_importer'
     autoload :CollationConformanceTestsImporter, 'twitter_cldr/resources/collation_conformance_tests_importer'
     autoload :CurrencySymbolsImporter,           'twitter_cldr/resources/currency_symbols_importer'
+    autoload :DatetimeConformanceTestsImporter,  'twitter_cldr/resources/datetime_conformance_tests_importer'
     autoload :DayPeriodRulesImporter,            'twitter_cldr/resources/day_period_rules_importer'
     autoload :HyphenationImporter,               'twitter_cldr/resources/hyphenation_importer'
     autoload :Importer,                          'twitter_cldr/resources/importer'
@@ -68,6 +69,7 @@ module TwitterCldr
           CollationConformanceTestsImporter,
           CollationTestsImporter,
           CurrencySymbolsImporter,
+          DatetimeConformanceTestsImporter,
           DayPeriodRulesImporter,
           HyphenationImporter,
           LanguageCodesImporter,
