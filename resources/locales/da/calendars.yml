@@ -152,14 +152,14 @@
             12: december
       :eras:
         :name:
-          0: før vesterlandsk tidsregning
-          1: vesterlandsk tidsregning
+          0: før Kristus
+          1: efter Kristus
         :abbr:
-          0: f.v.t.
-          1: v.t.
+          0: f.Kr.
+          1: e.Kr.
         :narrow:
-          0: fvt
-          1: vt
+          0: fKr
+          1: eKr
       :quarters:
         :format:
           :abbreviated:
@@ -290,31 +290,79 @@
       :formats:
         :date:
           :full:
-            :pattern: EEEE 'den' d. MMMM y
+            :standard:
+              :pattern: EEEE 'den' d. MMMM y
+              :skeleton: yMMMMEEEEd
           :long:
-            :pattern: d. MMMM y
+            :standard:
+              :pattern: d. MMMM y
+              :skeleton: yMMMMd
           :medium:
-            :pattern: d. MMM y
+            :standard:
+              :pattern: d. MMM y
+              :skeleton: yMMMd
           :short:
-            :pattern: dd.MM.y
+            :standard:
+              :pattern: dd.MM.y
+              :skeleton: yMMdd
         :time:
           :full:
-            :pattern: HH.mm.ss zzzz
+            :standard:
+              :pattern: HH.mm.ss zzzz
+              :skeleton: HHmmsszzzz
           :long:
-            :pattern: HH.mm.ss z
+            :standard:
+              :pattern: HH.mm.ss z
+              :skeleton: HHmmssz
           :medium:
-            :pattern: HH.mm.ss
+            :standard:
+              :pattern: HH.mm.ss
+              :skeleton: HHmmss
           :short:
-            :pattern: HH.mm
+            :standard:
+              :pattern: HH.mm
+              :skeleton: HHmm
         :datetime:
           :full:
-            :pattern: "{{date}} 'kl'. {{time}}"
+            :standard:
+              :pattern: "{{date}} {{time}}"
+            :atTime:
+              :pattern: "{{date}} 'kl'. {{time}}"
+            :relative:
+              :pattern: "{{date}} 'kl'. {{time}}"
           :long:
-            :pattern: "{{date}} 'kl'. {{time}}"
+            :standard:
+              :pattern: "{{date}} {{time}}"
+            :atTime:
+              :pattern: "{{date}} 'kl'. {{time}}"
+            :relative:
+              :pattern: "{{date}} 'kl'. {{time}}"
           :medium:
-            :pattern: "{{date}} 'kl'. {{time}}"
+            :standard:
+              :pattern: "{{date}} {{time}}"
+            :atTime:
+              :pattern: "{{date}}, {{time}}"
+            :relative:
+              :pattern: "{{date}} 'kl'. {{time}}"
           :short:
-            :pattern: "{{date}} 'kl'. {{time}}"
+            :standard:
+              :pattern: "{{date}} {{time}}"
+            :atTime:
+              :pattern: "{{date}}, {{time}}"
+            :relative:
+              :pattern: "{{date}} 'kl'. {{time}}"
+      :append_items:
+        :day: "{0} ({2}: {1})"
+        :day_of_week: "{0} {1}"
+        :era: "{1} {0}"
+        :hour: "{0} ({2}: {1})"
+        :minute: "{0} ({2}: {1})"
+        :month: "{0} ({2}: {1})"
+        :quarter: "{0} ({2}: {1})"
+        :second: "{0} ({2}: {1})"
+        :timezone: "{0} {1}"
+        :week: "{0} ({2}: {1})"
+        :year: "{1} {0}"
       :additional_formats:
         :Bh: h B
         :Bhm: h.mm B

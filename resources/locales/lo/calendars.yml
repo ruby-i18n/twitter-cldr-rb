@@ -152,11 +152,11 @@
             12: ທັນວາ
       :eras:
         :name:
-          0: ກ່ອນສາກົນສັກກະລາດ
-          1: ສາກົນສັກກະລາດ
+          0: ກ່ອນຄຣິດສັກກະລາດ
+          1: ຄຣິດສັກກະລາດ
         :abbr:
           0: ກ່ອນ ຄ.ສ.
-          1: ຍຸກ ຄ.ສ
+          1: ຄ.ສ.
         :narrow:
           0: BCE
           1: CE
@@ -293,31 +293,63 @@
       :formats:
         :date:
           :full:
-            :pattern: EEEE, d MMMM y
+            :standard:
+              :pattern: EEEE, d MMMM y
+              :skeleton: GyMMMMEEEEd
           :long:
-            :pattern: d MMMM y
+            :standard:
+              :pattern: d MMMM y
+              :skeleton: yMMMMd
           :medium:
-            :pattern: d MMM y
+            :standard:
+              :pattern: d MMM y
+              :skeleton: yMMMd
           :short:
-            :pattern: d/M/y
+            :standard:
+              :pattern: d/M/y
+              :skeleton: yMd
         :time:
           :full:
-            :pattern: H ໂມງ m ນາທີ ss ວິນາທີ zzzz
+            :standard:
+              :pattern: H ໂມງ m ນາທີ ss ວິນາທີ zzzz
+              :skeleton: Hmsszzzz
           :long:
-            :pattern: H ໂມງ m ນາທີ ss ວິນາທີ z
+            :standard:
+              :pattern: H ໂມງ m ນາທີ ss ວິນາທີ z
+              :skeleton: Hmssz
           :medium:
-            :pattern: H:mm:ss
+            :standard:
+              :pattern: H:mm:ss
+              :skeleton: Hmmss
           :short:
-            :pattern: H:mm
+            :standard:
+              :pattern: H:mm
+              :skeleton: Hmm
         :datetime:
           :full:
-            :pattern: "{{date}}, {{time}}"
+            :standard:
+              :pattern: "{{date}}, {{time}}"
           :long:
-            :pattern: "{{date}}, {{time}}"
+            :standard:
+              :pattern: "{{date}}, {{time}}"
           :medium:
-            :pattern: "{{date}}, {{time}}"
+            :standard:
+              :pattern: "{{date}}, {{time}}"
           :short:
-            :pattern: "{{date}}, {{time}}"
+            :standard:
+              :pattern: "{{date}}, {{time}}"
+      :append_items:
+        :day: "{0} ({2}: {1})"
+        :day_of_week: "{0} {1}"
+        :era: "{1} {0}"
+        :hour: "{0} ({2}: {1})"
+        :minute: "{0} ({2}: {1})"
+        :month: "{0} ({2}: {1})"
+        :quarter: "{0} ({2}: {1})"
+        :second: "{0} ({2}: {1})"
+        :timezone: "{0} {1}"
+        :week: "{0} ({2}: {1})"
+        :year: "{1} {0}"
       :additional_formats:
         :Bh: h B
         :Bhm: h:mm B

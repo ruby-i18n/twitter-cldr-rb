@@ -152,11 +152,11 @@
             12: декември
       :eras:
         :name:
-          0: преди новата ера
-          1: след новата ера
+          0: преди Христа
+          1: след Христа
         :abbr:
-          0: пр.н.е.
-          1: сл.н.е.
+          0: пр.Хр.
+          1: сл.Хр.
         :narrow:
           0: BCE
           1: CE
@@ -293,31 +293,73 @@
       :formats:
         :date:
           :full:
-            :pattern: EEEE, d MMMM y 'г'.
+            :standard:
+              :pattern: EEEE, d MMMM y 'г'.
+              :skeleton: yMMMMEEEEd
           :long:
-            :pattern: d MMMM y 'г'.
+            :standard:
+              :pattern: d MMMM y 'г'.
+              :skeleton: yMMMMd
           :medium:
-            :pattern: d.MM.y 'г'.
+            :standard:
+              :pattern: d.MM.y 'г'.
+              :skeleton: yMMd
           :short:
-            :pattern: d.MM.yy 'г'.
+            :standard:
+              :pattern: d.MM.yy 'г'.
+              :skeleton: yyMMd
         :time:
           :full:
-            :pattern: H:mm:ss 'ч'. zzzz
+            :standard:
+              :pattern: H:mm:ss 'ч'. zzzz
+              :skeleton: Hmmsszzzz
           :long:
-            :pattern: H:mm:ss 'ч'. z
+            :standard:
+              :pattern: H:mm:ss 'ч'. z
+              :skeleton: Hmmssz
           :medium:
-            :pattern: H:mm:ss
+            :standard:
+              :pattern: H:mm:ss
+              :skeleton: Hmmss
           :short:
-            :pattern: H:mm
+            :standard:
+              :pattern: H:mm
+              :skeleton: Hmm
         :datetime:
           :full:
-            :pattern: "{{date}} 'в' {{time}} 'ч'"
+            :standard:
+              :pattern: "{{date}}, {{time}}"
+            :atTime:
+              :pattern: "{{date}} 'в' {{time}}"
+            :relative:
+              :pattern: "{{date}} 'в' {{time}} 'ч'"
           :long:
-            :pattern: "{{date}} 'в' {{time}} 'ч'"
+            :standard:
+              :pattern: "{{date}}, {{time}}"
+            :atTime:
+              :pattern: "{{date}} 'в' {{time}}"
+            :relative:
+              :pattern: "{{date}} 'в' {{time}} 'ч'"
           :medium:
-            :pattern: "{{date}}, {{time}} 'ч'"
+            :standard:
+              :pattern: "{{date}}, {{time}}"
+            :relative:
+              :pattern: "{{date}}, {{time}} 'ч'"
           :short:
-            :pattern: "{{date}}, {{time}}"
+            :standard:
+              :pattern: "{{date}}, {{time}}"
+      :append_items:
+        :day: "{0} ({2}: {1})"
+        :day_of_week: "{0} {1}"
+        :era: "{1} {0}"
+        :hour: "{0} ({2}: {1})"
+        :minute: "{0} ({2}: {1})"
+        :month: "{0} ({2}: {1})"
+        :quarter: "{0} ({2}: {1})"
+        :second: "{0} ({2}: {1})"
+        :timezone: "{0} {1}"
+        :week: "{0} ({2}: {1})"
+        :year: "{1} {0}"
       :additional_formats:
         :Bh: h 'ч'. B
         :Bhm: h:mm 'ч'. B

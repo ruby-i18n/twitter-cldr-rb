@@ -152,11 +152,11 @@
             12: gruodis
       :eras:
         :name:
-          0: prieš mūsų erą
+          0: prieš Kristų
           1: po Kristaus
         :abbr:
-          0: pr. m. e.
-          1: mūsų eroje
+          0: pr. Kr.
+          1: po Kr.
         :narrow:
           0: prme
           1: pome
@@ -285,31 +285,63 @@
       :formats:
         :date:
           :full:
-            :pattern: y 'm'. MMMM d 'd'., EEEE
+            :standard:
+              :pattern: y 'm'. MMMM d 'd'., EEEE
+              :skeleton: yMMMMEEEEd
           :long:
-            :pattern: y 'm'. MMMM d 'd'.
+            :standard:
+              :pattern: y 'm'. MMMM d 'd'.
+              :skeleton: yMMMMd
           :medium:
-            :pattern: y-MM-dd
+            :standard:
+              :pattern: y-MM-dd
+              :skeleton: yMMdd
           :short:
-            :pattern: y-MM-dd
+            :standard:
+              :pattern: y-MM-dd
+              :skeleton: yMMdd
         :time:
           :full:
-            :pattern: HH:mm:ss zzzz
+            :standard:
+              :pattern: HH:mm:ss zzzz
+              :skeleton: HHmmsszzzz
           :long:
-            :pattern: HH:mm:ss z
+            :standard:
+              :pattern: HH:mm:ss z
+              :skeleton: HHmmssz
           :medium:
-            :pattern: HH:mm:ss
+            :standard:
+              :pattern: HH:mm:ss
+              :skeleton: HHmmss
           :short:
-            :pattern: HH:mm
+            :standard:
+              :pattern: HH:mm
+              :skeleton: HHmm
         :datetime:
           :full:
-            :pattern: "{{date}} {{time}}"
+            :standard:
+              :pattern: "{{date}} {{time}}"
           :long:
-            :pattern: "{{date}} {{time}}"
+            :standard:
+              :pattern: "{{date}} {{time}}"
           :medium:
-            :pattern: "{{date}} {{time}}"
+            :standard:
+              :pattern: "{{date}} {{time}}"
           :short:
-            :pattern: "{{date}} {{time}}"
+            :standard:
+              :pattern: "{{date}} {{time}}"
+      :append_items:
+        :day: "{0} ({2}: {1})"
+        :day_of_week: "{0} {1}"
+        :era: "{1} {0}"
+        :hour: "{0} ({2}: {1})"
+        :minute: "{0} ({2}: {1})"
+        :month: "{0} ({2}: {1})"
+        :quarter: "{0} ({2}: {1})"
+        :second: "{0} ({2}: {1})"
+        :timezone: "{0} {1}"
+        :week: "{0} ({2}: {1})"
+        :year: "{1} {0}"
       :additional_formats:
         :Bh: h B
         :Bhm: h:mm B

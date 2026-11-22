@@ -36,7 +36,7 @@ module TwitterCldr
             case token.type
               when :plaintext
                 result << token.value
-              when :pattern
+              when :time_pattern
                 case token.value[0]
                   when 'H'
                     result << offset_digits(hour, format == :short_gmt ? 1 : 2)
@@ -73,7 +73,7 @@ module TwitterCldr
         @hour_formats ||= resource[:formats][:hour_formats][:generic]
           .split(';')
           .map do |pat|
-            TwitterCldr::Tokenizers::TimeTokenizer.tokenizer.tokenize(pat)
+            TwitterCldr::Tokenizers::DateTimeTokenizer.tokenizer.tokenize(pat)
           end
       end
 

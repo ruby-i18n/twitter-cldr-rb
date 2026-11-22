@@ -152,11 +152,11 @@
             12: دسامبر
       :eras:
         :name:
-          0: قبل از دوران مشترک
-          1: دوران مشترک
+          0: قبل از میلاد
+          1: میلادی
         :abbr:
-          0: ق.د.م
-          1: د.م.
+          0: ق.م.
+          1: م.
         :narrow:
           0: ق
           1: م
@@ -281,31 +281,71 @@
       :formats:
         :date:
           :full:
-            :pattern: EEEE d MMMM y
+            :standard:
+              :pattern: EEEE d MMMM y
+              :skeleton: yMMMMEEEEd
           :long:
-            :pattern: d MMMM y
+            :standard:
+              :pattern: d MMMM y
+              :skeleton: yMMMMd
           :medium:
-            :pattern: d MMM y
+            :standard:
+              :pattern: d MMM y
+              :skeleton: yMMMd
           :short:
-            :pattern: y/M/d
+            :standard:
+              :pattern: y/M/d
+              :skeleton: yMd
         :time:
           :full:
-            :pattern: H:mm:ss (zzzz)
+            :standard:
+              :pattern: H:mm:ss (zzzz)
+              :skeleton: Hmmsszzzz
           :long:
-            :pattern: H:mm:ss (z)
+            :standard:
+              :pattern: H:mm:ss (z)
+              :skeleton: Hmmssz
           :medium:
-            :pattern: H:mm:ss
+            :standard:
+              :pattern: H:mm:ss
+              :skeleton: Hmmss
           :short:
-            :pattern: H:mm
+            :standard:
+              :pattern: H:mm
+              :skeleton: Hmm
         :datetime:
           :full:
-            :pattern: "{{date}} ساعت {{time}}"
+            :standard:
+              :pattern: "{{date}}، ساعت {{time}}"
+            :atTime:
+              :pattern: "{{date}} ساعت {{time}}"
           :long:
-            :pattern: "{{date}} ساعت {{time}}"
+            :standard:
+              :pattern: "{{date}}، ساعت {{time}}"
+            :atTime:
+              :pattern: "{{date}} ساعت {{time}}"
           :medium:
-            :pattern: "{{date}}، {{time}}"
+            :standard:
+              :pattern: "{{date}}،‏ {{time}}"
+            :atTime:
+              :pattern: "{{date}}، {{time}}"
           :short:
-            :pattern: "{{date}}, {{time}}"
+            :standard:
+              :pattern: "{{date}}،‏ {{time}}"
+            :atTime:
+              :pattern: "{{date}}, {{time}}"
+      :append_items:
+        :day: "{0} ({2}: {1})"
+        :day_of_week: "{1} {0}"
+        :era: "{1} {0}"
+        :hour: "{0} ({2}: {1})"
+        :minute: "{0} ({2}: {1})"
+        :month: "{0} ({2}: {1})"
+        :quarter: "{0} ({2}: {1})"
+        :second: "{0} ({2}: {1})"
+        :timezone: "{0} ({1})"
+        :week: "{0} ({2}: {1})"
+        :year: "{1} {0}"
       :additional_formats:
         :Bh: h B
         :Bhm: h:mm B

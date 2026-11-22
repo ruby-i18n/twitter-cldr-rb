@@ -152,14 +152,14 @@
             12: dicembre
       :eras:
         :name:
-          0: avanti Era Volgare
-          1: Era Volgare
+          0: avanti Cristo
+          1: dopo Cristo
         :abbr:
-          0: a.E.V.
-          1: E.V.
+          0: a.C.
+          1: d.C.
         :narrow:
-          0: aEV
-          1: EV
+          0: aC
+          1: dC
       :quarters:
         :format:
           :abbreviated:
@@ -283,31 +283,71 @@
       :formats:
         :date:
           :full:
-            :pattern: EEEE, d MMMM y
+            :standard:
+              :pattern: EEEE, d MMMM y
+              :skeleton: yMMMMEEEEd
           :long:
-            :pattern: d MMMM y
+            :standard:
+              :pattern: d MMMM y
+              :skeleton: yMMMMd
           :medium:
-            :pattern: d MMM y
+            :standard:
+              :pattern: d MMM y
+              :skeleton: yMMMd
           :short:
-            :pattern: dd.MM.yy
+            :standard:
+              :pattern: dd.MM.yy
+              :skeleton: yyMMdd
         :time:
           :full:
-            :pattern: HH:mm:ss zzzz
+            :standard:
+              :pattern: HH:mm:ss zzzz
+              :skeleton: HHmmsszzzz
           :long:
-            :pattern: HH:mm:ss z
+            :standard:
+              :pattern: HH:mm:ss z
+              :skeleton: HHmmssz
           :medium:
-            :pattern: HH:mm:ss
+            :standard:
+              :pattern: HH:mm:ss
+              :skeleton: HHmmss
           :short:
-            :pattern: HH:mm
+            :standard:
+              :pattern: HH:mm
+              :skeleton: HHmm
         :datetime:
           :full:
-            :pattern: "{{date}} 'alle' 'ore' {{time}}"
+            :standard:
+              :pattern: "{{date}} {{time}}"
+            :atTime:
+              :pattern: "{{date}} 'alle' 'ore' {{time}}"
+            :relative:
+              :pattern: "{{date}} 'alle' 'ore' {{time}}"
           :long:
-            :pattern: "{{date}} 'alle' 'ore' {{time}}"
+            :standard:
+              :pattern: "{{date}} {{time}}"
+            :atTime:
+              :pattern: "{{date}} 'alle' 'ore' {{time}}"
+            :relative:
+              :pattern: "{{date}} 'alle' 'ore' {{time}}"
           :medium:
-            :pattern: "{{date}}, {{time}}"
+            :standard:
+              :pattern: "{{date}}, {{time}}"
           :short:
-            :pattern: "{{date}}, {{time}}"
+            :standard:
+              :pattern: "{{date}}, {{time}}"
+      :append_items:
+        :day: "{0} ({2}: {1})"
+        :day_of_week: "{0} {1}"
+        :era: "{1} {0}"
+        :hour: "{0} ({2}: {1})"
+        :minute: "{0} ({2}: {1})"
+        :month: "{0} ({2}: {1})"
+        :quarter: "{0} ({2}: {1})"
+        :second: "{0} ({2}: {1})"
+        :timezone: "{0} {1}"
+        :week: "{0} ({2}: {1})"
+        :year: "{1} {0}"
       :additional_formats:
         :Bh: h B
         :Bhm: h:mm B

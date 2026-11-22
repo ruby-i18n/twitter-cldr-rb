@@ -11,8 +11,6 @@ module TwitterCldr
     autoload :TokenRecognizer,              'twitter_cldr/tokenizers/tokenizer'
     autoload :PatternTokenizer,             'twitter_cldr/tokenizers/pattern_tokenizer'
     autoload :DateTimeTokenizer,            'twitter_cldr/tokenizers/calendars/date_time_tokenizer'
-    autoload :DateTokenizer,                'twitter_cldr/tokenizers/calendars/date_tokenizer'
-    autoload :TimeTokenizer,                'twitter_cldr/tokenizers/calendars/time_tokenizer'
     autoload :NumberTokenizer,              'twitter_cldr/tokenizers/numbers/number_tokenizer'
     autoload :RbnfTokenizer,                'twitter_cldr/tokenizers/numbers/rbnf_tokenizer'
     autoload :TimespanTokenizer,            'twitter_cldr/tokenizers/calendars/timespan_tokenizer'

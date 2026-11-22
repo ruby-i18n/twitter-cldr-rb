@@ -152,11 +152,11 @@
             12: December
       :eras:
         :name:
-          0: Before Common Era
-          1: Common Era
+          0: Before Christ
+          1: Anno Domini
         :abbr:
-          0: BCE
-          1: CE
+          0: BC
+          1: AD
         :narrow:
           0: B
           1: A
@@ -305,31 +305,79 @@
       :formats:
         :date:
           :full:
-            :pattern: EEEE, d MMMM y
+            :standard:
+              :pattern: EEEE, d MMMM y
+              :skeleton: yMMMMEEEEd
           :long:
-            :pattern: d MMMM y
+            :standard:
+              :pattern: d MMMM y
+              :skeleton: yMMMMd
           :medium:
-            :pattern: d MMM y
+            :standard:
+              :pattern: d MMM y
+              :skeleton: yMMMd
           :short:
-            :pattern: d/M/yy
+            :standard:
+              :pattern: d/M/yy
+              :skeleton: yyMd
         :time:
           :full:
-            :pattern: h:mm:ss a zzzz
+            :standard:
+              :pattern: h:mm:ss a zzzz
+              :skeleton: ahmmsszzzz
           :long:
-            :pattern: h:mm:ss a z
+            :standard:
+              :pattern: h:mm:ss a z
+              :skeleton: ahmmssz
           :medium:
-            :pattern: h:mm:ss a
+            :standard:
+              :pattern: h:mm:ss a
+              :skeleton: ahmmss
           :short:
-            :pattern: h:mm a
+            :standard:
+              :pattern: h:mm a
+              :skeleton: ahmm
         :datetime:
           :full:
-            :pattern: "{{date}} 'at' {{time}}"
+            :standard:
+              :pattern: "{{date}}, {{time}}"
+            :atTime:
+              :pattern: "{{date}} 'at' {{time}}"
+            :relative:
+              :pattern: "{{date}} 'at' {{time}}"
           :long:
-            :pattern: "{{date}} 'at' {{time}}"
+            :standard:
+              :pattern: "{{date}}, {{time}}"
+            :atTime:
+              :pattern: "{{date}} 'at' {{time}}"
+            :relative:
+              :pattern: "{{date}} 'at' {{time}}"
           :medium:
-            :pattern: "{{date}}, {{time}}"
+            :standard:
+              :pattern: "{{date}}, {{time}}"
+            :atTime:
+              :pattern: "{{date}}, {{time}}"
+            :relative:
+              :pattern: "{{date}}, {{time}}"
           :short:
-            :pattern: "{{date}}, {{time}}"
+            :standard:
+              :pattern: "{{date}}, {{time}}"
+            :atTime:
+              :pattern: "{{date}}, {{time}}"
+            :relative:
+              :pattern: "{{date}}, {{time}}"
+      :append_items:
+        :day: "{0} ({2}: {1})"
+        :day_of_week: "{0} {1}"
+        :era: "{0} {1}"
+        :hour: "{0} ({2}: {1})"
+        :minute: "{0} ({2}: {1})"
+        :month: "{0} ({2}: {1})"
+        :quarter: "{0} ({2}: {1})"
+        :second: "{0} ({2}: {1})"
+        :timezone: "{0} {1}"
+        :week: "{0} ({2}: {1})"
+        :year: "{0} {1}"
       :additional_formats:
         :Bh: h B
         :Bhm: h:mm B

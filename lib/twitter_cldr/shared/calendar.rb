@@ -25,10 +25,6 @@ module TwitterCldr
         timezone_metazone: :timezone
       }
 
-      REDIRECT_CONVERSIONS = {
-        dayPeriods: :periods
-      }
-
       attr_reader :locale, :calendar_type
 
       def initialize(locale = TwitterCldr.locale, calendar_type = TwitterCldr::DEFAULT_CALENDAR_TYPE)
@@ -73,16 +69,19 @@ module TwitterCldr
         end
       end
 
-      def date_order(options = {})
-        get_order_for(TwitterCldr::DataReaders::DateDataReader, options)
+      def date_order(length: :medium, format_type: :standard)
+        pattern = patterns.date_pattern_for(length, format_type: format_type)
+        resolve_methods(methods_for_tokens(pattern.tokens))
       end
 
-      def time_order(options = {})
-        get_order_for(TwitterCldr::DataReaders::TimeDataReader, options)
+      def time_order(length: :medium, format_type: :standard)
+        pattern = patterns.time_pattern_for(length, format_type: format_type)
+        resolve_methods(methods_for_tokens(pattern.tokens))
       end
 
-      def datetime_order(options = {})
-        get_order_for(TwitterCldr::DataReaders::DateTimeDataReader, options)
+      def datetime_order(date_length: :medium, time_length: :medium, format_type: :standard)
+        pattern = patterns.datetime_pattern_for(:medium, date_length: date_length, time_length: time_length, format_type: format_type)
+        resolve_methods(methods_for_tokens(pattern.tokens))
       end
 
       def calendar_data
@@ -110,26 +109,16 @@ module TwitterCldr
         @@day_periods_cache ||= {}
       end
 
-      def get_order_for(data_reader_const, options)
-        key_array = [data_reader_const.to_s, @locale] + options.keys.sort + options.values.sort
-        cache_key = TwitterCldr::Utils.compute_cache_key(key_array)
-        calendar_cache.fetch(cache_key) do |key|
-          data_reader = data_reader_const.new(@locale, options)
-          tokens = data_reader.tokenizer.tokenize(data_reader.pattern)
-          calendar_cache[cache_key] = resolve_methods(methods_for_tokens(tokens))
-        end
-      end
-
       def resolve_methods(methods)
         methods.map { |method| DATETIME_METHOD_MAP.fetch(method, method) }
       end
 
       def methods_for_tokens(tokens)
-        tokens.inject([]) do |ret, token|
-          if token.type == :pattern
-            ret << TwitterCldr::Formatters::DateTimeFormatter::METHODS[token.value[0].chr]
+        tokens.each_with_object([]) do |token, memo|
+          case token.type
+            when :date_pattern, :time_pattern
+              memo << TwitterCldr::Formatters::DateTimeFormatter::PATTERN_MAP[token.value[0].chr]
           end
-          ret
         end
       end
 
@@ -145,8 +134,12 @@ module TwitterCldr
         end
       end
 
+      def patterns
+        @patterns ||= TwitterCldr::Patterns::DateTimePatterns.for(locale, calendar_type)
+      end
+
       def resource
-        TwitterCldr.get_locale_resource(@locale, :calendars)
+        @resource ||= TwitterCldr.get_locale_resource(locale, :calendars)
       end
 
     end
