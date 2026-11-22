@@ -215,8 +215,8 @@ describe TwitterCldr::Shared::Calendar do
 
     it 'returns eras with other name forms' do
       expect(calendar.eras(:abbr)).to eq({
-        0 => "v. u. Z.",
-        1 => "u. Z."
+        0 => "v. Chr.",
+        1 => "n. Chr."
       })
     end
   end
@@ -247,7 +247,7 @@ describe TwitterCldr::Shared::Calendar do
 
   describe '#methods_for_tokens' do
     it 'converts pattern tokens into their corresponding method names' do
-      tokens = [TwitterCldr::Tokenizers::Token.new(value: "YYYY", type: :pattern)]
+      tokens = [TwitterCldr::Tokenizers::Token.new(value: "YYYY", type: :date_pattern)]
       expect(calendar.send(:methods_for_tokens, tokens)).to eq([:year_of_week_of_year])
     end
 

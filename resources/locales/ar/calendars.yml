@@ -152,11 +152,11 @@
             12: ديسمبر
       :eras:
         :name:
-          0: قبل الحقبة الحالية
-          1: بعد الميلاد
+          0: قبل الميلاد
+          1: ميلادي
         :abbr:
-          0: ق. م
-          1: ب.م
+          0: ق.م
+          1: م
         :narrow:
           0: BCE
           1: CE
@@ -305,31 +305,71 @@
       :formats:
         :date:
           :full:
-            :pattern: EEEE، d MMMM y
+            :standard:
+              :pattern: EEEE، d MMMM y
+              :skeleton: yMMMMEEEEd
           :long:
-            :pattern: d MMMM y
+            :standard:
+              :pattern: d MMMM y
+              :skeleton: yMMMMd
           :medium:
-            :pattern: dd‏/MM‏/y
+            :standard:
+              :pattern: dd‏/MM‏/y
+              :skeleton: yMMdd
           :short:
-            :pattern: d‏/M‏/y
+            :standard:
+              :pattern: d‏/M‏/y
+              :skeleton: yMd
         :time:
           :full:
-            :pattern: h:mm:ss a zzzz
+            :standard:
+              :pattern: h:mm:ss a zzzz
+              :skeleton: ahmmsszzzz
           :long:
-            :pattern: h:mm:ss a z
+            :standard:
+              :pattern: h:mm:ss a z
+              :skeleton: ahmmssz
           :medium:
-            :pattern: h:mm:ss a
+            :standard:
+              :pattern: h:mm:ss a
+              :skeleton: ahmmss
           :short:
-            :pattern: h:mm a
+            :standard:
+              :pattern: h:mm a
+              :skeleton: ahmm
         :datetime:
           :full:
-            :pattern: "{{date}} في {{time}}"
+            :standard:
+              :pattern: "{{date}}، {{time}}"
+            :atTime:
+              :pattern: "{{date}} في {{time}}"
+            :relative:
+              :pattern: "{{date}} في {{time}}"
           :long:
-            :pattern: "{{date}} في {{time}}"
+            :standard:
+              :pattern: "{{date}}، {{time}}"
+            :atTime:
+              :pattern: "{{date}} في {{time}}"
+            :relative:
+              :pattern: "{{date}} في {{time}}"
           :medium:
-            :pattern: "{{date}}، {{time}}"
+            :standard:
+              :pattern: "{{date}}، {{time}}"
           :short:
-            :pattern: "{{date}}، {{time}}"
+            :standard:
+              :pattern: "{{date}}، {{time}}"
+      :append_items:
+        :day: "{0} ({2}: {1})"
+        :day_of_week: "{0} {1}"
+        :era: "{1} {0}"
+        :hour: "{0} ({2}: {1})"
+        :minute: "{0} ({2}: {1})"
+        :month: "{0} ({2}: {1})"
+        :quarter: "{0} ({2}: {1})"
+        :second: "{0} ({2}: {1})"
+        :timezone: "{0} {1}"
+        :week: "{0} ({2}: {1})"
+        :year: "{1} {0}"
       :additional_formats:
         :Bh: h B
         :Bhm: h:mm B

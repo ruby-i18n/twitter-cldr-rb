@@ -155,8 +155,8 @@
           0: BCE
           1: CE
         :abbr:
-          0: BCE
-          1: CE
+          0: BC
+          1: AD
         :narrow:
           0: BCE
           1: CE
@@ -288,31 +288,63 @@
       :formats:
         :date:
           :full:
-            :pattern: EEEE, MMMM d, y
+            :standard:
+              :pattern: EEEE, MMMM d, y
+              :skeleton: yMMMMEEEEd
           :long:
-            :pattern: MMMM d, y
+            :standard:
+              :pattern: MMMM d, y
+              :skeleton: yMMMMd
           :medium:
-            :pattern: MMM d, y
+            :standard:
+              :pattern: MMM d, y
+              :skeleton: yMMMd
           :short:
-            :pattern: M/d/yy
+            :standard:
+              :pattern: M/d/yy
+              :skeleton: yyMd
         :time:
           :full:
-            :pattern: HH:mm:ss zzzz
+            :standard:
+              :pattern: HH:mm:ss zzzz
+              :skeleton: HHmmsszzzz
           :long:
-            :pattern: HH:mm:ss z
+            :standard:
+              :pattern: HH:mm:ss z
+              :skeleton: HHmmssz
           :medium:
-            :pattern: HH:mm:ss
+            :standard:
+              :pattern: HH:mm:ss
+              :skeleton: HHmmss
           :short:
-            :pattern: HH:mm
+            :standard:
+              :pattern: HH:mm
+              :skeleton: HHmm
         :datetime:
           :full:
-            :pattern: "{{date}} {{time}}"
+            :standard:
+              :pattern: "{{date}} {{time}}"
           :long:
-            :pattern: "{{date}} {{time}}"
+            :standard:
+              :pattern: "{{date}} {{time}}"
           :medium:
-            :pattern: "{{date}} {{time}}"
+            :standard:
+              :pattern: "{{date}} {{time}}"
           :short:
-            :pattern: "{{date}} {{time}}"
+            :standard:
+              :pattern: "{{date}} {{time}}"
+      :append_items:
+        :day: "{0} ({2}: {1})"
+        :day_of_week: "{0} {1}"
+        :era: "{1} {0}"
+        :hour: "{0} ({2}: {1})"
+        :minute: "{0} ({2}: {1})"
+        :month: "{0} ({2}: {1})"
+        :quarter: "{0} ({2}: {1})"
+        :second: "{0} ({2}: {1})"
+        :timezone: "{0} {1}"
+        :week: "{0} ({2}: {1})"
+        :year: "{1} {0}"
       :additional_formats:
         :Bh: h B
         :Bhm: h:mm B
