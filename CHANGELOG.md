@@ -13,6 +13,7 @@
   - Include CLDR conformance test suite.
 * Run unit tests on pull requests, and on pushes to master only. (@dblock, #20)
 * Fix warnings under `ruby -w`, and remove a leftover `binding.irb` and `$debug` output. (@dblock, #18)
+* Import RBNF spell-out rules for regional locales (de-CH, en-001, en-IN, es-419, fr-BE, fr-CH, pt-PT and zh-Hant), whose CLDR files use underscores (@dblock, #17)
 
 #### Breaking
 

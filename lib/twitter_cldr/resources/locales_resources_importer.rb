@@ -124,7 +124,8 @@ module TwitterCldr
       end
 
       def components_for(locale)
-        if File.exist?(File.join(requirements[:cldr].source_path, 'common', 'rbnf', "#{locale}.xml"))
+        # CLDR names files with underscores (fr_CH.xml), while locales here use hyphens (fr-CH).
+        if File.exist?(File.join(requirements[:cldr].source_path, 'common', 'rbnf', "#{locale.to_s.tr('-', '_')}.xml"))
           LOCALE_COMPONENTS
         else
           LOCALE_COMPONENTS - ['rbnf']
