@@ -50,12 +50,11 @@ module TwitterCldr
       end
 
       class NormalRuleFormatter
-        attr_reader :rule_set, :rule_group, :omit, :is_fractional, :locale
+        attr_reader :rule_set, :rule_group, :omit, :locale
 
         def initialize(rule_set, rule_group, locale)
           @rule_set = rule_set
           @rule_group = rule_group
-          @is_fractional = false
           @locale = locale
         end
 
@@ -170,52 +169,37 @@ module TwitterCldr
       end
 
       class MasterRuleFormatter < NormalRuleFormatter
+        # A ">%set>" naming another rule set spells the fractional part as a fraction with that
+        # set ("двадцать пять сотых"), which ICU calls a fraction rule set. Otherwise the
+        # fractional part is spelled digit by digit, separated by spaces ("two five"), or
+        # without them for ">>>" ("〇・〇五"). See ICU's FractionalPartSubstitution:
+        # https://github.com/unicode-org/icu/blob/main/icu4j/main/core/src/main/java/com/ibm/icu/text/NFSubstitution.java
         def right_arrow(number, rule, token)
-          # Format by digits. This is not explained in the main doc. See:
-          # http://grepcode.com/file/repo1.maven.org/maven2/com.ibm.icu/icu4j/51.2/com/ibm/icu/text/NFSubstitution.java#FractionalPartSubstitution.%3Cinit%3E%28int%2Ccom.ibm.icu.text.NFRuleSet%2Ccom.ibm.icu.text.RuleBasedNumberFormat%2Cjava.lang.String%29
+          fraction_rule_set = token.rule_set_reference && rule_group.rule_set_for(token.rule_set_reference)
 
-          # doesn't seem to matter if the descriptor is two or three arrows, although three seems to indicate
-          # we should or should not be inserting spaces somewhere (not sure where)
-          number.to_s.split(".")[1].each_char.map do |digit|
-            RuleFormatter.format(digit.to_i, rule_set, rule_group, locale)
-          end.join(" ")
+          if fraction_rule_set && fraction_rule_set != rule_set
+            FractionRuleSetFormatter.format(fractional_part(number), fraction_rule_set, rule_group, locale)
+          else
+            number.to_s.split(".")[1].each_char.map do |digit|
+              RuleFormatter.format(digit.to_i, rule_set, rule_group, locale)
+            end.join(token.length == 3 ? "" : " ")
+          end
         end
 
         def left_arrow(number, rule, token)
-          if is_fractional
-            # is this necessary?
-            RuleFormatter.format(
-              (number * fractional_rule(number).base_value).to_i,
-              rule_set, rule_group, locale
-            )
-          else
-            generate_replacement(integral_part(number), rule, token)
-          end
+          generate_replacement(integral_part(number), rule, token)
+        end
+
+        # The plural form agrees with the integral part ("одна целая", "две целых").
+        def plural(number, rule, token)
+          token.render(integral_part(number))
         end
 
         def alternation(number, rule, token)
-          if is_fractional
-            fractional_alternation(number, rule, token)
-          else
-            default_alternation(number, rule, token)
-          end
+          default_alternation(number, rule, token)
         end
 
         protected
-
-        def fractional_alternation(number, rule, token)
-          if (number * fractional_rule(number).base_value) == 1
-            if !token.right.empty?
-              format(number, rule, token.right)
-            end
-          else
-            if !token.left.empty?
-              format(number, rule, token.left)
-            end
-          end
-
-          ""
-        end
 
         def default_alternation(number, rule, token)
           if number.is_a?(Integer)
@@ -230,9 +214,42 @@ module TwitterCldr
 
           ""
         end
+      end
 
-        def fractional_rule(number)
-          @fractional_rule ||= rule_set.rule_for(number, true)
+      # Formats a fraction (0 < number < 1) with a fraction rule set, whose rules are denominators
+      # ("100: << сотых"). The rule closest to the fraction is chosen, and its substitutions and
+      # plural forms use the numerator: 0.25 is 25 hundredths.
+      class FractionRuleSetFormatter < NormalRuleFormatter
+        def self.format(fraction, rule_set, rule_group, locale)
+          rule = rule_set.rule_for(fraction, true)
+          new(rule_set, rule_group, locale).format(fraction, rule)
+        end
+
+        # A doubled closing arrow ("<%set<<") keeps the leading zeros: 0.001 is "zero zero one"
+        # thousandths, as in ICU's NumeratorSubstitution.
+        def left_arrow(number, rule, token)
+          numerator = numerator(number, rule)
+          words = [generate_replacement(numerator, rule, token)]
+          words.unshift(generate_replacement(0, rule, token)) while token.length == 3 && (numerator *= 10) < rule.base_value
+          words.join(" ")
+        end
+
+        def plural(number, rule, token)
+          token.render(numerator(number, rule))
+        end
+
+        def alternation(number, rule, token)
+          if numerator(number, rule) == 1
+            token.right.empty? ? "" : format(number, rule, token.right)
+          else
+            token.left.empty? ? "" : format(number, rule, token.left)
+          end
+        end
+
+        private
+
+        def numerator(number, rule)
+          (number * rule.base_value).round
         end
       end
 

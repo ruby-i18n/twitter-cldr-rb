@@ -13,6 +13,7 @@
   - Include CLDR conformance test suite.
 * Run unit tests on pull requests, and on pushes to master only. (@dblock, #20)
 * Fix warnings under `ruby -w`, and remove a leftover `binding.irb` and `$debug` output. (@dblock, #18)
+* Spell out decimals with CLDR fraction rule sets (`две целых двадцать пять сотых`, `dwa przecinek dwadzieścia pięć`), and below one without a proper fraction rule; `>>>` digits have no spaces (`〇・〇五`). (@dblock, #19)
 
 #### Breaking
 

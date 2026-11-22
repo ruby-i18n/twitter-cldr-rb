@@ -175,9 +175,10 @@ module TwitterCldr
             rule
           elsif number < 0 && rule = negative_rule
             rule
-          elsif contains_fraction?(number) && number > 1 && rule = improper_fraction_rule
-            rule
           elsif contains_fraction?(number) && number > 0 && number < 1 && rule = proper_fraction_rule
+            rule
+          elsif contains_fraction?(number) && rule = improper_fraction_rule
+            # also used between 0 and 1 when there's no proper fraction rule, as in ICU
             rule
           else
             if rule = rule_for_value(number.abs)

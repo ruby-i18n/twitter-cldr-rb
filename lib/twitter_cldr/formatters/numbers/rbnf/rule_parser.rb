@@ -29,8 +29,17 @@ module TwitterCldr
 
         def left_arrow(list)
           contents = descriptor(current_token)
-          list << Substitution.new(:left_arrow, contents, 2)
+          sub = Substitution.new(:left_arrow, contents, 2)
           next_token(:left_arrow)
+
+          # handle <<< and <%set<< as ICU does, where the doubled closing arrow is part of the
+          # substitution (Polish fractions: "<%spellout-cardinal-masculine<<")
+          if current_token && current_token.type == :left_arrow
+            sub.length += 1
+            next_token(:left_arrow)
+          end
+
+          list << sub
           switch(list)
         end
 
